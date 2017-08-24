@@ -415,17 +415,6 @@
         "en": "media"
       },
       "definition": {
-        "en": ""
-      }
-    },
-    {
-      "type": "ActivityType",
-      "id": "http://adlnet.gov/expapi/activities/media",
-      "inScheme": "https://w3id.org/xapi/scorm",
-      "prefLabel": {
-        "en": "media"
-      },
-      "definition": {
         "en": "Media refers to text, audio, or video used to convey information. Media can be consumed (tracked: completed), but doesn’t have an interactive component that may result in a score, success, or failure."
       }
     },
@@ -477,6 +466,7 @@
       "type": "ActivityType",
       "id": "http://adlnet.gov/expapi/activities/profile",
       "inScheme": "https://w3id.org/xapi/scorm",
+      "exactMatch": ["https://w3id.org/xapi/profiles/ontology#Profile"],
       "prefLabel": {
         "en": "profile"
       },
