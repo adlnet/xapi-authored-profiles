@@ -421,7 +421,6 @@
     {
       "type": "ActivityType",
       "id": "http://adlnet.gov/expapi/activities/media",
-      "inScheme": "https://w3id.org/xapi/scorm",
       "prefLabel": {
         "en": "media"
       },
