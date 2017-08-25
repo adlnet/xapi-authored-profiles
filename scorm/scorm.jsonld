@@ -8,7 +8,7 @@
     "definition": {
       "en": "The SCORM profile includes Verbs, Activity Types and xAPI Document definitions used to represent SCORM learning experiences in xAPI."
     },
-    "conformsTo": " https://w3id.org/xapi/profiles#1.0",
+    "conformsTo": "https://w3id.org/xapi/profiles#1.0",
     "seeAlso": "https://adl.gitbooks.io/scorm-profile-xapi/content/",
     "versions": [
         {
