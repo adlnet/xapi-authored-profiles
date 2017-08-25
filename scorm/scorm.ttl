@@ -333,7 +333,7 @@
    skos:prefLabel "lesson"@en .
 
 <https://w3id.org/xapi/scorm> a <https://w3id.org/xapi/profiles/ontology#Profile>;
-   dc:conformsTo < https://w3id.org/xapi/profiles#1.0>;
+   dc:conformsTo <https://w3id.org/xapi/profiles#1.0>;
    schema:author [
      a schema:Organization;
      schema:name "Advanced Distributed Learning(ADL) Initiative"

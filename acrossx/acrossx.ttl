@@ -140,7 +140,7 @@
    skos:prefLabel "watched"@en .
 
 <https://w3id.org/xapi/acrossx> a <https://w3id.org/xapi/profiles/ontology#Profile>;
-   dc:conformsTo < https://w3id.org/xapi/profiles#1.0>;
+   dc:conformsTo <https://w3id.org/xapi/profiles#1.0>;
    schema:author [
      a <https://adlnet.github.io/xapi-authored-profiles/acrossx/Group>;
      schema:name "xAPI Chinese Community of Practice"
