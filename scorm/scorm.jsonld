@@ -1,6 +1,7 @@
 {
    "@context": "https://w3id.org/xapi/profiles/context",
     "id": "https://w3id.org/xapi/scorm",
+    "type": "Profile",
     "prefLabel": {
         "en": "SCORM Profile"
     },
