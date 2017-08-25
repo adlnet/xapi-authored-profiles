@@ -7,7 +7,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://w3id.org/xapi/cmi5> a <https://w3id.org/xapi/profiles/ontology#Profile>;
-   dc:conformsTo < https://w3id.org/xapi/profiles#1.0>;
+   dc:conformsTo <https://w3id.org/xapi/profiles#1.0>;
    schema:author [
      a schema:Organization;
      schema:name "cmi5 Working Group"
