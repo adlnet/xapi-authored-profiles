@@ -16,7 +16,7 @@
    skos:definition """This specification describes interoperable runtime communication between Learning Management Systems (LMS) and Assignable Units (AU).
 
 The runtime communication and behavior of all parts of the system are carefully described in the full specification, which can be found at https://github.com/AICC/CMI-5_Spec_Current/blob/quartz/cmi5_spec.md . This is a structured representation of cmi5 concepts, statement structure, and statement communications patterns that the additional rules in the full specification build upon and provide the definitive interpretation of."""@en;
-   skos:prefLabel "Experience API cmi5 Profile, Quartz release"@en;
+   skos:prefLabel "cmi5 Profile"@en;
    <https://w3id.org/xapi/profiles/ontology#concepts> <https://w3id.org/xapi/cmi5/result/extensions/reason>,
      <https://w3id.org/xapi/adl/verbs/satisfied>,
      <https://w3id.org/xapi/cmi5/context/extensions/launchmode>,
