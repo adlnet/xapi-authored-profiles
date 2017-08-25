@@ -2,7 +2,7 @@
    "@context": "https://w3id.org/xapi/profiles/context",
     "id": "https://w3id.org/xapi/cmi5",
     "type": "Profile",
-    "conformsTo": " https://w3id.org/xapi/profiles#1.0",
+    "conformsTo": "https://w3id.org/xapi/profiles#1.0",
     "prefLabel": {
         "en": "Experience API cmi5 Profile, Quartz release"
     },
