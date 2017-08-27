@@ -29,7 +29,7 @@
         "id": "http://id.tincanapi.com/verb/paused"
       } ],
       "definition": {
-        "en": "Indicates the actor paused the video being played at a specific point. Indicates that the actor temporary or permanently stopped experiencing the recorded media object. A paused statement must be sent before a terminated or abandoned statement if not already sent."
+        "en": "Indicates the actor paused the video being played at a specific point."
       },
       "prefLabel": {
         "en": "paused"
@@ -43,7 +43,7 @@
         "id": "http://activitystrea.ms/schema/1.0/play"
       } ],
       "definition": {
-        "en": "Indicates that the actor started experiencing the recorded media object. Used when the actor generally played a video or clicked the play button."
+        "en": "Indicates that the actor started experiencing the recorded media object."
       },
       "prefLabel": {
         "en": "played"
@@ -54,7 +54,7 @@
       "inScheme": "https://w3id.org/xapi/video",
       "type": "Verb",
       "definition": {
-        "en": "Indicates the actor changed the progress towards a specific point. Used in combination with time-from and time-to extensions when the Actor moves the progress bar forward or backward to a specific time in the video."
+        "en": "Indicates the actor changed the progress towards a specific point."
       },
       "prefLabel": {
         "en": "seeked"
@@ -101,7 +101,7 @@
       "inScheme": "https://w3id.org/xapi/video",
       "type": "ContextExtension",
       "definition": {
-        "en": "Used to expresses whether subtitle or closed captioning is enabled. Value is boolean as in true or false."
+        "en": "Used to expresses whether subtitle or closed captioning is enabled."
       },
       "prefLabel": {
         "en": "cc-subtitle-enabled"
@@ -113,7 +113,7 @@
       "inScheme": "https://w3id.org/xapi/video",
       "type": "ContextExtension",
       "definition": {
-        "en": "Used to express the language of subtitle or closed captioning. Used only when cc-subtitle-enabled is true. The lexical and value spaces of language are the set of language codes defined by RFC 1766."
+        "en": "Used to express the language of subtitle or closed captioning."
       },
       "prefLabel": {
         "en": "cc-subtitle-lang"
@@ -125,7 +125,7 @@
       "inScheme": "https://w3id.org/xapi/video",
       "type": "ContextExtension",
       "definition": {
-        "en": "Used to express the frame rate or frames per second of a video (or average rate of frames per second in the case of variable frame-rate). Represented as a ratio of time base over frame duration, such as 30000/1001 or as a decimal, such as 29.970."
+        "en": "Used to express the frame rate or frames per second of a video (or average rate of frames per second in the case of variable frame-rate)."
       },
       "prefLabel": {
         "en": "frame-rate"
@@ -137,7 +137,7 @@
       "inScheme": "https://w3id.org/xapi/video",
       "type": "ContextExtension",
       "definition": {
-        "en": "Used to expresses that the video is played in full screen mode. Value is boolean true or false."
+        "en": "Used to expresses that the video is played in full screen mode."
       },
       "prefLabel": {
         "en": "full-screen"
@@ -161,7 +161,7 @@
       "inScheme": "https://w3id.org/xapi/video",
       "type": "ContextExtension",
       "definition": {
-        "en": "Used to tell which session the statement is part of. A session starts with the initiated statement and ends with terminated or abandoned statement. Value of session id must match the UUID statement id of the initiated statement."
+        "en": "Used to provide the session identifier associated with the activity."
       },
       "prefLabel": {
         "en": "session-id"
@@ -173,7 +173,7 @@
       "inScheme": "https://w3id.org/xapi/video",
       "type": "ContextExtension",
       "definition": {
-        "en": "Used to express the device playback screen size or the maximum available screensize for Video playback. Value WxH in pixels (e.g., 1080x960, 640x480, 800x600)."
+        "en": "Used to express the device playback screen size or the maximum available screensize for Video playback."
       },
       "prefLabel": {
         "en": "screen-size"
@@ -185,7 +185,7 @@
       "inScheme": "https://w3id.org/xapi/video",
       "type": "ContextExtension",
       "definition": {
-        "en": "Used to express the play-back speed (e.g., 1x,2x,0,-1x,-2x). Float Value with an ‘x’ Negative = Rewind Positive = Fast Forward."
+        "en": "Used to express the play-back speed (e.g., 1x,2x,0,-1x,-2x)."
       },
       "prefLabel": {
         "en": "speed"
@@ -221,7 +221,7 @@
       "inScheme": "https://w3id.org/xapi/video",
       "type": "ContextExtension",
       "definition": {
-        "en": "Used to identify the loudness of sound specified for a media object. Volume Level (0 to 1). Float Value. Minimum 0 = Mute. Maximum 1 = 100% Volume."
+        "en": "Used to identify the loudness of sound specified for a media object."
       },
       "prefLabel": {
         "en": "volume"
@@ -233,7 +233,7 @@
       "inScheme": "https://w3id.org/xapi/video",
       "type": "ContextExtension",
       "definition": {
-        "en": "Used to identify the size in Width x Height of the video as viewed by the user. Value WxH in pixels (e.g., 1080x960, 640x480, 800x600)."
+        "en": "Used to identify the size in Width x Height of the video as viewed by the user."
       },
       "prefLabel": {
         "en": "video-playback-size"
@@ -257,7 +257,7 @@
       "inScheme": "https://w3id.org/xapi/video",
       "type": "ResultExtension",
       "definition": {
-        "en": "Used to expresses the percentage of media consumed by the actor. Value is a decimal between 0.0 and 1.0."
+        "en": "Used to expresses the percentage of media consumed by the actor."
       },
       "prefLabel": {
         "en": "progress"
@@ -269,7 +269,7 @@
       "inScheme": "https://w3id.org/xapi/video",
       "type": "ResultExtension",
       "definition": {
-        "en": "Used to express the time into the video. (e.g., “00000.000” in seconds and milliseconds). Float Value with maximum 3 decimals. Sent along with these verbs: Played, Paused, Terminated, Interacted, Completed (Required)."
+        "en": "Used to express the time into the video. (e.g., “00000.000” in seconds and milliseconds)."
       },
       "prefLabel": {
         "en": "time"
@@ -281,7 +281,7 @@
       "inScheme": "https://w3id.org/xapi/video",
       "type": "ResultExtension",
       "definition": {
-        "en": "Used to identify the point in time the actor changed from in a media object (eg: “200.000” in seconds and milliseconds). Float Value with maximum 3 decimals. Required to be used exclusively with the verb seeked."
+        "en": "Used to identify the point in time the actor changed from in a media object (eg: “200.000” in seconds and milliseconds)."
       },
       "prefLabel": {
         "en": "time-from"
@@ -293,7 +293,7 @@
       "inScheme": "https://w3id.org/xapi/video",
       "type": "ResultExtension",
       "definition": {
-        "en": "Used to identify the point in time the actor changed to in a media object (eg: “300.000” in seconds and milliseconds). Float Value with maximum 3 decimals. Required to be used exclusively with the verb seeked."
+        "en": "Used to identify the point in time the actor changed to in a media object (eg: “300.000” in seconds and milliseconds)."
       },
       "prefLabel": {
         "en": "time-to"
