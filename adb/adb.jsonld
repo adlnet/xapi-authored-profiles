@@ -11,8 +11,8 @@
   },
   "seeAlso": "https://standards.ieee.org/develop/indconn/adb/",
   "author": {
-    "type": "Group",
-    "name": "IEEE Industry Connections Actionable Data Book (ADB) Team"
+    "type": "Organization",
+    "name": "IEEE Industry Connections"
   },
   "versions": [
     {

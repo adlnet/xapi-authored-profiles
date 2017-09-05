@@ -98,8 +98,8 @@
 <https://w3id.org/xapi/adb> a <https://w3id.org/xapi/profiles/ontology#Profile>;
    dc:conformsTo <https://w3id.org/xapi/profiles#1.0>;
    schema:author [
-     a <https://adlnet.github.io/xapi-authored-profiles/Group>;
-     schema:name "IEEE Industry Connections Actionable Data Book (ADB) Team"
+     a schema:Organization;
+     schema:name "IEEE Industry Connections"
    ];
    rdfs:seeAlso <https://standards.ieee.org/develop/indconn/adb/>;
    skos:definition "The xAPI ABD profile is used to identify interactions between an actor and an eBook activity based on the IEEE ADB project."@en;
