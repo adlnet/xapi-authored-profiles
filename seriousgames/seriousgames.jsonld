@@ -11,7 +11,7 @@
 },
   "seeAlso": "https://github.com/e-ucm/xapi-seriousgames",
   "author": {
-    "type": "Group",
+    "type": "Organization",
     "name": "The RAGE project"
   },
   "versions": [

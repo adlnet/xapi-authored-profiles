@@ -9,10 +9,10 @@
   "definition": {
     "en": "The video profile of the xAPI was created to identify and standardize the common types of interactions that can be tracked in any video player."
   },
-  "seeAlso": "https://www.gitbook.com/book/liveaspankaj/xapi-video-profile",
+  "seeAlso": "https://github.com/liveaspankaj/xapi-video-cop",
   "author": {
-    "type": "Group",
-    "name": "xAPI Video Community of Practice"
+    "type": "Organization",
+    "name": "Advanced Distributed Learning(ADL) Initiative"
   },
   "versions": [
     {
@@ -505,7 +505,7 @@
           "sequence": ["https://w3id.org/xapi/video/templates#started", "https://w3id.org/xapi/video/patterns#optionalmiddlestatements"]
       },
       {
-          "@id": "https://w3id.org/xapi/video/patterns#all-activities-pattern",
+          "id": "https://w3id.org/xapi/video/patterns#all-activities-pattern",
           "alternates": ["https://w3id.org/xapi/video/templates#played", "https://w3id.org/xapi/video/templates#paused", "https://w3id.org/xapi/video/templates#seeked", "https://w3id.org/xapi/video/templates#volumechange", "https://w3id.org/xapi/video/templates#screenchange", "https://w3id.org/xapi/video/templates#completed"]
       },
       {

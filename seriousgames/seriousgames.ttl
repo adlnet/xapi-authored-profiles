@@ -9,7 +9,7 @@
 <https://w3id.org/xapi/seriousgames> a <https://w3id.org/xapi/profiles/ontology#Profile>;
    dc:conformsTo <https://w3id.org/xapi/profiles#1.0>;
    schema:author [
-     a <https://adlnet.github.io/xapi-authored-profiles/seriousgames/Group>;
+     a schema:Organization;
      schema:name "The RAGE project"
    ];
    rdfs:seeAlso <https://github.com/e-ucm/xapi-seriousgames>;
