@@ -558,6 +558,9 @@
             "prefLabel": {
                 "en": "general restrictions on statements"
             },
+            "definition": {
+              "en": "This is the general template that defines restrictions for all statements conforming to the SCORM profile."
+            },
             "rules": [
                 {
                     "location": "context.contextActivities.grouping[*].definition.type",
@@ -569,7 +572,7 @@
                 },
                 {
                     "location": "timestamp",
-                    "rule": "included"
+                    "presence": "included"
                 }
             ]
         },
@@ -578,6 +581,9 @@
             "type": "StatementTemplate",
             "prefLabel": {
                 "en": "initialization"
+            },
+            "definition": {
+              "en": "The statement template used for when initilizing communication with the LMS."
             },
             "verb": "http://adlnet.gov/expapi/verbs/initialized",
             "objectActivityType": "http://adlnet.gov/expapi/activities/lesson",
@@ -590,6 +596,9 @@
             "prefLabel": {
                 "en": "termination"
             },
+            "definition": {
+              "en": "The statement template used for when terminating communication with the LMS."
+            },
             "verb": "http://adlnet.gov/expapi/verbs/terminated",
             "objectActivityType": "http://adlnet.gov/expapi/activities/lesson",
             "rules": [
@@ -600,6 +609,9 @@
             "type": "StatementTemplate",
             "prefLabel": {
                 "en": "suspension"
+            },
+            "definition": {
+              "en": "The statement template used for when suspending the attempt on the lesson."
             },
             "verb": "http://adlnet.gov/expapi/verbs/suspended",
             "objectActivityType": "http://adlnet.gov/expapi/activities/lesson",
@@ -612,6 +624,9 @@
             "prefLabel": {
                 "en": "resumption"
             },
+            "definition": {
+              "en": "The statement template used for when resuming a suspended attempt."
+            },
             "verb": "http://adlnet.gov/expapi/verbs/resumed",
             "objectActivityType": "http://adlnet.gov/expapi/activities/lesson",
             "rules": [
@@ -623,6 +638,9 @@
             "prefLabel": {
                 "en": "SCO activity"
             },
+            "definition": {
+              "en": "The statement template used for any general lesson activity."
+            },
             "objectActivityType": "http://adlnet.gov/expapi/activities/lesson",
             "rules": [
             ]
@@ -631,14 +649,17 @@
             "id": "https://w3id.org/xapi/scorm#commenting",
             "type": "StatementTemplate",
             "prefLabel": {
-                "en": "commenting"
+              "en": "commenting"
+            },
+            "definition": {
+              "en": "The statement template used for making comments about the lesson."
             },
             "verb": "http://adlnet.gov/expapi/verbs/commented",
             "objectActivityType": "http://adlnet.gov/expapi/activities/lesson",
             "rules": [
                 {
                     "location": "result.response",
-                    "rule": "included"
+                    "presence": "included"
                 }
             ]
         },
@@ -646,7 +667,10 @@
             "id": "https://w3id.org/xapi/scorm#completing",
             "type": "StatementTemplate",
             "prefLabel": {
-                "en": "completing"
+              "en": "completing"
+            },
+            "definition": {
+              "en": "The statement template used for completing the lesson."
             },
             "verb": "http://adlnet.gov/expapi/verbs/completed",
             "objectActivityType": "http://adlnet.gov/expapi/activities/lesson",
@@ -657,7 +681,10 @@
             "id": "https://w3id.org/xapi/scorm#otheractivity",
             "type": "StatementTemplate",
             "prefLabel": {
-                "en": "other activity"
+              "en": "other activity"
+            },
+            "definition": {
+              "en": "The statement template used for other types of activities."
             },
             "contextParentActivityType": "http://adlnet.gov/expapi/activities/lesson",
             "rules": [
@@ -667,7 +694,10 @@
             "id": "https://w3id.org/xapi/scorm#interactionactivity",
             "type": "StatementTemplate",
             "prefLabel": {
-                "en": "interaction activity"
+              "en": "interaction activity"
+            },
+            "definition": {
+              "en": "The statement template used for cmi interaction activities."
             },
             "verb": "http://adlnet.gov/expapi/verbs/responded",
             "objectActivityType": "http://adlnet.gov/expapi/activities/cmi.interaction",
@@ -682,7 +712,7 @@
             "type": "Pattern",
             "primary": true,
             "prefLabel": {
-                "en": "General Pattern"
+                "en": "general pattern"
             },
             "definition": {
                 "en": "This pattern describes the overall sequence of statements sent over the course of an attempt"
@@ -691,21 +721,45 @@
         },
         {
             "id": "https://w3id.org/xapi/scorm#activitystatements",
+            "prefLabel": {
+              "en": "activity statements"
+            },
+            "definition": {
+              "en": "This pattern provides all of the alternate options for SCORM activity statements."
+            },
             "type": "Pattern",
             "alternates": ["https://w3id.org/xapi/scorm#scoactivity", "https://w3id.org/xapi/scorm#otheractivity", "https://w3id.org/xapi/scorm#commenting", "https://w3id.org/xapi/scorm#interactionactivity", "https://w3id.org/xapi/scorm#completing"]
         },
         {
             "id": "https://w3id.org/xapi/scorm#middlestatements",
+            "prefLabel": {
+              "en": "middle statements"
+            },
+            "definition": {
+              "en": "This pattern provides that zero or more activity statement patterns will be used."
+            },
             "type": "Pattern",
             "zeroOrMore": "https://w3id.org/xapi/scorm#activitystatements"
         },
         {
             "id": "https://w3id.org/xapi/scorm#suspendresume",
+            "prefLabel": {
+              "en": "suspend resume"
+            },
+            "definition": {
+              "en": "This pattern provides the sequence used for for suspending and resuming."
+            },
             "type": "Pattern",
             "sequence": ["https://w3id.org/xapi/scorm#suspension", "https://w3id.org/xapi/scorm#resumption", "https://w3id.org/xapi/scorm#middlestatements"]
         },
         {
             "id": "https://w3id.org/xapi/scorm#optionallycontinue",
+            "prefLabel": {
+              "en": "optionally continue"
+            },
+            "definition": {
+              "en": "This pattern provies an option for suspending and resuming."
+            },
             "type": "Pattern",
             "zeroOrMore": "https://w3id.org/xapi/scorm#suspendresume"
         }

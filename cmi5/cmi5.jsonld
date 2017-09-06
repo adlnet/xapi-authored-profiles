@@ -12,9 +12,9 @@
     "seeAlso": "https://github.com/AICC/CMI-5_Spec_Current/blob/quartz/cmi5_spec.md",
     "versions": [
         {
-            "id": "https://w3id.org/xapi/cmi5/v1.1",
+            "id": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
             "generatedAtTime": "2017-03-27T12:30:00-07:00",
-            "wasRevisionOf": ["https://w3id.org/xapi/cmi5/v1"]
+            "wasRevisionOf": ["https://w3id.org/xapi/cmi5"]
         }
     ],
     "author": {
@@ -22,6 +22,17 @@
         "name": "cmi5 Working Group"
     },
     "concepts": [
+      {
+        "@id": "https://w3id.org/xapi/adl/verbs/abandoned",
+        "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
+        "@type": "Verb",
+        "definition": {
+          "en": "Indicates that the AU session was abnormally terminated by a learner's action (or due to a system failure)."
+        },
+        "prefLabel": {
+          "en": "abandoned"
+        }
+      },
     {
       "@id": "https://w3id.org/xapi/adl/verbs/satisfied",
       "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
@@ -66,104 +77,103 @@
 			"en": "course"
 		}
 	},
-
-        {
-            "id": "https://w3id.org/xapi/cmi5/result/extensions/progress",
-            "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
-            "type": "ResultExtension",
-            "prefLabel": {
-                "en": "Progress"
-            },
-            "definition": {
-                "en": "An integer value between 0 and 100 (inclusive) indicating the completion of the AU as a percentage.\n\nThe AU may set this value in statements to indicate level of completion. The AU SHOULD NOT set a progress value in a Completed statement or if it has previously issued a Completed statement for the AU in the current registration."
-            },
-            "inlineSchema": "{ \"type\": \"number\", \"maximum\": 100, \"minimum\": 0, \"multipleOf\": 1.0 }"
-        },
-        {
-            "id": "https://w3id.org/xapi/cmi5/result/extensions/reason",
-            "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
-            "type": "ResultExtension",
-            "prefLabel": {
-                "en": "Reason"
-            },
-            "definition": {
-                "en": "Indicates the reason why an AU was 'waived' (marked complete by an alternative means)"
-            },
-            "inlineSchema": "{ \"type\": \"string\" }"
-        },
-        {
-            "id": "https://w3id.org/xapi/cmi5/context/extensions/sessionid",
-            "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
-            "type": "ContextExtension",
-            "prefLabel": {
-                "en": "Session ID"
-            },
-            "definition": {
-                "en": "A unique identifier for a single AU launch session based on actor and course registration."
-            },
-            "inlineSchema": "{ \"type\": \"string\" }"
-        },
-        {
-            "id": "https://w3id.org/xapi/cmi5/context/extensions/masteryscore",
-            "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
-            "type": "ContextExtension",
-            "prefLabel": {
-                "en": "Mastery Score"
-            },
-            "definition": {
-                "en": "'masteryScore' as provided in the LMS Launch Data for the AU plus registration used to determine the pass/fail result based on score"
-            },
-            "inlineSchema": "{ \"type\": \"number\",  \"maximum\": 1, \"minimum\": 0 }"
-        },
-        {
-            "id": "https://w3id.org/xapi/cmi5/context/extensions/launchmode",
-            "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
-            "type": "ContextExtension",
-            "prefLabel": {
-                "en": "Launch Mode"
-            },
-            "definition": {
-                "en": "Indicates what launch mode an AU was launched with by the LMS"
-            },
-            "inlineSchema": "{ \"enum\": [\"Normal\", \"Browse\", \"Review\"] }"
-        },
-        {
-            "id": "https://w3id.org/xapi/cmi5/context/extensions/launchurl",
-            "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
-            "type": "ContextExtension",
-            "prefLabel": {
-                "en": "Launch URL"
-            },
-            "definition": {
-                "en": "The URL used by the LMS to launch the AU"
-            },
-            "inlineSchema": "{ \"type\": \"string\", \"format\": \"uri\" }"
-        },
-        {
-            "id": "https://w3id.org/xapi/cmi5/context/extensions/launchparameters",
-            "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
-            "type": "ContextExtension",
-            "prefLabel": {
-                "en": "Launch Parameters"
-            },
-            "definition": {
-                "en": "'launchParameters' as provided in the LMS Launch Data for the AU plus registration"
-            },
-            "inlineSchema": "{ \"type\": \"string\" }"
-        },
-        {
-            "id": "https://w3id.org/xapi/cmi5/context/extensions/moveon",
-            "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
-            "type": "ContextExtension",
-            "prefLabel": {
-                "en": "Move On"
-            },
-            "definition": {
-                "en": "'moveOn' as provided in the LMS Launch Data for the AU plus registration"
-            },
-            "inlineSchema": "{ \"enum\": [\"Passed\", \"Completed\", \"CompletedAndPassed\", \"CompletedOrPassed\", \"NotApplicable\"] }"
-        }
-    ],
+  {
+      "id": "https://w3id.org/xapi/cmi5/result/extensions/progress",
+      "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
+      "type": "ResultExtension",
+      "prefLabel": {
+          "en": "Progress"
+      },
+      "definition": {
+          "en": "An integer value between 0 and 100 (inclusive) indicating the completion of the AU as a percentage.\n\nThe AU may set this value in statements to indicate level of completion. The AU SHOULD NOT set a progress value in a Completed statement or if it has previously issued a Completed statement for the AU in the current registration."
+      },
+      "inlineSchema": "{ \"type\": \"number\", \"maximum\": 100, \"minimum\": 0, \"multipleOf\": 1.0 }"
+  },
+  {
+      "id": "https://w3id.org/xapi/cmi5/result/extensions/reason",
+      "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
+      "type": "ResultExtension",
+      "prefLabel": {
+          "en": "Reason"
+      },
+      "definition": {
+          "en": "Indicates the reason why an AU was 'waived' (marked complete by an alternative means)"
+      },
+      "inlineSchema": "{ \"type\": \"string\" }"
+  },
+  {
+      "id": "https://w3id.org/xapi/cmi5/context/extensions/sessionid",
+      "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
+      "type": "ContextExtension",
+      "prefLabel": {
+          "en": "Session ID"
+      },
+      "definition": {
+          "en": "A unique identifier for a single AU launch session based on actor and course registration."
+      },
+      "inlineSchema": "{ \"type\": \"string\" }"
+  },
+  {
+      "id": "https://w3id.org/xapi/cmi5/context/extensions/masteryscore",
+      "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
+      "type": "ContextExtension",
+      "prefLabel": {
+          "en": "Mastery Score"
+      },
+      "definition": {
+          "en": "'masteryScore' as provided in the LMS Launch Data for the AU plus registration used to determine the pass/fail result based on score"
+      },
+      "inlineSchema": "{ \"type\": \"number\",  \"maximum\": 1, \"minimum\": 0 }"
+  },
+  {
+      "id": "https://w3id.org/xapi/cmi5/context/extensions/launchmode",
+      "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
+      "type": "ContextExtension",
+      "prefLabel": {
+          "en": "Launch Mode"
+      },
+      "definition": {
+          "en": "Indicates what launch mode an AU was launched with by the LMS"
+      },
+      "inlineSchema": "{ \"enum\": [\"Normal\", \"Browse\", \"Review\"] }"
+  },
+  {
+      "id": "https://w3id.org/xapi/cmi5/context/extensions/launchurl",
+      "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
+      "type": "ContextExtension",
+      "prefLabel": {
+          "en": "Launch URL"
+      },
+      "definition": {
+          "en": "The URL used by the LMS to launch the AU"
+      },
+      "inlineSchema": "{ \"type\": \"string\", \"format\": \"uri\" }"
+  },
+  {
+      "id": "https://w3id.org/xapi/cmi5/context/extensions/launchparameters",
+      "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
+      "type": "ContextExtension",
+      "prefLabel": {
+          "en": "Launch Parameters"
+      },
+      "definition": {
+          "en": "'launchParameters' as provided in the LMS Launch Data for the AU plus registration"
+      },
+      "inlineSchema": "{ \"type\": \"string\" }"
+  },
+  {
+      "id": "https://w3id.org/xapi/cmi5/context/extensions/moveon",
+      "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
+      "type": "ContextExtension",
+      "prefLabel": {
+          "en": "Move On"
+      },
+      "definition": {
+          "en": "'moveOn' as provided in the LMS Launch Data for the AU plus registration"
+      },
+      "inlineSchema": "{ \"enum\": [\"Passed\", \"Completed\", \"CompletedAndPassed\", \"CompletedOrPassed\", \"NotApplicable\"] }"
+  }
+],
     "templates": [
         {
             "id": "https://w3id.org/xapi/cmi5#generalrestrictions",
@@ -175,39 +185,42 @@
             "rules": [
                 {
                     "location": "$.id",
-                    "rule": "included"
+                    "presence": "included"
                 },
                 {
                     "location": "$.timestamp",
-                    "rule": "included"
+                    "presence": "included"
                 },
                 {
                     "location": "$.context.contextActivities.grouping[*]",
-                    "rule": "included",
+                    "presence": "included",
                     "scopeNote": "An Activity object with an 'id' property whose value is the unaltered value of the AU's id attribute from the course structure (See Section 13.1.4 AU Metadata – id) MUST be included in the 'grouping' context activities."
                 },
                 {
                     "location": "$.context.extensions['https://w3id.org/xapi/cmi5/context/extensions/sessionid']",
-                    "rule": "included"
+                    "presence": "included"
                 }
             ]
         }, {
             "id": "https://w3id.org/xapi/cmi5#launched",
             "type": "StatementTemplate",
+            "prefLabel": {
+                "en": "Launched"
+            },
             "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
             "verb": "http://adlnet.gov/expapi/verbs/launched",
             "rules": [
                 {
                     "location": "$.result.score",
-                    "rule": "excluded"
+                    "presence": "excluded"
                 },
                 {
                     "location": "$.result.success",
-                    "rule": "excluded"
+                    "presence": "excluded"
                 },
                 {
                     "location": "$.result.completion",
-                    "rule": "excluded"
+                    "presence": "excluded"
                 },
                 {
                     "location": "$.context.contextActivities.category[*].id",
@@ -215,41 +228,44 @@
                 },
                 {
                     "location": "$.context.extensions['https://w3id.org/xapi/cmi5/context/extensions/launchmode']",
-                    "rule": "included",
+                    "presence": "included",
                     "all": ["Normal", "Browse", "Review"]
                 },
                 {
                     "location": "$.context.extensions['https://w3id.org/xapi/cmi5/context/extensions/launchurl']",
-                    "rule": "included",
+                    "presence": "included",
                     "scopeNote": "The LMS MUST put a fully qualified URL equivalent to the one that the LMS used to launch the AU without the name/value pairs included as defined in section 8.1 in the context extensions of the 'Launched' statement."
                 },
                 {
                     "location": "$.context.extensions['https://w3id.org/xapi/cmi5/context/extensions/moveon']",
-                    "rule": "included",
+                    "presence": "included",
                     "all": ["Passed", "Completed", "CompletedAndPassed", "CompletedOrPassed", "NotApplicable"]
                 },
                 {
                     "location": "$.context.extensions['https://w3id.org/xapi/cmi5/context/extensions/launchparameters']",
-                    "rule": "included"
+                    "presence": "included"
                 }
             ]
         }, {
             "id": "https://w3id.org/xapi/cmi5#initialized",
             "type": "StatementTemplate",
+            "prefLabel": {
+                "en": "Initialized"
+            },
             "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
             "verb": "http://adlnet.gov/expapi/verbs/initialized",
             "rules": [
                 {
                     "location": "$.result.score",
-                    "rule": "excluded"
+                    "presence": "excluded"
                 },
                 {
                     "location": "$.result.success",
-                    "rule": "excluded"
+                    "presence": "excluded"
                 },
                 {
                     "location": "$.result.completion",
-                    "rule": "excluded"
+                    "presence": "excluded"
                 },
                 {
                     "location": "$.context.contextActivities.category[*].id",
@@ -259,114 +275,126 @@
         }, {
             "id": "https://w3id.org/xapi/cmi5#completed",
             "type": "StatementTemplate",
+            "prefLabel": {
+                "en": "Completed"
+            },
             "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
             "verb": "http://adlnet.gov/expapi/verbs/completed",
             "rules": [
                 {
                     "location": "$.result.score",
-                    "rule": "excluded"
+                    "presence": "excluded"
                 },
                 {
                     "location": "$.result.success",
-                    "rule": "excluded"
+                    "presence": "excluded"
                 },
                 {
                     "location": "$.result.completion",
-                    "rule": "included",
+                    "presence": "included",
                     "all": [true]
                 },
                 {
                     "location": "$.result.duration",
-                    "rule": "included",
+                    "presence": "included",
                     "scopeNote": "The AU SHOULD calculate duration as the time spent by the learner to achieve completion status."
                 },
                 {
                     "location": "$.context.contextActivities.category[*].id",
-                    "rule": "included",
+                    "presence": "included",
                     "any": "https://w3id.org/xapi/cmi5/context/categories/moveon"
                 }
             ]
         }, {
             "id": "https://w3id.org/xapi/cmi5#passed",
             "type": "StatementTemplate",
+            "prefLabel": {
+                "en": "Passed"
+            },
             "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
             "verb": "http://adlnet.gov/expapi/verbs/passed",
             "rules": [
                 {
                     "location": "$.result.score",
-                    "rule": "recommended"
+                    "presence": "recommended"
                 },
                 {
                     "location": "$.result.success",
-                    "rule": "included",
+                    "presence": "included",
                     "all": [true]
                 },
                 {
                     "location": "$.result.completion",
-                    "rule": "excluded"
+                    "presence": "excluded"
                 },
                 {
                     "location": "$.result.duration",
-                    "rule": "included",
+                    "presence": "included",
                     "scopeNote": "The AU SHOULD calculate duration as the time spent by the learner to attempt and succeed in a judged activity of the AU."
                 },
                 {
                     "location": "$.context.contextActivities.category[*].id",
-                    "rule": "included",
+                    "presence": "included",
                     "any": "https://w3id.org/xapi/cmi5/context/categories/moveon"
                 }
             ]
         }, {
             "id": "https://w3id.org/xapi/cmi5#failed",
             "type": "StatementTemplate",
+            "prefLabel": {
+                "en": "Failed"
+            },
             "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
             "verb": "http://adlnet.gov/expapi/verbs/failed",
             "rules": [
                 {
                     "location": "$.result.score",
-                    "rule": "recommended"
+                    "presence": "recommended"
                 },
                 {
                     "location": "$.result.success",
-                    "rule": "included",
+                    "presence": "included",
                     "all": [false]
                 },
                 {
                     "location": "$.result.completion",
-                    "rule": "excluded"
+                    "presence": "excluded"
                 },
                 {
                     "location": "$.result.duration",
-                    "rule": "included",
+                    "presence": "included",
                     "scopeNote": "The AU SHOULD calculate duration as the time spent by the learner to attempt and fail in a judged activity of the AU."
                 },
                 {
                     "location": "$.context.contextActivities.category[*].id",
-                    "rule": "included",
+                    "presence": "included",
                     "any": "https://w3id.org/xapi/cmi5/context/categories/moveon"
                 }
             ]
         }, {
             "id": "https://w3id.org/xapi/cmi5#abandoned",
             "type": "StatementTemplate",
+            "prefLabel": {
+                "en": "Abandoned"
+            },
             "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
             "verb": "https://w3id.org/xapi/adl/verbs/abandoned",
             "rules": [
                 {
                     "location": "$.result.score",
-                    "rule": "excluded"
+                    "presence": "excluded"
                 },
                 {
                     "location": "$.result.success",
-                    "rule": "excluded"
+                    "presence": "excluded"
                 },
                 {
                     "location": "$.result.completion",
-                    "rule": "excluded"
+                    "presence": "excluded"
                 },
                 {
                     "location": "$.result.duration",
-                    "rule": "included",
+                    "presence": "included",
                     "scopeNote": "The duration property MUST, at a minimum, be set as the total session time, calculated as the time between the 'Launched' statement and the last statement (of any kind) issued by the AU. The LMS SHOULD also use other (LMS specific) methods (if available) to determine if the total session time was longer."
                 },
                 {
@@ -377,54 +405,60 @@
         }, {
             "id": "https://w3id.org/xapi/cmi5#waived",
             "type": "StatementTemplate",
+            "prefLabel": {
+                "en": "Waived"
+            },
             "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
             "verb": "http://adlnet.gov/expapi/verbs/waived",
             "rules": [
                 {
                     "location": "$.result.score",
-                    "rule": "excluded"
+                    "presence": "excluded"
                 },
                 {
                     "location": "$.result.success",
-                    "rule": "included",
+                    "presence": "included",
                     "all": [true]
                 },
                 {
                     "location": "$.result.completion",
-                    "rule": "included",
+                    "presence": "included",
                     "all": [true]
                 },
                 {
                     "location": "$.result['https://w3id.org/xapi/cmi5/result/extensions/reason']",
-                    "rule": "included"
+                    "presence": "included"
                 },
                 {
                     "location": "$.context.contextActivities.category[*].id",
-                    "rule": "included",
+                    "presence": "included",
                     "any": "https://w3id.org/xapi/cmi5/context/categories/moveon"
                 }
             ]
         }, {
             "id": "https://w3id.org/xapi/cmi5#terminated",
             "type": "StatementTemplate",
+            "prefLabel": {
+                "en": "Terminated"
+            },
             "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
             "verb": "http://adlnet.gov/expapi/verbs/terminated",
             "rules": [
                 {
                     "location": "$.result.score",
-                    "rule": "excluded"
+                    "presence": "excluded"
                 },
                 {
                     "location": "$.result.success",
-                    "rule": "excluded"
+                    "presence": "excluded"
                 },
                 {
                     "location": "$.result.completion",
-                    "rule": "excluded"
+                    "presence": "excluded"
                 },
                 {
                     "location": "$.result.duration",
-                    "rule": "included",
+                    "presence": "included",
                     "scopeNote": "The AU SHOULD calculate duration for Terminated statements as the time difference between the 'Initialized' statement and the 'Terminated' statement. The AU may use other methods to calculate the duration based on criteria determined by the AU."
                 },
                 {
@@ -435,20 +469,23 @@
         }, {
             "id": "https://w3id.org/xapi/cmi5#satisfied",
             "type": "StatementTemplate",
+            "prefLabel": {
+                "en": "Satisfied"
+            },
             "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
             "verb": "http://adlnet.gov/expapi/verbs/satisfied",
             "rules": [
                 {
                     "location": "$.result.score",
-                    "rule": "excluded"
+                    "presence": "excluded"
                 },
                 {
                     "location": "$.result.success",
-                    "rule": "excluded"
+                    "presence": "excluded"
                 },
                 {
                     "location": "$.result.completion",
-                    "rule": "excluded"
+                    "presence": "excluded"
                 },
                 {
                     "location": "$.context.contextActivities.category[*].id",
@@ -456,7 +493,7 @@
                 },
                 {
                     "location": "$.object.definition.type",
-                    "rule": "included",
+                    "presence": "included",
                     "any": [
                         "https://w3id.org/xapi/cmi5/activitytype/block",
                         "https://w3id.org/xapi/cmi5/activitytype/course"
@@ -468,102 +505,153 @@
         {
             "id": "https://w3id.org/xapi/cmi5#satisfieds",
             "type": "Pattern",
+            "prefLabel": {
+                "en": "Satisfieds"
+            },
             "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
             "zeroOrMore": "https://w3id.org/xapi/cmi5#satisfied"
         },
         {
             "id": "https://w3id.org/xapi/cmi5#waivedsession",
             "type": "Pattern",
+            "prefLabel": {
+                "en": "Waived Session"
+            },
             "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
             "sequence": ["https://w3id.org/xapi/cmi5#satisfieds", "https://w3id.org/xapi/cmi5#waived", "https://w3id.org/xapi/cmi5#satisfieds"]
         },
         {
             "id": "https://w3id.org/xapi/cmi5#noresultsession",
             "type": "Pattern",
+            "prefLabel": {
+                "en": "No Result Session"
+            },
             "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
             "sequence": ["https://w3id.org/xapi/cmi5#launched", "https://w3id.org/xapi/cmi5#initialized", "https://w3id.org/xapi/cmi5#terminatedorabandoned"]
         },
         {
-            "id": "completionnosuccesssession",
+            "id": "https://w3id.org/xapi/cmi5#completionnosuccesssession",
             "type": "Pattern",
+            "prefLabel": {
+                "en": "Completion No Success Session"
+            },
             "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
             "sequence": ["https://w3id.org/xapi/cmi5#launched", "https://w3id.org/xapi/cmi5#initialized", "https://w3id.org/xapi/cmi5#completed", "https://w3id.org/xapi/cmi5#satisfieds", "https://w3id.org/xapi/cmi5#terminatedorabandoned"]
         },
         {
-            "id": "passedsession",
+            "id": "https://w3id.org/xapi/cmi5#passedsession",
             "type": "Pattern",
+            "prefLabel": {
+                "en": "Completed And Maybe Failed"
+            },
             "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
             "sequence": ["https://w3id.org/xapi/cmi5#launched", "https://w3id.org/xapi/cmi5#initialized", "https://w3id.org/xapi/cmi5#passed", "https://w3id.org/xapi/cmi5#satisfieds", "https://w3id.org/xapi/cmi5#terminatedorabandoned"]
         },
         {
             "id": "https://w3id.org/xapi/cmi5#completionpassedsession",
             "type": "Pattern",
+            "prefLabel": {
+                "en": "Completed And Passed Session"
+            },
             "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
             "sequence": ["https://w3id.org/xapi/cmi5#launched", "https://w3id.org/xapi/cmi5#initialized", "https://w3id.org/xapi/cmi5#completedandpassed", "https://w3id.org/xapi/cmi5#satisfieds", "https://w3id.org/xapi/cmi5#terminatedorabandoned"]
         },
         {
             "id": "https://w3id.org/xapi/cmi5#failedsession",
             "type": "Pattern",
+            "prefLabel": {
+                "en": "Failed Session"
+            },
             "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
             "sequence": ["https://w3id.org/xapi/cmi5#launched", "https://w3id.org/xapi/cmi5#initialized", "https://w3id.org/xapi/cmi5#failed", "https://w3id.org/xapi/cmi5#terminatedorabandoned"]
         },
         {
             "id": "https://w3id.org/xapi/cmi5#completionmaybefailedsession",
             "type": "Pattern",
+            "prefLabel": {
+                "en": "Completion Maybe Failed Session"
+            },
             "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
             "sequence": ["https://w3id.org/xapi/cmi5#launched", "https://w3id.org/xapi/cmi5#initialized", "https://w3id.org/xapi/cmi5#completedandmaybefailed", "https://w3id.org/xapi/cmi5#satisfieds", "https://w3id.org/xapi/cmi5#terminatedorabandoned"]
         },
         {
             "id": "https://w3id.org/xapi/cmi5#terminatedorabandoned",
             "type": "Pattern",
+            "prefLabel": {
+                "en": "Terminated Or Abandoned"
+            },
             "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
             "alternates": ["https://w3id.org/xapi/cmi5#terminated", "https://w3id.org/xapi/cmi5#abandoned"]
         },
         {
             "id": "https://w3id.org/xapi/cmi5#completedandpassed",
             "type": "Pattern",
+            "prefLabel": {
+                "en": "Completed And Passed"
+            },
             "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
             "alternates": ["https://w3id.org/xapi/cmi5#completedthenpassed", "https://w3id.org/xapi/cmi5#passedthencompleted"]
         },
         {
             "id": "https://w3id.org/xapi/cmi5#completedthenpassed",
             "type": "Pattern",
+            "prefLabel": {
+                "en": "Completed Then Passed"
+            },
             "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
             "sequence": ["https://w3id.org/xapi/cmi5#completed", "https://w3id.org/xapi/cmi5#satisfieds", "https://w3id.org/xapi/cmi5#passed"]
         },
         {
             "id": "https://w3id.org/xapi/cmi5#passedthencompleted",
             "type": "Pattern",
+            "prefLabel": {
+                "en": "Passed Then Completed"
+            },
             "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
             "sequence": ["https://w3id.org/xapi/cmi5#passed", "https://w3id.org/xapi/cmi5#satisfieds", "https://w3id.org/xapi/cmi5#completed"]
         },
         {
             "id": "https://w3id.org/xapi/cmi5#completedandmaybefailed",
             "type": "Pattern",
+            "prefLabel": {
+                "en": "Completed And Maybe Failed"
+            },
             "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
             "alternates": ["https://w3id.org/xapi/cmi5#maybecompletedthenfailed", "https://w3id.org/xapi/cmi5#failedthenmaybecompleted"]
         },
         {
             "id": "https://w3id.org/xapi/cmi5#maybecompletedthenfailed",
             "type": "Pattern",
+            "prefLabel": {
+                "en": "Maybe Completed Then Failed"
+            },
             "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
             "sequence": ["https://w3id.org/xapi/cmi5#maybecompleted", "https://w3id.org/xapi/cmi5#satisfieds", "https://w3id.org/xapi/cmi5#failed"]
         },
         {
             "id": "https://w3id.org/xapi/cmi5#failedthenmaybecompleted",
             "type": "Pattern",
+            "prefLabel": {
+                "en": "Failed Then Maybe Completed"
+            },
             "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
             "sequence": ["https://w3id.org/xapi/cmi5#failed", "https://w3id.org/xapi/cmi5#maybecompleted"]
         },
         {
             "id": "https://w3id.org/xapi/cmi5#maybecompleted",
             "type": "Pattern",
+            "prefLabel": {
+                "en": "Maybe Completed"
+            },
             "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
             "optional": "https://w3id.org/xapi/cmi5#completed"
         },
         {
             "id": "https://w3id.org/xapi/cmi5#typicalsession",
             "type": "Pattern",
+            "prefLabel": {
+                "en": "Typical Session"
+            },
             "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
             "alternates": [
                 "https://w3id.org/xapi/cmi5#completionmaybefailedsession",
@@ -578,6 +666,12 @@
         {
             "id": "https://w3id.org/xapi/cmi5#typicalsessions",
             "type": "Pattern",
+            "prefLabel": {
+                "en": "Typical Sessions"
+            },
+            "definition": {
+                "en": "This pattern provides an option to use zero or more of the alernates for the Typical Session pattern."
+            },
             "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
             "zeroOrMore": "https://w3id.org/xapi/cmi5#typicalsession"
         },
@@ -589,7 +683,7 @@
                 "en": "General Pattern"
             },
             "definition": {
-                "en": "This pattern describes the sequence of statements sent over the an entire course registration"
+                "en": "This pattern describes the sequence of statements sent over the an entire course registration."
             },
             "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
             "sequence": ["https://w3id.org/xapi/cmi5#satisfieds", "typicalsessions"]

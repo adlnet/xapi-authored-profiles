@@ -185,19 +185,23 @@
 
 <https://w3id.org/xapi/scorm#generalpattern> a <https://w3id.org/xapi/profiles/ontology#Pattern>;
    skos:definition "This pattern describes the overall sequence of statements sent over the course of an attempt"@en;
-   skos:prefLabel "General Pattern"@en;
+   skos:prefLabel "general pattern"@en;
    <https://w3id.org/xapi/profiles/ontology#primary> true;
    <https://w3id.org/xapi/profiles/ontology#sequence> (<https://w3id.org/xapi/scorm#initialization> <https://w3id.org/xapi/scorm#middlestatements> <https://w3id.org/xapi/scorm#optionallycontinue> <https://w3id.org/xapi/scorm#termination>) .
 
 <https://w3id.org/xapi/scorm#generalrestrictions> a <https://w3id.org/xapi/profiles/ontology#StatementTemplate>;
+   skos:definition "This is the general template that defines restrictions for all statements conforming to the SCORM profile."@en;
    skos:prefLabel "general restrictions on statements"@en;
    <https://w3id.org/xapi/profiles/ontology#rules> [
-     <https://w3id.org/xapi/profiles/ontology#any> "http://adlnet.gov/expapi/activities/course";
-     <https://w3id.org/xapi/profiles/ontology#location> "context.contextActivities.grouping[*].definition.type"
-   ],  [
      <https://w3id.org/xapi/profiles/ontology#any> "http://adlnet.gov/expapi/activities/attempt";
      <https://w3id.org/xapi/profiles/ontology#location> "context.contextActivities.grouping[*].definition.type"
-   ],  [ <https://w3id.org/xapi/profiles/ontology#location> "timestamp"] .
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "timestamp";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#any> "http://adlnet.gov/expapi/activities/course";
+     <https://w3id.org/xapi/profiles/ontology#location> "context.contextActivities.grouping[*].definition.type"
+   ] .
 
 <https://w3id.org/xapi/scorm/activity-profile> a <https://w3id.org/xapi/ontology#ActivityProfileResource>;
    skos:definition "Used to store document data associated with the activity and not intended to capture learning experience data in the form of a statement. The SCORM Activity Profile Object contains the profile data for the specified Activity."@en;
@@ -262,59 +266,77 @@
    skos:prefLabel "terminated"@en .
 
 <https://w3id.org/xapi/scorm#activitystatements> a <https://w3id.org/xapi/profiles/ontology#Pattern>;
-   <https://w3id.org/xapi/profiles/ontology#alternates> <https://w3id.org/xapi/scorm#commenting>,
+   skos:definition "This pattern provides all of the alternate options for SCORM activity statements."@en;
+   skos:prefLabel "activity statements"@en;
+   <https://w3id.org/xapi/profiles/ontology#alternates> <https://w3id.org/xapi/scorm#interactionactivity>,
+     <https://w3id.org/xapi/scorm#commenting>,
      <https://w3id.org/xapi/scorm#otheractivity>,
-     <https://w3id.org/xapi/scorm#completing>,
      <https://w3id.org/xapi/scorm#scoactivity>,
-     <https://w3id.org/xapi/scorm#interactionactivity> .
+     <https://w3id.org/xapi/scorm#completing> .
 
 <https://w3id.org/xapi/scorm#commenting> a <https://w3id.org/xapi/profiles/ontology#StatementTemplate>;
+   skos:definition "The statement template used for making comments about the lesson."@en;
    skos:prefLabel "commenting"@en;
    <https://w3id.org/xapi/profiles/ontology#objectActivityType> <http://adlnet.gov/expapi/activities/lesson>;
-   <https://w3id.org/xapi/profiles/ontology#rules> [ <https://w3id.org/xapi/profiles/ontology#location> "result.response"];
+   <https://w3id.org/xapi/profiles/ontology#rules> [
+     <https://w3id.org/xapi/profiles/ontology#location> "result.response";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ];
    <https://w3id.org/xapi/profiles/ontology#verb> <http://adlnet.gov/expapi/verbs/commented> .
 
 <https://w3id.org/xapi/scorm#completing> a <https://w3id.org/xapi/profiles/ontology#StatementTemplate>;
+   skos:definition "The statement template used for completing the lesson."@en;
    skos:prefLabel "completing"@en;
    <https://w3id.org/xapi/profiles/ontology#objectActivityType> <http://adlnet.gov/expapi/activities/lesson>;
    <https://w3id.org/xapi/profiles/ontology#verb> <http://adlnet.gov/expapi/verbs/completed> .
 
 <https://w3id.org/xapi/scorm#initialization> a <https://w3id.org/xapi/profiles/ontology#StatementTemplate>;
+   skos:definition "The statement template used for when initilizing communication with the LMS."@en;
    skos:prefLabel "initialization"@en;
    <https://w3id.org/xapi/profiles/ontology#objectActivityType> <http://adlnet.gov/expapi/activities/lesson>;
    <https://w3id.org/xapi/profiles/ontology#verb> <http://adlnet.gov/expapi/verbs/initialized> .
 
 <https://w3id.org/xapi/scorm#interactionactivity> a <https://w3id.org/xapi/profiles/ontology#StatementTemplate>;
+   skos:definition "The statement template used for cmi interaction activities."@en;
    skos:prefLabel "interaction activity"@en;
    <https://w3id.org/xapi/profiles/ontology#contextParentActivityType> <http://adlnet.gov/expapi/activities/lesson>;
    <https://w3id.org/xapi/profiles/ontology#objectActivityType> <http://adlnet.gov/expapi/activities/cmi.interaction>;
    <https://w3id.org/xapi/profiles/ontology#verb> <http://adlnet.gov/expapi/verbs/responded> .
 
 <https://w3id.org/xapi/scorm#optionallycontinue> a <https://w3id.org/xapi/profiles/ontology#Pattern>;
+   skos:definition "This pattern provies an option for suspending and resuming."@en;
+   skos:prefLabel "optionally continue"@en;
    <https://w3id.org/xapi/profiles/ontology#zeroOrMore> <https://w3id.org/xapi/scorm#suspendresume> .
 
 <https://w3id.org/xapi/scorm#otheractivity> a <https://w3id.org/xapi/profiles/ontology#StatementTemplate>;
+   skos:definition "The statement template used for other types of activities."@en;
    skos:prefLabel "other activity"@en;
    <https://w3id.org/xapi/profiles/ontology#contextParentActivityType> <http://adlnet.gov/expapi/activities/lesson> .
 
 <https://w3id.org/xapi/scorm#resumption> a <https://w3id.org/xapi/profiles/ontology#StatementTemplate>;
+   skos:definition "The statement template used for when resuming a suspended attempt."@en;
    skos:prefLabel "resumption"@en;
    <https://w3id.org/xapi/profiles/ontology#objectActivityType> <http://adlnet.gov/expapi/activities/lesson>;
    <https://w3id.org/xapi/profiles/ontology#verb> <http://adlnet.gov/expapi/verbs/resumed> .
 
 <https://w3id.org/xapi/scorm#scoactivity> a <https://w3id.org/xapi/profiles/ontology#StatementTemplate>;
+   skos:definition "The statement template used for any general lesson activity."@en;
    skos:prefLabel "SCO activity"@en;
    <https://w3id.org/xapi/profiles/ontology#objectActivityType> <http://adlnet.gov/expapi/activities/lesson> .
 
 <https://w3id.org/xapi/scorm#suspendresume> a <https://w3id.org/xapi/profiles/ontology#Pattern>;
+   skos:definition "This pattern provides the sequence used for for suspending and resuming."@en;
+   skos:prefLabel "suspend resume"@en;
    <https://w3id.org/xapi/profiles/ontology#sequence> (<https://w3id.org/xapi/scorm#suspension> <https://w3id.org/xapi/scorm#resumption> <https://w3id.org/xapi/scorm#middlestatements>) .
 
 <https://w3id.org/xapi/scorm#suspension> a <https://w3id.org/xapi/profiles/ontology#StatementTemplate>;
+   skos:definition "The statement template used for when suspending the attempt on the lesson."@en;
    skos:prefLabel "suspension"@en;
    <https://w3id.org/xapi/profiles/ontology#objectActivityType> <http://adlnet.gov/expapi/activities/lesson>;
    <https://w3id.org/xapi/profiles/ontology#verb> <http://adlnet.gov/expapi/verbs/suspended> .
 
 <https://w3id.org/xapi/scorm#termination> a <https://w3id.org/xapi/profiles/ontology#StatementTemplate>;
+   skos:definition "The statement template used for when terminating communication with the LMS."@en;
    skos:prefLabel "termination"@en;
    <https://w3id.org/xapi/profiles/ontology#objectActivityType> <http://adlnet.gov/expapi/activities/lesson>;
    <https://w3id.org/xapi/profiles/ontology#verb> <http://adlnet.gov/expapi/verbs/terminated> .
@@ -325,6 +347,8 @@
    skos:prefLabel "completed"@en .
 
 <https://w3id.org/xapi/scorm#middlestatements> a <https://w3id.org/xapi/profiles/ontology#Pattern>;
+   skos:definition "This pattern provides that zero or more activity statement patterns will be used."@en;
+   skos:prefLabel "middle statements"@en;
    <https://w3id.org/xapi/profiles/ontology#zeroOrMore> <https://w3id.org/xapi/scorm#activitystatements> .
 
 <http://adlnet.gov/expapi/activities/lesson> a <https://w3id.org/xapi/ontology#ActivityType>;
@@ -341,66 +365,66 @@
    rdfs:seeAlso <https://adl.gitbooks.io/scorm-profile-xapi/content/>;
    skos:definition "The SCORM profile includes Verbs, Activity Types and xAPI Document definitions used to represent SCORM learning experiences in xAPI."@en;
    skos:prefLabel "SCORM Profile"@en;
-   <https://w3id.org/xapi/profiles/ontology#concepts> <http://adlnet.gov/expapi/verbs/launched>,
-     <http://adlnet.gov/expapi/verbs/scored>,
-     <http://adlnet.gov/expapi/activities/link>,
-     <https://w3id.org/xapi/adl/verbs/logged-in>,
+   <https://w3id.org/xapi/profiles/ontology#concepts> <http://adlnet.gov/expapi/verbs/voided>,
+     <http://adlnet.gov/expapi/activities/interaction>,
      <http://adlnet.gov/expapi/verbs/commented>,
-     <http://adlnet.gov/expapi/verbs/preferred>,
-     <http://adlnet.gov/expapi/verbs/attempted>,
-     <http://adlnet.gov/expapi/verbs/initialized>,
-     <http://adlnet.gov/expapi/verbs/passed>,
+     <http://adlnet.gov/expapi/verbs/attended>,
+     <http://adlnet.gov/expapi/activities/lesson>,
+     <http://adlnet.gov/expapi/verbs/launched>,
+     <http://adlnet.gov/expapi/verbs/exited>,
+     <http://adlnet.gov/expapi/verbs/failed>,
      <http://adlnet.gov/expapi/verbs/cmi.interacted>,
-     <https://w3id.org/xapi/adl/verbs/logged-out>,
-     <http://adlnet.gov/expapi/verbs/terminated>,
+     <http://adlnet.gov/expapi/verbs/preferred>,
+     <http://adlnet.gov/expapi/verbs/suspended>,
      <http://adlnet.gov/expapi/verbs/registered>,
-     <http://adlnet.gov/expapi/activities/course>,
-     <http://adlnet.gov/expapi/verbs/mastered>,
      <http://adlnet.gov/expapi/verbs/experienced>,
-     <http://adlnet.gov/expapi/verbs/interacted>,
-     <http://adlnet.gov/expapi/activities/module>,
-     <http://adlnet.gov/expapi/verbs/resumed>,
-     <http://adlnet.gov/expapi/activities/meeting>,
      <http://adlnet.gov/expapi/verbs/answered>,
      <http://adlnet.gov/expapi/verbs/asked>,
-     <http://adlnet.gov/expapi/activities/simulation>,
-     <http://adlnet.gov/expapi/verbs/suspended>,
-     <http://adlnet.gov/expapi/activities/media>,
-     <http://adlnet.gov/expapi/verbs/attended>,
-     <http://adlnet.gov/expapi/verbs/failed>,
-     <http://adlnet.gov/expapi/verbs/exited>,
-     <http://adlnet.gov/expapi/activities/file>,
-     <http://adlnet.gov/expapi/verbs/completed>,
-     <http://adlnet.gov/expapi/activities/lesson>,
+     <http://adlnet.gov/expapi/verbs/interacted>,
+     <http://adlnet.gov/expapi/activities/meeting>,
+     <https://w3id.org/xapi/adl/verbs/logged-out>,
+     <http://adlnet.gov/expapi/verbs/shared>,
+     <http://adlnet.gov/expapi/activities/module>,
+     <http://adlnet.gov/expapi/verbs/attempted>,
+     <http://adlnet.gov/expapi/verbs/terminated>,
+     <http://adlnet.gov/expapi/verbs/passed>,
+     <http://adlnet.gov/expapi/verbs/progressed>,
+     <http://adlnet.gov/expapi/activities/assessment>,
+     <https://w3id.org/xapi/scorm/agent-profile>,
+     <https://w3id.org/xapi/adl/verbs/logged-in>,
+     <http://adlnet.gov/expapi/activities/attempt>,
+     <http://adlnet.gov/expapi/verbs/resumed>,
      <https://w3id.org/xapi/scorm/activity-state>,
      <http://adlnet.gov/expapi/activities/performance>,
-     <http://adlnet.gov/expapi/verbs/responded>,
-     <http://adlnet.gov/expapi/activities/attempt>,
-     <https://w3id.org/xapi/scorm/activity-profile>,
-     <http://adlnet.gov/expapi/activities/objective>,
-     <https://w3id.org/xapi/scorm/agent-profile>,
-     <http://adlnet.gov/expapi/verbs/progressed>,
-     <http://adlnet.gov/expapi/verbs/shared>,
-     <http://adlnet.gov/expapi/activities/profile>,
-     <http://adlnet.gov/expapi/activities/assessment>,
-     <http://adlnet.gov/expapi/activities/interaction>,
      <https://w3id.org/xapi/scorm/attempt-state>,
-     <http://adlnet.gov/expapi/verbs/voided>,
+     <http://adlnet.gov/expapi/activities/course>,
+     <http://adlnet.gov/expapi/verbs/mastered>,
+     <http://adlnet.gov/expapi/verbs/scored>,
+     <http://adlnet.gov/expapi/activities/link>,
+     <http://adlnet.gov/expapi/activities/media>,
+     <http://adlnet.gov/expapi/activities/question>,
+     <https://w3id.org/xapi/scorm/activity-profile>,
      <http://adlnet.gov/expapi/verbs/imported>,
-     <http://adlnet.gov/expapi/activities/question>;
-   <https://w3id.org/xapi/profiles/ontology#patterns> <https://w3id.org/xapi/scorm#middlestatements>,
+     <http://adlnet.gov/expapi/verbs/initialized>,
+     <http://adlnet.gov/expapi/verbs/completed>,
+     <http://adlnet.gov/expapi/activities/profile>,
+     <http://adlnet.gov/expapi/activities/file>,
+     <http://adlnet.gov/expapi/activities/simulation>,
+     <http://adlnet.gov/expapi/verbs/responded>,
+     <http://adlnet.gov/expapi/activities/objective>;
+   <https://w3id.org/xapi/profiles/ontology#patterns> <https://w3id.org/xapi/scorm#generalpattern>,
      <https://w3id.org/xapi/scorm#activitystatements>,
-     <https://w3id.org/xapi/scorm#suspendresume>,
+     <https://w3id.org/xapi/scorm#middlestatements>,
      <https://w3id.org/xapi/scorm#optionallycontinue>,
-     <https://w3id.org/xapi/scorm#generalpattern>;
-   <https://w3id.org/xapi/profiles/ontology#templates> <https://w3id.org/xapi/scorm#commenting>,
-     <https://w3id.org/xapi/scorm#resumption>,
-     <https://w3id.org/xapi/scorm#termination>,
-     <https://w3id.org/xapi/scorm#initialization>,
-     <https://w3id.org/xapi/scorm#generalrestrictions>,
-     <https://w3id.org/xapi/scorm#otheractivity>,
+     <https://w3id.org/xapi/scorm#suspendresume>;
+   <https://w3id.org/xapi/profiles/ontology#templates> <https://w3id.org/xapi/scorm#generalrestrictions>,
      <https://w3id.org/xapi/scorm#suspension>,
-     <https://w3id.org/xapi/scorm#completing>,
+     <https://w3id.org/xapi/scorm#initialization>,
+     <https://w3id.org/xapi/scorm#commenting>,
+     <https://w3id.org/xapi/scorm#otheractivity>,
      <https://w3id.org/xapi/scorm#scoactivity>,
-     <https://w3id.org/xapi/scorm#interactionactivity>;
+     <https://w3id.org/xapi/scorm#termination>,
+     <https://w3id.org/xapi/scorm#resumption>,
+     <https://w3id.org/xapi/scorm#interactionactivity>,
+     <https://w3id.org/xapi/scorm#completing>;
    <https://w3id.org/xapi/profiles/ontology#versions> <https://w3id.org/xapi/scorm/v1.1> .

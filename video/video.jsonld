@@ -306,20 +306,23 @@
       "id": "https://w3id.org/xapi/video/templates#generalrestrictions",
       "inScheme": "https://w3id.org/xapi/video",
       "prefLabel": {
-        "en": "Restrictions for all Video Profile Statements"
+        "en": "General Restrictions"
+      },
+      "definition": {
+        "en": "The general rules required for inclusion in all Video Profile Statements."
       },
       "rules": [
         {
           "location": "$.id",
-          "rule": "included"
+          "presence": "included"
         },
         {
           "location": "$.timestamp",
-          "rule": "included"
+          "presence": "included"
         },
         {
           "location": "$.context.extensions['https://w3id.org/xapi/video/extensions/session-id']",
-          "rule": "included"
+          "presence": "included"
         }
       ]
     },
@@ -327,41 +330,44 @@
       "id": "https://w3id.org/xapi/video/templates#started",
       "inScheme": "https://w3id.org/xapi/video",
       "prefLabel": {
-        "en": "Started Statement Template for Video Profile."
+        "en": "Started"
+      },
+      "definition": {
+        "en": "The statement template and rules associated with a video being started."
       },
       "verb": "https://w3id.org/xapi/video/started",
       "rules": [
         {
           "location": "$.context.extensions['https://w3id.org/xapi/video/extensions/volume']",
-          "rule": "recommended"
+          "presence": "recommended"
         },
         {
           "location": "$.context.extensions['https://w3id.org/xapi/video/extensions/video-playback-size']",
-          "rule": "recommended"
+          "presence": "recommended"
         },
         {
           "location": "$.context.extensions['https://w3id.org/xapi/video/extensions/user-agent']",
-          "rule": "recommended"
+          "presence": "recommended"
         },
         {
           "location": "$.context.extensions['https://w3id.org/xapi/video/extensions/cc-enabled']",
-          "rule": "recommended"
+          "presence": "recommended"
         },
         {
           "location": "$.context.extensions['https://w3id.org/xapi/video/extensions/cc-subtitle-lang']",
-          "rule": "recommended"
+          "presence": "recommended"
         },
         {
           "location": "$.context.extensions['https://w3id.org/xapi/video/extensions/screen-size']",
-          "rule": "recommended"
+          "presence": "recommended"
         },
         {
           "location": "$.context.extensions['https://w3id.org/xapi/video/extensions/speed']",
-          "rule": "recommended"
+          "presence": "recommended"
         },
         {
           "location": "$.context.extensions['https://w3id.org/xapi/video/extensions/full-screen']",
-          "rule": "recommended"
+          "presence": "recommended"
         }
       ]
     },
@@ -369,18 +375,21 @@
       "id": "https://w3id.org/xapi/video/templates#played",
       "inScheme": "https://w3id.org/xapi/video",
       "prefLabel": {
-        "en": "Played Statement Template for Video Profile."
+        "en": "Played"
+      },
+      "definition": {
+        "en": "The statement template and rules associated with a video being played."
       },
       "verb": "https://w3id.org/xapi/video/verbs/played",
       "objectActivityType": "https://w3id.org/xapi/video/activity-type/video",
       "rules": [
         {
           "location": "$.result.extensions['https://w3id.org/xapi/video/extensions/time']",
-          "rule": "included"
+          "presence": "included"
         },
         {
           "location": "$.result.extensions['https://w3id.org/xapi/video/extensions/played-segments']",
-          "rule": "recommended"
+          "presence": "recommended"
         }
       ]
     },
@@ -388,22 +397,25 @@
       "id": "https://w3id.org/xapi/video/templates#paused",
       "inScheme": "https://w3id.org/xapi/video",
       "prefLabel": {
-        "en": "Paused Statement Template for Video Profile."
+        "en": "Paused"
+      },
+      "definition": {
+        "en": "The statement template and rules associated with a video being paused."
       },
       "verb": "https://w3id.org/xapi/video/verbs/paused",
       "objectActivityType": "https://w3id.org/xapi/video/activity-type/video",
       "rules": [
         {
           "location": "$.result.extensions['https://w3id.org/xapi/video/extensions/time']",
-          "rule": "included"
+          "presence": "included"
         },
         {
           "location": "$.result.extensions['https://w3id.org/xapi/video/extensions/played-segments']",
-          "rule": "recommended"
+          "presence": "recommended"
         },
         {
           "location": "$.result.extensions['https://w3id.org/xapi/video/extensions/progress']",
-          "rule": "recommended"
+          "presence": "recommended"
         }
       ]
     },
@@ -411,18 +423,21 @@
       "id": "https://w3id.org/xapi/video/templates#seeked",
       "inScheme": "https://w3id.org/xapi/video",
       "prefLabel": {
-        "en": "Seeked Statement Template for Video Profile."
+        "en": "Seeked"
+      },
+      "definition": {
+        "en": "The statement template and rules associated with a video seekbar being moved from and to a specific position in the video."
       },
       "verb": "https://w3id.org/xapi/video/verbs/seeked",
       "objectActivityType": "https://w3id.org/xapi/video/activity-type/video",
       "rules": [
         {
           "location": "$.result.extensions['https://w3id.org/xapi/video/extensions/time-to']",
-          "rule": "included"
+          "presence": "included"
         },
         {
           "location": "$.result.extensions['https://w3id.org/xapi/video/extensions/time-from']",
-          "rule": "included"
+          "presence": "included"
         }
       ]
     },
@@ -430,18 +445,21 @@
       "id": "https://w3id.org/xapi/video/templates#completed",
       "inScheme": "https://w3id.org/xapi/video",
       "prefLabel": {
-        "en": "Completed Statement Template for Video Profile."
+        "en": "Completed"
+      },
+      "definition": {
+        "en": "The statement template and rules associated with a video being completed."
       },
       "verb": "https://w3id.org/xapi/video/verbs/completed",
       "objectActivityType": "https://w3id.org/xapi/video/activity-type/video",
       "rules": [
         {
           "location": "$.result.extensions['https://w3id.org/xapi/video/extensions/time']",
-          "rule": "included"
+          "presence": "included"
         },
         {
           "location": "$.result.extensions['https://w3id.org/xapi/video/extensions/progress']",
-          "rule": "included"
+          "presence": "included"
         }
       ]
     },
@@ -449,18 +467,18 @@
       "id": "https://w3id.org/xapi/video/templates#volumechange",
       "inScheme": "https://w3id.org/xapi/video",
       "prefLabel": {
-        "en": "Volume Change Statement Template for Video Profile."
+        "en": "Volume Change Interaction"
       },
       "verb": "http://adlnet.gov/expapi/verbs/interacted",
       "objectActivityType": "https://w3id.org/xapi/video/activity-type/video",
       "rules": [
         {
           "location": "$.result.extensions['https://w3id.org/xapi/video/extensions/time']",
-          "rule": "included"
+          "presence": "included"
         },
         {
           "location": "$.context.extensions['https://w3id.org/xapi/video/extensions/volume']",
-          "rule": "included"
+          "presence": "included"
         }
       ]
     },
@@ -468,26 +486,26 @@
       "id": "https://w3id.org/xapi/video/templates#screenchange",
       "inScheme": "https://w3id.org/xapi/video",
       "prefLabel": {
-        "en": "Screen Change Statement Template for Video Profile."
+        "en": "Screen Change Interaction"
       },
       "verb": "http://adlnet.gov/expapi/verbs/interacted",
       "objectActivityType": "https://w3id.org/xapi/video/activity-type/video",
       "rules": [
         {
           "location": "$.result.extensions['https://w3id.org/xapi/video/extensions/time']",
-          "rule": "included"
+          "presence": "included"
         },
         {
           "location": "$.context.extensions['https://w3id.org/xapi/video/extensions/full-screen']",
-          "rule": "included"
+          "presence": "included"
         },
         {
           "location": "$.context.extensions['https://w3id.org/xapi/video/extensions/screen-size']",
-          "rule": "included"
+          "presence": "included"
         },
         {
           "location": "$.context.extensions['https://w3id.org/xapi/video/extensions/video-playback-size']",
-          "rule": "included"
+          "presence": "included"
         }
       ]
     }
@@ -496,20 +514,32 @@
       {
          "id": "https://w3id.org/xapi/video/patterns#generalpattern",
          "primary": true,
-          "name": {
-              "en": "General Pattern"
-          },
+         "prefLabel": {
+           "en": "General Pattern and Sequence"
+         },
           "definition": {
-              "en": "This pattern describes the overall sequence of statements sent over the course of an attempt"
+              "en": "The general pattern and sequence of Statement templates using the Video Profile."
           },
           "sequence": ["https://w3id.org/xapi/video/templates#started", "https://w3id.org/xapi/video/patterns#optionalmiddlestatements"]
       },
       {
           "id": "https://w3id.org/xapi/video/patterns#all-activities-pattern",
+          "prefLabel": {
+            "en": "All Activities Pattern"
+          },
+           "definition": {
+               "en": "All of the Video Profile templates."
+           },
           "alternates": ["https://w3id.org/xapi/video/templates#played", "https://w3id.org/xapi/video/templates#paused", "https://w3id.org/xapi/video/templates#seeked", "https://w3id.org/xapi/video/templates#volumechange", "https://w3id.org/xapi/video/templates#screenchange", "https://w3id.org/xapi/video/templates#completed"]
       },
       {
           "id": "https://w3id.org/xapi/video/patterns#optionalmiddlestatements",
+          "prefLabel": {
+            "en": "Optional Middle Statements"
+          },
+           "definition": {
+               "en": "A combined pattern of zero or more Video Profile templates that can be used after the primary pattern."
+           },
           "type": "Pattern",
 			    "zeroOrMore": "https://w3id.org/xapi/video/patterns#all-activities-pattern"
 
