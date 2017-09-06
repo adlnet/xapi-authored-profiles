@@ -450,7 +450,7 @@
       "definition": {
         "en": "The statement template and rules associated with a video being completed."
       },
-      "verb": "https://w3id.org/xapi/video/verbs/completed",
+      "verb": "http://adlnet.gov/expapi/verbs/completed",
       "objectActivityType": "https://w3id.org/xapi/video/activity-type/video",
       "rules": [
         {
