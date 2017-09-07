@@ -6,9 +6,7 @@
   "prefLabel": {
   	"en": "AcrossX Profile"
   },
-  "seeAlso": "http://xapi-cop.net/zh/",
-  "seeAlso": "http://xapi-cop.net/vocab/zh-tw/",
-  "seeAlso": "http://xapi-cop.net/vocab/zh-cn/",
+  "seeAlso": "http://xapi-cop.net/",
   "author": {
     "type": "Organization",
     "name": "xAPI Chinese Community of Practice"
