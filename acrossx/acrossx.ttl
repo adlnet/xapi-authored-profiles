@@ -150,7 +150,7 @@
      a schema:Organization;
      schema:name "xAPI Chinese Community of Practice"
    ];
-   rdfs:seeAlso <http://xapi-cop.net/vocab/zh-cn/>;
+   rdfs:seeAlso <http://xapi-cop.net>;
    skos:prefLabel "AcrossX Profile"@en;
    <https://w3id.org/xapi/profiles/ontology#concepts> <https://w3id.org/xapi/acrossx/activities/video>,
      <https://w3id.org/xapi/acrossx/activities/collaboration>,
