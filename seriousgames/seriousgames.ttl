@@ -5,12 +5,13 @@
 @prefix schema: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix schemaorg: <http://schema.org> .
 
 <https://w3id.org/xapi/seriousgames> a <https://w3id.org/xapi/profiles/ontology#Profile>;
    dc:conformsTo <https://w3id.org/xapi/profiles#1.0>;
-   schema:author [
-     a schema:Organization;
-     schema:name "The RAGE project"
+   schemaorg:author [
+     a schemaorg:Organization;
+     schemaorg:name "The RAGE project"
    ];
    rdfs:seeAlso <https://github.com/e-ucm/xapi-seriousgames>;
    skos:definition "The serous games profile of the xAPI was created to identify and standardize the common interactions that can be tracked in a serious game. This profile was designed as part of the RAGE project."@en;

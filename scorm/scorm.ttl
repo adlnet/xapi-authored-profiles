@@ -5,6 +5,7 @@
 @prefix schema: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix schemaorg: <http://schema.org> .
 
 <http://adlnet.gov/expapi/activities/assessment> a <https://w3id.org/xapi/ontology#ActivityType>;
    skos:definition "An assessment is an activity type that determines a learner’s mastery of a particular subject area. An assessment typically has one or more questions."@en;
@@ -358,9 +359,9 @@
 
 <https://w3id.org/xapi/scorm> a <https://w3id.org/xapi/profiles/ontology#Profile>;
    dc:conformsTo <https://w3id.org/xapi/profiles#1.0>;
-   schema:author [
-     a schema:Organization;
-     schema:name "Advanced Distributed Learning(ADL) Initiative"
+   schemaorg:author [
+     a schemaorg:Organization;
+     schemaorg:name "Advanced Distributed Learning(ADL) Initiative"
    ];
    rdfs:seeAlso <https://adl.gitbooks.io/scorm-profile-xapi/content/>;
    skos:definition "The SCORM profile includes Verbs, Activity Types and xAPI Document definitions used to represent SCORM learning experiences in xAPI."@en;
