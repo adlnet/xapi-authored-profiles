@@ -5,7 +5,6 @@
 @prefix schema: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix schemaorg: <http://schema.org> .
 
 <https://w3id.org/xapi/adb/v1.1> prov:generatedAtTime "2017-06-30T8:26:00Z"^^xsd:dateTime;
    prov:wasRevisionOf <https://w3id.org/xapi/adb/v1> .
@@ -98,9 +97,9 @@
 
 <https://w3id.org/xapi/adb> a <https://w3id.org/xapi/profiles/ontology#Profile>;
    dc:conformsTo <https://w3id.org/xapi/profiles#1.0>;
-   schemaorg:author [
-     a schemaorg:Organization;
-     schemaorg:name "IEEE Industry Connections"
+   schema:author [
+     a schema:Organization;
+     schema:name "IEEE Industry Connections"
    ];
    rdfs:seeAlso <https://standards.ieee.org/develop/indconn/adb/>;
    skos:definition "The xAPI ABD profile is used to identify interactions between an actor and an eBook activity based on the IEEE ADB project."@en;

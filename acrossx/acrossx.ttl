@@ -5,7 +5,6 @@
 @prefix schema: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix schemaorg: <http://schema.org> .
 
 <https://w3id.org/xapi/acrossx/activities/collaboration> a <https://w3id.org/xapi/ontology#ActivityType>;
    skos:definition "The activity involving multiple actors working together on an assignment, a project, a problem-solving challenge or a cause."@en;
@@ -147,9 +146,9 @@
 
 <https://w3id.org/xapi/acrossx> a <https://w3id.org/xapi/profiles/ontology#Profile>;
    dc:conformsTo <https://w3id.org/xapi/profiles#1.0>;
-   schemaorg:author [
-     a schemaorg:Organization;
-     schemaorg:name "xAPI Chinese Community of Practice"
+   schema:author [
+     a schema:Organization;
+     schema:name "xAPI Chinese Community of Practice"
    ];
    rdfs:seeAlso <http://xapi-cop.net/vocab/zh-cn/>;
    skos:prefLabel "AcrossX Profile"@en;
