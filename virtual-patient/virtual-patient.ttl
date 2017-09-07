@@ -5,7 +5,6 @@
 @prefix schema: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix schemaorg: <http://schema.org> .
 
 <https://w3id.org/xapi/medbiq/verbs/ignored> a <https://w3id.org/xapi/ontology#Verb>;
    skos:definition "Indicates the actor did not acknowledge an object or activity. User has ignored a flag or other simulation data. This is a flag or action sent by either an instructor or the simulation software to indicate that an action was expected by this point in time and had not occurred. Sometimes this is a good thing, and while absent, is not necessarily a negative aspect - for example, if there is a distractor in place that the actor is supposed to ignore as irrelevant."@en;
@@ -22,9 +21,9 @@
 
 <https://w3id.org/xapi/virtual-patient> a <https://w3id.org/xapi/profiles/ontology#Profile>;
    dc:conformsTo <https://w3id.org/xapi/profiles#1.0>;
-   schemaorg:author [
-     a schemaorg:Organization;
-     schemaorg:name "MedBiquitous Learning Experience Working Group"
+   schema:author [
+     a schema:Organization;
+     schema:name "MedBiquitous Learning Experience Working Group"
    ];
    rdfs:seeAlso <http://groups.medbiq.org/medbiq/display/XIG/Learning+Experience+Group+Home>;
    skos:definition "The Virtual Patient Profile describes health professions education verbs, activities and learner performance with the goal of understanding the needs of health profession educators."@en;

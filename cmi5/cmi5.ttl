@@ -5,7 +5,6 @@
 @prefix schema: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix schemaorg: <http://schema.org> .
 
 <https://w3id.org/xapi/adl/verbs/satisfied> a <https://w3id.org/xapi/ontology#Verb>;
    skos:definition "Indicates that the authority or activity provider determined the actor has fulfilled the criteria of the object or activity."@en;
@@ -19,9 +18,9 @@
 
 <https://w3id.org/xapi/cmi5> a <https://w3id.org/xapi/profiles/ontology#Profile>;
    dc:conformsTo <https://w3id.org/xapi/profiles#1.0>;
-   schemaorg:author [
-     a schemaorg:Organization;
-     schemaorg:name "cmi5 Working Group"
+   schema:author [
+     a schema:Organization;
+     schema:name "cmi5 Working Group"
    ];
    rdfs:seeAlso <https://github.com/AICC/CMI-5_Spec_Current/blob/quartz/cmi5_spec.md>;
    skos:definition """This specification describes interoperable runtime communication between Learning Management Systems (LMS) and Assignable Units (AU).
@@ -484,5 +483,3 @@ The AU may set this value in statements to indicate level of completion. The AU 
 
 <https://w3id.org/xapi/cmi5/context/categories/cmi5> prov:generatedAtTime "2017-03-27T12:30:00-07:00"^^xsd:dateTime;
    prov:wasRevisionOf <https://w3id.org/xapi/cmi5> .
-
-_:b94 .

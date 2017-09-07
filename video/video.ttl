@@ -5,7 +5,6 @@
 @prefix schema: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix schemaorg: <http://schema.org> .
 
 <https://w3id.org/xapi/video/extensions/cc-subtitle-enabled> a <https://w3id.org/xapi/ontology#ContextExtension>;
    skos:definition "Used to expresses whether subtitle or closed captioning is enabled."@en;
@@ -295,9 +294,9 @@
 
 <https://w3id.org/xapi/video> a <https://w3id.org/xapi/profiles/ontology#Profile>;
    dc:conformsTo <https://w3id.org/xapi/profiles#1.0>;
-   schemaorg:author [
-     a schemaorg:Organization;
-     schemaorg:name "Advanced Distributed Learning(ADL) Initiative"
+   schema:author [
+     a schema:Organization;
+     schema:name "Advanced Distributed Learning(ADL) Initiative"
    ];
    rdfs:seeAlso <https://github.com/liveaspankaj/xapi-video-cop>;
    skos:definition "The video profile of the xAPI was created to identify and standardize the common types of interactions that can be tracked in any video player."@en;
