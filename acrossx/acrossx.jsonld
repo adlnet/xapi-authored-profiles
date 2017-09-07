@@ -7,6 +7,8 @@
   	"en": "AcrossX Profile"
   },
   "seeAlso": "http://xapi-cop.net/zh/",
+  "seeAlso": "http://xapi-cop.net/vocab/zh-tw/",
+  "seeAlso": "http://xapi-cop.net/vocab/zh-cn/",
   "author": {
     "type": "Organization",
     "name": "xAPI Chinese Community of Practice"
@@ -174,6 +176,17 @@
       "inScheme": "https://w3id.org/xapi/acrossx",
       "prefLabel": {
         "en": "webpage"
+      }
+    },
+    {
+      "id": "https://w3id.org/xapi/acrossx/verbs/annotated",
+      "type": "Verb",
+      "definition": {
+        "en": "Indicates the actor added a supplement to the content, highlight or mark."
+      },
+      "inScheme": "https://w3id.org/xapi/acrossx",
+      "prefLabel": {
+        "en": "annotated"
       }
     },
     {
