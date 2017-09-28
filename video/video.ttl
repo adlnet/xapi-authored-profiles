@@ -135,10 +135,6 @@
    skos:inScheme <https://w3id.org/xapi/video>;
    skos:prefLabel "ended"@en .
 
-<https://w3id.org/xapi/video/verbs/started> a <https://w3id.org/xapi/ontology#Verb>;
-   skos:definition "Indicates the video player was started or initialized."@en;
-   skos:inScheme <https://w3id.org/xapi/video>;
-   skos:prefLabel "started"@en .
 
 <https://w3id.org/xapi/video/patterns#all-activities-pattern> skos:definition "All of the Video Profile templates."@en;
    skos:prefLabel "All Activities Pattern"@en;
@@ -255,7 +251,7 @@
      <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/cc-subtitle-lang']";
      <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
    ];
-   <https://w3id.org/xapi/profiles/ontology#verb> <https://w3id.org/xapi/video/started> .
+   <https://w3id.org/xapi/profiles/ontology#verb> <http://adlnet.gov/expapi/verbs/initialized> .
 
 <https://w3id.org/xapi/video/templates#volumechange> skos:inScheme <https://w3id.org/xapi/video>;
    skos:prefLabel "Volume Change Interaction"@en;
