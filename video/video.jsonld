@@ -61,17 +61,6 @@
       }
     },
     {
-      "id": "https://w3id.org/xapi/video/verbs/started",
-      "inScheme": "https://w3id.org/xapi/video",
-      "type": "Verb",
-      "definition": {
-        "en": "Indicates the video player was started or initialized."
-      },
-      "prefLabel": {
-        "en": "started"
-      }
-    },
-    {
       "id": "https://w3id.org/xapi/video/verbs/ended",
       "inScheme": "https://w3id.org/xapi/video",
       "type": "Verb",
@@ -333,9 +322,9 @@
         "en": "Started"
       },
       "definition": {
-        "en": "The statement template and rules associated with a video being started."
+        "en": "The statement template and rules associated with a video being initialized."
       },
-      "verb": "https://w3id.org/xapi/video/started",
+      "verb": "http://adlnet.gov/expapi/verbs/initialized",
       "rules": [
         {
           "location": "$.context.extensions['https://w3id.org/xapi/video/extensions/volume']",
