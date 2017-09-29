@@ -147,15 +147,13 @@
    <https://w3id.org/xapi/profiles/ontology#inlineSchema> "{ \"type\": \"string\" }" .
 
 <https://w3id.org/xapi/cmi5/result/extensions/progress> a <https://w3id.org/xapi/ontology#ResultExtension>;
-   skos:definition "An integer value between 0 and 100 (inclusive) indicating the completion of the AU as a percentage."
-
-The AU may set this value in statements to indicate level of completion. The AU SHOULD NOT set a progress value in a Completed statement or if it has previously issued a Completed statement for the AU in the current registration."@en;
+   skos:definition "An integer value between 0 and 100 (inclusive) indicating the completion of the AU as a percentage. The AU may set this value in statements to indicate level of completion. The AU SHOULD NOT set a progress value in a Completed statement or if it has previously issued a Completed statement for the AU in the current registration."@en;
    skos:inScheme <https://w3id.org/xapi/cmi5/context/categories/cmi5>;
    skos:prefLabel "progress"@en;
    <https://w3id.org/xapi/profiles/ontology#inlineSchema> "{ \"type\": \"number\", \"maximum\": 100, \"minimum\": 0, \"multipleOf\": 1.0 }" .
 
 <https://w3id.org/xapi/cmi5/result/extensions/reason> a <https://w3id.org/xapi/ontology#ResultExtension>;
-   skos:definition "Indicates the reason why an AU was 'waived' (marked complete by an alternative means)"@en;
+   skos:definition "Indicates the reason why an AU was waived (marked complete by an alternative means)"@en;
    skos:inScheme <https://w3id.org/xapi/cmi5/context/categories/cmi5>;
    skos:prefLabel "reason"@en;
    <https://w3id.org/xapi/profiles/ontology#inlineSchema> "{ \"type\": \"string\" }" .
