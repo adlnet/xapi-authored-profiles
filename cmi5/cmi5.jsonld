@@ -13,8 +13,7 @@
     "versions": [
         {
             "id": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
-            "generatedAtTime": "2017-03-27T12:30:00-07:00",
-            "wasRevisionOf": ["https://w3id.org/xapi/cmi5"]
+            "generatedAtTime": "2017-03-27T12:30:00-07:00"
         }
     ],
     "author": {
@@ -22,6 +21,17 @@
         "name": "cmi5 Working Group"
     },
     "concepts": [
+      {
+        "@id": "https://w3id.org/xapi/adl/verbs/abandoned",
+        "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
+        "@type": "Verb",
+        "definition": {
+          "en": "Indicates that the AU session was abnormally terminated by a learner's action (or due to a system failure)."
+        },
+        "prefLabel": {
+          "en": "abandoned"
+        }
+      },
       {
         "@id": "https://w3id.org/xapi/adl/verbs/abandoned",
         "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
@@ -82,7 +92,7 @@
       "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
       "type": "ResultExtension",
       "prefLabel": {
-          "en": "Progress"
+          "en": "progress"
       },
       "definition": {
           "en": "An integer value between 0 and 100 (inclusive) indicating the completion of the AU as a percentage.\n\nThe AU may set this value in statements to indicate level of completion. The AU SHOULD NOT set a progress value in a Completed statement or if it has previously issued a Completed statement for the AU in the current registration."
@@ -94,7 +104,7 @@
       "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
       "type": "ResultExtension",
       "prefLabel": {
-          "en": "Reason"
+          "en": "reason"
       },
       "definition": {
           "en": "Indicates the reason why an AU was 'waived' (marked complete by an alternative means)"
@@ -106,7 +116,7 @@
       "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
       "type": "ContextExtension",
       "prefLabel": {
-          "en": "Session ID"
+          "en": "session ID"
       },
       "definition": {
           "en": "A unique identifier for a single AU launch session based on actor and course registration."
@@ -118,7 +128,7 @@
       "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
       "type": "ContextExtension",
       "prefLabel": {
-          "en": "Mastery Score"
+          "en": "mastery score"
       },
       "definition": {
           "en": "'masteryScore' as provided in the LMS Launch Data for the AU plus registration used to determine the pass/fail result based on score"
@@ -130,7 +140,7 @@
       "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
       "type": "ContextExtension",
       "prefLabel": {
-          "en": "Launch Mode"
+          "en": "launch mode"
       },
       "definition": {
           "en": "Indicates what launch mode an AU was launched with by the LMS"
@@ -142,7 +152,7 @@
       "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
       "type": "ContextExtension",
       "prefLabel": {
-          "en": "Launch URL"
+          "en": "launch URL"
       },
       "definition": {
           "en": "The URL used by the LMS to launch the AU"
@@ -154,7 +164,7 @@
       "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
       "type": "ContextExtension",
       "prefLabel": {
-          "en": "Launch Parameters"
+          "en": "launch parameters"
       },
       "definition": {
           "en": "'launchParameters' as provided in the LMS Launch Data for the AU plus registration"
@@ -166,7 +176,7 @@
       "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
       "type": "ContextExtension",
       "prefLabel": {
-          "en": "Move On"
+          "en": "move on"
       },
       "definition": {
           "en": "'moveOn' as provided in the LMS Launch Data for the AU plus registration"
