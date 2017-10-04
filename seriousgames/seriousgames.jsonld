@@ -24,6 +24,7 @@
     {
       "id": "https://w3id.org/xapi/seriousgames/activity-types/area",
       "type": "ActivityType",
+      "inScheme": "https://w3id.org/xapi/seriousgames",
       "definition": {
         "en": "An identified area inside the game world. In some games they can also be worlds. Represents an aggregation of zones."
       },
@@ -34,6 +35,7 @@
     {
       "id": "https://w3id.org/xapi/seriousgames/activity-types/controller",
       "type": "ActivityType",
+      "inScheme": "https://w3id.org/xapi/seriousgames",
       "definition": {
         "en": "A game controller whose input affects the action in an activity. Game controllers are common in non-pc games. This activity represents this device."
       },
@@ -44,6 +46,7 @@
     {
       "id": "https://w3id.org/xapi/seriousgames/activity-types/cutscene",
       "type": "ActivityType",
+      "inScheme": "https://w3id.org/xapi/seriousgames",
       "definition": {
         "en": "A non-interactive scene that can be skipped. A cutscene is a non-interactive scene within the game (e.g., a video, a conversation, an automated sequence). The player can usually skip them pressing some button."
       },
@@ -54,6 +57,7 @@
     {
       "id": "https://w3id.org/xapi/seriousgames/activity-types/dialog-tree",
       "type": "ActivityType",
+      "inScheme": "https://w3id.org/xapi/seriousgames",
       "definition": {
         "en": "An alternative presented during a conversation with an non-playable character. Dialog trees are a common mechanic in video games, where players can answer questions to NPC. This activity represents that type of alternative."
       },
@@ -64,6 +68,7 @@
     {
       "id": "https://w3id.org/xapi/seriousgames/activity-types/enemy",
       "type": "ActivityType",
+      "inScheme": "https://w3id.org/xapi/seriousgames",
       "definition": {
         "en": "A game object that poses a threat inside the game world. Enemies are common elements in video games. Defeating them indicates a player accomplishment."
       },
@@ -74,6 +79,7 @@
     {
       "id": "https://w3id.org/xapi/seriousgames/activity-types/item",
       "type": "ActivityType",
+      "inScheme": "https://w3id.org/xapi/seriousgames",
       "definition": {
         "en": "A collectable game object whose use or interaction results in an effect in a game. Items are common elements in video games. Players can collect/use/combine them."
       },
@@ -84,6 +90,7 @@
     {
       "id": "https://w3id.org/xapi/seriousgames/activity-types/keyboard",
       "type": "ActivityType",
+      "inScheme": "https://w3id.org/xapi/seriousgames",
       "definition": {
         "en": "A keyboard whose keystrokes affects the action in an activity. Somes games can receive inputs from keyboards: physical keyboards in a PC, or virtual keyboards in a smartphone screen. This activity represent both."
       },
@@ -94,6 +101,7 @@
     {
       "id": "https://w3id.org/xapi/seriousgames/activity-types/level",
       "type": "ActivityType",
+      "inScheme": "https://w3id.org/xapi/seriousgames",
       "exactMatch": {
         "id": "http://curatr3.com/define/type/level"
       },
@@ -107,6 +115,7 @@
     {
       "id": "https://w3id.org/xapi/seriousgames/activity-types/menu",
       "type": "ActivityType",
+      "inScheme": "https://w3id.org/xapi/seriousgames",
       "definition": {
         "en": "A menu with several buttons/options whose selection produces different effects. Represents a menu, integrated in the user interface (UI), with several a options."
       },
@@ -117,6 +126,7 @@
     {
       "id": "https://w3id.org/xapi/seriousgames/activity-types/mouse",
       "type": "ActivityType",
+      "inScheme": "https://w3id.org/xapi/seriousgames",
       "definition": {
         "en": "A mouse device whose clicks and movement affects the action in an activity. PC games are usually controlled by mouse interaction. This activity represents this device."
       },
@@ -127,6 +137,7 @@
     {
       "id": "https://w3id.org/xapi/seriousgames/activity-types/non-player-character",
       "type": "ActivityType",
+      "inScheme": "https://w3id.org/xapi/seriousgames",
       "definition": {
         "en": "A character that can offer a conversation or other type of interaction inside a game. Players usually have conversations with non-player characters."
       },
@@ -137,6 +148,7 @@
     {
       "id": "https://w3id.org/xapi/seriousgames/activity-types/quest",
       "type": "ActivityType",
+      "inScheme": "https://w3id.org/xapi/seriousgames",
       "definition": {
         "en": "A accomplishable challenge or mission presented inside a game. Completing quests marks the players' progress."
       },
@@ -147,6 +159,7 @@
     {
       "id": "https://w3id.org/xapi/seriousgames/activity-types/screen",
       "type": "ActivityType",
+      "inScheme": "https://w3id.org/xapi/seriousgames",
       "definition": {
         "en": "A game screen where a concrete game task is developed. Games are usually composed by a set of screens the player navigates. A screen has a concrete function within the game. A screen contains a menu, or the gameplay. To define virtual zones inside the game world, it is recommended to use area or zone."
       },
@@ -157,6 +170,7 @@
     {
       "id": "https://w3id.org/xapi/seriousgames/activity-types/serious-game",
       "type": "ActivityType",
+      "inScheme": "https://w3id.org/xapi/seriousgames",
       "definition": {
         "en": "A game designed for a primary purpose other than pure entertainment. For instance, an educational game or a game-like simulation. A serious game is the root container for the rest of game elements."
       },
@@ -167,6 +181,7 @@
     {
       "id": "https://w3id.org/xapi/seriousgames/activity-types/touchscreen",
       "type": "ActivityType",
+      "inScheme": "https://w3id.org/xapi/seriousgames",
       "definition": {
         "en": "A screen the player can touch or press."
       },
@@ -177,6 +192,7 @@
     {
       "id": "https://w3id.org/xapi/seriousgames/activity-types/zone",
       "type": "ActivityType",
+      "inScheme": "https://w3id.org/xapi/seriousgames",
       "definition": {
         "en": "An identified zone inside an area of the game world. A zone is inside an area, and defines a logic self-contained place."
       },
@@ -187,6 +203,7 @@
     {
       "id": "https://w3id.org/xapi/seriousgames/extensions/progress",
       "type": "ResultExtension",
+      "inScheme": "https://w3id.org/xapi/seriousgames",
       "definition": {
         "en": "A decimal number (3 significant figures with 2 figures following the decimal point) between 0 and 1 (inclusive) to indicate the value of progress in a completable. Indicates the progress in a completable. This extension appears in the Statement's result."
       },
@@ -197,6 +214,7 @@
     {
       "id": "https://w3id.org/xapi/seriousgames/extensions/health",
       "type": "ResultExtension",
+      "inScheme": "https://w3id.org/xapi/seriousgames",
       "definition": {
         "en": "A decimal number (3 significant figures with 2 figures following the decimal point) between 0 and 1 (inclusive) to indicate the remaining health or stamina within a game. Used to represent the remaining health of the player (e.g., number of hearts, energy bar). This extension appears in the Statement's result."
       },
@@ -207,6 +225,7 @@
     {
       "id": "https://w3id.org/xapi/seriousgames/extensions/position",
       "type": "ResultExtension",
+      "inScheme": "https://w3id.org/xapi/seriousgames",
       "definition": {
         "en": "An object with attributes x, y and z indicating the position of the player within a particular area in a game. Used to represent the current position of the player inside the game world. This position should be expressed in a coordinate system known by the data analysts. This extension appears in the Statement's result."
       },
@@ -217,6 +236,7 @@
     {
       "id": "https://w3id.org/xapi/seriousgames/verbs/accessed",
       "type": "Verb",
+      "inScheme": "https://w3id.org/xapi/seriousgames",
       "exactMatch": {
         "id": "http://activitystrea.ms/schema/1.0/access"
       },
@@ -230,6 +250,7 @@
     {
       "id": "https://w3id.org/xapi/seriousgames/verbs/pressed",
       "type": "Verb",
+      "inScheme": "https://w3id.org/xapi/seriousgames",
       "exactMatch": {
         "id": "http://future-learning.info/xAPI/verb/pressed"
       },
@@ -243,6 +264,7 @@
     {
       "id": "https://w3id.org/xapi/seriousgames/verbs/released",
       "type": "Verb",
+      "inScheme": "https://w3id.org/xapi/seriousgames",
       "exactMatch": {
         "id": "http://future-learning.info/xAPI/verb/released"
       },
@@ -256,6 +278,7 @@
     {
       "id": "https://w3id.org/xapi/seriousgames/verbs/unlocked",
       "type": "Verb",
+      "inScheme": "https://w3id.org/xapi/seriousgames",
       "definition": {
         "en": "Indicates the actor unlocked an option that was previously unavailable. Used when the player unlocks an option in an alternative."
       },
@@ -266,6 +289,7 @@
     {
       "id": "https://w3id.org/xapi/seriousgames/verbs/used",
       "type": "Verb",
+      "inScheme": "https://w3id.org/xapi/seriousgames",
       "definition": {
         "en": "Indicates the actor used a virtual object. Used when player uses items they find during the gameplay, to obtain different benefits."
       },
