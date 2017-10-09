@@ -1,6 +1,6 @@
 {
   "@context": "https://w3id.org/xapi/profiles/context",
-  "id": "http://activitystrea.ms/schema/1.0/",
+  "id": "http://activitystrea.ms/schema/1.0",
   "type": "Profile",
   "conformsTo": "https://w3id.org/xapi/profiles#1.0",
   "prefLabel": {
@@ -261,7 +261,7 @@
           "en": "consumed"
         },
        "definition": {
-         "en": "Indicates that the actor has consumed the object. The specific meaning is dependent largely on the objects type. For instance, an actor may consume an audio object, indicating that the actor has listened to it; or an actor may consume a book, indicating that the book has been read. As such, the consume verb is a more generic form of other more specific verbs such as read and play"
+         "en": "Indicates that the actor has consumed the object. The specific meaning is dependent largely on the objects type. For instance, an actor may consume an audio object, indicating that the actor has listened to it; or an actor may consume a book, indicating that the book has been read. As such, the consume verb is a more generic form of other more specific verbs such as read and play."
          },
 
        "inScheme": "http://activitystrea.ms/schema/1.0",
@@ -366,7 +366,7 @@
     {
        "id": "http://activitystrea.ms/schema/1.0/flag-as-inappropriate",
        "prefLabel": {
-          "en": "flaggedasinappropriate"
+          "en": "flagged as inappropriate"
         },
        "definition": {
          "en": "Indicates that the actor has flagged the object as being inappropriate for some reason. When using this verb, the context property, as specified within Section 4.1 can be used to provide additional detail about why the object has been flagged."
@@ -789,7 +789,7 @@
           "en": "satisfied"
         },
        "definition": {
-         "en": "Indicates that the actor has satisfied the object. If a target is specified, it indicate the context within which the object was satisfied. For instance, if a person satisfies the requirements for a particular challenge, the person is the actor; the requirement is the object; and the challenge is the target."
+         "en": "Indicates that the actor has satisfied the object. If a target is specified, it indicate the context within which the object was satisfied. For instance, if a person satisfies the requirements for a particular challenge: the person is the actor, the requirement is the object, and the challenge is the target."
          },
        "exactMatch": ["https://w3id.org/xapi/adl/verbs/satisfied"],
        "inScheme": "http://activitystrea.ms/schema/1.0",
@@ -801,7 +801,7 @@
           "en": "saved"
         },
        "definition": {
-         "en": "Indicates that the actor has called out the object as being of interest primarily to him- or herself. Though this action MAY be shared publicly, the implication is that the object has been saved primarily for the actors own benefit rather than to show it to others as would be indicated by the share verb."
+         "en": "Indicates that the actor has called out the object as being of interest primarily to him or herself. Though this action MAY be shared publicly, the implication is that the object has been saved primarily for the actors own benefit rather than to show it to others as would be indicated by the share verb."
          },
 
        "inScheme": "http://activitystrea.ms/schema/1.0",
@@ -873,7 +873,7 @@
           "en": "sponsored"
         },
        "definition": {
-         "en": "Indicates that the actor has sponsored the object. If a target is specified, it indicates the context within which the sponsorship is offered. For instance, a company can sponsor an event; or an individual can sponsor a project; etc."
+         "en": "Indicates that the actor has sponsored the object. If a target is specified, it indicates the context within which the sponsorship is offered. For instance, a company can sponsor an event or an individual can sponsor a project, etc."
          },
 
        "inScheme": "http://activitystrea.ms/schema/1.0",
@@ -1073,7 +1073,7 @@
     },
     {
       "id": "http://activitystrea.ms/schema/1.0/alert",
-      "inScheme": "http://activitystrea.ms/schema/1.0/",
+      "inScheme": "http://activitystrea.ms/schema/1.0",
       "type": "ActivityType",
       "definition": {
         "en": "Represents any kind of significant notification."
@@ -1084,7 +1084,7 @@
     },
     {
       "id": "http://activitystrea.ms/schema/1.0/application",
-      "inScheme": "http://activitystrea.ms/schema/1.0/",
+      "inScheme": "http://activitystrea.ms/schema/1.0",
       "type": "ActivityType",
       "definition": {
         "en": "Represents any kind of software application."
@@ -1095,7 +1095,7 @@
     },
     {
       "id": "http://activitystrea.ms/schema/1.0/article",
-      "inScheme": "http://activitystrea.ms/schema/1.0/",
+      "inScheme": "http://activitystrea.ms/schema/1.0",
       "type": "ActivityType",
       "definition": {
         "en": "Represents objects such as news articles, knowledge base entries, or other similar construct. Such objects generally consist of paragraphs of text, in some cases incorporating embedded media such as photos and inline hyperlinks to other resources."
@@ -1106,7 +1106,7 @@
     },
     {
       "id": "http://activitystrea.ms/schema/1.0/audio",
-      "inScheme": "http://activitystrea.ms/schema/1.0/",
+      "inScheme": "http://activitystrea.ms/schema/1.0",
       "type": "ActivityType",
       "definition": {
         "en": "Represents audio content of any kind. Objects of this type MAY contain an additional property as specified in Section 3.1."
@@ -1117,10 +1117,10 @@
     },
     {
       "id": "http://activitystrea.ms/schema/1.0/badge",
-      "inScheme": "http://activitystrea.ms/schema/1.0/",
+      "inScheme": "http://activitystrea.ms/schema/1.0",
       "type": "ActivityType",
       "definition": {
-        "en": "Represents a badge or award granted to an object (typically a person object)"
+        "en": "Represents a badge or award granted to an object (typically a person object)."
       },
       "prefLabel": {
         "en": "badge"
@@ -1128,7 +1128,7 @@
     },
     {
       "id": "http://activitystrea.ms/schema/1.0/binary",
-      "inScheme": "http://activitystrea.ms/schema/1.0/",
+      "inScheme": "http://activitystrea.ms/schema/1.0",
       "type": "ActivityType",
       "definition": {
         "en": "Objects of this type are used to carry arbitrary Base64-encoded binary data within an Activity Stream object. It is primarily intended to attach binary data to other types of objects through the use of the attachments property. Objects of this type will contain the additional properties specified in Section 3.2. This activity type is included for data conversion with Activity Streams, its not recommended for use in new Tin Can statements."
@@ -1139,10 +1139,10 @@
     },
     {
       "id": "http://activitystrea.ms/schema/1.0/bookmark",
-      "inScheme": "http://activitystrea.ms/schema/1.0/",
+      "inScheme": "http://activitystrea.ms/schema/1.0",
       "type": "ActivityType",
       "definition": {
-        "en": "Represents a pointer to some URL -- typically a web page. In most cases, bookmarks are specific to a given user and contain metadata chosen by that user. Bookmark Objects are similar in principle to the concept of bookmarks or favorites in a web browser. A bookmark represents a pointer to the URL, not the URL or the associated resource itself. Objects of this type SHOULD contain an additional targetUrl property whose value is a String containing the IRI of the target of the bookmark."
+        "en": "Represents a pointer to some URL, typically a web page. In most cases, bookmarks are specific to a given user and contain metadata chosen by that user. Bookmark Objects are similar in principle to the concept of bookmarks or favorites in a web browser. A bookmark represents a pointer to the URL, not the URL or the associated resource itself. Objects of this type SHOULD contain an additional targetUrl property whose value is a String containing the IRI of the target of the bookmark."
       },
       "prefLabel": {
         "en": "bookmark"
@@ -1150,7 +1150,7 @@
     },
     {
       "id": "http://activitystrea.ms/schema/1.0/collection",
-      "inScheme": "http://activitystrea.ms/schema/1.0/",
+      "inScheme": "http://activitystrea.ms/schema/1.0",
       "type": "ActivityType",
       "definition": {
         "en": "Represents a generic collection of objects of any type. This object type can be used, for instance, to represent a collection of files like a folder; a collection of photos like an album; and so forth. Objects of this type MAY contain an additional objectTypes property whose value is an Array of Strings specifying the expected objectType of objects contained within the collection. This activity type is included for data conversion with Activity Streams, its not recommended for use in new Tin Can statements."
@@ -1161,7 +1161,7 @@
     },
     {
       "id": "http://activitystrea.ms/schema/1.0/comment",
-      "inScheme": "http://activitystrea.ms/schema/1.0/",
+      "inScheme": "http://activitystrea.ms/schema/1.0",
       "type": "ActivityType",
       "definition": {
         "en": "Represents a textual response to another object. Objects of this type MAY contain an additional inReplyTo property whose value is an Array of one or more other Activity Stream Objects for which the object is to be considered a response."
@@ -1172,7 +1172,7 @@
     },
     {
       "id": "http://activitystrea.ms/schema/1.0/device",
-      "inScheme": "http://activitystrea.ms/schema/1.0/",
+      "inScheme": "http://activitystrea.ms/schema/1.0",
       "type": "ActivityType",
       "definition": {
         "en": "Represents a device of any sort."
@@ -1183,7 +1183,7 @@
     },
     {
       "id": "http://activitystrea.ms/schema/1.0/event",
-      "inScheme": "http://activitystrea.ms/schema/1.0/",
+      "inScheme": "http://activitystrea.ms/schema/1.0",
       "type": "ActivityType",
       "definition": {
         "en": "Represents an event that occurs at a certain location during a particular period of time. Objects of this type MAY contain the additional properties specified in Section 3.3."
@@ -1194,7 +1194,7 @@
     },
     {
       "id": "http://activitystrea.ms/schema/1.0/file",
-      "inScheme": "http://activitystrea.ms/schema/1.0/",
+      "inScheme": "http://activitystrea.ms/schema/1.0",
       "type": "ActivityType",
       "definition": {
         "en": "Represents any form of document or file. Objects of this type MAY contain an additional fileUrl property whose value a dereferenceable IRI that can be used to retrieve the file; and an additional mimeType property whose value is the MIME type of the file described by the object."
@@ -1205,7 +1205,7 @@
     },
     {
       "id": "http://activitystrea.ms/schema/1.0/game",
-      "inScheme": "http://activitystrea.ms/schema/1.0/",
+      "inScheme": "http://activitystrea.ms/schema/1.0",
       "type": "ActivityType",
       "definition": {
         "en": "Represents a game or competition of any kind."
@@ -1216,7 +1216,7 @@
     },
     {
       "id": "http://activitystrea.ms/schema/1.0/group",
-      "inScheme": "http://activitystrea.ms/schema/1.0/",
+      "inScheme": "http://activitystrea.ms/schema/1.0",
       "type": "ActivityType",
       "definition": {
         "en": "Represents a grouping of objects in which member objects can join or leave."
@@ -1227,7 +1227,7 @@
     },
     {
       "id": "http://activitystrea.ms/schema/1.0/image",
-      "inScheme": "http://activitystrea.ms/schema/1.0/",
+      "inScheme": "http://activitystrea.ms/schema/1.0",
       "type": "ActivityType",
       "definition": {
         "en": "Represents a graphical image. Objects of this type MAY contain an additional fullImage property whose value is an Activity Streams Media Link to a full-sized representation of the image."
@@ -1238,7 +1238,7 @@
     },
     {
       "id": "http://activitystrea.ms/schema/1.0/issue",
-      "inScheme": "http://activitystrea.ms/schema/1.0/",
+      "inScheme": "http://activitystrea.ms/schema/1.0",
       "type": "ActivityType",
       "definition": {
         "en": "Represents a report about a problem or situation that needs to be resolved. For instance, the issue object can be used to represent reports detailing software defects, or reports of acceptable use violations, and so forth. Objects of this type MAY contain the additional properties specified in Section 3.4."
@@ -1249,7 +1249,7 @@
     },
     {
       "id": "http://activitystrea.ms/schema/1.0/job",
-      "inScheme": "http://activitystrea.ms/schema/1.0/",
+      "inScheme": "http://activitystrea.ms/schema/1.0",
       "type": "ActivityType",
       "definition": {
         "en": "Represents information about a job or a job posting."
@@ -1260,7 +1260,7 @@
     },
     {
       "id": "http://activitystrea.ms/schema/1.0/note",
-      "inScheme": "http://activitystrea.ms/schema/1.0/",
+      "inScheme": "http://activitystrea.ms/schema/1.0",
       "type": "ActivityType",
       "definition": {
         "en": "Represents a short-form text message. This object is intended primarily for use in micro-blogging scenarios and in systems where users are invited to publish short, often plain-text messages whose useful lifespan is generally shorter than that of an article of weblog entry. A note is similar in structure to an article, but typically does not have a title or distinct paragraphs and tends to be much shorter in length."
@@ -1271,7 +1271,7 @@
     },
     {
       "id": "http://activitystrea.ms/schema/1.0/offer",
-      "inScheme": "http://activitystrea.ms/schema/1.0/",
+      "inScheme": "http://activitystrea.ms/schema/1.0",
       "type": "ActivityType",
       "definition": {
         "en": "Represents an offer of any kind."
@@ -1282,7 +1282,7 @@
     },
     {
       "id": "http://activitystrea.ms/schema/1.0/organization",
-      "inScheme": "http://activitystrea.ms/schema/1.0/",
+      "inScheme": "http://activitystrea.ms/schema/1.0",
       "type": "ActivityType",
       "definition": {
         "en": "Represents an organization of any kind."
@@ -1293,7 +1293,7 @@
     },
     {
       "id": "http://activitystrea.ms/schema/1.0/page",
-      "inScheme": "http://activitystrea.ms/schema/1.0/",
+      "inScheme": "http://activitystrea.ms/schema/1.0",
       "type": "ActivityType",
       "definition": {
         "en": "Represents an area, typically a web page, that is representative of, and generally managed by a particular entity. Such areas are usually dedicated to displaying descriptive information about the entity and showcasing recent content such as articles, photographs and videos. Most social networking applications, for example, provide individual users with their own dedicated profile pages. Several allow similar types of pages to be created for commercial entities, organizations or events. While the specific details of how pages are implemented, their characteristics and use may vary, the one unifying property is that they are typically owned by a single entity that is represented by the content provided by the page itself."
@@ -1304,7 +1304,7 @@
     },
     {
       "id": "http://activitystrea.ms/schema/1.0/person",
-      "inScheme": "http://activitystrea.ms/schema/1.0/",
+      "inScheme": "http://activitystrea.ms/schema/1.0",
       "type": "ActivityType",
       "definition": {
         "en": "Represents an individual person. This activity type is included for data conversion with Activity Streams, its not recommended for use in new Tin Can statements. Agent should be used instead of person."
@@ -1315,7 +1315,7 @@
     },
     {
       "id": "http://activitystrea.ms/schema/1.0/place",
-      "inScheme": "http://activitystrea.ms/schema/1.0/",
+      "inScheme": "http://activitystrea.ms/schema/1.0",
       "type": "ActivityType",
       "definition": {
         "en": "Represents a physical location. Locations can be represented using geographic coordinates, a physical address, a free-form location name, or any combination of these. Objects of this type MAY contain the additional properties specified in Section 3.5."
@@ -1326,7 +1326,7 @@
     },
     {
       "id": "http://activitystrea.ms/schema/1.0/process",
-      "inScheme": "http://activitystrea.ms/schema/1.0/",
+      "inScheme": "http://activitystrea.ms/schema/1.0",
       "type": "ActivityType",
       "definition": {
         "en": "Represents any form of process. For instance, a long-running task that is started and expected to continue operating for a period of time."
@@ -1337,7 +1337,7 @@
     },
     {
       "id": "http://activitystrea.ms/schema/1.0/product",
-      "inScheme": "http://activitystrea.ms/schema/1.0/",
+      "inScheme": "http://activitystrea.ms/schema/1.0",
       "type": "ActivityType",
       "definition": {
         "en": "Represents a commercial good or service. Objects of this type MAY contain an additional fullImage property whose value is an Activity Streams Media Link to an image resource representative of the product."
@@ -1348,7 +1348,7 @@
     },
     {
       "id": "http://activitystrea.ms/schema/1.0/question",
-      "inScheme": "http://activitystrea.ms/schema/1.0/",
+      "inScheme": "http://activitystrea.ms/schema/1.0",
       "type": "ActivityType",
       "definition": {
         "en": "Represents a question or a poll. Objects of this type MAY contain an additional options property whose value is an Array of possible answers to the question in the form of Activity Stream objects of any type."
@@ -1359,7 +1359,7 @@
     },
     {
       "id": "http://activitystrea.ms/schema/1.0/review",
-      "inScheme": "http://activitystrea.ms/schema/1.0/",
+      "inScheme": "http://activitystrea.ms/schema/1.0",
       "type": "ActivityType",
       "definition": {
         "en": "Represents a primarily prose-based commentary on another object. Objects of this type MAY contain a rating property as specified in Section 4.4."
@@ -1370,7 +1370,7 @@
     },
     {
       "id": "http://activitystrea.ms/schema/1.0/service",
-      "inScheme": "http://activitystrea.ms/schema/1.0/",
+      "inScheme": "http://activitystrea.ms/schema/1.0",
       "type": "ActivityType",
       "definition": {
         "en": "Represents any form of hosted or consumable service that performs some kind of work or benefit for other entities. Examples of such objects include websites, businesses, etc."
@@ -1381,7 +1381,7 @@
     },
     {
       "id": "http://activitystrea.ms/schema/1.0/task",
-      "inScheme": "http://activitystrea.ms/schema/1.0/",
+      "inScheme": "http://activitystrea.ms/schema/1.0",
       "type": "ActivityType",
       "definition": {
         "en": "Represents an activity that has yet to be completed. Objects of this type can contain additional properties as specified in Section 3.6."
@@ -1392,7 +1392,7 @@
     },
     {
       "id": "http://activitystrea.ms/schema/1.0/video",
-      "inScheme": "http://activitystrea.ms/schema/1.0/",
+      "inScheme": "http://activitystrea.ms/schema/1.0",
       "type": "ActivityType",
       "definition": {
         "en": "Represents video content of any kind. Objects of this type MAY contain additional properties as specified in Section 3.1."
