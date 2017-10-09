@@ -1,0 +1,1929 @@
+{
+  "@context": "https://w3id.org/xapi/profiles/context",
+  "id": "https://registry.tincanapi.com",
+  "type": "Profile",
+  "conformsTo": "https://w3id.org/xapi/profiles#1.0",
+  "prefLabel": {
+    "en": "TinCan Vocabulary"
+  },
+  "definition": {
+    "en": "A list of vocabulary concepts originally created in the TinCan registry."
+  },
+  "seeAlso": "https://registry.tincanapi.com",
+  "author": {
+    "type": "Organization",
+    "name": "Rustici Software"
+  },
+  "concepts": [
+    {
+       "id": "http://id.tincanapi.com/verb/adjourned",
+       "prefLabel": {
+          "en": "adjourned"
+        },
+       "definition": {
+         "en": "Indicates the actor temporarily ended an event (e.g. a meeting). It is expected (but not required) that the event will be resumed at a future point in time. The actor of the statement should be somebody who has authority to adjourn the event, for example the event organizer."
+         },
+
+       "inScheme": "http://registry.tincanapi.com",
+       "type": "Verb"
+    },
+    {
+       "id": "http://id.tincanapi.com/verb/applauded",
+       "prefLabel": {
+          "en": "applauded"
+        },
+       "definition": {
+         "en": "Indicates that the actor approves of the content or message. Analogous to praising."
+         },
+
+       "inScheme": "http://registry.tincanapi.com",
+       "type": "Verb"
+    },
+    {
+       "id": "http://id.tincanapi.com/verb/arranged",
+       "prefLabel": {
+          "en": "arranged"
+        },
+       "definition": {
+         "en": "Indicates that the actor arranged the object within a collection or set of elements. The extension http://id.tincanapi.com/extension/position should be used to indicate the new position."
+         },
+
+       "inScheme": "http://registry.tincanapi.com",
+       "type": "Verb"
+    },
+    {
+       "id": "http://id.tincanapi.com/verb/bookmarked",
+       "prefLabel": {
+          "en": "bookmarked"
+        },
+       "definition": {
+         "en": "Indicates the user determined the content was important enough to keep a reference to it for later. A different verb should be used for tracking the location in a set of text that a reader has reached, as in a physical bookmark."
+         },
+
+       "inScheme": "http://registry.tincanapi.com",
+       "type": "Verb"
+    },
+    {
+       "id": "http://id.tincanapi.com/verb/called",
+       "prefLabel": {
+          "en": "called"
+        },
+       "definition": {
+         "en": "Indicates that the actor placed a phone call to the object."
+         },
+
+       "inScheme": "http://registry.tincanapi.com",
+       "type": "Verb"
+    },
+    {
+       "id": "http://id.tincanapi.com/verb/closed-sale",
+       "prefLabel": {
+          "en": "closed sale"
+        },
+       "definition": {
+         "en": "Indicates that the actor has closed a sale."
+         },
+
+       "inScheme": "http://registry.tincanapi.com",
+       "type": "Verb"
+    },
+    {
+       "id": "http://id.tincanapi.com/verb/created-opportunity",
+       "prefLabel": {
+          "en": "created opportunity"
+        },
+       "definition": {
+         "en": "Indicates that the actor has created a new opportunity, such as one might do in a CRM tool."
+         },
+
+       "inScheme": "http://registry.tincanapi.com",
+       "type": "Verb"
+    },
+    {
+       "id": "http://id.tincanapi.com/verb/defined",
+       "prefLabel": {
+          "en": "defined"
+        },
+       "definition": {
+         "en": "Indicates that the actor has defined the object. Note that this is a more specific form of the verb ���create��. For instance, a learner defining a goal."
+         },
+
+       "inScheme": "http://registry.tincanapi.com",
+       "type": "Verb"
+    },
+    {
+       "id": "http://id.tincanapi.com/verb/disabled",
+       "prefLabel": {
+          "en": "disabled"
+        },
+       "definition": {
+         "en": "Indicates that the actor turned off a particular part or feature of the system."
+         },
+
+       "inScheme": "http://registry.tincanapi.com",
+       "type": "Verb"
+    },
+    {
+       "id": "http://id.tincanapi.com/verb/discarded",
+       "prefLabel": {
+          "en": "discarded"
+        },
+       "definition": {
+         "en": "Indicates that the actor discarded a previous selection. This verb works with the verb selected."
+         },
+
+       "inScheme": "http://registry.tincanapi.com",
+       "type": "Verb"
+    },
+    {
+       "id": "http://id.tincanapi.com/verb/downloaded",
+       "prefLabel": {
+          "en": "downloaded"
+        },
+       "definition": {
+         "en": "Indicates that the actor downloaded (rather than accessed or opened) a file or document."
+         },
+
+       "inScheme": "http://registry.tincanapi.com",
+       "type": "Verb"
+    },
+    {
+       "id": "http://id.tincanapi.com/verb/earned",
+       "prefLabel": {
+          "en": "earned"
+        },
+       "definition": {
+         "en": "Indicates that the actor has earned or has been awarded the object."
+         },
+       "exactMatch": ["http://specification.openbadges.org/xapi/verbs/earned"],
+       "inScheme": "http://registry.tincanapi.com",
+       "type": "Verb"
+    },
+    {
+       "id": "http://id.tincanapi.com/verb/enabled",
+       "prefLabel": {
+          "en": "enabled"
+        },
+       "definition": {
+         "en": "Indicates that the actor turned on a particular part or feature of the system. It works with the verb disabled."
+         },
+
+       "inScheme": "http://registry.tincanapi.com",
+       "type": "Verb"
+    },
+    {
+       "id": "http://id.tincanapi.com/verb/frame/entered",
+       "prefLabel": {
+          "en": "entered frame"
+        },
+       "definition": {
+         "en": "Indicates that the actor has entered the frame of a camera or viewing device."
+         },
+
+       "inScheme": "http://registry.tincanapi.com",
+       "type": "Verb"
+    },
+    {
+       "id": "http://id.tincanapi.com/verb/estimated-duration",
+       "prefLabel": {
+          "en": "estimated duration"
+        },
+       "definition": {
+         "en": "Indicates that the actor has estimated the duration of the object. For instance, a learner estimating the duration of a task."
+         },
+
+       "inScheme": "http://registry.tincanapi.com",
+       "type": "Verb"
+    },
+    {
+       "id": "http://id.tincanapi.com/verb/frame/exited",
+       "prefLabel": {
+          "en": "exited frame"
+        },
+       "definition": {
+         "en": "Indicates that the actor has exited the frame of a camera or viewing device."
+         },
+
+       "inScheme": "http://registry.tincanapi.com",
+       "type": "Verb"
+    },
+    {
+       "id": "http://id.tincanapi.com/verb/expected",
+       "prefLabel": {
+          "en": "expected"
+        },
+       "definition": {
+         "en": "Indicates that the actor expected particular results from the object. The expected results should be recorded in the results field."
+         },
+
+       "inScheme": "http://registry.tincanapi.com",
+       "type": "Verb"
+    },
+    {
+       "id": "http://id.tincanapi.com/verb/expired",
+       "prefLabel": {
+          "en": "expired"
+        },
+       "definition": {
+         "en": "Indicates that the object (a competency or certification) has expired for the actor."
+         },
+
+       "inScheme": "http://registry.tincanapi.com",
+       "type": "Verb"
+    },
+    {
+       "id": "http://id.tincanapi.com/verb/focused",
+       "prefLabel": {
+          "en": "focused"
+        },
+       "definition": {
+         "en": "Indicates that a user has focused on a target object. This is the opposite of 'unfocused'. For example, it indicates that the user has clicked to focus or regain focus on the application, content or activity."
+         },
+
+       "inScheme": "http://registry.tincanapi.com",
+       "type": "Verb"
+    },
+    {
+       "id": "http://id.tincanapi.com/verb/hired",
+       "prefLabel": {
+          "en": "hired"
+        },
+       "definition": {
+         "en": "An offer of employment that has been made by an agent and accepted by another."
+         },
+
+       "inScheme": "http://registry.tincanapi.com",
+       "type": "Verb"
+    },
+    {
+       "id": "http://id.tincanapi.com/verb/interviewed",
+       "prefLabel": {
+          "en": "interviewed"
+        },
+       "definition": {
+         "en": "For use when one agent or group interviews another agent or group. It could be used for the purposes of hiring, creating news articles, shows, research, etc."
+         },
+
+       "inScheme": "http://registry.tincanapi.com",
+       "type": "Verb"
+    },
+    {
+       "id": "http://id.tincanapi.com/verb/laughed",
+       "prefLabel": {
+          "en": "laughed"
+        },
+       "definition": {
+         "en": "Indicates that the actor found the content funny and enjoyable. May be used with an \"Ending Point\" extension (see http://id.tincanapi.com/extension/ending-point) value capturing the point in time within the Activity."
+         },
+
+       "inScheme": "http://registry.tincanapi.com",
+       "type": "Verb"
+    },
+    {
+       "id": "http://id.tincanapi.com/verb/marked-unread",
+       "prefLabel": {
+          "en": "marked as unread"
+        },
+       "definition": {
+         "en": "The object was marked as unread."
+         },
+
+       "inScheme": "http://registry.tincanapi.com",
+       "type": "Verb"
+    },
+    {
+       "id": "http://id.tincanapi.com/verb/mentioned",
+       "prefLabel": {
+          "en": "mentioned"
+        },
+       "definition": {
+         "en": "Indicates that the actor mentioned the object, for example in a tweet."
+         },
+
+       "inScheme": "http://registry.tincanapi.com",
+       "type": "Verb"
+    },
+    {
+       "id": "http://id.tincanapi.com/verb/mentored",
+       "prefLabel": {
+          "en": "mentored"
+        },
+       "definition": {
+         "en": "Indicates that that the actor has mentored the object. For instance, a manager mentoring an employee, or a teacher mentoring a student."
+         },
+
+       "inScheme": "http://registry.tincanapi.com",
+       "type": "Verb"
+    },
+    {
+       "id": "http://id.tincanapi.com/verb/paused",
+       "prefLabel": {
+          "en": "paused"
+        },
+       "definition": {
+         "en": "To indicate an actor has ceased or suspended an activity temporarily."
+         },
+
+       "inScheme": "http://registry.tincanapi.com",
+       "type": "Verb"
+    },
+    {
+       "id": "http://id.tincanapi.com/verb/performed-offline",
+       "prefLabel": {
+          "en": "performed offline"
+        },
+       "definition": {
+         "en": "Indicates that the actor has performed the object offline for a period of time (episode). For instance, a learner performed task X, which is an offline task like reading a book, for 30 minutes. This is used to record the time spent on offline activities."
+         },
+
+       "inScheme": "http://registry.tincanapi.com",
+       "type": "Verb"
+    },
+    {
+       "id": "http://id.tincanapi.com/verb/personalized",
+       "prefLabel": {
+          "en": "personalized"
+        },
+       "definition": {
+         "en": "Indicates that the actor personalized the object. The idea is that the actor personalizes an object created by a third party to adapt it for his/her personal use. This can be used for personalizing a strategy, method, a cooking recipe, etc."
+         },
+
+       "inScheme": "http://registry.tincanapi.com",
+       "type": "Verb"
+    },
+    {
+       "id": "http://id.tincanapi.com/verb/previewed",
+       "prefLabel": {
+          "en": "previewed"
+        },
+       "definition": {
+         "en": "Used to indicate that an actor has taken a first glance at a piece of content that they plan to return to for a more in depth experience later. For instance someone may come across a webpage that they don't have enough time to read at that time, but plan to come back to and read fully."
+         },
+
+       "inScheme": "http://registry.tincanapi.com",
+       "type": "Verb"
+    },
+    {
+       "id": "http://id.tincanapi.com/verb/promoted",
+       "prefLabel": {
+          "en": "promoted"
+        },
+       "definition": {
+         "en": "The act of promoting a content item such that it appears more highly in search results or is promoted to users in some other way."
+         },
+
+       "inScheme": "http://registry.tincanapi.com",
+       "type": "Verb"
+    },
+    {
+       "id": "http://id.tincanapi.com/verb/rated",
+       "prefLabel": {
+          "en": "rated"
+        },
+       "definition": {
+         "en": "Action of giving a rating to an object. Should only be used when the action is the rating itself, as opposed to another action such as \"reading\" where a rating can be applied to the object as part of that action. In general the rating should be included in the Result with a Score object."
+         },
+
+       "inScheme": "http://registry.tincanapi.com",
+       "type": "Verb"
+    },
+    {
+       "id": "http://id.tincanapi.com/verb/replied",
+       "prefLabel": {
+          "en": "replied"
+        },
+       "definition": {
+         "en": "The actor posted a reply to a forum, comment thread or discussion."
+         },
+
+       "inScheme": "http://registry.tincanapi.com",
+       "type": "Verb"
+    },
+    {
+       "id": "http://id.tincanapi.com/verb/replied-to-tweet",
+       "prefLabel": {
+          "en": "replied to tweet"
+        },
+       "definition": {
+         "en": "This is an extension of the tweeted verb for the specific case of a tweet replying to another. This can be used to track group discussions experience. As with Retweeted we expect to find the original tweet id in the context as well as the person's handle to which the reply is addressed using the tweet extension URI http://id.tincanapi.com/extension/tweet"
+         },
+
+       "inScheme": "http://registry.tincanapi.com",
+       "type": "Verb"
+    },
+    {
+       "id": "http://id.tincanapi.com/verb/requested-attention",
+       "prefLabel": {
+          "en": "requested attention"
+        },
+       "definition": {
+         "en": "Indicates that the actor is requesting the attention of an instructor, presenter or moderator."
+         },
+
+       "inScheme": "http://registry.tincanapi.com",
+       "type": "Verb"
+    },
+    {
+       "id": "http://id.tincanapi.com/verb/retweeted",
+       "prefLabel": {
+          "en": "retweeted"
+        },
+       "definition": {
+         "en": "Used when an agent repeats a tweet written by another user. Usage in a statement is similar to tweeted but we expect to find the URI to the original tweet in the context of the statement, as well as the username of the original author as a context extension. The extension URI used for this should be http://id.tincanapi.com/extension/tweet"
+         },
+
+       "inScheme": "http://registry.tincanapi.com",
+       "type": "Verb"
+    },
+    {
+       "id": "http://id.tincanapi.com/verb/reviewed",
+       "prefLabel": {
+          "en": "reviewed"
+        },
+       "definition": {
+         "en": "Indicates that the actor has reviewed the object. For instance, a person reviewing an employee or a person reviewing an owner's manual."
+         },
+       "exactMatch": ["https://brindlewaye.com/xAPITerms/verbs/reviewed/"],
+       "inScheme": "http://registry.tincanapi.com",
+       "type": "Verb"
+    },
+    {
+       "id": "http://id.tincanapi.com/verb/secured",
+       "prefLabel": {
+          "en": "secured"
+        },
+       "definition": {
+         "en": "Indicates that the actor secured the object. The object used with this verb might be a device, piece of software, location, etc."
+         },
+
+       "inScheme": "http://registry.tincanapi.com",
+       "type": "Verb"
+    },
+    {
+       "id": "http://id.tincanapi.com/verb/selected",
+       "prefLabel": {
+          "en": "selected"
+        },
+       "definition": {
+         "en": "Indicates that the actor selects an object from a collection or set to use it in an activity. The collection would be the context parent element."
+         },
+
+       "inScheme": "http://registry.tincanapi.com",
+       "type": "Verb"
+    },
+    {
+       "id": "http://id.tincanapi.com/verb/skipped",
+       "prefLabel": {
+          "en": "skipped"
+        },
+       "definition": {
+         "en": "To indicate an actor has passed over or omitted an interval, screen, segment, item, or step."
+         },
+
+       "inScheme": "http://registry.tincanapi.com",
+       "type": "Verb"
+    },
+    {
+       "id": "http://id.tincanapi.com/verb/talked-with",
+       "prefLabel": {
+          "en": "talkedwith"
+        },
+       "definition": {
+         "en": "Indicates that the actor talked to another agent or group. The object of statements using this verb should be an agent or group, for example a teacher, an NPC in a simulation, a group of colleagues. This verb is intended to be used where one actor initiates and leads a conversation, rather than an equal discussion between two parties."
+         },
+
+       "inScheme": "http://registry.tincanapi.com",
+       "type": "Verb"
+    },
+    {
+       "id": "http://id.tincanapi.com/verb/tweeted",
+       "prefLabel": {
+          "en": "tweeted"
+        },
+       "definition": {
+         "en": "Use this verb when an agent tweets on Twitter. It is open for use also for other short messages (microblogging services) based on the URI as the activityId. We expect activityId to be a URI to the tweet."
+         },
+
+       "inScheme": "http://registry.tincanapi.com",
+       "type": "Verb"
+    },
+    {
+       "id": "http://id.tincanapi.com/verb/unfocused",
+       "prefLabel": {
+          "en": "unfocused"
+        },
+       "definition": {
+         "en": "Indicates that the user has lost focus of the target object. For example, this could be used when the user clicks outside a given application, window or activity."
+         },
+
+       "inScheme": "http://registry.tincanapi.com",
+       "type": "Verb"
+    },
+    {
+       "id": "http://id.tincanapi.com/verb/unregistered",
+       "prefLabel": {
+          "en": "unregistered"
+        },
+       "definition": {
+         "en": "Indicates the actor unregistered for a learning activity. This verb is used in combination with http://adlnet.gov/expapi/verbs/registered for the registering and unregistering of learners."
+         },
+
+       "inScheme": "http://registry.tincanapi.com",
+       "type": "Verb"
+    },
+    {
+       "id": "http://id.tincanapi.com/verb/viewed",
+       "prefLabel": {
+          "en": "viewed"
+        },
+       "definition": {
+         "en": "Indicates that the actor has viewed the object."
+         },
+
+       "inScheme": "http://registry.tincanapi.com",
+       "type": "Verb"
+    },
+    {
+       "id": "http://id.tincanapi.com/verb/voted-down",
+       "prefLabel": {
+          "en": "voted down"
+        },
+       "definition": {
+         "en": "Indicates that the actor has voted down for a specific object. This is analogous to giving a thumbs down."
+         },
+       "exactMatch": ["http://curatr3.com/define/verb/voted-down"],
+       "inScheme": "http://registry.tincanapi.com",
+       "type": "Verb"
+    },
+    {
+       "id": "http://id.tincanapi.com/verb/voted-up",
+       "prefLabel": {
+          "en": "voted up"
+        },
+       "definition": {
+         "en": "Indicates that the actor has voted up for a specific object. This is analogous to giving a thumbs up."
+         },
+       "exactMatch": ["http://curatr3.com/define/verb/voted-up"],
+       "inScheme": "http://registry.tincanapi.com",
+       "type": "Verb"
+    },
+    {
+      "id": "http://id.tincanapi.com/activitytype/blog",
+      "inScheme": "http://registry.tincanapi.com",
+      "type": "ActivityType",
+      "definition": {
+        "en": "A regularly updated website or web page, typically one authored by an individual or small group, that is written in an informal or conversational style."
+      },
+      "prefLabel": {
+        "en": "blog"
+      }
+    },
+    {
+        "id": "http://id.tincanapi.com/activitytype/book",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ActivityType",
+        "definition": {
+          "en": "A book, generally paper, but could also be an ebook. The Activity's ID will often include an ISBN though it is not required. The Definition can likely leverage the ISBN extension, http://id.tincanapi.com/extension/isbn, if known."
+        },
+        "prefLabel": {
+          "en": "book"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/activitytype/category",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ActivityType",
+        "definition": {
+          "en": "Activity generally used in the category Context Activities lists to mark a statement as being related to a particular subject area. Distinct from tag in that it is used in conjunction with Subcategory to imply a hierarchy of categorization."
+        },
+        "prefLabel": {
+          "en": "category"
+        }
+    },
+
+    {
+        "id": "http://id.tincanapi.com/activitytype/chapter",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ActivityType",
+        "definition": {
+          "en": "A chapter of a book or e-book."
+        },
+        "prefLabel": {
+          "en": "chapter"
+        }
+    },
+
+    {
+        "id": "http://id.tincanapi.com/activitytype/chat-channel",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ActivityType",
+        "definition": {
+          "en": "A channel, room or conversation within an instant chat application such as Slack."
+        },
+        "prefLabel": {
+          "en": "chat channel"
+        }
+    },
+
+    {
+        "id": "http://id.tincanapi.com/activitytype/chat-message",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ActivityType",
+        "definition": {
+          "en": "A message sent or received within the context of an instant chat platform such as Slack. The id of this activity should uniquely identify the particular chat message."
+        },
+        "prefLabel": {
+          "en": "chat message"
+        }
+    },
+
+    {
+        "id": "http://id.tincanapi.com/activitytype/checklist",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ActivityType",
+        "definition": {
+          "en": "A list of tasks to be completed, names to be consulted, conditions to be verified and similar."
+        },
+        "prefLabel": {
+          "en": "checklist"
+        }
+    },
+
+    {
+        "id": "http://id.tincanapi.com/activitytype/checklist-item",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ActivityType",
+        "definition": {
+          "en": "An individual item contained in a checklist."
+        },
+        "prefLabel": {
+          "en": "checklist item"
+        }
+    },
+
+    {
+        "id": "http://id.tincanapi.com/activitytype/code-commit",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ActivityType",
+        "definition": {
+          "en": "A commit to a code repository e.g. Github."
+        },
+        "prefLabel": {
+          "en": "code commit"
+        }
+    },
+
+    {
+        "id": "http://id.tincanapi.com/activitytype/collection-simple",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ActivityType",
+        "definition": {
+          "en": "It is a collection of items of the same activity type, for example, a collection of games. The collection can be generic, that is, the activity type of the items can be specified using the extension 'collection type', but it is optional."
+        },
+        "prefLabel": {
+          "en": "simple collection"
+        }
+    },
+
+    {
+        "id": "http://id.tincanapi.com/activitytype/community-site",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ActivityType",
+        "definition": {
+          "en": "A space on a social platform (or other platform with social features) for a community to communicate, share and collaborate. For example a Google Plus Community, a Facebook Group, a Jive Space or a Pathgather Gathering."
+        },
+        "prefLabel": {
+          "en": "community site"
+        }
+    },
+
+    {
+        "id": "http://id.tincanapi.com/activitytype/conference",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ActivityType",
+        "definition": {
+          "en": "A formal meeting which includes presentations or discussions."
+        },
+        "prefLabel": {
+          "en": "conference"
+        }
+    },
+
+    {
+        "id": "http://id.tincanapi.com/activitytype/conference-session",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ActivityType",
+        "definition": {
+          "en": "A single presentation, discussion, gathering, or panel within a conference."
+        },
+        "prefLabel": {
+          "en": "conference session"
+        }
+    },
+
+    {
+        "id": "http://id.tincanapi.com/activitytype/conference-track",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ActivityType",
+        "definition": {
+          "en": "A specific field of study within a conference."
+        },
+        "prefLabel": {
+          "en": "conference track"
+        }
+    },
+
+    {
+        "id": "http://id.tincanapi.com/activitytype/discussion",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ActivityType",
+        "definition": {
+          "en": "Represents an ongoing conversation between persons, such as an email thread or a forum topic."
+        },
+        "prefLabel": {
+          "en": "discussion"
+        }
+    },
+
+    {
+        "id": "http://id.tincanapi.com/activitytype/document",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ActivityType",
+        "definition": {
+          "en": "An electronic document of the type produced by office productivity software such as a word processing document, spreadsheet, slides etc."
+        },
+        "prefLabel": {
+          "en": "document"
+        }
+    },
+
+    {
+        "id": "http://id.tincanapi.com/activitytype/doubt",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ActivityType",
+        "definition": {
+          "en": "Refers to something that the actor needs to cast light on, something that can be answered or solved."
+        },
+        "prefLabel": {
+          "en": "doubt"
+        }
+    },
+
+    {
+        "id": "http://id.tincanapi.com/activitytype/email",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ActivityType",
+        "definition": {
+          "en": "Electronic message sent over a computer network from a sender to one or many recipients."
+        },
+        "prefLabel": {
+          "en": "email"
+        }
+    },
+
+    {
+        "id": "http://id.tincanapi.com/activitytype/essay",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ActivityType",
+        "definition": {
+          "en": "A short literary composition on a single subject, usually presenting the personal view of the author."
+        },
+        "prefLabel": {
+          "en": "essay"
+        }
+    },
+
+    {
+        "id": "http://id.tincanapi.com/activitytype/forum-reply",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ActivityType",
+        "definition": {
+          "en": "Any post in a forum or discussion board thread that isn't the first."
+        },
+        "prefLabel": {
+          "en": "forum reply"
+        }
+    },
+
+    {
+        "id": "http://id.tincanapi.com/activitytype/forum-topic",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ActivityType",
+        "definition": {
+          "en": "The first post in a thread on a forum or discussion board."
+        },
+        "prefLabel": {
+          "en": "forum topic"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/activitytype/goal",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ActivityType",
+        "definition": {
+          "en": "A goal is something that the actor wants to achieve, the purpose of doing a task or group of tasks. It can have subtasks and subgoals."
+        },
+        "prefLabel": {
+          "en": "goal"
+        }
+    },
+
+    {
+        "id": "http://id.tincanapi.com/activitytype/legacy-learning-standard",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ActivityType",
+        "definition": {
+          "en": "Activity representing a statement generated by a course originally implemented in a legacy learning standard such as SCORM 1.2, 2004, or AICC."
+        },
+        "prefLabel": {
+          "en": "legacy learning standard"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/activitytype/lms",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ActivityType",
+        "definition": {
+          "en": "Learning Management System. At it's core, a platform used to launch and track learning experiences. Many LMS also have a number of other additional features."
+        },
+        "prefLabel": {
+          "en": "LMS"
+        }
+    },
+
+    {
+        "id": "http://id.tincanapi.com/activitytype/paragraph",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ActivityType",
+        "definition": {
+          "en": "A distinct division of written or printed matter that begins on a new, usually indented line, consists of one or more sentences, and typically deals with a single thought or topic or quotes one speaker's continuous words."
+        },
+        "prefLabel": {
+          "en": "paragraph"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/activitytype/playlist",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ActivityType",
+        "definition": {
+          "en": "A collection of resources or experiences grouped together as recommended resources by an individual. Generally used for informally curated resources rather than official collections such as an LMS course."
+        },
+        "prefLabel": {
+          "en": "playlist"
+        }
+    },
+
+    {
+        "id": "http://id.tincanapi.com/activitytype/project",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ActivityType",
+        "definition": {
+          "en": "A project is a specific plan or set of tasks with a common goal. It can have subtasks and subgoals, resources, etc."
+        },
+        "prefLabel": {
+          "en": "project"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/activitytype/project",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ActivityType",
+        "definition": {
+          "en": "A site, perhaps within a project management tool or social platform, used to manage a particular project."
+        },
+        "prefLabel": {
+          "en": "project"
+        }
+    },
+
+    {
+        "id": "http://id.tincanapi.com/activitytype/project-site",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ActivityType",
+        "definition": {
+          "en": "project"
+        },
+        "prefLabel": {
+          "en": "A site, perhaps within a project management tool or social platform, used to manage a particular project."
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/activitytype/research-report",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ActivityType",
+        "definition": {
+          "en": "A research report from a government organization or other authoritative body giving information or proposals on an issue."
+        },
+        "prefLabel": {
+          "en": "research report"
+        }
+    },
+
+    {
+        "id": "http://id.tincanapi.com/activitytype/resource",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ActivityType",
+        "definition": {
+          "en": "A resource is a generic item that the actor may use for something. It could be a video, a text article, a device, etc. However, it is recommended to use a more specific activity type like those mentioned."
+        },
+        "prefLabel": {
+          "en": "resource"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/activitytype/reward",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ActivityType",
+        "definition": {
+          "en": "Refers to a compensation that the actor wants to get for achieving something."
+        },
+        "prefLabel": {
+          "en": "reward"
+        }
+    },
+
+    {
+        "id": "http://id.tincanapi.com/activitytype/sales-opportunity",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ActivityType",
+        "definition": {
+          "en": "Represents a sales opportunity, such as one might create in a CRM tool."
+        },
+        "prefLabel": {
+          "en": "sales opportunity"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/activitytype/scenario",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ActivityType",
+        "definition": {
+          "en": "delivering the content embedded within a story or scenario rather than just pushing the content straight out. Usually a story or a situation is presented to ask for learner's action, feedback or branching follow. In this way learners see how the learning is applied to job environments or real world problems."
+        },
+        "prefLabel": {
+          "en": "scenario"
+        }
+    },
+
+    {
+        "id": "http://id.tincanapi.com/activitytype/school-assignment",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ActivityType",
+        "definition": {
+          "en": "A school task performed by a student to satisfy the teacher. Examples are assessments, assigned reading, practice exercises, watch video, etc."
+        },
+        "prefLabel": {
+          "en": "school assignment"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/activitytype/section",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ActivityType",
+        "definition": {
+          "en": "A section of an application or platform. For sales performance app might be divided into client demo, learning materials and reference documents sections."
+        },
+        "prefLabel": {
+          "en": "section"
+        }
+    },
+
+    {
+        "id": "http://id.tincanapi.com/activitytype/security-role",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ActivityType",
+        "definition": {
+          "en": "A feature that enables system administrators to restrict system access and manage access on a per-user or per-group basis."
+        },
+        "prefLabel": {
+          "en": "security role"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/activitytype/slide",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ActivityType",
+        "definition": {
+          "en": "Slides are defined as a single page of a presentation or e-learning lesson."
+        },
+        "prefLabel": {
+          "en": "slide"
+        }
+    },
+
+    {
+        "id": "http://id.tincanapi.com/activitytype/slide-deck",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ActivityType",
+        "definition": {
+          "en": "A deck of slides generally used for a presentation."
+        },
+        "prefLabel": {
+          "en": "slide deck"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/activitytype/solution",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ActivityType",
+        "definition": {
+          "en": "Refers to the answer for a doubt that provides a solution. If the answer is not a solution, it should be coded as answer, or if it is just a comment, as comment."
+        },
+        "prefLabel": {
+          "en": "solution"
+        }
+    },
+
+    {
+        "id": "http://id.tincanapi.com/activitytype/source",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ActivityType",
+        "definition": {
+          "en": "Used with activities within the Context Activities category property of a Statement. Indicates the authoring tool, template or framework used to create the activity provider. This may help reporting tools to recognise that that data has come from a particular origin and handle the data correctly based on that information."
+        },
+        "prefLabel": {
+          "en": "source"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/activitytype/status-update",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ActivityType",
+        "definition": {
+          "en": "A status update e.g. on a social platform."
+        },
+        "prefLabel": {
+          "en": "status update"
+        }
+    },
+
+    {
+        "id": "http://id.tincanapi.com/activitytype/step",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ActivityType",
+        "definition": {
+          "en": "A step is one of several actions that the actor has to do to achieve something, for instance, a goal or the completion of a task. For instance, a method, strategy or task could be divided into smaller steps."
+        },
+        "prefLabel": {
+          "en": "step"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/activitytype/strategy",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ActivityType",
+        "definition": {
+          "en": "A strategy is a plan or method for achieving any specific goal, and can be formed by a group of steps."
+        },
+        "prefLabel": {
+          "en": "strategy"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/activitytype/strategy-embedded",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ActivityType",
+        "definition": {
+          "en": "Refers to a functionality embedded in the software system to facilitate the implementation of a strategy."
+        },
+        "prefLabel": {
+          "en": "embedded strategy"
+        }
+    },
+
+    {
+        "id": "http://id.tincanapi.com/activitytype/subcategory",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ActivityType",
+        "definition": {
+          "en": "Activity generally used in the category Context Activities lists to mark a statement as being related to a particular subject area. Distinct from tag in that it is used in conjunction with Category to imply a hierarchy of categorization."
+        },
+        "prefLabel": {
+          "en": "subcategory"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/activitytype/suggestion",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ActivityType",
+        "definition": {
+          "en": "A posted suggestion or idea. Typically these are things that can be discussed and/or voted on."
+        },
+        "prefLabel": {
+          "en": "suggestion"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/activitytype/test-data-batch",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ActivityType",
+        "definition": {
+          "en": "A test data batch is an Activity that is used in the Context Activities category property of a Statement to indicate that the Statement is part of a particular collection of test data. The Id of this Activity represents a single collection of test data e.g. the data generated for a particular test or by a particular tool."
+        },
+        "prefLabel": {
+          "en": "test data batch"
+        }
+    },
+
+    {
+        "id": "http://id.tincanapi.com/activitytype/tag",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ActivityType",
+        "definition": {
+          "en": "Activity generally used in the other or grouping Context Activities lists to mark a statement as being related to a particular subject area. Implemented as a one word identifier used for search filtering or tag cloud generation."
+        },
+        "prefLabel": {
+          "en": "tag"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/activitytype/tutor-session",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ActivityType",
+        "definition": {
+          "en": "This represents a tutoring session."
+        },
+        "prefLabel": {
+          "en": "tutor session"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/activitytype/tweet",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ActivityType",
+        "definition": {
+          "en": "A short message sent on Twitter. Used with the 'tweeted' verb."
+        },
+        "prefLabel": {
+          "en": "Tweet"
+        }
+    },
+
+    {
+        "id": "http://id.tincanapi.com/activitytype/unit-test",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ActivityType",
+        "definition": {
+          "en": "unit test"
+        },
+        "prefLabel": {
+          "en": "A unit test in a test suite that is part of a programming project."
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/activitytype/unit-test-suite",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ActivityType",
+        "definition": {
+          "en": "Suite of unit tests used by a programming project."
+        },
+        "prefLabel": {
+          "en": "unit test suite"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/activitytype/user-profile",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ActivityType",
+        "definition": {
+          "en": "A page displaying information about a user."
+        },
+        "prefLabel": {
+          "en": "user profile"
+        }
+    },
+
+    {
+        "id": "http://id.tincanapi.com/activitytype/vocabulary-word",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ActivityType",
+        "definition": {
+          "en": "Refers to a word that the learner defines or translates. The vocabulary word can be part of a collection. that is part of a vocabulary collection. An actor can use more than one vocabulary collection, for instance, for several languages or several topics. Besides the “name” (the word) and a “description” (meaning or translation), we recommend the use of moreInfo to link to a definition in an online dictionary. As an option, you can use the extension tags to classify the words."
+        },
+        "prefLabel": {
+          "en": "vocabulary word"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/activitytype/voicemail",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ActivityType",
+        "definition": {
+          "en": "A recorded audio message left for someone, generally via a phone or similar communication system."
+        },
+        "prefLabel": {
+          "en": "vocabulary word"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/activitytype/webinar",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ActivityType",
+        "definition": {
+          "en": "A seminar conducted over the Internet which may be live or recorded."
+        },
+        "prefLabel": {
+          "en": "webinar"
+        }
+    },
+
+    {
+        "id": "http://risc-inc.com/annotator/activities/highlight",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ActivityType",
+        "definition": {
+          "en": "An annotation of the 'highlight' type. Highlights are used to mark strings of text in a document with a color. This activity type should only be used for highlighted text and not for highlighted images or other elements."
+        },
+        "prefLabel": {
+          "en": "highlighted text annotation"
+        }
+    },
+    {
+        "id": "http://risc-inc.com/annotator/activities/note",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ActivityType",
+        "definition": {
+          "en": "Indicates an annotation made to a document of the 'note' form. This is a string of text appended to the document at a specified location. Note annotations can be added anywhere on the page. This activity type should not be used for other types of note that are not annotations to a document."
+        },
+        "prefLabel": {
+          "en": "note annotation"
+        }
+    },
+    {
+        "id": "http://risc-inc.com/annotator/activities/underline",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ActivityType",
+        "definition": {
+          "en": "An annotation of the 'underline' type. Underlines are used to mark strings of text in a document with a line underneath the text. This activity type should only be used for underlined text and not for images or other elements."
+        },
+        "prefLabel": {
+          "en": "underline annotation"
+        }
+    },
+
+    {
+        "id": "http://www.risc-inc.com/annotator/activities/freetext",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ActivityType",
+        "definition": {
+          "en": "Indicates an annotation made to a document of the 'freetext' form. This is a string of text written direction onto the document at a specified location. Freetext annotations can be added anywhere on the page. Unlike note annotations, they have no border or background."
+        },
+        "prefLabel": {
+          "en": "freetext annotation"
+        }
+    },
+    {
+        "id": "http://www.tincanapi.co.uk/activitytypes/grade_classification",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ActivityType",
+        "definition": {
+          "en": "Represents a grade given or received within a particular context, for example ‘distinction’ within XYZ music test or ‘A’ for ABC qualification."
+        },
+        "prefLabel": {
+          "en": "grade classification"
+        }
+    },
+    {
+        "id": "https://www.opigno.org/en/tincan_registry/activity_type/certificate",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ActivityType",
+        "definition": {
+          "en": "A document attesting to the fact that a person has completed an educational course."
+        },
+        "prefLabel": {
+          "en": "certificate"
+        }
+    },
+
+    {
+        "id": "http://id.tincanapi.com/extension/apm",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ResultExtension",
+        "definition": {
+          "en": "A result extension used in the Tetris prototype at http://tincanapi.com/prototypes. Actions per minute (APM) is a commonly reported on statistic in gaming as one mechanism for measuring the player's skill. See http://en.wikipedia.org/wiki/Actions_per_minute."
+        },
+        "prefLabel": {
+          "en": "actionsper minute"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/extension/assessment-type",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ContextExtension",
+        "definition": {
+          "en": "A value representing the type of assessment like formative, summative, pretest, posttest, etc."
+        },
+        "prefLabel": {
+          "en": "assessment type"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/extension/attempt-id",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ContextExtension",
+        "definition": {
+          "en": "Used to differentiate between attempts within a given registration. This extension is especially useful for games, for example in the Tetris prototype at http://tincanapi.com/prototypes this extension is used as an identifier for each new game of Tetris."
+        },
+        "prefLabel": {
+          "en": "attempt ID"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/extension/browser-info",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ContextExtension",
+        "definition": {
+          "en": "Value is an object containing key/value pairs describing various elements of a web browser. Same as user-agent."
+        },
+        "exactMatch": ["https://w3id.org/xapi/video/extensions/user-agent"],
+        "prefLabel": {
+          "en": "browser information"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/extension/cmi-interaction-weighting",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ContextExtension",
+        "definition": {
+          "en": "A number that indicates the importance of this interaction relative to other interactions. Corresponds to cmi.interactions[x].weighting"
+        },
+        "prefLabel": {
+          "en": "cmi interaction weighting"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/extension/collection-type",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ContextExtension",
+        "definition": {
+          "en": "Represents the activity type of the objects of a simple collection."
+        },
+        "prefLabel": {
+          "en": "collection type"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/extension/color",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ContextExtension",
+        "definition": {
+          "en": "A value representing a specific color as defined via a provided color model. Because the representation of a color depends on the model in which it was defined the value used should be an object that specifies two (at least) properties, specifically the 'model' used as well as the 'value' for the specific color within the color space."
+        },
+        "prefLabel": {
+          "en": "color"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/extension/condition-type",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ContextExtension",
+        "definition": {
+          "en": "Represents the type of condition that the actor needs to achieve to do what the verb in the statement expresses."
+        },
+        "prefLabel": {
+          "en": "condition type"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/extension/condition-value",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ContextExtension",
+        "definition": {
+          "en": "Represents the value (if necessary) to accomplish the condition. For instance, if the condition is a time limit, the condition value is the time expressed in the ISO8601 format, the same used in the result duration property."
+        },
+        "prefLabel": {
+          "en": "condition value"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/extension/data-uri",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ContextExtension",
+        "definition": {
+          "en": "Extension whose value is a string that follows the Data URI scheme as defined by RFC 2397."
+        },
+        "prefLabel": {
+          "en": "data URI"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/extension/date",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ContextExtension",
+        "definition": {
+          "en": "Value representing a calendar date, such as 2013-08-27. Value should be a string formatted as an ISO8601 date to match the rest of the specification values."
+        },
+        "prefLabel": {
+          "en": "date"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/extension/datetime",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ContextExtension",
+        "definition": {
+          "en": "Value representing a calendar date and time, such as 2013-08-27 09:26:45.001. Value should be a string formatted as an ISO8601 date and time to match the rest of the specification values."
+        },
+        "prefLabel": {
+          "en": "datetime"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/extension/drop-down",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ContextExtension",
+        "definition": {
+          "en": "Contains an interaction component for a non standard question type. Non-standard question type used in e-learning: any number of drop-down on a graphic. Each drop-down is a subquestion. "
+        },
+        "prefLabel": {
+          "en": "drop-down"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/extension/duration",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ResultExtension",
+        "definition": {
+          "en": "Value representing a length of time, for example the length of a video. Value should be either a string formatted as an ISO8601 duration to match the Result.duration property or a float that uses the same units as expected with correlating information (other extensions). This extension will generally be used within an Activity Definition to indicate a length of an Activity as compared to the Result.duration which captures the length of time for a specific event. For example a video may be 5 minutes long (this Extension), but an actor may have only watched 30 seconds of it (the Result.duration)."
+        },
+        "prefLabel": {
+          "en": "duration"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/extension/ending-point",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ResultExtension",
+        "definition": {
+          "en": "The final point at which an actor ceases an activity. For example stopping the playing of a video at a specific position either manually or automatically. Goes along with Starting Point. Can be used with types of media and/or activities other than video."
+        },
+        "prefLabel": {
+          "en": "ending point"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/extension/ending-position",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ContextExtension",
+        "definition": {
+          "en": "Final position within an ordinal set of numbers. Can also be thought of as a rank. For example the ending position of a car or runner in a race. To be used with Starting Position."
+        },
+        "prefLabel": {
+          "en": "ending position"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/extension/feedback",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ContextExtension",
+        "definition": {
+          "en": "A value representing a piece of feedback relating to a statement. The feedback should be a string."
+        },
+        "prefLabel": {
+          "en": "feedback"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/extension/irl",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ContextExtension",
+        "definition": {
+          "en": "Value should be a fully qualified IRL that is resolvable. In so far as the IRL space contains all possible URLs this is provided in place of a more specific URL to match the expectation of the specification for using IRI/IRL."
+        },
+        "prefLabel": {
+          "en": "IRL"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/extension/geojson",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ContextExtension",
+        "definition": {
+          "en": "Value should be a GeoJSON object as defined by the GeoJSON specification. GeoJSON can be used to represent GPS coordinates, as well as other geometrical entities. See http://www.geojson.org/ for more information."
+        },
+        "prefLabel": {
+          "en": "GeoJSON"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/extension/invitee",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ContextExtension",
+        "definition": {
+          "en": "To be used in the context. Contains a single object representing the actor which is being invited to the experience. For example the group on a social learning site. When using this extension, it is recommended to use the same actor objects that are used in other statements."
+        },
+        "prefLabel": {
+          "en": "invitee"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/extension/ip-address",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ContextExtension",
+        "definition": {
+          "en": "Value is a string representing an Internet Protocol address (IP address) in either IPv4 or IPv6 format. An example usage may be to help identify the client's real address location on internet as a Context extension. Another example may be to include relevant information about the http://activitystrea.ms/schema/1.0/page Activity type. IPv4 Address A string in decimal-dot notation, consisting of four decimal integers in the inclusive range 0-255, separated by dots (e.g. 192.168.0.1)."
+        },
+        "prefLabel": {
+          "en": "IP address"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/extension/isbn",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ContextExtension",
+        "definition": {
+          "en": "Value should be either a 10 digit ISBN or 13 digit ISBN string. Either value is acceptable as implementing systems can easily distinguish the two based on the length of the value. For more information see ISO 2108."
+        },
+        "prefLabel": {
+          "en": "ISBN"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/extension/jws-certificate-location",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ContextExtension",
+        "definition": {
+          "en": "Context extension containing the URL of a public certificate that can be used to verify the signature of the statement."
+        },
+        "prefLabel": {
+          "en": "JWS certificate location"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/extension/latitude",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ContextExtension",
+        "definition": {
+          "en": "A geographic coordinate that specifies the north-south position of a point on the Earth's surface."
+        },
+        "prefLabel": {
+          "en": "Latitude"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/extension/location",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ContextExtension",
+        "definition": {
+          "en": "A non-specific (as in format) string value representing a location in which an activity took place. May contain an address, but for formal addresses a more specific format should be used with accompanying Extension."
+        },
+        "prefLabel": {
+          "en": "location"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/extension/longitude",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ContextExtension",
+        "definition": {
+          "en": "A geographic coordinate that specifies the east-west position of a point on the Earth's surface."
+        },
+        "prefLabel": {
+          "en": "longitude"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/extension/measurement",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ContextExtension",
+        "definition": {
+          "en": "Value that represents a measured unit or physical quantity such as a distance or weight. For interoperability the value should be a string that follows the SI (International System of Units) recommendations for formatting and may include any value that can be described by its units. For additional information see the ISO 80000 standard."
+        },
+        "prefLabel": {
+          "en": "measurement"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/extension/monetary-value",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ContextExtension",
+        "definition": {
+          "en": "A value representing the currency and amount of money. The value is an object with two properties, 'amount' which is a float and 'currency' which should hold an ISO 4217 code or number code."
+        },
+        "prefLabel": {
+          "en": "monetary value"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/extension/observer",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ContextExtension",
+        "definition": {
+          "en": "Context extension containing an Agent or Group object representing an agent or group who observed the experience."
+        },
+        "prefLabel": {
+          "en": "observer"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/extension/planned-duration",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ContextExtension",
+        "definition": {
+          "en": "Context extension containing an ISO 8601 duration representing the planned duration of a scheduled or planned event."
+        },
+        "prefLabel": {
+          "en": "planned duration"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/extension/planned-start-time",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ContextExtension",
+        "definition": {
+          "en": "Context extension containing an ISO 8601 timestamp representing the planned start time of a scheduled or planned event."
+        },
+        "prefLabel": {
+          "en": "planned start time"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/extension/position",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ContextExtension",
+        "definition": {
+          "en": "Represents the position of the object in a group or collection of elements. It is needed when the group of elements should be in order."
+        },
+        "prefLabel": {
+          "en": "position"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/extension/powered-by",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ContextExtension",
+        "definition": {
+          "en": "Information about what software is used to run a system."
+        },
+        "prefLabel": {
+          "en": "powered by"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/extension/private-area",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ContextExtension",
+        "definition": {
+          "en": "An area, for instance within a Learning Management System (LMS), in which students and teachers can share pedagogical objects and interact privately."
+        },
+        "prefLabel": {
+          "en": "private area"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/extension/published",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ContextExtension",
+        "definition": {
+          "en": "Activity definition extension. The date and time at which the activity was published. Corresponds to the Activity Streams 1.0 'published' property."
+        },
+        "prefLabel": {
+          "en": "published"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/extension/purpose",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ContextExtension",
+        "definition": {
+          "en": "Represents the purpose of the object or result, as a way of classification."
+        },
+        "prefLabel": {
+          "en": "purpose"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/extension/quality-rating",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ResultExtension",
+        "definition": {
+          "en": "Value is an object that is similar to the Result's 'score' property in that it should include a 'raw' value as well as 'min' and 'max' range indicators. So that a phrase such as '4 out of 5 stars' can be indicated such as: { raw: 4, min: 1, max: 5 }."
+        },
+        "prefLabel": {
+          "en": "quality-rating"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/extension/referrer",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ContextExtension",
+        "definition": {
+          "en": "To be used in the context. Contains a single activity object representing the activity which referred the learner to the experience. For example the page of an e-learning course that sent the learner to their current location. When using this extension, it is recommended to also include the activity object as one of the 'other' contextActivities of the statement as well for tools that don't recognize this extension."
+        },
+        "prefLabel": {
+          "en": "referrer"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/extension/reflection",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ContextExtension",
+        "definition": {
+          "en": "Represents a reflection of the actor about the object."
+        },
+        "prefLabel": {
+          "en": "reflection"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/extension/severity",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ContextExtension",
+        "definition": {
+          "en": "Indicates the associated level of an event. For example it could be used to indicate the level of an injury or incident."
+        },
+        "prefLabel": {
+          "en": "severity"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/extension/",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ContextExtension",
+        "definition": {
+          "en": ""
+        },
+        "prefLabel": {
+          "en": ""
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/extension/share-medium",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ContextExtension",
+        "definition": {
+          "en": "Context extension used with the verb http://adlnet.gov/expapi/verbs/shared. Indicates the medium that the object has been shared over. Contains a single word lowercase string representing the share medium e.g. email, sms, twitter, facebook."
+        },
+        "prefLabel": {
+          "en": "share-medium"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/extension/starting-point",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ContextExtension",
+        "definition": {
+          "en": "The initial point from which an agent begins an activity. For example starting to play a video from a specific position in the video. Goes along with 'Ending Point.' Can be used with types of media and/or activities other than video."
+        },
+        "prefLabel": {
+          "en": "starting-point"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/extension/starting-position",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ContextExtension",
+        "definition": {
+          "en": "Initial position within an ordinal set of numbers. Can also be thought of as a rank. For example the starting position of a car or runner in a race. To be used with 'Ending Position.'"
+        },
+        "prefLabel": {
+          "en": "starting-position"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/extension/tags",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ContextExtension",
+        "definition": {
+          "en": "A list of arbitrary tags to associate with a statement. Value of the extension should be an array with each tag being a string value as an element of the array."
+        },
+        "prefLabel": {
+          "en": "tags"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/extension/target",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ContextExtension",
+        "definition": {
+          "en": "Based on the Activity Streams target property. Contains the target of the statement e.g. Brian Shared 'statements deep dive' with Andrew - Andrew is the target. The value of this extension can be anything that would be a legal value of the statement's object property."
+        },
+        "prefLabel": {
+          "en": "target"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/extension/tetris-lines",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ResuExtension",
+        "definition": {
+          "en": "The number of lines achieved in a game of Tetris or another game of a similar type. This extension is used by the Tetris game prototype at http://tincanapi.com/prototypes."
+        },
+        "prefLabel": {
+          "en": "tetris-lines"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/extension/time",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ResultExtension",
+        "definition": {
+          "en": "Value representing a moment in time but not specific to a date, such as 12:34:56.789. Value should be a string formatted as an ISO8601 time to match the rest of the specification values."
+        },
+        "prefLabel": {
+          "en": "time"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/extension/topic",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ContextExtension",
+        "definition": {
+          "en": "A value that contains a topic for a statement."
+        },
+        "prefLabel": {
+          "en": "topic"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/extension/training-provider",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ContextExtension",
+        "definition": {
+          "en": "An agent or group representing the company or organization that offers a training session."
+        },
+        "prefLabel": {
+          "en": "training-provider"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/extension/tweet",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ContextExtension",
+        "definition": {
+          "en": "An ID for a tweet, such as 373445672076197889. It is advised to also supply the author of the tweet's handle and the text of the tweet as values with this extension."
+        },
+        "prefLabel": {
+          "en": "tweet"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/extension/updated",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ContextExtension",
+        "definition": {
+          "en": "The date and time at which a previously published activity has been modified. Corresponds to the Activity Streams 1.0 'updated' property."
+        },
+        "prefLabel": {
+          "en": "updated"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/extension/valid-until",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ResultExtension",
+        "definition": {
+          "en": "An extension on the Result object indicating for how long the completion of this training is considered valid, before the actor needs to re-certify. The type should be an ISO8601 timestamp."
+        },
+        "prefLabel": {
+          "en": "valid-until"
+        }
+    },
+
+    {
+        "id": "http://www.tincanapi.co.uk/extensions/result/classification",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ResultExtension",
+        "definition": {
+          "en": "A result extension used to store the grade awarded as a result of the experience. The value of this extension is an activity object representing the grade earned. This activity object should have an activity type of http://www.tincanapi.co.uk/activitytypes/grade_classification. The name of the activity should contain the value of the grade (e.g. “A”). An activity object is used rather than a single letter string as grade letters in different contexts, for example a grade A for a nationally recognized qualification has very different meaning to an A awarded by a teacher to a small child for a drawing of a cat. The activity used should represent the grade within the context it is awarded."
+        },
+        "prefLabel": {
+          "en": "classification"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/attachment/certificate-of-completion",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "AttachmentUsageType",
+        "definition": {
+          "en": "Certificate provided upon completion of an exercise, perhaps as part of a formal learning activity."
+        },
+        "prefLabel": {
+          "en": "certificate of completion"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/attachment/contract",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "AttachmentUsageType",
+        "definition": {
+          "en": "A contract intended to be legally binding between two parties. May be part of a sales process, hiring process, real estate transaction, etc."
+        },
+        "prefLabel": {
+          "en": "contract"
+        }
+    },
+    {
+        "id": "http://id.tincanapi.com/attachment/supporting_media",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "AttachmentUsageType",
+        "definition": {
+          "en": "A media file that supports the experience. For example a video that shows the experience taking place."
+        },
+        "prefLabel": {
+          "en": "supporting media"
+        }
+    }
+  ]
+}
