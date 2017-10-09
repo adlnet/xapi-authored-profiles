@@ -254,7 +254,7 @@
 <http://id.tincanapi.com/activitytype/tweet> a <https://w3id.org/xapi/ontology#ActivityType>;
    skos:definition "A short message sent on Twitter. Used with the 'tweeted' verb."@en;
    skos:inScheme <http://registry.tincanapi.com>;
-   skos:prefLabel "Tweet"@en .
+   skos:prefLabel "tweet"@en .
 
 <http://id.tincanapi.com/activitytype/unit-test> a <https://w3id.org/xapi/ontology#ActivityType>;
    skos:definition "A unit test in a test suite that is part of a programming project."@en;
