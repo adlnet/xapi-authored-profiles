@@ -6,7 +6,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 < http://activitystrea.ms/schema/1.0/like> a <https://w3id.org/xapi/ontology#Verb>;
-   skos:definition "Indicates that the actor marked the object as an item of special interest. The \"like\" verb is considered to be an alias of \"favorite\". The two verb are semantically identical."@en;
+   skos:definition "Indicates that the actor marked the object as an item of special interest. The like verb is considered to be an alias of favorite. The two verb are semantically identical."@en;
    skos:inScheme <http://activitystrea.ms/schema/1.0>;
    skos:prefLabel "liked"@en .
 
@@ -93,7 +93,7 @@
    skos:prefLabel "audio"@en .
 
 <http://activitystrea.ms/schema/1.0/author> a <https://w3id.org/xapi/ontology#Verb>;
-   skos:definition "Indicates that the actor has authored the object. Note that this is a more specific form of the verb \"create\"."@en;
+   skos:definition "Indicates that the actor has authored the object. Note that this is a more specific form of the verb create."@en;
    skos:inScheme <http://activitystrea.ms/schema/1.0>;
    skos:prefLabel "authored"@en .
 
@@ -164,7 +164,7 @@
    skos:prefLabel "confirmed"@en .
 
 <http://activitystrea.ms/schema/1.0/consume> a <https://w3id.org/xapi/ontology#Verb>;
-   skos:definition "Indicates that the actor has consumed the object. The specific meaning is dependent largely on the objects type. For instance, an actor may \"consume\" an audio object, indicating that the actor has listened to it; or an actor may \"consume\" a book, indicating that the book has been read. As such, the \"consume\" verb is a more generic form of other more specific verbs such as \"read\" and \"play\""@en;
+   skos:definition "Indicates that the actor has consumed the object. The specific meaning is dependent largely on the objects type. For instance, an actor may consume an audio object, indicating that the actor has listened to it; or an actor may consume a book, indicating that the book has been read. As such, the consume verb is a more generic form of other more specific verbs such as read and play"@en;
    skos:inScheme <http://activitystrea.ms/schema/1.0>;
    skos:prefLabel "consumed"@en .
 
@@ -209,7 +209,7 @@
    skos:prefLabel "event"@en .
 
 <http://activitystrea.ms/schema/1.0/experience> a <https://w3id.org/xapi/ontology#Verb>;
-   skos:definition "Indicates that the actor has experienced the object in some manner. Note that, depending on the specific object types used for both the actor and object, the meaning of this verb can overlap that of the \"consume\" and \"play\" verbs. For instance, a person might \"experience\" a movie; or \"play\" the movie; or \"consume\" the movie. The \"experience\" verb can be considered a more generic form of other more specific verbs as \"consume\", \"play\", \"watch\", \"listen\", and \"read.\""@en;
+   skos:definition "Indicates that the actor has experienced the object in some manner. Note that, depending on the specific object types used for both the actor and object, the meaning of this verb can overlap that of the consume and play verbs. For instance, a person might experience a movie; or play the movie; or consume the movie. The experience verb can be considered a more generic form of other more specific verbs as consume, play, watch, listen, and read."@en;
    skos:exactMatch <http://adlnet.gov/expapi/verbs/experienced>;
    skos:inScheme <http://activitystrea.ms/schema/1.0>;
    skos:prefLabel "experienced"@en .
@@ -235,7 +235,7 @@
    skos:prefLabel "flaggedasinappropriate"@en .
 
 <http://activitystrea.ms/schema/1.0/follow> a <https://w3id.org/xapi/ontology#Verb>;
-   skos:definition "Indicates that the actor began following the activity of the object. In most cases, the objectType will be a \"person\", but it can potentially be of any type that can sensibly generate activity. Processors MAY ignore (silently drop) successive identical \"follow\" activities."@en;
+   skos:definition "Indicates that the actor began following the activity of the object. In most cases, the objectType will be a person, but it can potentially be of any type that can sensibly generate activity. Processors MAY ignore (silently drop) successive identical follow activities."@en;
    skos:inScheme <http://activitystrea.ms/schema/1.0>;
    skos:prefLabel "followed"@en .
 
@@ -311,7 +311,7 @@
    skos:prefLabel "left"@en .
 
 <http://activitystrea.ms/schema/1.0/listen> a <https://w3id.org/xapi/ontology#Verb>;
-   skos:definition "Indicates that the actor has listened to the object. This is typically only applicable for objects representing audio content, such as music, an audio-book, or a radio broadcast. The \"listen\" verb is a more specific form of the \"consume\", \"experience\" and \"play\" verbs."@en;
+   skos:definition "Indicates that the actor has listened to the object. This is typically only applicable for objects representing audio content, such as music, an audio-book, or a radio broadcast. The listen verb is a more specific form of the consume, experience and play verbs."@en;
    skos:inScheme <http://activitystrea.ms/schema/1.0>;
    skos:prefLabel "listened"@en .
 
@@ -356,7 +356,7 @@
    skos:prefLabel "place"@en .
 
 <http://activitystrea.ms/schema/1.0/play> a <https://w3id.org/xapi/ontology#Verb>;
-   skos:definition "Indicates that the actor spent some time enjoying the object. For example, if the object is a video this indicates that the subject watched all or part of the video. The \"play\" verb is a more specific form of the \"consume\" verb."@en;
+   skos:definition "Indicates that the actor spent some time enjoying the object. For example, if the object is a video this indicates that the subject watched all or part of the video. The play verb is a more specific form of the consume verb."@en;
    skos:exactMatch <https://w3id.org/xapi/videoplayed>;
    skos:inScheme <http://activitystrea.ms/schema/1.0>;
    skos:prefLabel "played"@en .
@@ -453,17 +453,17 @@
    skos:prefLabel "review"@en .
 
 <http://activitystrea.ms/schema/1.0/rsvp-maybe> a <https://w3id.org/xapi/ontology#Verb>;
-   skos:definition "The \"possible RSVP\" verb indicates that the actor has made a possible RSVP for the object. This specification only defines the meaning of this verb when its object is an event (see Section 3.3), though implementors need to be prepared to handle other object types. The use of this verb is only appropriate when the RSVP was created by an explicit action by the actor. It is not appropriate to use this verb when a user has been added as an attendee by an event organizer or administrator. This verb is included for data conversion with Activity Streams, its not recommended for use in new Tin Can statements."@en;
+   skos:definition "The possible RSVP verb indicates that the actor has made a possible RSVP for the object. This specification only defines the meaning of this verb when its object is an event (see Section 3.3), though implementors need to be prepared to handle other object types. The use of this verb is only appropriate when the RSVP was created by an explicit action by the actor. It is not appropriate to use this verb when a user has been added as an attendee by an event organizer or administrator. This verb is included for data conversion with Activity Streams, its not recommended for use in new Tin Can statements."@en;
    skos:inScheme <http://activitystrea.ms/schema/1.0>;
    skos:prefLabel "RSVPed maybe"@en .
 
 <http://activitystrea.ms/schema/1.0/rsvp-no> a <https://w3id.org/xapi/ontology#Verb>;
-   skos:definition "The \"negative RSVP\" verb indicates that the actor has made a negative RSVP for the object. This specification only defines the meaning of this verb when its object is an event (see Section 3.3), though implementors need to be prepared to handle other object types. The use of this verb is only appropriate when the RSVP was created by an explicit action by the actor. It is not appropriate to use this verb when a user has been added as an attendee by an event organizer or administrator. This verb is included for data conversion with Activity Streams, its not recommended for use in new Tin Can statements."@en;
+   skos:definition "The negative RSVP verb indicates that the actor has made a negative RSVP for the object. This specification only defines the meaning of this verb when its object is an event (see Section 3.3), though implementors need to be prepared to handle other object types. The use of this verb is only appropriate when the RSVP was created by an explicit action by the actor. It is not appropriate to use this verb when a user has been added as an attendee by an event organizer or administrator. This verb is included for data conversion with Activity Streams, its not recommended for use in new Tin Can statements."@en;
    skos:inScheme <http://activitystrea.ms/schema/1.0>;
    skos:prefLabel "RSVPed no"@en .
 
 <http://activitystrea.ms/schema/1.0/rsvp-yes> a <https://w3id.org/xapi/ontology#Verb>;
-   skos:definition "The \"positive RSVP\" verb indicates that the actor has made a positive RSVP for an object. This specification only defines the meaning of this verb when its object is an event (see Section 3.3), though implementors need to be prepared to handle other object types. The use of this verb is only appropriate when the RSVP was created by an explicit action by the actor. It is not appropriate to use this verb when a user has been added as an attendee by an event organizer or administrator. This verb is included for data conversion with Activity Streams, its not recommended for use in new Tin Can statements."@en;
+   skos:definition "The positive RSVP verb indicates that the actor has made a positive RSVP for an object. This specification only defines the meaning of this verb when its object is an event (see Section 3.3), though implementors need to be prepared to handle other object types. The use of this verb is only appropriate when the RSVP was created by an explicit action by the actor. It is not appropriate to use this verb when a user has been added as an attendee by an event organizer or administrator. This verb is included for data conversion with Activity Streams, its not recommended for use in new Tin Can statements."@en;
    skos:inScheme <http://activitystrea.ms/schema/1.0>;
    skos:prefLabel "RSVPed yes"@en .
 
@@ -474,7 +474,7 @@
    skos:prefLabel "satisfied"@en .
 
 <http://activitystrea.ms/schema/1.0/save> a <https://w3id.org/xapi/ontology#Verb>;
-   skos:definition "Indicates that the actor has called out the object as being of interest primarily to him- or herself. Though this action MAY be shared publicly, the implication is that the object has been saved primarily for the actors own benefit rather than to show it to others as would be indicated by the \"share\" verb."@en;
+   skos:definition "Indicates that the actor has called out the object as being of interest primarily to him- or herself. Though this action MAY be shared publicly, the implication is that the object has been saved primarily for the actors own benefit rather than to show it to others as would be indicated by the share verb."@en;
    skos:inScheme <http://activitystrea.ms/schema/1.0>;
    skos:prefLabel "saved"@en .
 
@@ -591,7 +591,7 @@
    skos:prefLabel "video"@en .
 
 <http://activitystrea.ms/schema/1.0/watch> a <https://w3id.org/xapi/ontology#Verb>;
-   skos:definition "Indicates that the actor has watched the object. This verb is typically applicable only when the object represents dynamic, visible content such as a movie, a television show or a public performance. This verb is a more specific form of the verbs \"experience\", \"play\" and \"consume\"."@en;
+   skos:definition "Indicates that the actor has watched the object. This verb is typically applicable only when the object represents dynamic, visible content such as a movie, a television show or a public performance. This verb is a more specific form of the verbs experience, play and consume."@en;
    skos:inScheme <http://activitystrea.ms/schema/1.0>;
    skos:prefLabel "watched"@en .
 

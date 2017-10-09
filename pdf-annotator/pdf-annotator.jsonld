@@ -20,7 +20,7 @@
       "inScheme": "http://www.risc-inc.com/annotator/",
       "type": "ContextExtension",
       "definition": {
-        "en": "This extension is used to describe the RGB colour of a PDF annotation highlight, underline of typewriter annotation. The value of this extension is a string, for example #FFCC66. For any use cases outside of PDF annotations, consider http://id.tincanapi.com/extension/color to record the colour of an activity."
+        "en": "This extension is used to describe the RGB colour of a PDF annotation highlight, underline of typewriter annotation. The value of this extension is a string, for example #FFCC66. For any use cases outside of PDF annotations, consider the tincan color extension to record the colour of an activity."
       },
       "prefLabel": {
         "en": "PDF annotation highlight colour"
@@ -31,7 +31,7 @@
       "inScheme": "http://www.risc-inc.com/annotator/",
       "type": "ContextExtension",
       "definition": {
-        "en": "Activity definition extension used with activities of type http://www.risc-inc.com/annotator/activities/highlight and http://www.risc-inc.com/annotator/activities/underline. Stores the string of text that has been highlighted or underlined. For example the end of one bullet point and the beginning of the next bullet might be represented as: Reliability Authority \r\n•\r\n Personnel Issues."
+        "en": "Activity definition extension used with highlight and underline activity types. Stores the string of text that has been highlighted or underlined."
       },
       "prefLabel": {
         "en": "highlighted string"
@@ -119,7 +119,7 @@
       "inScheme": "http://www.risc-inc.com/annotator/",
       "type": "Verb",
       "definition": {
-        "en": "This verb is used on annotations created with the http://risc-inc.com/annotator/verbs/annotated verb. It indicates that an existing annotation has been modified, for example editing the text of a note annotation or adjusting the position of a underline or highlight."
+        "en": "This verb is used on annotations created with the annotated verb. It indicates that an existing annotation has been modified, for example editing the text of a note annotation or adjusting the position of a underline or highlight."
       },
       "prefLabel": {
         "en": "modified annotation"
