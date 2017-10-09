@@ -123,7 +123,7 @@
 <http://id.tincanapi.com/activitytype/lms> a <https://w3id.org/xapi/ontology#ActivityType>;
    skos:definition "Learning Management System. At it's core, a platform used to launch and track learning experiences. Many LMS also have a number of other additional features."@en;
    skos:inScheme <http://registry.tincanapi.com>;
-   skos:prefLabel "LMS"@en .
+   skos:prefLabel "lms"@en .
 
 <http://id.tincanapi.com/activitytype/paragraph> a <https://w3id.org/xapi/ontology#ActivityType>;
    skos:definition "A distinct division of written or printed matter that begins on a new, usually indented line, consists of one or more sentences, and typically deals with a single thought or topic or quotes one speaker's continuous words."@en;
@@ -142,9 +142,9 @@
    skos:prefLabel "project"@en .
 
 <http://id.tincanapi.com/activitytype/project-site> a <https://w3id.org/xapi/ontology#ActivityType>;
-   skos:definition "project"@en;
+   skos:definition "A site, perhaps within a project management tool or social platform, used to manage a particular project."@en;
    skos:inScheme <http://registry.tincanapi.com>;
-   skos:prefLabel "A site, perhaps within a project management tool or social platform, used to manage a particular project."@en .
+   skos:prefLabel "project."@en .
 
 <http://id.tincanapi.com/activitytype/research-report> a <https://w3id.org/xapi/ontology#ActivityType>;
    skos:definition "A research report from a government organization or other authoritative body giving information or proposals on an issue."@en;
@@ -257,9 +257,9 @@
    skos:prefLabel "Tweet"@en .
 
 <http://id.tincanapi.com/activitytype/unit-test> a <https://w3id.org/xapi/ontology#ActivityType>;
-   skos:definition "unit test"@en;
+   skos:definition "A unit test in a test suite that is part of a programming project."@en;
    skos:inScheme <http://registry.tincanapi.com>;
-   skos:prefLabel "A unit test in a test suite that is part of a programming project."@en .
+   skos:prefLabel "unit test"@en .
 
 <http://id.tincanapi.com/activitytype/unit-test-suite> a <https://w3id.org/xapi/ontology#ActivityType>;
    skos:definition "Suite of unit tests used by a programming project."@en;
@@ -390,7 +390,7 @@
 <http://id.tincanapi.com/extension/geojson> a <https://w3id.org/xapi/ontology#ContextExtension>;
    skos:definition "Value should be a GeoJSON object as defined by the GeoJSON specification. GeoJSON can be used to represent GPS coordinates, as well as other geometrical entities. See http://www.geojson.org/ for more information."@en;
    skos:inScheme <http://registry.tincanapi.com>;
-   skos:prefLabel "GeoJSON"@en .
+   skos:prefLabel "geo JSON"@en .
 
 <http://id.tincanapi.com/extension/invitee> a <https://w3id.org/xapi/ontology#ContextExtension>;
    skos:definition "To be used in the context. Contains a single object representing the actor which is being invited to the experience. For example the group on a social learning site. When using this extension, it is recommended to use the same actor objects that are used in other statements."@en;
@@ -400,27 +400,27 @@
 <http://id.tincanapi.com/extension/ip-address> a <https://w3id.org/xapi/ontology#ContextExtension>;
    skos:definition "Value is a string representing an Internet Protocol address (IP address) in either IPv4 or IPv6 format. An example usage may be to help identify the client's real address location on internet as a Context extension. Another example may be to include relevant information about the http://activitystrea.ms/schema/1.0/page Activity type. IPv4 Address A string in decimal-dot notation, consisting of four decimal integers in the inclusive range 0-255, separated by dots (e.g. 192.168.0.1)."@en;
    skos:inScheme <http://registry.tincanapi.com>;
-   skos:prefLabel "IP address"@en .
+   skos:prefLabel "ip address"@en .
 
 <http://id.tincanapi.com/extension/irl> a <https://w3id.org/xapi/ontology#ContextExtension>;
    skos:definition "Value should be a fully qualified IRL that is resolvable. In so far as the IRL space contains all possible URLs this is provided in place of a more specific URL to match the expectation of the specification for using IRI/IRL."@en;
    skos:inScheme <http://registry.tincanapi.com>;
-   skos:prefLabel "IRL"@en .
+   skos:prefLabel "irl"@en .
 
 <http://id.tincanapi.com/extension/isbn> a <https://w3id.org/xapi/ontology#ContextExtension>;
    skos:definition "Value should be either a 10 digit ISBN or 13 digit ISBN string. Either value is acceptable as implementing systems can easily distinguish the two based on the length of the value. For more information see ISO 2108."@en;
    skos:inScheme <http://registry.tincanapi.com>;
-   skos:prefLabel "ISBN"@en .
+   skos:prefLabel "isbn"@en .
 
 <http://id.tincanapi.com/extension/jws-certificate-location> a <https://w3id.org/xapi/ontology#ContextExtension>;
    skos:definition "Context extension containing the URL of a public certificate that can be used to verify the signature of the statement."@en;
    skos:inScheme <http://registry.tincanapi.com>;
-   skos:prefLabel "JWS certificate location"@en .
+   skos:prefLabel "jws certificate location"@en .
 
 <http://id.tincanapi.com/extension/latitude> a <https://w3id.org/xapi/ontology#ContextExtension>;
    skos:definition "A geographic coordinate that specifies the north-south position of a point on the Earth's surface."@en;
    skos:inScheme <http://registry.tincanapi.com>;
-   skos:prefLabel "Latitude"@en .
+   skos:prefLabel "latitude"@en .
 
 <http://id.tincanapi.com/extension/location> a <https://w3id.org/xapi/ontology#ContextExtension>;
    skos:definition "A non-specific (as in format) string value representing a location in which an activity took place. May contain an address, but for formal addresses a more specific format should be used with accompanying Extension."@en;
