@@ -1281,7 +1281,7 @@
       }
     },
     {
-      "id": "http://activitystrea.ms/schema/1.0/",
+      "id": "http://activitystrea.ms/schema/1.0/organization",
       "inScheme": "http://activitystrea.ms/schema/1.0/",
       "type": "ActivityType",
       "definition": {
