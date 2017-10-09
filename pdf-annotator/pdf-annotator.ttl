@@ -5,7 +5,7 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-< http://www.risc-inc.com/annotator> a <https://w3id.org/xapi/profiles/ontology#Profile>;
+<http://www.risc-inc.com/annotator> a <https://w3id.org/xapi/profiles/ontology#Profile>;
    dc:conformsTo <https://w3id.org/xapi/profiles#1.0>;
    schema:author [
      a schema:Organization;
