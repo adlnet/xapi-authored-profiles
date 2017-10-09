@@ -750,7 +750,7 @@
     {
        "id": "http://activitystrea.ms/schema/1.0/rsvp-maybe",
        "prefLabel": {
-          "en": "RSVPed maybe"
+          "en": "rsvp maybe"
         },
        "definition": {
          "en": "The possible RSVP verb indicates that the actor has made a possible RSVP for the object. This specification only defines the meaning of this verb when its object is an event (see Section 3.3), though implementors need to be prepared to handle other object types. The use of this verb is only appropriate when the RSVP was created by an explicit action by the actor. It is not appropriate to use this verb when a user has been added as an attendee by an event organizer or administrator. This verb is included for data conversion with Activity Streams, its not recommended for use in new Tin Can statements."
@@ -762,7 +762,7 @@
     {
        "id": "http://activitystrea.ms/schema/1.0/rsvp-no",
        "prefLabel": {
-          "en": "RSVPed no"
+          "en": "rsvp no"
         },
        "definition": {
          "en": "The negative RSVP verb indicates that the actor has made a negative RSVP for the object. This specification only defines the meaning of this verb when its object is an event (see Section 3.3), though implementors need to be prepared to handle other object types. The use of this verb is only appropriate when the RSVP was created by an explicit action by the actor. It is not appropriate to use this verb when a user has been added as an attendee by an event organizer or administrator. This verb is included for data conversion with Activity Streams, its not recommended for use in new Tin Can statements."
@@ -774,7 +774,7 @@
     {
        "id": "http://activitystrea.ms/schema/1.0/rsvp-yes",
        "prefLabel": {
-          "en": "RSVPed yes"
+          "en": "rsvp yes"
         },
        "definition": {
          "en": "The positive RSVP verb indicates that the actor has made a positive RSVP for an object. This specification only defines the meaning of this verb when its object is an event (see Section 3.3), though implementors need to be prepared to handle other object types. The use of this verb is only appropriate when the RSVP was created by an explicit action by the actor. It is not appropriate to use this verb when a user has been added as an attendee by an event organizer or administrator. This verb is included for data conversion with Activity Streams, its not recommended for use in new Tin Can statements."
