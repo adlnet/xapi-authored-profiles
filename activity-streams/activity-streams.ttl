@@ -33,7 +33,7 @@
 
 <http://activitystrea.ms/schema/1.0/alert> a <https://w3id.org/xapi/ontology#ActivityType>;
    skos:definition "Represents any kind of significant notification."@en;
-   skos:inScheme <http://activitystrea.ms/schema/1.0/>;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
    skos:prefLabel "alert"@en .
 
 <http://activitystrea.ms/schema/1.0/append> a <https://w3id.org/xapi/ontology#Verb>;
@@ -43,7 +43,7 @@
 
 <http://activitystrea.ms/schema/1.0/application> a <https://w3id.org/xapi/ontology#ActivityType>;
    skos:definition "Represents any kind of software application."@en;
-   skos:inScheme <http://activitystrea.ms/schema/1.0/>;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
    skos:prefLabel "application"@en .
 
 <http://activitystrea.ms/schema/1.0/approve> a <https://w3id.org/xapi/ontology#Verb>;
@@ -58,7 +58,7 @@
 
 <http://activitystrea.ms/schema/1.0/article> a <https://w3id.org/xapi/ontology#ActivityType>;
    skos:definition "Represents objects such as news articles, knowledge base entries, or other similar construct. Such objects generally consist of paragraphs of text, in some cases incorporating embedded media such as photos and inline hyperlinks to other resources."@en;
-   skos:inScheme <http://activitystrea.ms/schema/1.0/>;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
    skos:prefLabel "article"@en .
 
 <http://activitystrea.ms/schema/1.0/assign> a <https://w3id.org/xapi/ontology#Verb>;
@@ -84,7 +84,7 @@
 
 <http://activitystrea.ms/schema/1.0/audio> a <https://w3id.org/xapi/ontology#ActivityType>;
    skos:definition "Represents audio content of any kind. Objects of this type MAY contain an additional property as specified in Section 3.1."@en;
-   skos:inScheme <http://activitystrea.ms/schema/1.0/>;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
    skos:prefLabel "audio"@en .
 
 <http://activitystrea.ms/schema/1.0/author> a <https://w3id.org/xapi/ontology#Verb>;
@@ -98,18 +98,18 @@
    skos:prefLabel "authorized"@en .
 
 <http://activitystrea.ms/schema/1.0/badge> a <https://w3id.org/xapi/ontology#ActivityType>;
-   skos:definition "Represents a badge or award granted to an object (typically a person object)"@en;
-   skos:inScheme <http://activitystrea.ms/schema/1.0/>;
+   skos:definition "Represents a badge or award granted to an object (typically a person object)."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
    skos:prefLabel "badge"@en .
 
 <http://activitystrea.ms/schema/1.0/binary> a <https://w3id.org/xapi/ontology#ActivityType>;
    skos:definition "Objects of this type are used to carry arbitrary Base64-encoded binary data within an Activity Stream object. It is primarily intended to attach binary data to other types of objects through the use of the attachments property. Objects of this type will contain the additional properties specified in Section 3.2. This activity type is included for data conversion with Activity Streams, its not recommended for use in new Tin Can statements."@en;
-   skos:inScheme <http://activitystrea.ms/schema/1.0/>;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
    skos:prefLabel "binary"@en .
 
 <http://activitystrea.ms/schema/1.0/bookmark> a <https://w3id.org/xapi/ontology#ActivityType>;
-   skos:definition "Represents a pointer to some URL -- typically a web page. In most cases, bookmarks are specific to a given user and contain metadata chosen by that user. Bookmark Objects are similar in principle to the concept of bookmarks or favorites in a web browser. A bookmark represents a pointer to the URL, not the URL or the associated resource itself. Objects of this type SHOULD contain an additional targetUrl property whose value is a String containing the IRI of the target of the bookmark."@en;
-   skos:inScheme <http://activitystrea.ms/schema/1.0/>;
+   skos:definition "Represents a pointer to some URL, typically a web page. In most cases, bookmarks are specific to a given user and contain metadata chosen by that user. Bookmark Objects are similar in principle to the concept of bookmarks or favorites in a web browser. A bookmark represents a pointer to the URL, not the URL or the associated resource itself. Objects of this type SHOULD contain an additional targetUrl property whose value is a String containing the IRI of the target of the bookmark."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
    skos:prefLabel "bookmark"@en .
 
 <http://activitystrea.ms/schema/1.0/borrow> a <https://w3id.org/xapi/ontology#Verb>;
@@ -139,12 +139,12 @@
 
 <http://activitystrea.ms/schema/1.0/collection> a <https://w3id.org/xapi/ontology#ActivityType>;
    skos:definition "Represents a generic collection of objects of any type. This object type can be used, for instance, to represent a collection of files like a folder; a collection of photos like an album; and so forth. Objects of this type MAY contain an additional objectTypes property whose value is an Array of Strings specifying the expected objectType of objects contained within the collection. This activity type is included for data conversion with Activity Streams, its not recommended for use in new Tin Can statements."@en;
-   skos:inScheme <http://activitystrea.ms/schema/1.0/>;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
    skos:prefLabel "collection"@en .
 
 <http://activitystrea.ms/schema/1.0/comment> a <https://w3id.org/xapi/ontology#ActivityType>;
    skos:definition "Represents a textual response to another object. Objects of this type MAY contain an additional inReplyTo property whose value is an Array of one or more other Activity Stream Objects for which the object is to be considered a response."@en;
-   skos:inScheme <http://activitystrea.ms/schema/1.0/>;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
    skos:prefLabel "comment"@en .
 
 <http://activitystrea.ms/schema/1.0/complete> a <https://w3id.org/xapi/ontology#Verb>;
@@ -159,7 +159,7 @@
    skos:prefLabel "confirmed"@en .
 
 <http://activitystrea.ms/schema/1.0/consume> a <https://w3id.org/xapi/ontology#Verb>;
-   skos:definition "Indicates that the actor has consumed the object. The specific meaning is dependent largely on the objects type. For instance, an actor may consume an audio object, indicating that the actor has listened to it; or an actor may consume a book, indicating that the book has been read. As such, the consume verb is a more generic form of other more specific verbs such as read and play"@en;
+   skos:definition "Indicates that the actor has consumed the object. The specific meaning is dependent largely on the objects type. For instance, an actor may consume an audio object, indicating that the actor has listened to it; or an actor may consume a book, indicating that the book has been read. As such, the consume verb is a more generic form of other more specific verbs such as read and play."@en;
    skos:inScheme <http://activitystrea.ms/schema/1.0>;
    skos:prefLabel "consumed"@en .
 
@@ -185,7 +185,7 @@
 
 <http://activitystrea.ms/schema/1.0/device> a <https://w3id.org/xapi/ontology#ActivityType>;
    skos:definition "Represents a device of any sort."@en;
-   skos:inScheme <http://activitystrea.ms/schema/1.0/>;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
    skos:prefLabel "device"@en .
 
 <http://activitystrea.ms/schema/1.0/disagree> a <https://w3id.org/xapi/ontology#Verb>;
@@ -200,7 +200,7 @@
 
 <http://activitystrea.ms/schema/1.0/event> a <https://w3id.org/xapi/ontology#ActivityType>;
    skos:definition "Represents an event that occurs at a certain location during a particular period of time. Objects of this type MAY contain the additional properties specified in Section 3.3."@en;
-   skos:inScheme <http://activitystrea.ms/schema/1.0/>;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
    skos:prefLabel "event"@en .
 
 <http://activitystrea.ms/schema/1.0/experience> a <https://w3id.org/xapi/ontology#Verb>;
@@ -216,7 +216,7 @@
 
 <http://activitystrea.ms/schema/1.0/file> a <https://w3id.org/xapi/ontology#ActivityType>;
    skos:definition "Represents any form of document or file. Objects of this type MAY contain an additional fileUrl property whose value a dereferenceable IRI that can be used to retrieve the file; and an additional mimeType property whose value is the MIME type of the file described by the object."@en;
-   skos:inScheme <http://activitystrea.ms/schema/1.0/>;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
    skos:prefLabel "file"@en .
 
 <http://activitystrea.ms/schema/1.0/find> a <https://w3id.org/xapi/ontology#Verb>;
@@ -227,7 +227,7 @@
 <http://activitystrea.ms/schema/1.0/flag-as-inappropriate> a <https://w3id.org/xapi/ontology#Verb>;
    skos:definition "Indicates that the actor has flagged the object as being inappropriate for some reason. When using this verb, the context property, as specified within Section 4.1 can be used to provide additional detail about why the object has been flagged."@en;
    skos:inScheme <http://activitystrea.ms/schema/1.0>;
-   skos:prefLabel "flaggedasinappropriate"@en .
+   skos:prefLabel "flagged as inappropriate"@en .
 
 <http://activitystrea.ms/schema/1.0/follow> a <https://w3id.org/xapi/ontology#Verb>;
    skos:definition "Indicates that the actor began following the activity of the object. In most cases, the objectType will be a person, but it can potentially be of any type that can sensibly generate activity. Processors MAY ignore (silently drop) successive identical follow activities."@en;
@@ -236,7 +236,7 @@
 
 <http://activitystrea.ms/schema/1.0/game> a <https://w3id.org/xapi/ontology#ActivityType>;
    skos:definition "Represents a game or competition of any kind."@en;
-   skos:inScheme <http://activitystrea.ms/schema/1.0/>;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
    skos:prefLabel "game"@en .
 
 <http://activitystrea.ms/schema/1.0/give> a <https://w3id.org/xapi/ontology#Verb>;
@@ -246,7 +246,7 @@
 
 <http://activitystrea.ms/schema/1.0/group> a <https://w3id.org/xapi/ontology#ActivityType>;
    skos:definition "Represents a grouping of objects in which member objects can join or leave."@en;
-   skos:inScheme <http://activitystrea.ms/schema/1.0/>;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
    skos:prefLabel "group"@en .
 
 <http://activitystrea.ms/schema/1.0/host> a <https://w3id.org/xapi/ontology#Verb>;
@@ -261,7 +261,7 @@
 
 <http://activitystrea.ms/schema/1.0/image> a <https://w3id.org/xapi/ontology#ActivityType>;
    skos:definition "Represents a graphical image. Objects of this type MAY contain an additional fullImage property whose value is an Activity Streams Media Link to a full-sized representation of the image."@en;
-   skos:inScheme <http://activitystrea.ms/schema/1.0/>;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
    skos:prefLabel "image"@en .
 
 <http://activitystrea.ms/schema/1.0/insert> a <https://w3id.org/xapi/ontology#Verb>;
@@ -287,12 +287,12 @@
 
 <http://activitystrea.ms/schema/1.0/issue> a <https://w3id.org/xapi/ontology#ActivityType>;
    skos:definition "Represents a report about a problem or situation that needs to be resolved. For instance, the issue object can be used to represent reports detailing software defects, or reports of acceptable use violations, and so forth. Objects of this type MAY contain the additional properties specified in Section 3.4."@en;
-   skos:inScheme <http://activitystrea.ms/schema/1.0/>;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
    skos:prefLabel "issue"@en .
 
 <http://activitystrea.ms/schema/1.0/job> a <https://w3id.org/xapi/ontology#ActivityType>;
    skos:definition "Represents information about a job or a job posting."@en;
-   skos:inScheme <http://activitystrea.ms/schema/1.0/>;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
    skos:prefLabel "job"@en .
 
 <http://activitystrea.ms/schema/1.0/join> a <https://w3id.org/xapi/ontology#Verb>;
@@ -327,12 +327,12 @@
 
 <http://activitystrea.ms/schema/1.0/note> a <https://w3id.org/xapi/ontology#ActivityType>;
    skos:definition "Represents a short-form text message. This object is intended primarily for use in micro-blogging scenarios and in systems where users are invited to publish short, often plain-text messages whose useful lifespan is generally shorter than that of an article of weblog entry. A note is similar in structure to an article, but typically does not have a title or distinct paragraphs and tends to be much shorter in length."@en;
-   skos:inScheme <http://activitystrea.ms/schema/1.0/>;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
    skos:prefLabel "note"@en .
 
 <http://activitystrea.ms/schema/1.0/offer> a <https://w3id.org/xapi/ontology#ActivityType>;
    skos:definition "Represents an offer of any kind."@en;
-   skos:inScheme <http://activitystrea.ms/schema/1.0/>;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
    skos:prefLabel "offer"@en .
 
 <http://activitystrea.ms/schema/1.0/open> a <https://w3id.org/xapi/ontology#Verb>;
@@ -342,22 +342,22 @@
 
 <http://activitystrea.ms/schema/1.0/organization> a <https://w3id.org/xapi/ontology#ActivityType>;
    skos:definition "Represents an organization of any kind."@en;
-   skos:inScheme <http://activitystrea.ms/schema/1.0/>;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
    skos:prefLabel "organization"@en .
 
 <http://activitystrea.ms/schema/1.0/page> a <https://w3id.org/xapi/ontology#ActivityType>;
    skos:definition "Represents an area, typically a web page, that is representative of, and generally managed by a particular entity. Such areas are usually dedicated to displaying descriptive information about the entity and showcasing recent content such as articles, photographs and videos. Most social networking applications, for example, provide individual users with their own dedicated profile pages. Several allow similar types of pages to be created for commercial entities, organizations or events. While the specific details of how pages are implemented, their characteristics and use may vary, the one unifying property is that they are typically owned by a single entity that is represented by the content provided by the page itself."@en;
-   skos:inScheme <http://activitystrea.ms/schema/1.0/>;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
    skos:prefLabel "page"@en .
 
 <http://activitystrea.ms/schema/1.0/person> a <https://w3id.org/xapi/ontology#ActivityType>;
    skos:definition "Represents an individual person. This activity type is included for data conversion with Activity Streams, its not recommended for use in new Tin Can statements. Agent should be used instead of person."@en;
-   skos:inScheme <http://activitystrea.ms/schema/1.0/>;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
    skos:prefLabel "person"@en .
 
 <http://activitystrea.ms/schema/1.0/place> a <https://w3id.org/xapi/ontology#ActivityType>;
    skos:definition "Represents a physical location. Locations can be represented using geographic coordinates, a physical address, a free-form location name, or any combination of these. Objects of this type MAY contain the additional properties specified in Section 3.5."@en;
-   skos:inScheme <http://activitystrea.ms/schema/1.0/>;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
    skos:prefLabel "place"@en .
 
 <http://activitystrea.ms/schema/1.0/play> a <https://w3id.org/xapi/ontology#Verb>;
@@ -373,12 +373,12 @@
 
 <http://activitystrea.ms/schema/1.0/process> a <https://w3id.org/xapi/ontology#ActivityType>;
    skos:definition "Represents any form of process. For instance, a long-running task that is started and expected to continue operating for a period of time."@en;
-   skos:inScheme <http://activitystrea.ms/schema/1.0/>;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
    skos:prefLabel "process"@en .
 
 <http://activitystrea.ms/schema/1.0/product> a <https://w3id.org/xapi/ontology#ActivityType>;
    skos:definition "Represents a commercial good or service. Objects of this type MAY contain an additional fullImage property whose value is an Activity Streams Media Link to an image resource representative of the product."@en;
-   skos:inScheme <http://activitystrea.ms/schema/1.0/>;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
    skos:prefLabel "product"@en .
 
 <http://activitystrea.ms/schema/1.0/purchase> a <https://w3id.org/xapi/ontology#Verb>;
@@ -393,7 +393,7 @@
 
 <http://activitystrea.ms/schema/1.0/question> a <https://w3id.org/xapi/ontology#ActivityType>;
    skos:definition "Represents a question or a poll. Objects of this type MAY contain an additional options property whose value is an Array of possible answers to the question in the form of Activity Stream objects of any type."@en;
-   skos:inScheme <http://activitystrea.ms/schema/1.0/>;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
    skos:prefLabel "question"@en .
 
 <http://activitystrea.ms/schema/1.0/read> a <https://w3id.org/xapi/ontology#Verb>;
@@ -454,7 +454,7 @@
 
 <http://activitystrea.ms/schema/1.0/review> a <https://w3id.org/xapi/ontology#ActivityType>;
    skos:definition "Represents a primarily prose-based commentary on another object. Objects of this type MAY contain a rating property as specified in Section 4.4."@en;
-   skos:inScheme <http://activitystrea.ms/schema/1.0/>;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
    skos:prefLabel "review"@en .
 
 <http://activitystrea.ms/schema/1.0/rsvp-maybe> a <https://w3id.org/xapi/ontology#Verb>;
@@ -473,13 +473,13 @@
    skos:prefLabel "RSVPed yes"@en .
 
 <http://activitystrea.ms/schema/1.0/satisfy> a <https://w3id.org/xapi/ontology#Verb>;
-   skos:definition "Indicates that the actor has satisfied the object. If a target is specified, it indicate the context within which the object was satisfied. For instance, if a person satisfies the requirements for a particular challenge, the person is the actor; the requirement is the object; and the challenge is the target."@en;
+   skos:definition "Indicates that the actor has satisfied the object. If a target is specified, it indicate the context within which the object was satisfied. For instance, if a person satisfies the requirements for a particular challenge: the person is the actor, the requirement is the object, and the challenge is the target."@en;
    skos:exactMatch <https://w3id.org/xapi/adl/verbs/satisfied>;
    skos:inScheme <http://activitystrea.ms/schema/1.0>;
    skos:prefLabel "satisfied"@en .
 
 <http://activitystrea.ms/schema/1.0/save> a <https://w3id.org/xapi/ontology#Verb>;
-   skos:definition "Indicates that the actor has called out the object as being of interest primarily to him- or herself. Though this action MAY be shared publicly, the implication is that the object has been saved primarily for the actors own benefit rather than to show it to others as would be indicated by the share verb."@en;
+   skos:definition "Indicates that the actor has called out the object as being of interest primarily to him or herself. Though this action MAY be shared publicly, the implication is that the object has been saved primarily for the actors own benefit rather than to show it to others as would be indicated by the share verb."@en;
    skos:inScheme <http://activitystrea.ms/schema/1.0>;
    skos:prefLabel "saved"@en .
 
@@ -505,7 +505,7 @@
 
 <http://activitystrea.ms/schema/1.0/service> a <https://w3id.org/xapi/ontology#ActivityType>;
    skos:definition "Represents any form of hosted or consumable service that performs some kind of work or benefit for other entities. Examples of such objects include websites, businesses, etc."@en;
-   skos:inScheme <http://activitystrea.ms/schema/1.0/>;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
    skos:prefLabel "service"@en .
 
 <http://activitystrea.ms/schema/1.0/share> a <https://w3id.org/xapi/ontology#Verb>;
@@ -515,7 +515,7 @@
    skos:prefLabel "shared"@en .
 
 <http://activitystrea.ms/schema/1.0/sponsor> a <https://w3id.org/xapi/ontology#Verb>;
-   skos:definition "Indicates that the actor has sponsored the object. If a target is specified, it indicates the context within which the sponsorship is offered. For instance, a company can sponsor an event; or an individual can sponsor a project; etc."@en;
+   skos:definition "Indicates that the actor has sponsored the object. If a target is specified, it indicates the context within which the sponsorship is offered. For instance, a company can sponsor an event or an individual can sponsor a project, etc."@en;
    skos:inScheme <http://activitystrea.ms/schema/1.0>;
    skos:prefLabel "sponsored"@en .
 
@@ -541,7 +541,7 @@
 
 <http://activitystrea.ms/schema/1.0/task> a <https://w3id.org/xapi/ontology#ActivityType>;
    skos:definition "Represents an activity that has yet to be completed. Objects of this type can contain additional properties as specified in Section 3.6."@en;
-   skos:inScheme <http://activitystrea.ms/schema/1.0/>;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
    skos:prefLabel "task"@en .
 
 <http://activitystrea.ms/schema/1.0/terminate> a <https://w3id.org/xapi/ontology#Verb>;
@@ -592,7 +592,7 @@
 
 <http://activitystrea.ms/schema/1.0/video> a <https://w3id.org/xapi/ontology#ActivityType>;
    skos:definition "Represents video content of any kind. Objects of this type MAY contain additional properties as specified in Section 3.1."@en;
-   skos:inScheme <http://activitystrea.ms/schema/1.0/>;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
    skos:prefLabel "video"@en .
 
 <http://activitystrea.ms/schema/1.0/watch> a <https://w3id.org/xapi/ontology#Verb>;
@@ -605,7 +605,7 @@
    skos:inScheme <http://activitystrea.ms/schema/1.0>;
    skos:prefLabel "won"@en .
 
-<http://activitystrea.ms/schema/1.0/> a <https://w3id.org/xapi/profiles/ontology#Profile>;
+<http://activitystrea.ms/schema/1.0> a <https://w3id.org/xapi/profiles/ontology#Profile>;
    dc:conformsTo <https://w3id.org/xapi/profiles#1.0>;
    schema:author [
      a schema:Organization;
