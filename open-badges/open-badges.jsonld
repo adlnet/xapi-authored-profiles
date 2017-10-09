@@ -47,7 +47,7 @@
           "en": "An attached Baked Badge Image. This is a png image containing additional metadata as defined by the Open Badges specification."
         },
         "prefLabel": {
-          "en": "Open Badges Baked Badge Image"
+          "en": "open badges baked badge image"
         }
     }
   ]
