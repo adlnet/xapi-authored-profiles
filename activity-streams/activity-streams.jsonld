@@ -575,7 +575,7 @@
        "definition": {
          "en": "Indicates that the actor spent some time enjoying the object. For example, if the object is a video this indicates that the subject watched all or part of the video. The play verb is a more specific form of the consume verb."
          },
-       "exactMatch": ["https://w3id.org/xapi/videoplayed"],
+       "exactMatch": ["https://w3id.org/xapi/video/verbs/played"],
        "inScheme": "http://activitystrea.ms/schema/1.0",
        "type": "Verb"
     },
@@ -652,14 +652,14 @@
        "type": "Verb"
     },
     {
-       "id": "http://activitystrea.ms/schema/1.0/remove, https://brindlewaye.com/xAPITerms/verbs/removed/",
+       "id": "http://activitystrea.ms/schema/1.0/remove",
        "prefLabel": {
           "en": "removed"
         },
        "definition": {
          "en": "Indicates that the actor has removed the object from the target."
          },
-       "exactMatch": ["https://brindlewaye.com/xAPITerms/verbs/removed/"],
+       "exactMatch": ["https://brindlewaye.com/xAPITerms/verbs/removed"],
        "inScheme": "http://activitystrea.ms/schema/1.0",
        "type": "Verb"
     },

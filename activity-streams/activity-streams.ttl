@@ -128,9 +128,9 @@
    skos:prefLabel "canceled"@en .
 
 <http://activitystrea.ms/schema/1.0/checkin> a <https://w3id.org/xapi/ontology#Verb>;
-   skos:definition "Indicates that the actor has checked-in to the object. For instance, a person checking-in to a place."@en;
+   skos:definition "Indicates that the actor has checked in to the object. For instance, a person checking in to a place."@en;
    skos:inScheme <http://activitystrea.ms/schema/1.0>;
-   skos:prefLabel "checkedin"@en .
+   skos:prefLabel "checked in"@en .
 
 <http://activitystrea.ms/schema/1.0/close> a <https://w3id.org/xapi/ontology#Verb>;
    skos:definition "Indicates that the actor has closed the object. For instance, the object could represent a ticket being tracked in an issue management system."@en;
@@ -362,7 +362,7 @@
 
 <http://activitystrea.ms/schema/1.0/play> a <https://w3id.org/xapi/ontology#Verb>;
    skos:definition "Indicates that the actor spent some time enjoying the object. For example, if the object is a video this indicates that the subject watched all or part of the video. The play verb is a more specific form of the consume verb."@en;
-   skos:exactMatch <https://w3id.org/xapi/videoplayed>;
+   skos:exactMatch <https://w3id.org/xapi/video/verbs/played>;
    skos:inScheme <http://activitystrea.ms/schema/1.0>;
    skos:prefLabel "played"@en .
 
@@ -411,9 +411,9 @@
    skos:inScheme <http://activitystrea.ms/schema/1.0>;
    skos:prefLabel "rejected"@en .
 
-<http://activitystrea.ms/schema/1.0/remove, https://brindlewaye.com/xAPITerms/verbs/removed/> a <https://w3id.org/xapi/ontology#Verb>;
+<http://activitystrea.ms/schema/1.0/remove> a <https://w3id.org/xapi/ontology#Verb>;
    skos:definition "Indicates that the actor has removed the object from the target."@en;
-   skos:exactMatch <https://brindlewaye.com/xAPITerms/verbs/removed/>;
+   skos:exactMatch <https://brindlewaye.com/xAPITerms/verbs/removed>;
    skos:inScheme <http://activitystrea.ms/schema/1.0>;
    skos:prefLabel "removed"@en .
 
@@ -634,7 +634,7 @@
      <http://activitystrea.ms/schema/1.0/make-friend>,
      <http://activitystrea.ms/schema/1.0/note>,
      <http://activitystrea.ms/schema/1.0/accept>,
-     <http://activitystrea.ms/schema/1.0/remove, https://brindlewaye.com/xAPITerms/verbs/removed/>,
+     <http://activitystrea.ms/schema/1.0/remove,
      <http://activitystrea.ms/schema/1.0/disagree>,
      <http://activitystrea.ms/schema/1.0/delete>,
      <http://activitystrea.ms/schema/1.0/complete>,
