@@ -5,11 +5,6 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://activitystrea.ms/schema/1.0/like> a <https://w3id.org/xapi/ontology#Verb>;
-   skos:definition "Indicates that the actor marked the object as an item of special interest. The like verb is considered to be an alias of favorite. The two verb are semantically identical."@en;
-   skos:inScheme <http://activitystrea.ms/schema/1.0>;
-   skos:prefLabel "liked"@en .
-
 <http://activitystrea.ms/schema/1.0/accept> a <https://w3id.org/xapi/ontology#Verb>;
    skos:definition "Indicates that that the actor has accepted the object. For instance, a person accepting an award, or accepting an assignment."@en;
    skos:inScheme <http://activitystrea.ms/schema/1.0>;
@@ -310,6 +305,11 @@
    skos:inScheme <http://activitystrea.ms/schema/1.0>;
    skos:prefLabel "left"@en .
 
+<http://activitystrea.ms/schema/1.0/like> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor marked the object as an item of special interest. The like verb is considered to be an alias of favorite. The two verb are semantically identical."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "liked"@en .
+
 <http://activitystrea.ms/schema/1.0/listen> a <https://w3id.org/xapi/ontology#Verb>;
    skos:definition "Indicates that the actor has listened to the object. This is typically only applicable for objects representing audio content, such as music, an audio-book, or a radio broadcast. The listen verb is a more specific form of the consume, experience and play verbs."@en;
    skos:inScheme <http://activitystrea.ms/schema/1.0>;
@@ -339,6 +339,11 @@
    skos:definition "Indicates that the actor has opened the object. For instance, the object could represent a ticket being tracked in an issue management system."@en;
    skos:inScheme <http://activitystrea.ms/schema/1.0>;
    skos:prefLabel "opened"@en .
+
+<http://activitystrea.ms/schema/1.0/organization> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "Represents an organization of any kind."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0/>;
+   skos:prefLabel "organization"@en .
 
 <http://activitystrea.ms/schema/1.0/page> a <https://w3id.org/xapi/ontology#ActivityType>;
    skos:definition "Represents an area, typically a web page, that is representative of, and generally managed by a particular entity. Such areas are usually dedicated to displaying descriptive information about the entity and showcasing recent content such as articles, photographs and videos. Most social networking applications, for example, provide individual users with their own dedicated profile pages. Several allow similar types of pages to be created for commercial entities, organizations or events. While the specific details of how pages are implemented, their characteristics and use may vary, the one unifying property is that they are typically owned by a single entity that is represented by the content provided by the page itself."@en;
@@ -600,19 +605,15 @@
    skos:inScheme <http://activitystrea.ms/schema/1.0>;
    skos:prefLabel "won"@en .
 
-<http://activitystrea.ms/schema/1.0/> a <https://w3id.org/xapi/ontology#ActivityType>,
-     <https://w3id.org/xapi/profiles/ontology#Profile>;
+<http://activitystrea.ms/schema/1.0/> a <https://w3id.org/xapi/profiles/ontology#Profile>;
    dc:conformsTo <https://w3id.org/xapi/profiles#1.0>;
    schema:author [
      a schema:Organization;
      schema:name "Activity Streams Working Group"
    ];
    rdfs:seeAlso <http://activitystrea.ms/specs/json/1.0/>;
-   skos:definition "An list of concepts from an obsolete version (1.0) of the Activity Streams specification."@en,
-     "Represents an organization of any kind."@en;
-   skos:inScheme <http://activitystrea.ms/schema/1.0/>;
-   skos:prefLabel "Activity Streams Vocabulary"@en,
-     "organization"@en;
+   skos:definition "An list of concepts from an obsolete version (1.0) of the Activity Streams specification."@en;
+   skos:prefLabel "Activity Streams Vocabulary"@en;
    <https://w3id.org/xapi/profiles/ontology#concepts> <http://activitystrea.ms/schema/1.0/group>,
      <http://activitystrea.ms/schema/1.0/experience>,
      <http://activitystrea.ms/schema/1.0/request>,
@@ -624,7 +625,7 @@
      <http://activitystrea.ms/schema/1.0/agree>,
      <http://activitystrea.ms/schema/1.0/archive>,
      <http://activitystrea.ms/schema/1.0/application>,
-     <http://activitystrea.ms/schema/1.0/like>,
+     <http://activitystrea.ms/schema/1.0/binary>,
      <http://activitystrea.ms/schema/1.0/add>,
      <http://activitystrea.ms/schema/1.0/request-friend>,
      <http://activitystrea.ms/schema/1.0/install>,
@@ -672,8 +673,6 @@
      <http://activitystrea.ms/schema/1.0/qualify>,
      <http://activitystrea.ms/schema/1.0/game>,
      <http://activitystrea.ms/schema/1.0/offer>,
-     <http://activitystrea.ms/schema/1.0/binary>,
-     <http://activitystrea.ms/schema/1.0/>,
      <http://activitystrea.ms/schema/1.0/rsvp-maybe>,
      <http://activitystrea.ms/schema/1.0/host>,
      <http://activitystrea.ms/schema/1.0/device>,
@@ -714,10 +713,12 @@
      <http://activitystrea.ms/schema/1.0/reject>,
      <http://activitystrea.ms/schema/1.0/terminate>,
      <http://activitystrea.ms/schema/1.0/tie>,
+     <http://activitystrea.ms/schema/1.0/like>,
      <http://activitystrea.ms/schema/1.0/share>,
      <http://activitystrea.ms/schema/1.0/sponsor>,
      <http://activitystrea.ms/schema/1.0/stop-following>,
      <http://activitystrea.ms/schema/1.0/alert>,
+     <http://activitystrea.ms/schema/1.0/organization>,
      <http://activitystrea.ms/schema/1.0/remove-friend>,
      <http://activitystrea.ms/schema/1.0/start>,
      <http://activitystrea.ms/schema/1.0/issue>,
