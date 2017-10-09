@@ -1,0 +1,54 @@
+{
+  "@context": "https://w3id.org/xapi/profiles/context",
+  "id": "http://activitystrea.ms/schema/1.0/",
+  "type": "Profile",
+  "conformsTo": "https://w3id.org/xapi/profiles#1.0",
+  "prefLabel": {
+    "en": "xAPI Open Badges Profile"
+  },
+  "definition": {
+    "en": "A profile that combines xAPI with Mozilla Open Badges."
+  },
+  "seeAlso": "https://registry.tincanapi.com/#profile/44",
+  "seeAlso": "https://github.com/ht2/BadgesCoP",
+  "seeAlso": "https://www.imsglobal.org/sites/default/files/Badges/OBv2p0/extensions/index.html",
+  "author": {
+    "type": "Organization",
+    "name": "xAPI Open Badges Community of Practice"
+  },
+  "concepts": [
+    {
+        "id": "http://specification.openbadges.org/xapi/extensions/badgeassertion",
+        "inScheme": "http://specification.openbadges.org/xapi/",
+        "type": "ResultExtension",
+        "definition": {
+          "en": "Result Extension containing an object with an @id property pointing to the IRI of a hosted Open Badge Assertion."
+        },
+        "prefLabel": {
+          "en": "open badge assertion"
+        }
+    },
+    {
+        "id": "http://specification.openbadges.org/xapi/extensions/badgeclass",
+        "inScheme": "http://specification.openbadges.org/xapi/",
+        "type": "ContextExtension",
+        "definition": {
+          "en": "Activity Definition Extension containing an object with an @id property pointing to the IRI of a hosted Open Badge Class definition."
+        },
+        "prefLabel": {
+          "en": "open badge class"
+        }
+    },
+    {
+        "id": "http://specification.openbadges.org/xapi/attachment/badge",
+        "inScheme": "http://specification.openbadges.org/xapi/",
+        "type": "AttachmentUsageType",
+        "definition": {
+          "en": "An attached Baked Badge Image. This is a png image containing additional metadata as defined by the Open Badges specification."
+        },
+        "prefLabel": {
+          "en": "Open Badges Baked Badge Image"
+        }
+    }
+  ]
+}

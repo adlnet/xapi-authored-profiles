@@ -1,0 +1,1405 @@
+{
+  "@context": "https://w3id.org/xapi/profiles/context",
+  "id": "http://activitystrea.ms/schema/1.0/",
+  "type": "Profile",
+  "conformsTo": "https://w3id.org/xapi/profiles#1.0",
+  "prefLabel": {
+    "en": "Activity Streams Vocabulary"
+  },
+  "definition": {
+    "en": "An list of concepts from an obsolete version (1.0) of the Activity Streams specification."
+  },
+  "seeAlso": "http://activitystrea.ms/specs/json/1.0/",
+  "author": {
+    "type": "Organization",
+    "name": "Activity Streams Working Group"
+  },
+  "concepts": [
+    {
+       "id": "http://activitystrea.ms/schema/1.0/accept",
+       "prefLabel": {
+          "en": "accepted"
+        },
+       "definition": {
+         "en": "Indicates that that the actor has accepted the object. For instance, a person accepting an award, or accepting an assignment."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/access",
+       "prefLabel": {
+          "en": "accessed"
+        },
+       "definition": {
+         "en": "Indicates that the actor has accessed the object. For instance, a person accessing a room, or accessing a file."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/acknowledge",
+       "prefLabel": {
+          "en": "acknowledged"
+        },
+       "definition": {
+         "en": "Indicates that the actor has acknowledged the object. This effectively signals that the actor is aware of the object's existence."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/add",
+       "prefLabel": {
+          "en": "added"
+        },
+       "definition": {
+         "en": "Indicates that the actor has added the object to the target. For instance, adding a photo to an album."
+         },
+       "exactMatch": ["https://brindlewaye.com/xAPITerms/verbs/added/"],
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/agree",
+       "prefLabel": {
+          "en": "agreed"
+        },
+       "definition": {
+         "en": "Indicates that the actor agrees with the object. For example, a person agreeing with an argument, or expressing agreement with a particular issue."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/append",
+       "prefLabel": {
+          "en": "appended"
+        },
+       "definition": {
+         "en": "Indicates that the actor has appended the object to the target. For instance, a person appending a new record to a database."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/approve",
+       "prefLabel": {
+          "en": "approved"
+        },
+       "definition": {
+         "en": "Indicates that the actor has approved the object. For instance, a manager might approve a travel request."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/archive",
+       "prefLabel": {
+          "en": "archived"
+        },
+       "definition": {
+         "en": "Indicates that the actor has archived the object."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/assign",
+       "prefLabel": {
+          "en": "assigned"
+        },
+       "definition": {
+         "en": "Indicates that the actor has assigned the object to the target."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/attach",
+       "prefLabel": {
+          "en": "attached"
+        },
+       "definition": {
+         "en": "Indicates that the actor has attached the object to the target. For instance, a person attaching a file to a wiki page or an email."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/attend",
+       "prefLabel": {
+          "en": "attended"
+        },
+       "definition": {
+         "en": "Indicates that the actor has attended the object. For instance, a person attending a meeting."
+         },
+       "exactMatch": ["http://adlnet.gov/expapi/verbs/attended"],
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/author",
+       "prefLabel": {
+          "en": "authored"
+        },
+       "definition": {
+         "en": "Indicates that the actor has authored the object. Note that this is a more specific form of the verb \"create\"."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/authorize",
+       "prefLabel": {
+          "en": "authorized"
+        },
+       "definition": {
+         "en": "Indicates that the actor has authorized the object. If a target is specified, it means that the authorization is specifically in regards to the target. For instance, a service can authorize a person to access a given application; in which case the actor is the service, the object is the person, and the target is the application. In contrast, a person can authorize a request; in which case the actor is the person and the object is the request and there might be no explicit target."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/borrow",
+       "prefLabel": {
+          "en": "borrowed"
+        },
+       "definition": {
+         "en": "Indicates that the actor has borrowed the object. If a target is specified, it identifies the entity from which the object was borrowed. For instance, if a person borrows a book from a library, the person is the actor, the book is the object and the library is the target."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/build",
+       "prefLabel": {
+          "en": "built"
+        },
+       "definition": {
+         "en": "Indicates that the actor has built the object. For example, if a person builds a model or compiles code."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/cancel",
+       "prefLabel": {
+          "en": "canceled"
+        },
+       "definition": {
+         "en": "Indicates that the actor has canceled the object. For instance, canceling a calendar event."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/checkin",
+       "prefLabel": {
+          "en": "checkedin"
+        },
+       "definition": {
+         "en": "Indicates that the actor has checked-in to the object. For instance, a person checking-in to a place."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/close",
+       "prefLabel": {
+          "en": "closed"
+        },
+       "definition": {
+         "en": "Indicates that the actor has closed the object. For instance, the object could represent a ticket being tracked in an issue management system."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/complete",
+       "prefLabel": {
+          "en": "completed"
+        },
+       "definition": {
+         "en": "Indicates that the actor has completed the object."
+         },
+       "exactMatch": ["http://adlnet.gov/expapi/verbs/completed"],
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/confirm",
+       "prefLabel": {
+          "en": "confirmed"
+        },
+       "definition": {
+         "en": "Indicates that the actor has confirmed or agrees with the object. For instance, a software developer might confirm an issue reported against a product."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/consume",
+       "prefLabel": {
+          "en": "consumed"
+        },
+       "definition": {
+         "en": "Indicates that the actor has consumed the object. The specific meaning is dependent largely on the object's type. For instance, an actor may \"consume\" an audio object, indicating that the actor has listened to it; or an actor may \"consume\" a book, indicating that the book has been read. As such, the \"consume\" verb is a more generic form of other more specific verbs such as \"read\" and \"play\""
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/create",
+       "prefLabel": {
+          "en": "created"
+        },
+       "definition": {
+         "en": "Indicates that the actor has created the object."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/delete",
+       "prefLabel": {
+          "en": "deleted"
+        },
+       "definition": {
+         "en": "Indicates that the actor has deleted the object. This implies, but does not require, the permanent destruction of the object."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/deliver",
+       "prefLabel": {
+          "en": "delivered"
+        },
+       "definition": {
+         "en": "Indicates that the actor has delivered the object. For example, delivering a package."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/deny",
+       "prefLabel": {
+          "en": "denied"
+        },
+       "definition": {
+         "en": "Indicates that the actor has denied the object. For example, a manager may deny a travel request."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/disagree",
+       "prefLabel": {
+          "en": "disagreed"
+        },
+       "definition": {
+         "en": "Indicates that the actor disagrees with the object."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/dislike",
+       "prefLabel": {
+          "en": "disliked"
+        },
+       "definition": {
+         "en": "Indicates that the actor dislikes the object."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/experience",
+       "prefLabel": {
+          "en": "experienced"
+        },
+       "definition": {
+         "en": "Indicates that the actor has experienced the object in some manner. Note that, depending on the specific object types used for both the actor and object, the meaning of this verb can overlap that of the \"consume\" and \"play\" verbs. For instance, a person might \"experience\" a movie; or \"play\" the movie; or \"consume\" the movie. The \"experience\" verb can be considered a more generic form of other more specific verbs as \"consume\", \"play\", \"watch\", \"listen\", and \"read.\""
+         },
+       "exactMatch": ["http://adlnet.gov/expapi/verbs/experienced"],
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/favorite",
+       "prefLabel": {
+          "en": "favorited"
+        },
+       "definition": {
+         "en": "Indicates that the actor marked the object as an item of special interest."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/flag-as-inappropriate",
+       "prefLabel": {
+          "en": "flaggedasinappropriate"
+        },
+       "definition": {
+         "en": "Indicates that the actor has flagged the object as being inappropriate for some reason. When using this verb, the context property, as specified within Section 4.1 can be used to provide additional detail about why the object has been flagged."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/follow",
+       "prefLabel": {
+          "en": "followed"
+        },
+       "definition": {
+         "en": "Indicates that the actor began following the activity of the object. In most cases, the objectType will be a \"person\", but it can potentially be of any type that can sensibly generate activity. Processors MAY ignore (silently drop) successive identical \"follow\" activities."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/find",
+       "prefLabel": {
+          "en": "found"
+        },
+       "definition": {
+         "en": "Indicates that the actor has found the object."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/give",
+       "prefLabel": {
+          "en": "gave"
+        },
+       "definition": {
+         "en": "Indicates that the actor is giving an object to the target. Examples include one person giving a badge object to another person. The object identifies the object being given. The target identifies the receiver."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/host",
+       "prefLabel": {
+          "en": "hosted"
+        },
+       "definition": {
+         "en": "Indicates that the actor is hosting the object. As in hosting an event, or hosting a service."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/ignore",
+       "prefLabel": {
+          "en": "ignored"
+        },
+       "definition": {
+         "en": "Indicates that the actor has ignored the object. For instance, this verb may be used when an actor has ignored a friend request, in which case the object may be the request-friend activity."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/insert",
+       "prefLabel": {
+          "en": "inserted"
+        },
+       "definition": {
+         "en": "Indicates that the actor has inserted the object into the target."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/install",
+       "prefLabel": {
+          "en": "installed"
+        },
+       "definition": {
+         "en": "Indicates that the actor has installed the object, as in installing an application."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/interact",
+       "prefLabel": {
+          "en": "interacted"
+        },
+       "definition": {
+         "en": "Indicates that the actor has interacted with the object. For instance, when one person interacts with another."
+         },
+       "exactMatch": ["http://adlnet.gov/expapi/verbs/interacted"],
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/invite",
+       "prefLabel": {
+          "en": "invited"
+        },
+       "definition": {
+         "en": "Indicates that the actor has invited the object, typically a person object, to join or participate in the object described by the target. The target could, for instance, be an event, group or a service."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/join",
+       "prefLabel": {
+          "en": "joined"
+        },
+       "definition": {
+         "en": "Indicates that the actor has become a member of the object. This specification only defines the meaning of this verb when the object of the Activity has an objectType of group, though implementors need to be prepared to handle other types of objects."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/leave",
+       "prefLabel": {
+          "en": "left"
+        },
+       "definition": {
+         "en": "Indicates that the actor has left the object. For instance, a Person leaving a Group or checking-out of a Place."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": " http://activitystrea.ms/schema/1.0/like",
+       "prefLabel": {
+          "en": "liked"
+        },
+       "definition": {
+         "en": "Indicates that the actor marked the object as an item of special interest. The \"like\" verb is considered to be an alias of \"favorite\". The two verb are semantically identical."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/listen",
+       "prefLabel": {
+          "en": "listened"
+        },
+       "definition": {
+         "en": "Indicates that the actor has listened to the object. This is typically only applicable for objects representing audio content, such as music, an audio-book, or a radio broadcast. The \"listen\" verb is a more specific form of the \"consume\", \"experience\" and \"play\" verbs."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/lose",
+       "prefLabel": {
+          "en": "lost"
+        },
+       "definition": {
+         "en": "Indicates that the actor has lost the object. For instance, if a person loses a game."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/make-friend",
+       "prefLabel": {
+          "en": "madefriend"
+        },
+       "definition": {
+         "en": "Indicates the creation of a friendship that is reciprocated by the object. Since this verb implies an activity on the part of its object, processors MUST NOT accept activities with this verb unless they are able to verify through some external means that there is in fact a reciprocated connection. For example, a processor may have received a guarantee from a particular publisher that the publisher will only use this Verb in cases where a reciprocal relationship exists."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/open",
+       "prefLabel": {
+          "en": "opened"
+        },
+       "definition": {
+         "en": "Indicates that the actor has opened the object. For instance, the object could represent a ticket being tracked in an issue management system."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/play",
+       "prefLabel": {
+          "en": "played"
+        },
+       "definition": {
+         "en": "Indicates that the actor spent some time enjoying the object. For example, if the object is a video this indicates that the subject watched all or part of the video. The \"play\" verb is a more specific form of the \"consume\" verb."
+         },
+       "exactMatch": ["https://w3id.org/xapi/videoplayed"],
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/present",
+       "prefLabel": {
+          "en": "presented"
+        },
+       "definition": {
+         "en": "Indicates that the actor has presented the object. For instance, when a person gives a presentation at a conference."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/purchase",
+       "prefLabel": {
+          "en": "purchased"
+        },
+       "definition": {
+         "en": "Indicates that the actor has purchased the object. If a target is specified, in indicates the entity from which the object was purchased."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/qualify",
+       "prefLabel": {
+          "en": "qualified"
+        },
+       "definition": {
+         "en": "Indicates that the actor has qualified for the object. If a target is specified, it indicates the context within which the qualification applies."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/read",
+       "prefLabel": {
+          "en": "read"
+        },
+       "definition": {
+         "en": "Indicates that the actor has read the object."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/receive",
+       "prefLabel": {
+          "en": "received"
+        },
+       "definition": {
+         "en": "Indicates that the actor is receiving an object. Examples include a person receiving a badge object. The object identifies the object being received."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/reject",
+       "prefLabel": {
+          "en": "rejected"
+        },
+       "definition": {
+         "en": "Indicates that the actor has rejected the object."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/remove, https://brindlewaye.com/xAPITerms/verbs/removed/",
+       "prefLabel": {
+          "en": "removed"
+        },
+       "definition": {
+         "en": "Indicates that the actor has removed the object from the target."
+         },
+       "exactMatch": ["https://brindlewaye.com/xAPITerms/verbs/removed/"],
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/remove-friend",
+       "prefLabel": {
+          "en": "removed friend"
+        },
+       "definition": {
+         "en": "Indicates that the actor has removed the object from the collection of friends."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/replace",
+       "prefLabel": {
+          "en": "replaced"
+        },
+       "definition": {
+         "en": "Indicates that the actor has replaced the target with the object."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/request",
+       "prefLabel": {
+          "en": "requested"
+        },
+       "definition": {
+         "en": "Indicates that the actor has requested the object. If a target is specified, it indicates the entity from which the object is being requested."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/request-friend",
+       "prefLabel": {
+          "en": "requested friend"
+        },
+       "definition": {
+         "en": "Indicates the creation of a friendship that has not yet been reciprocated by the object."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/resolve",
+       "prefLabel": {
+          "en": "resolved"
+        },
+       "definition": {
+         "en": "Indicates that the actor has resolved the object. For instance, the object could represent a ticket being tracked in an issue management system."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/retract",
+       "prefLabel": {
+          "en": "retracted"
+        },
+       "definition": {
+         "en": "Indicates that the actor has retracted the object. For instance, if an actor wishes to retract a previously published activity, the object would be the previously published activity that is being retracted."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/return",
+       "prefLabel": {
+          "en": "returned"
+        },
+       "definition": {
+         "en": "Indicates that the actor has returned the object. If a target is specified, it indicates the entity to which the object was returned."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/rsvp-maybe",
+       "prefLabel": {
+          "en": "RSVPed maybe"
+        },
+       "definition": {
+         "en": "The \"possible RSVP\" verb indicates that the actor has made a possible RSVP for the object. This specification only defines the meaning of this verb when its object is an event (see Section 3.3), though implementors need to be prepared to handle other object types. The use of this verb is only appropriate when the RSVP was created by an explicit action by the actor. It is not appropriate to use this verb when a user has been added as an attendee by an event organizer or administrator. This verb is included for data conversion with Activity Streams, it's not recommended for use in new Tin Can statements."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/rsvp-no",
+       "prefLabel": {
+          "en": "RSVPed no"
+        },
+       "definition": {
+         "en": "The \"negative RSVP\" verb indicates that the actor has made a negative RSVP for the object. This specification only defines the meaning of this verb when its object is an event (see Section 3.3), though implementors need to be prepared to handle other object types. The use of this verb is only appropriate when the RSVP was created by an explicit action by the actor. It is not appropriate to use this verb when a user has been added as an attendee by an event organizer or administrator. This verb is included for data conversion with Activity Streams, it's not recommended for use in new Tin Can statements."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/rsvp-yes",
+       "prefLabel": {
+          "en": "RSVPed yes"
+        },
+       "definition": {
+         "en": "The \"positive RSVP\" verb indicates that the actor has made a positive RSVP for an object. This specification only defines the meaning of this verb when its object is an event (see Section 3.3), though implementors need to be prepared to handle other object types. The use of this verb is only appropriate when the RSVP was created by an explicit action by the actor. It is not appropriate to use this verb when a user has been added as an attendee by an event organizer or administrator. This verb is included for data conversion with Activity Streams, it's not recommended for use in new Tin Can statements."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/satisfy",
+       "prefLabel": {
+          "en": "satisfied"
+        },
+       "definition": {
+         "en": "Indicates that the actor has satisfied the object. If a target is specified, it indicate the context within which the object was satisfied. For instance, if a person satisfies the requirements for a particular challenge, the person is the actor; the requirement is the object; and the challenge is the target."
+         },
+       "exactMatch": ["https://w3id.org/xapi/adl/verbs/satisfied"],
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/save",
+       "prefLabel": {
+          "en": "saved"
+        },
+       "definition": {
+         "en": "Indicates that the actor has called out the object as being of interest primarily to him- or herself. Though this action MAY be shared publicly, the implication is that the object has been saved primarily for the actor's own benefit rather than to show it to others as would be indicated by the \"share\" verb."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/schedule",
+       "prefLabel": {
+          "en": "scheduled"
+        },
+       "definition": {
+         "en": "Indicates that the actor has scheduled the object. For instance, scheduling a meeting."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/search",
+       "prefLabel": {
+          "en": "searched"
+        },
+       "definition": {
+         "en": "Indicates that the actor is or has searched for the object. If a target is specified, it indicates the context within which the search is or has been conducted."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/send",
+       "prefLabel": {
+          "en": "sent"
+        },
+       "definition": {
+         "en": "Indicates that the actor has sent the object. If a target is specified, it indicates the entity to which the object was sent."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/share",
+       "prefLabel": {
+          "en": "shared"
+        },
+       "definition": {
+         "en": "Indicates that the actor has called out the object to readers. In most cases, the actor did not create the object being shared, but is instead drawing attention to it."
+         },
+       "exactMatch": ["http://adlnet.gov/expapi/verbs/shared"],
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/sell",
+       "prefLabel": {
+          "en": "sold"
+        },
+       "definition": {
+         "en": "Indicates that the actor has sold the object. If a target is specified, it indicates the entity to which the object was sold."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/sponsor",
+       "prefLabel": {
+          "en": "sponsored"
+        },
+       "definition": {
+         "en": "Indicates that the actor has sponsored the object. If a target is specified, it indicates the context within which the sponsorship is offered. For instance, a company can sponsor an event; or an individual can sponsor a project; etc."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/start",
+       "prefLabel": {
+          "en": "started"
+        },
+       "definition": {
+         "en": "Indicates that the actor has started the object. For instance, when a person starts a project."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/stop-following",
+       "prefLabel": {
+          "en": "stopped following"
+        },
+       "definition": {
+         "en": "Indicates that the actor has stopped following the object."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/submit",
+       "prefLabel": {
+          "en": "submitted"
+        },
+       "definition": {
+         "en": "Indicates that the actor has submitted the object. If a target is specified, it indicates the entity to which the object was submitted."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/tag",
+       "prefLabel": {
+          "en": "tagged"
+        },
+       "definition": {
+         "en": "Indicates that the actor has associated the object with the target. For example, if the actor specifies that a particular user appears in a photo. the object is the user and the target is the photo."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/terminate",
+       "prefLabel": {
+          "en": "terminated"
+        },
+       "definition": {
+         "en": "Indicates that the actor successfully ended an activity."
+         },
+       "exactMatch": ["http://adlnet.gov/expapi/verbs/terminated"],
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/tie",
+       "prefLabel": {
+          "en": "tied"
+        },
+       "definition": {
+         "en": "Indicates that the actor has neither won or lost the object. This verb is generally only applicable when the object represents some form of competition, such as a game."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/unfavorite",
+       "prefLabel": {
+          "en": "unfavorited"
+        },
+       "definition": {
+         "en": "Indicates that the actor has removed the object from the collection of favorited items."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/unlike",
+       "prefLabel": {
+          "en": "unliked"
+        },
+       "definition": {
+         "en": "Indicates that the actor has removed the object from the collection of liked items."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/unsatisfy",
+       "prefLabel": {
+          "en": "unsatisfied"
+        },
+       "definition": {
+         "en": "Indicates that the actor has not satisfied the object. If a target is specified, it indicates the context within which the object was not satisfied. For instance, if a person fails to satisfy the requirements of some particular challenge, the person is the actor; the requirement is the object and the challenge is the target."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/unsave",
+       "prefLabel": {
+          "en": "unsaved"
+        },
+       "definition": {
+         "en": "Indicates that the actor has removed the object from the collection of saved items."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/unshare",
+       "prefLabel": {
+          "en": "unshared"
+        },
+       "definition": {
+         "en": "Indicates that the actor is no longer sharing the object. If a target is specified, it indicates the entity with whom the object is no longer being shared."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/update",
+       "prefLabel": {
+          "en": "updated"
+        },
+       "definition": {
+         "en": "Indicates that the actor has updated the object. Note, however, that this vocabulary does not define a mechanism for describing the actual set of modifications made to object."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/use",
+       "prefLabel": {
+          "en": "used"
+        },
+       "definition": {
+         "en": "Indicates that the actor has used the object in some manner."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/at",
+       "prefLabel": {
+          "en": "was at"
+        },
+       "definition": {
+         "en": "Indicates that the actor was located at the object. For instance, a person being at a specific physical location."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/watch",
+       "prefLabel": {
+          "en": "watched"
+        },
+       "definition": {
+         "en": "Indicates that the actor has watched the object. This verb is typically applicable only when the object represents dynamic, visible content such as a movie, a television show or a public performance. This verb is a more specific form of the verbs \"experience\", \"play\" and \"consume\"."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+       "id": "http://activitystrea.ms/schema/1.0/win",
+       "prefLabel": {
+          "en": "won"
+        },
+       "definition": {
+         "en": "Indicates that the actor has won the object. This verb is typically applicable only when the object represents some form of competition, such as a game."
+         },
+
+       "inScheme": "http://activitystrea.ms/schema/1.0",
+       "type": "Verb"
+    },
+    {
+      "id": "http://activitystrea.ms/schema/1.0/alert",
+      "inScheme": "http://activitystrea.ms/schema/1.0/",
+      "type": "ActivityType",
+      "definition": {
+        "en": "Represents any kind of significant notification."
+      },
+      "prefLabel": {
+        "en": "alert"
+      }
+    },
+    {
+      "id": "http://activitystrea.ms/schema/1.0/application",
+      "inScheme": "http://activitystrea.ms/schema/1.0/",
+      "type": "ActivityType",
+      "definition": {
+        "en": "Represents any kind of software application."
+      },
+      "prefLabel": {
+        "en": "application"
+      }
+    },
+    {
+      "id": "http://activitystrea.ms/schema/1.0/article",
+      "inScheme": "http://activitystrea.ms/schema/1.0/",
+      "type": "ActivityType",
+      "definition": {
+        "en": "Represents objects such as news articles, knowledge base entries, or other similar construct. Such objects generally consist of paragraphs of text, in some cases incorporating embedded media such as photos and inline hyperlinks to other resources."
+      },
+      "prefLabel": {
+        "en": "article"
+      }
+    },
+    {
+      "id": "http://activitystrea.ms/schema/1.0/audio",
+      "inScheme": "http://activitystrea.ms/schema/1.0/",
+      "type": "ActivityType",
+      "definition": {
+        "en": "Represents audio content of any kind. Objects of this type MAY contain an additional property as specified in Section 3.1."
+      },
+      "prefLabel": {
+        "en": "audio"
+      }
+    },
+    {
+      "id": "http://activitystrea.ms/schema/1.0/badge",
+      "inScheme": "http://activitystrea.ms/schema/1.0/",
+      "type": "ActivityType",
+      "definition": {
+        "en": "Represents a badge or award granted to an object (typically a person object)"
+      },
+      "prefLabel": {
+        "en": "badge"
+      }
+    },
+    {
+      "id": "http://activitystrea.ms/schema/1.0/binary",
+      "inScheme": "http://activitystrea.ms/schema/1.0/",
+      "type": "ActivityType",
+      "definition": {
+        "en": "Objects of this type are used to carry arbitrary Base64-encoded binary data within an Activity Stream object. It is primarily intended to attach binary data to other types of objects through the use of the attachments property. Objects of this type will contain the additional properties specified in Section 3.2. This activity type is included for data conversion with Activity Streams, it's not recommended for use in new Tin Can statements."
+      },
+      "prefLabel": {
+        "en": "binary"
+      }
+    },
+    {
+      "id": "http://activitystrea.ms/schema/1.0/bookmark",
+      "inScheme": "http://activitystrea.ms/schema/1.0/",
+      "type": "ActivityType",
+      "definition": {
+        "en": "Represents a pointer to some URL -- typically a web page. In most cases, bookmarks are specific to a given user and contain metadata chosen by that user. Bookmark Objects are similar in principle to the concept of bookmarks or favorites in a web browser. A bookmark represents a pointer to the URL, not the URL or the associated resource itself. Objects of this type SHOULD contain an additional targetUrl property whose value is a String containing the IRI of the target of the bookmark."
+      },
+      "prefLabel": {
+        "en": "bookmark"
+      }
+    },
+    {
+      "id": "http://activitystrea.ms/schema/1.0/collection",
+      "inScheme": "http://activitystrea.ms/schema/1.0/",
+      "type": "ActivityType",
+      "definition": {
+        "en": "Represents a generic collection of objects of any type. This object type can be used, for instance, to represent a collection of files like a folder; a collection of photos like an album; and so forth. Objects of this type MAY contain an additional objectTypes property whose value is an Array of Strings specifying the expected objectType of objects contained within the collection. This activity type is included for data conversion with Activity Streams, it's not recommended for use in new Tin Can statements."
+      },
+      "prefLabel": {
+        "en": "collection"
+      }
+    },
+    {
+      "id": "http://activitystrea.ms/schema/1.0/comment",
+      "inScheme": "http://activitystrea.ms/schema/1.0/",
+      "type": "ActivityType",
+      "definition": {
+        "en": "Represents a textual response to another object. Objects of this type MAY contain an additional inReplyTo property whose value is an Array of one or more other Activity Stream Objects for which the object is to be considered a response."
+      },
+      "prefLabel": {
+        "en": "comment"
+      }
+    },
+    {
+      "id": "http://activitystrea.ms/schema/1.0/device",
+      "inScheme": "http://activitystrea.ms/schema/1.0/",
+      "type": "ActivityType",
+      "definition": {
+        "en": "Represents a device of any sort."
+      },
+      "prefLabel": {
+        "en": "device"
+      }
+    },
+    {
+      "id": "http://activitystrea.ms/schema/1.0/event",
+      "inScheme": "http://activitystrea.ms/schema/1.0/",
+      "type": "ActivityType",
+      "definition": {
+        "en": "Represents an event that occurs at a certain location during a particular period of time. Objects of this type MAY contain the additional properties specified in Section 3.3."
+      },
+      "prefLabel": {
+        "en": "event"
+      }
+    },
+    {
+      "id": "http://activitystrea.ms/schema/1.0/file",
+      "inScheme": "http://activitystrea.ms/schema/1.0/",
+      "type": "ActivityType",
+      "definition": {
+        "en": "Represents any form of document or file. Objects of this type MAY contain an additional fileUrl property whose value a dereferenceable IRI that can be used to retrieve the file; and an additional mimeType property whose value is the MIME type of the file described by the object."
+      },
+      "prefLabel": {
+        "en": "file"
+      }
+    },
+    {
+      "id": "http://activitystrea.ms/schema/1.0/game",
+      "inScheme": "http://activitystrea.ms/schema/1.0/",
+      "type": "ActivityType",
+      "definition": {
+        "en": "Represents a game or competition of any kind."
+      },
+      "prefLabel": {
+        "en": "game"
+      }
+    },
+    {
+      "id": "http://activitystrea.ms/schema/1.0/group",
+      "inScheme": "http://activitystrea.ms/schema/1.0/",
+      "type": "ActivityType",
+      "definition": {
+        "en": "Represents a grouping of objects in which member objects can join or leave."
+      },
+      "prefLabel": {
+        "en": "group"
+      }
+    },
+    {
+      "id": "http://activitystrea.ms/schema/1.0/image",
+      "inScheme": "http://activitystrea.ms/schema/1.0/",
+      "type": "ActivityType",
+      "definition": {
+        "en": "Represents a graphical image. Objects of this type MAY contain an additional fullImage property whose value is an Activity Streams Media Link to a full-sized representation of the image."
+      },
+      "prefLabel": {
+        "en": "image"
+      }
+    },
+    {
+      "id": "http://activitystrea.ms/schema/1.0/issue",
+      "inScheme": "http://activitystrea.ms/schema/1.0/",
+      "type": "ActivityType",
+      "definition": {
+        "en": "Represents a report about a problem or situation that needs to be resolved. For instance, the issue object can be used to represent reports detailing software defects, or reports of acceptable use violations, and so forth. Objects of this type MAY contain the additional properties specified in Section 3.4."
+      },
+      "prefLabel": {
+        "en": "issue"
+      }
+    },
+    {
+      "id": "http://activitystrea.ms/schema/1.0/job",
+      "inScheme": "http://activitystrea.ms/schema/1.0/",
+      "type": "ActivityType",
+      "definition": {
+        "en": "Represents information about a job or a job posting."
+      },
+      "prefLabel": {
+        "en": "job"
+      }
+    },
+    {
+      "id": "http://activitystrea.ms/schema/1.0/note",
+      "inScheme": "http://activitystrea.ms/schema/1.0/",
+      "type": "ActivityType",
+      "definition": {
+        "en": "Represents a short-form text message. This object is intended primarily for use in micro-blogging scenarios and in systems where users are invited to publish short, often plain-text messages whose useful lifespan is generally shorter than that of an article of weblog entry. A note is similar in structure to an article, but typically does not have a title or distinct paragraphs and tends to be much shorter in length."
+      },
+      "prefLabel": {
+        "en": "note"
+      }
+    },
+    {
+      "id": "http://activitystrea.ms/schema/1.0/offer",
+      "inScheme": "http://activitystrea.ms/schema/1.0/",
+      "type": "ActivityType",
+      "definition": {
+        "en": "Represents an offer of any kind."
+      },
+      "prefLabel": {
+        "en": "offer"
+      }
+    },
+    {
+      "id": "http://activitystrea.ms/schema/1.0/",
+      "inScheme": "http://activitystrea.ms/schema/1.0/",
+      "type": "ActivityType",
+      "definition": {
+        "en": "Represents an organization of any kind."
+      },
+      "prefLabel": {
+        "en": "organization"
+      }
+    },
+    {
+      "id": "http://activitystrea.ms/schema/1.0/page",
+      "inScheme": "http://activitystrea.ms/schema/1.0/",
+      "type": "ActivityType",
+      "definition": {
+        "en": "Represents an area, typically a web page, that is representative of, and generally managed by a particular entity. Such areas are usually dedicated to displaying descriptive information about the entity and showcasing recent content such as articles, photographs and videos. Most social networking applications, for example, provide individual users with their own dedicated "profile" pages. Several allow similar types of pages to be created for commercial entities, organizations or events. While the specific details of how pages are implemented, their characteristics and use may vary, the one unifying property is that they are typically owned by a single entity that is represented by the content provided by the page itself."
+      },
+      "prefLabel": {
+        "en": "page"
+      }
+    },
+    {
+      "id": "http://activitystrea.ms/schema/1.0/person",
+      "inScheme": "http://activitystrea.ms/schema/1.0/",
+      "type": "ActivityType",
+      "definition": {
+        "en": "Represents an individual person. This activity type is included for data conversion with Activity Streams, it's not recommended for use in new Tin Can statements. Agent should be used instead of person."
+      },
+      "prefLabel": {
+        "en": "person"
+      }
+    },
+    {
+      "id": "http://activitystrea.ms/schema/1.0/place",
+      "inScheme": "http://activitystrea.ms/schema/1.0/",
+      "type": "ActivityType",
+      "definition": {
+        "en": "Represents a physical location. Locations can be represented using geographic coordinates, a physical address, a free-form location name, or any combination of these. Objects of this type MAY contain the additional properties specified in Section 3.5."
+      },
+      "prefLabel": {
+        "en": "place"
+      }
+    },
+    {
+      "id": "http://activitystrea.ms/schema/1.0/process",
+      "inScheme": "http://activitystrea.ms/schema/1.0/",
+      "type": "ActivityType",
+      "definition": {
+        "en": "Represents any form of process. For instance, a long-running task that is started and expected to continue operating for a period of time."
+      },
+      "prefLabel": {
+        "en": "process"
+      }
+    },
+    {
+      "id": "http://activitystrea.ms/schema/1.0/product",
+      "inScheme": "http://activitystrea.ms/schema/1.0/",
+      "type": "ActivityType",
+      "definition": {
+        "en": "Represents a commercial good or service. Objects of this type MAY contain an additional fullImage property whose value is an Activity Streams Media Link to an image resource representative of the product."
+      },
+      "prefLabel": {
+        "en": "product"
+      }
+    },
+    {
+      "id": "http://activitystrea.ms/schema/1.0/question",
+      "inScheme": "http://activitystrea.ms/schema/1.0/",
+      "type": "ActivityType",
+      "definition": {
+        "en": "Represents a question or a poll. Objects of this type MAY contain an additional options property whose value is an Array of possible answers to the question in the form of Activity Stream objects of any type."
+      },
+      "prefLabel": {
+        "en": "question"
+      }
+    },
+    {
+      "id": "http://activitystrea.ms/schema/1.0/review",
+      "inScheme": "http://activitystrea.ms/schema/1.0/",
+      "type": "ActivityType",
+      "definition": {
+        "en": "Represents a primarily prose-based commentary on another object. Objects of this type MAY contain a rating property as specified in Section 4.4."
+      },
+      "prefLabel": {
+        "en": "review"
+      }
+    },
+    {
+      "id": "http://activitystrea.ms/schema/1.0/service",
+      "inScheme": "http://activitystrea.ms/schema/1.0/",
+      "type": "ActivityType",
+      "definition": {
+        "en": "Represents any form of hosted or consumable service that performs some kind of work or benefit for other entities. Examples of such objects include websites, businesses, etc."
+      },
+      "prefLabel": {
+        "en": "service"
+      }
+    },
+    {
+      "id": "http://activitystrea.ms/schema/1.0/task",
+      "inScheme": "http://activitystrea.ms/schema/1.0/",
+      "type": "ActivityType",
+      "definition": {
+        "en": "Represents an activity that has yet to be completed. Objects of this type can contain additional properties as specified in Section 3.6."
+      },
+      "prefLabel": {
+        "en": "task"
+      }
+    },
+    {
+      "id": "http://activitystrea.ms/schema/1.0/video",
+      "inScheme": "http://activitystrea.ms/schema/1.0/",
+      "type": "ActivityType",
+      "definition": {
+        "en": "Represents video content of any kind. Objects of this type MAY contain additional properties as specified in Section 3.1."
+      },
+      "prefLabel": {
+        "en": "video"
+      }
+    }
+  ]
+}
