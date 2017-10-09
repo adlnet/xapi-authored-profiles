@@ -21,7 +21,7 @@
    skos:prefLabel "accessed"@en .
 
 <http://activitystrea.ms/schema/1.0/acknowledge> a <https://w3id.org/xapi/ontology#Verb>;
-   skos:definition "Indicates that the actor has acknowledged the object. This effectively signals that the actor is aware of the object's existence."@en;
+   skos:definition "Indicates that the actor has acknowledged the object. This effectively signals that the actor is aware of the objects existence."@en;
    skos:inScheme <http://activitystrea.ms/schema/1.0>;
    skos:prefLabel "acknowledged"@en .
 
@@ -108,7 +108,7 @@
    skos:prefLabel "badge"@en .
 
 <http://activitystrea.ms/schema/1.0/binary> a <https://w3id.org/xapi/ontology#ActivityType>;
-   skos:definition "Objects of this type are used to carry arbitrary Base64-encoded binary data within an Activity Stream object. It is primarily intended to attach binary data to other types of objects through the use of the attachments property. Objects of this type will contain the additional properties specified in Section 3.2. This activity type is included for data conversion with Activity Streams, it's not recommended for use in new Tin Can statements."@en;
+   skos:definition "Objects of this type are used to carry arbitrary Base64-encoded binary data within an Activity Stream object. It is primarily intended to attach binary data to other types of objects through the use of the attachments property. Objects of this type will contain the additional properties specified in Section 3.2. This activity type is included for data conversion with Activity Streams, its not recommended for use in new Tin Can statements."@en;
    skos:inScheme <http://activitystrea.ms/schema/1.0/>;
    skos:prefLabel "binary"@en .
 
@@ -143,7 +143,7 @@
    skos:prefLabel "closed"@en .
 
 <http://activitystrea.ms/schema/1.0/collection> a <https://w3id.org/xapi/ontology#ActivityType>;
-   skos:definition "Represents a generic collection of objects of any type. This object type can be used, for instance, to represent a collection of files like a folder; a collection of photos like an album; and so forth. Objects of this type MAY contain an additional objectTypes property whose value is an Array of Strings specifying the expected objectType of objects contained within the collection. This activity type is included for data conversion with Activity Streams, it's not recommended for use in new Tin Can statements."@en;
+   skos:definition "Represents a generic collection of objects of any type. This object type can be used, for instance, to represent a collection of files like a folder; a collection of photos like an album; and so forth. Objects of this type MAY contain an additional objectTypes property whose value is an Array of Strings specifying the expected objectType of objects contained within the collection. This activity type is included for data conversion with Activity Streams, its not recommended for use in new Tin Can statements."@en;
    skos:inScheme <http://activitystrea.ms/schema/1.0/>;
    skos:prefLabel "collection"@en .
 
@@ -164,7 +164,7 @@
    skos:prefLabel "confirmed"@en .
 
 <http://activitystrea.ms/schema/1.0/consume> a <https://w3id.org/xapi/ontology#Verb>;
-   skos:definition "Indicates that the actor has consumed the object. The specific meaning is dependent largely on the object's type. For instance, an actor may \"consume\" an audio object, indicating that the actor has listened to it; or an actor may \"consume\" a book, indicating that the book has been read. As such, the \"consume\" verb is a more generic form of other more specific verbs such as \"read\" and \"play\""@en;
+   skos:definition "Indicates that the actor has consumed the object. The specific meaning is dependent largely on the objects type. For instance, an actor may \"consume\" an audio object, indicating that the actor has listened to it; or an actor may \"consume\" a book, indicating that the book has been read. As such, the \"consume\" verb is a more generic form of other more specific verbs such as \"read\" and \"play\""@en;
    skos:inScheme <http://activitystrea.ms/schema/1.0>;
    skos:prefLabel "consumed"@en .
 
@@ -346,7 +346,7 @@
    skos:prefLabel "page"@en .
 
 <http://activitystrea.ms/schema/1.0/person> a <https://w3id.org/xapi/ontology#ActivityType>;
-   skos:definition "Represents an individual person. This activity type is included for data conversion with Activity Streams, it's not recommended for use in new Tin Can statements. Agent should be used instead of person."@en;
+   skos:definition "Represents an individual person. This activity type is included for data conversion with Activity Streams, its not recommended for use in new Tin Can statements. Agent should be used instead of person."@en;
    skos:inScheme <http://activitystrea.ms/schema/1.0/>;
    skos:prefLabel "person"@en .
 
@@ -453,17 +453,17 @@
    skos:prefLabel "review"@en .
 
 <http://activitystrea.ms/schema/1.0/rsvp-maybe> a <https://w3id.org/xapi/ontology#Verb>;
-   skos:definition "The \"possible RSVP\" verb indicates that the actor has made a possible RSVP for the object. This specification only defines the meaning of this verb when its object is an event (see Section 3.3), though implementors need to be prepared to handle other object types. The use of this verb is only appropriate when the RSVP was created by an explicit action by the actor. It is not appropriate to use this verb when a user has been added as an attendee by an event organizer or administrator. This verb is included for data conversion with Activity Streams, it's not recommended for use in new Tin Can statements."@en;
+   skos:definition "The \"possible RSVP\" verb indicates that the actor has made a possible RSVP for the object. This specification only defines the meaning of this verb when its object is an event (see Section 3.3), though implementors need to be prepared to handle other object types. The use of this verb is only appropriate when the RSVP was created by an explicit action by the actor. It is not appropriate to use this verb when a user has been added as an attendee by an event organizer or administrator. This verb is included for data conversion with Activity Streams, its not recommended for use in new Tin Can statements."@en;
    skos:inScheme <http://activitystrea.ms/schema/1.0>;
    skos:prefLabel "RSVPed maybe"@en .
 
 <http://activitystrea.ms/schema/1.0/rsvp-no> a <https://w3id.org/xapi/ontology#Verb>;
-   skos:definition "The \"negative RSVP\" verb indicates that the actor has made a negative RSVP for the object. This specification only defines the meaning of this verb when its object is an event (see Section 3.3), though implementors need to be prepared to handle other object types. The use of this verb is only appropriate when the RSVP was created by an explicit action by the actor. It is not appropriate to use this verb when a user has been added as an attendee by an event organizer or administrator. This verb is included for data conversion with Activity Streams, it's not recommended for use in new Tin Can statements."@en;
+   skos:definition "The \"negative RSVP\" verb indicates that the actor has made a negative RSVP for the object. This specification only defines the meaning of this verb when its object is an event (see Section 3.3), though implementors need to be prepared to handle other object types. The use of this verb is only appropriate when the RSVP was created by an explicit action by the actor. It is not appropriate to use this verb when a user has been added as an attendee by an event organizer or administrator. This verb is included for data conversion with Activity Streams, its not recommended for use in new Tin Can statements."@en;
    skos:inScheme <http://activitystrea.ms/schema/1.0>;
    skos:prefLabel "RSVPed no"@en .
 
 <http://activitystrea.ms/schema/1.0/rsvp-yes> a <https://w3id.org/xapi/ontology#Verb>;
-   skos:definition "The \"positive RSVP\" verb indicates that the actor has made a positive RSVP for an object. This specification only defines the meaning of this verb when its object is an event (see Section 3.3), though implementors need to be prepared to handle other object types. The use of this verb is only appropriate when the RSVP was created by an explicit action by the actor. It is not appropriate to use this verb when a user has been added as an attendee by an event organizer or administrator. This verb is included for data conversion with Activity Streams, it's not recommended for use in new Tin Can statements."@en;
+   skos:definition "The \"positive RSVP\" verb indicates that the actor has made a positive RSVP for an object. This specification only defines the meaning of this verb when its object is an event (see Section 3.3), though implementors need to be prepared to handle other object types. The use of this verb is only appropriate when the RSVP was created by an explicit action by the actor. It is not appropriate to use this verb when a user has been added as an attendee by an event organizer or administrator. This verb is included for data conversion with Activity Streams, its not recommended for use in new Tin Can statements."@en;
    skos:inScheme <http://activitystrea.ms/schema/1.0>;
    skos:prefLabel "RSVPed yes"@en .
 
@@ -474,7 +474,7 @@
    skos:prefLabel "satisfied"@en .
 
 <http://activitystrea.ms/schema/1.0/save> a <https://w3id.org/xapi/ontology#Verb>;
-   skos:definition "Indicates that the actor has called out the object as being of interest primarily to him- or herself. Though this action MAY be shared publicly, the implication is that the object has been saved primarily for the actor's own benefit rather than to show it to others as would be indicated by the \"share\" verb."@en;
+   skos:definition "Indicates that the actor has called out the object as being of interest primarily to him- or herself. Though this action MAY be shared publicly, the implication is that the object has been saved primarily for the actors own benefit rather than to show it to others as would be indicated by the \"share\" verb."@en;
    skos:inScheme <http://activitystrea.ms/schema/1.0>;
    skos:prefLabel "saved"@en .
 

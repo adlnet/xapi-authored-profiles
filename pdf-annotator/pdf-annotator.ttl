@@ -26,17 +26,17 @@
      <http://www.risc-inc.com/annotator/activities/freetext> .
 
 <http://risc-inc.com/annotator/activities/highlight> a <https://w3id.org/xapi/ontology#ActivityType>;
-   skos:definition "An annotation of the 'highlight' type. Highlights are used to mark strings of text in a document with a color. This activity type should only be used for highlighted text and not for highlighted images or other elements."@en;
+   skos:definition "An annotation of the highlight type. Highlights are used to mark strings of text in a document with a color. This activity type should only be used for highlighted text and not for highlighted images or other elements."@en;
    skos:inScheme <http://www.risc-inc.com/annotator/>;
    skos:prefLabel "highlighted text annotation"@en .
 
 <http://risc-inc.com/annotator/activities/note> a <https://w3id.org/xapi/ontology#ActivityType>;
-   skos:definition "Indicates an annotation made to a document of the 'note' form. This is a string of text appended to the document at a specified location. Note annotations can be added anywhere on the page. This activity type should not be used for other types of note that are not annotations to a document."@en;
+   skos:definition "Indicates an annotation made to a document of the note form. This is a string of text appended to the document at a specified location. Note annotations can be added anywhere on the page. This activity type should not be used for other types of note that are not annotations to a document."@en;
    skos:inScheme <http://www.risc-inc.com/annotator/>;
    skos:prefLabel "note annotation"@en .
 
 <http://risc-inc.com/annotator/activities/underline> a <https://w3id.org/xapi/ontology#ActivityType>;
-   skos:definition "An annotation of the 'underline' type. Underlines are used to mark strings of text in a document with a line underneath the text. This activity type should only be used for underlined text and not for images or other elements."@en;
+   skos:definition "An annotation of the underline type. Underlines are used to mark strings of text in a document with a line underneath the text. This activity type should only be used for underlined text and not for images or other elements."@en;
    skos:inScheme <http://www.risc-inc.com/annotator/>;
    skos:prefLabel "underline annotation"@en .
 
@@ -51,7 +51,7 @@
    skos:prefLabel "modified annotation"@en .
 
 <http://www.risc-inc.com/annotator/activities/freetext> a <https://w3id.org/xapi/ontology#ActivityType>;
-   skos:definition "Indicates an annotation made to a document of the 'freetext' form. This is a string of text written direction onto the document at a specified location. Freetext annotations can be added anywhere on the page. Unlike note annotations, they have no border or background."@en;
+   skos:definition "Indicates an annotation made to a document of the freetext form. This is a string of text written direction onto the document at a specified location. Freetext annotations can be added anywhere on the page. Unlike note annotations, they have no border or background."@en;
    skos:inScheme <http://www.risc-inc.com/annotator/>;
    skos:prefLabel "freetext annotation"@en .
 
