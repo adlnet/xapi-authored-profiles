@@ -1738,17 +1738,6 @@
         }
     },
     {
-        "id": "http://id.tincanapi.com/extension/",
-        "inScheme": "http://registry.tincanapi.com",
-        "type": "ContextExtension",
-        "definition": {
-          "en": ""
-        },
-        "prefLabel": {
-          "en": ""
-        }
-    },
-    {
         "id": "http://id.tincanapi.com/extension/share-medium",
         "inScheme": "http://registry.tincanapi.com",
         "type": "ContextExtension",

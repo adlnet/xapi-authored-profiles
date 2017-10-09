@@ -31,7 +31,7 @@
       "inScheme": "http://www.risc-inc.com/annotator/",
       "type": "ContextExtension",
       "definition": {
-        "en": "Activity definition extension used with activities of type 'http://www.risc-inc.com/annotator/activities/highlight' and 'http://www.risc-inc.com/annotator/activities/underline'. Stores the string of text that has been highlighted or underlined. For example the end of one bullet point and the beginning of the next bullet might be represented as: Reliability Authority\r\n•\r\nPersonnel Issues."
+        "en": "Activity definition extension used with activities of type http://www.risc-inc.com/annotator/activities/highlight and http://www.risc-inc.com/annotator/activities/underline. Stores the string of text that has been highlighted or underlined. For example the end of one bullet point and the beginning of the next bullet might be represented as: Reliability Authority \r\n•\r\n Personnel Issues."
       },
       "prefLabel": {
         "en": "highlighted string"
