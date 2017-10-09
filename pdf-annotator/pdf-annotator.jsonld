@@ -64,7 +64,7 @@
       "inScheme": "http://www.risc-inc.com/annotator/",
       "type": "ActivityType",
       "definition": {
-        "en": "An annotation of the 'highlight' type. Highlights are used to mark strings of text in a document with a color. This activity type should only be used for highlighted text and not for highlighted images or other elements."
+        "en": "An annotation of the highlight type. Highlights are used to mark strings of text in a document with a color. This activity type should only be used for highlighted text and not for highlighted images or other elements."
       },
       "prefLabel": {
         "en": "highlighted text annotation"
@@ -75,7 +75,7 @@
       "inScheme": "http://www.risc-inc.com/annotator/",
       "type": "ActivityType",
       "definition": {
-        "en": "Indicates an annotation made to a document of the 'note' form. This is a string of text appended to the document at a specified location. Note annotations can be added anywhere on the page. This activity type should not be used for other types of note that are not annotations to a document."
+        "en": "Indicates an annotation made to a document of the note form. This is a string of text appended to the document at a specified location. Note annotations can be added anywhere on the page. This activity type should not be used for other types of note that are not annotations to a document."
       },
       "prefLabel": {
         "en": "note annotation"
@@ -86,7 +86,7 @@
       "inScheme": "http://www.risc-inc.com/annotator/",
       "type": "ActivityType",
       "definition": {
-        "en": "An annotation of the 'underline' type. Underlines are used to mark strings of text in a document with a line underneath the text. This activity type should only be used for underlined text and not for images or other elements."
+        "en": "An annotation of the underline type. Underlines are used to mark strings of text in a document with a line underneath the text. This activity type should only be used for underlined text and not for images or other elements."
       },
       "prefLabel": {
         "en": "underline annotation"
@@ -97,7 +97,7 @@
       "inScheme": "http://www.risc-inc.com/annotator/",
       "type": "ActivityType",
       "definition": {
-        "en": "Indicates an annotation made to a document of the 'freetext' form. This is a string of text written direction onto the document at a specified location. Freetext annotations can be added anywhere on the page. Unlike note annotations, they have no border or background."
+        "en": "Indicates an annotation made to a document of the freetext form. This is a string of text written direction onto the document at a specified location. Freetext annotations can be added anywhere on the page. Unlike note annotations, they have no border or background."
       },
       "prefLabel": {
         "en": "freetext annotation"
