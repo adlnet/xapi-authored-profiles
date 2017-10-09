@@ -1,6 +1,6 @@
 {
   "@context": "https://w3id.org/xapi/profiles/context",
-  "id": " http://www.risc-inc.com/annotator",
+  "id": "http://www.risc-inc.com/annotator",
   "type": "Profile",
   "conformsTo": "https://w3id.org/xapi/profiles#1.0",
   "prefLabel": {

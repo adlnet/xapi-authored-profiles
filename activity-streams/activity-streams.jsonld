@@ -508,7 +508,7 @@
        "type": "Verb"
     },
     {
-       "id": " http://activitystrea.ms/schema/1.0/like",
+       "id": "http://activitystrea.ms/schema/1.0/like",
        "prefLabel": {
           "en": "liked"
         },

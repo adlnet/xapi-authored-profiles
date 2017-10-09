@@ -5,7 +5,7 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-< http://activitystrea.ms/schema/1.0/like> a <https://w3id.org/xapi/ontology#Verb>;
+<http://activitystrea.ms/schema/1.0/like> a <https://w3id.org/xapi/ontology#Verb>;
    skos:definition "Indicates that the actor marked the object as an item of special interest. The like verb is considered to be an alias of favorite. The two verb are semantically identical."@en;
    skos:inScheme <http://activitystrea.ms/schema/1.0>;
    skos:prefLabel "liked"@en .
@@ -624,7 +624,7 @@
      <http://activitystrea.ms/schema/1.0/agree>,
      <http://activitystrea.ms/schema/1.0/archive>,
      <http://activitystrea.ms/schema/1.0/application>,
-     < http://activitystrea.ms/schema/1.0/like>,
+     <http://activitystrea.ms/schema/1.0/like>,
      <http://activitystrea.ms/schema/1.0/add>,
      <http://activitystrea.ms/schema/1.0/request-friend>,
      <http://activitystrea.ms/schema/1.0/install>,
