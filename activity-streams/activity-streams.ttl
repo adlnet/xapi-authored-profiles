@@ -1,0 +1,733 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+< http://activitystrea.ms/schema/1.0/like> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor marked the object as an item of special interest. The \"like\" verb is considered to be an alias of \"favorite\". The two verb are semantically identical."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "liked"@en .
+
+<http://activitystrea.ms/schema/1.0/accept> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that that the actor has accepted the object. For instance, a person accepting an award, or accepting an assignment."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "accepted"@en .
+
+<http://activitystrea.ms/schema/1.0/access> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has accessed the object. For instance, a person accessing a room, or accessing a file."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "accessed"@en .
+
+<http://activitystrea.ms/schema/1.0/acknowledge> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has acknowledged the object. This effectively signals that the actor is aware of the object's existence."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "acknowledged"@en .
+
+<http://activitystrea.ms/schema/1.0/add> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has added the object to the target. For instance, adding a photo to an album."@en;
+   skos:exactMatch <https://brindlewaye.com/xAPITerms/verbs/added/>;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "added"@en .
+
+<http://activitystrea.ms/schema/1.0/agree> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor agrees with the object. For example, a person agreeing with an argument, or expressing agreement with a particular issue."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "agreed"@en .
+
+<http://activitystrea.ms/schema/1.0/alert> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "Represents any kind of significant notification."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0/>;
+   skos:prefLabel "alert"@en .
+
+<http://activitystrea.ms/schema/1.0/append> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has appended the object to the target. For instance, a person appending a new record to a database."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "appended"@en .
+
+<http://activitystrea.ms/schema/1.0/application> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "Represents any kind of software application."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0/>;
+   skos:prefLabel "application"@en .
+
+<http://activitystrea.ms/schema/1.0/approve> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has approved the object. For instance, a manager might approve a travel request."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "approved"@en .
+
+<http://activitystrea.ms/schema/1.0/archive> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has archived the object."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "archived"@en .
+
+<http://activitystrea.ms/schema/1.0/article> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "Represents objects such as news articles, knowledge base entries, or other similar construct. Such objects generally consist of paragraphs of text, in some cases incorporating embedded media such as photos and inline hyperlinks to other resources."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0/>;
+   skos:prefLabel "article"@en .
+
+<http://activitystrea.ms/schema/1.0/assign> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has assigned the object to the target."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "assigned"@en .
+
+<http://activitystrea.ms/schema/1.0/at> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor was located at the object. For instance, a person being at a specific physical location."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "was at"@en .
+
+<http://activitystrea.ms/schema/1.0/attach> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has attached the object to the target. For instance, a person attaching a file to a wiki page or an email."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "attached"@en .
+
+<http://activitystrea.ms/schema/1.0/attend> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has attended the object. For instance, a person attending a meeting."@en;
+   skos:exactMatch <http://adlnet.gov/expapi/verbs/attended>;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "attended"@en .
+
+<http://activitystrea.ms/schema/1.0/audio> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "Represents audio content of any kind. Objects of this type MAY contain an additional property as specified in Section 3.1."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0/>;
+   skos:prefLabel "audio"@en .
+
+<http://activitystrea.ms/schema/1.0/author> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has authored the object. Note that this is a more specific form of the verb \"create\"."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "authored"@en .
+
+<http://activitystrea.ms/schema/1.0/authorize> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has authorized the object. If a target is specified, it means that the authorization is specifically in regards to the target. For instance, a service can authorize a person to access a given application; in which case the actor is the service, the object is the person, and the target is the application. In contrast, a person can authorize a request; in which case the actor is the person and the object is the request and there might be no explicit target."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "authorized"@en .
+
+<http://activitystrea.ms/schema/1.0/badge> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "Represents a badge or award granted to an object (typically a person object)"@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0/>;
+   skos:prefLabel "badge"@en .
+
+<http://activitystrea.ms/schema/1.0/binary> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "Objects of this type are used to carry arbitrary Base64-encoded binary data within an Activity Stream object. It is primarily intended to attach binary data to other types of objects through the use of the attachments property. Objects of this type will contain the additional properties specified in Section 3.2. This activity type is included for data conversion with Activity Streams, it's not recommended for use in new Tin Can statements."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0/>;
+   skos:prefLabel "binary"@en .
+
+<http://activitystrea.ms/schema/1.0/bookmark> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "Represents a pointer to some URL -- typically a web page. In most cases, bookmarks are specific to a given user and contain metadata chosen by that user. Bookmark Objects are similar in principle to the concept of bookmarks or favorites in a web browser. A bookmark represents a pointer to the URL, not the URL or the associated resource itself. Objects of this type SHOULD contain an additional targetUrl property whose value is a String containing the IRI of the target of the bookmark."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0/>;
+   skos:prefLabel "bookmark"@en .
+
+<http://activitystrea.ms/schema/1.0/borrow> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has borrowed the object. If a target is specified, it identifies the entity from which the object was borrowed. For instance, if a person borrows a book from a library, the person is the actor, the book is the object and the library is the target."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "borrowed"@en .
+
+<http://activitystrea.ms/schema/1.0/build> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has built the object. For example, if a person builds a model or compiles code."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "built"@en .
+
+<http://activitystrea.ms/schema/1.0/cancel> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has canceled the object. For instance, canceling a calendar event."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "canceled"@en .
+
+<http://activitystrea.ms/schema/1.0/checkin> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has checked-in to the object. For instance, a person checking-in to a place."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "checkedin"@en .
+
+<http://activitystrea.ms/schema/1.0/close> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has closed the object. For instance, the object could represent a ticket being tracked in an issue management system."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "closed"@en .
+
+<http://activitystrea.ms/schema/1.0/collection> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "Represents a generic collection of objects of any type. This object type can be used, for instance, to represent a collection of files like a folder; a collection of photos like an album; and so forth. Objects of this type MAY contain an additional objectTypes property whose value is an Array of Strings specifying the expected objectType of objects contained within the collection. This activity type is included for data conversion with Activity Streams, it's not recommended for use in new Tin Can statements."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0/>;
+   skos:prefLabel "collection"@en .
+
+<http://activitystrea.ms/schema/1.0/comment> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "Represents a textual response to another object. Objects of this type MAY contain an additional inReplyTo property whose value is an Array of one or more other Activity Stream Objects for which the object is to be considered a response."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0/>;
+   skos:prefLabel "comment"@en .
+
+<http://activitystrea.ms/schema/1.0/complete> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has completed the object."@en;
+   skos:exactMatch <http://adlnet.gov/expapi/verbs/completed>;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "completed"@en .
+
+<http://activitystrea.ms/schema/1.0/confirm> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has confirmed or agrees with the object. For instance, a software developer might confirm an issue reported against a product."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "confirmed"@en .
+
+<http://activitystrea.ms/schema/1.0/consume> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has consumed the object. The specific meaning is dependent largely on the object's type. For instance, an actor may \"consume\" an audio object, indicating that the actor has listened to it; or an actor may \"consume\" a book, indicating that the book has been read. As such, the \"consume\" verb is a more generic form of other more specific verbs such as \"read\" and \"play\""@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "consumed"@en .
+
+<http://activitystrea.ms/schema/1.0/create> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has created the object."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "created"@en .
+
+<http://activitystrea.ms/schema/1.0/delete> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has deleted the object. This implies, but does not require, the permanent destruction of the object."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "deleted"@en .
+
+<http://activitystrea.ms/schema/1.0/deliver> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has delivered the object. For example, delivering a package."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "delivered"@en .
+
+<http://activitystrea.ms/schema/1.0/deny> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has denied the object. For example, a manager may deny a travel request."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "denied"@en .
+
+<http://activitystrea.ms/schema/1.0/device> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "Represents a device of any sort."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0/>;
+   skos:prefLabel "device"@en .
+
+<http://activitystrea.ms/schema/1.0/disagree> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor disagrees with the object."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "disagreed"@en .
+
+<http://activitystrea.ms/schema/1.0/dislike> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor dislikes the object."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "disliked"@en .
+
+<http://activitystrea.ms/schema/1.0/event> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "Represents an event that occurs at a certain location during a particular period of time. Objects of this type MAY contain the additional properties specified in Section 3.3."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0/>;
+   skos:prefLabel "event"@en .
+
+<http://activitystrea.ms/schema/1.0/experience> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has experienced the object in some manner. Note that, depending on the specific object types used for both the actor and object, the meaning of this verb can overlap that of the \"consume\" and \"play\" verbs. For instance, a person might \"experience\" a movie; or \"play\" the movie; or \"consume\" the movie. The \"experience\" verb can be considered a more generic form of other more specific verbs as \"consume\", \"play\", \"watch\", \"listen\", and \"read.\""@en;
+   skos:exactMatch <http://adlnet.gov/expapi/verbs/experienced>;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "experienced"@en .
+
+<http://activitystrea.ms/schema/1.0/favorite> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor marked the object as an item of special interest."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "favorited"@en .
+
+<http://activitystrea.ms/schema/1.0/file> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "Represents any form of document or file. Objects of this type MAY contain an additional fileUrl property whose value a dereferenceable IRI that can be used to retrieve the file; and an additional mimeType property whose value is the MIME type of the file described by the object."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0/>;
+   skos:prefLabel "file"@en .
+
+<http://activitystrea.ms/schema/1.0/find> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has found the object."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "found"@en .
+
+<http://activitystrea.ms/schema/1.0/flag-as-inappropriate> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has flagged the object as being inappropriate for some reason. When using this verb, the context property, as specified within Section 4.1 can be used to provide additional detail about why the object has been flagged."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "flaggedasinappropriate"@en .
+
+<http://activitystrea.ms/schema/1.0/follow> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor began following the activity of the object. In most cases, the objectType will be a \"person\", but it can potentially be of any type that can sensibly generate activity. Processors MAY ignore (silently drop) successive identical \"follow\" activities."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "followed"@en .
+
+<http://activitystrea.ms/schema/1.0/game> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "Represents a game or competition of any kind."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0/>;
+   skos:prefLabel "game"@en .
+
+<http://activitystrea.ms/schema/1.0/give> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor is giving an object to the target. Examples include one person giving a badge object to another person. The object identifies the object being given. The target identifies the receiver."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "gave"@en .
+
+<http://activitystrea.ms/schema/1.0/group> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "Represents a grouping of objects in which member objects can join or leave."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0/>;
+   skos:prefLabel "group"@en .
+
+<http://activitystrea.ms/schema/1.0/host> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor is hosting the object. As in hosting an event, or hosting a service."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "hosted"@en .
+
+<http://activitystrea.ms/schema/1.0/ignore> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has ignored the object. For instance, this verb may be used when an actor has ignored a friend request, in which case the object may be the request-friend activity."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "ignored"@en .
+
+<http://activitystrea.ms/schema/1.0/image> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "Represents a graphical image. Objects of this type MAY contain an additional fullImage property whose value is an Activity Streams Media Link to a full-sized representation of the image."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0/>;
+   skos:prefLabel "image"@en .
+
+<http://activitystrea.ms/schema/1.0/insert> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has inserted the object into the target."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "inserted"@en .
+
+<http://activitystrea.ms/schema/1.0/install> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has installed the object, as in installing an application."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "installed"@en .
+
+<http://activitystrea.ms/schema/1.0/interact> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has interacted with the object. For instance, when one person interacts with another."@en;
+   skos:exactMatch <http://adlnet.gov/expapi/verbs/interacted>;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "interacted"@en .
+
+<http://activitystrea.ms/schema/1.0/invite> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has invited the object, typically a person object, to join or participate in the object described by the target. The target could, for instance, be an event, group or a service."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "invited"@en .
+
+<http://activitystrea.ms/schema/1.0/issue> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "Represents a report about a problem or situation that needs to be resolved. For instance, the issue object can be used to represent reports detailing software defects, or reports of acceptable use violations, and so forth. Objects of this type MAY contain the additional properties specified in Section 3.4."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0/>;
+   skos:prefLabel "issue"@en .
+
+<http://activitystrea.ms/schema/1.0/job> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "Represents information about a job or a job posting."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0/>;
+   skos:prefLabel "job"@en .
+
+<http://activitystrea.ms/schema/1.0/join> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has become a member of the object. This specification only defines the meaning of this verb when the object of the Activity has an objectType of group, though implementors need to be prepared to handle other types of objects."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "joined"@en .
+
+<http://activitystrea.ms/schema/1.0/leave> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has left the object. For instance, a Person leaving a Group or checking-out of a Place."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "left"@en .
+
+<http://activitystrea.ms/schema/1.0/listen> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has listened to the object. This is typically only applicable for objects representing audio content, such as music, an audio-book, or a radio broadcast. The \"listen\" verb is a more specific form of the \"consume\", \"experience\" and \"play\" verbs."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "listened"@en .
+
+<http://activitystrea.ms/schema/1.0/lose> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has lost the object. For instance, if a person loses a game."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "lost"@en .
+
+<http://activitystrea.ms/schema/1.0/make-friend> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates the creation of a friendship that is reciprocated by the object. Since this verb implies an activity on the part of its object, processors MUST NOT accept activities with this verb unless they are able to verify through some external means that there is in fact a reciprocated connection. For example, a processor may have received a guarantee from a particular publisher that the publisher will only use this Verb in cases where a reciprocal relationship exists."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "madefriend"@en .
+
+<http://activitystrea.ms/schema/1.0/note> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "Represents a short-form text message. This object is intended primarily for use in micro-blogging scenarios and in systems where users are invited to publish short, often plain-text messages whose useful lifespan is generally shorter than that of an article of weblog entry. A note is similar in structure to an article, but typically does not have a title or distinct paragraphs and tends to be much shorter in length."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0/>;
+   skos:prefLabel "note"@en .
+
+<http://activitystrea.ms/schema/1.0/offer> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "Represents an offer of any kind."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0/>;
+   skos:prefLabel "offer"@en .
+
+<http://activitystrea.ms/schema/1.0/open> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has opened the object. For instance, the object could represent a ticket being tracked in an issue management system."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "opened"@en .
+
+<http://activitystrea.ms/schema/1.0/page> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "Represents an area, typically a web page, that is representative of, and generally managed by a particular entity. Such areas are usually dedicated to displaying descriptive information about the entity and showcasing recent content such as articles, photographs and videos. Most social networking applications, for example, provide individual users with their own dedicated profile pages. Several allow similar types of pages to be created for commercial entities, organizations or events. While the specific details of how pages are implemented, their characteristics and use may vary, the one unifying property is that they are typically owned by a single entity that is represented by the content provided by the page itself."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0/>;
+   skos:prefLabel "page"@en .
+
+<http://activitystrea.ms/schema/1.0/person> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "Represents an individual person. This activity type is included for data conversion with Activity Streams, it's not recommended for use in new Tin Can statements. Agent should be used instead of person."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0/>;
+   skos:prefLabel "person"@en .
+
+<http://activitystrea.ms/schema/1.0/place> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "Represents a physical location. Locations can be represented using geographic coordinates, a physical address, a free-form location name, or any combination of these. Objects of this type MAY contain the additional properties specified in Section 3.5."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0/>;
+   skos:prefLabel "place"@en .
+
+<http://activitystrea.ms/schema/1.0/play> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor spent some time enjoying the object. For example, if the object is a video this indicates that the subject watched all or part of the video. The \"play\" verb is a more specific form of the \"consume\" verb."@en;
+   skos:exactMatch <https://w3id.org/xapi/videoplayed>;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "played"@en .
+
+<http://activitystrea.ms/schema/1.0/present> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has presented the object. For instance, when a person gives a presentation at a conference."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "presented"@en .
+
+<http://activitystrea.ms/schema/1.0/process> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "Represents any form of process. For instance, a long-running task that is started and expected to continue operating for a period of time."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0/>;
+   skos:prefLabel "process"@en .
+
+<http://activitystrea.ms/schema/1.0/product> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "Represents a commercial good or service. Objects of this type MAY contain an additional fullImage property whose value is an Activity Streams Media Link to an image resource representative of the product."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0/>;
+   skos:prefLabel "product"@en .
+
+<http://activitystrea.ms/schema/1.0/purchase> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has purchased the object. If a target is specified, in indicates the entity from which the object was purchased."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "purchased"@en .
+
+<http://activitystrea.ms/schema/1.0/qualify> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has qualified for the object. If a target is specified, it indicates the context within which the qualification applies."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "qualified"@en .
+
+<http://activitystrea.ms/schema/1.0/question> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "Represents a question or a poll. Objects of this type MAY contain an additional options property whose value is an Array of possible answers to the question in the form of Activity Stream objects of any type."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0/>;
+   skos:prefLabel "question"@en .
+
+<http://activitystrea.ms/schema/1.0/read> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has read the object."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "read"@en .
+
+<http://activitystrea.ms/schema/1.0/receive> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor is receiving an object. Examples include a person receiving a badge object. The object identifies the object being received."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "received"@en .
+
+<http://activitystrea.ms/schema/1.0/reject> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has rejected the object."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "rejected"@en .
+
+<http://activitystrea.ms/schema/1.0/remove, https://brindlewaye.com/xAPITerms/verbs/removed/> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has removed the object from the target."@en;
+   skos:exactMatch <https://brindlewaye.com/xAPITerms/verbs/removed/>;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "removed"@en .
+
+<http://activitystrea.ms/schema/1.0/remove-friend> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has removed the object from the collection of friends."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "removed friend"@en .
+
+<http://activitystrea.ms/schema/1.0/replace> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has replaced the target with the object."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "replaced"@en .
+
+<http://activitystrea.ms/schema/1.0/request> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has requested the object. If a target is specified, it indicates the entity from which the object is being requested."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "requested"@en .
+
+<http://activitystrea.ms/schema/1.0/request-friend> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates the creation of a friendship that has not yet been reciprocated by the object."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "requested friend"@en .
+
+<http://activitystrea.ms/schema/1.0/resolve> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has resolved the object. For instance, the object could represent a ticket being tracked in an issue management system."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "resolved"@en .
+
+<http://activitystrea.ms/schema/1.0/retract> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has retracted the object. For instance, if an actor wishes to retract a previously published activity, the object would be the previously published activity that is being retracted."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "retracted"@en .
+
+<http://activitystrea.ms/schema/1.0/return> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has returned the object. If a target is specified, it indicates the entity to which the object was returned."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "returned"@en .
+
+<http://activitystrea.ms/schema/1.0/review> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "Represents a primarily prose-based commentary on another object. Objects of this type MAY contain a rating property as specified in Section 4.4."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0/>;
+   skos:prefLabel "review"@en .
+
+<http://activitystrea.ms/schema/1.0/rsvp-maybe> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "The \"possible RSVP\" verb indicates that the actor has made a possible RSVP for the object. This specification only defines the meaning of this verb when its object is an event (see Section 3.3), though implementors need to be prepared to handle other object types. The use of this verb is only appropriate when the RSVP was created by an explicit action by the actor. It is not appropriate to use this verb when a user has been added as an attendee by an event organizer or administrator. This verb is included for data conversion with Activity Streams, it's not recommended for use in new Tin Can statements."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "RSVPed maybe"@en .
+
+<http://activitystrea.ms/schema/1.0/rsvp-no> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "The \"negative RSVP\" verb indicates that the actor has made a negative RSVP for the object. This specification only defines the meaning of this verb when its object is an event (see Section 3.3), though implementors need to be prepared to handle other object types. The use of this verb is only appropriate when the RSVP was created by an explicit action by the actor. It is not appropriate to use this verb when a user has been added as an attendee by an event organizer or administrator. This verb is included for data conversion with Activity Streams, it's not recommended for use in new Tin Can statements."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "RSVPed no"@en .
+
+<http://activitystrea.ms/schema/1.0/rsvp-yes> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "The \"positive RSVP\" verb indicates that the actor has made a positive RSVP for an object. This specification only defines the meaning of this verb when its object is an event (see Section 3.3), though implementors need to be prepared to handle other object types. The use of this verb is only appropriate when the RSVP was created by an explicit action by the actor. It is not appropriate to use this verb when a user has been added as an attendee by an event organizer or administrator. This verb is included for data conversion with Activity Streams, it's not recommended for use in new Tin Can statements."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "RSVPed yes"@en .
+
+<http://activitystrea.ms/schema/1.0/satisfy> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has satisfied the object. If a target is specified, it indicate the context within which the object was satisfied. For instance, if a person satisfies the requirements for a particular challenge, the person is the actor; the requirement is the object; and the challenge is the target."@en;
+   skos:exactMatch <https://w3id.org/xapi/adl/verbs/satisfied>;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "satisfied"@en .
+
+<http://activitystrea.ms/schema/1.0/save> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has called out the object as being of interest primarily to him- or herself. Though this action MAY be shared publicly, the implication is that the object has been saved primarily for the actor's own benefit rather than to show it to others as would be indicated by the \"share\" verb."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "saved"@en .
+
+<http://activitystrea.ms/schema/1.0/schedule> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has scheduled the object. For instance, scheduling a meeting."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "scheduled"@en .
+
+<http://activitystrea.ms/schema/1.0/search> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor is or has searched for the object. If a target is specified, it indicates the context within which the search is or has been conducted."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "searched"@en .
+
+<http://activitystrea.ms/schema/1.0/sell> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has sold the object. If a target is specified, it indicates the entity to which the object was sold."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "sold"@en .
+
+<http://activitystrea.ms/schema/1.0/send> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has sent the object. If a target is specified, it indicates the entity to which the object was sent."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "sent"@en .
+
+<http://activitystrea.ms/schema/1.0/service> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "Represents any form of hosted or consumable service that performs some kind of work or benefit for other entities. Examples of such objects include websites, businesses, etc."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0/>;
+   skos:prefLabel "service"@en .
+
+<http://activitystrea.ms/schema/1.0/share> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has called out the object to readers. In most cases, the actor did not create the object being shared, but is instead drawing attention to it."@en;
+   skos:exactMatch <http://adlnet.gov/expapi/verbs/shared>;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "shared"@en .
+
+<http://activitystrea.ms/schema/1.0/sponsor> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has sponsored the object. If a target is specified, it indicates the context within which the sponsorship is offered. For instance, a company can sponsor an event; or an individual can sponsor a project; etc."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "sponsored"@en .
+
+<http://activitystrea.ms/schema/1.0/start> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has started the object. For instance, when a person starts a project."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "started"@en .
+
+<http://activitystrea.ms/schema/1.0/stop-following> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has stopped following the object."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "stopped following"@en .
+
+<http://activitystrea.ms/schema/1.0/submit> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has submitted the object. If a target is specified, it indicates the entity to which the object was submitted."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "submitted"@en .
+
+<http://activitystrea.ms/schema/1.0/tag> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has associated the object with the target. For example, if the actor specifies that a particular user appears in a photo. the object is the user and the target is the photo."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "tagged"@en .
+
+<http://activitystrea.ms/schema/1.0/task> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "Represents an activity that has yet to be completed. Objects of this type can contain additional properties as specified in Section 3.6."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0/>;
+   skos:prefLabel "task"@en .
+
+<http://activitystrea.ms/schema/1.0/terminate> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor successfully ended an activity."@en;
+   skos:exactMatch <http://adlnet.gov/expapi/verbs/terminated>;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "terminated"@en .
+
+<http://activitystrea.ms/schema/1.0/tie> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has neither won or lost the object. This verb is generally only applicable when the object represents some form of competition, such as a game."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "tied"@en .
+
+<http://activitystrea.ms/schema/1.0/unfavorite> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has removed the object from the collection of favorited items."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "unfavorited"@en .
+
+<http://activitystrea.ms/schema/1.0/unlike> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has removed the object from the collection of liked items."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "unliked"@en .
+
+<http://activitystrea.ms/schema/1.0/unsatisfy> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has not satisfied the object. If a target is specified, it indicates the context within which the object was not satisfied. For instance, if a person fails to satisfy the requirements of some particular challenge, the person is the actor; the requirement is the object and the challenge is the target."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "unsatisfied"@en .
+
+<http://activitystrea.ms/schema/1.0/unsave> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has removed the object from the collection of saved items."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "unsaved"@en .
+
+<http://activitystrea.ms/schema/1.0/unshare> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor is no longer sharing the object. If a target is specified, it indicates the entity with whom the object is no longer being shared."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "unshared"@en .
+
+<http://activitystrea.ms/schema/1.0/update> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has updated the object. Note, however, that this vocabulary does not define a mechanism for describing the actual set of modifications made to object."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "updated"@en .
+
+<http://activitystrea.ms/schema/1.0/use> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has used the object in some manner."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "used"@en .
+
+<http://activitystrea.ms/schema/1.0/video> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "Represents video content of any kind. Objects of this type MAY contain additional properties as specified in Section 3.1."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0/>;
+   skos:prefLabel "video"@en .
+
+<http://activitystrea.ms/schema/1.0/watch> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has watched the object. This verb is typically applicable only when the object represents dynamic, visible content such as a movie, a television show or a public performance. This verb is a more specific form of the verbs \"experience\", \"play\" and \"consume\"."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "watched"@en .
+
+<http://activitystrea.ms/schema/1.0/win> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has won the object. This verb is typically applicable only when the object represents some form of competition, such as a game."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0>;
+   skos:prefLabel "won"@en .
+
+<http://activitystrea.ms/schema/1.0/> a <https://w3id.org/xapi/ontology#ActivityType>,
+     <https://w3id.org/xapi/profiles/ontology#Profile>;
+   dc:conformsTo <https://w3id.org/xapi/profiles#1.0>;
+   schema:author [
+     a schema:Organization;
+     schema:name "Activity Streams Working Group"
+   ];
+   rdfs:seeAlso <http://activitystrea.ms/specs/json/1.0/>;
+   skos:definition "An list of concepts from an obsolete version (1.0) of the Activity Streams specification."@en,
+     "Represents an organization of any kind."@en;
+   skos:inScheme <http://activitystrea.ms/schema/1.0/>;
+   skos:prefLabel "Activity Streams Vocabulary"@en,
+     "organization"@en;
+   <https://w3id.org/xapi/profiles/ontology#concepts> <http://activitystrea.ms/schema/1.0/group>,
+     <http://activitystrea.ms/schema/1.0/experience>,
+     <http://activitystrea.ms/schema/1.0/request>,
+     <http://activitystrea.ms/schema/1.0/access>,
+     <http://activitystrea.ms/schema/1.0/save>,
+     <http://activitystrea.ms/schema/1.0/unfavorite>,
+     <http://activitystrea.ms/schema/1.0/assign>,
+     <http://activitystrea.ms/schema/1.0/author>,
+     <http://activitystrea.ms/schema/1.0/agree>,
+     <http://activitystrea.ms/schema/1.0/archive>,
+     <http://activitystrea.ms/schema/1.0/application>,
+     < http://activitystrea.ms/schema/1.0/like>,
+     <http://activitystrea.ms/schema/1.0/add>,
+     <http://activitystrea.ms/schema/1.0/request-friend>,
+     <http://activitystrea.ms/schema/1.0/install>,
+     <http://activitystrea.ms/schema/1.0/append>,
+     <http://activitystrea.ms/schema/1.0/approve>,
+     <http://activitystrea.ms/schema/1.0/make-friend>,
+     <http://activitystrea.ms/schema/1.0/note>,
+     <http://activitystrea.ms/schema/1.0/accept>,
+     <http://activitystrea.ms/schema/1.0/remove, https://brindlewaye.com/xAPITerms/verbs/removed/>,
+     <http://activitystrea.ms/schema/1.0/disagree>,
+     <http://activitystrea.ms/schema/1.0/delete>,
+     <http://activitystrea.ms/schema/1.0/complete>,
+     <http://activitystrea.ms/schema/1.0/authorize>,
+     <http://activitystrea.ms/schema/1.0/acknowledge>,
+     <http://activitystrea.ms/schema/1.0/close>,
+     <http://activitystrea.ms/schema/1.0/confirm>,
+     <http://activitystrea.ms/schema/1.0/cancel>,
+     <http://activitystrea.ms/schema/1.0/give>,
+     <http://activitystrea.ms/schema/1.0/borrow>,
+     <http://activitystrea.ms/schema/1.0/flag-as-inappropriate>,
+     <http://activitystrea.ms/schema/1.0/product>,
+     <http://activitystrea.ms/schema/1.0/lose>,
+     <http://activitystrea.ms/schema/1.0/comment>,
+     <http://activitystrea.ms/schema/1.0/unsatisfy>,
+     <http://activitystrea.ms/schema/1.0/invite>,
+     <http://activitystrea.ms/schema/1.0/collection>,
+     <http://activitystrea.ms/schema/1.0/favorite>,
+     <http://activitystrea.ms/schema/1.0/rsvp-no>,
+     <http://activitystrea.ms/schema/1.0/use>,
+     <http://activitystrea.ms/schema/1.0/video>,
+     <http://activitystrea.ms/schema/1.0/rsvp-yes>,
+     <http://activitystrea.ms/schema/1.0/listen>,
+     <http://activitystrea.ms/schema/1.0/find>,
+     <http://activitystrea.ms/schema/1.0/watch>,
+     <http://activitystrea.ms/schema/1.0/review>,
+     <http://activitystrea.ms/schema/1.0/retract>,
+     <http://activitystrea.ms/schema/1.0/dislike>,
+     <http://activitystrea.ms/schema/1.0/interact>,
+     <http://activitystrea.ms/schema/1.0/purchase>,
+     <http://activitystrea.ms/schema/1.0/create>,
+     <http://activitystrea.ms/schema/1.0/win>,
+     <http://activitystrea.ms/schema/1.0/unsave>,
+     <http://activitystrea.ms/schema/1.0/unshare>,
+     <http://activitystrea.ms/schema/1.0/attach>,
+     <http://activitystrea.ms/schema/1.0/qualify>,
+     <http://activitystrea.ms/schema/1.0/game>,
+     <http://activitystrea.ms/schema/1.0/offer>,
+     <http://activitystrea.ms/schema/1.0/binary>,
+     <http://activitystrea.ms/schema/1.0/>,
+     <http://activitystrea.ms/schema/1.0/rsvp-maybe>,
+     <http://activitystrea.ms/schema/1.0/host>,
+     <http://activitystrea.ms/schema/1.0/device>,
+     <http://activitystrea.ms/schema/1.0/play>,
+     <http://activitystrea.ms/schema/1.0/leave>,
+     <http://activitystrea.ms/schema/1.0/at>,
+     <http://activitystrea.ms/schema/1.0/event>,
+     <http://activitystrea.ms/schema/1.0/task>,
+     <http://activitystrea.ms/schema/1.0/deny>,
+     <http://activitystrea.ms/schema/1.0/bookmark>,
+     <http://activitystrea.ms/schema/1.0/file>,
+     <http://activitystrea.ms/schema/1.0/resolve>,
+     <http://activitystrea.ms/schema/1.0/page>,
+     <http://activitystrea.ms/schema/1.0/badge>,
+     <http://activitystrea.ms/schema/1.0/build>,
+     <http://activitystrea.ms/schema/1.0/satisfy>,
+     <http://activitystrea.ms/schema/1.0/open>,
+     <http://activitystrea.ms/schema/1.0/update>,
+     <http://activitystrea.ms/schema/1.0/person>,
+     <http://activitystrea.ms/schema/1.0/attend>,
+     <http://activitystrea.ms/schema/1.0/unlike>,
+     <http://activitystrea.ms/schema/1.0/image>,
+     <http://activitystrea.ms/schema/1.0/ignore>,
+     <http://activitystrea.ms/schema/1.0/present>,
+     <http://activitystrea.ms/schema/1.0/replace>,
+     <http://activitystrea.ms/schema/1.0/insert>,
+     <http://activitystrea.ms/schema/1.0/process>,
+     <http://activitystrea.ms/schema/1.0/service>,
+     <http://activitystrea.ms/schema/1.0/job>,
+     <http://activitystrea.ms/schema/1.0/follow>,
+     <http://activitystrea.ms/schema/1.0/tag>,
+     <http://activitystrea.ms/schema/1.0/deliver>,
+     <http://activitystrea.ms/schema/1.0/return>,
+     <http://activitystrea.ms/schema/1.0/article>,
+     <http://activitystrea.ms/schema/1.0/place>,
+     <http://activitystrea.ms/schema/1.0/question>,
+     <http://activitystrea.ms/schema/1.0/receive>,
+     <http://activitystrea.ms/schema/1.0/reject>,
+     <http://activitystrea.ms/schema/1.0/terminate>,
+     <http://activitystrea.ms/schema/1.0/tie>,
+     <http://activitystrea.ms/schema/1.0/share>,
+     <http://activitystrea.ms/schema/1.0/sponsor>,
+     <http://activitystrea.ms/schema/1.0/stop-following>,
+     <http://activitystrea.ms/schema/1.0/alert>,
+     <http://activitystrea.ms/schema/1.0/remove-friend>,
+     <http://activitystrea.ms/schema/1.0/start>,
+     <http://activitystrea.ms/schema/1.0/issue>,
+     <http://activitystrea.ms/schema/1.0/sell>,
+     <http://activitystrea.ms/schema/1.0/search>,
+     <http://activitystrea.ms/schema/1.0/checkin>,
+     <http://activitystrea.ms/schema/1.0/join>,
+     <http://activitystrea.ms/schema/1.0/audio>,
+     <http://activitystrea.ms/schema/1.0/send>,
+     <http://activitystrea.ms/schema/1.0/read>,
+     <http://activitystrea.ms/schema/1.0/consume>,
+     <http://activitystrea.ms/schema/1.0/schedule>,
+     <http://activitystrea.ms/schema/1.0/submit> .

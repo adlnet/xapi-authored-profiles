@@ -1,0 +1,1005 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://id.tincanapi.com/activitytype/blog> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "A regularly updated website or web page, typically one authored by an individual or small group, that is written in an informal or conversational style."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "blog"@en .
+
+<http://id.tincanapi.com/activitytype/book> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "A book, generally paper, but could also be an ebook. The Activity's ID will often include an ISBN though it is not required. The Definition can likely leverage the ISBN extension, http://id.tincanapi.com/extension/isbn, if known."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "book"@en .
+
+<http://id.tincanapi.com/activitytype/category> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "Activity generally used in the category Context Activities lists to mark a statement as being related to a particular subject area. Distinct from tag in that it is used in conjunction with Subcategory to imply a hierarchy of categorization."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "category"@en .
+
+<http://id.tincanapi.com/activitytype/chapter> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "A chapter of a book or e-book."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "chapter"@en .
+
+<http://id.tincanapi.com/activitytype/chat-channel> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "A channel, room or conversation within an instant chat application such as Slack."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "chat channel"@en .
+
+<http://id.tincanapi.com/activitytype/chat-message> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "A message sent or received within the context of an instant chat platform such as Slack. The id of this activity should uniquely identify the particular chat message."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "chat message"@en .
+
+<http://id.tincanapi.com/activitytype/checklist> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "A list of tasks to be completed, names to be consulted, conditions to be verified and similar."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "checklist"@en .
+
+<http://id.tincanapi.com/activitytype/checklist-item> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "An individual item contained in a checklist."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "checklist item"@en .
+
+<http://id.tincanapi.com/activitytype/code-commit> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "A commit to a code repository e.g. Github."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "code commit"@en .
+
+<http://id.tincanapi.com/activitytype/collection-simple> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "It is a collection of items of the same activity type, for example, a collection of games. The collection can be generic, that is, the activity type of the items can be specified using the extension 'collection type', but it is optional."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "simple collection"@en .
+
+<http://id.tincanapi.com/activitytype/community-site> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "A space on a social platform (or other platform with social features) for a community to communicate, share and collaborate. For example a Google Plus Community, a Facebook Group, a Jive Space or a Pathgather Gathering."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "community site"@en .
+
+<http://id.tincanapi.com/activitytype/conference> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "A formal meeting which includes presentations or discussions."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "conference"@en .
+
+<http://id.tincanapi.com/activitytype/conference-session> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "A single presentation, discussion, gathering, or panel within a conference."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "conference session"@en .
+
+<http://id.tincanapi.com/activitytype/conference-track> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "A specific field of study within a conference."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "conference track"@en .
+
+<http://id.tincanapi.com/activitytype/discussion> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "Represents an ongoing conversation between persons, such as an email thread or a forum topic."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "discussion"@en .
+
+<http://id.tincanapi.com/activitytype/document> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "An electronic document of the type produced by office productivity software such as a word processing document, spreadsheet, slides etc."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "document"@en .
+
+<http://id.tincanapi.com/activitytype/doubt> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "Refers to something that the actor needs to cast light on, something that can be answered or solved."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "doubt"@en .
+
+<http://id.tincanapi.com/activitytype/email> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "Electronic message sent over a computer network from a sender to one or many recipients."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "email"@en .
+
+<http://id.tincanapi.com/activitytype/essay> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "A short literary composition on a single subject, usually presenting the personal view of the author."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "essay"@en .
+
+<http://id.tincanapi.com/activitytype/forum-reply> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "Any post in a forum or discussion board thread that isn't the first."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "forum reply"@en .
+
+<http://id.tincanapi.com/activitytype/forum-topic> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "The first post in a thread on a forum or discussion board."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "forum topic"@en .
+
+<http://id.tincanapi.com/activitytype/goal> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "A goal is something that the actor wants to achieve, the purpose of doing a task or group of tasks. It can have subtasks and subgoals."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "goal"@en .
+
+<http://id.tincanapi.com/activitytype/legacy-learning-standard> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "Activity representing a statement generated by a course originally implemented in a legacy learning standard such as SCORM 1.2, 2004, or AICC."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "legacy learning standard"@en .
+
+<http://id.tincanapi.com/activitytype/lms> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "Learning Management System. At it's core, a platform used to launch and track learning experiences. Many LMS also have a number of other additional features."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "LMS"@en .
+
+<http://id.tincanapi.com/activitytype/paragraph> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "A distinct division of written or printed matter that begins on a new, usually indented line, consists of one or more sentences, and typically deals with a single thought or topic or quotes one speaker's continuous words."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "paragraph"@en .
+
+<http://id.tincanapi.com/activitytype/playlist> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "A collection of resources or experiences grouped together as recommended resources by an individual. Generally used for informally curated resources rather than official collections such as an LMS course."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "playlist"@en .
+
+<http://id.tincanapi.com/activitytype/project> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "A site, perhaps within a project management tool or social platform, used to manage a particular project."@en,
+     "A project is a specific plan or set of tasks with a common goal. It can have subtasks and subgoals, resources, etc."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "project"@en .
+
+<http://id.tincanapi.com/activitytype/project-site> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "project"@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "A site, perhaps within a project management tool or social platform, used to manage a particular project."@en .
+
+<http://id.tincanapi.com/activitytype/research-report> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "A research report from a government organization or other authoritative body giving information or proposals on an issue."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "research report"@en .
+
+<http://id.tincanapi.com/activitytype/resource> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "A resource is a generic item that the actor may use for something. It could be a video, a text article, a device, etc. However, it is recommended to use a more specific activity type like those mentioned."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "resource"@en .
+
+<http://id.tincanapi.com/activitytype/reward> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "Refers to a compensation that the actor wants to get for achieving something."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "reward"@en .
+
+<http://id.tincanapi.com/activitytype/sales-opportunity> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "Represents a sales opportunity, such as one might create in a CRM tool."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "sales opportunity"@en .
+
+<http://id.tincanapi.com/activitytype/scenario> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "delivering the content embedded within a story or scenario rather than just pushing the content straight out. Usually a story or a situation is presented to ask for learner's action, feedback or branching follow. In this way learners see how the learning is applied to job environments or real world problems."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "scenario"@en .
+
+<http://id.tincanapi.com/activitytype/school-assignment> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "A school task performed by a student to satisfy the teacher. Examples are assessments, assigned reading, practice exercises, watch video, etc."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "school assignment"@en .
+
+<http://id.tincanapi.com/activitytype/section> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "A section of an application or platform. For sales performance app might be divided into client demo, learning materials and reference documents sections."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "section"@en .
+
+<http://id.tincanapi.com/activitytype/security-role> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "A feature that enables system administrators to restrict system access and manage access on a per-user or per-group basis."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "security role"@en .
+
+<http://id.tincanapi.com/activitytype/slide> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "Slides are defined as a single page of a presentation or e-learning lesson."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "slide"@en .
+
+<http://id.tincanapi.com/activitytype/slide-deck> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "A deck of slides generally used for a presentation."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "slide deck"@en .
+
+<http://id.tincanapi.com/activitytype/solution> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "Refers to the answer for a doubt that provides a solution. If the answer is not a solution, it should be coded as answer, or if it is just a comment, as comment."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "solution"@en .
+
+<http://id.tincanapi.com/activitytype/source> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "Used with activities within the Context Activities category property of a Statement. Indicates the authoring tool, template or framework used to create the activity provider. This may help reporting tools to recognise that that data has come from a particular origin and handle the data correctly based on that information."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "source"@en .
+
+<http://id.tincanapi.com/activitytype/status-update> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "A status update e.g. on a social platform."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "status update"@en .
+
+<http://id.tincanapi.com/activitytype/step> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "A step is one of several actions that the actor has to do to achieve something, for instance, a goal or the completion of a task. For instance, a method, strategy or task could be divided into smaller steps."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "step"@en .
+
+<http://id.tincanapi.com/activitytype/strategy> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "A strategy is a plan or method for achieving any specific goal, and can be formed by a group of steps."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "strategy"@en .
+
+<http://id.tincanapi.com/activitytype/strategy-embedded> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "Refers to a functionality embedded in the software system to facilitate the implementation of a strategy."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "embedded strategy"@en .
+
+<http://id.tincanapi.com/activitytype/subcategory> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "Activity generally used in the category Context Activities lists to mark a statement as being related to a particular subject area. Distinct from tag in that it is used in conjunction with Category to imply a hierarchy of categorization."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "subcategory"@en .
+
+<http://id.tincanapi.com/activitytype/suggestion> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "A posted suggestion or idea. Typically these are things that can be discussed and/or voted on."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "suggestion"@en .
+
+<http://id.tincanapi.com/activitytype/tag> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "Activity generally used in the other or grouping Context Activities lists to mark a statement as being related to a particular subject area. Implemented as a one word identifier used for search filtering or tag cloud generation."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "tag"@en .
+
+<http://id.tincanapi.com/activitytype/test-data-batch> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "A test data batch is an Activity that is used in the Context Activities category property of a Statement to indicate that the Statement is part of a particular collection of test data. The Id of this Activity represents a single collection of test data e.g. the data generated for a particular test or by a particular tool."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "test data batch"@en .
+
+<http://id.tincanapi.com/activitytype/tutor-session> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "This represents a tutoring session."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "tutor session"@en .
+
+<http://id.tincanapi.com/activitytype/tweet> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "A short message sent on Twitter. Used with the 'tweeted' verb."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "Tweet"@en .
+
+<http://id.tincanapi.com/activitytype/unit-test> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "unit test"@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "A unit test in a test suite that is part of a programming project."@en .
+
+<http://id.tincanapi.com/activitytype/unit-test-suite> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "Suite of unit tests used by a programming project."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "unit test suite"@en .
+
+<http://id.tincanapi.com/activitytype/user-profile> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "A page displaying information about a user."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "user profile"@en .
+
+<http://id.tincanapi.com/activitytype/vocabulary-word> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "Refers to a word that the learner defines or translates. The vocabulary word can be part of a collection. that is part of a vocabulary collection. An actor can use more than one vocabulary collection, for instance, for several languages or several topics. Besides the “name” (the word) and a “description” (meaning or translation), we recommend the use of moreInfo to link to a definition in an online dictionary. As an option, you can use the extension tags to classify the words."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "vocabulary word"@en .
+
+<http://id.tincanapi.com/activitytype/voicemail> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "A recorded audio message left for someone, generally via a phone or similar communication system."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "vocabulary word"@en .
+
+<http://id.tincanapi.com/activitytype/webinar> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "A seminar conducted over the Internet which may be live or recorded."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "webinar"@en .
+
+<http://id.tincanapi.com/attachment/certificate-of-completion> a <https://w3id.org/xapi/ontology#AttachmentUsageType>;
+   skos:definition "Certificate provided upon completion of an exercise, perhaps as part of a formal learning activity."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "certificate of completion"@en .
+
+<http://id.tincanapi.com/attachment/contract> a <https://w3id.org/xapi/ontology#AttachmentUsageType>;
+   skos:definition "A contract intended to be legally binding between two parties. May be part of a sales process, hiring process, real estate transaction, etc."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "contract"@en .
+
+<http://id.tincanapi.com/attachment/supporting_media> a <https://w3id.org/xapi/ontology#AttachmentUsageType>;
+   skos:definition "A media file that supports the experience. For example a video that shows the experience taking place."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "supporting media"@en .
+
+<http://id.tincanapi.com/extension/apm> a <https://w3id.org/xapi/ontology#ResultExtension>;
+   skos:definition "A result extension used in the Tetris prototype at http://tincanapi.com/prototypes. Actions per minute (APM) is a commonly reported on statistic in gaming as one mechanism for measuring the player's skill. See http://en.wikipedia.org/wiki/Actions_per_minute."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "actionsper minute"@en .
+
+<http://id.tincanapi.com/extension/assessment-type> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "A value representing the type of assessment like formative, summative, pretest, posttest, etc."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "assessment type"@en .
+
+<http://id.tincanapi.com/extension/attempt-id> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "Used to differentiate between attempts within a given registration. This extension is especially useful for games, for example in the Tetris prototype at http://tincanapi.com/prototypes this extension is used as an identifier for each new game of Tetris."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "attempt ID"@en .
+
+<http://id.tincanapi.com/extension/browser-info> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "Value is an object containing key/value pairs describing various elements of a web browser. Same as user-agent."@en;
+   skos:exactMatch <https://w3id.org/xapi/video/extensions/user-agent>;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "browser information"@en .
+
+<http://id.tincanapi.com/extension/cmi-interaction-weighting> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "A number that indicates the importance of this interaction relative to other interactions. Corresponds to cmi.interactions[x].weighting"@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "cmi interaction weighting"@en .
+
+<http://id.tincanapi.com/extension/collection-type> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "Represents the activity type of the objects of a simple collection."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "collection type"@en .
+
+<http://id.tincanapi.com/extension/color> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "A value representing a specific color as defined via a provided color model. Because the representation of a color depends on the model in which it was defined the value used should be an object that specifies two (at least) properties, specifically the 'model' used as well as the 'value' for the specific color within the color space."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "color"@en .
+
+<http://id.tincanapi.com/extension/condition-type> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "Represents the type of condition that the actor needs to achieve to do what the verb in the statement expresses."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "condition type"@en .
+
+<http://id.tincanapi.com/extension/condition-value> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "Represents the value (if necessary) to accomplish the condition. For instance, if the condition is a time limit, the condition value is the time expressed in the ISO8601 format, the same used in the result duration property."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "condition value"@en .
+
+<http://id.tincanapi.com/extension/data-uri> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "Extension whose value is a string that follows the Data URI scheme as defined by RFC 2397."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "data URI"@en .
+
+<http://id.tincanapi.com/extension/date> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "Value representing a calendar date, such as 2013-08-27. Value should be a string formatted as an ISO8601 date to match the rest of the specification values."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "date"@en .
+
+<http://id.tincanapi.com/extension/datetime> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "Value representing a calendar date and time, such as 2013-08-27 09:26:45.001. Value should be a string formatted as an ISO8601 date and time to match the rest of the specification values."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "datetime"@en .
+
+<http://id.tincanapi.com/extension/drop-down> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "Contains an interaction component for a non standard question type. Non-standard question type used in e-learning: any number of drop-down on a graphic. Each drop-down is a subquestion. "@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "drop-down"@en .
+
+<http://id.tincanapi.com/extension/duration> a <https://w3id.org/xapi/ontology#ResultExtension>;
+   skos:definition "Value representing a length of time, for example the length of a video. Value should be either a string formatted as an ISO8601 duration to match the Result.duration property or a float that uses the same units as expected with correlating information (other extensions). This extension will generally be used within an Activity Definition to indicate a length of an Activity as compared to the Result.duration which captures the length of time for a specific event. For example a video may be 5 minutes long (this Extension), but an actor may have only watched 30 seconds of it (the Result.duration)."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "duration"@en .
+
+<http://id.tincanapi.com/extension/ending-point> a <https://w3id.org/xapi/ontology#ResultExtension>;
+   skos:definition "The final point at which an actor ceases an activity. For example stopping the playing of a video at a specific position either manually or automatically. Goes along with Starting Point. Can be used with types of media and/or activities other than video."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "ending point"@en .
+
+<http://id.tincanapi.com/extension/ending-position> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "Final position within an ordinal set of numbers. Can also be thought of as a rank. For example the ending position of a car or runner in a race. To be used with Starting Position."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "ending position"@en .
+
+<http://id.tincanapi.com/extension/feedback> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "A value representing a piece of feedback relating to a statement. The feedback should be a string."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "feedback"@en .
+
+<http://id.tincanapi.com/extension/geojson> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "Value should be a GeoJSON object as defined by the GeoJSON specification. GeoJSON can be used to represent GPS coordinates, as well as other geometrical entities. See http://www.geojson.org/ for more information."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "GeoJSON"@en .
+
+<http://id.tincanapi.com/extension/invitee> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "To be used in the context. Contains a single object representing the actor which is being invited to the experience. For example the group on a social learning site. When using this extension, it is recommended to use the same actor objects that are used in other statements."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "invitee"@en .
+
+<http://id.tincanapi.com/extension/ip-address> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "Value is a string representing an Internet Protocol address (IP address) in either IPv4 or IPv6 format. An example usage may be to help identify the client's real address location on internet as a Context extension. Another example may be to include relevant information about the http://activitystrea.ms/schema/1.0/page Activity type. IPv4 Address A string in decimal-dot notation, consisting of four decimal integers in the inclusive range 0-255, separated by dots (e.g. 192.168.0.1)."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "IP address"@en .
+
+<http://id.tincanapi.com/extension/irl> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "Value should be a fully qualified IRL that is resolvable. In so far as the IRL space contains all possible URLs this is provided in place of a more specific URL to match the expectation of the specification for using IRI/IRL."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "IRL"@en .
+
+<http://id.tincanapi.com/extension/isbn> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "Value should be either a 10 digit ISBN or 13 digit ISBN string. Either value is acceptable as implementing systems can easily distinguish the two based on the length of the value. For more information see ISO 2108."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "ISBN"@en .
+
+<http://id.tincanapi.com/extension/jws-certificate-location> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "Context extension containing the URL of a public certificate that can be used to verify the signature of the statement."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "JWS certificate location"@en .
+
+<http://id.tincanapi.com/extension/latitude> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "A geographic coordinate that specifies the north-south position of a point on the Earth's surface."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "Latitude"@en .
+
+<http://id.tincanapi.com/extension/location> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "A non-specific (as in format) string value representing a location in which an activity took place. May contain an address, but for formal addresses a more specific format should be used with accompanying Extension."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "location"@en .
+
+<http://id.tincanapi.com/extension/longitude> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "A geographic coordinate that specifies the east-west position of a point on the Earth's surface."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "longitude"@en .
+
+<http://id.tincanapi.com/extension/measurement> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "Value that represents a measured unit or physical quantity such as a distance or weight. For interoperability the value should be a string that follows the SI (International System of Units) recommendations for formatting and may include any value that can be described by its units. For additional information see the ISO 80000 standard."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "measurement"@en .
+
+<http://id.tincanapi.com/extension/monetary-value> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "A value representing the currency and amount of money. The value is an object with two properties, 'amount' which is a float and 'currency' which should hold an ISO 4217 code or number code."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "monetary value"@en .
+
+<http://id.tincanapi.com/extension/observer> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "Context extension containing an Agent or Group object representing an agent or group who observed the experience."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "observer"@en .
+
+<http://id.tincanapi.com/extension/planned-duration> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "Context extension containing an ISO 8601 duration representing the planned duration of a scheduled or planned event."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "planned duration"@en .
+
+<http://id.tincanapi.com/extension/planned-start-time> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "Context extension containing an ISO 8601 timestamp representing the planned start time of a scheduled or planned event."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "planned start time"@en .
+
+<http://id.tincanapi.com/extension/position> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "Represents the position of the object in a group or collection of elements. It is needed when the group of elements should be in order."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "position"@en .
+
+<http://id.tincanapi.com/extension/powered-by> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "Information about what software is used to run a system."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "powered by"@en .
+
+<http://id.tincanapi.com/extension/private-area> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "An area, for instance within a Learning Management System (LMS), in which students and teachers can share pedagogical objects and interact privately."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "private area"@en .
+
+<http://id.tincanapi.com/extension/published> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "Activity definition extension. The date and time at which the activity was published. Corresponds to the Activity Streams 1.0 'published' property."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "published"@en .
+
+<http://id.tincanapi.com/extension/purpose> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "Represents the purpose of the object or result, as a way of classification."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "purpose"@en .
+
+<http://id.tincanapi.com/extension/quality-rating> a <https://w3id.org/xapi/ontology#ResultExtension>;
+   skos:definition "Value is an object that is similar to the Result's 'score' property in that it should include a 'raw' value as well as 'min' and 'max' range indicators. So that a phrase such as '4 out of 5 stars' can be indicated such as: { raw: 4, min: 1, max: 5 }."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "quality-rating"@en .
+
+<http://id.tincanapi.com/extension/referrer> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "To be used in the context. Contains a single activity object representing the activity which referred the learner to the experience. For example the page of an e-learning course that sent the learner to their current location. When using this extension, it is recommended to also include the activity object as one of the 'other' contextActivities of the statement as well for tools that don't recognize this extension."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "referrer"@en .
+
+<http://id.tincanapi.com/extension/reflection> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "Represents a reflection of the actor about the object."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "reflection"@en .
+
+<http://id.tincanapi.com/extension/severity> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "Indicates the associated level of an event. For example it could be used to indicate the level of an injury or incident."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "severity"@en .
+
+<http://id.tincanapi.com/extension/share-medium> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "Context extension used with the verb http://adlnet.gov/expapi/verbs/shared. Indicates the medium that the object has been shared over. Contains a single word lowercase string representing the share medium e.g. email, sms, twitter, facebook."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "share-medium"@en .
+
+<http://id.tincanapi.com/extension/starting-point> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "The initial point from which an agent begins an activity. For example starting to play a video from a specific position in the video. Goes along with 'Ending Point.' Can be used with types of media and/or activities other than video."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "starting-point"@en .
+
+<http://id.tincanapi.com/extension/starting-position> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "Initial position within an ordinal set of numbers. Can also be thought of as a rank. For example the starting position of a car or runner in a race. To be used with 'Ending Position.'"@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "starting-position"@en .
+
+<http://id.tincanapi.com/extension/tags> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "A list of arbitrary tags to associate with a statement. Value of the extension should be an array with each tag being a string value as an element of the array."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "tags"@en .
+
+<http://id.tincanapi.com/extension/target> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "Based on the Activity Streams target property. Contains the target of the statement e.g. Brian Shared 'statements deep dive' with Andrew - Andrew is the target. The value of this extension can be anything that would be a legal value of the statement's object property."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "target"@en .
+
+<http://id.tincanapi.com/extension/tetris-lines> skos:definition "The number of lines achieved in a game of Tetris or another game of a similar type. This extension is used by the Tetris game prototype at http://tincanapi.com/prototypes."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "tetris-lines"@en .
+
+<http://id.tincanapi.com/extension/time> a <https://w3id.org/xapi/ontology#ResultExtension>;
+   skos:definition "Value representing a moment in time but not specific to a date, such as 12:34:56.789. Value should be a string formatted as an ISO8601 time to match the rest of the specification values."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "time"@en .
+
+<http://id.tincanapi.com/extension/topic> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "A value that contains a topic for a statement."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "topic"@en .
+
+<http://id.tincanapi.com/extension/training-provider> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "An agent or group representing the company or organization that offers a training session."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "training-provider"@en .
+
+<http://id.tincanapi.com/extension/tweet> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "An ID for a tweet, such as 373445672076197889. It is advised to also supply the author of the tweet's handle and the text of the tweet as values with this extension."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "tweet"@en .
+
+<http://id.tincanapi.com/extension/updated> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "The date and time at which a previously published activity has been modified. Corresponds to the Activity Streams 1.0 'updated' property."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "updated"@en .
+
+<http://id.tincanapi.com/extension/valid-until> a <https://w3id.org/xapi/ontology#ResultExtension>;
+   skos:definition "An extension on the Result object indicating for how long the completion of this training is considered valid, before the actor needs to re-certify. The type should be an ISO8601 timestamp."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "valid-until"@en .
+
+<http://id.tincanapi.com/verb/adjourned> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates the actor temporarily ended an event (e.g. a meeting). It is expected (but not required) that the event will be resumed at a future point in time. The actor of the statement should be somebody who has authority to adjourn the event, for example the event organizer."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "adjourned"@en .
+
+<http://id.tincanapi.com/verb/applauded> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor approves of the content or message. Analogous to praising."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "applauded"@en .
+
+<http://id.tincanapi.com/verb/arranged> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor arranged the object within a collection or set of elements. The extension http://id.tincanapi.com/extension/position should be used to indicate the new position."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "arranged"@en .
+
+<http://id.tincanapi.com/verb/bookmarked> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates the user determined the content was important enough to keep a reference to it for later. A different verb should be used for tracking the location in a set of text that a reader has reached, as in a physical bookmark."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "bookmarked"@en .
+
+<http://id.tincanapi.com/verb/called> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor placed a phone call to the object."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "called"@en .
+
+<http://id.tincanapi.com/verb/closed-sale> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has closed a sale."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "closed sale"@en .
+
+<http://id.tincanapi.com/verb/created-opportunity> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has created a new opportunity, such as one might do in a CRM tool."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "created opportunity"@en .
+
+<http://id.tincanapi.com/verb/defined> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has defined the object. Note that this is a more specific form of the verb ���create��. For instance, a learner defining a goal."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "defined"@en .
+
+<http://id.tincanapi.com/verb/disabled> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor turned off a particular part or feature of the system."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "disabled"@en .
+
+<http://id.tincanapi.com/verb/discarded> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor discarded a previous selection. This verb works with the verb selected."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "discarded"@en .
+
+<http://id.tincanapi.com/verb/downloaded> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor downloaded (rather than accessed or opened) a file or document."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "downloaded"@en .
+
+<http://id.tincanapi.com/verb/earned> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has earned or has been awarded the object."@en;
+   skos:exactMatch <http://specification.openbadges.org/xapi/verbs/earned>;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "earned"@en .
+
+<http://id.tincanapi.com/verb/enabled> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor turned on a particular part or feature of the system. It works with the verb disabled."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "enabled"@en .
+
+<http://id.tincanapi.com/verb/estimated-duration> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has estimated the duration of the object. For instance, a learner estimating the duration of a task."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "estimated duration"@en .
+
+<http://id.tincanapi.com/verb/expected> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor expected particular results from the object. The expected results should be recorded in the results field."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "expected"@en .
+
+<http://id.tincanapi.com/verb/expired> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the object (a competency or certification) has expired for the actor."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "expired"@en .
+
+<http://id.tincanapi.com/verb/focused> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that a user has focused on a target object. This is the opposite of 'unfocused'. For example, it indicates that the user has clicked to focus or regain focus on the application, content or activity."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "focused"@en .
+
+<http://id.tincanapi.com/verb/frame/entered> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has entered the frame of a camera or viewing device."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "entered frame"@en .
+
+<http://id.tincanapi.com/verb/frame/exited> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has exited the frame of a camera or viewing device."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "exited frame"@en .
+
+<http://id.tincanapi.com/verb/hired> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "An offer of employment that has been made by an agent and accepted by another."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "hired"@en .
+
+<http://id.tincanapi.com/verb/interviewed> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "For use when one agent or group interviews another agent or group. It could be used for the purposes of hiring, creating news articles, shows, research, etc."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "interviewed"@en .
+
+<http://id.tincanapi.com/verb/laughed> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor found the content funny and enjoyable. May be used with an \"Ending Point\" extension (see http://id.tincanapi.com/extension/ending-point) value capturing the point in time within the Activity."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "laughed"@en .
+
+<http://id.tincanapi.com/verb/marked-unread> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "The object was marked as unread."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "marked as unread"@en .
+
+<http://id.tincanapi.com/verb/mentioned> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor mentioned the object, for example in a tweet."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "mentioned"@en .
+
+<http://id.tincanapi.com/verb/mentored> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that that the actor has mentored the object. For instance, a manager mentoring an employee, or a teacher mentoring a student."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "mentored"@en .
+
+<http://id.tincanapi.com/verb/paused> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "To indicate an actor has ceased or suspended an activity temporarily."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "paused"@en .
+
+<http://id.tincanapi.com/verb/performed-offline> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has performed the object offline for a period of time (episode). For instance, a learner performed task X, which is an offline task like reading a book, for 30 minutes. This is used to record the time spent on offline activities."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "performed offline"@en .
+
+<http://id.tincanapi.com/verb/personalized> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor personalized the object. The idea is that the actor personalizes an object created by a third party to adapt it for his/her personal use. This can be used for personalizing a strategy, method, a cooking recipe, etc."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "personalized"@en .
+
+<http://id.tincanapi.com/verb/previewed> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Used to indicate that an actor has taken a first glance at a piece of content that they plan to return to for a more in depth experience later. For instance someone may come across a webpage that they don't have enough time to read at that time, but plan to come back to and read fully."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "previewed"@en .
+
+<http://id.tincanapi.com/verb/promoted> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "The act of promoting a content item such that it appears more highly in search results or is promoted to users in some other way."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "promoted"@en .
+
+<http://id.tincanapi.com/verb/rated> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Action of giving a rating to an object. Should only be used when the action is the rating itself, as opposed to another action such as \"reading\" where a rating can be applied to the object as part of that action. In general the rating should be included in the Result with a Score object."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "rated"@en .
+
+<http://id.tincanapi.com/verb/replied> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "The actor posted a reply to a forum, comment thread or discussion."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "replied"@en .
+
+<http://id.tincanapi.com/verb/replied-to-tweet> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "This is an extension of the tweeted verb for the specific case of a tweet replying to another. This can be used to track group discussions experience. As with Retweeted we expect to find the original tweet id in the context as well as the person's handle to which the reply is addressed using the tweet extension URI http://id.tincanapi.com/extension/tweet"@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "replied to tweet"@en .
+
+<http://id.tincanapi.com/verb/requested-attention> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor is requesting the attention of an instructor, presenter or moderator."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "requested attention"@en .
+
+<http://id.tincanapi.com/verb/retweeted> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Used when an agent repeats a tweet written by another user. Usage in a statement is similar to tweeted but we expect to find the URI to the original tweet in the context of the statement, as well as the username of the original author as a context extension. The extension URI used for this should be http://id.tincanapi.com/extension/tweet"@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "retweeted"@en .
+
+<http://id.tincanapi.com/verb/reviewed> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has reviewed the object. For instance, a person reviewing an employee or a person reviewing an owner's manual."@en;
+   skos:exactMatch <https://brindlewaye.com/xAPITerms/verbs/reviewed/>;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "reviewed"@en .
+
+<http://id.tincanapi.com/verb/secured> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor secured the object. The object used with this verb might be a device, piece of software, location, etc."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "secured"@en .
+
+<http://id.tincanapi.com/verb/selected> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor selects an object from a collection or set to use it in an activity. The collection would be the context parent element."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "selected"@en .
+
+<http://id.tincanapi.com/verb/skipped> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "To indicate an actor has passed over or omitted an interval, screen, segment, item, or step."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "skipped"@en .
+
+<http://id.tincanapi.com/verb/talked-with> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor talked to another agent or group. The object of statements using this verb should be an agent or group, for example a teacher, an NPC in a simulation, a group of colleagues. This verb is intended to be used where one actor initiates and leads a conversation, rather than an equal discussion between two parties."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "talkedwith"@en .
+
+<http://id.tincanapi.com/verb/tweeted> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Use this verb when an agent tweets on Twitter. It is open for use also for other short messages (microblogging services) based on the URI as the activityId. We expect activityId to be a URI to the tweet."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "tweeted"@en .
+
+<http://id.tincanapi.com/verb/unfocused> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the user has lost focus of the target object. For example, this could be used when the user clicks outside a given application, window or activity."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "unfocused"@en .
+
+<http://id.tincanapi.com/verb/unregistered> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates the actor unregistered for a learning activity. This verb is used in combination with http://adlnet.gov/expapi/verbs/registered for the registering and unregistering of learners."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "unregistered"@en .
+
+<http://id.tincanapi.com/verb/viewed> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has viewed the object."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "viewed"@en .
+
+<http://id.tincanapi.com/verb/voted-down> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has voted down for a specific object. This is analogous to giving a thumbs down."@en;
+   skos:exactMatch <http://curatr3.com/define/verb/voted-down>;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "voted down"@en .
+
+<http://id.tincanapi.com/verb/voted-up> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has voted up for a specific object. This is analogous to giving a thumbs up."@en;
+   skos:exactMatch <http://curatr3.com/define/verb/voted-up>;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "voted up"@en .
+
+<http://risc-inc.com/annotator/activities/highlight> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "An annotation of the 'highlight' type. Highlights are used to mark strings of text in a document with a color. This activity type should only be used for highlighted text and not for highlighted images or other elements."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "highlighted text annotation"@en .
+
+<http://risc-inc.com/annotator/activities/note> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "Indicates an annotation made to a document of the 'note' form. This is a string of text appended to the document at a specified location. Note annotations can be added anywhere on the page. This activity type should not be used for other types of note that are not annotations to a document."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "note annotation"@en .
+
+<http://risc-inc.com/annotator/activities/underline> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "An annotation of the 'underline' type. Underlines are used to mark strings of text in a document with a line underneath the text. This activity type should only be used for underlined text and not for images or other elements."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "underline annotation"@en .
+
+<http://www.risc-inc.com/annotator/activities/freetext> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "Indicates an annotation made to a document of the 'freetext' form. This is a string of text written direction onto the document at a specified location. Freetext annotations can be added anywhere on the page. Unlike note annotations, they have no border or background."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "freetext annotation"@en .
+
+<http://www.tincanapi.co.uk/activitytypes/grade_classification> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "Represents a grade given or received within a particular context, for example ‘distinction’ within XYZ music test or ‘A’ for ABC qualification."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "grade classification"@en .
+
+<http://www.tincanapi.co.uk/extensions/result/classification> a <https://w3id.org/xapi/ontology#ResultExtension>;
+   skos:definition "A result extension used to store the grade awarded as a result of the experience. The value of this extension is an activity object representing the grade earned. This activity object should have an activity type of http://www.tincanapi.co.uk/activitytypes/grade_classification. The name of the activity should contain the value of the grade (e.g. “A”). An activity object is used rather than a single letter string as grade letters in different contexts, for example a grade A for a nationally recognized qualification has very different meaning to an A awarded by a teacher to a small child for a drawing of a cat. The activity used should represent the grade within the context it is awarded."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "classification"@en .
+
+<https://registry.tincanapi.com> a <https://w3id.org/xapi/profiles/ontology#Profile>;
+   dc:conformsTo <https://w3id.org/xapi/profiles#1.0>;
+   schema:author [
+     a schema:Organization;
+     schema:name "Rustici Software"
+   ];
+   rdfs:seeAlso <https://registry.tincanapi.com>;
+   skos:definition "A list of vocabulary concepts originally created in the TinCan registry."@en;
+   skos:prefLabel "TinCan Vocabulary"@en;
+   <https://w3id.org/xapi/profiles/ontology#concepts> <http://id.tincanapi.com/activitytype/blog>,
+     <http://id.tincanapi.com/activitytype/test-data-batch>,
+     <http://id.tincanapi.com/verb/skipped>,
+     <http://id.tincanapi.com/verb/mentioned>,
+     <http://id.tincanapi.com/verb/bookmarked>,
+     <http://id.tincanapi.com/verb/earned>,
+     <http://id.tincanapi.com/verb/arranged>,
+     <http://id.tincanapi.com/verb/hired>,
+     <http://id.tincanapi.com/activitytype/chapter>,
+     <http://id.tincanapi.com/verb/closed-sale>,
+     <http://id.tincanapi.com/activitytype/conference-session>,
+     <http://id.tincanapi.com/verb/personalized>,
+     <http://id.tincanapi.com/activitytype/chat-message>,
+     <http://id.tincanapi.com/verb/defined>,
+     <http://id.tincanapi.com/verb/requested-attention>,
+     <http://id.tincanapi.com/verb/unregistered>,
+     <http://id.tincanapi.com/verb/marked-unread>,
+     <http://id.tincanapi.com/verb/enabled>,
+     <http://id.tincanapi.com/verb/adjourned>,
+     <http://id.tincanapi.com/verb/selected>,
+     <http://id.tincanapi.com/activitytype/strategy-embedded>,
+     <http://id.tincanapi.com/verb/applauded>,
+     <http://id.tincanapi.com/activitytype/conference>,
+     <http://id.tincanapi.com/verb/created-opportunity>,
+     <http://id.tincanapi.com/activitytype/research-report>,
+     <http://id.tincanapi.com/verb/called>,
+     <http://id.tincanapi.com/verb/disabled>,
+     <http://id.tincanapi.com/verb/downloaded>,
+     <http://id.tincanapi.com/verb/performed-offline>,
+     <http://id.tincanapi.com/verb/frame/exited>,
+     <http://id.tincanapi.com/verb/paused>,
+     <http://id.tincanapi.com/activitytype/book>,
+     <http://risc-inc.com/annotator/activities/underline>,
+     <http://id.tincanapi.com/activitytype/security-role>,
+     <http://id.tincanapi.com/activitytype/paragraph>,
+     <http://www.risc-inc.com/annotator/activities/freetext>,
+     <http://id.tincanapi.com/extension/time>,
+     <http://risc-inc.com/annotator/activities/note>,
+     <http://id.tincanapi.com/extension/reflection>,
+     <http://id.tincanapi.com/activitytype/scenario>,
+     <http://id.tincanapi.com/activitytype/community-site>,
+     <http://id.tincanapi.com/activitytype/document>,
+     <http://id.tincanapi.com/verb/talked-with>,
+     <http://id.tincanapi.com/activitytype/doubt>,
+     <http://www.tincanapi.co.uk/activitytypes/grade_classification>,
+     <http://id.tincanapi.com/extension/ending-point>,
+     <http://id.tincanapi.com/extension/drop-down>,
+     <http://id.tincanapi.com/extension/planned-start-time>,
+     <http://id.tincanapi.com/activitytype/source>,
+     <http://id.tincanapi.com/extension/browser-info>,
+     <http://id.tincanapi.com/verb/interviewed>,
+     <http://id.tincanapi.com/verb/reviewed>,
+     <http://id.tincanapi.com/activitytype/project>,
+     <http://id.tincanapi.com/verb/replied>,
+     <http://id.tincanapi.com/activitytype/sales-opportunity>,
+     <http://id.tincanapi.com/activitytype/webinar>,
+     <http://id.tincanapi.com/extension/geojson>,
+     <http://id.tincanapi.com/extension/ip-address>,
+     <http://id.tincanapi.com/extension/isbn>,
+     <http://id.tincanapi.com/verb/unfocused>,
+     <http://id.tincanapi.com/activitytype/tag>,
+     <http://id.tincanapi.com/activitytype/email>,
+     <http://id.tincanapi.com/verb/secured>,
+     <http://id.tincanapi.com/verb/voted-down>,
+     <http://www.tincanapi.co.uk/extensions/result/classification>,
+     <http://id.tincanapi.com/extension/datetime>,
+     <http://id.tincanapi.com/activitytype/checklist-item>,
+     <http://id.tincanapi.com/extension/starting-position>,
+     <http://id.tincanapi.com/verb/retweeted>,
+     <http://id.tincanapi.com/activitytype/forum-reply>,
+     <http://id.tincanapi.com/extension/training-provider>,
+     <http://id.tincanapi.com/activitytype/discussion>,
+     <http://id.tincanapi.com/verb/focused>,
+     <http://id.tincanapi.com/extension/data-uri>,
+     <http://id.tincanapi.com/activitytype/voicemail>,
+     <http://id.tincanapi.com/extension/private-area>,
+     <http://id.tincanapi.com/activitytype/resource>,
+     <http://id.tincanapi.com/activitytype/slide-deck>,
+     <http://id.tincanapi.com/extension/severity>,
+     <http://id.tincanapi.com/extension/irl>,
+     <http://id.tincanapi.com/extension/starting-point>,
+     <http://id.tincanapi.com/extension/cmi-interaction-weighting>,
+     <http://id.tincanapi.com/extension/share-medium>,
+     <http://id.tincanapi.com/extension/measurement>,
+     <http://id.tincanapi.com/attachment/supporting_media>,
+     <http://id.tincanapi.com/activitytype/strategy>,
+     <http://id.tincanapi.com/extension/updated>,
+     <http://id.tincanapi.com/extension/attempt-id>,
+     <http://id.tincanapi.com/extension/condition-value>,
+     <http://id.tincanapi.com/verb/rated>,
+     <http://id.tincanapi.com/extension/collection-type>,
+     <http://id.tincanapi.com/extension/referrer>,
+     <http://id.tincanapi.com/extension/tweet>,
+     <http://id.tincanapi.com/activitytype/reward>,
+     <http://id.tincanapi.com/extension/target>,
+     <http://id.tincanapi.com/extension/assessment-type>,
+     <http://id.tincanapi.com/extension/duration>,
+     <http://id.tincanapi.com/activitytype/category>,
+     <http://id.tincanapi.com/extension/observer>,
+     <http://id.tincanapi.com/activitytype/section>,
+     <http://id.tincanapi.com/activitytype/legacy-learning-standard>,
+     <http://id.tincanapi.com/extension/color>,
+     <http://id.tincanapi.com/verb/viewed>,
+     <http://id.tincanapi.com/activitytype/unit-test>,
+     <http://id.tincanapi.com/activitytype/forum-topic>,
+     <http://id.tincanapi.com/verb/promoted>,
+     <http://id.tincanapi.com/extension/purpose>,
+     <http://id.tincanapi.com/activitytype/subcategory>,
+     <http://id.tincanapi.com/activitytype/unit-test-suite>,
+     <http://id.tincanapi.com/extension/condition-type>,
+     <http://id.tincanapi.com/extension/tetris-lines>,
+     <http://id.tincanapi.com/activitytype/collection-simple>,
+     <http://id.tincanapi.com/verb/expected>,
+     <http://id.tincanapi.com/verb/discarded>,
+     <http://id.tincanapi.com/verb/laughed>,
+     <http://id.tincanapi.com/extension/valid-until>,
+     <http://id.tincanapi.com/verb/expired>,
+     <http://id.tincanapi.com/verb/previewed>,
+     <http://id.tincanapi.com/activitytype/conference-track>,
+     <http://id.tincanapi.com/activitytype/lms>,
+     <http://id.tincanapi.com/verb/tweeted>,
+     <http://id.tincanapi.com/verb/voted-up>,
+     <http://id.tincanapi.com/extension/latitude>,
+     <http://id.tincanapi.com/extension/longitude>,
+     <http://id.tincanapi.com/verb/estimated-duration>,
+     <http://id.tincanapi.com/activitytype/vocabulary-word>,
+     <http://id.tincanapi.com/extension/invitee>,
+     <http://id.tincanapi.com/activitytype/user-profile>,
+     <https://www.opigno.org/en/tincan_registry/activity_type/certificate>,
+     <http://id.tincanapi.com/extension/powered-by>,
+     <http://id.tincanapi.com/activitytype/suggestion>,
+     <http://id.tincanapi.com/activitytype/essay>,
+     <http://id.tincanapi.com/extension/topic>,
+     <http://id.tincanapi.com/extension/position>,
+     <http://id.tincanapi.com/activitytype/project-site>,
+     <http://id.tincanapi.com/extension/monetary-value>,
+     <http://id.tincanapi.com/activitytype/chat-channel>,
+     <http://id.tincanapi.com/extension/apm>,
+     <http://id.tincanapi.com/verb/mentored>,
+     <http://id.tincanapi.com/activitytype/school-assignment>,
+     <http://id.tincanapi.com/activitytype/slide>,
+     <http://id.tincanapi.com/activitytype/status-update>,
+     <http://id.tincanapi.com/extension/jws-certificate-location>,
+     <http://id.tincanapi.com/verb/frame/entered>,
+     <http://id.tincanapi.com/extension/date>,
+     <http://id.tincanapi.com/activitytype/step>,
+     <http://id.tincanapi.com/activitytype/code-commit>,
+     <http://id.tincanapi.com/attachment/contract>,
+     <http://id.tincanapi.com/extension/tags>,
+     <http://id.tincanapi.com/activitytype/playlist>,
+     <http://id.tincanapi.com/attachment/certificate-of-completion>,
+     <http://id.tincanapi.com/extension/quality-rating>,
+     <http://risc-inc.com/annotator/activities/highlight>,
+     <http://id.tincanapi.com/extension/published>,
+     <http://id.tincanapi.com/extension/location>,
+     <http://id.tincanapi.com/extension/ending-position>,
+     <http://id.tincanapi.com/verb/replied-to-tweet>,
+     <http://id.tincanapi.com/extension/planned-duration>,
+     <http://id.tincanapi.com/activitytype/goal>,
+     <http://id.tincanapi.com/extension/feedback>,
+     <http://id.tincanapi.com/activitytype/solution>,
+     <http://id.tincanapi.com/activitytype/tweet>,
+     <http://id.tincanapi.com/activitytype/checklist>,
+     <http://id.tincanapi.com/activitytype/tutor-session> .
+
+<https://www.opigno.org/en/tincan_registry/activity_type/certificate> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "A document attesting to the fact that a person has completed an educational course."@en;
+   skos:inScheme <http://registry.tincanapi.com>;
+   skos:prefLabel "certificate"@en .
