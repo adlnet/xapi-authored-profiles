@@ -23,7 +23,7 @@
         "en": "This extension is used to describe the RGB colour of a PDF annotation highlight, underline of typewriter annotation. The value of this extension is a string, for example #FFCC66. For any use cases outside of PDF annotations, consider the tincan color extension to record the colour of an activity."
       },
       "prefLabel": {
-        "en": "PDF annotation highlight colour"
+        "en": "pdf annotation highlight colour"
       }
   },
   {
@@ -56,7 +56,7 @@
         "en": "A collection of rectangles marking an area within a PDF document. This is used to denote the location of an element on a page such as a highlight or annotation on a PDF document. Multiple rectangles may represent a single element. The value of the extension is an array of rectangle objects. Each rectangle object has x, y, width and height properties. The value of each of these properties is a number measured in PDF Units. The X and Y coordinates are taken from the bottom left of the page. Note that in some implementations, this the value of this extension has been a string containing a JSON encoded array of rectangle objects. This is not recommended, but tools reading statements using this extension may wish to additionally accept this JSON encoded format."
       },
       "prefLabel": {
-        "en": "PDF Rectangle map"
+        "en": "pdf Rectangle map"
       }
   },
   {

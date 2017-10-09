@@ -847,7 +847,7 @@
           "en": "Learning Management System. At it's core, a platform used to launch and track learning experiences. Many LMS also have a number of other additional features."
         },
         "prefLabel": {
-          "en": "LMS"
+          "en": "lms"
         }
     },
 
@@ -902,10 +902,10 @@
         "inScheme": "http://registry.tincanapi.com",
         "type": "ActivityType",
         "definition": {
-          "en": "project"
+          "en": "A site, perhaps within a project management tool or social platform, used to manage a particular project."
         },
         "prefLabel": {
-          "en": "A site, perhaps within a project management tool or social platform, used to manage a particular project."
+          "en": "project"
         }
     },
     {
@@ -1165,10 +1165,10 @@
         "inScheme": "http://registry.tincanapi.com",
         "type": "ActivityType",
         "definition": {
-          "en": "unit test"
+          "en": "A unit test in a test suite that is part of a programming project."
         },
         "prefLabel": {
-          "en": "A unit test in a test suite that is part of a programming project."
+          "en": "unit test"
         }
     },
     {
@@ -1492,7 +1492,7 @@
           "en": "Value should be a fully qualified IRL that is resolvable. In so far as the IRL space contains all possible URLs this is provided in place of a more specific URL to match the expectation of the specification for using IRI/IRL."
         },
         "prefLabel": {
-          "en": "IRL"
+          "en": "irl"
         }
     },
     {
@@ -1503,7 +1503,7 @@
           "en": "Value should be a GeoJSON object as defined by the GeoJSON specification. GeoJSON can be used to represent GPS coordinates, as well as other geometrical entities. See http://www.geojson.org/ for more information."
         },
         "prefLabel": {
-          "en": "GeoJSON"
+          "en": "geo JSON"
         }
     },
     {
@@ -1525,7 +1525,7 @@
           "en": "Value is a string representing an Internet Protocol address (IP address) in either IPv4 or IPv6 format. An example usage may be to help identify the client's real address location on internet as a Context extension. Another example may be to include relevant information about the http://activitystrea.ms/schema/1.0/page Activity type. IPv4 Address A string in decimal-dot notation, consisting of four decimal integers in the inclusive range 0-255, separated by dots (e.g. 192.168.0.1)."
         },
         "prefLabel": {
-          "en": "IP address"
+          "en": "ip address"
         }
     },
     {
@@ -1536,7 +1536,7 @@
           "en": "Value should be either a 10 digit ISBN or 13 digit ISBN string. Either value is acceptable as implementing systems can easily distinguish the two based on the length of the value. For more information see ISO 2108."
         },
         "prefLabel": {
-          "en": "ISBN"
+          "en": "isbn"
         }
     },
     {
@@ -1547,7 +1547,7 @@
           "en": "Context extension containing the URL of a public certificate that can be used to verify the signature of the statement."
         },
         "prefLabel": {
-          "en": "JWS certificate location"
+          "en": "jws certificate location"
         }
     },
     {
@@ -1558,7 +1558,7 @@
           "en": "A geographic coordinate that specifies the north-south position of a point on the Earth's surface."
         },
         "prefLabel": {
-          "en": "Latitude"
+          "en": "latitude"
         }
     },
     {
