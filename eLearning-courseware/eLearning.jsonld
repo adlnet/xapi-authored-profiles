@@ -1,0 +1,1271 @@
+{
+   "@context": "https://w3id.org/xapi/profiles/context",
+    "id": "https://w3id.org/xapi/eLearning",
+    "type": "Profile",
+    "conformsTo": "https://w3id.org/xapi/profiles#1.0",
+    "prefLabel": {
+        "en": "xAPI eLearning Courseware Profile"
+    },
+    "definition": {
+        "en": "The xAPI eLearning Courseware Profile describes a set of interactions used for level three interactive distance learning."
+    },
+    "seeAlso": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile",
+    "versions": [
+        {
+            "id": "https://w3id.org/xapi/eLearning/v1.0",
+            "generatedAtTime": "2017-10-09T20:04:39.214Z"
+        }
+    ],
+    "author": {
+        "type": "Organization",
+        "name": "Riptide Elements"
+    },
+    "concepts": [
+      {
+        "@id": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/concepts/course",
+        "inScheme": "https://w3id.org/xapi/eLearning",
+        "@type": "ActivityType",
+        "prefLabel": {
+          "en": "Course"
+        },
+        "definition": {
+          "en": "A course is a series of lessons which lead a learner to a better understanding of a subject. Courses are the highest unit of teaching and contain topics."
+        },
+        "broadMatch": ["https://w3id.org/xapi/cmi5/activities/course"]
+      },
+      {
+        "@id": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/concepts/topic",
+        "inScheme": "https://w3id.org/xapi/eLearning",
+        "@type": "ActivityType",
+        "prefLabel": {
+          "en": "Topic"
+        },
+        "definition": {
+          "en": "A topic is a single lesson that advances the learner's understanding of the course subject. Topics contain pages."
+        }
+      },
+      {
+        "@id": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/concepts/page",
+        "inScheme": "https://w3id.org/xapi/eLearning",
+        "@type": "ActivityType",
+        "prefLabel": {
+          "en": "Page"
+        },
+        "definition": {
+          "en": "A page contains a single activity based around something which advances the learner's understanding of the topic. Pages are the smallest unit of teaching."
+        }
+      },
+      {
+        "@id": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/concepts/assessment",
+        "inScheme": "https://w3id.org/xapi/eLearning",
+        "@type": "ActivityType",
+        "prefLabel": {
+          "en": "Assessment"
+        },
+        "definition": {
+          "en": "An assessment is a collection of pages that end in a score indicating the user’s performance."
+        }
+      },
+      {
+        "@id": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/activities/attest",
+        "inScheme": "https://w3id.org/xapi/eLearning",
+        "@type": "ActivityType",
+        "prefLabel": {
+          "en": "Attest"
+        },
+        "definition": {
+          "en": "Attestation requires a user to check any answers to a given question and confirm, usually to attest to a policy."
+        }
+      },
+      {
+        "@id": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/activities/branching",
+        "inScheme": "https://w3id.org/xapi/eLearning",
+        "@type": "ActivityType",
+        "prefLabel": {
+          "en": "Branching"
+        },
+        "definition": {
+          "en": "Branching scenarios involve the learner making decisions and following different paths based on those decisions."
+        }
+      },
+      {
+        "@id": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/activities/feedback",
+        "inScheme": "https://w3id.org/xapi/eLearning",
+        "@type": "ActivityType",
+        "prefLabel": {
+          "en": "Feedback"
+        },
+        "definition": {
+          "en": "Feedback activities allow the learner to submit feedback to the course instructor."
+        }
+      },
+      {
+        "@id": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/activities/imageMap",
+        "inScheme": "https://w3id.org/xapi/eLearning",
+        "@type": "ActivityType",
+        "prefLabel": {
+          "en": "Image map"
+        },
+        "definition": {
+          "en": "Image map defines an interface wherein users must correctly identify portions of an image by tagging them via image overlay."
+        }
+      },
+      {
+        "@id": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/activities/matching",
+        "inScheme": "https://w3id.org/xapi/eLearning",
+        "@type": "ActivityType",
+        "prefLabel": {
+          "en": "Matching"
+        },
+        "definition": {
+          "en": "Learners must match labeled items to the correct bucket."
+        }
+      },
+      {
+        "@id": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/activities/multipleChoice",
+        "inScheme": "https://w3id.org/xapi/eLearning",
+        "@type": "ActivityType",
+        "prefLabel": {
+          "en": "Multiple choice"
+        },
+        "definition": {
+          "en": "A single question with multiple answers for the learner to choose from."
+        }
+      },
+      {
+        "@id": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/activities/sortable",
+        "inScheme": "https://w3id.org/xapi/eLearning",
+        "@type": "ActivityType",
+        "prefLabel": {
+          "en": "Sortable"
+        },
+        "definition": {
+          "en": "A single question with multiple answers that must be sorted in the correct order."
+        }
+      },
+      {
+        "@id": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/activities/videoBranching",
+        "inScheme": "https://w3id.org/xapi/eLearning",
+        "@type": "ActivityType",
+        "prefLabel": {
+          "en": "Video branching"
+        },
+        "definition": {
+          "en": "The learner watches a video and is then asked a question. Depending on how they answer, they are taken to another video or another question."
+        }
+      }
+    ],
+    "templates": [
+      {
+        "id": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/templates/coursePassed",
+        "type": "StatementTemplate",
+        "inScheme": "https://w3id.org/xapi/eLearning",
+        "prefLabel": {
+          "en": "Course passed"
+        },
+        "definition": {
+          "en": "Learner has passed the course."
+        },
+        "rules": [
+          {
+            "location": "$.actor.mbox",
+            "presence": "included"
+          },
+          {
+            "location": "$.object.id",
+            "presence": "included"
+          },
+          {
+            "location": "$.object.definition.name",
+            "presence": "included"
+          },
+          {
+            "location": "$.object.definition.description",
+            "presence": "included"
+          },
+          {
+            "location": "$.result.success",
+            "any": [true]
+          },
+          {
+            "location": "$.result.completion",
+            "any": [true]
+          },
+          {
+            "location": "$.result.score",
+            "presence": "included"
+          },
+          {
+            "location": "$.verb.id",
+            "any": ["http://adlnet.gov/expapi/verbs/passed"]
+          }
+        ]
+      },
+      {
+        "id": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/templates/courseCompleted",
+        "type": "StatementTemplate",
+        "inScheme": "https://w3id.org/xapi/eLearning",
+        "prefLabel": {
+          "en": "Course completed"
+        },
+        "definition": {
+          "en": "Learner has completed the course."
+        },
+        "rules": [
+          {
+            "location": "$.actor.mbox",
+            "presence": "included"
+          },
+          {
+            "location": "$.object.id",
+            "presence": "included"
+          },
+          {
+            "location": "$.object.definition.name",
+            "presence": "included"
+          },
+          {
+            "location": "$.object.definition.description",
+            "presence": "included"
+          },
+          {
+            "location": "$.result.completion",
+            "any": [true]
+          },
+          {
+            "location": "$.verb.id",
+            "any": ["http://adlnet.gov/expapi/verbs/completed"]
+          }
+        ]
+      },
+      {
+        "id": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/templates/courseInitialized",
+        "type": "StatementTemplate",
+        "inScheme": "https://w3id.org/xapi/eLearning",
+        "prefLabel": {
+          "en": "Course initialized"
+        },
+        "definition": {
+          "en": "Learner has initialized the course."
+        },
+        "rules": [
+          {
+            "location": "$.actor.mbox",
+            "presence": "included"
+          },
+          {
+            "location": "$.object.id",
+            "presence": "included"
+          },
+          {
+            "location": "$.object.definition.name",
+            "presence": "included"
+          },
+          {
+            "location": "$.object.definition.description",
+            "presence": "included"
+          },
+          {
+            "location": "$.verb.id",
+            "any": ["http://adlnet.gov/expapi/verbs/initialized"]
+          }
+        ]
+      },
+      {
+        "id": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/templates/courseLaunched",
+        "type": "StatementTemplate",
+        "inScheme": "https://w3id.org/xapi/eLearning",
+        "prefLabel": {
+          "en": "Course launched"
+        },
+        "definition": {
+          "en": "Learner has launched the course."
+        },
+        "rules": [
+          {
+            "location": "$.actor.mbox",
+            "presence": "included"
+          },
+          {
+            "location": "$.verb.id",
+            "any": ["http://adlnet.gov/expapi/verbs/launched"]
+          },
+          {
+            "location": "$.object.id",
+            "presence": "included"
+          },
+          {
+            "location": "$.object.definition.name",
+            "presence": "included"
+          },
+          {
+            "location": "$.object.definition.description",
+            "presence": "included"
+          },
+          {
+            "location": "$.object.definition.type",
+            "any": ["http://adlnet.gov/expapi/activities/course"]
+          }
+        ]
+      },
+      {
+        "id": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/templates/pageCompleted",
+        "type": "StatementTemplate",
+        "inScheme": "https://w3id.org/xapi/eLearning",
+        "prefLabel": {
+          "en": "Page completed"
+        },
+        "definition": {
+          "en": "Learner has completed the page."
+        },
+        "rules": [
+          {
+            "location": "$.actor.mbox",
+            "presence": "included"
+          },
+          {
+            "location": "$.verb.id",
+            "any": ["http://adlnet.gov/expapi/verbs/completed"]
+          },
+          {
+            "location": "$.object.id",
+            "presence": "included"
+          },
+          {
+            "location": "$.object.definition.name",
+            "presence": "included"
+          },
+          {
+            "location": "$.object.definition.description",
+            "presence": "included"
+          },
+          {
+            "location": "$.result.completion",
+            "any": [true]
+          },
+          {
+            "location": "$.context.extensions.pageId",
+            "presence": "recommended"
+          },
+          {
+            "location": "$.context.extensions.topicId",
+            "presence": "recommended"
+          }
+        ]
+      },
+      {
+        "id": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/templates/pageLaunched",
+        "type": "StatementTemplate",
+        "inScheme": "https://w3id.org/xapi/eLearning",
+        "prefLabel": {
+          "en": "Page launched"
+        },
+        "definition": {
+          "en": "Learner has launched the page."
+        },
+        "rules": [
+          {
+            "location": "$.actor.mbox",
+            "presence": "included"
+          },
+          {
+            "location": "$.verb.id",
+            "any": ["http://adlnet.gov/expapi/verbs/launched"]
+          },
+          {
+            "location": "$.object.id",
+            "presence": "included"
+          },
+          {
+            "location": "$.object.definition.name",
+            "presence": "included"
+          },
+          {
+            "location": "$.object.definition.description",
+            "presence": "included"
+          },
+          {
+            "location": "$.context.extensions.pageId",
+            "presence": "recommended"
+          },
+          {
+            "location": "$.context.extensions.topicId",
+            "presence": "recommended"
+          }
+        ]
+      },
+      {
+        "id": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/templates/pageLeft",
+        "type": "StatementTemplate",
+        "inScheme": "https://w3id.org/xapi/eLearning",
+        "prefLabel": {
+          "en": "Page left"
+        },
+        "definition": {
+          "en": "Learner has left the page."
+        },
+        "rules": [
+          {
+            "location": "$.actor.mbox",
+            "presence": "included"
+          },
+          {
+            "location": "$.verb.id",
+            "any": ["http://adlnet.gov/expapi/verbs/progressed"]
+          },
+          {
+            "location": "$.object.id",
+            "presence": "included"
+          },
+          {
+            "location": "$.object.definition.name",
+            "presence": "included"
+          },
+          {
+            "location": "$.object.definition.description",
+            "presence": "included"
+          },
+          {
+            "location": "$.context.extensions.pageId",
+            "presence": "recommended"
+          },
+          {
+            "location": "$.context.extensions.topicId",
+            "presence": "recommended"
+          }
+        ]
+      },
+      {
+        "id": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/templates/topicCompleted",
+        "type": "StatementTemplate",
+        "inScheme": "https://w3id.org/xapi/eLearning",
+        "prefLabel": {
+          "en": "Topic completed"
+        },
+        "definition": {
+          "en": "Learner has completed the topic."
+        },
+        "rules": [
+          {
+            "location": "$.actor.mbox",
+            "presence": "included"
+          },
+          {
+            "location": "$.verb.id",
+            "any": ["http://adlnet.gov/expapi/verbs/completed"]
+          },
+          {
+            "location": "$.object.id",
+            "presence": "included"
+          },
+          {
+            "location": "$.object.definition.name",
+            "presence": "included"
+          },
+          {
+            "location": "$.object.definition.description",
+            "presence": "included"
+          },
+          {
+            "location": "$.result.completion",
+            "any": [true]
+          },
+          {
+            "location": "$.context.extensions.pageId",
+            "presence": "recommended"
+          },
+          {
+            "location": "$.context.extensions.topicId",
+            "presence": "recommended"
+          }
+        ]
+      },
+      {
+        "id": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/templates/topicLaunched",
+        "type": "StatementTemplate",
+        "inScheme": "https://w3id.org/xapi/eLearning",
+        "prefLabel": {
+          "en": "Topic launched"
+        },
+        "definition": {
+          "en": "Learner has launched the topic."
+        },
+        "rules": [
+          {
+            "location": "$.actor.mbox",
+            "presence": "included"
+          },
+          {
+            "location": "$.verb.id",
+            "any": ["http://adlnet.gov/expapi/verbs/launched"]
+          },
+          {
+            "location": "$.object.id",
+            "presence": "included"
+          },
+          {
+            "location": "$.object.definition.name",
+            "presence": "included"
+          },
+          {
+            "location": "$.object.definition.description",
+            "presence": "included"
+          },
+          {
+            "location": "$.context.extensions.pageId",
+            "presence": "recommended"
+          },
+          {
+            "location": "$.context.extensions.topicId",
+            "presence": "recommended"
+          }
+        ]
+      },
+      {
+        "id": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/templates/courseTerminated",
+        "type": "StatementTemplate",
+        "inScheme": "https://w3id.org/xapi/eLearning",
+        "prefLabel": {
+          "en": "Course terminated"
+        },
+        "definition": {
+          "en": "Learner has terminated the course."
+        },
+        "rules": [
+          {
+            "location": "$.actor.mbox",
+            "presence": "included"
+          },
+          {
+            "location": "$.verb.id",
+            "any": ["http://adlnet.gov/expapi/verbs/terminated"]
+          },
+          {
+            "location": "$.object.id",
+            "presence": "included"
+          }
+        ]
+      },
+      {
+        "id": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/templates/activityLaunched",
+        "type": "StatementTemplate",
+        "inScheme": "https://w3id.org/xapi/eLearning",
+        "prefLabel": {
+          "en": "Activity launched"
+        },
+        "definition": {
+          "en": "Learner has launched the activity."
+        },
+        "rules": [
+          {
+            "location": "$.actor.mbox",
+            "presence": "included"
+          },
+          {
+            "location": "$.verb.id",
+            "any": ["http://adlnet.gov/expapi/verbs/launched"]
+          },
+          {
+            "location": "$.object.id",
+            "presence": "included"
+          },
+          {
+            "location": "$.object.definition.name",
+            "presence": "included"
+          },
+          {
+            "location": "$.object.definition.description",
+            "presence": "included"
+          },
+          {
+            "location": "$.context.extensions.pageId",
+            "presence": "recommended"
+          },
+          {
+            "location": "$.context.extensions.topicId",
+            "presence": "recommended"
+          }
+        ]
+      },
+      {
+        "id": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/templates/activityCompleted",
+        "type": "StatementTemplate",
+        "inScheme": "https://w3id.org/xapi/eLearning",
+        "prefLabel": {
+          "en": "Activity completed"
+        },
+        "definition": {
+          "en": "Learner has completed the activity."
+        },
+        "rules": [
+          {
+            "location": "$.actor.mbox",
+            "presence": "included"
+          },
+          {
+            "location": "$.verb.id",
+            "any": ["http://adlnet.gov/expapi/verbs/completed"]
+          },
+          {
+            "location": "$.object.id",
+            "presence": "included"
+          },
+          {
+            "location": "$.object.definition.name",
+            "presence": "included"
+          },
+          {
+            "location": "$.object.definition.description",
+            "presence": "included"
+          },
+          {
+            "location": "$.result.score",
+            "presence": "included"
+          },
+          {
+            "location": "$.result.success",
+            "any": [true]
+          },
+          {
+            "location": "$.result.completion",
+            "any": [true]
+          },
+          {
+            "location": "$.context.extensions.pageId",
+            "presence": "recommended"
+          },
+          {
+            "location": "$.context.extensions.topicId",
+            "presence": "recommended"
+          }
+        ]
+      },
+      {
+        "id": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/templates/activityProgressed",
+        "type": "StatementTemplate",
+        "inScheme": "https://w3id.org/xapi/eLearning",
+        "prefLabel": {
+          "en": "Activity progressed"
+        },
+        "definition": {
+          "en": "Learner has progressed through the activity."
+        },
+        "rules": [
+          {
+            "location": "$.actor.mbox",
+            "presence": "included"
+          },
+          {
+            "location": "$.verb.id",
+            "any": ["http://adlnet.gov/expapi/verbs/completed"]
+          },
+          {
+            "location": "$.object.id",
+            "presence": "included"
+          },
+          {
+            "location": "$.object.definition.name",
+            "presence": "included"
+          },
+          {
+            "location": "$.object.definition.description",
+            "presence": "included"
+          },
+          {
+            "location": "$.context.extensions.pageId",
+            "presence": "recommended"
+          },
+          {
+            "location": "$.context.extensions.topicId",
+            "presence": "recommended"
+          }
+        ]
+      },
+      {
+        "id": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/templates/branchProgressed",
+        "type": "StatementTemplate",
+        "inScheme": "https://w3id.org/xapi/eLearning",
+        "prefLabel": {
+          "en": "Branch progressed"
+        },
+        "definition": {
+          "en": "Learner has progressed through this branching activity."
+        },
+        "rules": [
+          {
+            "location": "$.actor.mbox",
+            "presence": "included"
+          },
+          {
+            "location": "$.verb.id",
+            "any": ["http://adlnet.gov/expapi/verbs/progrssed"]
+          },
+          {
+            "location": "$.object.id",
+            "presence": "included"
+          },
+          {
+            "location": "$.object.definition.name",
+            "presence": "included"
+          },
+          {
+            "location": "$.object.definition.description",
+            "presence": "included"
+          },
+          {
+            "location": "$.context.extensions.pageId",
+            "presence": "recommended"
+          },
+          {
+            "location": "$.context.extensions.topicId",
+            "presence": "recommended"
+          }
+        ]
+      },
+      {
+        "id": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/templates/branchLaunched",
+        "type": "StatementTemplate",
+        "inScheme": "https://w3id.org/xapi/eLearning",
+        "prefLabel": {
+          "en": "Branch launched"
+        },
+        "definition": {
+          "en": "Learner has launched this branching activity."
+        },
+        "rules": [
+          {
+            "location": "$.actor.mbox",
+            "presence": "included"
+          },
+          {
+            "location": "$.verb.id",
+            "any": ["http://adlnet.gov/expapi/verbs/progressed"]
+          },
+          {
+            "location": "$.object.id",
+            "presence": "included"
+          },
+          {
+            "location": "$.object.definition.name",
+            "presence": "included"
+          },
+          {
+            "location": "$.object.definition.description",
+            "presence": "included"
+          },
+          {
+            "location": "$.context.extensions.pageId",
+            "presence": "recommended"
+          },
+          {
+            "location": "$.context.extensions.topicId",
+            "presence": "recommended"
+          }
+        ]
+      },
+      {
+        "id": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/templates/branchCompleted",
+        "type": "StatementTemplate",
+        "inScheme": "https://w3id.org/xapi/eLearning",
+        "prefLabel": {
+          "en": "Branch completed"
+        },
+        "definition": {
+          "en": "Learner has completed this branching activity."
+        },
+        "rules": [
+          {
+            "location": "$.actor.mbox",
+            "presence": "included"
+          },
+          {
+            "location": "$.verb.id",
+            "any": ["http://adlnet.gov/expapi/verbs/completed"]
+          },
+          {
+            "location": "$.object.id",
+            "presence": "included"
+          },
+          {
+            "location": "$.object.definition.name",
+            "presence": "included"
+          },
+          {
+            "location": "$.object.definition.description",
+            "presence": "included"
+          },
+          {
+            "location": "$.context.extensions.pageId",
+            "presence": "recommended"
+          },
+          {
+            "location": "$.context.extensions.topicId",
+            "presence": "recommended"
+          }
+        ]
+      },
+      {
+        "id": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/templates/feedbackCommitted",
+        "type": "StatementTemplate",
+        "inScheme": "https://w3id.org/xapi/eLearning",
+        "prefLabel": {
+          "en": "Feedback committed"
+        },
+        "definition": {
+          "en": "Learner has committed feedback."
+        },
+        "rules": [
+          {
+            "location": "$.actor.mbox",
+            "presence": "included"
+          },
+          {
+            "location": "$.verb.id",
+            "any": ["http://adlnet.gov/expapi/verbs/answered"]
+          },
+          {
+            "location": "$.object.id",
+            "presence": "included"
+          },
+          {
+            "location": "$.object.definition.description",
+            "presence": "included"
+          },
+          {
+            "location": "$.result.response",
+            "presence": "included"
+          },
+          {
+            "location": "$.context.extensions.pageId",
+            "presence": "recommended"
+          },
+          {
+            "location": "$.context.extensions.topicId",
+            "presence": "recommended"
+          }
+        ]
+      },
+      {
+        "id": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/templates/assessmentLaunched",
+        "type": "StatementTemplate",
+        "inScheme": "https://w3id.org/xapi/eLearning",
+        "prefLabel": {
+          "en": "Assessment launched"
+        },
+        "definition": {
+          "en": "Learner has launched an assessment."
+        },
+        "rules": [
+          {
+            "location": "$.verb.id",
+            "any": ["http://adlnet.gov/expapi/verbs/launched"]
+          },
+          {
+            "location": "$.object.id",
+            "presence": "included"
+          },
+          {
+            "location": "$.object.definition.type",
+            "presence": "recommended"
+          },
+          {
+            "location": "$.context.extensions.pageId",
+            "presence": "recommended"
+          },
+          {
+            "location": "$.context.extensions.topicId",
+            "presence": "recommended"
+          }
+        ]
+      },
+      {
+        "id": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/templates/assessmentAttempted",
+        "type": "StatementTemplate",
+        "inScheme": "https://w3id.org/xapi/eLearning",
+        "prefLabel": {
+          "en": "Assessment attempted"
+        },
+        "definition": {
+          "en": "Learner has attempted an assessment."
+        },
+        "rules": [
+          {
+            "location": "$.actor.mbox",
+            "presence": "included"
+          },
+          {
+            "location": "$.verb.id",
+            "any": ["http://adlnet.gov/expapi/verbs/attempted"]
+          },
+          {
+            "location": "$.object.id",
+            "presence": "included"
+          },
+          {
+            "location": "$.object.definition.type",
+            "presence": "recommended"
+          },
+          {
+            "location": "$.context.extensions.pageId",
+            "presence": "recommended"
+          },
+          {
+            "location": "$.context.extensions.topicId",
+            "presence": "recommended"
+          }
+        ]
+      },
+      {
+        "id": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/templates/assessmentPassed",
+        "type": "StatementTemplate",
+        "inScheme": "https://w3id.org/xapi/eLearning",
+        "prefLabel": {
+          "en": "Assessment passed"
+        },
+        "definition": {
+          "en": "Learner has passed an assessment."
+        },
+        "rules": [
+          {
+            "location": "$.actor.mbox",
+            "presence": "included"
+          },
+          {
+            "location": "$.verb.id",
+            "any": ["http://adlnet.gov/expapi/verbs/passed"]
+          },
+          {
+            "location": "$.object.id",
+            "presence": "included"
+          },
+          {
+            "location": "$.object.definition.type",
+            "presence": "recommended"
+          },
+          {
+            "location": "$.context.extensions.pageId",
+            "presence": "recommended"
+          },
+          {
+            "location": "$.context.extensions.topicId",
+            "presence": "recommended"
+          },
+          {
+            "location": "$.result.score",
+            "presence": "recommended"
+          },
+          {
+            "location": "$.result.success",
+            "any": [true]
+          },
+          {
+            "location": "$.result.completion",
+            "any": [true]
+          }
+        ]
+      },
+      {
+        "id": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/templates/assessmentFailed",
+        "type": "StatementTemplate",
+        "inScheme": "https://w3id.org/xapi/eLearning",
+        "prefLabel": {
+          "en": "Assessment failed"
+        },
+        "definition": {
+          "en": "Learner has failed an assessment."
+        },
+        "rules": [
+          {
+            "location": "$.actor.mbox",
+            "presence": "included"
+          },
+          {
+            "location": "$.verb.id",
+            "any": ["http://adlnet.gov/expapi/verbs/failed"]
+          },
+          {
+            "location": "$.object.id",
+            "presence": "included"
+          },
+          {
+            "location": "$.object.definition.type",
+            "presence": "recommended"
+          },
+          {
+            "location": "$.context.extensions.pageId",
+            "presence": "recommended"
+          },
+          {
+            "location": "$.context.extensions.topicId",
+            "presence": "recommended"
+          },
+          {
+            "location": "$.result.score",
+            "presence": "recommended"
+          },
+          {
+            "location": "$.result.success",
+            "any": [false]
+          },
+          {
+            "location": "$.result.completion",
+            "any": [true]
+          }
+        ]
+      },
+      {
+        "id": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/templates/assessmentCompleted",
+        "type": "StatementTemplate",
+        "inScheme": "https://w3id.org/xapi/eLearning",
+        "prefLabel": {
+          "en": "Assessment completed"
+        },
+        "definition": {
+          "en": "Learner has completed an assessment."
+        },
+        "rules": [
+          {
+            "location": "$.actor.mbox",
+            "presence": "included"
+          },
+          {
+            "location": "$.verb.id",
+            "any": ["http://adlnet.gov/expapi/verbs/completed"]
+          },
+          {
+            "location": "$.object.id",
+            "presence": "included"
+          },
+          {
+            "location": "$.object.definition.type",
+            "presence": "recommended"
+          },
+          {
+            "location": "$.context.extensions.pageId",
+            "presence": "recommended"
+          },
+          {
+            "location": "$.context.extensions.topicId",
+            "presence": "recommended"
+          }
+        ]
+      },
+      {
+        "id": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/templates/assessmentInitialized",
+        "type": "StatementTemplate",
+        "inScheme": "https://w3id.org/xapi/eLearning",
+        "prefLabel": {
+          "en": "Assessment initialized"
+        },
+        "definition": {
+          "en": "Learner has initialized an assessment."
+        },
+        "rules": [
+          {
+            "location": "$.actor.mbox",
+            "presence": "included"
+          },
+          {
+            "location": "$.verb.id",
+            "any": ["http://adlnet.gov/expapi/verbs/initialized"]
+          },
+          {
+            "location": "$.object.id",
+            "presence": "included"
+          },
+          {
+            "location": "$.object.definition.type",
+            "presence": "recommended"
+          },
+          {
+            "location": "$.context.extensions.pageId",
+            "presence": "recommended"
+          },
+          {
+            "location": "$.context.extensions.topicId",
+            "presence": "recommended"
+          }
+        ]
+      },
+      {
+        "id": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/templates/assessmentTerminated",
+        "type": "StatementTemplate",
+        "inScheme": "https://w3id.org/xapi/eLearning",
+        "prefLabel": {
+          "en": "Assessment terminated"
+        },
+        "definition": {
+          "en": "Learner has terminated an assessment."
+        },
+        "rules": [
+          {
+            "location": "$.actor.mbox",
+            "presence": "included"
+          },
+          {
+            "location": "$.verb.id",
+            "any": ["http://adlnet.gov/expapi/verbs/terminated"]
+          },
+          {
+            "location": "$.object.id",
+            "presence": "included"
+          },
+          {
+            "location": "$.object.definition.type",
+            "presence": "recommended"
+          },
+          {
+            "location": "$.context.extensions.pageId",
+            "presence": "recommended"
+          },
+          {
+            "location": "$.context.extensions.topicId",
+            "presence": "recommended"
+          }
+        ]
+      },
+      {
+        "id": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/templates/answerChanged",
+        "type": "StatementTemplate",
+        "inScheme": "https://w3id.org/xapi/eLearning",
+        "prefLabel": {
+          "en": "Change answer"
+        },
+        "definition": {
+          "en": "Records when the learner changes an answer."
+        },
+        "rules": [
+          {
+            "location": "$.actor.mbox",
+            "presence": "included"
+          },
+          {
+            "location": "$.object.id",
+            "presence": "included"
+          },
+          {
+            "location": "$.object.definition.description",
+            "presence": "included"
+          },
+          {
+            "location": "$.object.definition.correctResponsesPattern",
+            "presence": "included"
+          },
+          {
+            "location": "$.object.definition.choices",
+            "presence": "included"
+          },
+          {
+            "location": "$.result.response",
+            "presence": "included"
+          },
+          {
+            "location": "$.context.extensions.pageId",
+            "presence": "included"
+          },
+          {
+            "location": "$.context.extensions.topicId",
+            "presence": "included"
+          },
+          {
+            "location": "$.verb.id",
+            "any": ["http://adlnet.gov/expapi/verbs/interacted"]
+          }
+        ]
+      },
+      {
+        "id": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/templates/questionAsked",
+        "type": "StatementTemplate",
+        "inScheme": "https://w3id.org/xapi/eLearning",
+        "prefLabel": {
+          "en": "Question asked"
+        },
+        "definition": {
+          "en": "The learner was asked a question."
+        },
+        "rules": [
+          {
+            "location": "$.verb.id",
+            "any": ["http://adlnet.gov/expapi/verbs/asked"]
+          },
+          {
+            "location": "$.object.id",
+            "presence": "included"
+          },
+          {
+            "location": "$.object.definition.description",
+            "presence": "included"
+          },
+          {
+            "location": "$.object.definition.correctResponsesPattern",
+            "presence": "included"
+          },
+          {
+            "location": "$.object.definition.choices",
+            "presence": "included"
+          },
+          {
+            "location": "$.context.extensions.pageId",
+            "presence": "included"
+          },
+          {
+            "location": "$.context.extensions.topicId",
+            "presence": "included"
+          }
+        ]
+      },
+      {
+        "id": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/templates/questionCommitted",
+        "type": "StatementTemplate",
+        "inScheme": "https://w3id.org/xapi/eLearning",
+        "prefLabel": {
+          "en": "Question committed"
+        },
+        "definition": {
+          "en": "The learner committed an answer to a question."
+        },
+        "rules": [
+          {
+            "location": "$.actor.mbox",
+            "presence": "included"
+          },
+          {
+            "location": "$.verb.id",
+            "any": ["http://adlnet.gov/expapi/verbs/answered"]
+          },
+          {
+            "location": "$.object.id",
+            "presence": "included"
+          },
+          {
+            "location": "$.object.definition.description",
+            "presence": "included"
+          },
+          {
+            "location": "$.object.definition.correctResponsesPattern",
+            "presence": "included"
+          },
+          {
+            "location": "$.object.definition.choices",
+            "presence": "included"
+          },
+          {
+            "location": "$.context.extensions.pageId",
+            "presence": "included"
+          },
+          {
+            "location": "$.context.extensions.topicId",
+            "presence": "included"
+          },
+          {
+            "location": "$.result.success",
+            "any": [true, false]
+          },
+          {
+            "location": "$.result.response",
+            "presence": "included"
+          }
+        ]
+      }
+    ]
+}
