@@ -23,7 +23,7 @@
     "concepts": [
       {
         "@id": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/concepts/course",
-        "inScheme": "https://w3id.org/xapi/eLearning",
+        "inScheme": "https://w3id.org/xapi/eLearning/v1.0",
         "@type": "ActivityType",
         "prefLabel": {
           "en": "Course"
@@ -35,7 +35,7 @@
       },
       {
         "@id": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/concepts/topic",
-        "inScheme": "https://w3id.org/xapi/eLearning",
+        "inScheme": "https://w3id.org/xapi/eLearning/v1.0",
         "@type": "ActivityType",
         "prefLabel": {
           "en": "Topic"
@@ -46,7 +46,7 @@
       },
       {
         "@id": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/concepts/page",
-        "inScheme": "https://w3id.org/xapi/eLearning",
+        "inScheme": "https://w3id.org/xapi/eLearning/v1.0",
         "@type": "ActivityType",
         "prefLabel": {
           "en": "Page"
@@ -57,7 +57,7 @@
       },
       {
         "@id": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/concepts/assessment",
-        "inScheme": "https://w3id.org/xapi/eLearning",
+        "inScheme": "https://w3id.org/xapi/eLearning/v1.0",
         "@type": "ActivityType",
         "prefLabel": {
           "en": "Assessment"
@@ -68,7 +68,7 @@
       },
       {
         "@id": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/activities/attest",
-        "inScheme": "https://w3id.org/xapi/eLearning",
+        "inScheme": "https://w3id.org/xapi/eLearning/v1.0",
         "@type": "ActivityType",
         "prefLabel": {
           "en": "Attest"
@@ -79,7 +79,7 @@
       },
       {
         "@id": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/activities/branching",
-        "inScheme": "https://w3id.org/xapi/eLearning",
+        "inScheme": "https://w3id.org/xapi/eLearning/v1.0",
         "@type": "ActivityType",
         "prefLabel": {
           "en": "Branching"
@@ -90,7 +90,7 @@
       },
       {
         "@id": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/activities/feedback",
-        "inScheme": "https://w3id.org/xapi/eLearning",
+        "inScheme": "https://w3id.org/xapi/eLearning/v1.0",
         "@type": "ActivityType",
         "prefLabel": {
           "en": "Feedback"
@@ -101,7 +101,7 @@
       },
       {
         "@id": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/activities/imageMap",
-        "inScheme": "https://w3id.org/xapi/eLearning",
+        "inScheme": "https://w3id.org/xapi/eLearning/v1.0",
         "@type": "ActivityType",
         "prefLabel": {
           "en": "Image map"
@@ -112,7 +112,7 @@
       },
       {
         "@id": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/activities/matching",
-        "inScheme": "https://w3id.org/xapi/eLearning",
+        "inScheme": "https://w3id.org/xapi/eLearning/v1.0",
         "@type": "ActivityType",
         "prefLabel": {
           "en": "Matching"
@@ -123,7 +123,7 @@
       },
       {
         "@id": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/activities/multipleChoice",
-        "inScheme": "https://w3id.org/xapi/eLearning",
+        "inScheme": "https://w3id.org/xapi/eLearning/v1.0",
         "@type": "ActivityType",
         "prefLabel": {
           "en": "Multiple choice"
@@ -134,7 +134,7 @@
       },
       {
         "@id": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/activities/sortable",
-        "inScheme": "https://w3id.org/xapi/eLearning",
+        "inScheme": "https://w3id.org/xapi/eLearning/v1.0",
         "@type": "ActivityType",
         "prefLabel": {
           "en": "Sortable"
@@ -145,7 +145,7 @@
       },
       {
         "@id": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/activities/videoBranching",
-        "inScheme": "https://w3id.org/xapi/eLearning",
+        "inScheme": "https://w3id.org/xapi/eLearning/v1.0",
         "@type": "ActivityType",
         "prefLabel": {
           "en": "Video branching"
@@ -159,7 +159,7 @@
       {
         "id": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/templates/coursePassed",
         "type": "StatementTemplate",
-        "inScheme": "https://w3id.org/xapi/eLearning",
+        "inScheme": "https://w3id.org/xapi/eLearning/v1.0",
         "prefLabel": {
           "en": "Course passed"
         },
@@ -203,7 +203,7 @@
       {
         "id": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/templates/courseFailed",
         "type": "StatementTemplate",
-        "inScheme": "https://w3id.org/xapi/eLearning",
+        "inScheme": "https://w3id.org/xapi/eLearning/v1.0",
         "prefLabel": {
           "en": "Course passed"
         },
@@ -247,7 +247,7 @@
       {
         "id": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/templates/activityCompleted",
         "type": "StatementTemplate",
-        "inScheme": "https://w3id.org/xapi/eLearning",
+        "inScheme": "https://w3id.org/xapi/eLearning/v1.0",
         "prefLabel": {
           "en": "Course completed"
         },
@@ -289,7 +289,7 @@
       {
         "id": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/templates/courseInitialized",
         "type": "StatementTemplate",
-        "inScheme": "https://w3id.org/xapi/eLearning",
+        "inScheme": "https://w3id.org/xapi/eLearning/v1.0",
         "prefLabel": {
           "en": "Course initialized"
         },
@@ -319,7 +319,7 @@
       {
         "id": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/templates/activityLaunched",
         "type": "StatementTemplate",
-        "inScheme": "https://w3id.org/xapi/eLearning",
+        "inScheme": "https://w3id.org/xapi/eLearning/v1.0",
         "prefLabel": {
           "en": "Activity launched"
         },
@@ -356,7 +356,7 @@
       {
         "id": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/templates/pageLeft",
         "type": "StatementTemplate",
-        "inScheme": "https://w3id.org/xapi/eLearning",
+        "inScheme": "https://w3id.org/xapi/eLearning/v1.0",
         "prefLabel": {
           "en": "Page left"
         },
@@ -394,7 +394,7 @@
       {
         "id": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/templates/courseTerminated",
         "type": "StatementTemplate",
-        "inScheme": "https://w3id.org/xapi/eLearning",
+        "inScheme": "https://w3id.org/xapi/eLearning/v1.0",
         "prefLabel": {
           "en": "Course terminated"
         },
@@ -416,7 +416,7 @@
       {
         "id": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/templates/activityProgressed",
         "type": "StatementTemplate",
-        "inScheme": "https://w3id.org/xapi/eLearning",
+        "inScheme": "https://w3id.org/xapi/eLearning/v1.0",
         "prefLabel": {
           "en": "Activity progressed"
         },
@@ -453,7 +453,7 @@
       {
         "id": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/templates/feedbackCommitted",
         "type": "StatementTemplate",
-        "inScheme": "https://w3id.org/xapi/eLearning",
+        "inScheme": "https://w3id.org/xapi/eLearning/v1.0",
         "prefLabel": {
           "en": "Feedback committed"
         },
@@ -491,7 +491,7 @@
       {
         "id": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/templates/assessmentAttempted",
         "type": "StatementTemplate",
-        "inScheme": "https://w3id.org/xapi/eLearning",
+        "inScheme": "https://w3id.org/xapi/eLearning/v1.0",
         "prefLabel": {
           "en": "Assessment attempted"
         },
@@ -528,7 +528,7 @@
       {
         "id": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/templates/assessmentPassed",
         "type": "StatementTemplate",
-        "inScheme": "https://w3id.org/xapi/eLearning",
+        "inScheme": "https://w3id.org/xapi/eLearning/v1.0",
         "prefLabel": {
           "en": "Assessment passed"
         },
@@ -579,7 +579,7 @@
       {
         "id": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/templates/assessmentFailed",
         "type": "StatementTemplate",
-        "inScheme": "https://w3id.org/xapi/eLearning",
+        "inScheme": "https://w3id.org/xapi/eLearning/v1.0",
         "prefLabel": {
           "en": "Assessment failed"
         },
@@ -630,7 +630,7 @@
       {
         "id": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/templates/assessmentInitialized",
         "type": "StatementTemplate",
-        "inScheme": "https://w3id.org/xapi/eLearning",
+        "inScheme": "https://w3id.org/xapi/eLearning/v1.0",
         "prefLabel": {
           "en": "Assessment initialized"
         },
@@ -667,7 +667,7 @@
       {
         "id": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/templates/assessmentTerminated",
         "type": "StatementTemplate",
-        "inScheme": "https://w3id.org/xapi/eLearning",
+        "inScheme": "https://w3id.org/xapi/eLearning/v1.0",
         "prefLabel": {
           "en": "Assessment terminated"
         },
@@ -704,7 +704,7 @@
       {
         "id": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/templates/answerChanged",
         "type": "StatementTemplate",
-        "inScheme": "https://w3id.org/xapi/eLearning",
+        "inScheme": "https://w3id.org/xapi/eLearning/v1.0",
         "prefLabel": {
           "en": "Change answer"
         },
@@ -750,7 +750,7 @@
       {
         "id": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/templates/questionAsked",
         "type": "StatementTemplate",
-        "inScheme": "https://w3id.org/xapi/eLearning",
+        "inScheme": "https://w3id.org/xapi/eLearning/v1.0",
         "prefLabel": {
           "en": "Question asked"
         },
@@ -788,7 +788,7 @@
       {
         "id": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/templates/questionCommitted",
         "type": "StatementTemplate",
-        "inScheme": "https://w3id.org/xapi/eLearning",
+        "inScheme": "https://w3id.org/xapi/eLearning/v1.0",
         "prefLabel": {
           "en": "Question committed"
         },
