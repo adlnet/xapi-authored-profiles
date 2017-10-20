@@ -380,14 +380,6 @@
           {
             "location": "$.object.definition.description",
             "presence": "included"
-          },
-          {
-            "location": "$.context.extensions.pageId",
-            "presence": "recommended"
-          },
-          {
-            "location": "$.context.extensions.topicId",
-            "presence": "recommended"
           }
         ]
       },
@@ -477,14 +469,6 @@
           {
             "location": "$.result.response",
             "presence": "included"
-          },
-          {
-            "location": "$.context.extensions.pageId",
-            "presence": "recommended"
-          },
-          {
-            "location": "$.context.extensions.topicId",
-            "presence": "recommended"
           }
         ]
       },
@@ -514,14 +498,6 @@
             "scopeNote": {
               "en-us": "This property should describe what activity type this statement goes with."
             }
-          },
-          {
-            "location": "$.context.extensions.pageId",
-            "presence": "recommended"
-          },
-          {
-            "location": "$.context.extensions.topicId",
-            "presence": "recommended"
           }
         ]
       },
@@ -551,14 +527,6 @@
             "scopeNote": {
               "en-us": "This property should describe what activity type this statement goes with."
             }
-          },
-          {
-            "location": "$.context.extensions.pageId",
-            "presence": "recommended"
-          },
-          {
-            "location": "$.context.extensions.topicId",
-            "presence": "recommended"
           },
           {
             "location": "$.result.score",
@@ -604,14 +572,6 @@
             }
           },
           {
-            "location": "$.context.extensions.pageId",
-            "presence": "recommended"
-          },
-          {
-            "location": "$.context.extensions.topicId",
-            "presence": "recommended"
-          },
-          {
             "location": "$.result.score",
             "presence": "recommended"
           },
@@ -653,14 +613,6 @@
             "scopeNote": {
               "en-us": "This property should describe what activity type this statement goes with."
             }
-          },
-          {
-            "location": "$.context.extensions.pageId",
-            "presence": "recommended"
-          },
-          {
-            "location": "$.context.extensions.topicId",
-            "presence": "recommended"
           }
         ]
       },
@@ -690,14 +642,6 @@
             "scopeNote": {
               "en-us": "This property should describe what activity type this statement goes with."
             }
-          },
-          {
-            "location": "$.context.extensions.pageId",
-            "presence": "recommended"
-          },
-          {
-            "location": "$.context.extensions.topicId",
-            "presence": "recommended"
           }
         ]
       },
@@ -736,14 +680,6 @@
           {
             "location": "$.result.response",
             "presence": "included"
-          },
-          {
-            "location": "$.context.extensions.pageId",
-            "presence": "included"
-          },
-          {
-            "location": "$.context.extensions.topicId",
-            "presence": "included"
           }
         ]
       },
@@ -773,14 +709,6 @@
           },
           {
             "location": "$.object.definition.choices",
-            "presence": "included"
-          },
-          {
-            "location": "$.context.extensions.pageId",
-            "presence": "included"
-          },
-          {
-            "location": "$.context.extensions.topicId",
             "presence": "included"
           }
         ]
@@ -815,14 +743,6 @@
           },
           {
             "location": "$.object.definition.choices",
-            "presence": "included"
-          },
-          {
-            "location": "$.context.extensions.pageId",
-            "presence": "included"
-          },
-          {
-            "location": "$.context.extensions.topicId",
             "presence": "included"
           },
           {
