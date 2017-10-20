@@ -1267,5 +1267,55 @@
           }
         ]
       }
+    ],
+    "patterns": [
+      {
+        "id": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/patterns/oneOrMoreGeneral",
+        "type": "Pattern",
+        "definition": {
+          "en-us": "A general pattern that matches requires at least one of the templates to be present."
+        },
+        "prefLabel": {
+          "en-us": "OneOrMoreGeneral"
+        },
+        "oneOrMore": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/patterns/alternateGeneral"
+      },{
+        "id": "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/patterns/alternateGeneral",
+        "type": "Pattern",
+        "definition": {
+          "en-us": "A general pattern that matches any of the templates."
+        },
+        "prefLabel": {
+          "en-us": "AnyTemplate"
+        },
+        "alternates": [
+          "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/templates/coursePassed",
+          "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/templates/courseCompleted",
+          "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/templates/courseInitialized",
+          "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/templates/courseLaunched",
+          "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/templates/pageCompleted",
+          "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/templates/pageLaunched",
+          "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/templates/pageLeft",
+          "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/templates/topicCompleted",
+          "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/templates/topicLaunched",
+          "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/templates/courseTerminated",
+          "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/templates/activityLaunched",
+          "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/templates/activityCompleted",
+          "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/templates/activityProgressed",
+          "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/templates/branchLaunched",
+          "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/templates/branchCompleted",
+          "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/templates/feedbackCommitted",
+          "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/templates/assessmentLaunched",
+          "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/templates/assessmentAttempted",
+          "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/templates/assessmentPassed",
+          "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/templates/assessmentFailed",
+          "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/templates/assessmentCompleted",
+          "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/templates/assessmentInitialized",
+          "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/templates/assessmentTerminated",
+          "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/templates/answerChanged",
+          "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/templates/questionAsked",
+          "https://github.com/TryxAPI/xAPI-eLearning-Courseware-Profile/templates/questionCommitted"
+        ]
+      }
     ]
 }
