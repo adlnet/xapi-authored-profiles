@@ -698,7 +698,7 @@
           },
           {
             "location": "$.verb.id",
-            "any": ["http://adlnet.gov/expapi/verbs/progrssed"]
+            "any": ["http://adlnet.gov/expapi/verbs/progressed"]
           },
           {
             "location": "$.object.id",
