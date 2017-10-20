@@ -185,11 +185,13 @@
           },
           {
             "location": "$.result.success",
-            "any": [true]
+            "any": [true],
+            "presence": "included"
           },
           {
             "location": "$.result.completion",
-            "any": [true]
+            "any": [true],
+            "presence": "included"
           },
           {
             "location": "$.result.score",
@@ -230,7 +232,8 @@
           },
           {
             "location": "$.result.completion",
-            "any": [true]
+            "any": [true],
+            "presence": "included"
           },
           {
             "location": "$.verb.id",
@@ -341,7 +344,8 @@
           },
           {
             "location": "$.result.completion",
-            "any": [true]
+            "any": [true],
+            "presence": "included"
           },
           {
             "location": "$.context.extensions.pageId",
@@ -468,7 +472,8 @@
           },
           {
             "location": "$.result.completion",
-            "any": [true]
+            "any": [true],
+            "presence": "included"
           },
           {
             "location": "$.context.extensions.pageId",
@@ -624,11 +629,13 @@
           },
           {
             "location": "$.result.success",
-            "any": [true]
+            "any": [true],
+            "presence": "included"
           },
           {
             "location": "$.result.completion",
-            "any": [true]
+            "any": [true],
+            "presence": "included"
           },
           {
             "location": "$.context.extensions.pageId",
@@ -956,11 +963,13 @@
           },
           {
             "location": "$.result.success",
-            "any": [true]
+            "any": [true],
+            "presence": "included"
           },
           {
             "location": "$.result.completion",
-            "any": [true]
+            "any": [true],
+            "presence": "included"
           }
         ]
       },
@@ -1005,11 +1014,13 @@
           },
           {
             "location": "$.result.success",
-            "any": [false]
+            "any": [false],
+            "presence": "included"
           },
           {
             "location": "$.result.completion",
-            "any": [true]
+            "any": [true],
+            "presence": "included"
           }
         ]
       },
@@ -1259,7 +1270,8 @@
           },
           {
             "location": "$.result.success",
-            "any": [true, false]
+            "any": [true, false],
+            "presence": "included"
           },
           {
             "location": "$.result.response",
