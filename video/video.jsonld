@@ -61,17 +61,6 @@
       }
     },
     {
-      "id": "https://w3id.org/xapi/video/verbs/ended",
-      "inScheme": "https://w3id.org/xapi/video",
-      "type": "Verb",
-      "definition": {
-        "en": "Indicates the video ended."
-      },
-      "prefLabel": {
-        "en": "ended"
-      }
-    },
-    {
       "id": "https://w3id.org/xapi/video/activity-type/video",
       "inScheme": "https://w3id.org/xapi/video",
       "type": "ActivityType",
