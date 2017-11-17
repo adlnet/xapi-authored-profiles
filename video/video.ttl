@@ -130,11 +130,6 @@
 <https://w3id.org/xapi/video/v1.1> prov:generatedAtTime "2017-06-29T10:45:00Z"^^xsd:dateTime;
    prov:wasRevisionOf <https://w3id.org/xapi/video/v1> .
 
-<https://w3id.org/xapi/video/verbs/ended> a <https://w3id.org/xapi/ontology#Verb>;
-   skos:definition "Indicates the video ended."@en;
-   skos:inScheme <https://w3id.org/xapi/video>;
-   skos:prefLabel "ended"@en .
-
 
 <https://w3id.org/xapi/video/patterns#all-activities-pattern> skos:definition "All of the Video Profile templates."@en;
    skos:prefLabel "All Activities Pattern"@en;
@@ -302,7 +297,6 @@
      <https://w3id.org/xapi/video/extensions/user-agent>,
      <https://w3id.org/xapi/video/verbs/seeked>,
      <https://w3id.org/xapi/video/verbs/paused>,
-     <https://w3id.org/xapi/video/verbs/started>,
      <https://w3id.org/xapi/video/extensions/cc-subtitle-lang>,
      <https://w3id.org/xapi/video/extensions/volume>,
      <https://w3id.org/xapi/video/extensions/time>,
