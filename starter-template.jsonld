@@ -22,29 +22,29 @@
     },
     "concepts": [
       {
-        "@id": "",
-        "inScheme": "https://w3id.org/xapi/newprofilename",
+        "@id": "https://w3id.org/xapi/profilename/verbs/verbname",
+        "inScheme": "https://w3id.org/xapi/profilename,
         "@type": "Verb",
         "definition": {
-          "en": "Title of Verb"
+          "en": "Provide a description here."
         },
         "prefLabel": {
-          "en": "Provide a description here."
+          "en": "Title of Verb"
         }
       },
 	{
-		"@id": "",
-        "inScheme": "https://w3id.org/xapi/newprofilename",
+		"@id": "https://w3id.org/xapi/profilename/activity-types/activityname",
+        	"inScheme": "https://w3id.org/xapi/newprofilename",
 		"@type": "ActivityType",
 		"definition": {
-			"en": "Title of Activity Type"
+			"en": "Provide a description here."
 		},
 		"prefLabel": {
-			"en": "Provide a description here."
+			"en": "Title of Activity Type"
 		}
 	},
   {
-      "id": "",
+      "id": "https://w3id.org/xapi/profilename/extensions/extensionname",
       "inScheme": "https://w3id.org/xapi/newprofilename",
       "type": "ContextExtension",
       "prefLabel": {
@@ -56,7 +56,7 @@
       "inlineSchema": ""
   },
   {
-      "id": "",
+      "id": "https://w3id.org/xapi/profilename/extensions/extensionname",
       "inScheme": "https://w3id.org/xapi/newprofilename",
       "type": "ResultExtension",
       "prefLabel": {
