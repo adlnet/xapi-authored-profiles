@@ -22,9 +22,9 @@
     },
     "concepts": [
       {
-        "@id": "https://w3id.org/xapi/profilename/verbs/verbname",
-        "inScheme": "https://w3id.org/xapi/profilename,
-        "@type": "Verb",
+        "id": "https://w3id.org/xapi/profilename/verbs/verbname",
+        "inScheme": "https://w3id.org/xapi/profilename",
+        "type": "Verb",
         "definition": {
           "en": "Provide a description here."
         },
@@ -33,9 +33,9 @@
         }
       },
 	{
-		"@id": "https://w3id.org/xapi/profilename/activity-types/activityname",
+		"id": "https://w3id.org/xapi/profilename/activity-types/activityname",
         	"inScheme": "https://w3id.org/xapi/newprofilename",
-		"@type": "ActivityType",
+		"type": "ActivityType",
 		"definition": {
 			"en": "Provide a description here."
 		},
