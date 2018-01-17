@@ -29,9 +29,9 @@
       "definition": {
         "en": "Provide notes or symbols for further explanation or thoughts while reading."
       },
-      "narrower": ["https://w3id.org/xapi/adb/verbs/highlighted"],
-      "relatedMatch": ["https://w3id.org/xapi/acrossx/verbs/annotated"],
-      	"prefLabel": {
+      "narrower": [ "https://w3id.org/xapi/adb/verbs/highlighted" ],
+      "relatedMatch": [ "http://risc-inc.com/annotator/verbs/annotated", "https://w3id.org/xapi/acrossx/verbs/annotated" ],
+      "prefLabel": {
         "en": "annotated"
       }
     },
@@ -51,10 +51,12 @@
       "id": "https://w3id.org/xapi/adb/verbs/attended",
       "inScheme": "https://w3id.org/xapi/adb",
       "type": "Verb",
+      "exactMatch": [ "http://adlnet.gov/expapi/verbs/attended" ],
+      "relatedMatch": [ "http://adlnet.gov/expapi/verbs/attended" ],
       "definition": {
         "en": "Indicates the actor was present at a virtual or physical event or activity. "
       },
-        "prefLabel": {
+      "prefLabel": {
         "en": "attended"
       }
     },
@@ -191,7 +193,7 @@
       "id": "https://w3id.org/xapi/adb/verbs/watched",
       "inScheme": "https://w3id.org/xapi/adb",
       "type": "Verb",
-      "exactMatch": ["http://activitystrea.ms/schema/1.0/watch"],
+      "exactMatch": [ "http://activitystrea.ms/schema/1.0/watch", "https://w3id.org/xapi/acrossx/verbs/watched" ],
       "definition": {
         "en": "Indicates that the actor has watched the object. This verb is typically applicable only when the object represents dynamic, visible content such as a movie, a television show or a public performance."
       },
