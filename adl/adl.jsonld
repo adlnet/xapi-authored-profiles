@@ -61,9 +61,19 @@
       "prefLabel": {
         "en": "attended"
       },
-      "relatedMatch": [ "https://w3id.org/xapi/adb/verbs/attended", "http://activitystrea.ms/schema/1.0/attend" ],
       "definition": {
         "en": "Indicates the actor was present at a virtual or physical event or activity."
+      }
+    },
+    {
+      "type": "Verb",
+      "id": "http://adlnet.gov/expapi/verbs/cmi.interacted",
+      "inScheme": "https://w3id.org/xapi/adl",
+      "prefLabel": {
+        "en": "interacted"
+      },
+      "definition": {
+        "en": "Indicates the actor engaged with a SCORM cmi interaction type such as true-false, choice, fill-in, long-fill-in, matching, likert, numeric or other."
       }
     },
     {
@@ -88,18 +98,17 @@
         "en": "Indicates the actor intentionally departed from the activity or object."
       }
     },
-      {
-        "type": "Verb",
-        "id": "http://adlnet.gov/expapi/verbs/experienced",
-        "inScheme": "https://w3id.org/xapi/adl",
-        "exactMatch": [ "http://adlnet.gov/expapi/verbs/experienced" ],
-        "prefLabel": {
-          "en": "experienced"
-        },
-        "definition": {
-          "en": "Indicates the actor only encountered the object, and is applicable in situations where a specific achievement or completion is not required."
-        }
+    {
+      "type": "Verb",
+      "id": "http://adlnet.gov/expapi/verbs/experienced",
+      "inScheme": "https://w3id.org/xapi/adl",
+      "prefLabel": {
+        "en": "experienced"
       },
+      "definition": {
+        "en": "Indicates the actor only encountered the object, and is applicable in situations where a specific achievement or completion is not required."
+      }
+    },
     {
       "type": "Verb",
       "id": "http://adlnet.gov/expapi/verbs/imported",
@@ -111,18 +120,17 @@
         "en": "Indicates the actor introduced an object into a physical or virtual location."
       }
     },
-      {
-        "type": "Verb",
-        "id": "http://adlnet.gov/expapi/verbs/interacted",
-        "inScheme": "https://w3id.org/xapi/adl",
-        "relatedMatch": [ "http://activitystrea.ms/schema/1.0/interact" ],
-        "prefLabel": {
-          "en": "interacted"
-        },
-        "definition": {
-          "en": "Indicates the actor engaged with a physical or virtual object."
-        }
+    {
+      "type": "Verb",
+      "id": "http://adlnet.gov/expapi/verbs/interacted",
+      "inScheme": "https://w3id.org/xapi/adl",
+      "prefLabel": {
+        "en": "interacted"
       },
+      "definition": {
+        "en": "Indicates the actor engaged with a physical or virtual object."
+      }
+    },
     {
       "type": "Verb",
       "id": "http://adlnet.gov/expapi/verbs/launched",
@@ -178,18 +186,17 @@
         "en": "Indicates the actor is officially enrolled or inducted in an activity."
       }
     },
-      {
-        "type": "Verb",
-        "id": "http://adlnet.gov/expapi/verbs/shared",
-        "inScheme": "https://w3id.org/xapi/adl",
-        "exactMatch": [ "http://activitystrea.ms/schema/1.0/share" ],
-        "prefLabel": {
-          "en": "shared"
-        },
-        "definition": {
-          "en": "Indicates the actor's intent to openly provide access to an object of common interest to other actors or groups."
-        }
+    {
+      "type": "Verb",
+      "id": "http://adlnet.gov/expapi/verbs/shared",
+      "inScheme": "https://w3id.org/xapi/adl",
+      "prefLabel": {
+        "en": "shared"
       },
+      "definition": {
+        "en": "Indicates the actor's intent to openly provide access to an object of common interest to other actors or groups."
+      }
+    },
     {
       "type": "Verb",
       "id": "http://adlnet.gov/expapi/verbs/voided",
@@ -278,18 +285,17 @@
         "en": "A performance is an attempted task or series of tasks within a particular context. Tasks would likely take on the form of interactions, or the performance could be self-contained content. It emphasizes students or learners being able to do, or perform, specific skills as a result of the instruction."
       }
     },
-      {
-        "type": "ActivityType",
-        "id": "http://adlnet.gov/expapi/activities/question",
-        "exactMatch": [ "http://activitystrea.ms/schema/1.0/question" ],
-        "inScheme": "https://w3id.org/xapi/adl",
-        "prefLabel": {
-          "en": "question"
-        },
-        "definition": {
-          "en": "A question is typically part of an assessment and requires a response from the learner, a response that is then evaluated for correctness."
-        }
+    {
+      "type": "ActivityType",
+      "id": "http://adlnet.gov/expapi/activities/question",
+      "inScheme": "https://w3id.org/xapi/adl",
+      "prefLabel": {
+        "en": "question"
       },
+      "definition": {
+        "en": "A question is typically part of an assessment and requires a response from the learner, a response that is then evaluated for correctness."
+      }
+    },
     {
       "type": "ActivityType",
       "id": "http://adlnet.gov/expapi/activities/simulation",
