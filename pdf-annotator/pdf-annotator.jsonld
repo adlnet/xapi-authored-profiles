@@ -81,17 +81,18 @@
         "en": "note annotation"
       }
   },
-  {
+    {
       "id": "http://risc-inc.com/annotator/activities/underline",
       "inScheme": "http://www.risc-inc.com/annotator/",
       "type": "ActivityType",
+      "exactMatch": [ "http://risc-inc.com/annotator/activities/underline" ],
       "definition": {
         "en": "An annotation of the underline type. Underlines are used to mark strings of text in a document with a line underneath the text. This activity type should only be used for underlined text and not for images or other elements."
       },
       "prefLabel": {
         "en": "underline annotation"
       }
-  },
+    },
   {
       "id": "http://www.risc-inc.com/annotator/activities/freetext",
       "inScheme": "http://www.risc-inc.com/annotator/",
@@ -103,9 +104,10 @@
         "en": "freetext annotation"
       }
   },
-  {
+    {
       "id": "http://risc-inc.com/annotator/verbs/annotated",
       "inScheme": "http://www.risc-inc.com/annotator/",
+      "relatedMatch": [ "https://w3id.org/xapi/adb/verbs/annotated", "https://w3id.org/xapi/acrossx/verbs/annotated" ],
       "type": "Verb",
       "definition": {
         "en": "Indicates a new annotation has been added to a document. This verb may be used with PDFs, images, assignment submissions or any other type of document which may be annotated."
@@ -113,7 +115,7 @@
       "prefLabel": {
         "en": "annotated"
       }
-  },
+    },
   {
       "id": "http://risc-inc.com/annotator/verbs/modified",
       "inScheme": "http://www.risc-inc.com/annotator/",

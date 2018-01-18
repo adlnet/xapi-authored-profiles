@@ -236,6 +236,7 @@
     {
       "id": "https://w3id.org/xapi/seriousgames/verbs/accessed",
       "type": "Verb",
+      "relatedMatch": [ "http://activitystrea.ms/schema/1.0/access" ],
       "inScheme": "https://w3id.org/xapi/seriousgames",
       "exactMatch": {
         "id": "http://activitystrea.ms/schema/1.0/access"
@@ -289,6 +290,7 @@
     {
       "id": "https://w3id.org/xapi/seriousgames/verbs/used",
       "type": "Verb",
+      "exactMatch": [ "http://activitystrea.ms/schema/1.0/use" ],
       "inScheme": "https://w3id.org/xapi/seriousgames",
       "definition": {
         "en": "Indicates the actor used a virtual object. Used when player uses items they find during the gameplay, to obtain different benefits."
