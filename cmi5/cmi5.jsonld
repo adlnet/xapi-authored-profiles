@@ -76,17 +76,18 @@
 			"en": "block"
 		}
 	},
-	{
-		"@id": "https://w3id.org/xapi/cmi5/activities/course",
+      {
+        "@id": "https://w3id.org/xapi/cmi5/activities/course",
         "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
-		"@type": "ActivityType",
-		"definition": {
-			"en": "A course represents an amount of content that is published and registered for with the purpose of gaining completion.  It is represented with a Course Structure Format in cmi5 as the highest level of content (above Block and AU)."
-		},
-		"prefLabel": {
-			"en": "course"
-		}
-	},
+        "@type": "ActivityType",
+        "exactMatch": [ "http://adlnet.gov/expapi/activities/course" ],
+        "definition": {
+          "en": "A course represents an amount of content that is published and registered for with the purpose of gaining completion.  It is represented with a Course Structure Format in cmi5 as the highest level of content (above Block and AU)."
+        },
+        "prefLabel": {
+          "en": "course"
+        }
+      },
   {
       "id": "https://w3id.org/xapi/cmi5/result/extensions/progress",
       "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
@@ -111,18 +112,19 @@
       },
       "inlineSchema": "{ \"type\": \"string\" }"
   },
-  {
-      "id": "https://w3id.org/xapi/cmi5/context/extensions/sessionid",
-      "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
-      "type": "ContextExtension",
-      "prefLabel": {
+      {
+        "id": "https://w3id.org/xapi/cmi5/context/extensions/sessionid",
+        "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
+        "type": "ContextExtension",
+        "exactMatch": [ "id", "https://w3id.org/xapi/video/extensions/session-id" ],
+        "prefLabel": {
           "en": "session ID"
-      },
-      "definition": {
+        },
+        "definition": {
           "en": "A unique identifier for a single AU launch session based on actor and course registration."
+        },
+        "inlineSchema": "{ \"type\": \"string\" }"
       },
-      "inlineSchema": "{ \"type\": \"string\" }"
-  },
   {
       "id": "https://w3id.org/xapi/cmi5/context/extensions/masteryscore",
       "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
