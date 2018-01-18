@@ -316,17 +316,16 @@
        "type": "Verb"
     },
     {
-      "id": "http://id.tincanapi.com/verb/paused",
-      "narrowMatch": [ "https://w3id.org/xapi/video/verbs/paused"  ],
-      "prefLabel": {
-        "en": "paused"
-      },
-      "definition": {
-        "en": "To indicate an actor has ceased or suspended an activity temporarily."
-      },
+       "id": "http://id.tincanapi.com/verb/paused",
+       "prefLabel": {
+          "en": "paused"
+        },
+       "definition": {
+         "en": "To indicate an actor has ceased or suspended an activity temporarily."
+         },
 
-      "inScheme": "http://registry.tincanapi.com",
-      "type": "Verb"
+       "inScheme": "http://registry.tincanapi.com",
+       "type": "Verb"
     },
     {
        "id": "http://id.tincanapi.com/verb/performed-offline",
@@ -886,6 +885,17 @@
           "en": "project"
         }
     },
+    {
+        "id": "http://id.tincanapi.com/activitytype/project",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ActivityType",
+        "definition": {
+          "en": "A site, perhaps within a project management tool or social platform, used to manage a particular project."
+        },
+        "prefLabel": {
+          "en": "project"
+        }
+    },
 
     {
         "id": "http://id.tincanapi.com/activitytype/project-site",
@@ -895,7 +905,7 @@
           "en": "A site, perhaps within a project management tool or social platform, used to manage a particular project."
         },
         "prefLabel": {
-          "en": "project site"
+          "en": "project"
         }
     },
     {
@@ -1203,7 +1213,7 @@
           "en": "A recorded audio message left for someone, generally via a phone or similar communication system."
         },
         "prefLabel": {
-          "en": "voicemail"
+          "en": "vocabulary word"
         }
     },
     {
@@ -1241,16 +1251,15 @@
         }
     },
     {
-      "id": "http://risc-inc.com/annotator/activities/underline",
-      "inScheme": "http://registry.tincanapi.com",
-      "type": "ActivityType",
-      "exactMatch": [ "http://risc-inc.com/annotator/activities/underline" ],
-      "definition": {
-        "en": "An annotation of the 'underline' type. Underlines are used to mark strings of text in a document with a line underneath the text. This activity type should only be used for underlined text and not for images or other elements."
-      },
-      "prefLabel": {
-        "en": "underline annotation"
-      }
+        "id": "http://risc-inc.com/annotator/activities/underline",
+        "inScheme": "http://registry.tincanapi.com",
+        "type": "ActivityType",
+        "definition": {
+          "en": "An annotation of the 'underline' type. Underlines are used to mark strings of text in a document with a line underneath the text. This activity type should only be used for underlined text and not for images or other elements."
+        },
+        "prefLabel": {
+          "en": "underline annotation"
+        }
     },
 
     {
