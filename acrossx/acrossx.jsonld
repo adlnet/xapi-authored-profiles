@@ -84,17 +84,18 @@
         "en": "learning-plan"
       }
     },
-    {
-      "id": "https://w3id.org/xapi/acrossx/activities/note",
-      "type": "ActivityType",
-      "definition": {
-        "en": "Refers to an object that was annotated as part of the activity."
-      },
-      "inScheme": "https://w3id.org/xapi/acrossx",
-      "prefLabel": {
-        "en": "note"
-      }
+  {
+    "id": "https://w3id.org/xapi/acrossx/activities/note",
+    "type": "ActivityType",
+    "exactMatch": [ "http://activitystrea.ms/schema/1.0/note" ],
+    "definition": {
+      "en": "Refers to an object that was annotated as part of the activity."
     },
+    "inScheme": "https://w3id.org/xapi/acrossx",
+    "prefLabel": {
+      "en": "note"
+    }
+  },
     {
       "id": "https://w3id.org/xapi/acrossx/activities/online-discussion",
       "type": "ActivityType",
@@ -106,17 +107,18 @@
         "en": "online-discussion"
       }
     },
-    {
-      "id": "https://w3id.org/xapi/acrossx/activities/page",
-      "type": "ActivityType",
-      "definition": {
-        "en": "The single representation of a specific page number and the content on that page in any digitally or physically written material."
-      },
-      "inScheme": "https://w3id.org/xapi/acrossx",
-      "prefLabel": {
-        "en": "page"
-      }
+  {
+    "id": "https://w3id.org/xapi/acrossx/activities/page",
+    "type": "ActivityType",
+    "broadMatch": [ "http://activitystrea.ms/schema/1.0/page" ],
+    "definition": {
+      "en": "The single representation of a specific page number and the content on that page in any digitally or physically written material."
     },
+    "inScheme": "https://w3id.org/xapi/acrossx",
+    "prefLabel": {
+      "en": "page"
+    }
+  },
     {
       "id": "https://w3id.org/xapi/acrossx/activities/printed-assessment",
       "type": "ActivityType",
@@ -153,10 +155,7 @@
     {
       "id": "https://w3id.org/xapi/acrossx/activities/video",
       "type": "ActivityType",
-      "exactMatch": [
-        { "id": "http://activitystrea.ms/schema/1.0/video" },
-        { "id": "https://w3id.org/xapi/video/activity-type/video"}
-      ],
+      "exactMatch": [ "http://activitystrea.ms/schema/1.0/video" ,  "https://w3id.org/xapi/video/activity-type/video" ],
       "definition": {
         "en": "A recording of audible and visual content intended to be shown on a video display."
       },
@@ -176,17 +175,18 @@
         "en": "webpage"
       }
     },
-    {
-      "id": "https://w3id.org/xapi/acrossx/verbs/annotated",
-      "type": "Verb",
-      "definition": {
-        "en": "Indicates the actor added a supplement to the content, highlight or mark."
-      },
-      "inScheme": "https://w3id.org/xapi/acrossx",
-      "prefLabel": {
-        "en": "annotated"
-      }
+  {
+    "id": "https://w3id.org/xapi/acrossx/verbs/annotated",
+    "type": "Verb",
+    "relatedMatch": [ "http://risc-inc.com/annotator/verbs/annotated", "https://w3id.org/xapi/adb/verbs/annotated" ],
+    "definition": {
+      "en": "Indicates the actor added a supplement to the content, highlight or mark."
     },
+    "inScheme": "https://w3id.org/xapi/acrossx",
+    "prefLabel": {
+      "en": "annotated"
+    }
+  },
     {
       "id": "https://w3id.org/xapi/acrossx/verbs/designed",
       "type": "Verb",
@@ -198,17 +198,18 @@
         "en": "designed"
       }
     },
-    {
-      "id": "https://w3id.org/xapi/acrossx/verbs/disliked",
-      "type": "Verb",
-      "definition": {
-        "en": "Indicates that the actor does not approve of the object or activity."
-      },
-      "inScheme": "https://w3id.org/xapi/acrossx",
-      "prefLabel": {
-        "en": "disliked"
-      }
+  {
+    "id": "https://w3id.org/xapi/acrossx/verbs/disliked",
+    "relatedMatch": [ "http://activitystrea.ms/schema/1.0/dislike" ],
+    "type": "Verb",
+    "definition": {
+      "en": "Indicates that the actor does not approve of the object or activity."
     },
+    "inScheme": "https://w3id.org/xapi/acrossx",
+    "prefLabel": {
+      "en": "disliked"
+    }
+  },
     {
       "id": "https://w3id.org/xapi/acrossx/verbs/edited",
       "type": "Verb",
@@ -231,20 +232,23 @@
         "en": "evaluated"
       }
     },
-    {
-      "id": "https://w3id.org/xapi/acrossx/verbs/liked",
-      "type": "Verb",
-      "exactMatch": [ {
+  {
+    "id": "https://w3id.org/xapi/acrossx/verbs/liked",
+    "type": "Verb",
+    "related": [ "http://activitystrea.ms/schema/1.0/like" ],
+    "exactMatch": [
+      {
         "id": "http://activitystrea.ms/schema/1.0/like"
-      } ],
-      "definition": {
-        "en": "Indicates that the actor approves of, recommends, or endorses the object or activity."
-      },
-      "inScheme": "https://w3id.org/xapi/acrossx",
-      "prefLabel": {
-        "en": "liked"
       }
+    ],
+    "definition": {
+      "en": "Indicates that the actor approves of, recommends, or endorses the object or activity."
     },
+    "inScheme": "https://w3id.org/xapi/acrossx",
+    "prefLabel": {
+      "en": "liked"
+    }
+  },
     {
       "id": "https://w3id.org/xapi/acrossx/verbs/posted",
       "type": "Verb",
@@ -281,9 +285,7 @@
     {
       "id": "https://w3id.org/xapi/acrossx/verbs/searched",
       "type": "Verb",
-      "exactMatch": [ {
-        "id": "http://activitystrea.ms/schema/1.0/search"
-      } ],
+      "exactMatch": [ "http://activitystrea.ms/schema/1.0/search" ],
       "definition": {
         "en": "Indicates the actor looked for information in an object."
       },
@@ -306,9 +308,7 @@
     {
       "id": "https://w3id.org/xapi/acrossx/verbs/watched",
       "type": "Verb",
-      "exactMatch": [ {
-        "id": "http://activitystrea.ms/schema/1.0/watch"
-      } ],
+      "exactMatch": [ "http://activitystrea.ms/schema/1.0/watch", "https://w3id.org/xapi/adb/verbs/watched" ],
       "definition": {
         "en": "Indicates the actor observed a visual obect."
       },
