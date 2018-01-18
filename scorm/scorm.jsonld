@@ -23,18 +23,17 @@
     },
     "concepts": [
 
-      {
-        "type": "Verb",
-        "id": "http://adlnet.gov/expapi/verbs/completed",
-        "inScheme": "https://w3id.org/xapi/scorm",
-        "exactMatch": [ "http://activitystrea.ms/schema/1.0/complete" ],
-        "prefLabel": {
-          "en": "completed"
-        },
-        "definition": {
-          "en": "Indicates the actor finished or concluded the activity normally."
-        }
+    {
+      "type": "Verb",
+      "id": "http://adlnet.gov/expapi/verbs/completed",
+      "inScheme": "https://w3id.org/xapi/scorm",
+      "prefLabel": {
+        "en": "completed"
       },
+      "definition": {
+        "en": "Indicates the actor finished or concluded the activity normally."
+      }
+    },
     {
       "type": "Verb",
       "id": "http://adlnet.gov/expapi/verbs/failed",
@@ -102,18 +101,17 @@
         "en": "Indicates a numerical value related to an actor's performance on an activity."
       }
     },
-      {
-        "type": "Verb",
-        "id": "http://adlnet.gov/expapi/verbs/suspended",
-        "exactMatch": [ "http://activitystrea.ms/schema/1.0/terminate" ],
-        "inScheme": "https://w3id.org/xapi/scorm",
-        "prefLabel": {
-          "en": "suspended"
-        },
-        "definition": {
-          "en": "Indicates the status of a temporarily halted activity when an actor's intent is returning to the or object activity at a later time."
-        }
+    {
+      "type": "Verb",
+      "id": "http://adlnet.gov/expapi/verbs/suspended",
+      "inScheme": "https://w3id.org/xapi/scorm",
+      "prefLabel": {
+        "en": "suspended"
       },
+      "definition": {
+        "en": "Indicates the status of a temporarily halted activity when an actor's intent is returning to the or object activity at a later time."
+      }
+    },
     {
       "type": "Verb",
       "id": "http://adlnet.gov/expapi/verbs/terminated",
@@ -147,18 +145,17 @@
         "en": "An attempt is a discrete set of learner experiences in an activity. This activity gives systems the ability to uniquely identify experiences when they may have happened in different interactions with the same activity."
       }
     },
-      {
-        "type": "ActivityType",
-        "id": "http://adlnet.gov/expapi/activities/course",
-        "inScheme": "https://w3id.org/xapi/scorm",
-        "exactMatch": [ "https://w3id.org/xapi/cmi5/activities/course" ],
-        "prefLabel": {
-          "en": "course"
-        },
-        "definition": {
-          "en": "A course represents an entire “content package” worth of material. The largest level of granularity. Unless flat, a course consists of multiple modules."
-        }
+    {
+      "type": "ActivityType",
+      "id": "http://adlnet.gov/expapi/activities/course",
+      "inScheme": "https://w3id.org/xapi/scorm",
+      "prefLabel": {
+        "en": "course"
       },
+      "definition": {
+        "en": "A course represents an entire “content package” worth of material. The largest level of granularity. Unless flat, a course consists of multiple modules."
+      }
+    },
     {
       "type": "ActivityType",
       "id": "http://adlnet.gov/expapi/activities/interaction",

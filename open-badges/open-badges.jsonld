@@ -9,7 +9,9 @@
   "definition": {
     "en": "A profile that combines xAPI with Mozilla Open Badges."
   },
-  "seeAlso": "https://registry.tincanapi.com/#profile/44", 
+  "seeAlso": "https://registry.tincanapi.com/#profile/44",
+  "seeAlso": "https://github.com/ht2/BadgesCoP",
+  "seeAlso": "https://www.imsglobal.org/sites/default/files/Badges/OBv2p0/extensions/index.html",
   "author": {
     "type": "Organization",
     "name": "xAPI Open Badges Community of Practice"
