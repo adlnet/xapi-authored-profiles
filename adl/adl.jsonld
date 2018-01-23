@@ -24,7 +24,7 @@
     {
       "type": "Verb",
       "id": "http://adlnet.gov/expapi/verbs/answered",
-      "inScheme": "https://w3id.org/xapi/adl",
+      "inScheme": "https://w3id.org/xapi/adl/v1.1",
       "prefLabel": {
         "en": "answered"
       },
@@ -35,7 +35,7 @@
     {
       "type": "Verb",
       "id": "http://adlnet.gov/expapi/verbs/asked",
-      "inScheme": "https://w3id.org/xapi/adl",
+      "inScheme": "https://w3id.org/xapi/adl/v1.1",
       "prefLabel": {
         "en": "asked"
       },
@@ -46,7 +46,7 @@
     {
       "type": "Verb",
       "id": "http://adlnet.gov/expapi/verbs/attempted",
-      "inScheme": "https://w3id.org/xapi/adl",
+      "inScheme": "https://w3id.org/xapi/adl/v1.1",
       "prefLabel": {
         "en": "attempted"
       },
@@ -57,7 +57,7 @@
     {
       "type": "Verb",
       "id": "http://adlnet.gov/expapi/verbs/attended",
-      "inScheme": "https://w3id.org/xapi/adl",
+      "inScheme": "https://w3id.org/xapi/adl/v1.1",
       "prefLabel": {
         "en": "attended"
       },
@@ -69,7 +69,7 @@
     {
       "type": "Verb",
       "id": "http://adlnet.gov/expapi/verbs/commented",
-      "inScheme": "https://w3id.org/xapi/adl",
+      "inScheme": "https://w3id.org/xapi/adl/v1.1",
       "prefLabel": {
         "en": "commented"
       },
@@ -80,7 +80,7 @@
     {
       "type": "Verb",
       "id": "http://adlnet.gov/expapi/verbs/exited",
-      "inScheme": "https://w3id.org/xapi/adl",
+      "inScheme": "https://w3id.org/xapi/adl/v1.1",
       "prefLabel": {
         "en": "exited"
       },
@@ -91,7 +91,7 @@
       {
         "type": "Verb",
         "id": "http://adlnet.gov/expapi/verbs/experienced",
-        "inScheme": "https://w3id.org/xapi/adl",
+        "inScheme": "https://w3id.org/xapi/adl/v1.1",
         "exactMatch": [ "http://adlnet.gov/expapi/verbs/experienced" ],
         "prefLabel": {
           "en": "experienced"
@@ -103,7 +103,7 @@
     {
       "type": "Verb",
       "id": "http://adlnet.gov/expapi/verbs/imported",
-      "inScheme": "https://w3id.org/xapi/adl",
+      "inScheme": "https://w3id.org/xapi/adl/v1.1",
       "prefLabel": {
         "en": "imported"
       },
@@ -114,7 +114,7 @@
       {
         "type": "Verb",
         "id": "http://adlnet.gov/expapi/verbs/interacted",
-        "inScheme": "https://w3id.org/xapi/adl",
+        "inScheme": "https://w3id.org/xapi/adl/v1.1",
         "relatedMatch": [ "http://activitystrea.ms/schema/1.0/interact" ],
         "prefLabel": {
           "en": "interacted"
@@ -126,7 +126,7 @@
     {
       "type": "Verb",
       "id": "http://adlnet.gov/expapi/verbs/launched",
-      "inScheme": "https://w3id.org/xapi/adl",
+      "inScheme": "https://w3id.org/xapi/adl/v1.1",
       "prefLabel": {
         "en": "launched"
       },
@@ -137,7 +137,7 @@
     {
       "type": "Verb",
       "id": "http://adlnet.gov/expapi/verbs/mastered",
-      "inScheme": "https://w3id.org/xapi/adl",
+      "inScheme": "https://w3id.org/xapi/adl/v1.1",
       "prefLabel": {
         "en": "mastered"
       },
@@ -148,7 +148,7 @@
     {
       "type": "Verb",
       "id": "http://adlnet.gov/expapi/verbs/preferred",
-      "inScheme": "https://w3id.org/xapi/adl",
+      "inScheme": "https://w3id.org/xapi/adl/v1.1",
       "prefLabel": {
         "en": "preferred"
       },
@@ -159,7 +159,7 @@
     {
       "type": "Verb",
       "id": "http://adlnet.gov/expapi/verbs/progressed",
-      "inScheme": "https://w3id.org/xapi/adl",
+      "inScheme": "https://w3id.org/xapi/adl/v1.1",
       "prefLabel": {
         "en": "progressed"
       },
@@ -170,7 +170,7 @@
     {
       "type": "Verb",
       "id": "http://adlnet.gov/expapi/verbs/registered",
-      "inScheme": "https://w3id.org/xapi/adl",
+      "inScheme": "https://w3id.org/xapi/adl/v1.1",
       "prefLabel": {
         "en": "registered"
       },
@@ -181,7 +181,7 @@
       {
         "type": "Verb",
         "id": "http://adlnet.gov/expapi/verbs/shared",
-        "inScheme": "https://w3id.org/xapi/adl",
+        "inScheme": "https://w3id.org/xapi/adl/v1.1",
         "exactMatch": [ "http://activitystrea.ms/schema/1.0/share" ],
         "prefLabel": {
           "en": "shared"
@@ -193,7 +193,7 @@
     {
       "type": "Verb",
       "id": "http://adlnet.gov/expapi/verbs/voided",
-      "inScheme": "https://w3id.org/xapi/adl",
+      "inScheme": "https://w3id.org/xapi/adl/v1.1",
       "prefLabel": {
         "en": "voided"
       },
@@ -204,7 +204,7 @@
     {
       "type": "Verb",
       "id": "https://w3id.org/xapi/adl/verbs/logged-in",
-      "inScheme": "https://w3id.org/xapi/adl",
+      "inScheme": "https://w3id.org/xapi/adl/v1.1",
       "definition": {
         "en": "Indicates the actor gained access to a system or service by identifying and authenticating with the credentials provided by the actor."
       },
@@ -215,7 +215,7 @@
     {
       "type": "Verb",
       "id": "https://w3id.org/xapi/adl/verbs/logged-out",
-      "inScheme": "https://w3id.org/xapi/adl",
+      "inScheme": "https://w3id.org/xapi/adl/v1.1",
       "definition": {
         "en": "Indicates the actor either lost or discontinued access to a system or service."
       },
@@ -226,7 +226,7 @@
     {
       "type": "ActivityType",
       "id": "http://adlnet.gov/expapi/activities/file",
-      "inScheme": "https://w3id.org/xapi/adl",
+      "inScheme": "https://w3id.org/xapi/adl/v1.1",
       "prefLabel": {
         "en": "file"
       },
@@ -237,7 +237,7 @@
     {
       "type": "ActivityType",
       "id": "http://adlnet.gov/expapi/activities/link",
-      "inScheme": "https://w3id.org/xapi/adl",
+      "inScheme": "https://w3id.org/xapi/adl/v1.1",
       "prefLabel": {
         "en": "link"
       },
@@ -248,7 +248,7 @@
     {
       "type": "ActivityType",
       "id": "http://adlnet.gov/expapi/activities/media",
-      "inScheme": "https://w3id.org/xapi/adl",
+      "inScheme": "https://w3id.org/xapi/adl/v1.1",
       "prefLabel": {
         "en": "media"
       },
@@ -259,7 +259,7 @@
     {
       "type": "ActivityType",
       "id": "http://adlnet.gov/expapi/activities/meeting",
-      "inScheme": "https://w3id.org/xapi/adl",
+      "inScheme": "https://w3id.org/xapi/adl/v1.1",
       "prefLabel": {
         "en": "meeting"
       },
@@ -270,7 +270,7 @@
     {
       "type": "ActivityType",
       "id": "http://adlnet.gov/expapi/activities/performance",
-      "inScheme": "https://w3id.org/xapi/adl",
+      "inScheme": "https://w3id.org/xapi/adl/v1.1",
       "prefLabel": {
         "en": "performance"
       },
@@ -282,7 +282,7 @@
         "type": "ActivityType",
         "id": "http://adlnet.gov/expapi/activities/question",
         "exactMatch": [ "http://activitystrea.ms/schema/1.0/question" ],
-        "inScheme": "https://w3id.org/xapi/adl",
+        "inScheme": "https://w3id.org/xapi/adl/v1.1",
         "prefLabel": {
           "en": "question"
         },
@@ -293,7 +293,7 @@
     {
       "type": "ActivityType",
       "id": "http://adlnet.gov/expapi/activities/simulation",
-      "inScheme": "https://w3id.org/xapi/adl",
+      "inScheme": "https://w3id.org/xapi/adl/v1.1",
       "prefLabel": {
         "en": "simulation"
       },
