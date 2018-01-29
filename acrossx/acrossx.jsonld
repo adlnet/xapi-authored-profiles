@@ -19,7 +19,7 @@
       }],
 "concepts": [
    {
-      "id": "https://w3id.org/xapi/acrossx/v1.1/activities/message",
+      "id": "https://w3id.org/xapi/acrossx/activities/message",
       "type": "ActivityType",
       "definition": {
         "en": "Information that is communicated by or to or between individual actors or groups of actors."
@@ -30,7 +30,7 @@
       }
     },
     {
-      "id": "https://w3id.org/xapi/acrossx/v1.1/activities/collaboration",
+      "id": "https://w3id.org/xapi/acrossx/activities/collaboration",
       "type": "ActivityType",
       "definition": {
         "en": "The activity involving multiple actors working together on an assignment, a project, a problem-solving challenge or a cause."
@@ -41,7 +41,7 @@
       }
     },
     {
-      "id": "https://w3id.org/xapi/acrossx/v1.1/activities/e-book",
+      "id": "https://w3id.org/xapi/acrossx/activities/e-book",
       "type": "ActivityType",
       "definition": {
         "en": "A book in electronic form as a document, file, or interactive application with optional formatting and control features."
@@ -52,7 +52,7 @@
       }
     },
     {
-      "id": "https://w3id.org/xapi/acrossx/v1.1/activities/face-to-face-discussion",
+      "id": "https://w3id.org/xapi/acrossx/activities/face-to-face-discussion",
       "type": "ActivityType",
       "definition": {
         "en": "An exchange or communication on a topic by two or more actors in-person taking place in a physical location."
@@ -63,7 +63,7 @@
       }
     },
     {
-      "id": "https://w3id.org/xapi/acrossx/v1.1/activities/instant-response-system",
+      "id": "https://w3id.org/xapi/acrossx/activities/instant-response-system",
       "type": "ActivityType",
       "definition": {
         "en": "An activity that allows instructors to create slides with embedded quizzes/polling questions to collect responses and get reporting instantly during class."
@@ -74,7 +74,7 @@
       }
     },
     {
-      "id": "https://w3id.org/xapi/acrossx/v1.1/activities/learning-plan",
+      "id": "https://w3id.org/xapi/acrossx/activities/learning-plan",
       "type": "ActivityType",
       "definition": {
         "en": "Used to plan and organize learning activities from different activity providers. It could be built by instructors, learning designers or learners."
@@ -85,7 +85,7 @@
       }
     },
   {
-    "id": "https://w3id.org/xapi/acrossx/v1.1/activities/note",
+    "id": "https://w3id.org/xapi/acrossx/activities/note",
     "type": "ActivityType",
     "exactMatch": [ "http://activitystrea.ms/schema/1.0/note" ],
     "definition": {
@@ -97,7 +97,7 @@
     }
   },
     {
-      "id": "https://w3id.org/xapi/acrossx/v1.1/activities/online-discussion",
+      "id": "https://w3id.org/xapi/acrossx/activities/online-discussion",
       "type": "ActivityType",
       "definition": {
         "en": "An exchange or communication on a topic by two or more actors in-person taking place online or virtually."
@@ -108,7 +108,7 @@
       }
     },
   {
-    "id": "https://w3id.org/xapi/acrossx/v1.1/activities/page",
+    "id": "https://w3id.org/xapi/acrossx/activities/page",
     "type": "ActivityType",
     "broadMatch": [ "http://activitystrea.ms/schema/1.0/page" ],
     "definition": {
@@ -120,7 +120,7 @@
     }
   },
     {
-      "id": "https://w3id.org/xapi/acrossx/v1.1/activities/printed-assessment",
+      "id": "https://w3id.org/xapi/acrossx/activities/printed-assessment",
       "type": "ActivityType",
       "definition": {
         "en": "A written examination or test provided in paper form, and intended to be completed using a pencil or pen."
@@ -131,7 +131,7 @@
       }
     },
     {
-      "id": "https://w3id.org/xapi/acrossx/v1.1/activities/printed-book",
+      "id": "https://w3id.org/xapi/acrossx/activities/printed-book",
       "type": "ActivityType",
       "definition": {
         "en": "A written work or composition that has been physically printed on paper pages bound together."
@@ -142,7 +142,7 @@
       }
     },
     {
-      "id": "https://w3id.org/xapi/acrossx/v1.1/activities/printed-worksheet",
+      "id": "https://w3id.org/xapi/acrossx/activities/printed-worksheet",
       "type": "ActivityType",
       "definition": {
         "en": "A page or group of pages containing problems, exercises, or instructions for learning activities."
@@ -153,7 +153,7 @@
       }
     },
     {
-      "id": "https://w3id.org/xapi/acrossx/v1.1/activities/video",
+      "id": "https://w3id.org/xapi/acrossx/activities/video",
       "type": "ActivityType",
       "exactMatch": [ "http://activitystrea.ms/schema/1.0/video" ,  "https://w3id.org/xapi/video/activity-type/video" ],
       "definition": {
@@ -165,7 +165,7 @@
       }
     },
     {
-      "id": "https://w3id.org/xapi/acrossx/v1.1/activities/webpage",
+      "id": "https://w3id.org/xapi/acrossx/activities/webpage",
       "type": "ActivityType",
       "definition": {
         "en": "A web document (usually HTML-based) accessible by anyone connected to the internet and by using a web browser."
@@ -176,7 +176,7 @@
       }
     },
   {
-    "id": "https://w3id.org/xapi/acrossx/v1.1/verbs/annotated",
+    "id": "https://w3id.org/xapi/acrossx/verbs/annotated",
     "type": "Verb",
     "relatedMatch": [ "http://risc-inc.com/annotator/verbs/annotated", "https://w3id.org/xapi/adb/verbs/annotated" ],
     "definition": {
@@ -188,7 +188,7 @@
     }
   },
     {
-      "id": "https://w3id.org/xapi/acrossx/v1.1/verbs/designed",
+      "id": "https://w3id.org/xapi/acrossx/verbs/designed",
       "type": "Verb",
       "definition": {
         "en": "Indicates the actor carefully planned or created the object for a specific purpose."
@@ -199,7 +199,7 @@
       }
     },
   {
-    "id": "https://w3id.org/xapi/acrossx/v1.1/verbs/disliked",
+    "id": "https://w3id.org/xapi/acrossx/verbs/disliked",
     "relatedMatch": [ "http://activitystrea.ms/schema/1.0/dislike" ],
     "type": "Verb",
     "definition": {
@@ -211,7 +211,7 @@
     }
   },
     {
-      "id": "https://w3id.org/xapi/acrossx/v1.1/verbs/edited",
+      "id": "https://w3id.org/xapi/acrossx/verbs/edited",
       "type": "Verb",
       "definition": {
         "en": "Indicates the actor added or modified the content in a document or object."
@@ -222,7 +222,7 @@
       }
     },
     {
-      "id": "https://w3id.org/xapi/acrossx/v1.1/verbs/evaluated",
+      "id": "https://w3id.org/xapi/acrossx/verbs/evaluated",
       "type": "Verb",
       "definition": {
         "en": "Indicates the actor formed an opinion or prepared to assess another actor or object."
@@ -233,7 +233,7 @@
       }
     },
   {
-    "id": "https://w3id.org/xapi/acrossx/v1.1/verbs/liked",
+    "id": "https://w3id.org/xapi/acrossx/verbs/liked",
     "type": "Verb",
     "related": [ "http://activitystrea.ms/schema/1.0/like" ],
     "exactMatch": [
@@ -250,7 +250,7 @@
     }
   },
     {
-      "id": "https://w3id.org/xapi/acrossx/v1.1/verbs/posted",
+      "id": "https://w3id.org/xapi/acrossx/verbs/posted",
       "type": "Verb",
       "definition": {
         "en": "Used to describe the action of posting a discussion topic or message on a forum."
@@ -261,7 +261,7 @@
       }
     },
     {
-      "id": "https://w3id.org/xapi/acrossx/v1.1/verbs/reported",
+      "id": "https://w3id.org/xapi/acrossx/verbs/reported",
       "type": "Verb",
       "definition": {
         "en": "Indicates the actor announced the result of an experience or activity."
@@ -272,7 +272,7 @@
       }
     },
     {
-      "id": "https://w3id.org/xapi/acrossx/v1.1/verbs/revealed",
+      "id": "https://w3id.org/xapi/acrossx/verbs/revealed",
       "type": "Verb",
       "definition": {
         "en": "Indicates the actor exposed an object or content that's previously hidden."
@@ -283,7 +283,7 @@
       }
     },
     {
-      "id": "https://w3id.org/xapi/acrossx/v1.1/verbs/searched",
+      "id": "https://w3id.org/xapi/acrossx/verbs/searched",
       "type": "Verb",
       "exactMatch": [ "http://activitystrea.ms/schema/1.0/search" ],
       "definition": {
@@ -295,7 +295,7 @@
       }
     },
     {
-      "id": "https://w3id.org/xapi/acrossx/v1.1/verbs/was-assigned",
+      "id": "https://w3id.org/xapi/acrossx/verbs/was-assigned",
       "type": "Verb",
       "definition": {
         "en": "Indicates the actor was given or required to access an object."
@@ -306,7 +306,7 @@
       }
     },
     {
-      "id": "https://w3id.org/xapi/acrossx/v1.1/verbs/watched",
+      "id": "https://w3id.org/xapi/acrossx/verbs/watched",
       "type": "Verb",
       "exactMatch": [ "http://activitystrea.ms/schema/1.0/watch", "https://w3id.org/xapi/adb/verbs/watched" ],
       "definition": {
