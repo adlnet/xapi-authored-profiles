@@ -32,17 +32,6 @@
           "en": "abandoned"
         }
       },
-      {
-        "@id": "https://w3id.org/xapi/adl/verbs/abandoned",
-        "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
-        "@type": "Verb",
-        "definition": {
-          "en": "Indicates that the AU session was abnormally terminated by a learner's action (or due to a system failure)."
-        },
-        "prefLabel": {
-          "en": "abandoned"
-        }
-      },
     {
       "@id": "https://w3id.org/xapi/adl/verbs/satisfied",
       "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
