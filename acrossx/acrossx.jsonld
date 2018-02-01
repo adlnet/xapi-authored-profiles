@@ -13,9 +13,9 @@
   },
   "versions": [
     {
-      "id": "https://w3id.org/xapi/acrossx/v1.1",
+      "id": "https://w3id.org/xapi/acrossx/v1.1/v1.1",
       "generatedAtTime": "2017-07-14T11:35:00Z",
-      "wasRevisionOf": ["https://w3id.org/xapi/acrossx/v1"]
+      "wasRevisionOf": ["https://w3id.org/xapi/acrossx/v1.1/v1"]
       }],
 "concepts": [
    {
@@ -24,7 +24,7 @@
       "definition": {
         "en": "Information that is communicated by or to or between individual actors or groups of actors."
       },
-      "inScheme": "https://w3id.org/xapi/acrossx",
+      "inScheme": "https://w3id.org/xapi/acrossx/v1.1",
       "prefLabel": {
         "en": "message"
       }
@@ -35,7 +35,7 @@
       "definition": {
         "en": "The activity involving multiple actors working together on an assignment, a project, a problem-solving challenge or a cause."
       },
-      "inScheme": "https://w3id.org/xapi/acrossx",
+      "inScheme": "https://w3id.org/xapi/acrossx/v1.1",
       "prefLabel": {
         "en": "collaboration"
       }
@@ -46,7 +46,7 @@
       "definition": {
         "en": "A book in electronic form as a document, file, or interactive application with optional formatting and control features."
       },
-      "inScheme": "https://w3id.org/xapi/acrossx",
+      "inScheme": "https://w3id.org/xapi/acrossx/v1.1",
       "prefLabel": {
         "en": "e-book"
       }
@@ -57,7 +57,7 @@
       "definition": {
         "en": "An exchange or communication on a topic by two or more actors in-person taking place in a physical location."
       },
-      "inScheme": "https://w3id.org/xapi/acrossx",
+      "inScheme": "https://w3id.org/xapi/acrossx/v1.1",
       "prefLabel": {
         "en": "face-to-face-discussion"
       }
@@ -68,7 +68,7 @@
       "definition": {
         "en": "An activity that allows instructors to create slides with embedded quizzes/polling questions to collect responses and get reporting instantly during class."
       },
-      "inScheme": "https://w3id.org/xapi/acrossx",
+      "inScheme": "https://w3id.org/xapi/acrossx/v1.1",
       "prefLabel": {
         "en": "instant-response-system"
       }
@@ -79,7 +79,7 @@
       "definition": {
         "en": "Used to plan and organize learning activities from different activity providers. It could be built by instructors, learning designers or learners."
       },
-      "inScheme": "https://w3id.org/xapi/acrossx",
+      "inScheme": "https://w3id.org/xapi/acrossx/v1.1",
       "prefLabel": {
         "en": "learning-plan"
       }
@@ -91,7 +91,7 @@
     "definition": {
       "en": "Refers to an object that was annotated as part of the activity."
     },
-    "inScheme": "https://w3id.org/xapi/acrossx",
+    "inScheme": "https://w3id.org/xapi/acrossx/v1.1",
     "prefLabel": {
       "en": "note"
     }
@@ -102,7 +102,7 @@
       "definition": {
         "en": "An exchange or communication on a topic by two or more actors in-person taking place online or virtually."
       },
-      "inScheme": "https://w3id.org/xapi/acrossx",
+      "inScheme": "https://w3id.org/xapi/acrossx/v1.1",
       "prefLabel": {
         "en": "online-discussion"
       }
@@ -114,7 +114,7 @@
     "definition": {
       "en": "The single representation of a specific page number and the content on that page in any digitally or physically written material."
     },
-    "inScheme": "https://w3id.org/xapi/acrossx",
+    "inScheme": "https://w3id.org/xapi/acrossx/v1.1",
     "prefLabel": {
       "en": "page"
     }
@@ -125,7 +125,7 @@
       "definition": {
         "en": "A written examination or test provided in paper form, and intended to be completed using a pencil or pen."
       },
-      "inScheme": "https://w3id.org/xapi/acrossx",
+      "inScheme": "https://w3id.org/xapi/acrossx/v1.1",
       "prefLabel": {
         "en": "printed-assessment"
       }
@@ -136,7 +136,7 @@
       "definition": {
         "en": "A written work or composition that has been physically printed on paper pages bound together."
       },
-      "inScheme": "https://w3id.org/xapi/acrossx",
+      "inScheme": "https://w3id.org/xapi/acrossx/v1.1",
       "prefLabel": {
         "en": "printed-book"
       }
@@ -147,7 +147,7 @@
       "definition": {
         "en": "A page or group of pages containing problems, exercises, or instructions for learning activities."
       },
-      "inScheme": "https://w3id.org/xapi/acrossx",
+      "inScheme": "https://w3id.org/xapi/acrossx/v1.1",
       "prefLabel": {
         "en": "printed-worksheet"
       }
@@ -159,7 +159,7 @@
       "definition": {
         "en": "A recording of audible and visual content intended to be shown on a video display."
       },
-      "inScheme": "https://w3id.org/xapi/acrossx",
+      "inScheme": "https://w3id.org/xapi/acrossx/v1.1",
       "prefLabel": {
         "en": "video"
       }
@@ -170,7 +170,7 @@
       "definition": {
         "en": "A web document (usually HTML-based) accessible by anyone connected to the internet and by using a web browser."
       },
-      "inScheme": "https://w3id.org/xapi/acrossx",
+      "inScheme": "https://w3id.org/xapi/acrossx/v1.1",
       "prefLabel": {
         "en": "webpage"
       }
@@ -182,7 +182,7 @@
     "definition": {
       "en": "Indicates the actor added a supplement to the content, highlight or mark."
     },
-    "inScheme": "https://w3id.org/xapi/acrossx",
+    "inScheme": "https://w3id.org/xapi/acrossx/v1.1",
     "prefLabel": {
       "en": "annotated"
     }
@@ -193,7 +193,7 @@
       "definition": {
         "en": "Indicates the actor carefully planned or created the object for a specific purpose."
       },
-      "inScheme": "https://w3id.org/xapi/acrossx",
+      "inScheme": "https://w3id.org/xapi/acrossx/v1.1",
       "prefLabel": {
         "en": "designed"
       }
@@ -205,7 +205,7 @@
     "definition": {
       "en": "Indicates that the actor does not approve of the object or activity."
     },
-    "inScheme": "https://w3id.org/xapi/acrossx",
+    "inScheme": "https://w3id.org/xapi/acrossx/v1.1",
     "prefLabel": {
       "en": "disliked"
     }
@@ -216,7 +216,7 @@
       "definition": {
         "en": "Indicates the actor added or modified the content in a document or object."
       },
-      "inScheme": "https://w3id.org/xapi/acrossx",
+      "inScheme": "https://w3id.org/xapi/acrossx/v1.1",
       "prefLabel": {
         "en": "edited"
       }
@@ -227,7 +227,7 @@
       "definition": {
         "en": "Indicates the actor formed an opinion or prepared to assess another actor or object."
       },
-      "inScheme": "https://w3id.org/xapi/acrossx",
+      "inScheme": "https://w3id.org/xapi/acrossx/v1.1",
       "prefLabel": {
         "en": "evaluated"
       }
@@ -244,7 +244,7 @@
     "definition": {
       "en": "Indicates that the actor approves of, recommends, or endorses the object or activity."
     },
-    "inScheme": "https://w3id.org/xapi/acrossx",
+    "inScheme": "https://w3id.org/xapi/acrossx/v1.1",
     "prefLabel": {
       "en": "liked"
     }
@@ -255,7 +255,7 @@
       "definition": {
         "en": "Used to describe the action of posting a discussion topic or message on a forum."
       },
-      "inScheme": "https://w3id.org/xapi/acrossx",
+      "inScheme": "https://w3id.org/xapi/acrossx/v1.1",
       "prefLabel": {
         "en": "posted"
       }
@@ -266,7 +266,7 @@
       "definition": {
         "en": "Indicates the actor announced the result of an experience or activity."
       },
-      "inScheme": "https://w3id.org/xapi/acrossx",
+      "inScheme": "https://w3id.org/xapi/acrossx/v1.1",
       "prefLabel": {
         "en": "reported"
       }
@@ -277,7 +277,7 @@
       "definition": {
         "en": "Indicates the actor exposed an object or content that's previously hidden."
       },
-      "inScheme": "https://w3id.org/xapi/acrossx",
+      "inScheme": "https://w3id.org/xapi/acrossx/v1.1",
       "prefLabel": {
         "en": "revealed"
       }
@@ -289,7 +289,7 @@
       "definition": {
         "en": "Indicates the actor looked for information in an object."
       },
-      "inScheme": "https://w3id.org/xapi/acrossx",
+      "inScheme": "https://w3id.org/xapi/acrossx/v1.1",
       "prefLabel": {
         "en": "searched"
       }
@@ -300,7 +300,7 @@
       "definition": {
         "en": "Indicates the actor was given or required to access an object."
       },
-      "inScheme": "https://w3id.org/xapi/acrossx",
+      "inScheme": "https://w3id.org/xapi/acrossx/v1.1",
       "prefLabel": {
         "en": "was-assigned"
       }
@@ -312,7 +312,7 @@
       "definition": {
         "en": "Indicates the actor observed a visual obect."
       },
-      "inScheme": "https://w3id.org/xapi/acrossx",
+      "inScheme": "https://w3id.org/xapi/acrossx/v1.1",
       "prefLabel": {
         "en": "watched"
       }
