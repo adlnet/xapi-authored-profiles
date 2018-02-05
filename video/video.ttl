@@ -306,7 +306,6 @@
      <https://w3id.org/xapi/video/extensions/cc-subtitle-enabled>,
      <https://w3id.org/xapi/video/extensions/quality>,
      <https://w3id.org/xapi/video/extensions/played-segments>,
-     <https://w3id.org/xapi/video/verbs/ended>,
      <https://w3id.org/xapi/video/verbs/played>,
      <https://w3id.org/xapi/video/extensions/speed>,
      <https://w3id.org/xapi/video/extensions/session-id>,
