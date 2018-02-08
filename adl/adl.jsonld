@@ -24,7 +24,7 @@
     {
       "type": "Verb",
       "id": "http://adlnet.gov/expapi/verbs/answered",
-      "inScheme": "https://w3id.org/xapi/adl",
+      "inScheme": "https://w3id.org/xapi/adl/v1.1",
       "prefLabel": {
         "en": "answered"
       },
@@ -35,7 +35,7 @@
     {
       "type": "Verb",
       "id": "http://adlnet.gov/expapi/verbs/asked",
-      "inScheme": "https://w3id.org/xapi/adl",
+      "inScheme": "https://w3id.org/xapi/adl/v1.1",
       "prefLabel": {
         "en": "asked"
       },
@@ -46,7 +46,7 @@
     {
       "type": "Verb",
       "id": "http://adlnet.gov/expapi/verbs/attempted",
-      "inScheme": "https://w3id.org/xapi/adl",
+      "inScheme": "https://w3id.org/xapi/adl/v1.1",
       "prefLabel": {
         "en": "attempted"
       },
@@ -57,29 +57,19 @@
     {
       "type": "Verb",
       "id": "http://adlnet.gov/expapi/verbs/attended",
-      "inScheme": "https://w3id.org/xapi/adl",
+      "inScheme": "https://w3id.org/xapi/adl/v1.1",
       "prefLabel": {
         "en": "attended"
       },
+      "relatedMatch": [ "https://w3id.org/xapi/adb/verbs/attended", "http://activitystrea.ms/schema/1.0/attend" ],
       "definition": {
         "en": "Indicates the actor was present at a virtual or physical event or activity."
       }
     },
     {
       "type": "Verb",
-      "id": "http://adlnet.gov/expapi/verbs/cmi.interacted",
-      "inScheme": "https://w3id.org/xapi/adl",
-      "prefLabel": {
-        "en": "interacted"
-      },
-      "definition": {
-        "en": "Indicates the actor engaged with a SCORM cmi interaction type such as true-false, choice, fill-in, long-fill-in, matching, likert, numeric or other."
-      }
-    },
-    {
-      "type": "Verb",
       "id": "http://adlnet.gov/expapi/verbs/commented",
-      "inScheme": "https://w3id.org/xapi/adl",
+      "inScheme": "https://w3id.org/xapi/adl/v1.1",
       "prefLabel": {
         "en": "commented"
       },
@@ -90,7 +80,7 @@
     {
       "type": "Verb",
       "id": "http://adlnet.gov/expapi/verbs/exited",
-      "inScheme": "https://w3id.org/xapi/adl",
+      "inScheme": "https://w3id.org/xapi/adl/v1.1",
       "prefLabel": {
         "en": "exited"
       },
@@ -98,21 +88,22 @@
         "en": "Indicates the actor intentionally departed from the activity or object."
       }
     },
-    {
-      "type": "Verb",
-      "id": "http://adlnet.gov/expapi/verbs/experienced",
-      "inScheme": "https://w3id.org/xapi/adl",
-      "prefLabel": {
-        "en": "experienced"
+      {
+        "type": "Verb",
+        "id": "http://adlnet.gov/expapi/verbs/experienced",
+        "inScheme": "https://w3id.org/xapi/adl/v1.1",
+        "exactMatch": [ "http://adlnet.gov/expapi/verbs/experienced" ],
+        "prefLabel": {
+          "en": "experienced"
+        },
+        "definition": {
+          "en": "Indicates the actor only encountered the object, and is applicable in situations where a specific achievement or completion is not required."
+        }
       },
-      "definition": {
-        "en": "Indicates the actor only encountered the object, and is applicable in situations where a specific achievement or completion is not required."
-      }
-    },
     {
       "type": "Verb",
       "id": "http://adlnet.gov/expapi/verbs/imported",
-      "inScheme": "https://w3id.org/xapi/adl",
+      "inScheme": "https://w3id.org/xapi/adl/v1.1",
       "prefLabel": {
         "en": "imported"
       },
@@ -120,21 +111,22 @@
         "en": "Indicates the actor introduced an object into a physical or virtual location."
       }
     },
-    {
-      "type": "Verb",
-      "id": "http://adlnet.gov/expapi/verbs/interacted",
-      "inScheme": "https://w3id.org/xapi/adl",
-      "prefLabel": {
-        "en": "interacted"
+      {
+        "type": "Verb",
+        "id": "http://adlnet.gov/expapi/verbs/interacted",
+        "inScheme": "https://w3id.org/xapi/adl/v1.1",
+        "relatedMatch": [ "http://activitystrea.ms/schema/1.0/interact" ],
+        "prefLabel": {
+          "en": "interacted"
+        },
+        "definition": {
+          "en": "Indicates the actor engaged with a physical or virtual object."
+        }
       },
-      "definition": {
-        "en": "Indicates the actor engaged with a physical or virtual object."
-      }
-    },
     {
       "type": "Verb",
       "id": "http://adlnet.gov/expapi/verbs/launched",
-      "inScheme": "https://w3id.org/xapi/adl",
+      "inScheme": "https://w3id.org/xapi/adl/v1.1",
       "prefLabel": {
         "en": "launched"
       },
@@ -145,7 +137,7 @@
     {
       "type": "Verb",
       "id": "http://adlnet.gov/expapi/verbs/mastered",
-      "inScheme": "https://w3id.org/xapi/adl",
+      "inScheme": "https://w3id.org/xapi/adl/v1.1",
       "prefLabel": {
         "en": "mastered"
       },
@@ -156,7 +148,7 @@
     {
       "type": "Verb",
       "id": "http://adlnet.gov/expapi/verbs/preferred",
-      "inScheme": "https://w3id.org/xapi/adl",
+      "inScheme": "https://w3id.org/xapi/adl/v1.1",
       "prefLabel": {
         "en": "preferred"
       },
@@ -167,7 +159,7 @@
     {
       "type": "Verb",
       "id": "http://adlnet.gov/expapi/verbs/progressed",
-      "inScheme": "https://w3id.org/xapi/adl",
+      "inScheme": "https://w3id.org/xapi/adl/v1.1",
       "prefLabel": {
         "en": "progressed"
       },
@@ -178,7 +170,7 @@
     {
       "type": "Verb",
       "id": "http://adlnet.gov/expapi/verbs/registered",
-      "inScheme": "https://w3id.org/xapi/adl",
+      "inScheme": "https://w3id.org/xapi/adl/v1.1",
       "prefLabel": {
         "en": "registered"
       },
@@ -186,21 +178,22 @@
         "en": "Indicates the actor is officially enrolled or inducted in an activity."
       }
     },
-    {
-      "type": "Verb",
-      "id": "http://adlnet.gov/expapi/verbs/shared",
-      "inScheme": "https://w3id.org/xapi/adl",
-      "prefLabel": {
-        "en": "shared"
+      {
+        "type": "Verb",
+        "id": "http://adlnet.gov/expapi/verbs/shared",
+        "inScheme": "https://w3id.org/xapi/adl/v1.1",
+        "exactMatch": [ "http://activitystrea.ms/schema/1.0/share" ],
+        "prefLabel": {
+          "en": "shared"
+        },
+        "definition": {
+          "en": "Indicates the actor's intent to openly provide access to an object of common interest to other actors or groups."
+        }
       },
-      "definition": {
-        "en": "Indicates the actor's intent to openly provide access to an object of common interest to other actors or groups."
-      }
-    },
     {
       "type": "Verb",
       "id": "http://adlnet.gov/expapi/verbs/voided",
-      "inScheme": "https://w3id.org/xapi/adl",
+      "inScheme": "https://w3id.org/xapi/adl/v1.1",
       "prefLabel": {
         "en": "voided"
       },
@@ -211,7 +204,7 @@
     {
       "type": "Verb",
       "id": "https://w3id.org/xapi/adl/verbs/logged-in",
-      "inScheme": "https://w3id.org/xapi/adl",
+      "inScheme": "https://w3id.org/xapi/adl/v1.1",
       "definition": {
         "en": "Indicates the actor gained access to a system or service by identifying and authenticating with the credentials provided by the actor."
       },
@@ -222,7 +215,7 @@
     {
       "type": "Verb",
       "id": "https://w3id.org/xapi/adl/verbs/logged-out",
-      "inScheme": "https://w3id.org/xapi/adl",
+      "inScheme": "https://w3id.org/xapi/adl/v1.1",
       "definition": {
         "en": "Indicates the actor either lost or discontinued access to a system or service."
       },
@@ -233,7 +226,7 @@
     {
       "type": "ActivityType",
       "id": "http://adlnet.gov/expapi/activities/file",
-      "inScheme": "https://w3id.org/xapi/adl",
+      "inScheme": "https://w3id.org/xapi/adl/v1.1",
       "prefLabel": {
         "en": "file"
       },
@@ -244,7 +237,7 @@
     {
       "type": "ActivityType",
       "id": "http://adlnet.gov/expapi/activities/link",
-      "inScheme": "https://w3id.org/xapi/adl",
+      "inScheme": "https://w3id.org/xapi/adl/v1.1",
       "prefLabel": {
         "en": "link"
       },
@@ -255,7 +248,7 @@
     {
       "type": "ActivityType",
       "id": "http://adlnet.gov/expapi/activities/media",
-      "inScheme": "https://w3id.org/xapi/adl",
+      "inScheme": "https://w3id.org/xapi/adl/v1.1",
       "prefLabel": {
         "en": "media"
       },
@@ -266,7 +259,7 @@
     {
       "type": "ActivityType",
       "id": "http://adlnet.gov/expapi/activities/meeting",
-      "inScheme": "https://w3id.org/xapi/adl",
+      "inScheme": "https://w3id.org/xapi/adl/v1.1",
       "prefLabel": {
         "en": "meeting"
       },
@@ -277,7 +270,7 @@
     {
       "type": "ActivityType",
       "id": "http://adlnet.gov/expapi/activities/performance",
-      "inScheme": "https://w3id.org/xapi/adl",
+      "inScheme": "https://w3id.org/xapi/adl/v1.1",
       "prefLabel": {
         "en": "performance"
       },
@@ -285,21 +278,22 @@
         "en": "A performance is an attempted task or series of tasks within a particular context. Tasks would likely take on the form of interactions, or the performance could be self-contained content. It emphasizes students or learners being able to do, or perform, specific skills as a result of the instruction."
       }
     },
-    {
-      "type": "ActivityType",
-      "id": "http://adlnet.gov/expapi/activities/question",
-      "inScheme": "https://w3id.org/xapi/adl",
-      "prefLabel": {
-        "en": "question"
+      {
+        "type": "ActivityType",
+        "id": "http://adlnet.gov/expapi/activities/question",
+        "exactMatch": [ "http://activitystrea.ms/schema/1.0/question" ],
+        "inScheme": "https://w3id.org/xapi/adl/v1.1",
+        "prefLabel": {
+          "en": "question"
+        },
+        "definition": {
+          "en": "A question is typically part of an assessment and requires a response from the learner, a response that is then evaluated for correctness."
+        }
       },
-      "definition": {
-        "en": "A question is typically part of an assessment and requires a response from the learner, a response that is then evaluated for correctness."
-      }
-    },
     {
       "type": "ActivityType",
       "id": "http://adlnet.gov/expapi/activities/simulation",
-      "inScheme": "https://w3id.org/xapi/adl",
+      "inScheme": "https://w3id.org/xapi/adl/v1.1",
       "prefLabel": {
         "en": "simulation"
       },

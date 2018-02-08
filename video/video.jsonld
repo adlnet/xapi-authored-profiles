@@ -23,11 +23,11 @@
   "concepts": [
     {
       "id": "https://w3id.org/xapi/video/verbs/paused",
-      "inScheme": "https://w3id.org/xapi/video",
+      "inScheme": "https://w3id.org/xapi/video/v1.1",
       "type": "Verb",
-      "exactMatch": [ {
-        "id": "http://id.tincanapi.com/verb/paused"
-      } ],
+      "broadMatch": [ 
+        "http://id.tincanapi.com/verb/paused"
+       ],
       "definition": {
         "en": "Indicates the actor paused the video being played at a specific point."
       },
@@ -37,11 +37,9 @@
     },
     {
       "id": "https://w3id.org/xapi/video/verbs/played",
-      "inScheme": "https://w3id.org/xapi/video",
+      "inScheme": "https://w3id.org/xapi/video/v1.1",
       "type": "Verb",
-      "exactMatch": [ {
-        "id": "http://activitystrea.ms/schema/1.0/play"
-      } ],
+      "exactMatch": ["http://activitystrea.ms/schema/1.0/play"],
       "definition": {
         "en": "Indicates that the actor started experiencing the recorded media object."
       },
@@ -51,7 +49,7 @@
     },
     {
       "id": "https://w3id.org/xapi/video/verbs/seeked",
-      "inScheme": "https://w3id.org/xapi/video",
+      "inScheme": "https://w3id.org/xapi/video/v1.1",
       "type": "Verb",
       "definition": {
         "en": "Indicates the actor changed the progress towards a specific point."
@@ -62,11 +60,9 @@
     },
     {
       "id": "https://w3id.org/xapi/video/activity-type/video",
-      "inScheme": "https://w3id.org/xapi/video",
+      "inScheme": "https://w3id.org/xapi/video/v1.1",
       "type": "ActivityType",
-      "exactMatch": [ {
-        "id": "http://activitystrea.ms/schema/1.0/video"
-      } ],
+      "exactMatch": [ "http://activitystrea.ms/schema/1.0/video", "https://w3id.org/xapi/acrossx/activities/video" ],
       "definition": {
         "en": "A recording of both the visual and audible components made available on a display screen."
       },
@@ -76,7 +72,7 @@
     },
     {
       "id": "https://w3id.org/xapi/video/extensions/cc-subtitle-enabled",
-      "inScheme": "https://w3id.org/xapi/video",
+      "inScheme": "https://w3id.org/xapi/video/v1.1",
       "type": "ContextExtension",
       "definition": {
         "en": "Used to expresses whether subtitle or closed captioning is enabled."
@@ -88,7 +84,7 @@
     },
     {
       "id": "https://w3id.org/xapi/video/extensions/cc-subtitle-lang",
-      "inScheme": "https://w3id.org/xapi/video",
+      "inScheme": "https://w3id.org/xapi/video/v1.1",
       "type": "ContextExtension",
       "definition": {
         "en": "Used to express the language of subtitle or closed captioning."
@@ -100,7 +96,7 @@
     },
     {
       "id": "https://w3id.org/xapi/video/extensions/frame-rate",
-      "inScheme": "https://w3id.org/xapi/video",
+      "inScheme": "https://w3id.org/xapi/video/v1.1",
       "type": "ContextExtension",
       "definition": {
         "en": "Used to express the frame rate or frames per second of a video (or average rate of frames per second in the case of variable frame-rate)."
@@ -112,7 +108,7 @@
     },
     {
       "id": "https://w3id.org/xapi/video/extensions/full-screen",
-      "inScheme": "https://w3id.org/xapi/video",
+      "inScheme": "https://w3id.org/xapi/video/v1.1",
       "type": "ContextExtension",
       "definition": {
         "en": "Used to expresses that the video is played in full screen mode."
@@ -124,7 +120,7 @@
     },
     {
       "id": "https://w3id.org/xapi/video/extensions/quality",
-      "inScheme": "https://w3id.org/xapi/video",
+      "inScheme": "https://w3id.org/xapi/video/v1.1",
       "type": "ContextExtension",
       "definition": {
         "en": "Used to express the video resolution or quality. Integer Value (e.g., 360, 480, 720, 1080, etc.)."
@@ -136,7 +132,8 @@
     },
     {
       "id": "https://w3id.org/xapi/video/extensions/session-id",
-      "inScheme": "https://w3id.org/xapi/video",
+      "inScheme": "https://w3id.org/xapi/video/v1.1",
+      "exactMatch": [ "https://w3id.org/xapi/cmi5/context/extensions/sessionid" ],
       "type": "ContextExtension",
       "definition": {
         "en": "Used to provide the session identifier associated with the activity."
@@ -148,7 +145,7 @@
     },
     {
       "id": "https://w3id.org/xapi/video/extensions/screen-size",
-      "inScheme": "https://w3id.org/xapi/video",
+      "inScheme": "https://w3id.org/xapi/video/v1.1",
       "type": "ContextExtension",
       "definition": {
         "en": "Used to express the device playback screen size or the maximum available screensize for Video playback."
@@ -160,7 +157,7 @@
     },
     {
       "id": "https://w3id.org/xapi/video/extensions/speed",
-      "inScheme": "https://w3id.org/xapi/video",
+      "inScheme": "https://w3id.org/xapi/video/v1.1",
       "type": "ContextExtension",
       "definition": {
         "en": "Used to express the play-back speed (e.g., 1x,2x,0,-1x,-2x)."
@@ -172,7 +169,7 @@
     },
     {
       "id": "https://w3id.org/xapi/video/extensions/track",
-      "inScheme": "https://w3id.org/xapi/video",
+      "inScheme": "https://w3id.org/xapi/video/v1.1",
       "type": "ContextExtension",
       "definition": {
         "en": "Used to identify the name of the audio track in a media object."
@@ -184,7 +181,7 @@
     },
     {
       "id": "https://w3id.org/xapi/video/extensions/user-agent",
-      "inScheme": "https://w3id.org/xapi/video",
+      "inScheme": "https://w3id.org/xapi/video/v1.1",
       "type": "ContextExtension",
       "definition": {
         "en": "Used to identify the User Agent string of the browser, if the video is launched in browser."
@@ -196,7 +193,7 @@
     },
     {
       "id": "https://w3id.org/xapi/video/extensions/volume",
-      "inScheme": "https://w3id.org/xapi/video",
+      "inScheme": "https://w3id.org/xapi/video/v1.1",
       "type": "ContextExtension",
       "definition": {
         "en": "Used to identify the loudness of sound specified for a media object."
@@ -208,7 +205,7 @@
     },
     {
       "id": "https://w3id.org/xapi/video/extensions/video-playback-size",
-      "inScheme": "https://w3id.org/xapi/video",
+      "inScheme": "https://w3id.org/xapi/video/v1.1",
       "type": "ContextExtension",
       "definition": {
         "en": "Used to identify the size in Width x Height of the video as viewed by the user."
@@ -220,7 +217,7 @@
     },
     {
       "id": "https://w3id.org/xapi/video/extensions/played-segments",
-      "inScheme": "https://w3id.org/xapi/video",
+      "inScheme": "https://w3id.org/xapi/video/v1.1",
       "type": "ResultExtension",
       "definition": {
         "en": "Played segments reveals potential heat map data for showing parts of the video the actor watched during current registration in chronological order (e.g., 0.000[.]12.000[,]14.000[.]21.000[,]18.000[.]30.000)."
@@ -232,7 +229,7 @@
     },
     {
       "id": "https://w3id.org/xapi/video/extensions/progress",
-      "inScheme": "https://w3id.org/xapi/video",
+      "inScheme": "https://w3id.org/xapi/video/v1.1",
       "type": "ResultExtension",
       "definition": {
         "en": "Used to expresses the percentage of media consumed by the actor."
@@ -244,7 +241,7 @@
     },
     {
       "id": "https://w3id.org/xapi/video/extensions/time",
-      "inScheme": "https://w3id.org/xapi/video",
+      "inScheme": "https://w3id.org/xapi/video/v1.1",
       "type": "ResultExtension",
       "definition": {
         "en": "Used to express the time into the video. (e.g., “00000.000” in seconds and milliseconds)."
@@ -256,7 +253,7 @@
     },
     {
       "id": "https://w3id.org/xapi/video/extensions/time-from",
-      "inScheme": "https://w3id.org/xapi/video",
+      "inScheme": "https://w3id.org/xapi/video/v1.1",
       "type": "ResultExtension",
       "definition": {
         "en": "Used to identify the point in time the actor changed from in a media object (eg: “200.000” in seconds and milliseconds)."
@@ -268,7 +265,7 @@
     },
     {
       "id": "https://w3id.org/xapi/video/extensions/time-to",
-      "inScheme": "https://w3id.org/xapi/video",
+      "inScheme": "https://w3id.org/xapi/video/v1.1",
       "type": "ResultExtension",
       "definition": {
         "en": "Used to identify the point in time the actor changed to in a media object (eg: “300.000” in seconds and milliseconds)."
@@ -282,7 +279,7 @@
   "templates": [
     {
       "id": "https://w3id.org/xapi/video/templates#generalrestrictions",
-      "inScheme": "https://w3id.org/xapi/video",
+      "inScheme": "https://w3id.org/xapi/video/v1.1",
       "prefLabel": {
         "en": "General Restrictions"
       },
@@ -306,7 +303,7 @@
     },
     {
       "id": "https://w3id.org/xapi/video/templates#started",
-      "inScheme": "https://w3id.org/xapi/video",
+      "inScheme": "https://w3id.org/xapi/video/v1.1",
       "prefLabel": {
         "en": "Started"
       },
@@ -351,7 +348,7 @@
     },
     {
       "id": "https://w3id.org/xapi/video/templates#played",
-      "inScheme": "https://w3id.org/xapi/video",
+      "inScheme": "https://w3id.org/xapi/video/v1.1",
       "prefLabel": {
         "en": "Played"
       },
@@ -373,7 +370,7 @@
     },
     {
       "id": "https://w3id.org/xapi/video/templates#paused",
-      "inScheme": "https://w3id.org/xapi/video",
+      "inScheme": "https://w3id.org/xapi/video/v1.1",
       "prefLabel": {
         "en": "Paused"
       },
@@ -399,7 +396,7 @@
     },
     {
       "id": "https://w3id.org/xapi/video/templates#seeked",
-      "inScheme": "https://w3id.org/xapi/video",
+      "inScheme": "https://w3id.org/xapi/video/v1.1",
       "prefLabel": {
         "en": "Seeked"
       },
@@ -421,7 +418,7 @@
     },
     {
       "id": "https://w3id.org/xapi/video/templates#completed",
-      "inScheme": "https://w3id.org/xapi/video",
+      "inScheme": "https://w3id.org/xapi/video/v1.1",
       "prefLabel": {
         "en": "Completed"
       },
@@ -443,7 +440,7 @@
     },
     {
       "id": "https://w3id.org/xapi/video/templates#volumechange",
-      "inScheme": "https://w3id.org/xapi/video",
+      "inScheme": "https://w3id.org/xapi/video/v1.1",
       "prefLabel": {
         "en": "Volume Change Interaction"
       },
@@ -462,7 +459,7 @@
     },
     {
       "id": "https://w3id.org/xapi/video/templates#screenchange",
-      "inScheme": "https://w3id.org/xapi/video",
+      "inScheme": "https://w3id.org/xapi/video/v1.1",
       "prefLabel": {
         "en": "Screen Change Interaction"
       },

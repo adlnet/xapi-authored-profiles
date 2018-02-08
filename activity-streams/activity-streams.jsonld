@@ -1,6 +1,6 @@
 {
   "@context": "https://w3id.org/xapi/profiles/context",
-  "id": "http://activitystrea.ms/schema/1.0",
+  "id": "http://activitystrea.ms/schema/",
   "type": "Profile",
   "conformsTo": "https://w3id.org/xapi/profiles#1.0",
   "prefLabel": {
@@ -9,6 +9,11 @@
   "definition": {
     "en": "An list of concepts from an obsolete version (1.0) of the Activity Streams specification."
   },
+  "versions": [
+    {
+      "id": "http://activitystrea.ms/schema/1.0",
+      "generatedAtTime": "2017-07-14T11:35:00Z"
+}],
   "seeAlso": "http://activitystrea.ms/specs/json/1.0/",
   "author": {
     "type": "Organization",
@@ -28,16 +33,17 @@
        "type": "Verb"
     },
     {
-       "id": "http://activitystrea.ms/schema/1.0/access",
-       "prefLabel": {
-          "en": "accessed"
-        },
-       "definition": {
-         "en": "Indicates that the actor has accessed the object. For instance, a person accessing a room, or accessing a file."
-         },
+      "id": "http://activitystrea.ms/schema/1.0/access",
+      "prefLabel": {
+        "en": "accessed"
+      },
+      "definition": {
+        "en": "Indicates that the actor has accessed the object. For instance, a person accessing a room, or accessing a file."
+      },
 
-       "inScheme": "http://activitystrea.ms/schema/1.0",
-       "type": "Verb"
+      "inScheme": "http://activitystrea.ms/schema/1.0",
+      "type": "Verb",
+      "relatedMatch": [ "https://w3id.org/xapi/seriousgames/verbs/accessed" ]
     },
     {
        "id": "http://activitystrea.ms/schema/1.0/acknowledge",
@@ -136,16 +142,17 @@
        "type": "Verb"
     },
     {
-       "id": "http://activitystrea.ms/schema/1.0/attend",
-       "prefLabel": {
-          "en": "attended"
-        },
-       "definition": {
-         "en": "Indicates that the actor has attended the object. For instance, a person attending a meeting."
-         },
-       "exactMatch": ["http://adlnet.gov/expapi/verbs/attended"],
-       "inScheme": "http://activitystrea.ms/schema/1.0",
-       "type": "Verb"
+      "id": "http://activitystrea.ms/schema/1.0/attend",
+      "prefLabel": {
+        "en": "attended"
+      },
+      "definition": {
+        "en": "Indicates that the actor has attended the object. For instance, a person attending a meeting."
+      },
+      "exactMatch": [ "http://adlnet.gov/expapi/verbs/attended" ],
+      "relatedMatch": [ "http://adlnet.gov/expapi/verbs/attended" ],
+      "inScheme": "http://activitystrea.ms/schema/1.0",
+      "type": "Verb"
     },
     {
        "id": "http://activitystrea.ms/schema/1.0/author",
@@ -256,16 +263,17 @@
        "type": "Verb"
     },
     {
-       "id": "http://activitystrea.ms/schema/1.0/consume",
-       "prefLabel": {
-          "en": "consumed"
-        },
-       "definition": {
-         "en": "Indicates that the actor has consumed the object. The specific meaning is dependent largely on the objects type. For instance, an actor may consume an audio object, indicating that the actor has listened to it; or an actor may consume a book, indicating that the book has been read. As such, the consume verb is a more generic form of other more specific verbs such as read and play."
-         },
+      "id": "http://activitystrea.ms/schema/1.0/consume",
+      "prefLabel": {
+        "en": "consumed"
+      },
+      "narrower": [ "http://activitystrea.ms/schema/1.0/play" ],
+      "definition": {
+        "en": "Indicates that the actor has consumed the object. The specific meaning is dependent largely on the objects type. For instance, an actor may consume an audio object, indicating that the actor has listened to it; or an actor may consume a book, indicating that the book has been read. As such, the consume verb is a more generic form of other more specific verbs such as read and play."
+      },
 
-       "inScheme": "http://activitystrea.ms/schema/1.0",
-       "type": "Verb"
+      "inScheme": "http://activitystrea.ms/schema/1.0",
+      "type": "Verb"
     },
     {
        "id": "http://activitystrea.ms/schema/1.0/create",
@@ -328,16 +336,17 @@
        "type": "Verb"
     },
     {
-       "id": "http://activitystrea.ms/schema/1.0/dislike",
-       "prefLabel": {
-          "en": "disliked"
-        },
-       "definition": {
-         "en": "Indicates that the actor dislikes the object."
-         },
+      "id": "http://activitystrea.ms/schema/1.0/dislike",
+      "prefLabel": {
+        "en": "disliked"
+      },
+      "relatedMatch": [ "https://w3id.org/xapi/acrossx/verbs/disliked" ],
+      "definition": {
+        "en": "Indicates that the actor dislikes the object."
+      },
 
-       "inScheme": "http://activitystrea.ms/schema/1.0",
-       "type": "Verb"
+      "inScheme": "http://activitystrea.ms/schema/1.0",
+      "type": "Verb"
     },
     {
        "id": "http://activitystrea.ms/schema/1.0/experience",
@@ -424,16 +433,17 @@
        "type": "Verb"
     },
     {
-       "id": "http://activitystrea.ms/schema/1.0/ignore",
-       "prefLabel": {
-          "en": "ignored"
-        },
-       "definition": {
-         "en": "Indicates that the actor has ignored the object. For instance, this verb may be used when an actor has ignored a friend request, in which case the object may be the request-friend activity."
-         },
+      "id": "http://activitystrea.ms/schema/1.0/ignore",
+      "relatedMatch": [ "https://w3id.org/xapi/medbiq/verbs/ignored" ],
+      "prefLabel": {
+        "en": "ignored"
+      },
+      "definition": {
+        "en": "Indicates that the actor has ignored the object. For instance, this verb may be used when an actor has ignored a friend request, in which case the object may be the request-friend activity."
+      },
 
-       "inScheme": "http://activitystrea.ms/schema/1.0",
-       "type": "Verb"
+      "inScheme": "http://activitystrea.ms/schema/1.0",
+      "type": "Verb"
     },
     {
        "id": "http://activitystrea.ms/schema/1.0/insert",
@@ -460,16 +470,17 @@
        "type": "Verb"
     },
     {
-       "id": "http://activitystrea.ms/schema/1.0/interact",
-       "prefLabel": {
-          "en": "interacted"
-        },
-       "definition": {
-         "en": "Indicates that the actor has interacted with the object. For instance, when one person interacts with another."
-         },
-       "exactMatch": ["http://adlnet.gov/expapi/verbs/interacted"],
-       "inScheme": "http://activitystrea.ms/schema/1.0",
-       "type": "Verb"
+      "id": "http://activitystrea.ms/schema/1.0/interact",
+      "relatedMatch": [ "http://adlnet.gov/expapi/verbs/interacted" ],
+      "prefLabel": {
+        "en": "interacted"
+      },
+      "definition": {
+        "en": "Indicates that the actor has interacted with the object. For instance, when one person interacts with another."
+      },
+      "exactMatch": [ "http://adlnet.gov/expapi/verbs/interacted" ],
+      "inScheme": "http://activitystrea.ms/schema/1.0",
+      "type": "Verb"
     },
     {
        "id": "http://activitystrea.ms/schema/1.0/invite",
@@ -508,16 +519,17 @@
        "type": "Verb"
     },
     {
-       "id": "http://activitystrea.ms/schema/1.0/like",
-       "prefLabel": {
-          "en": "liked"
-        },
-       "definition": {
-         "en": "Indicates that the actor marked the object as an item of special interest. The like verb is considered to be an alias of favorite. The two verb are semantically identical."
-         },
+      "id": "http://activitystrea.ms/schema/1.0/like",
+      "related": [ "https://w3id.org/xapi/acrossx/verbs/liked" ],
+      "prefLabel": {
+        "en": "liked"
+      },
+      "definition": {
+        "en": "Indicates that the actor marked the object as an item of special interest. The like verb is considered to be an alias of favorite. The two verb are semantically identical."
+      },
 
-       "inScheme": "http://activitystrea.ms/schema/1.0",
-       "type": "Verb"
+      "inScheme": "http://activitystrea.ms/schema/1.0",
+      "type": "Verb"
     },
     {
        "id": "http://activitystrea.ms/schema/1.0/listen",
@@ -568,16 +580,17 @@
        "type": "Verb"
     },
     {
-       "id": "http://activitystrea.ms/schema/1.0/play",
-       "prefLabel": {
-          "en": "played"
-        },
-       "definition": {
-         "en": "Indicates that the actor spent some time enjoying the object. For example, if the object is a video this indicates that the subject watched all or part of the video. The play verb is a more specific form of the consume verb."
-         },
-       "exactMatch": ["https://w3id.org/xapi/video/verbs/played"],
-       "inScheme": "http://activitystrea.ms/schema/1.0",
-       "type": "Verb"
+      "id": "http://activitystrea.ms/schema/1.0/play",
+      "prefLabel": {
+        "en": "played"
+      },
+      "definition": {
+        "en": "Indicates that the actor spent some time enjoying the object. For example, if the object is a video this indicates that the subject watched all or part of the video. The play verb is a more specific form of the consume verb."
+      },
+      "exactMatch": [ "https://w3id.org/xapi/video/verbs/played" ],
+      "broader": [ "http://activitystrea.ms/schema/1.0/consume" ],
+      "inScheme": "http://activitystrea.ms/schema/1.0",
+      "type": "Verb"
     },
     {
        "id": "http://activitystrea.ms/schema/1.0/present",
@@ -616,16 +629,17 @@
        "type": "Verb"
     },
     {
-       "id": "http://activitystrea.ms/schema/1.0/read",
-       "prefLabel": {
-          "en": "read"
-        },
-       "definition": {
-         "en": "Indicates that the actor has read the object."
-         },
+      "id": "http://activitystrea.ms/schema/1.0/read",
+      "exactMatch": [ "https://w3id.org/xapi/adb/verbs/read" ],
+      "prefLabel": {
+        "en": "read"
+      },
+      "definition": {
+        "en": "Indicates that the actor has read the object."
+      },
 
-       "inScheme": "http://activitystrea.ms/schema/1.0",
-       "type": "Verb"
+      "inScheme": "http://activitystrea.ms/schema/1.0",
+      "type": "Verb"
     },
     {
        "id": "http://activitystrea.ms/schema/1.0/receive",
@@ -688,16 +702,17 @@
        "type": "Verb"
     },
     {
-       "id": "http://activitystrea.ms/schema/1.0/request",
-       "prefLabel": {
-          "en": "requested"
-        },
-       "definition": {
-         "en": "Indicates that the actor has requested the object. If a target is specified, it indicates the entity from which the object is being requested."
-         },
+      "id": "http://activitystrea.ms/schema/1.0/request",
+      "exactMatch": [ "http://activitystrea.ms/schema/1.0/request" ],
+      "prefLabel": {
+        "en": "requested"
+      },
+      "definition": {
+        "en": "Indicates that the actor has requested the object. If a target is specified, it indicates the entity from which the object is being requested."
+      },
 
-       "inScheme": "http://activitystrea.ms/schema/1.0",
-       "type": "Verb"
+      "inScheme": "http://activitystrea.ms/schema/1.0",
+      "type": "Verb"
     },
     {
        "id": "http://activitystrea.ms/schema/1.0/request-friend",
@@ -820,16 +835,17 @@
        "type": "Verb"
     },
     {
-       "id": "http://activitystrea.ms/schema/1.0/search",
-       "prefLabel": {
-          "en": "searched"
-        },
-       "definition": {
-         "en": "Indicates that the actor is or has searched for the object. If a target is specified, it indicates the context within which the search is or has been conducted."
-         },
+      "id": "http://activitystrea.ms/schema/1.0/search",
+      "exactMatch": [ "https://w3id.org/xapi/acrossx/verbs/searched" ],
+      "prefLabel": {
+        "en": "searched"
+      },
+      "definition": {
+        "en": "Indicates that the actor is or has searched for the object. If a target is specified, it indicates the context within which the search is or has been conducted."
+      },
 
-       "inScheme": "http://activitystrea.ms/schema/1.0",
-       "type": "Verb"
+      "inScheme": "http://activitystrea.ms/schema/1.0",
+      "type": "Verb"
     },
     {
        "id": "http://activitystrea.ms/schema/1.0/send",
@@ -1012,28 +1028,30 @@
        "type": "Verb"
     },
     {
-       "id": "http://activitystrea.ms/schema/1.0/update",
-       "prefLabel": {
-          "en": "updated"
-        },
-       "definition": {
-         "en": "Indicates that the actor has updated the object. Note, however, that this vocabulary does not define a mechanism for describing the actual set of modifications made to object."
-         },
+      "id": "http://activitystrea.ms/schema/1.0/update",
+      "prefLabel": {
+        "en": "updated"
+      },
+      "narrowMatch": [ "https://w3id.org/xapi/medbiq/verbs/updated" ],
+      "definition": {
+        "en": "Indicates that the actor has updated the object. Note, however, that this vocabulary does not define a mechanism for describing the actual set of modifications made to object."
+      },
 
-       "inScheme": "http://activitystrea.ms/schema/1.0",
-       "type": "Verb"
+      "inScheme": "http://activitystrea.ms/schema/1.0",
+      "type": "Verb"
     },
     {
-       "id": "http://activitystrea.ms/schema/1.0/use",
-       "prefLabel": {
-          "en": "used"
-        },
-       "definition": {
-         "en": "Indicates that the actor has used the object in some manner."
-         },
+      "id": "http://activitystrea.ms/schema/1.0/use",
+      "prefLabel": {
+        "en": "used"
+      },
+      "definition": {
+        "en": "Indicates that the actor has used the object in some manner."
+      },
+      "exactMatch": [ "https://w3id.org/xapi/seriousgames/verbs/used" ],
 
-       "inScheme": "http://activitystrea.ms/schema/1.0",
-       "type": "Verb"
+      "inScheme": "http://activitystrea.ms/schema/1.0",
+      "type": "Verb"
     },
     {
        "id": "http://activitystrea.ms/schema/1.0/at",
@@ -1048,16 +1066,16 @@
        "type": "Verb"
     },
     {
-       "id": "http://activitystrea.ms/schema/1.0/watch",
-       "prefLabel": {
-          "en": "watched"
-        },
-       "definition": {
-         "en": "Indicates that the actor has watched the object. This verb is typically applicable only when the object represents dynamic, visible content such as a movie, a television show or a public performance. This verb is a more specific form of the verbs experience, play and consume."
-         },
-
-       "inScheme": "http://activitystrea.ms/schema/1.0",
-       "type": "Verb"
+      "id": "http://activitystrea.ms/schema/1.0/watch",
+      "prefLabel": {
+        "en": "watched"
+      },
+      "definition": {
+        "en": "Indicates that the actor has watched the object. This verb is typically applicable only when the object represents dynamic, visible content such as a movie, a television show or a public performance. This verb is a more specific form of the verbs experience, play and consume."
+      },
+      "exactMatch": [ "https://w3id.org/xapi/acrossx/verbs/watched", "https://w3id.org/xapi/adb/verbs/watched" ],
+      "inScheme": "http://activitystrea.ms/schema/1.0",
+      "type": "Verb"
     },
     {
        "id": "http://activitystrea.ms/schema/1.0/win",
@@ -1096,6 +1114,7 @@
     {
       "id": "http://activitystrea.ms/schema/1.0/article",
       "inScheme": "http://activitystrea.ms/schema/1.0",
+      "related": [ "http://activitystrea.ms/schema/1.0/note" ],
       "type": "ActivityType",
       "definition": {
         "en": "Represents objects such as news articles, knowledge base entries, or other similar construct. Such objects generally consist of paragraphs of text, in some cases incorporating embedded media such as photos and inline hyperlinks to other resources."
@@ -1261,6 +1280,8 @@
     {
       "id": "http://activitystrea.ms/schema/1.0/note",
       "inScheme": "http://activitystrea.ms/schema/1.0",
+      "related": [ "http://activitystrea.ms/schema/1.0/article" ],
+      "exactMatch": [ "https://w3id.org/xapi/acrossx/activities/note" ],
       "type": "ActivityType",
       "definition": {
         "en": "Represents a short-form text message. This object is intended primarily for use in micro-blogging scenarios and in systems where users are invited to publish short, often plain-text messages whose useful lifespan is generally shorter than that of an article of weblog entry. A note is similar in structure to an article, but typically does not have a title or distinct paragraphs and tends to be much shorter in length."
@@ -1294,6 +1315,7 @@
     {
       "id": "http://activitystrea.ms/schema/1.0/page",
       "inScheme": "http://activitystrea.ms/schema/1.0",
+      "narrowMatch": [ "https://w3id.org/xapi/acrossx/activities/page" ],
       "type": "ActivityType",
       "definition": {
         "en": "Represents an area, typically a web page, that is representative of, and generally managed by a particular entity. Such areas are usually dedicated to displaying descriptive information about the entity and showcasing recent content such as articles, photographs and videos. Most social networking applications, for example, provide individual users with their own dedicated profile pages. Several allow similar types of pages to be created for commercial entities, organizations or events. While the specific details of how pages are implemented, their characteristics and use may vary, the one unifying property is that they are typically owned by a single entity that is represented by the content provided by the page itself."
@@ -1348,6 +1370,7 @@
     },
     {
       "id": "http://activitystrea.ms/schema/1.0/question",
+      "exactMatch": [ "http://adlnet.gov/expapi/activities/question" ],
       "inScheme": "http://activitystrea.ms/schema/1.0",
       "type": "ActivityType",
       "definition": {
@@ -1393,6 +1416,7 @@
     {
       "id": "http://activitystrea.ms/schema/1.0/video",
       "inScheme": "http://activitystrea.ms/schema/1.0",
+      "exactMatch": [ "https://w3id.org/xapi/acrossx/activities/video", "https://w3id.org/xapi/video/activity-type/video" ],
       "type": "ActivityType",
       "definition": {
         "en": "Represents video content of any kind. Objects of this type MAY contain additional properties as specified in Section 3.1."
