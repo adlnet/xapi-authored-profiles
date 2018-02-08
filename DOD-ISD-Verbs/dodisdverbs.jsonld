@@ -29,7 +29,10 @@
 				"en": "advised"
 			},
 			"definition": {
-				"en": "Offer suggestions or factual information about the best course of action."
+				"en": "Offer suggestions or factual information about the best course of action. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Fact Learning', and with the 'Interactivity Level' extension \
+				with a value of 1 or 2."
 			}
 		},
 		{
@@ -40,7 +43,10 @@
 				"en": "answered"
 			},
 			"definition": {
-				"en": "Provide the required responses to a test, quiz, or question."
+				"en": "Provide the required responses to a test, quiz, or question. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Fact Learning', and with the 'Interactivity Level' extension \
+				with a value of 1 or 2."
 			}
 		},
 		{
@@ -51,7 +57,10 @@
 				"en": "briefed"
 			},
 			"definition": {
-				"en": "Instruct or inform someone thoroughly, especially in preparation for a task."
+				"en": "Instruct or inform someone thoroughly, especially in preparation for a task. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Fact Learning', and with the 'Interactivity Level' extension \
+				with a value of 1 or 2."
 			}
 		},
 		{
@@ -62,7 +71,10 @@
 				"en": "calculated"
 			},
 			"definition": {
-				"en": "Determine the amount or number of something mathematically."
+				"en": "Determine the amount or number of something mathematically. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Fact Learning', and with the 'Interactivity Level' extension \
+				with a value of 1 or 2."
 			}
 		},
 		{
@@ -73,7 +85,10 @@
 				"en": "defined"
 			},
 			"definition": {
-				"en": "State or describe exactly the nature, scope, or meaning of something."
+				"en": "State or describe exactly the nature, scope, or meaning of something. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Fact Learning', and with the 'Interactivity Level' extension \
+				with a value of 1 or 2."
 			}
 		},
 		{
@@ -84,7 +99,10 @@
 				"en": "elaborated"
 			},
 			"definition": {
-				"en": "Develop or present a theory, policy, or system in detail. Add more detail concerning what has already been said."
+				"en": "Develop or present a theory, policy, or system in detail. Add more detail concerning what has already been said. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Fact Learning', and with the 'Interactivity Level' extension \
+				with a value of 1 or 2."
 			}
 		},
 		{
@@ -95,7 +113,10 @@
 				"en": "expressed"
 			},
 			"definition": {
-				"en": "Convey a thought or feeling in words or by gestures and conduct."
+				"en": "Convey a thought or feeling in words or by gestures and conduct. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Fact Learning', and with the 'Interactivity Level' extension \
+				with a value of 1 or 2."
 			}
 		},
 		{
@@ -106,7 +127,10 @@
 				"en": "identified"
 			},
 			"definition": {
-				"en": "Establish or indicate who or what someone or something is."
+				"en": "Establish or indicate who or what someone or something is. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Fact Learning', and with the 'Interactivity Level' extension \
+				with a value of 1 or 2."
 			}
 		},
 		{
@@ -117,7 +141,10 @@
 				"en": "informed"
 			},
 			"definition": {
-				"en": "Provide facts or information about someone or something."
+				"en": "Provide facts or information about someone or something. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Fact Learning', and with the 'Interactivity Level' extension \
+				with a value of 1 or 2."
 			}
 		},
 		{
@@ -128,7 +155,10 @@
 				"en": "instructed"
 			},
 			"definition": {
-				"en": "Direct or command someone to do something, especially as an official order."
+				"en": "Direct or command someone to do something, especially as an official order. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Fact Learning', and with the 'Interactivity Level' extension \
+				with a value of 1 or 2."
 			}
 		},
 		{
@@ -139,7 +169,10 @@
 				"en": "listed"
 			},
 			"definition": {
-				"en": "Make a number of connected items or names in consecutive order."
+				"en": "Make a number of connected items or names in consecutive order. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Fact Learning', and with the 'Interactivity Level' extension \
+				with a value of 1 or 2."
 			}
 		},
 		{
@@ -150,7 +183,10 @@
 				"en": "named"
 			},
 			"definition": {
-				"en": "Identify by name; give the correct name for a person, animal, place, or thing which is known, addressed, or being referred to."
+				"en": "Identify by name; give the correct name for a person, animal, place, or thing which is known, addressed, or being referred to. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Fact Learning', and with the 'Interactivity Level' extension \
+				with a value of 1 or 2."
 			}
 		},
 		{
@@ -161,7 +197,10 @@
 				"en": "read"
 			},
 			"definition": {
-				"en": "Look at and comprehend the meaning of written matter by mentally interpreting the characters or symbols of which it is composed."
+				"en": "Look at and comprehend the meaning of written matter by mentally interpreting the characters or symbols of which it is composed. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Fact Learning', and with the 'Interactivity Level' extension \
+				with a value of 1 or 2."
 			}
 		},
 		{
@@ -172,7 +211,10 @@
 				"en": "recalled"
 			},
 			"definition": {
-				"en": "Bring (a fact, event, or situation) back into one's mind, especially so as to recount it to others; remember."
+				"en": "Bring (a fact, event, or situation) back into one's mind, especially so as to recount it to others; remember. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Fact Learning', and with the 'Interactivity Level' extension \
+				with a value of 1 or 2."
 			}
 		},
 		{
@@ -183,7 +225,10 @@
 				"en": "recommended"
 			},
 			"definition": {
-				"en": "Advise or suggest something as a course of action."
+				"en": "Advise or suggest something as a course of action. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Fact Learning', and with the 'Interactivity Level' extension \
+				with a value of 1 or 2."
 			}
 		},
 		{
@@ -194,7 +239,10 @@
 				"en": "recounted"
 			},
 			"definition": {
-				"en": "Give an account of an event or experience."
+				"en": "Give an account of an event or experience. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Fact Learning', and with the 'Interactivity Level' extension \
+				with a value of 1 or 2."
 			}
 		},
 		{
@@ -205,7 +253,10 @@
 				"en": "specified"
 			},
 			"definition": {
-				"en": "Identify clearly and definitely. State a fact or requirement clearly and precisely."
+				"en": "Identify clearly and definitely. State a fact or requirement clearly and precisely. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Fact Learning', and with the 'Interactivity Level' extension \
+				with a value of 1 or 2."
 			}
 		},
 		{
@@ -216,7 +267,10 @@
 				"en": "stated"
 			},
 			"definition": {
-				"en": "Express something definitely or clearly in speech or writing."
+				"en": "Express something definitely or clearly in speech or writing. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Fact Learning', and with the 'Interactivity Level' extension \
+				with a value of 1 or 2."
 			}
 		},
 		{
@@ -227,7 +281,10 @@
 				"en": "told"
 			},
 			"definition": {
-				"en": "Communicate information, facts, or news to someone."
+				"en": "Communicate information, facts, or news to someone. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Fact Learning', and with the 'Interactivity Level' extension \
+				with a value of 1 or 2."
 			}
 		},
 		{
@@ -238,7 +295,10 @@
 				"en": "appraised"
 			},
 			"definition": {
-				"en": "Assess the value or quality of something."
+				"en": "Assess the value or quality of something. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Rule Learning', and with the 'Interactivity Level' extension \
+				with a value of 1 or 2."
 			}
 		},
 		{
@@ -249,7 +309,10 @@
 				"en": "compiled"
 			},
 			"definition": {
-				"en": "Collect information in order to produce something."
+				"en": "Collect information in order to produce something. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Rule Learning', and with the 'Interactivity Level' extension \
+				with a value of 1 or 2."
 			}
 		},
 		{
@@ -260,7 +323,10 @@
 				"en": "composed"
 			},
 			"definition": {
-				"en": "Constitute or make a whole from its parts or elements."
+				"en": "Constitute or make a whole from its parts or elements. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Rule Learning', and with the 'Interactivity Level' extension \
+				with a value of 1 or 2."
 			}
 		},
 		{
@@ -271,7 +337,10 @@
 				"en": "computed"
 			},
 			"definition": {
-				"en": "Make a calculation of a figure or amount."
+				"en": "Make a calculation of a figure or amount. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Rule Learning', and with the 'Interactivity Level' extension \
+				with a value of 1 or 2."
 			}
 		},
 		{
@@ -282,7 +351,10 @@
 				"en": "encrypted"
 			},
 			"definition": {
-				"en": "Convert information or data into a cipher or code, especially to prevent unauthorized access."
+				"en": "Convert information or data into a cipher or code, especially to prevent unauthorized access. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Rule Learning', and with the 'Interactivity Level' extension \
+				with a value of 1 or 2."
 			}
 		},
 		{
@@ -293,7 +365,10 @@
 				"en": "estimated"
 			},
 			"definition": {
-				"en": "Roughly calculate or judge the value, number, quantity, or extent."
+				"en": "Roughly calculate or judge the value, number, quantity, or extent. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Rule Learning', and with the 'Interactivity Level' extension \
+				with a value of 1 or 2."
 			}
 		},
 		{
@@ -304,7 +379,10 @@
 				"en": "evaluated"
 			},
 			"definition": {
-				"en": "Form an idea of the amount, number, or value of; assess."
+				"en": "Form an idea of the amount, number, or value of; assess. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Rule Learning', and with the 'Interactivity Level' extension \
+				with a value of 1 or 2."
 			}
 		},
 		{
@@ -315,7 +393,10 @@
 				"en": "formatted"
 			},
 			"definition": {
-				"en": "Prepare a storage medium to receive data."
+				"en": "Prepare a storage medium to receive data. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Rule Learning', and with the 'Interactivity Level' extension \
+				with a value of 1 or 2."
 			}
 		},
 		{
@@ -326,7 +407,10 @@
 				"en": "forwarded"
 			},
 			"definition": {
-				"en": "Send, dispatch, or redirect data to a further destination."
+				"en": "Send, dispatch, or redirect data to a further destination. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Rule Learning', and with the 'Interactivity Level' extension \
+				with a value of 1 or 2."
 			}
 		},
 		{
@@ -337,7 +421,10 @@
 				"en": "measured"
 			},
 			"definition": {
-				"en": "Ascertain the size, amount, or degree of something by using an instrument or device marked in standard units or by comparing it with an object of known size."
+				"en": "Ascertain the size, amount, or degree of something by using an instrument or device marked in standard units or by comparing it with an object of known size. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Rule Learning', and with the 'Interactivity Level' extension \
+				with a value of 1 or 2."
 			}
 		},
 		{
@@ -348,7 +435,10 @@
 				"en": "outlined"
 			},
 			"definition": {
-				"en": "Provide a summary or rough idea of something."
+				"en": "Provide a summary or rough idea of something. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Rule Learning', and with the 'Interactivity Level' extension \
+				with a value of 1 or 2."
 			}
 		},
 		{
@@ -359,7 +449,10 @@
 				"en": "routed"
 			},
 			"definition": {
-				"en": "Send or direct along a specified course."
+				"en": "Send or direct along a specified course. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Rule Learning', and with the 'Interactivity Level' extension \
+				with a value of 1 or 2."
 			}
 		},
 		{
@@ -370,7 +463,10 @@
 				"en": "checked"
 			},
 			"definition": {
-				"en": "Examine something in order to verify its accuracy, quality, or condition, or to detect the presence of something."
+				"en": "Examine something in order to verify its accuracy, quality, or condition, or to detect the presence of something. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Procedure Learning', and with the 'Interactivity Level' extension \
+				with a value of 2 or 3."
 			}
 		},
 		{
@@ -381,7 +477,10 @@
 				"en": "condensed"
 			},
 			"definition": {
-				"en": "Make something more concentrated."
+				"en": "Make something more concentrated. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Procedure Learning', and with the 'Interactivity Level' extension \
+				with a value of 2 or 3."
 			}
 		},
 		{
@@ -392,7 +491,10 @@
 				"en": "edited"
 			},
 			"definition": {
-				"en": "Change data on a computer or document."
+				"en": "Change data on a computer or document. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Procedure Learning', and with the 'Interactivity Level' extension \
+				with a value of 2 or 3."
 			}
 		},
 		{
@@ -403,7 +505,10 @@
 				"en": "deleted"
 			},
 			"definition": {
-				"en": "Remove data from a computer or document."
+				"en": "Remove data from a computer or document. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Procedure Learning', and with the 'Interactivity Level' extension \
+				with a value of 2 or 3."
 			}
 		},
 		{
@@ -414,7 +519,10 @@
 				"en": "implemented"
 			},
 			"definition": {
-				"en": "Put a decision, plan, agreement, etc.,  into effect."
+				"en": "Put a decision, plan, agreement, etc., into effect. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Procedure Learning', and with the 'Interactivity Level' extension \
+				with a value of 2 or 3."
 			}
 		},
 		{
@@ -425,7 +533,10 @@
 				"en": "initiated"
 			},
 			"definition": {
-				"en": "Cause a process or action to begin."
+				"en": "Cause a process or action to begin. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Procedure Learning', and with the 'Interactivity Level' extension \
+				with a value of 2 or 3."
 			}
 		},
 		{
@@ -436,7 +547,10 @@
 				"en": "paused"
 			},
 			"definition": {
-				"en": "Interrupt an action."
+				"en": "Interrupt an action. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Procedure Learning', and with the 'Interactivity Level' extension \
+				with a value of 2 or 3."
 			}
 		},
 		{
@@ -447,7 +561,12 @@
 				"en": "resumed"
 			},
 			"definition": {
-				"en": "Begin to perform or pursue something again after a pause or interruption."
+				"en": "Begin to perform or pursue something again after a pause or interruption. \
+				Use either with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Procedure Learning', and with the 'Interactivity Level' extension \
+				with a value of 2 or 3; or with the 'KSA' extension with a value of 'A', with the \
+				'Category' extension with a value of 'Responding', and with the 'Interactivity Level' \
+				extension with a value of 2, 3, or 4."
 			}
 		},
 		{
@@ -458,7 +577,10 @@
 				"en": "set up"
 			},
 			"definition": {
-				"en": "Place or bring something into a specified state."
+				"en": "Place or bring something into a specified state. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Procedure Learning', and with the 'Interactivity Level' extension \
+				with a value of 2 or 3."
 			}
 		},
 		{
@@ -469,7 +591,10 @@
 				"en": "started"
 			},
 			"definition": {
-				"en": "Cause something such as an event or process to happen, or to cause machinery to begin working."
+				"en": "Cause something such as an event or process to happen, or to cause machinery to begin working. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Procedure Learning', and with the 'Interactivity Level' extension \
+				with a value of 2 or 3."
 			}
 		},
 		{
@@ -480,7 +605,10 @@
 				"en": "stopped"
 			},
 			"definition": {
-				"en": " Cause something such as an event or process to end, or to cause machinery to cease working."
+				"en": " Cause something such as an event or process to end, or to cause machinery to cease working. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Procedure Learning', and with the 'Interactivity Level' extension \
+				with a value of 2 or 3."
 			}
 		},
 		{
@@ -491,7 +619,10 @@
 				"en": "allocated"
 			},
 			"definition": {
-				"en": "Distribute resources or duties for a particular purpose."
+				"en": "Distribute resources or duties for a particular purpose. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Discrimination Learning', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -502,7 +633,10 @@
 				"en": "arranged"
 			},
 			"definition": {
-				"en": "Organize something into a required order."
+				"en": "Organize something into a required order. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Discrimination Learning', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -513,7 +647,10 @@
 				"en": "assigned"
 			},
 			"definition": {
-				"en": "Designate or set something or someone aside for a specific purpose."
+				"en": "Designate or set something or someone aside for a specific purpose. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Discrimination Learning', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -524,7 +661,10 @@
 				"en": "categorized"
 			},
 			"definition": {
-				"en": "Place in a particular class or group."
+				"en": "Place in a particular class or group. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Discrimination Learning', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -535,7 +675,10 @@
 				"en": "classified"
 			},
 			"definition": {
-				"en": "Arrange a group of people or things in classes or categories according to shared qualities or characteristics."
+				"en": "Arrange a group of people or things in classes or categories according to shared qualities or characteristics. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Discrimination Learning', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -546,7 +689,10 @@
 				"en": "collated"
 			},
 			"definition": {
-				"en": "Collect and combine texts, information, or sets of figures in proper order."
+				"en": "Collect and combine texts, information, or sets of figures in proper order. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Discrimination Learning', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -557,7 +703,10 @@
 				"en": "compared"
 			},
 			"definition": {
-				"en": "Estimate, measure, or make note of the similarity or dissimilarity between one thing and another for purposes of explanation or clarification."
+				"en": "Estimate, measure, or make note of the similarity or dissimilarity between one thing and another for purposes of explanation or clarification. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Discrimination Learning', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -568,7 +717,10 @@
 				"en": "confirmed"
 			},
 			"definition": {
-				"en": "Establish with assurance that something is true."
+				"en": "Establish with assurance that something is true. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Discrimination Learning', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -579,7 +731,10 @@
 				"en": "consolidated"
 			},
 			"definition": {
-				"en": "Combine a number of things into a single more effective or coherent whole."
+				"en": "Combine a number of things into a single more effective or coherent whole. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Discrimination Learning', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -590,7 +745,10 @@
 				"en": "contrasted"
 			},
 			"definition": {
-				"en": "Compare in such a way as to emphasize differences."
+				"en": "Compare in such a way as to emphasize differences. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Discrimination Learning', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -601,7 +759,10 @@
 				"en": "correlated"
 			},
 			"definition": {
-				"en": "Establish a mutual relationship or connection between two or more things."
+				"en": "Establish a mutual relationship or connection between two or more things. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Discrimination Learning', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -612,7 +773,10 @@
 				"en": "cross-checked"
 			},
 			"definition": {
-				"en": "Verify figures or information by using an alternative source or method."
+				"en": "Verify figures or information by using an alternative source or method. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Discrimination Learning', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -623,7 +787,10 @@
 				"en": "designated"
 			},
 			"definition": {
-				"en": "Officially assign a specified status or ascribe a specified name or quality to something or someone."
+				"en": "Officially assign a specified status or ascribe a specified name or quality to something or someone. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Discrimination Learning', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -634,7 +801,10 @@
 				"en": "differentiated"
 			},
 			"definition": {
-				"en": "Recognize or ascertain what makes someone or something different."
+				"en": "Recognize or ascertain what makes someone or something different. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Discrimination Learning', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -645,7 +815,10 @@
 				"en": "discriminated"
 			},
 			"definition": {
-				"en": "Recognize a distinction between one or more things; differentiate."
+				"en": "Recognize a distinction between one or more things; differentiate. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Discrimination Learning', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -656,7 +829,10 @@
 				"en": "distinguished"
 			},
 			"definition": {
-				"en": "Perceive or point out a difference."
+				"en": "Perceive or point out a difference. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Discrimination Learning', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -667,7 +843,10 @@
 				"en": "distributed"
 			},
 			"definition": {
-				"en": "Assign or share data or items across an area."
+				"en": "Assign or share data or items across an area. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Discrimination Learning', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -678,7 +857,10 @@
 				"en": "divided"
 			},
 			"definition": {
-				"en": "Find how many times a number contains another, or separate into parts."
+				"en": "Find how many times a number contains another, or separate into parts. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Discrimination Learning', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -689,7 +871,10 @@
 				"en": "eliminated"
 			},
 			"definition": {
-				"en": "Remove a variable from an equation, typically by substituting another that is shown by a different equation to be equivalent; exclude from consideration"
+				"en": "Remove a variable from an equation, typically by substituting another that is shown by a different equation to be equivalent; exclude from consideration. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Discrimination Learning', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -700,7 +885,10 @@
 				"en": "extracted"
 			},
 			"definition": {
-				"en": "Remove or take out."
+				"en": "Remove or take out. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Discrimination Learning', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -711,7 +899,10 @@
 				"en": "finalized"
 			},
 			"definition": {
-				"en": "Produce or agree on a finished and definitive version of something."
+				"en": "Produce or agree on a finished and definitive version of something. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Discrimination Learning', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -722,7 +913,10 @@
 				"en": "grouped"
 			},
 			"definition": {
-				"en": "Put together or place into categories or classifications."
+				"en": "Put together or place into categories or classifications. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Discrimination Learning', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -733,7 +927,10 @@
 				"en": "labeled"
 			},
 			"definition": {
-				"en": "Assign or designate something to a category."
+				"en": "Assign or designate something to a category. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Discrimination Learning', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -744,7 +941,10 @@
 				"en": "leveled"
 			},
 			"definition": {
-				"en": "Make something equal or similar in order to remove a disparity."
+				"en": "Make something equal or similar in order to remove a disparity. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Discrimination Learning', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -755,7 +955,10 @@
 				"en": "matched"
 			},
 			"definition": {
-				"en": "Put in a set possessing equal or harmonizing attributes."
+				"en": "Put in a set possessing equal or harmonizing attributes. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Discrimination Learning', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -766,7 +969,10 @@
 				"en": "organized"
 			},
 			"definition": {
-				"en": "Form into a coherent unity or functioning whole."
+				"en": "Form into a coherent unity or functioning whole. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Discrimination Learning', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -777,7 +983,10 @@
 				"en": "ranked"
 			},
 			"definition": {
-				"en": "Determine the relative position of something."
+				"en": "Determine the relative position of something. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Discrimination Learning', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -788,7 +997,10 @@
 				"en": "realigned"
 			},
 			"definition": {
-				"en": "Change the position, direction, or organization of something again usually in relation to something else"
+				"en": "Change the position, direction, or organization of something again usually in relation to something else. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Discrimination Learning', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -799,7 +1011,10 @@
 				"en": "redistributed"
 			},
 			"definition": {
-				"en": "Alter the distribution of data or items across an area ."
+				"en": "Alter the distribution of data or items across an area. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Discrimination Learning', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -810,7 +1025,10 @@
 				"en": "reexamined"
 			},
 			"definition": {
-				"en": " Examine again or further."
+				"en": "Examine again or further. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Discrimination Learning', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -821,7 +1039,10 @@
 				"en": "reorganized"
 			},
 			"definition": {
-				"en": "Change the way in which something is organized."
+				"en": "Change the way in which something is organized. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Discrimination Learning', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -832,7 +1053,10 @@
 				"en": "restated"
 			},
 			"definition": {
-				"en": "State something again or differently, especially in order to correct or to make more clear or convincing."
+				"en": "State something again or differently, especially in order to correct or to make more clear or convincing. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Discrimination Learning', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -843,7 +1067,10 @@
 				"en": "scheduled"
 			},
 			"definition": {
-				"en": "Arrange or plan something to take place at a particular time."
+				"en": "Arrange or plan something to take place at a particular time. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Discrimination Learning', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -854,7 +1081,10 @@
 				"en": "selected"
 			},
 			"definition": {
-				"en": "Carefully choose as being the best or most suitable"
+				"en": "Carefully choose as being the best or most suitable. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Discrimination Learning', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -865,7 +1095,10 @@
 				"en": "separated"
 			},
 			"definition": {
-				"en": "Cause to move or be apart."
+				"en": "Cause to move or be apart. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Discrimination Learning', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -876,7 +1109,10 @@
 				"en": "sorted"
 			},
 			"definition": {
-				"en": "Arrange systematically in groups; separate according to type, class, etc…"
+				"en": "Arrange systematically in groups; separate according to type, class, etc… \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Discrimination Learning', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -887,7 +1123,10 @@
 				"en": "tasked"
 			},
 			"definition": {
-				"en": "Assign a piece of work to someone or something."
+				"en": "Assign a piece of work to someone or something. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Discrimination Learning', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -898,7 +1137,10 @@
 				"en": "templated"
 			},
 			"definition": {
-				"en": "Set up text or data using a template."
+				"en": "Set up text or data using a template. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Discrimination Learning', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -909,7 +1151,10 @@
 				"en": "translated"
 			},
 			"definition": {
-				"en": "Express the sense of words or text in another language; move from one place or condition to another."
+				"en": "Express the sense of words or text in another language; move from one place or condition to another. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Discrimination Learning', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -920,7 +1165,10 @@
 				"en": "tuned"
 			},
 			"definition": {
-				"en": "Adjust or adapt something to a particular purpose, situation, or frequency."
+				"en": "Adjust or adapt something to a particular purpose, situation, or frequency. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Discrimination Learning', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -931,7 +1179,10 @@
 				"en": "analyzed"
 			},
 			"definition": {
-				"en": "Examine methodically and in detail the constitution or structure of something, especially information, typically for purposes of explanation and interpretation."
+				"en": "Examine methodically and in detail the constitution or structure of something, especially information, typically for purposes of explanation and interpretation. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Problem Solving', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -942,7 +1193,10 @@
 				"en": "annotated"
 			},
 			"definition": {
-				"en": "Add notes to a text or diagram giving explanation or comment."
+				"en": "Add notes to a text or diagram giving explanation or comment. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Problem Solving', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -953,7 +1207,10 @@
 				"en": "applied"
 			},
 			"definition": {
-				"en": "Be applicable or relevant."
+				"en": "Be applicable or relevant. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Problem Solving', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -964,7 +1221,10 @@
 				"en": "changed"
 			},
 			"definition": {
-				"en": "Make or become different."
+				"en": "Make or become different. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Problem Solving', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -975,7 +1235,10 @@
 				"en": "combined"
 			},
 			"definition": {
-				"en": "Unite or merge one thing with another."
+				"en": "Unite or merge one thing with another. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Problem Solving', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -986,7 +1249,10 @@
 				"en": "concluded"
 			},
 			"definition": {
-				"en": "Arrive at a judgment or opinion by reasoning; bring something to an end."
+				"en": "Arrive at a judgment or opinion by reasoning; bring something to an end. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Problem Solving', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -997,7 +1263,10 @@
 				"en": "converted"
 			},
 			"definition": {
-				"en": "Cause to change in form, character, or function."
+				"en": "Cause to change in form, character, or function. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Problem Solving', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -1008,7 +1277,10 @@
 				"en": "created"
 			},
 			"definition": {
-				"en": "Bring something into existence as a result of one’s actions."
+				"en": "Bring something into existence as a result of one’s actions. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Problem Solving', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -1019,7 +1291,10 @@
 				"en": "criticized"
 			},
 			"definition": {
-				"en": "Form and express a sophisticated judgment of something or someone."
+				"en": "Form and express a sophisticated judgment of something or someone. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Problem Solving', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -1030,7 +1305,10 @@
 				"en": "decided"
 			},
 			"definition": {
-				"en": "Make a choice from a number of alternatives; come to a resolution."
+				"en": "Make a choice from a number of alternatives; come to a resolution. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Problem Solving', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -1041,7 +1319,10 @@
 				"en": "defended"
 			},
 			"definition": {
-				"en": "Speak or write in favor of an action or person; attempt to justify."
+				"en": "Speak or write in favor of an action or person; attempt to justify. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Problem Solving', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -1052,7 +1333,10 @@
 				"en": "derived"
 			},
 			"definition": {
-				"en": "Base a concept on a logical extension or modification of another concept."
+				"en": "Base a concept on a logical extension or modification of another concept. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Problem Solving', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -1063,7 +1347,10 @@
 				"en": "designed"
 			},
 			"definition": {
-				"en": "Do or plan something with a specific purpose or intention in mind."
+				"en": "Do or plan something with a specific purpose or intention in mind. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Problem Solving', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -1074,7 +1361,10 @@
 				"en": "determined"
 			},
 			"definition": {
-				"en": "Ascertain or establish exactly, typically as a result of research or calculation."
+				"en": "Ascertain or establish exactly, typically as a result of research or calculation. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Problem Solving', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -1085,7 +1375,10 @@
 				"en": "diagrammed"
 			},
 			"definition": {
-				"en": "Represent something in graphic form."
+				"en": "Represent something in graphic form. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Problem Solving', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -1096,7 +1389,10 @@
 				"en": "discovered"
 			},
 			"definition": {
-				"en": "Become aware of a fact or situation."
+				"en": "Become aware of a fact or situation. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Problem Solving', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -1107,7 +1403,10 @@
 				"en": "drafted"
 			},
 			"definition": {
-				"en": "Prepare a preliminary version of a text."
+				"en": "Prepare a preliminary version of a text. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Problem Solving', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -1118,7 +1417,10 @@
 				"en": "effected"
 			},
 			"definition": {
-				"en": "Cause something to happen; bring about."
+				"en": "Cause something to happen; bring about. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Problem Solving', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -1129,7 +1431,10 @@
 				"en": "explained"
 			},
 			"definition": {
-				"en": "Make an idea, situation, or problem clear to someone by describing it in more detail or revealing relevant facts or ideas."
+				"en": "Make an idea, situation, or problem clear to someone by describing it in more detail or revealing relevant facts or ideas. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Problem Solving', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -1140,7 +1445,10 @@
 				"en": "extended"
 			},
 			"definition": {
-				"en": "Cause to cover a larger area; make or last longer or make wider; include within one’s scope."
+				"en": "Cause to cover a larger area; make or last longer or make wider; include within one’s scope. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Problem Solving', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -1151,7 +1459,10 @@
 				"en": "found"
 			},
 			"definition": {
-				"en": "Recognize or discover something to be present."
+				"en": "Recognize or discover something to be present. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Problem Solving', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -1162,7 +1473,10 @@
 				"en": "generalized"
 			},
 			"definition": {
-				"en": "Make a general or broad statement by inferring from specific cases."
+				"en": "Make a general or broad statement by inferring from specific cases. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Problem Solving', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -1173,7 +1487,10 @@
 				"en": "generated"
 			},
 			"definition": {
-				"en": "Cause something to arise or come about; produce a set or sequence of items by performing specified mathematical or logical operations on an initial set."
+				"en": "Cause something to arise or come about; produce a set or sequence of items by performing specified mathematical or logical operations on an initial set. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Problem Solving', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -1184,7 +1501,10 @@
 				"en": "hypothesized"
 			},
 			"definition": {
-				"en": "Put (something) forward as a hypothesis."
+				"en": "Put (something) forward as a hypothesis. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Problem Solving', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -1195,7 +1515,10 @@
 				"en": "illustrated"
 			},
 			"definition": {
-				"en": "Explain or make something clear by using examples, charts, pictures, etc."
+				"en": "Explain or make something clear by using examples, charts, pictures, etc. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Problem Solving', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -1206,7 +1529,10 @@
 				"en": "inferred"
 			},
 			"definition": {
-				"en": "Deduce or conclude (information) from evidence and reasoning rather than from explicit statements."
+				"en": "Deduce or conclude (information) from evidence and reasoning rather than from explicit statements. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Problem Solving', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -1217,7 +1543,10 @@
 				"en": "investigated"
 			},
 			"definition": {
-				"en": "Carry out research or study into a subject, typically one in a scientific or academic field so as to discover facts or information."
+				"en": "Carry out research or study into a subject, typically one in a scientific or academic field so as to discover facts or information. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Problem Solving', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -1228,7 +1557,10 @@
 				"en": "located"
 			},
 			"definition": {
-				"en": "Discover the exact place or position of something or someone."
+				"en": "Discover the exact place or position of something or someone. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Problem Solving', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -1239,7 +1571,10 @@
 				"en": "manipulated"
 			},
 			"definition": {
-				"en": "Alter, edit, or move text or data on a computer; exert control or influence over a person or situation."
+				"en": "Alter, edit, or move text or data on a computer; exert control or influence over a person or situation. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Problem Solving', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -1250,7 +1585,10 @@
 				"en": "modified"
 			},
 			"definition": {
-				"en": "Make partial or minor changes to something, typically so as to improve it or to make it less extreme."
+				"en": "Make partial or minor changes to something, typically so as to improve it or to make it less extreme. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Problem Solving', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -1261,7 +1599,10 @@
 				"en": "planned"
 			},
 			"definition": {
-				"en": "Form a detailed proposal or diagram for doing, arranging or achieving something."
+				"en": "Form a detailed proposal or diagram for doing, arranging or achieving something. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Problem Solving', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -1272,7 +1613,10 @@
 				"en": "predicted"
 			},
 			"definition": {
-				"en": "Say or estimate that a specified thing will happen in the future or will be a consequence of something."
+				"en": "Say or estimate that a specified thing will happen in the future or will be a consequence of something. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Problem Solving', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -1283,7 +1627,10 @@
 				"en": "produced"
 			},
 			"definition": {
-				"en": "Show or provide something for consideration, inspection, or use."
+				"en": "Show or provide something for consideration, inspection, or use. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Problem Solving', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -1294,7 +1641,10 @@
 				"en": "projected"
 			},
 			"definition": {
-				"en": "Estimate or forecast something on the basis of present trends."
+				"en": "Estimate or forecast something on the basis of present trends. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Problem Solving', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -1305,7 +1655,10 @@
 				"en": "resolved"
 			},
 			"definition": {
-				"en": "Settle or find a solution to a problem."
+				"en": "Settle or find a solution to a problem. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Problem Solving', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -1316,7 +1669,10 @@
 				"en": "revised"
 			},
 			"definition": {
-				"en": "Reconsider and alter something in the light of further evidence."
+				"en": "Reconsider and alter something in the light of further evidence. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Problem Solving', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -1327,7 +1683,10 @@
 				"en": "searched"
 			},
 			"definition": {
-				"en": "Try to find something by looking or otherwise seeking carefully and thoroughly."
+				"en": "Try to find something by looking or otherwise seeking carefully and thoroughly. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Problem Solving', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -1338,7 +1697,10 @@
 				"en": "solved"
 			},
 			"definition": {
-				"en": "Find an answer to, explanation for, or means of effectively dealing with a problem or mystery."
+				"en": "Find an answer to, explanation for, or means of effectively dealing with a problem or mystery. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Problem Solving', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -1349,7 +1711,10 @@
 				"en": "summarized"
 			},
 			"definition": {
-				"en": "Give a brief statement of the main points of something."
+				"en": "Give a brief statement of the main points of something. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Problem Solving', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -1360,7 +1725,10 @@
 				"en": "synthesized"
 			},
 			"definition": {
-				"en": "Combine a number of things into a coherent whole."
+				"en": "Combine a number of things into a coherent whole. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Problem Solving', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -1371,7 +1739,10 @@
 				"en": "triaged"
 			},
 			"definition": {
-				"en": " Assign degrees of urgency to situations; or medically to wounded or ill patients."
+				"en": " Assign degrees of urgency to situations; or medically to wounded or ill patients. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Problem Solving', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -1382,7 +1753,10 @@
 				"en": "used"
 			},
 			"definition": {
-				"en": "Take, hold, or deploy something as a means of accomplishing a purpose or achieving a result; employ."
+				"en": "Take, hold, or deploy something as a means of accomplishing a purpose or achieving a result; employ. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Problem Solving', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -1393,7 +1767,10 @@
 				"en": "war gamed"
 			},
 			"definition": {
-				"en": "Engage in a campaign or course of action using the strategies of a military exercise."
+				"en": "Engage in a campaign or course of action using the strategies of a military exercise. \
+				Use with the 'KSA' extension with a value of 'K', with the 'Category' extension \
+				with a value of 'Problem Solving', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -1404,7 +1781,10 @@
 				"en": "detected"
 			},
 			"definition": {
-				"en": "Discover or identify the presence or existence of something or someone."
+				"en": "Discover or identify the presence or existence of something or someone. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Perception', and with the 'Interactivity Level' extension \
+				with a value of 1, 2, or 3."
 			}
 		},
 		{
@@ -1415,7 +1795,10 @@
 				"en": "felt"
 			},
 			"definition": {
-				"en": "Be aware of a person or object through touching or being touched."
+				"en": "Be aware of a person or object through touching or being touched. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Perception', and with the 'Interactivity Level' extension \
+				with a value of 1, 2, or 3."
 			}
 		},
 		{
@@ -1426,7 +1809,10 @@
 				"en": "heard"
 			},
 			"definition": {
-				"en": "Perceive with the ear the sound made by someone or something."
+				"en": "Perceive with the ear the sound made by someone or something. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Perception', and with the 'Interactivity Level' extension \
+				with a value of 1, 2, or 3."
 			}
 		},
 		{
@@ -1437,7 +1823,10 @@
 				"en": "scanned"
 			},
 			"definition": {
-				"en": "Look at all parts of something carefully in order to detect some feature."
+				"en": "Look at all parts of something carefully in order to detect some feature. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Perception', and with the 'Interactivity Level' extension \
+				with a value of 1, 2, or 3."
 			}
 		},
 		{
@@ -1448,7 +1837,10 @@
 				"en": "saw"
 			},
 			"definition": {
-				"en": "Perceive with the eyes; discern visually."
+				"en": "Perceive with the eyes; discern visually. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Perception', and with the 'Interactivity Level' extension \
+				with a value of 1, 2, or 3."
 			}
 		},
 		{
@@ -1459,7 +1851,10 @@
 				"en": "smelled"
 			},
 			"definition": {
-				"en": "Perceive or detect the odor or scent of something."
+				"en": "Perceive or detect the odor or scent of something. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Perception', and with the 'Interactivity Level' extension \
+				with a value of 1, 2, or 3."
 			}
 		},
 		{
@@ -1470,7 +1865,10 @@
 				"en": "tasted"
 			},
 			"definition": {
-				"en": "Perceive or experience the flavor of something."
+				"en": "Perceive or experience the flavor of something. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Perception', and with the 'Interactivity Level' extension \
+				with a value of 1, 2, or 3."
 			}
 		},
 		{
@@ -1481,7 +1879,10 @@
 				"en": "visualized"
 			},
 			"definition": {
-				"en": "Form a mental image of something; imagine."
+				"en": "Form a mental image of something; imagine. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Perception', and with the 'Interactivity Level' extension \
+				with a value of 1, 2, or 3."
 			}
 		},
 		{
@@ -1492,7 +1893,10 @@
 				"en": "assaulted"
 			},
 			"definition": {
-				"en": "Make a physical attack on; carry out a military attack or raid on an enemy position."
+				"en": "Make a physical attack on; carry out a military attack or raid on an enemy position. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Gross Motor Skills', and with the 'Interactivity Level' extension \
+				with a value of 2 or 3."
 			}
 		},
 		{
@@ -1503,7 +1907,10 @@
 				"en": "carried"
 			},
 			"definition": {
-				"en": "Support and move someone or something from one place to another."
+				"en": "Support and move someone or something from one place to another. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Gross Motor Skills', and with the 'Interactivity Level' extension \
+				with a value of 2 or 3."
 			}
 		},
 		{
@@ -1514,7 +1921,10 @@
 				"en": "crept"
 			},
 			"definition": {
-				"en": "Move slowly and carefully, especially in order to avoid being heard or noticed."
+				"en": "Move slowly and carefully, especially in order to avoid being heard or noticed. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Gross Motor Skills', and with the 'Interactivity Level' extension \
+				with a value of 2 or 3."
 			}
 		},
 		{
@@ -1525,7 +1935,10 @@
 				"en": "departed"
 			},
 			"definition": {
-				"en": "Leave, typically in order to start a journey."
+				"en": "Leave, typically in order to start a journey. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Gross Motor Skills', and with the 'Interactivity Level' extension \
+				with a value of 2 or 3."
 			}
 		},
 		{
@@ -1536,7 +1949,10 @@
 				"en": "fell"
 			},
 			"definition": {
-				"en": "Move downward, typically rapidly and freely without control, from a higher to a lower level."
+				"en": "Move downward, typically rapidly and freely without control, from a higher to a lower level. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Gross Motor Skills', and with the 'Interactivity Level' extension \
+				with a value of 2 or 3."
 			}
 		},
 		{
@@ -1547,7 +1963,10 @@
 				"en": "held"
 			},
 			"definition": {
-				"en": "Grasp, carry, or support with one's arms or hands; (of a ship or an aircraft) continue to follow a particular course."
+				"en": "Grasp, carry, or support with one's arms or hands; (of a ship or an aircraft) continue to follow a particular course. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Gross Motor Skills', and with the 'Interactivity Level' extension \
+				with a value of 2 or 3."
 			}
 		},
 		{
@@ -1558,7 +1977,10 @@
 				"en": "lifted"
 			},
 			"definition": {
-				"en": "Raise to a higher position or level."
+				"en": "Raise to a higher position or level. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Gross Motor Skills', and with the 'Interactivity Level' extension \
+				with a value of 2 or 3."
 			}
 		},
 		{
@@ -1569,7 +1991,10 @@
 				"en": "pulled"
 			},
 			"definition": {
-				"en": "Exert force on someone or something, typically by taking hold of them, in order to move or try to move them toward oneself or the origin of the force."
+				"en": "Exert force on someone or something, typically by taking hold of them, in order to move or try to move them toward oneself or the origin of the force. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Gross Motor Skills', and with the 'Interactivity Level' extension \
+				with a value of 2 or 3."
 			}
 		},
 		{
@@ -1580,7 +2005,10 @@
 				"en": "ran"
 			},
 			"definition": {
-				"en": "Move at a speed faster than a walk, never having both or all the feet on the ground at the same time."
+				"en": "Move at a speed faster than a walk, never having both or all the feet on the ground at the same time. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Gross Motor Skills', and with the 'Interactivity Level' extension \
+				with a value of 2 or 3."
 			}
 		},
 		{
@@ -1591,7 +2019,10 @@
 				"en": "stayed"
 			},
 			"definition": {
-				"en": "Remain in the same place."
+				"en": "Remain in the same place. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Gross Motor Skills', and with the 'Interactivity Level' extension \
+				with a value of 2 or 3."
 			}
 		},
 		{
@@ -1602,7 +2033,10 @@
 				"en": "swam"
 			},
 			"definition": {
-				"en": "Propel the body through water by using the limbs or other bodily movement."
+				"en": "Propel the body through water by using the limbs or other bodily movement. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Gross Motor Skills', and with the 'Interactivity Level' extension \
+				with a value of 2 or 3."
 			}
 		},
 		{
@@ -1613,7 +2047,10 @@
 				"en": "threw"
 			},
 			"definition": {
-				"en": "Propel something with force through the air by a movement of the arm and hand."
+				"en": "Propel something with force through the air by a movement of the arm and hand. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Gross Motor Skills', and with the 'Interactivity Level' extension \
+				with a value of 2 or 3."
 			}
 		},
 		{
@@ -1624,7 +2061,10 @@
 				"en": "turned"
 			},
 			"definition": {
-				"en": "Move or cause to move in a circular direction wholly or partly around an axis or point."
+				"en": "Move or cause to move in a circular direction wholly or partly around an axis or point. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Gross Motor Skills', and with the 'Interactivity Level' extension \
+				with a value of 2 or 3."
 			}
 		},
 		{
@@ -1635,7 +2075,10 @@
 				"en": "twisted"
 			},
 			"definition": {
-				"en": "Form into a bent, curling, or distorted shape."
+				"en": "Form into a bent, curling, or distorted shape. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Gross Motor Skills', and with the 'Interactivity Level' extension \
+				with a value of 2 or 3."
 			}
 		},
 		{
@@ -1646,7 +2089,10 @@
 				"en": "wore"
 			},
 			"definition": {
-				"en": "Have on one's body or a part of one's body as clothing, decoration, protection, or for some other purpose."
+				"en": "Have on one's body or a part of one's body as clothing, decoration, protection, or for some other purpose. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Gross Motor Skills', and with the 'Interactivity Level' extension \
+				with a value of 2 or 3."
 			}
 		},
 		{
@@ -1657,7 +2103,10 @@
 				"en": "advanced"
 			},
 			"definition": {
-				"en": "Move forward, typically in a purposeful way."
+				"en": "Move forward, typically in a purposeful way. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Continuous Movement', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -1668,7 +2117,10 @@
 				"en": "controlled"
 			},
 			"definition": {
-				"en": "The power to influence or direct people's behavior or the course of events; the ability to manage a machine, vehicle, or other moving object."
+				"en": "The power to influence or direct people's behavior or the course of events; the ability to manage a machine, vehicle, or other moving object. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Continuous Movement', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -1679,7 +2131,10 @@
 				"en": "followed"
 			},
 			"definition": {
-				"en": "Go or come after a person or thing proceeding ahead; move or travel behind."
+				"en": "Go or come after a person or thing proceeding ahead; move or travel behind. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Continuous Movement', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -1690,7 +2145,10 @@
 				"en": "guided"
 			},
 			"definition": {
-				"en": "Show or indicate the way to someone or something."
+				"en": "Show or indicate the way to someone or something. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Continuous Movement', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -1701,7 +2159,10 @@
 				"en": "hovered"
 			},
 			"definition": {
-				"en": "Remain in one place in the air."
+				"en": "Remain in one place in the air. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Continuous Movement', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -1712,7 +2173,10 @@
 				"en": "landed"
 			},
 			"definition": {
-				"en": "Come down through the air and alight on the ground; bring an aircraft or spacecraft or similar object to the ground or the surface of water, especially in a controlled way."
+				"en": "Come down through the air and alight on the ground; bring an aircraft or spacecraft or similar object to the ground or the surface of water, especially in a controlled way. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Continuous Movement', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -1723,7 +2187,10 @@
 				"en": "maneuvered"
 			},
 			"definition": {
-				"en": "Move skillfully or carefully; guide or manipulate something in order to achieve an end."
+				"en": "Move skillfully or carefully; guide or manipulate something in order to achieve an end. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Continuous Movement', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -1734,7 +2201,10 @@
 				"en": "regulated"
 			},
 			"definition": {
-				"en": "Control or maintain the rate or speed of a machine or process so that it operates properly."
+				"en": "Control or maintain the rate or speed of a machine or process so that it operates properly. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Continuous Movement', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -1745,7 +2215,10 @@
 				"en": "steered"
 			},
 			"definition": {
-				"en": "Guide or control the movement of a vehicle, vessel, or aircraft, for example by turning a wheel or operating a rudder."
+				"en": "Guide or control the movement of a vehicle, vessel, or aircraft, for example by turning a wheel or operating a rudder. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Continuous Movement', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -1756,7 +2229,10 @@
 				"en": "took off"
 			},
 			"definition": {
-				"en": "Become airborne."
+				"en": "Become airborne. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Continuous Movement', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -1767,7 +2243,10 @@
 				"en": "tracked"
 			},
 			"definition": {
-				"en": "Follow the course or trail of someone or something, typically in order to find them or note their location at various points."
+				"en": "Follow the course or trail of someone or something, typically in order to find them or note their location at various points. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Continuous Movement', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -1778,7 +2257,10 @@
 				"en": "traversed"
 			},
 			"definition": {
-				"en": "Travel across or through a location."
+				"en": "Travel across or through a location. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Continuous Movement', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -1789,7 +2271,10 @@
 				"en": "abled"
 			},
 			"definition": {
-				"en": "Gain a quality sufficient to perform a task. NOTE: Able intends to show readiness from a military perspective. While technical it is not a verb, The DoD utilizes it as active. Example, Able yourself!"
+				"en": "Gain a quality sufficient to perform a task. NOTE: Able intends to show readiness from a military perspective. While technical it is not a verb, The DoD utilizes it as active. Example, Able yourself! \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Readiness', and with the 'Interactivity Level' extension \
+				with a value of 2 or 3."
 			}
 		},
 		{
@@ -1800,7 +2285,10 @@
 				"en": "assisted"
 			},
 			"definition": {
-				"en": "Help someone, typically by doing a share of the work."
+				"en": "Help someone, typically by doing a share of the work. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Readiness', and with the 'Interactivity Level' extension \
+				with a value of 2 or 3."
 			}
 		},
 		{
@@ -1811,7 +2299,10 @@
 				"en": "challenged"
 			},
 			"definition": {
-				"en": "Make a rival claim to or threaten someone's hold on a position."
+				"en": "Make a rival claim to or threaten someone's hold on a position. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Readiness', and with the 'Interactivity Level' extension \
+				with a value of 2 or 3."
 			}
 		},
 		{
@@ -1822,7 +2313,10 @@
 				"en": "crossed"
 			},
 			"definition": {
-				"en": "Pass in an opposite or different direction; intersect."
+				"en": "Pass in an opposite or different direction; intersect. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Readiness', and with the 'Interactivity Level' extension \
+				with a value of 2 or 3."
 			}
 		},
 		{
@@ -1833,7 +2327,10 @@
 				"en": "delayed"
 			},
 			"definition": {
-				"en": "Postpone or defer an action."
+				"en": "Postpone or defer an action. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Readiness', and with the 'Interactivity Level' extension \
+				with a value of 2 or 3."
 			}
 		},
 		{
@@ -1844,7 +2341,10 @@
 				"en": "guarded"
 			},
 			"definition": {
-				"en": "Watch over in order to protect or control."
+				"en": "Watch over in order to protect or control. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Readiness', and with the 'Interactivity Level' extension \
+				with a value of 2 or 3."
 			}
 		},
 		{
@@ -1855,7 +2355,10 @@
 				"en": "prepared"
 			},
 			"definition": {
-				"en": "Make something or someone ready for use or consideration."
+				"en": "Make something or someone ready for use or consideration. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Readiness', and with the 'Interactivity Level' extension \
+				with a value of 2 or 3."
 			}
 		},
 		{
@@ -1866,7 +2369,10 @@
 				"en": "primed"
 			},
 			"definition": {
-				"en": "Make something ready for use or action, in particular by using oil or fuel in a piece of machinery or a firearm."
+				"en": "Make something ready for use or action, in particular by using oil or fuel in a piece of machinery or a firearm. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Readiness', and with the 'Interactivity Level' extension \
+				with a value of 2 or 3."
 			}
 		},
 		{
@@ -1877,7 +2383,10 @@
 				"en": "readied"
 			},
 			"definition": {
-				"en": "Prepare someone or something for an activity or purpose."
+				"en": "Prepare someone or something for an activity or purpose. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Readiness', and with the 'Interactivity Level' extension \
+				with a value of 2 or 3."
 			}
 		},
 		{
@@ -1888,7 +2397,10 @@
 				"en": "set"
 			},
 			"definition": {
-				"en": "Put, lay, stand, or cause something in a specified place or position."
+				"en": "Put, lay, stand, or cause something in a specified place or position. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Readiness', and with the 'Interactivity Level' extension \
+				with a value of 2 or 3."
 			}
 		},
 		{
@@ -1899,7 +2411,10 @@
 				"en": "stood to"
 			},
 			"definition": {
-				"en": "Stand ready for an attack, especially one before dawn or after dark."
+				"en": "Stand ready for an attack, especially one before dawn or after dark. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Readiness', and with the 'Interactivity Level' extension \
+				with a value of 2 or 3."
 			}
 		},
 		{
@@ -1910,7 +2425,10 @@
 				"en": "accessed"
 			},
 			"definition": {
-				"en": "Approach or enter a place; obtain, examine, or retrieve data or a file."
+				"en": "Approach or enter a place; obtain, examine, or retrieve data or a file. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -1921,7 +2439,10 @@
 				"en": "activated"
 			},
 			"definition": {
-				"en": "Make something active or operative."
+				"en": "Make something active or operative. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -1932,7 +2453,10 @@
 				"en": "actuated"
 			},
 			"definition": {
-				"en": "Cause a machine or device to operate."
+				"en": "Cause a machine or device to operate. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -1943,7 +2467,10 @@
 				"en": "adjusted"
 			},
 			"definition": {
-				"en": "Alter or move something slightly in order to achieve the desired fit, appearance, or result."
+				"en": "Alter or move something slightly in order to achieve the desired fit, appearance, or result. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -1954,7 +2481,10 @@
 				"en": "administered"
 			},
 			"definition": {
-				"en": "Manage and be responsible for the operation or use of a resource, team, organization, etc."
+				"en": "Manage and be responsible for the operation or use of a resource, team, organization, etc. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -1965,7 +2495,10 @@
 				"en": "aligned"
 			},
 			"definition": {
-				"en": "Lie in a straight line, or in correct relative positions."
+				"en": "Lie in a straight line, or in correct relative positions. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -1976,7 +2509,10 @@
 				"en": "archived"
 			},
 			"definition": {
-				"en": "Place or store something in an archive."
+				"en": "Place or store something in an archive. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -1987,7 +2523,10 @@
 				"en": "armed"
 			},
 			"definition": {
-				"en": "Supply or provide with weapons; activate a weapon so that it is ready."
+				"en": "Supply or provide with weapons; activate a weapon so that it is ready. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -1998,7 +2537,10 @@
 				"en": "assembled"
 			},
 			"definition": {
-				"en": "Fit together the separate component parts of a machine or other object; bring people or things together for a common purpose."
+				"en": "Fit together the separate component parts of a machine or other object; bring people or things together for a common purpose. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2009,7 +2551,10 @@
 				"en": "attached"
 			},
 			"definition": {
-				"en": "Fasten; join one thing to another."
+				"en": "Fasten; join one thing to another. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2020,7 +2565,10 @@
 				"en": "balanced"
 			},
 			"definition": {
-				"en": "Establish equal or appropriate proportions of elements; keep or put something in a steady position."
+				"en": "Establish equal or appropriate proportions of elements; keep or put something in a steady position. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2031,7 +2579,10 @@
 				"en": "breached"
 			},
 			"definition": {
-				"en": "Make a gap in and break through a wall, barrier, or defense."
+				"en": "Make a gap in and break through a wall, barrier, or defense. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2042,7 +2593,10 @@
 				"en": "calibrated"
 			},
 			"definition": {
-				"en": "Correlate the readings of an instrument with those of a standard in order to check the instrument's accuracy.; adjust experimental results to take external factors into account or to allow comparison with other data."
+				"en": "Correlate the readings of an instrument with those of a standard in order to check the instrument's accuracy.; adjust experimental results to take external factors into account or to allow comparison with other data. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2053,7 +2607,10 @@
 				"en": "camouflaged"
 			},
 			"definition": {
-				"en": "Hide or disguise the presence of (a person, animal, or object) by means of camouflage."
+				"en": "Hide or disguise the presence of (a person, animal, or object) by means of camouflage. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2064,7 +2621,10 @@
 				"en": "centered"
 			},
 			"definition": {
-				"en": "Place in the middle (physical); have or cause to have something as a major concern or theme (mental)."
+				"en": "Place in the middle (physical); have or cause to have something as a major concern or theme (mental). \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2075,7 +2635,10 @@
 				"en": "charged"
 			},
 			"definition": {
-				"en": "Rush forward in attack; store electrical energy in a battery or battery-operated device; entrust someone with a task as a duty or responsibility."
+				"en": "Rush forward in attack; store electrical energy in a battery or battery-operated device; entrust someone with a task as a duty or responsibility. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2086,7 +2649,10 @@
 				"en": "cleaned"
 			},
 			"definition": {
-				"en": "Make something or someone free of dirt or unwanted matter, marks, or mess, especially by washing, wiping, or brushing."
+				"en": "Make something or someone free of dirt or unwanted matter, marks, or mess, especially by washing, wiping, or brushing. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2097,7 +2663,10 @@
 				"en": "cleared"
 			},
 			"definition": {
-				"en": "Remove an obstruction or unwanted item from somewhere."
+				"en": "Remove an obstruction or unwanted item from somewhere. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2108,7 +2677,10 @@
 				"en": "closed"
 			},
 			"definition": {
-				"en": "Move or cause to move so as to cover an opening."
+				"en": "Move or cause to move so as to cover an opening. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2119,7 +2691,10 @@
 				"en": "collected"
 			},
 			"definition": {
-				"en": "Bring or gather together things."
+				"en": "Bring or gather together things. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2130,7 +2705,10 @@
 				"en": "connected"
 			},
 			"definition": {
-				"en": "Bring together or into contact so that a real or notional link is established."
+				"en": "Bring together or into contact so that a real or notional link is established. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2141,7 +2719,10 @@
 				"en": "covered"
 			},
 			"definition": {
-				"en": "Put something such as a cloth or lid on top of or in front of something in order to protect or conceal it; aim a gun at someone in order to prevent them from moving or escaping."
+				"en": "Put something such as a cloth or lid on top of or in front of something in order to protect or conceal it; aim a gun at someone in order to prevent them from moving or escaping. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2152,7 +2733,10 @@
 				"en": "debriefed"
 			},
 			"definition": {
-				"en": "Question someone, typically in a military position about a completed mission or undertaking."
+				"en": "Question someone, typically in a military position about a completed mission or undertaking. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2163,7 +2747,10 @@
 				"en": "debugged"
 			},
 			"definition": {
-				"en": "Identify and remove errors from computer hardware or software; detect and remove concealed microphones from an area."
+				"en": "Identify and remove errors from computer hardware or software; detect and remove concealed microphones from an area. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2174,7 +2761,10 @@
 				"en": "decontaminated"
 			},
 			"definition": {
-				"en": "Neutralize or remove dangerous substances, radioactivity, or germs from an area, object, or person."
+				"en": "Neutralize or remove dangerous substances, radioactivity, or germs from an area, object, or person. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2185,7 +2775,10 @@
 				"en": "delivered"
 			},
 			"definition": {
-				"en": "Bring and hand over an object; launch or aim an attack."
+				"en": "Bring and hand over an object; launch or aim an attack. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2196,7 +2789,10 @@
 				"en": "destroyed"
 			},
 			"definition": {
-				"en": "Put an end to the existence of something by damaging or attacking it"
+				"en": "Put an end to the existence of something by damaging or attacking it. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2207,7 +2803,10 @@
 				"en": "diagnosed"
 			},
 			"definition": {
-				"en": "Identify the nature of an illness or other problem by examination of the symptoms."
+				"en": "Identify the nature of an illness or other problem by examination of the symptoms. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2218,7 +2817,10 @@
 				"en": "dug"
 			},
 			"definition": {
-				"en": "Break up and move earth with a tool, machine, or with hands."
+				"en": "Break up and move earth with a tool, machine, or with hands. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2229,7 +2831,10 @@
 				"en": "disassembled"
 			},
 			"definition": {
-				"en": "Take something apart."
+				"en": "Take something apart. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2240,7 +2845,10 @@
 				"en": "disconnected"
 			},
 			"definition": {
-				"en": "Break the connection of or between."
+				"en": "Break the connection of or between. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2251,7 +2859,10 @@
 				"en": "disengaged"
 			},
 			"definition": {
-				"en": "Separate or release someone or something from something to which they are attached or connected; remove troops from an area of conflict."
+				"en": "Separate or release someone or something from something to which they are attached or connected; remove troops from an area of conflict. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2262,7 +2873,10 @@
 				"en": "dismantled"
 			},
 			"definition": {
-				"en": "Take a machine or structure to pieces."
+				"en": "Take a machine or structure to pieces. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2273,7 +2887,10 @@
 				"en": "dispatched"
 			},
 			"definition": {
-				"en": "Send off to a destination or for a purpose; eliminate a task, problem, or opponent quickly and efficiently."
+				"en": "Send off to a destination or for a purpose; eliminate a task, problem, or opponent quickly and efficiently. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2284,7 +2901,10 @@
 				"en": "displaced"
 			},
 			"definition": {
-				"en": "Cause something to move from its proper or usual place."
+				"en": "Cause something to move from its proper or usual place. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2295,7 +2915,10 @@
 				"en": "displayed"
 			},
 			"definition": {
-				"en": "Make a prominent exhibition of something in a place where it can be easily seen."
+				"en": "Make a prominent exhibition of something in a place where it can be easily seen. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2306,7 +2929,10 @@
 				"en": "disposed"
 			},
 			"definition": {
-				"en": "Eliminating something or someone by throwing away, removing, or destroying."
+				"en": "Eliminating something or someone by throwing away, removing, or destroying. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2317,7 +2943,10 @@
 				"en": "disseminated"
 			},
 			"definition": {
-				"en": "Spread or disperse something, especially information widely."
+				"en": "Spread or disperse something, especially information widely. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2328,7 +2957,10 @@
 				"en": "drove"
 			},
 			"definition": {
-				"en": "Propel or carry along by force in a specified direction; operate and control the direction and speed of a vehicle."
+				"en": "Propel or carry along by force in a specified direction; operate and control the direction and speed of a vehicle. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2339,7 +2971,10 @@
 				"en": "egressed"
 			},
 			"definition": {
-				"en": "Go out of or leave a place."
+				"en": "Go out of or leave a place. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2350,7 +2985,10 @@
 				"en": "elevated"
 			},
 			"definition": {
-				"en": "Raise or lift something up to a higher position."
+				"en": "Raise or lift something up to a higher position. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2361,7 +2999,10 @@
 				"en": "emplaced"
 			},
 			"definition": {
-				"en": "Put in place or position."
+				"en": "Put in place or position. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2372,7 +3013,10 @@
 				"en": "employed"
 			},
 			"definition": {
-				"en": "Make use of something or someone; provide work to someone for payment."
+				"en": "Make use of something or someone; provide work to someone for payment. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2383,7 +3027,10 @@
 				"en": "engaged"
 			},
 			"definition": {
-				"en": "Occupy, attract, or involve someone; enter into conflict or combat with an enemy."
+				"en": "Occupy, attract, or involve someone; enter into conflict or combat with an enemy. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2394,7 +3041,10 @@
 				"en": "energized"
 			},
 			"definition": {
-				"en": "Give energy, vitality and/or enthusiasm to someone or something."
+				"en": "Give energy, vitality and/or enthusiasm to someone or something. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2405,7 +3055,10 @@
 				"en": "entered"
 			},
 			"definition": {
-				"en": "Come or go into a place."
+				"en": "Come or go into a place. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2416,7 +3069,10 @@
 				"en": "established"
 			},
 			"definition": {
-				"en": "Show something to be true or certain by determining the facts; achieve permanent acceptance or recognition for something."
+				"en": "Show something to be true or certain by determining the facts; achieve permanent acceptance or recognition for something. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2427,7 +3083,10 @@
 				"en": "evacuated"
 			},
 			"definition": {
-				"en": "Remove someone or something from a place of danger to a safe place."
+				"en": "Remove someone or something from a place of danger to a safe place. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2438,7 +3097,10 @@
 				"en": "exchanged"
 			},
 			"definition": {
-				"en": "Give or receive one thing in place of another."
+				"en": "Give or receive one thing in place of another. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2449,7 +3111,10 @@
 				"en": "filled out"
 			},
 			"definition": {
-				"en": "Enter data into a form."
+				"en": "Enter data into a form. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2460,7 +3125,10 @@
 				"en": "fired"
 			},
 			"definition": {
-				"en": "Discharge a gun or other weapon in order to explosively propel ammunition."
+				"en": "Discharge a gun or other weapon in order to explosively propel ammunition. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2471,7 +3139,10 @@
 				"en": "fit"
 			},
 			"definition": {
-				"en": "Provide, furnish, or equip something or someone so that it is suitable for a purpose."
+				"en": "Provide, furnish, or equip something or someone so that it is suitable for a purpose. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2482,7 +3153,10 @@
 				"en": "fueled"
 			},
 			"definition": {
-				"en": "Supply with fuel."
+				"en": "Supply with fuel. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2493,7 +3167,10 @@
 				"en": "grounded"
 			},
 			"definition": {
-				"en": "Prohibit or prevent a pilot or an aircraft from flying; (with reference to a ship) run or go aground."
+				"en": "Prohibit or prevent a pilot or an aircraft from flying; (with reference to a ship) run or go aground. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2504,7 +3181,10 @@
 				"en": "hardened"
 			},
 			"definition": {
-				"en": "Make or become hard or harder."
+				"en": "Make or become hard or harder. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2515,7 +3195,10 @@
 				"en": "hoisted"
 			},
 			"definition": {
-				"en": "Raise something by means of ropes and pulleys."
+				"en": "Raise something by means of ropes and pulleys. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2526,7 +3209,10 @@
 				"en": "initialized"
 			},
 			"definition": {
-				"en": "Set to the value or put in the condition appropriate to the start of an operation."
+				"en": "Set to the value or put in the condition appropriate to the start of an operation. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2537,7 +3223,10 @@
 				"en": "input"
 			},
 			"definition": {
-				"en": "Put data into a computer."
+				"en": "Put data into a computer. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2548,7 +3237,10 @@
 				"en": "inserted"
 			},
 			"definition": {
-				"en": "Place, fit, or thrust something into another thing."
+				"en": "Place, fit, or thrust something into another thing. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2559,7 +3251,10 @@
 				"en": "inspected"
 			},
 			"definition": {
-				"en": "Examine someone or something to ensure that they reach an official standard."
+				"en": "Examine someone or something to ensure that they reach an official standard. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2570,7 +3265,10 @@
 				"en": "installed"
 			},
 			"definition": {
-				"en": "Place or fix equipment or machinery in position ready for use; load software into a computer."
+				"en": "Place or fix equipment or machinery in position ready for use; load software into a computer. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2581,7 +3279,10 @@
 				"en": "integrated"
 			},
 			"definition": {
-				"en": "Combine one thing with another so that they become a whole."
+				"en": "Combine one thing with another so that they become a whole. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2592,7 +3293,10 @@
 				"en": "intercepted"
 			},
 			"definition": {
-				"en": "Obstruct someone or something so as to prevent them from continuing to a destination."
+				"en": "Obstruct someone or something so as to prevent them from continuing to a destination. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2603,7 +3307,10 @@
 				"en": "isolated"
 			},
 			"definition": {
-				"en": "Cause a person, animal, or place to be or remain alone or apart from others."
+				"en": "Cause a person, animal, or place to be or remain alone or apart from others. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2614,7 +3321,10 @@
 				"en": "issued"
 			},
 			"definition": {
-				"en": "Formally send out or make known."
+				"en": "Formally send out or make known. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2625,7 +3335,10 @@
 				"en": "jacked"
 			},
 			"definition": {
-				"en": "Use of a specialized tool in order to elevate an object or machinery."
+				"en": "Use of a specialized tool in order to elevate an object or machinery. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2636,7 +3349,10 @@
 				"en": "launched"
 			},
 			"definition": {
-				"en": "Start or set in motion an activity or enterprise; send a missile, satellite, vessel, or spacecraft on its course or into orbit."
+				"en": "Start or set in motion an activity or enterprise; send a missile, satellite, vessel, or spacecraft on its course or into orbit. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2647,7 +3363,10 @@
 				"en": "loaded"
 			},
 			"definition": {
-				"en": "Put a load or large amount of something on or in a vehicle, ship, container, etc.; charge a firearm with ammunition."
+				"en": "Put a load or large amount of something on or in a vehicle, ship, container, etc.; charge a firearm with ammunition. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2658,7 +3377,10 @@
 				"en": "logged"
 			},
 			"definition": {
-				"en": "Enter an incident or fact in the log of a ship or aircraft or in another systematic record."
+				"en": "Enter an incident or fact in the log of a ship or aircraft or in another systematic record. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2669,7 +3391,10 @@
 				"en": "lubricated"
 			},
 			"definition": {
-				"en": "Apply a substance such as oil or grease to an engine or component to minimize friction and allow smooth movement."
+				"en": "Apply a substance such as oil or grease to an engine or component to minimize friction and allow smooth movement. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2680,7 +3405,10 @@
 				"en": "maintained"
 			},
 			"definition": {
-				"en": "Cause or enable a condition or state of affairs to continue."
+				"en": "Cause or enable a condition or state of affairs to continue. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2691,7 +3419,10 @@
 				"en": "managed"
 			},
 			"definition": {
-				"en": "Be in charge of a group, establishment, or undertaking; administer; run or handle something in a successful manner."
+				"en": "Be in charge of a group, establishment, or undertaking; administer; run or handle something in a successful manner. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2702,7 +3433,10 @@
 				"en": "mounted"
 			},
 			"definition": {
-				"en": "Place or fix a person or an object in its operating position."
+				"en": "Place or fix a person or an object in its operating position. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2713,7 +3447,10 @@
 				"en": "moved"
 			},
 			"definition": {
-				"en": "Change or cause to change from one state, location, opinion, sphere, or activity to another."
+				"en": "Change or cause to change from one state, location, opinion, sphere, or activity to another. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2724,7 +3461,10 @@
 				"en": "navigated"
 			},
 			"definition": {
-				"en": "Plan and direct the route or course of a ship, aircraft, or other form of transportation, especially by using instruments or maps."
+				"en": "Plan and direct the route or course of a ship, aircraft, or other form of transportation, especially by using instruments or maps. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2735,7 +3475,10 @@
 				"en": "obtained"
 			},
 			"definition": {
-				"en": "Get, acquire, or secure something."
+				"en": "Get, acquire, or secure something. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2746,7 +3489,10 @@
 				"en": "opened"
 			},
 			"definition": {
-				"en": "Move or adjust a closed object so as to allow access and/or view."
+				"en": "Move or adjust a closed object so as to allow access and/or view. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2757,7 +3503,10 @@
 				"en": "operated"
 			},
 			"definition": {
-				"en": "Control the functioning of a machine, process, or system; perform a surgical procedure."
+				"en": "Control the functioning of a machine, process, or system; perform a surgical procedure. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2768,7 +3517,10 @@
 				"en": "ordered"
 			},
 			"definition": {
-				"en": "Give an authoritative direction or instruction to do something; arrange something in a methodical or appropriate way."
+				"en": "Give an authoritative direction or instruction to do something; arrange something in a methodical or appropriate way. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2779,7 +3531,10 @@
 				"en": "parked"
 			},
 			"definition": {
-				"en": "Deposit and leave something such as a vehicle in a place until required."
+				"en": "Deposit and leave something such as a vehicle in a place until required. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2790,7 +3545,10 @@
 				"en": "performed"
 			},
 			"definition": {
-				"en": "Carry out, accomplish, or fulfill an action, task, or function."
+				"en": "Carry out, accomplish, or fulfill an action, task, or function. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2801,7 +3559,10 @@
 				"en": "placed"
 			},
 			"definition": {
-				"en": "Put in a particular position."
+				"en": "Put in a particular position. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2812,7 +3573,10 @@
 				"en": "plotted"
 			},
 			"definition": {
-				"en": "Mark a route, point or position on a chart or graph."
+				"en": "Mark a route, point or position on a chart or graph. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2823,7 +3587,10 @@
 				"en": "policed"
 			},
 			"definition": {
-				"en": "Enforce regulations."
+				"en": "Enforce regulations. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2834,7 +3601,10 @@
 				"en": "positioned"
 			},
 			"definition": {
-				"en": "Put or arrange someone or something in a particular place or way."
+				"en": "Put or arrange someone or something in a particular place or way. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2845,7 +3615,10 @@
 				"en": "posted"
 			},
 			"definition": {
-				"en": "Display something within public view."
+				"en": "Display something within public view. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2856,7 +3629,10 @@
 				"en": "pressed"
 			},
 			"definition": {
-				"en": "Move or cause to move into a position of contact with something by exerting continuous physical force"
+				"en": "Move or cause to move into a position of contact with something by exerting continuous physical force. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2867,7 +3643,10 @@
 				"en": "pressurized"
 			},
 			"definition": {
-				"en": "Produce or maintain raised pressure artificially in a gas or its container."
+				"en": "Produce or maintain raised pressure artificially in a gas or its container. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2878,7 +3657,10 @@
 				"en": "processed"
 			},
 			"definition": {
-				"en": "Perform a series of mechanical or chemical operations on something in order to change or preserve it; operate on computer data by means of a program; deal with someone using an official and established procedure."
+				"en": "Perform a series of mechanical or chemical operations on something in order to change or preserve it; operate on computer data by means of a program; deal with someone using an official and established procedure. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2889,7 +3671,10 @@
 				"en": "procured"
 			},
 			"definition": {
-				"en": "Obtain something, especially with care or effort."
+				"en": "Obtain something, especially with care or effort. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2900,7 +3685,10 @@
 				"en": "provided"
 			},
 			"definition": {
-				"en": "Make available for use; supply."
+				"en": "Make available for use; supply. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2911,7 +3699,10 @@
 				"en": "published"
 			},
 			"definition": {
-				"en": "Print, issue, or make available online written content so as to make it generally known."
+				"en": "Print, issue, or make available online written content so as to make it generally known. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2922,7 +3713,10 @@
 				"en": "raised"
 			},
 			"definition": {
-				"en": "Lift or move to a higher position or level."
+				"en": "Lift or move to a higher position or level. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2933,7 +3727,10 @@
 				"en": "ranged"
 			},
 			"definition": {
-				"en": "Obtain the range of a target by adjustment after firing past it or short of it, or by the use of radar or laser equipment; vary or extend between specified limits; travel or wander over a wide area."
+				"en": "Obtain the range of a target by adjustment after firing past it or short of it, or by the use of radar or laser equipment; vary or extend between specified limits; travel or wander over a wide area. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2944,7 +3741,10 @@
 				"en": "reached"
 			},
 			"definition": {
-				"en": "Stretch out an arm in a specified direction in order to touch or grasp something; arrive at; get as far as."
+				"en": "Stretch out an arm in a specified direction in order to touch or grasp something; arrive at; get as far as. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2955,7 +3755,10 @@
 				"en": "received"
 			},
 			"definition": {
-				"en": "Be given, presented with, or paid something; take delivery of something sent or communicated."
+				"en": "Be given, presented with, or paid something; take delivery of something sent or communicated. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2966,7 +3769,10 @@
 				"en": "recorded"
 			},
 			"definition": {
-				"en": "Set down in writing or other permanent form for later reference, especially officially; convert sound or a performance into permanent form for later reproduction."
+				"en": "Set down in writing or other permanent form for later reference, especially officially; convert sound or a performance into permanent form for later reproduction. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2977,7 +3783,10 @@
 				"en": "reestablished"
 			},
 			"definition": {
-				"en": "Establish something again or anew."
+				"en": "Establish something again or anew. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2988,7 +3797,10 @@
 				"en": "refueled"
 			},
 			"definition": {
-				"en": "Supply something such as a vehicle with more fuel."
+				"en": "Supply something such as a vehicle with more fuel. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -2999,7 +3811,10 @@
 				"en": "released"
 			},
 			"definition": {
-				"en": "Allow something to move, act, or flow freely."
+				"en": "Allow something to move, act, or flow freely. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3010,7 +3825,10 @@
 				"en": "relocated"
 			},
 			"definition": {
-				"en": "Move to a new place."
+				"en": "Move to a new place. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3021,7 +3839,10 @@
 				"en": "removed"
 			},
 			"definition": {
-				"en": "Take something away or off from the position occupied; get rid of."
+				"en": "Take something away or off from the position occupied; get rid of. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3032,7 +3853,10 @@
 				"en": "repaired"
 			},
 			"definition": {
-				"en": "Fix or mend something damaged or faulty."
+				"en": "Fix or mend something damaged or faulty. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3043,7 +3867,10 @@
 				"en": "replaced"
 			},
 			"definition": {
-				"en": "Take the place of something or someone else."
+				"en": "Take the place of something or someone else. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3054,7 +3881,10 @@
 				"en": "replenished"
 			},
 			"definition": {
-				"en": "Fill something up again."
+				"en": "Fill something up again. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3065,7 +3895,10 @@
 				"en": "reset"
 			},
 			"definition": {
-				"en": "Set again or differently."
+				"en": "Set again or differently. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3076,7 +3909,10 @@
 				"en": "retrieved"
 			},
 			"definition": {
-				"en": "Get or bring something back; regain possession of."
+				"en": "Get or bring something back; regain possession of. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3087,7 +3923,10 @@
 				"en": "returned"
 			},
 			"definition": {
-				"en": "Come or go back to a place or person; give, put, or send something back to a place or person."
+				"en": "Come or go back to a place or person; give, put, or send something back to a place or person. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3098,7 +3937,10 @@
 				"en": "rotated"
 			},
 			"definition": {
-				"en": "Move or cause to move in a circle around an axis or center."
+				"en": "Move or cause to move in a circle around an axis or center. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3109,7 +3951,10 @@
 				"en": "saved"
 			},
 			"definition": {
-				"en": "Keep safe or rescue someone or something from harm or danger; keep and store up something for future use."
+				"en": "Keep safe or rescue someone or something from harm or danger; keep and store up something for future use. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3120,7 +3965,10 @@
 				"en": "secured"
 			},
 			"definition": {
-				"en": "Fix or attach something firmly so that it cannot be moved or lost; protect against threats; make safe; capture."
+				"en": "Fix or attach something firmly so that it cannot be moved or lost; protect against threats; make safe; capture. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3131,7 +3979,10 @@
 				"en": "sent"
 			},
 			"definition": {
-				"en": "Cause to go or be taken to a particular destination."
+				"en": "Cause to go or be taken to a particular destination. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3142,7 +3993,10 @@
 				"en": "serviced"
 			},
 			"definition": {
-				"en": "Perform routine maintenance or repair work on something such as a vehicle or machine."
+				"en": "Perform routine maintenance or repair work on something such as a vehicle or machine. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3153,7 +4007,10 @@
 				"en": "shut down"
 			},
 			"definition": {
-				"en": "Cease or cause something to cease operation."
+				"en": "Cease or cause something to cease operation. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3164,7 +4021,10 @@
 				"en": "sighted"
 			},
 			"definition": {
-				"en": "Manage to see or observe someone or something; catch an initial glimpse of; take aim by looking through the sights of a gun."
+				"en": "Manage to see or observe someone or something; catch an initial glimpse of; take aim by looking through the sights of a gun. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3175,7 +4035,10 @@
 				"en": "signaled"
 			},
 			"definition": {
-				"en": "Transmit information or instructions by means of a gesture, action, or sound."
+				"en": "Transmit information or instructions by means of a gesture, action, or sound. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3186,7 +4049,10 @@
 				"en": "splinted"
 			},
 			"definition": {
-				"en": "Secure a broken limb with a splint or splints."
+				"en": "Secure a broken limb with a splint or splints. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3197,7 +4063,10 @@
 				"en": "squeezed"
 			},
 			"definition": {
-				"en": "Firmly apply pressure on something with one’s hand or finger; shoot a round or shot from a gun."
+				"en": "Firmly apply pressure on something with one’s hand or finger; shoot a round or shot from a gun. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3208,7 +4077,10 @@
 				"en": "stockpiled"
 			},
 			"definition": {
-				"en": "Accumulate a large stock of goods or materials."
+				"en": "Accumulate a large stock of goods or materials. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3219,7 +4091,10 @@
 				"en": "stored"
 			},
 			"definition": {
-				"en": "Keep or accumulate something for future use; retain or enter information for future electronic retrieval."
+				"en": "Keep or accumulate something for future use; retain or enter information for future electronic retrieval. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3230,7 +4105,10 @@
 				"en": "stowed"
 			},
 			"definition": {
-				"en": "Pack or store an object carefully and neatly in a particular place."
+				"en": "Pack or store an object carefully and neatly in a particular place. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3241,7 +4119,10 @@
 				"en": "struck"
 			},
 			"definition": {
-				"en": "Hit forcibly and deliberately with one's hand or a weapon or other implement."
+				"en": "Hit forcibly and deliberately with one's hand or a weapon or other implement. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3252,7 +4133,10 @@
 				"en": "submitted"
 			},
 			"definition": {
-				"en": "Accept or yield to a superior force or to the authority or will of another person; present a proposal, application, or other document to a person or body for consideration or judgment."
+				"en": "Accept or yield to a superior force or to the authority or will of another person; present a proposal, application, or other document to a person or body for consideration or judgment. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3263,7 +4147,10 @@
 				"en": "supervised"
 			},
 			"definition": {
-				"en": "Observe and direct the execution of a task, project, or activity."
+				"en": "Observe and direct the execution of a task, project, or activity. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3274,7 +4161,10 @@
 				"en": "supported"
 			},
 			"definition": {
-				"en": "Bear all or part of the weight of; hold up; give assistance to."
+				"en": "Bear all or part of the weight of; hold up; give assistance to. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3285,7 +4175,10 @@
 				"en": "swept"
 			},
 			"definition": {
-				"en": "Move swiftly and smoothly; cover an entire area with a gun; examine a place or thing for electronic listening devices; search an area for something; clean an area."
+				"en": "Move swiftly and smoothly; cover an entire area with a gun; examine a place or thing for electronic listening devices; search an area for something; clean an area. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3296,7 +4189,10 @@
 				"en": "took"
 			},
 			"definition": {
-				"en": "Reach for and hold; gain or aquire."
+				"en": "Reach for and hold; gain or aquire. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3307,7 +4203,10 @@
 				"en": "took charge"
 			},
 			"definition": {
-				"en": "Assume control or responsibility."
+				"en": "Assume control or responsibility. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3318,7 +4217,10 @@
 				"en": "tapped"
 			},
 			"definition": {
-				"en": "Exploit or draw a supply from a resource; connect a device to so that conversation can be listened to secretly."
+				"en": "Exploit or draw a supply from a resource; connect a device to so that conversation can be listened to secretly. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3329,7 +4231,10 @@
 				"en": "tested"
 			},
 			"definition": {
-				"en": "Take measures to check the quality, performance, or reliability of something or someone."
+				"en": "Take measures to check the quality, performance, or reliability of something or someone. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3340,7 +4245,10 @@
 				"en": "tightened"
 			},
 			"definition": {
-				"en": "Make or become tight or tighter."
+				"en": "Make or become tight or tighter. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3351,7 +4259,10 @@
 				"en": "traced"
 			},
 			"definition": {
-				"en": "Find or discover by investigation; copy by drawing; give an outline."
+				"en": "Find or discover by investigation; copy by drawing; give an outline. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3362,7 +4273,10 @@
 				"en": "transferred"
 			},
 			"definition": {
-				"en": "Move from one place to another."
+				"en": "Move from one place to another. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3373,7 +4287,10 @@
 				"en": "transmitted"
 			},
 			"definition": {
-				"en": "Cause something to pass on from one place or person to another; broadcast or send out."
+				"en": "Cause something to pass on from one place or person to another; broadcast or send out. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3384,7 +4301,10 @@
 				"en": "transported"
 			},
 			"definition": {
-				"en": "Take or carry people or goods from one place to another by means of a vehicle, aircraft, or ship."
+				"en": "Take or carry people or goods from one place to another by means of a vehicle, aircraft, or ship. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3395,7 +4315,10 @@
 				"en": "treated"
 			},
 			"definition": {
-				"en": "Behave toward or deal with in a certain way; give medical care or attention to; negotiate terms with someone, especially an opponent."
+				"en": "Behave toward or deal with in a certain way; give medical care or attention to; negotiate terms with someone, especially an opponent. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3406,7 +4329,10 @@
 				"en": "troubleshot"
 			},
 			"definition": {
-				"en": "Solve serious problems for an organization; trace and correct faults in a mechanical or electronic system."
+				"en": "Solve serious problems for an organization; trace and correct faults in a mechanical or electronic system. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3417,7 +4343,10 @@
 				"en": "typed"
 			},
 			"definition": {
-				"en": "Write something on a typewriter or computer by pressing the keys."
+				"en": "Write something on a typewriter or computer by pressing the keys. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3428,7 +4357,10 @@
 				"en": "unloaded"
 			},
 			"definition": {
-				"en": "Remove goods from a vehicle, ship, container, etc."
+				"en": "Remove goods from a vehicle, ship, container, etc. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3439,7 +4371,10 @@
 				"en": "updated"
 			},
 			"definition": {
-				"en": "Provide the latest information."
+				"en": "Provide the latest information. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3450,7 +4385,10 @@
 				"en": "utilized"
 			},
 			"definition": {
-				"en": "Make practical and effective use of."
+				"en": "Make practical and effective use of. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3461,7 +4399,10 @@
 				"en": "wrote"
 			},
 			"definition": {
-				"en": "Mark letters, words, or other symbols on a surface or in a computer system."
+				"en": "Mark letters, words, or other symbols on a surface or in a computer system. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3472,7 +4413,10 @@
 				"en": "zeroed"
 			},
 			"definition": {
-				"en": "Adjust an instrument to zero; set the sights of a gun or weapon for firing."
+				"en": "Adjust an instrument to zero; set the sights of a gun or weapon for firing. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Mechanism', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3483,7 +4427,10 @@
 				"en": "acclimatized"
 			},
 			"definition": {
-				"en": "Respond physiologically or behaviorally to changes in a complex of environmental factors."
+				"en": "Respond physiologically or behaviorally to changes in a complex of environmental factors. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Adaptation', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3494,7 +4441,10 @@
 				"en": "accommodated"
 			},
 			"definition": {
-				"en": "Provide lodging or sufficient space for; adapt the environment or situation to meet the needs of someone."
+				"en": "Provide lodging or sufficient space for; adapt the environment or situation to meet the needs of someone. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Adaptation', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3505,7 +4455,10 @@
 				"en": "adapted"
 			},
 			"definition": {
-				"en": "Make something suitable for a new use or purpose; modify."
+				"en": "Make something suitable for a new use or purpose; modify. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Adaptation', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3516,7 +4469,10 @@
 				"en": "ambushed"
 			},
 			"definition": {
-				"en": "Make a surprise attack on someone from a concealed position."
+				"en": "Make a surprise attack on someone from a concealed position. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Adaptation', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3527,7 +4483,10 @@
 				"en": "attacked"
 			},
 			"definition": {
-				"en": "Take aggressive action against a place or enemy forces with weapons or armed force."
+				"en": "Take aggressive action against a place or enemy forces with weapons or armed force. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Adaptation', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3538,7 +4497,10 @@
 				"en": "bypassed"
 			},
 			"definition": {
-				"en": "Go past or around."
+				"en": "Go past or around. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Adaptation', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3549,7 +4511,10 @@
 				"en": "conducted"
 			},
 			"definition": {
-				"en": "Organize and carry out."
+				"en": "Organize and carry out. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Adaptation', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3560,7 +4525,10 @@
 				"en": "deployed"
 			},
 			"definition": {
-				"en": "Move troops or equipment into position for military action."
+				"en": "Move troops or equipment into position for military action. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Adaptation', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3571,7 +4539,10 @@
 				"en": "directed"
 			},
 			"definition": {
-				"en": "Control the operations of; manage or govern."
+				"en": "Control the operations of; manage or govern. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Adaptation', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3582,7 +4553,10 @@
 				"en": "drew"
 			},
 			"definition": {
-				"en": "Produce a picture or diagram by making lines and marks; extract an object or liquid from a container or receptacle."
+				"en": "Produce a picture or diagram by making lines and marks; extract an object or liquid from a container or receptacle. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Adaptation', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3593,7 +4567,10 @@
 				"en": "evaded"
 			},
 			"definition": {
-				"en": "Escape or avoid."
+				"en": "Escape or avoid. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Adaptation', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3604,7 +4581,10 @@
 				"en": "infiltrated"
 			},
 			"definition": {
-				"en": "Enter or gain access to an organization, place, etc. surreptitiously and gradually."
+				"en": "Enter or gain access to an organization, place, etc. surreptitiously and gradually. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Adaptation', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3615,7 +4595,10 @@
 				"en": "laid"
 			},
 			"definition": {
-				"en": "Put down; follow a specified nautical course."
+				"en": "Put down; follow a specified nautical course. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Adaptation', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3626,7 +4609,10 @@
 				"en": "led"
 			},
 			"definition": {
-				"en": "Be in charge or command of; organize and direct."
+				"en": "Be in charge or command of; organize and direct. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Adaptation', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3637,7 +4623,10 @@
 				"en": "mapped"
 			},
 			"definition": {
-				"en": "Represent an area on a map; make a map of."
+				"en": "Represent an area on a map; make a map of. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Adaptation', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3648,7 +4637,10 @@
 				"en": "neutralized"
 			},
 			"definition": {
-				"en": "Render something or someone ineffective or harmless by applying an opposite force or effect."
+				"en": "Render something or someone ineffective or harmless by applying an opposite force or effect. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Adaptation', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3659,7 +4651,10 @@
 				"en": "occupied"
 			},
 			"definition": {
-				"en": "Fill or take up a space or time; take control of a place."
+				"en": "Fill or take up a space or time; take control of a place. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Adaptation', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3670,7 +4665,10 @@
 				"en": "oriented"
 			},
 			"definition": {
-				"en": "Align or position something or someone to a specified position or condition."
+				"en": "Align or position something or someone to a specified position or condition. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Adaptation', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3681,7 +4679,10 @@
 				"en": "packed"
 			},
 			"definition": {
-				"en": "Fill baggage or place something in a container, especially for transportation or storage."
+				"en": "Fill baggage or place something in a container, especially for transportation or storage. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Adaptation', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3692,7 +4693,10 @@
 				"en": "patrolled"
 			},
 			"definition": {
-				"en": "Keep watch over an area by regularly walking or traveling around or through it."
+				"en": "Keep watch over an area by regularly walking or traveling around or through it. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Adaptation', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3703,7 +4707,10 @@
 				"en": "prevented"
 			},
 			"definition": {
-				"en": "Keep something from happening or arising; make someone unable to do something."
+				"en": "Keep something from happening or arising; make someone unable to do something. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Adaptation', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3714,7 +4721,10 @@
 				"en": "programmed"
 			},
 			"definition": {
-				"en": "Provide a computer or other machine with coded instructions for the automatic performance of a particular task."
+				"en": "Provide a computer or other machine with coded instructions for the automatic performance of a particular task. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Adaptation', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3725,7 +4735,10 @@
 				"en": "protected"
 			},
 			"definition": {
-				"en": "Keep safe from harm or injury."
+				"en": "Keep safe from harm or injury. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Adaptation', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3736,7 +4749,10 @@
 				"en": "queued"
 			},
 			"definition": {
-				"en": "Take one's place in a line or sequence."
+				"en": "Take one's place in a line or sequence. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Adaptation', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3747,7 +4763,10 @@
 				"en": "reconciled"
 			},
 			"definition": {
-				"en": "Cause to coexist in harmony; make or show to be compatible."
+				"en": "Cause to coexist in harmony; make or show to be compatible. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Adaptation', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3758,7 +4777,10 @@
 				"en": "recovered"
 			},
 			"definition": {
-				"en": "Return to a normal state of health, mind, or strength; regain possession of something."
+				"en": "Return to a normal state of health, mind, or strength; regain possession of something. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Adaptation', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3769,7 +4791,10 @@
 				"en": "reduced"
 			},
 			"definition": {
-				"en": "Make smaller or less in amount, degree, or size."
+				"en": "Make smaller or less in amount, degree, or size. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Adaptation', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3780,7 +4805,10 @@
 				"en": "relieved"
 			},
 			"definition": {
-				"en": "Release someone from duty by taking their place; take a burden, pain, or distress from someone."
+				"en": "Release someone from duty by taking their place; take a burden, pain, or distress from someone. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Adaptation', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3791,7 +4819,10 @@
 				"en": "suppressed"
 			},
 			"definition": {
-				"en": "Prevent the development, action, or expression of a feeling, impulse, idea, etc.; restrain."
+				"en": "Prevent the development, action, or expression of a feeling, impulse, idea, etc.; restrain. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Adaptation', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3802,7 +4833,10 @@
 				"en": "tailored"
 			},
 			"definition": {
-				"en": "Make or adapt for a particular purpose or person."
+				"en": "Make or adapt for a particular purpose or person. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Adaptation', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3813,7 +4847,10 @@
 				"en": "tempered"
 			},
 			"definition": {
-				"en": "Improve the consistency or resiliency of a substance by heating it or adding particular substances to it; serve as a neutralizing or counterbalancing force to something."
+				"en": "Improve the consistency or resiliency of a substance by heating it or adding particular substances to it; serve as a neutralizing or counterbalancing force to something. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Adaptation', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3824,7 +4861,10 @@
 				"en": "trained"
 			},
 			"definition": {
-				"en": "Teach a particular skill or type of behavior through practice and instruction."
+				"en": "Teach a particular skill or type of behavior through practice and instruction. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Adaptation', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3835,7 +4875,10 @@
 				"en": "caused"
 			},
 			"definition": {
-				"en": "Make something happen."
+				"en": "Make something happen. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Origination', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3846,7 +4889,10 @@
 				"en": "constructed"
 			},
 			"definition": {
-				"en": "Build something."
+				"en": "Build something. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Origination', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3857,7 +4903,10 @@
 				"en": "contrived"
 			},
 			"definition": {
-				"en": "Create or bring about an object or a situation by deliberate use of skill and artifice."
+				"en": "Create or bring about an object or a situation by deliberate use of skill and artifice. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Origination', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3868,7 +4917,10 @@
 				"en": "corrected"
 			},
 			"definition": {
-				"en": "Put (an error or fault) right."
+				"en": "Put (an error or fault) right. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Origination', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3879,7 +4931,10 @@
 				"en": "invented"
 			},
 			"definition": {
-				"en": "Create or design something that has not existed before; be the originator of."
+				"en": "Create or design something that has not existed before; be the originator of. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Origination', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3890,7 +4945,10 @@
 				"en": "made"
 			},
 			"definition": {
-				"en": "Form something by putting parts together or combining substances; construct; create."
+				"en": "Form something by putting parts together or combining substances; construct; create. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Origination', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3901,7 +4959,10 @@
 				"en": "originated"
 			},
 			"definition": {
-				"en": "Create or initiate something."
+				"en": "Create or initiate something. \
+				Use with the 'KSA' extension with a value of 'S', with the 'Category' extension \
+				with a value of 'Origination', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -3912,7 +4973,10 @@
 				"en": "attended closely"
 			},
 			"definition": {
-				"en": "Manage with care."
+				"en": "Manage with care. \
+				Use with the 'KSA' extension with a value of 'A', with the 'Category' extension \
+				with a value of 'Receiving', and with the 'Interactivity Level' extension \
+				with a value of 2, 3, or 4."
 			}
 		},
 		{
@@ -3924,7 +4988,10 @@
 				"en": "listened"
 			},
 			"definition": {
-				"en": "Make an effort to hear something; be alert and ready to hear something."
+				"en": "Make an effort to hear something; be alert and ready to hear something. \
+				Use with the 'KSA' extension with a value of 'A', with the 'Category' extension \
+				with a value of 'Receiving', and with the 'Interactivity Level' extension \
+				with a value of 2, 3, or 4."
 			}
 		},
 		{
@@ -3935,7 +5002,10 @@
 				"en": "listened attentively"
 			},
 			"definition": {
-				"en": "Make an significant effort to hear something; be alert and ready to hear something while paying close attention."
+				"en": "Make an significant effort to hear something; be alert and ready to hear something while paying close attention. \
+				Use with the 'KSA' extension with a value of 'A', with the 'Category' extension \
+				with a value of 'Receiving', and with the 'Interactivity Level' extension \
+				with a value of 2, 3, or 4."
 			}
 		},
 		{
@@ -3946,7 +5016,10 @@
 				"en": "monitored"
 			},
 			"definition": {
-				"en": "Maintain regular surveillance over."
+				"en": "Maintain regular surveillance over. \
+				Use with the 'KSA' extension with a value of 'A', with the 'Category' extension \
+				with a value of 'Receiving', and with the 'Interactivity Level' extension \
+				with a value of 2, 3, or 4."
 			}
 		},
 		{
@@ -3957,7 +5030,10 @@
 				"en": "observed"
 			},
 			"definition": {
-				"en": "Watch someone or something carefully and attentively."
+				"en": "Watch someone or something carefully and attentively. \
+				Use with the 'KSA' extension with a value of 'A', with the 'Category' extension \
+				with a value of 'Receiving', and with the 'Interactivity Level' extension \
+				with a value of 2, 3, or 4."
 			}
 		},
 		{
@@ -3968,7 +5044,10 @@
 				"en": "perceived"
 			},
 			"definition": {
-				"en": "Interpret or look on someone or something in a particular way; regard as."
+				"en": "Interpret or look on someone or something in a particular way; regard as. \
+				Use with the 'KSA' extension with a value of 'A', with the 'Category' extension \
+				with a value of 'Receiving', and with the 'Interactivity Level' extension \
+				with a value of 2, 3, or 4."
 			}
 		},
 		{
@@ -3979,7 +5058,10 @@
 				"en": "recognized"
 			},
 			"definition": {
-				"en": "Acknowledge the existence, validity, or legality of someone or something."
+				"en": "Acknowledge the existence, validity, or legality of someone or something. \
+				Use with the 'KSA' extension with a value of 'A', with the 'Category' extension \
+				with a value of 'Receiving', and with the 'Interactivity Level' extension \
+				with a value of 2, 3, or 4."
 			}
 		},
 		{
@@ -3990,7 +5072,10 @@
 				"en": "reconnoitered"
 			},
 			"definition": {
-				"en": "Make a military observation of a region."
+				"en": "Make a military observation of a region. \
+				Use with the 'KSA' extension with a value of 'A', with the 'Category' extension \
+				with a value of 'Receiving', and with the 'Interactivity Level' extension \
+				with a value of 2, 3, or 4."
 			}
 		},
 		{
@@ -4001,7 +5086,10 @@
 				"en": "showed awareness"
 			},
 			"definition": {
-				"en": "Demonstrate knowledge or perception of a situation or fact."
+				"en": "Demonstrate knowledge or perception of a situation or fact. \
+				Use with the 'KSA' extension with a value of 'A', with the 'Category' extension \
+				with a value of 'Receiving', and with the 'Interactivity Level' extension \
+				with a value of 2, 3, or 4."
 			}
 		},
 		{
@@ -4012,7 +5100,10 @@
 				"en": "showed sensitivity"
 			},
 			"definition": {
-				"en": "Be considerate, take care."
+				"en": "Be considerate, take care. \
+				Use with the 'KSA' extension with a value of 'A', with the 'Category' extension \
+				with a value of 'Receiving', and with the 'Interactivity Level' extension \
+				with a value of 2, 3, or 4."
 			}
 		},
 		{
@@ -4023,7 +5114,10 @@
 				"en": "waited"
 			},
 			"definition": {
-				"en": "Stay where one is or delay action until a particular time or until something else happens."
+				"en": "Stay where one is or delay action until a particular time or until something else happens. \
+				Use with the 'KSA' extension with a value of 'A', with the 'Category' extension \
+				with a value of 'Receiving', and with the 'Interactivity Level' extension \
+				with a value of 2, 3, or 4."
 			}
 		},
 		{
@@ -4034,7 +5128,10 @@
 				"en": "accomplished"
 			},
 			"definition": {
-				"en": "Achieve or complete successfully."
+				"en": "Achieve or complete successfully. \
+				Use with the 'KSA' extension with a value of 'A', with the 'Category' extension \
+				with a value of 'Responding', and with the 'Interactivity Level' extension \
+				with a value of 2, 3, or 4."
 			}
 		},
 		{
@@ -4045,7 +5142,10 @@
 				"en": "achieved"
 			},
 			"definition": {
-				"en": "Successfully bring about or reach a desired objective, level, or result by effort, skill, or courage."
+				"en": "Successfully bring about or reach a desired objective, level, or result by effort, skill, or courage. \
+				Use with the 'KSA' extension with a value of 'A', with the 'Category' extension \
+				with a value of 'Responding', and with the 'Interactivity Level' extension \
+				with a value of 2, 3, or 4."
 			}
 		},
 		{
@@ -4056,7 +5156,10 @@
 				"en": "acknowledged"
 			},
 			"definition": {
-				"en": "Recognize the fact or importance or quality of something."
+				"en": "Recognize the fact or importance or quality of something. \
+				Use with the 'KSA' extension with a value of 'A', with the 'Category' extension \
+				with a value of 'Responding', and with the 'Interactivity Level' extension \
+				with a value of 2, 3, or 4."
 			}
 		},
 		{
@@ -4067,7 +5170,10 @@
 				"en": "announced"
 			},
 			"definition": {
-				"en": "Make a public and typically formal declaration about a fact, occurrence, or intention."
+				"en": "Make a public and typically formal declaration about a fact, occurrence, or intention. \
+				Use with the 'KSA' extension with a value of 'A', with the 'Category' extension \
+				with a value of 'Responding', and with the 'Interactivity Level' extension \
+				with a value of 2, 3, or 4."
 			}
 		},
 		{
@@ -4078,7 +5184,10 @@
 				"en": "asked"
 			},
 			"definition": {
-				"en": "Say something in order to obtain an answer or some information."
+				"en": "Say something in order to obtain an answer or some information. \
+				Use with the 'KSA' extension with a value of 'A', with the 'Category' extension \
+				with a value of 'Responding', and with the 'Interactivity Level' extension \
+				with a value of 2, 3, or 4."
 			}
 		},
 		{
@@ -4089,7 +5198,10 @@
 				"en": "communicated"
 			},
 			"definition": {
-				"en": "Share or exchange information, news, or ideas."
+				"en": "Share or exchange information, news, or ideas. \
+				Use with the 'KSA' extension with a value of 'A', with the 'Category' extension \
+				with a value of 'Responding', and with the 'Interactivity Level' extension \
+				with a value of 2, 3, or 4."
 			}
 		},
 		{
@@ -4100,7 +5212,10 @@
 				"en": "completed"
 			},
 			"definition": {
-				"en": "Make something whole or perfect."
+				"en": "Make something whole or perfect. \
+				Use with the 'KSA' extension with a value of 'A', with the 'Category' extension \
+				with a value of 'Responding', and with the 'Interactivity Level' extension \
+				with a value of 2, 3, or 4."
 			}
 		},
 		{
@@ -4111,7 +5226,10 @@
 				"en": "completed assignment"
 			},
 			"definition": {
-				"en": "Finish making or doing a given task."
+				"en": "Finish making or doing a given task. \
+				Use with the 'KSA' extension with a value of 'A', with the 'Category' extension \
+				with a value of 'Responding', and with the 'Interactivity Level' extension \
+				with a value of 2, 3, or 4."
 			}
 		},
 		{
@@ -4122,7 +5240,10 @@
 				"en": "complied"
 			},
 			"definition": {
-				"en": "Act in accordance with a wish or command."
+				"en": "Act in accordance with a wish or command. \
+				Use with the 'KSA' extension with a value of 'A', with the 'Category' extension \
+				with a value of 'Responding', and with the 'Interactivity Level' extension \
+				with a value of 2, 3, or 4."
 			}
 		},
 		{
@@ -4133,7 +5254,10 @@
 				"en": "demonstrated"
 			},
 			"definition": {
-				"en": "Show or express a feeling or quality by one's actions."
+				"en": "Show or express a feeling or quality by one's actions. \
+				Use with the 'KSA' extension with a value of 'A', with the 'Category' extension \
+				with a value of 'Responding', and with the 'Interactivity Level' extension \
+				with a value of 2, 3, or 4."
 			}
 		},
 		{
@@ -4144,7 +5268,10 @@
 				"en": "described"
 			},
 			"definition": {
-				"en": "Give an account in words of someone or something, including all the relevant characteristics, qualities, or events."
+				"en": "Give an account in words of someone or something, including all the relevant characteristics, qualities, or events. \
+				Use with the 'KSA' extension with a value of 'A', with the 'Category' extension \
+				with a value of 'Responding', and with the 'Interactivity Level' extension \
+				with a value of 2, 3, or 4."
 			}
 		},
 		{
@@ -4155,7 +5282,10 @@
 				"en": "encoded"
 			},
 			"definition": {
-				"en": "Convert into a coded form."
+				"en": "Convert into a coded form. \
+				Use with the 'KSA' extension with a value of 'A', with the 'Category' extension \
+				with a value of 'Responding', and with the 'Interactivity Level' extension \
+				with a value of 2, 3, or 4."
 			}
 		},
 		{
@@ -4166,7 +5296,10 @@
 				"en": "executed"
 			},
 			"definition": {
-				"en": "Carry out or put into effect a plan, order, or course of action."
+				"en": "Carry out or put into effect a plan, order, or course of action. \
+				Use with the 'KSA' extension with a value of 'A', with the 'Category' extension \
+				with a value of 'Responding', and with the 'Interactivity Level' extension \
+				with a value of 2, 3, or 4."
 			}
 		},
 		{
@@ -4177,7 +5310,10 @@
 				"en": "gave"
 			},
 			"definition": {
-				"en": "Freely transfer the possession of something to someone; hand over to."
+				"en": "Freely transfer the possession of something to someone; hand over to. \
+				Use with the 'KSA' extension with a value of 'A', with the 'Category' extension \
+				with a value of 'Responding', and with the 'Interactivity Level' extension \
+				with a value of 2, 3, or 4."
 			}
 		},
 		{
@@ -4188,7 +5324,10 @@
 				"en": "indicated"
 			},
 			"definition": {
-				"en": "Suggest as a desirable or necessary course of action."
+				"en": "Suggest as a desirable or necessary course of action. \
+				Use with the 'KSA' extension with a value of 'A', with the 'Category' extension \
+				with a value of 'Responding', and with the 'Interactivity Level' extension \
+				with a value of 2, 3, or 4."
 			}
 		},
 		{
@@ -4199,7 +5338,10 @@
 				"en": "interpreted"
 			},
 			"definition": {
-				"en": "Explain the meaning of information, words, or actions."
+				"en": "Explain the meaning of information, words, or actions. \
+				Use with the 'KSA' extension with a value of 'A', with the 'Category' extension \
+				with a value of 'Responding', and with the 'Interactivity Level' extension \
+				with a value of 2, 3, or 4."
 			}
 		},
 		{
@@ -4210,7 +5352,10 @@
 				"en": "notified"
 			},
 			"definition": {
-				"en": "Inform someone of something, typically in a formal or official manner."
+				"en": "Inform someone of something, typically in a formal or official manner. \
+				Use with the 'KSA' extension with a value of 'A', with the 'Category' extension \
+				with a value of 'Responding', and with the 'Interactivity Level' extension \
+				with a value of 2, 3, or 4."
 			}
 		},
 		{
@@ -4221,7 +5366,10 @@
 				"en": "obeyed rules"
 			},
 			"definition": {
-				"en": "Comply with the command, direction, or request of a person or a law; submit to the authority of."
+				"en": "Comply with the command, direction, or request of a person or a law; submit to the authority of. \
+				Use with the 'KSA' extension with a value of 'A', with the 'Category' extension \
+				with a value of 'Responding', and with the 'Interactivity Level' extension \
+				with a value of 2, 3, or 4."
 			}
 		},
 		{
@@ -4232,7 +5380,10 @@
 				"en": "reacted"
 			},
 			"definition": {
-				"en": "Respond or behave in a particular way in response to something."
+				"en": "Respond or behave in a particular way in response to something. \
+				Use with the 'KSA' extension with a value of 'A', with the 'Category' extension \
+				with a value of 'Responding', and with the 'Interactivity Level' extension \
+				with a value of 2, 3, or 4."
 			}
 		},
 		{
@@ -4243,7 +5394,10 @@
 				"en": "reported"
 			},
 			"definition": {
-				"en": "Give a spoken or written account of something that one has observed, heard, done, or investigated; present oneself formally as having arrived at a particular place or as ready to do something."
+				"en": "Give a spoken or written account of something that one has observed, heard, done, or investigated; present oneself formally as having arrived at a particular place or as ready to do something. \
+				Use with the 'KSA' extension with a value of 'A', with the 'Category' extension \
+				with a value of 'Responding', and with the 'Interactivity Level' extension \
+				with a value of 2, 3, or 4."
 			}
 		},
 		{
@@ -4254,7 +5408,10 @@
 				"en": "requested"
 			},
 			"definition": {
-				"en": "Politely or formally ask for."
+				"en": "Politely or formally ask for. \
+				Use with the 'KSA' extension with a value of 'A', with the 'Category' extension \
+				with a value of 'Responding', and with the 'Interactivity Level' extension \
+				with a value of 2, 3, or 4."
 			}
 		},
 		{
@@ -4265,18 +5422,10 @@
 				"en": "responded"
 			},
 			"definition": {
-				"en": "Act or behave in reaction to someone or something."
-			}
-		},
-		{
-			"id": "https://w3id.org/xapi/dod-isd/verbs/resumed",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
-			"type": "Verb",
-			"prefLabel": {
-				"en": "resumed"
-			},
-			"definition": {
-				"en": "Begin to do or pursue something again after a pause or interruption."
+				"en": "Act or behave in reaction to someone or something. \
+				Use with the 'KSA' extension with a value of 'A', with the 'Category' extension \
+				with a value of 'Responding', and with the 'Interactivity Level' extension \
+				with a value of 2, 3, or 4."
 			}
 		},
 		{
@@ -4287,7 +5436,10 @@
 				"en": "showed"
 			},
 			"definition": {
-				"en": "Demonstrate or prove."
+				"en": "Demonstrate or prove. \
+				Use with the 'KSA' extension with a value of 'A', with the 'Category' extension \
+				with a value of 'Responding', and with the 'Interactivity Level' extension \
+				with a value of 2, 3, or 4."
 			}
 		},
 		{
@@ -4298,7 +5450,10 @@
 				"en": "alerted"
 			},
 			"definition": {
-				"en": "Warn someone of a danger, threat, or problem, typically with the intention of having it avoided or dealt with."
+				"en": "Warn someone of a danger, threat, or problem, typically with the intention of having it avoided or dealt with. \
+				Use with the 'KSA' extension with a value of 'A', with the 'Category' extension \
+				with a value of 'Valuing', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -4309,7 +5464,10 @@
 				"en": "appreciated"
 			},
 			"definition": {
-				"en": "Recognize the full worth of someone or something."
+				"en": "Recognize the full worth of someone or something. \
+				Use with the 'KSA' extension with a value of 'A', with the 'Category' extension \
+				with a value of 'Valuing', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -4320,7 +5478,10 @@
 				"en": "approved"
 			},
 			"definition": {
-				"en": "Officially agree to or accept as satisfactory."
+				"en": "Officially agree to or accept as satisfactory. \
+				Use with the 'KSA' extension with a value of 'A', with the 'Category' extension \
+				with a value of 'Valuing', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -4331,7 +5492,10 @@
 				"en": "assessed"
 			},
 			"definition": {
-				"en": "Evaluate or estimate the nature, ability, or quality of."
+				"en": "Evaluate or estimate the nature, ability, or quality of. \
+				Use with the 'KSA' extension with a value of 'A', with the 'Category' extension \
+				with a value of 'Valuing', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -4342,7 +5506,10 @@
 				"en": "authenticated"
 			},
 			"definition": {
-				"en": "Validate."
+				"en": "Validate. \
+				Use with the 'KSA' extension with a value of 'A', with the 'Category' extension \
+				with a value of 'Valuing', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -4353,7 +5520,10 @@
 				"en": "believed"
 			},
 			"definition": {
-				"en": "Hold something as an opinion; think or suppose."
+				"en": "Hold something as an opinion; think or suppose. \
+				Use with the 'KSA' extension with a value of 'A', with the 'Category' extension \
+				with a value of 'Valuing', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -4364,7 +5534,10 @@
 				"en": "canceled"
 			},
 			"definition": {
-				"en": " Annul or revoke a formal arrangement which is in effect."
+				"en": " Annul or revoke a formal arrangement which is in effect. \
+				Use with the 'KSA' extension with a value of 'A', with the 'Category' extension \
+				with a value of 'Valuing', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -4375,7 +5548,10 @@
 				"en": "chose"
 			},
 			"definition": {
-				"en": "Pick out or select someone or something as being the best or most appropriate of two or more alternatives."
+				"en": "Pick out or select someone or something as being the best or most appropriate of two or more alternatives. \
+				Use with the 'KSA' extension with a value of 'A', with the 'Category' extension \
+				with a value of 'Valuing', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -4386,7 +5562,10 @@
 				"en": "judged"
 			},
 			"definition": {
-				"en": "Form an opinion or conclusion about."
+				"en": "Form an opinion or conclusion about. \
+				Use with the 'KSA' extension with a value of 'A', with the 'Category' extension \
+				with a value of 'Valuing', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -4397,7 +5576,10 @@
 				"en": "justified"
 			},
 			"definition": {
-				"en": "Show or prove to be right or reasonable."
+				"en": "Show or prove to be right or reasonable. \
+				Use with the 'KSA' extension with a value of 'A', with the 'Category' extension \
+				with a value of 'Valuing', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -4408,7 +5590,10 @@
 				"en": "prioritized"
 			},
 			"definition": {
-				"en": "Determine the order for dealing with a series of items or tasks according to their relative importance."
+				"en": "Determine the order for dealing with a series of items or tasks according to their relative importance. \
+				Use with the 'KSA' extension with a value of 'A', with the 'Category' extension \
+				with a value of 'Valuing', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -4419,7 +5604,10 @@
 				"en": "proposed"
 			},
 			"definition": {
-				"en": "Put forward an idea or plan for consideration or discussion by others."
+				"en": "Put forward an idea or plan for consideration or discussion by others. \
+				Use with the 'KSA' extension with a value of 'A', with the 'Category' extension \
+				with a value of 'Valuing', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -4430,7 +5618,10 @@
 				"en": "qualified"
 			},
 			"definition": {
-				"en": "Be or make properly entitled to be classed in a particular way."
+				"en": "Be or make properly entitled to be classed in a particular way. \
+				Use with the 'KSA' extension with a value of 'A', with the 'Category' extension \
+				with a value of 'Valuing', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -4441,7 +5632,10 @@
 				"en": "reassessed"
 			},
 			"definition": {
-				"en": "Consider or assess again, especially while paying attention to new or different factors."
+				"en": "Consider or assess again, especially while paying attention to new or different factors. \
+				Use with the 'KSA' extension with a value of 'A', with the 'Category' extension \
+				with a value of 'Valuing', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -4452,7 +5646,10 @@
 				"en": "reviewed"
 			},
 			"definition": {
-				"en": "Examine or assess something formally with the possibility or intention of instituting change if necessary."
+				"en": "Examine or assess something formally with the possibility or intention of instituting change if necessary. \
+				Use with the 'KSA' extension with a value of 'A', with the 'Category' extension \
+				with a value of 'Valuing', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -4463,7 +5660,10 @@
 				"en": "shared"
 			},
 			"definition": {
-				"en": "Have or provide a part in something."
+				"en": "Have or provide a part in something. \
+				Use with the 'KSA' extension with a value of 'A', with the 'Category' extension \
+				with a value of 'Valuing', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -4474,7 +5674,10 @@
 				"en": "studied"
 			},
 			"definition": {
-				"en": "Investigate and analyze a subject or situation in detail."
+				"en": "Investigate and analyze a subject or situation in detail. \
+				Use with the 'KSA' extension with a value of 'A', with the 'Category' extension \
+				with a value of 'Valuing', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -4485,7 +5688,10 @@
 				"en": "validated"
 			},
 			"definition": {
-				"en": "Check or prove the validity or accuracy of something."
+				"en": "Check or prove the validity or accuracy of something. \
+				Use with the 'KSA' extension with a value of 'A', with the 'Category' extension \
+				with a value of 'Valuing', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -4496,7 +5702,10 @@
 				"en": "verified"
 			},
 			"definition": {
-				"en": "Make sure or demonstrate that something is true, accurate, or justified."
+				"en": "Make sure or demonstrate that something is true, accurate, or justified. \
+				Use with the 'KSA' extension with a value of 'A', with the 'Category' extension \
+				with a value of 'Valuing', and with the 'Interactivity Level' extension \
+				with a value of 3 or 4."
 			}
 		},
 		{
@@ -4507,7 +5716,10 @@
 				"en": "allowed"
 			},
 			"definition": {
-				"en": "Give the necessary time or opportunity for something or someone; make provision or provide scope for something."
+				"en": "Give the necessary time or opportunity for something or someone; make provision or provide scope for something. \
+				Use with the 'KSA' extension with a value of 'A', with the 'Category' extension \
+				with a value of 'Competence', and with the 'Interactivity Level' extension \
+				with a value of 3."
 			}
 		},
 		{
@@ -4518,7 +5730,10 @@
 				"en": "altered"
 			},
 			"definition": {
-				"en": "Change or cause to change in character or composition, typically in a comparatively small but significant way."
+				"en": "Change or cause to change in character or composition, typically in a comparatively small but significant way. \
+				Use with the 'KSA' extension with a value of 'A', with the 'Category' extension \
+				with a value of 'Competence', and with the 'Interactivity Level' extension \
+				with a value of 3."
 			}
 		},
 		{
@@ -4529,7 +5744,10 @@
 				"en": "assumed"
 			},
 			"definition": {
-				"en": "Take or begin to have power or responsibility."
+				"en": "Take or begin to have power or responsibility. \
+				Use with the 'KSA' extension with a value of 'A', with the 'Category' extension \
+				with a value of 'Competence', and with the 'Interactivity Level' extension \
+				with a value of 3."
 			}
 		},
 		{
@@ -4540,7 +5758,10 @@
 				"en": "commanded"
 			},
 			"definition": {
-				"en": "Have authority over; be in charge of a unit."
+				"en": "Have authority over; be in charge of a unit. \
+				Use with the 'KSA' extension with a value of 'A', with the 'Category' extension \
+				with a value of 'Competence', and with the 'Interactivity Level' extension \
+				with a value of 3."
 			}
 		},
 		{
@@ -4551,7 +5772,10 @@
 				"en": "coordinated"
 			},
 			"definition": {
-				"en": "Bring the different elements of a complex activity or organization into a relationship that will ensure efficiency or harmony."
+				"en": "Bring the different elements of a complex activity or organization into a relationship that will ensure efficiency or harmony. \
+				Use with the 'KSA' extension with a value of 'A', with the 'Category' extension \
+				with a value of 'Competence', and with the 'Interactivity Level' extension \
+				with a value of 3."
 			}
 		},
 		{
@@ -4562,7 +5786,10 @@
 				"en": "enforced"
 			},
 			"definition": {
-				"en": "Compel observance of or compliance with a law, rule, or obligation."
+				"en": "Compel observance of or compliance with a law, rule, or obligation. \
+				Use with the 'KSA' extension with a value of 'A', with the 'Category' extension \
+				with a value of 'Competence', and with the 'Interactivity Level' extension \
+				with a value of 3."
 			}
 		},
 		{
@@ -4573,7 +5800,10 @@
 				"en": "ensured"
 			},
 			"definition": {
-				"en": "Make certain that something shall occur or be the case."
+				"en": "Make certain that something shall occur or be the case. \
+				Use with the 'KSA' extension with a value of 'A', with the 'Category' extension \
+				with a value of 'Competence', and with the 'Interactivity Level' extension \
+				with a value of 3."
 			}
 		},
 		{
@@ -4584,7 +5814,10 @@
 				"en": "influenced"
 			},
 			"definition": {
-				"en": "Have an impact on; affect."
+				"en": "Have an impact on; affect. \
+				Use with the 'KSA' extension with a value of 'A', with the 'Category' extension \
+				with a value of 'Competence', and with the 'Interactivity Level' extension \
+				with a value of 3."
 			}
 		},
 		{
@@ -4595,7 +5828,10 @@
 				"en": "prescribed"
 			},
 			"definition": {
-				"en": "State authoritatively or as a rule that an action or procedure should be carried out."
+				"en": "State authoritatively or as a rule that an action or procedure should be carried out. \
+				Use with the 'KSA' extension with a value of 'A', with the 'Category' extension \
+				with a value of 'Competence', and with the 'Interactivity Level' extension \
+				with a value of 3."
 			}
 		},
 		{
@@ -4606,7 +5842,10 @@
 				"en": "served"
 			},
 			"definition": {
-				"en": "Perform duties or services for another person or an organization."
+				"en": "Perform duties or services for another person or an organization. \
+				Use with the 'KSA' extension with a value of 'A', with the 'Category' extension \
+				with a value of 'Competence', and with the 'Interactivity Level' extension \
+				with a value of 3."
 			}
 		},
 		{
@@ -4617,7 +5856,10 @@
 				"en": "conceived"
 			},
 			"definition": {
-				"en": "Form or devise a plan or idea in the mind."
+				"en": "Form or devise a plan or idea in the mind. \
+				Use with the 'KSA' extension with a value of 'A', with the 'Category' extension \
+				with a value of 'Innovation', and with the 'Interactivity Level' extension \
+				with a value of 3."
 			}
 		},
 		{
@@ -4628,7 +5870,10 @@
 				"en": "conjectured"
 			},
 			"definition": {
-				"en": "Form an opinion or supposition about something on the basis of incomplete information."
+				"en": "Form an opinion or supposition about something on the basis of incomplete information. \
+				Use with the 'KSA' extension with a value of 'A', with the 'Category' extension \
+				with a value of 'Innovation', and with the 'Interactivity Level' extension \
+				with a value of 3."
 			}
 		},
 		{
@@ -4639,7 +5884,10 @@
 				"en": "developed"
 			},
 			"definition": {
-				"en": "Start to exist, experience, or possess."
+				"en": "Start to exist, experience, or possess. \
+				Use with the 'KSA' extension with a value of 'A', with the 'Category' extension \
+				with a value of 'Innovation', and with the 'Interactivity Level' extension \
+				with a value of 3."
 			}
 		},
 		{
@@ -4650,7 +5898,10 @@
 				"en": "devised"
 			},
 			"definition": {
-				"en": "Plan or invent a complex procedure, system, or mechanism by careful thought."
+				"en": "Plan or invent a complex procedure, system, or mechanism by careful thought. \
+				Use with the 'KSA' extension with a value of 'A', with the 'Category' extension \
+				with a value of 'Innovation', and with the 'Interactivity Level' extension \
+				with a value of 3."
 			}
 		},
 		{
@@ -4661,7 +5912,10 @@
 				"en": "formulated"
 			},
 			"definition": {
-				"en": "Create or devise methodically a strategy or a proposal."
+				"en": "Create or devise methodically a strategy or a proposal. \
+				Use with the 'KSA' extension with a value of 'A', with the 'Category' extension \
+				with a value of 'Innovation', and with the 'Interactivity Level' extension \
+				with a value of 3."
 			}
 		},
 		{
@@ -4672,7 +5926,10 @@
 				"en": "imagined"
 			},
 			"definition": {
-				"en": "Form a mental image or concept of something or someone."
+				"en": "Form a mental image or concept of something or someone. \
+				Use with the 'KSA' extension with a value of 'A', with the 'Category' extension \
+				with a value of 'Innovation', and with the 'Interactivity Level' extension \
+				with a value of 3."
 			}
 		},
 		{
@@ -4683,7 +5940,10 @@
 				"en": "innovated"
 			},
 			"definition": {
-				"en": "Introduce something new, especially a product."
+				"en": "Introduce something new, especially a product. \
+				Use with the 'KSA' extension with a value of 'A', with the 'Category' extension \
+				with a value of 'Innovation', and with the 'Interactivity Level' extension \
+				with a value of 3."
 			}
 		},
 		{
@@ -4696,8 +5956,7 @@
 			"definition": {
 				"en": "Levels of Interactivity are general classes of richness, sophistication and realism of interactivity the student experiences in Computer Based Training (CBT)."
 			},
-      "inlineSchema": "{ \"type\": \"object\", \"properties\":{ \
-        \"value\": {\"enum\": [\"1\", \"2\", \"3\", \"4\"], \"required\": true}}}"
+      "inlineSchema": "{\"type\": \"integer\", \"enum\": [1, 2, 3, 4]}"
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/extensions/category",
@@ -4709,8 +5968,7 @@
 			"definition": {
 				"en": "A further descriptive level for verbs within KSAs."
 			},
-      "inlineSchema": "{ \"type\": \"object\", \"properties\":{ \
-        \"value\": {\"enum\": [\"Fact Learning\", \"Rule Learning\", \"Procedure Learning\", \"Discrimination Learning\", \"Problem Solving\", \"Perception\", \"Gross Motor Skills\", \"Continuous Movement\", \"Readiness\", \"Mechanism\", \"Adaptation\", \"Origination\", \"Receiving\", \"Responding\", \"Valuing\", \"Competence\", \"Innovation\"], \"required\": true}}}"
+      "inlineSchema": "{\"type\": \"string\", \"enum\": [\"Fact Learning\", \"Rule Learning\", \"Procedure Learning\", \"Discrimination Learning\", \"Problem Solving\", \"Perception\", \"Gross Motor Skills\", \"Continuous Movement\", \"Readiness\", \"Mechanism\", \"Adaptation\", \"Origination\", \"Receiving\", \"Responding\", \"Valuing\", \"Competence\", \"Innovation\"]}"
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/extensions/ksa",
@@ -4722,8 +5980,7 @@
 			"definition": {
 				"en": "Knowledge, Skills, Attitude"
 			},
-      "inlineSchema": "{ \"type\": \"object\", \"properties\":{ \
-        \"value\": {\"enum\": [\"Knowledge\", \"Skills\", \"Attitude\"], \"required\": true}}}"
+      "inlineSchema": "{ \"type\": \"string\", \"enum\": [\"Knowledge\", \"Skills\", \"Attitude\"]}"
 		}
 	]
 }
