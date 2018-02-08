@@ -1,6 +1,6 @@
 {
 	"@context": "https://w3id.org/xapi/profiles/context",
-	"id": "https://w3id.org/xapi/profiles/dod-isd",
+	"id": "https://w3id.org/xapi/dod-isd",
 	"type": "Profile",
 	"conformsTo": "https://w3id.org/xapi/profiles#1.0",
 	"prefLabel": {
@@ -12,7 +12,7 @@
 	"seeAlso": "MIL-HDBK-29612-1A",
 	"versions": [
 		{
-			"id": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"id": "https://w3id.org/xapi/dod-isd/v1",
 			"generatedAtTime": "2017-10-24"
 		}
 	],
@@ -23,7 +23,7 @@
 	"concepts": [
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/advised",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "advised"
@@ -37,7 +37,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/answered",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "answered"
@@ -51,7 +51,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/briefed",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "briefed"
@@ -65,7 +65,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/calculated",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "calculated"
@@ -79,7 +79,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/defined",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "defined"
@@ -93,7 +93,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/elaborated",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "elaborated"
@@ -107,7 +107,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/expressed",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "expressed"
@@ -121,7 +121,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/identified",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "identified"
@@ -135,7 +135,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/informed",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "informed"
@@ -149,7 +149,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/instructed",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "instructed"
@@ -163,7 +163,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/listed",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "listed"
@@ -177,7 +177,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/named",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "named"
@@ -191,7 +191,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/read",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "read"
@@ -205,7 +205,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/recalled",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "recalled"
@@ -219,7 +219,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/recommended",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "recommended"
@@ -233,7 +233,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/recounted",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "recounted"
@@ -247,7 +247,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/specified",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "specified"
@@ -261,7 +261,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/stated",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "stated"
@@ -275,7 +275,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/told",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "told"
@@ -289,7 +289,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/appraised",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "appraised"
@@ -303,7 +303,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/compiled",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "compiled"
@@ -317,7 +317,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/composed",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "composed"
@@ -331,7 +331,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/computed",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "computed"
@@ -345,7 +345,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/encrypted",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "encrypted"
@@ -359,7 +359,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/estimated",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "estimated"
@@ -373,7 +373,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/evaluated",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "evaluated"
@@ -387,7 +387,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/formatted",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "formatted"
@@ -401,7 +401,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/forwarded",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "forwarded"
@@ -415,7 +415,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/measured",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "measured"
@@ -429,7 +429,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/outlined",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "outlined"
@@ -443,7 +443,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/routed",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "routed"
@@ -457,7 +457,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/checked",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "checked"
@@ -471,7 +471,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/condensed",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "condensed"
@@ -485,7 +485,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/edited",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "edited"
@@ -499,7 +499,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/deleted",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "deleted"
@@ -513,7 +513,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/implemented",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "implemented"
@@ -527,7 +527,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/initiated",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "initiated"
@@ -541,7 +541,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/paused",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "paused"
@@ -555,7 +555,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/resumed",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "resumed"
@@ -571,7 +571,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/set-up",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "set up"
@@ -585,7 +585,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/started",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "started"
@@ -599,7 +599,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/stopped",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "stopped"
@@ -613,7 +613,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/allocated",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "allocated"
@@ -627,7 +627,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/arranged",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "arranged"
@@ -641,7 +641,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/assigned",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "assigned"
@@ -655,7 +655,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/categorized",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "categorized"
@@ -669,7 +669,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/classified",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "classified"
@@ -683,7 +683,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/collated",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "collated"
@@ -697,7 +697,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/compared",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "compared"
@@ -711,7 +711,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/confirmed",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "confirmed"
@@ -725,7 +725,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/consolidated",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "consolidated"
@@ -739,7 +739,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/contrasted",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "contrasted"
@@ -753,7 +753,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/correlated",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "correlated"
@@ -767,7 +767,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/cross-checked",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "cross-checked"
@@ -781,7 +781,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/designated",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "designated"
@@ -795,7 +795,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/differentiated",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "differentiated"
@@ -809,7 +809,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/discriminated",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "discriminated"
@@ -823,7 +823,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/distinguished",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "distinguished"
@@ -837,7 +837,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/distributed",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "distributed"
@@ -851,7 +851,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/divided",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "divided"
@@ -865,7 +865,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/eliminated",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "eliminated"
@@ -879,7 +879,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/extracted",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "extracted"
@@ -893,7 +893,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/finalized",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "finalized"
@@ -907,7 +907,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/grouped",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "grouped"
@@ -921,7 +921,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/labeled",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "labeled"
@@ -935,7 +935,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/leveled",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "leveled"
@@ -949,7 +949,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/matched",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "matched"
@@ -963,7 +963,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/organized",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "organized"
@@ -977,7 +977,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/ranked",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "ranked"
@@ -991,7 +991,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/realigned",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "realigned"
@@ -1005,7 +1005,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/redistributed",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "redistributed"
@@ -1019,7 +1019,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/reexamined",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "reexamined"
@@ -1033,7 +1033,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/reorganized",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "reorganized"
@@ -1047,7 +1047,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/restated",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "restated"
@@ -1061,7 +1061,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/scheduled",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "scheduled"
@@ -1075,7 +1075,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/selected",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "selected"
@@ -1089,7 +1089,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/separated",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "separated"
@@ -1103,7 +1103,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/sorted",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "sorted"
@@ -1117,7 +1117,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/tasked",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "tasked"
@@ -1131,7 +1131,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/templated",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "templated"
@@ -1145,7 +1145,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/translated",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "translated"
@@ -1159,7 +1159,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/tuned",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "tuned"
@@ -1173,7 +1173,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/analyzed",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "analyzed"
@@ -1187,7 +1187,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/annotated",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "annotated"
@@ -1201,7 +1201,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/applied",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "applied"
@@ -1215,7 +1215,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/changed",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "changed"
@@ -1229,7 +1229,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/combined",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "combined"
@@ -1243,7 +1243,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/concluded",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "concluded"
@@ -1257,7 +1257,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/converted",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "converted"
@@ -1271,7 +1271,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/created",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "created"
@@ -1285,7 +1285,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/criticized",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "criticized"
@@ -1299,7 +1299,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/decided",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "decided"
@@ -1313,7 +1313,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/defended",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "defended"
@@ -1327,7 +1327,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/derived",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "derived"
@@ -1341,7 +1341,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/designed",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "designed"
@@ -1355,7 +1355,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/determined",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "determined"
@@ -1369,7 +1369,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/diagrammed",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "diagrammed"
@@ -1383,7 +1383,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/discovered",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "discovered"
@@ -1397,7 +1397,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/drafted",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "drafted"
@@ -1411,7 +1411,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/effected",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "effected"
@@ -1425,7 +1425,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/explained",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "explained"
@@ -1439,7 +1439,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/extended",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "extended"
@@ -1453,7 +1453,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/found",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "found"
@@ -1467,7 +1467,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/generalized",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "generalized"
@@ -1481,7 +1481,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/generated",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "generated"
@@ -1495,7 +1495,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/hypothesized",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "hypothesized"
@@ -1509,7 +1509,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/illustrated",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "illustrated"
@@ -1523,7 +1523,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/inferred",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "inferred"
@@ -1537,7 +1537,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/investigated",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "investigated"
@@ -1551,7 +1551,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/located",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "located"
@@ -1565,7 +1565,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/manipulated",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "manipulated"
@@ -1579,7 +1579,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/modified",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "modified"
@@ -1593,7 +1593,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/planned",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "planned"
@@ -1607,7 +1607,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/predicted",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "predicted"
@@ -1621,7 +1621,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/produced",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "produced"
@@ -1635,7 +1635,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/projected",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "projected"
@@ -1649,7 +1649,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/resolved",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "resolved"
@@ -1663,7 +1663,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/revised",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "revised"
@@ -1677,7 +1677,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/searched",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "searched"
@@ -1691,7 +1691,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/solved",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "solved"
@@ -1705,7 +1705,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/summarized",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "summarized"
@@ -1719,7 +1719,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/synthesized",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "synthesized"
@@ -1733,7 +1733,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/triaged",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "triaged"
@@ -1747,7 +1747,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/used",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "used"
@@ -1761,7 +1761,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/war-gamed",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "war gamed"
@@ -1775,7 +1775,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/detected",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "detected"
@@ -1789,7 +1789,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/felt",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "felt"
@@ -1803,7 +1803,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/heard",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "heard"
@@ -1817,7 +1817,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/scanned",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "scanned"
@@ -1831,7 +1831,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/saw",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "saw"
@@ -1845,7 +1845,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/smelled",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "smelled"
@@ -1859,7 +1859,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/tasted",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "tasted"
@@ -1873,7 +1873,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/visualized",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "visualized"
@@ -1887,7 +1887,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/assaulted",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "assaulted"
@@ -1901,7 +1901,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/carried",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "carried"
@@ -1915,7 +1915,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/crept",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "crept"
@@ -1929,7 +1929,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/departed",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "departed"
@@ -1943,7 +1943,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/fell",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "fell"
@@ -1957,7 +1957,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/held",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "held"
@@ -1971,7 +1971,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/jumped",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "lifted"
@@ -1985,7 +1985,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/pulled",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "pulled"
@@ -1999,7 +1999,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/ran",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "ran"
@@ -2013,7 +2013,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/stayed",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "stayed"
@@ -2027,7 +2027,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/swam",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "swam"
@@ -2041,7 +2041,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/threw",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "threw"
@@ -2055,7 +2055,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/turned",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "turned"
@@ -2069,7 +2069,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/twisted",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "twisted"
@@ -2083,7 +2083,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/wore",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "wore"
@@ -2097,7 +2097,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/advanced",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "advanced"
@@ -2111,7 +2111,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/controlled",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "controlled"
@@ -2125,7 +2125,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/followed",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "followed"
@@ -2139,7 +2139,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/guided",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "guided"
@@ -2153,7 +2153,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/hovered",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "hovered"
@@ -2167,7 +2167,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/landed",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "landed"
@@ -2181,7 +2181,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/maneuvered",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "maneuvered"
@@ -2195,7 +2195,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/regulated",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "regulated"
@@ -2209,7 +2209,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/steered",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "steered"
@@ -2223,7 +2223,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/took-off",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "took off"
@@ -2237,7 +2237,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/tracked",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "tracked"
@@ -2251,7 +2251,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/traversed",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "traversed"
@@ -2265,7 +2265,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/abled",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "abled"
@@ -2279,7 +2279,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/assisted",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "assisted"
@@ -2293,7 +2293,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/challenged",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "challenged"
@@ -2307,7 +2307,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/crossed",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "crossed"
@@ -2321,7 +2321,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/delayed",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "delayed"
@@ -2335,7 +2335,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/guarded",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "guarded"
@@ -2349,7 +2349,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/prepared",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "prepared"
@@ -2363,7 +2363,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/primed",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "primed"
@@ -2377,7 +2377,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/readied",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "readied"
@@ -2391,7 +2391,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/set",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "set"
@@ -2405,7 +2405,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/stood-to",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "stood to"
@@ -2419,7 +2419,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/accessed",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "accessed"
@@ -2433,7 +2433,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/activated",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "activated"
@@ -2447,7 +2447,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/actuated",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "actuated"
@@ -2461,7 +2461,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/adjusted",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "adjusted"
@@ -2475,7 +2475,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/administered",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "administered"
@@ -2489,7 +2489,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/aligned",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "aligned"
@@ -2503,7 +2503,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/archived",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "archived"
@@ -2517,7 +2517,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/armed",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "armed"
@@ -2531,7 +2531,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/assembled",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "assembled"
@@ -2545,7 +2545,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/attached",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "attached"
@@ -2559,7 +2559,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/balanced",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "balanced"
@@ -2573,7 +2573,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/breached",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "breached"
@@ -2587,7 +2587,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/calibrated",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "calibrated"
@@ -2601,7 +2601,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/camouflaged",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "camouflaged"
@@ -2615,7 +2615,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/centered",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "centered"
@@ -2629,7 +2629,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/charged",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "charged"
@@ -2643,7 +2643,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/cleaned",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "cleaned"
@@ -2657,7 +2657,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/cleared",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "cleared"
@@ -2671,7 +2671,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/closed",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "closed"
@@ -2685,7 +2685,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/collected",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "collected"
@@ -2699,7 +2699,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/connected",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "connected"
@@ -2713,7 +2713,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/covered",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "covered"
@@ -2727,7 +2727,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/debriefed",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "debriefed"
@@ -2741,7 +2741,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/debugged",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "debugged"
@@ -2755,7 +2755,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/decontaminated",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "decontaminated"
@@ -2769,7 +2769,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/delivered",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "delivered"
@@ -2783,7 +2783,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/destroyed",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "destroyed"
@@ -2797,7 +2797,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/diagnosed",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "diagnosed"
@@ -2811,7 +2811,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/dug",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "dug"
@@ -2825,7 +2825,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/disassembled",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "disassembled"
@@ -2839,7 +2839,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/disconnected",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "disconnected"
@@ -2853,7 +2853,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/disengaged",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "disengaged"
@@ -2867,7 +2867,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/dismantled",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "dismantled"
@@ -2881,7 +2881,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/dispatched",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "dispatched"
@@ -2895,7 +2895,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/displaced",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "displaced"
@@ -2909,7 +2909,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/displayed",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "displayed"
@@ -2923,7 +2923,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/disposed",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "disposed"
@@ -2937,7 +2937,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/disseminated",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "disseminated"
@@ -2951,7 +2951,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/drove",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "drove"
@@ -2965,7 +2965,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/egressed",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "egressed"
@@ -2979,7 +2979,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/elevated",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "elevated"
@@ -2993,7 +2993,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/emplaced",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "emplaced"
@@ -3007,7 +3007,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/employed",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "employed"
@@ -3021,7 +3021,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/engaged",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "engaged"
@@ -3035,7 +3035,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/energized",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "energized"
@@ -3049,7 +3049,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/entered",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "entered"
@@ -3063,7 +3063,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/established",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "established"
@@ -3077,7 +3077,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/evacuated",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "evacuated"
@@ -3091,7 +3091,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/exchanged",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "exchanged"
@@ -3105,7 +3105,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/filled-out",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "filled out"
@@ -3119,7 +3119,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/fired",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "fired"
@@ -3133,7 +3133,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/fit",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "fit"
@@ -3147,7 +3147,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/fueled",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "fueled"
@@ -3161,7 +3161,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/grounded",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "grounded"
@@ -3175,7 +3175,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/hardened",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "hardened"
@@ -3189,7 +3189,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/hoisted",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "hoisted"
@@ -3203,7 +3203,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/initialized",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "initialized"
@@ -3217,7 +3217,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/input",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "input"
@@ -3231,7 +3231,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/inserted",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "inserted"
@@ -3245,7 +3245,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/inspected",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "inspected"
@@ -3259,7 +3259,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/installed",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "installed"
@@ -3273,7 +3273,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/integrated",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "integrated"
@@ -3287,7 +3287,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/intercepted",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "intercepted"
@@ -3301,7 +3301,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/isolated",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "isolated"
@@ -3315,7 +3315,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/issued",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "issued"
@@ -3329,7 +3329,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/jacked",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "jacked"
@@ -3343,7 +3343,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/launched",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "launched"
@@ -3357,7 +3357,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/loaded",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "loaded"
@@ -3371,7 +3371,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/logged",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "logged"
@@ -3385,7 +3385,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/lubricated",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "lubricated"
@@ -3399,7 +3399,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/maintained",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "maintained"
@@ -3413,7 +3413,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/managed",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "managed"
@@ -3427,7 +3427,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/mounted",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "mounted"
@@ -3441,7 +3441,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/moved",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "moved"
@@ -3455,7 +3455,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/navigated",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "navigated"
@@ -3469,7 +3469,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/obtained",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "obtained"
@@ -3483,7 +3483,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/opened",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "opened"
@@ -3497,7 +3497,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/operated",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "operated"
@@ -3511,7 +3511,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/ordered",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "ordered"
@@ -3525,7 +3525,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/parked",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "parked"
@@ -3539,7 +3539,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/performed",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "performed"
@@ -3553,7 +3553,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/placed",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "placed"
@@ -3567,7 +3567,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/plotted",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "plotted"
@@ -3581,7 +3581,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/policed",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "policed"
@@ -3595,7 +3595,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/positioned",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "positioned"
@@ -3609,7 +3609,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/posted",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "posted"
@@ -3623,7 +3623,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/pressed",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "pressed"
@@ -3637,7 +3637,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/pressurized",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "pressurized"
@@ -3651,7 +3651,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/processed",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "processed"
@@ -3665,7 +3665,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/procured",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "procured"
@@ -3679,7 +3679,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/provided",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "provided"
@@ -3693,7 +3693,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/published",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "published"
@@ -3707,7 +3707,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/raised",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "raised"
@@ -3721,7 +3721,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/ranged",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "ranged"
@@ -3735,7 +3735,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/reached",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "reached"
@@ -3749,7 +3749,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/received",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "received"
@@ -3763,7 +3763,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/recorded",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "recorded"
@@ -3777,7 +3777,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/reestablished",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "reestablished"
@@ -3791,7 +3791,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/refueled",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "refueled"
@@ -3805,7 +3805,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/released",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "released"
@@ -3819,7 +3819,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/relocated",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "relocated"
@@ -3833,7 +3833,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/removed",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "removed"
@@ -3847,7 +3847,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/repaired",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "repaired"
@@ -3861,7 +3861,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/replaced",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "replaced"
@@ -3875,7 +3875,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/replenished",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "replenished"
@@ -3889,7 +3889,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/reset",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "reset"
@@ -3903,7 +3903,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/retrieved",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "retrieved"
@@ -3917,7 +3917,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/returned",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "returned"
@@ -3931,7 +3931,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/rotated",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "rotated"
@@ -3945,7 +3945,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/saved",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "saved"
@@ -3959,7 +3959,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/secured",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "secured"
@@ -3973,7 +3973,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/sent",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "sent"
@@ -3987,7 +3987,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/serviced",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "serviced"
@@ -4001,7 +4001,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/shut-down",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "shut down"
@@ -4015,7 +4015,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/sighted",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "sighted"
@@ -4029,7 +4029,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/signaled",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "signaled"
@@ -4043,7 +4043,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/splinted",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "splinted"
@@ -4057,7 +4057,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/squeezed",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "squeezed"
@@ -4071,7 +4071,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/stockpiled",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "stockpiled"
@@ -4085,7 +4085,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/stored",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "stored"
@@ -4099,7 +4099,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/stowed",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "stowed"
@@ -4113,7 +4113,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/struck",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "struck"
@@ -4127,7 +4127,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/submitted",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "submitted"
@@ -4141,7 +4141,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/supervised",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "supervised"
@@ -4155,7 +4155,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/supported",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "supported"
@@ -4169,7 +4169,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/swept",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "swept"
@@ -4183,7 +4183,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/took",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "took"
@@ -4197,7 +4197,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/took-charge",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "took charge"
@@ -4211,7 +4211,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/tapped",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "tapped"
@@ -4225,7 +4225,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/tested",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "tested"
@@ -4239,7 +4239,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/tightened",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "tightened"
@@ -4253,7 +4253,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/traced",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "traced"
@@ -4267,7 +4267,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/transferred",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "transferred"
@@ -4281,7 +4281,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/transmitted",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "transmitted"
@@ -4295,7 +4295,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/transported",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "transported"
@@ -4309,7 +4309,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/treated",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "treated"
@@ -4323,7 +4323,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/troubleshot",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "troubleshot"
@@ -4337,7 +4337,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/typed",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "typed"
@@ -4351,7 +4351,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/unloaded",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "unloaded"
@@ -4365,7 +4365,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/updated",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "updated"
@@ -4379,7 +4379,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/utilized",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "utilized"
@@ -4393,7 +4393,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/wrote",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "wrote"
@@ -4407,7 +4407,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/zeroed",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "zeroed"
@@ -4421,7 +4421,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/acclimatized",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "acclimatized"
@@ -4435,7 +4435,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/accommodated",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "accommodated"
@@ -4449,7 +4449,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/adapted",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "adapted"
@@ -4463,7 +4463,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/ambushed",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "ambushed"
@@ -4477,7 +4477,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/attacked",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "attacked"
@@ -4491,7 +4491,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/bypassed",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "bypassed"
@@ -4505,7 +4505,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/conducted",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "conducted"
@@ -4519,7 +4519,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/deployed",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "deployed"
@@ -4533,7 +4533,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/directed",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "directed"
@@ -4547,7 +4547,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/drew",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "drew"
@@ -4561,7 +4561,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/evaded",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "evaded"
@@ -4575,7 +4575,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/infiltrated",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "infiltrated"
@@ -4589,7 +4589,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/laid",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "laid"
@@ -4603,7 +4603,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/led",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "led"
@@ -4617,7 +4617,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/mapped",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "mapped"
@@ -4631,7 +4631,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/neutralized",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "neutralized"
@@ -4645,7 +4645,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/occupied",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "occupied"
@@ -4659,7 +4659,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/oriented",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "oriented"
@@ -4673,7 +4673,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/packed",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "packed"
@@ -4687,7 +4687,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/patrolled",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "patrolled"
@@ -4701,7 +4701,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/prevented",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "prevented"
@@ -4715,7 +4715,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/programmed",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "programmed"
@@ -4729,7 +4729,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/protected",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "protected"
@@ -4743,7 +4743,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/queued",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "queued"
@@ -4757,7 +4757,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/reconciled",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "reconciled"
@@ -4771,7 +4771,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/recovered",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "recovered"
@@ -4785,7 +4785,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/reduced",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "reduced"
@@ -4799,7 +4799,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/relieved",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "relieved"
@@ -4813,7 +4813,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/suppressed",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "suppressed"
@@ -4827,7 +4827,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/tailored",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "tailored"
@@ -4841,7 +4841,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/tempered",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "tempered"
@@ -4855,7 +4855,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/trained",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "trained"
@@ -4869,7 +4869,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/caused",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "caused"
@@ -4883,7 +4883,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/constructed",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "constructed"
@@ -4897,7 +4897,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/contrived",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "contrived"
@@ -4911,7 +4911,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/corrected",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "corrected"
@@ -4925,7 +4925,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/invented",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "invented"
@@ -4939,7 +4939,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/made",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "made"
@@ -4953,7 +4953,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/originated",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "originated"
@@ -4967,7 +4967,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/attended-closely",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "attended closely"
@@ -4982,7 +4982,7 @@
 		{
 
 			"id": "https://w3id.org/xapi/dod-isd/verbs/listened",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "listened"
@@ -4996,7 +4996,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/listened-attentively",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "listened attentively"
@@ -5010,7 +5010,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/monitored",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "monitored"
@@ -5024,7 +5024,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/observed",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "observed"
@@ -5038,7 +5038,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/perceived",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "perceived"
@@ -5052,7 +5052,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/recognized",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "recognized"
@@ -5066,7 +5066,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/reconnoitered",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "reconnoitered"
@@ -5080,7 +5080,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/showed-awareness",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "showed awareness"
@@ -5094,7 +5094,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/showed-sensitivity",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "showed sensitivity"
@@ -5108,7 +5108,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/waited",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "waited"
@@ -5122,7 +5122,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/accomplished",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "accomplished"
@@ -5136,7 +5136,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/achieved",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "achieved"
@@ -5150,7 +5150,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/acknowledged",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "acknowledged"
@@ -5164,7 +5164,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/announced",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "announced"
@@ -5178,7 +5178,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/asked",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "asked"
@@ -5192,7 +5192,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/communicated",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "communicated"
@@ -5206,7 +5206,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/completed",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "completed"
@@ -5220,7 +5220,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/completed-assignment",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "completed assignment"
@@ -5234,7 +5234,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/complied",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "complied"
@@ -5248,7 +5248,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/demonstrated",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "demonstrated"
@@ -5262,7 +5262,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/described",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "described"
@@ -5276,7 +5276,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/encoded",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "encoded"
@@ -5290,7 +5290,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/executed",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "executed"
@@ -5304,7 +5304,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/gave",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "gave"
@@ -5318,7 +5318,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/indicated",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "indicated"
@@ -5332,7 +5332,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/interpreted",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "interpreted"
@@ -5346,7 +5346,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/notified",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "notified"
@@ -5360,7 +5360,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/obeyed-rules",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "obeyed rules"
@@ -5374,7 +5374,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/reacted",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "reacted"
@@ -5388,7 +5388,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/reported",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "reported"
@@ -5402,7 +5402,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/requested",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "requested"
@@ -5416,7 +5416,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/responded",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "responded"
@@ -5430,7 +5430,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/showed",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "showed"
@@ -5444,7 +5444,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/alerted",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "alerted"
@@ -5458,7 +5458,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/appreciated",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "appreciated"
@@ -5472,7 +5472,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/approved",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "approved"
@@ -5486,7 +5486,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/assessed",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "assessed"
@@ -5500,7 +5500,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/authenticated",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "authenticated"
@@ -5514,7 +5514,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/believed",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "believed"
@@ -5528,7 +5528,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/canceled",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "canceled"
@@ -5542,7 +5542,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/chose",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "chose"
@@ -5556,7 +5556,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/judged",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "judged"
@@ -5570,7 +5570,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/justified",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "justified"
@@ -5584,7 +5584,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/prioritized",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "prioritized"
@@ -5598,7 +5598,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/proposed",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "proposed"
@@ -5612,7 +5612,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/qualified",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "qualified"
@@ -5626,7 +5626,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/reassessed",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "reassessed"
@@ -5640,7 +5640,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/reviewed",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "reviewed"
@@ -5654,7 +5654,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/shared",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "shared"
@@ -5668,7 +5668,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/studied",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "studied"
@@ -5682,7 +5682,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/validated",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "validated"
@@ -5696,7 +5696,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/verified",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "verified"
@@ -5710,7 +5710,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/allowed",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "allowed"
@@ -5724,7 +5724,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/altered",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "altered"
@@ -5738,7 +5738,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/assumed",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "assumed"
@@ -5752,7 +5752,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/commanded",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "commanded"
@@ -5766,7 +5766,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/coordinated",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "coordinated"
@@ -5780,7 +5780,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/enforced",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "enforced"
@@ -5794,7 +5794,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/ensured",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "ensured"
@@ -5808,7 +5808,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/influenced",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "influenced"
@@ -5822,7 +5822,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/prescribed",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "prescribed"
@@ -5836,7 +5836,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/served",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "served"
@@ -5850,7 +5850,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/conceived",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "conceived"
@@ -5864,7 +5864,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/conjectured",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "conjectured"
@@ -5878,7 +5878,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/developed",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "developed"
@@ -5892,7 +5892,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/devised",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "devised"
@@ -5906,7 +5906,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/formulated",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "formulated"
@@ -5920,7 +5920,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/imagined",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "imagined"
@@ -5934,7 +5934,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/verbs/innovated",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "Verb",
 			"prefLabel": {
 				"en": "innovated"
@@ -5948,7 +5948,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/extensions/interactivity-level",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "ContextExtension",
 			"prefLabel": {
 				"en": "Interactivity Level"
@@ -5960,7 +5960,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/extensions/category",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "ContextExtension",
 			"prefLabel": {
 				"en": "Category"
@@ -5972,7 +5972,7 @@
 		},
 		{
 			"id": "https://w3id.org/xapi/dod-isd/extensions/ksa",
-			"inScheme": "https://w3id.org/xapi/profiles/dod-isd/v1",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1",
 			"type": "ContextExtension",
 			"prefLabel": {
 				"en": "KSA"
