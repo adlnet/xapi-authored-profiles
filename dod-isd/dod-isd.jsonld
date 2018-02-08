@@ -1,6 +1,6 @@
 {
 	"@context": "https://w3id.org/xapi/profiles/context",
-	"id": "https://w3id.org/xapi/profiles/dod-isd",
+	"id": "https://w3id.org/xapi/dod-isd",
 	"type": "Profile",
 	"conformsTo": "https://w3id.org/xapi/profiles#1.0",
 	"prefLabel": {
