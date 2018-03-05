@@ -12,7 +12,7 @@
     "seeAlso": "https://github.com/AICC/CMI-5_Spec_Current/blob/quartz/cmi5_spec.md",
     "versions": [
         {
-            "id": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
+            "id": "https://w3id.org/xapi/cmi5/v1.0.0",
             "generatedAtTime": "2017-03-27T12:30:00-07:00"
         }
     ],
@@ -23,7 +23,7 @@
     "concepts": [
       {
         "@id": "https://w3id.org/xapi/adl/verbs/abandoned",
-        "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
+        "inScheme": "https://w3id.org/xapi/cmi5/v1.0.0",
         "@type": "Verb",
         "definition": {
           "en": "Indicates that the AU session was abnormally terminated by a learner's action (or due to a system failure)."
@@ -34,7 +34,7 @@
       },
       {
         "@id": "https://w3id.org/xapi/adl/verbs/abandoned",
-        "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
+        "inScheme": "https://w3id.org/xapi/cmi5/v1.0.0",
         "@type": "Verb",
         "definition": {
           "en": "Indicates that the AU session was abnormally terminated by a learner's action (or due to a system failure)."
@@ -45,7 +45,7 @@
       },
     {
       "@id": "https://w3id.org/xapi/adl/verbs/satisfied",
-      "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
+      "inScheme": "https://w3id.org/xapi/cmi5/v1.0.0",
       "@type": "Verb",
       "definition": {
         "en": "Indicates that the authority or activity provider determined the actor has fulfilled the criteria of the object or activity."
@@ -56,7 +56,7 @@
     },
     {
       "@id": "https://w3id.org/xapi/adl/verbs/waived",
-      "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
+      "inScheme": "https://w3id.org/xapi/cmi5/v1.0.0",
       "@type": "Verb",
       "definition": {
         "en": "Indicates that the learning activity requirements were met by means other than completing the activity. A waived statement is used to indicate that the activity may be skipped by the actor."
@@ -67,7 +67,7 @@
     },
    	{
 		"@id": "https://w3id.org/xapi/cmi5/activities/block",
-        "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
+        "inScheme": "https://w3id.org/xapi/cmi5/v1.0.0",
 		"@type": "ActivityType",
 		"definition": {
 			"en": "A block represents a number of Assignable Units of which progress (completion/success) is rolled up to.  In cmi5 it is every level above the AU and below the Course."
@@ -78,7 +78,7 @@
 	},
       {
         "@id": "https://w3id.org/xapi/cmi5/activities/course",
-        "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
+        "inScheme": "https://w3id.org/xapi/cmi5/v1.0.0",
         "@type": "ActivityType",
         "exactMatch": [ "http://adlnet.gov/expapi/activities/course" ],
         "definition": {
@@ -90,7 +90,7 @@
       },
   {
       "id": "https://w3id.org/xapi/cmi5/result/extensions/progress",
-      "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
+      "inScheme": "https://w3id.org/xapi/cmi5/v1.0.0",
       "type": "ResultExtension",
       "prefLabel": {
           "en": "progress"
@@ -102,7 +102,7 @@
   },
   {
       "id": "https://w3id.org/xapi/cmi5/result/extensions/reason",
-      "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
+      "inScheme": "https://w3id.org/xapi/cmi5/v1.0.0",
       "type": "ResultExtension",
       "prefLabel": {
           "en": "reason"
@@ -114,7 +114,7 @@
   },
       {
         "id": "https://w3id.org/xapi/cmi5/context/extensions/sessionid",
-        "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
+        "inScheme": "https://w3id.org/xapi/cmi5/v1.0.0",
         "type": "ContextExtension",
         "exactMatch": [ "id", "https://w3id.org/xapi/video/extensions/session-id" ],
         "prefLabel": {
@@ -127,7 +127,7 @@
       },
   {
       "id": "https://w3id.org/xapi/cmi5/context/extensions/masteryscore",
-      "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
+      "inScheme": "https://w3id.org/xapi/cmi5/v1.0.0",
       "type": "ContextExtension",
       "prefLabel": {
           "en": "mastery score"
@@ -139,7 +139,7 @@
   },
   {
       "id": "https://w3id.org/xapi/cmi5/context/extensions/launchmode",
-      "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
+      "inScheme": "https://w3id.org/xapi/cmi5/v1.0.0",
       "type": "ContextExtension",
       "prefLabel": {
           "en": "launch mode"
@@ -151,7 +151,7 @@
   },
   {
       "id": "https://w3id.org/xapi/cmi5/context/extensions/launchurl",
-      "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
+      "inScheme": "https://w3id.org/xapi/cmi5/v1.0.0",
       "type": "ContextExtension",
       "prefLabel": {
           "en": "launch URL"
@@ -163,7 +163,7 @@
   },
   {
       "id": "https://w3id.org/xapi/cmi5/context/extensions/launchparameters",
-      "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
+      "inScheme": "https://w3id.org/xapi/cmi5/v1.0.0",
       "type": "ContextExtension",
       "prefLabel": {
           "en": "launch parameters"
@@ -175,7 +175,7 @@
   },
   {
       "id": "https://w3id.org/xapi/cmi5/context/extensions/moveon",
-      "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
+      "inScheme": "https://w3id.org/xapi/cmi5/v1.0.0",
       "type": "ContextExtension",
       "prefLabel": {
           "en": "move on"
@@ -190,7 +190,7 @@
         {
             "id": "https://w3id.org/xapi/cmi5#generalrestrictions",
             "type": "StatementTemplate",
-            "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
+            "inScheme": "https://w3id.org/xapi/cmi5/v1.0.0",
             "prefLabel": {
                 "en": "Restrictions for all cmi5-defined Statements"
             },
@@ -219,7 +219,7 @@
             "prefLabel": {
                 "en": "Launched"
             },
-            "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
+            "inScheme": "https://w3id.org/xapi/cmi5/v1.0.0",
             "verb": "http://adlnet.gov/expapi/verbs/launched",
             "rules": [
                 {
@@ -264,7 +264,7 @@
             "prefLabel": {
                 "en": "Initialized"
             },
-            "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
+            "inScheme": "https://w3id.org/xapi/cmi5/v1.0.0",
             "verb": "http://adlnet.gov/expapi/verbs/initialized",
             "rules": [
                 {
@@ -290,7 +290,7 @@
             "prefLabel": {
                 "en": "Completed"
             },
-            "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
+            "inScheme": "https://w3id.org/xapi/cmi5/v1.0.0",
             "verb": "http://adlnet.gov/expapi/verbs/completed",
             "rules": [
                 {
@@ -323,7 +323,7 @@
             "prefLabel": {
                 "en": "Passed"
             },
-            "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
+            "inScheme": "https://w3id.org/xapi/cmi5/v1.0.0",
             "verb": "http://adlnet.gov/expapi/verbs/passed",
             "rules": [
                 {
@@ -356,7 +356,7 @@
             "prefLabel": {
                 "en": "Failed"
             },
-            "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
+            "inScheme": "https://w3id.org/xapi/cmi5/v1.0.0",
             "verb": "http://adlnet.gov/expapi/verbs/failed",
             "rules": [
                 {
@@ -389,7 +389,7 @@
             "prefLabel": {
                 "en": "Abandoned"
             },
-            "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
+            "inScheme": "https://w3id.org/xapi/cmi5/v1.0.0",
             "verb": "https://w3id.org/xapi/adl/verbs/abandoned",
             "rules": [
                 {
@@ -420,7 +420,7 @@
             "prefLabel": {
                 "en": "Waived"
             },
-            "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
+            "inScheme": "https://w3id.org/xapi/cmi5/v1.0.0",
             "verb": "http://adlnet.gov/expapi/verbs/waived",
             "rules": [
                 {
@@ -453,7 +453,7 @@
             "prefLabel": {
                 "en": "Terminated"
             },
-            "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
+            "inScheme": "https://w3id.org/xapi/cmi5/v1.0.0",
             "verb": "http://adlnet.gov/expapi/verbs/terminated",
             "rules": [
                 {
@@ -484,7 +484,7 @@
             "prefLabel": {
                 "en": "Satisfied"
             },
-            "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
+            "inScheme": "https://w3id.org/xapi/cmi5/v1.0.0",
             "verb": "http://adlnet.gov/expapi/verbs/satisfied",
             "rules": [
                 {
@@ -520,7 +520,7 @@
             "prefLabel": {
                 "en": "Satisfieds"
             },
-            "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
+            "inScheme": "https://w3id.org/xapi/cmi5/v1.0.0",
             "zeroOrMore": "https://w3id.org/xapi/cmi5#satisfied"
         },
         {
@@ -529,7 +529,7 @@
             "prefLabel": {
                 "en": "Waived Session"
             },
-            "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
+            "inScheme": "https://w3id.org/xapi/cmi5/v1.0.0",
             "sequence": ["https://w3id.org/xapi/cmi5#satisfieds", "https://w3id.org/xapi/cmi5#waived", "https://w3id.org/xapi/cmi5#satisfieds"]
         },
         {
@@ -538,7 +538,7 @@
             "prefLabel": {
                 "en": "No Result Session"
             },
-            "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
+            "inScheme": "https://w3id.org/xapi/cmi5/v1.0.0",
             "sequence": ["https://w3id.org/xapi/cmi5#launched", "https://w3id.org/xapi/cmi5#initialized", "https://w3id.org/xapi/cmi5#terminatedorabandoned"]
         },
         {
@@ -547,7 +547,7 @@
             "prefLabel": {
                 "en": "Completion No Success Session"
             },
-            "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
+            "inScheme": "https://w3id.org/xapi/cmi5/v1.0.0",
             "sequence": ["https://w3id.org/xapi/cmi5#launched", "https://w3id.org/xapi/cmi5#initialized", "https://w3id.org/xapi/cmi5#completed", "https://w3id.org/xapi/cmi5#satisfieds", "https://w3id.org/xapi/cmi5#terminatedorabandoned"]
         },
         {
@@ -556,7 +556,7 @@
             "prefLabel": {
                 "en": "Completed And Maybe Failed"
             },
-            "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
+            "inScheme": "https://w3id.org/xapi/cmi5/v1.0.0",
             "sequence": ["https://w3id.org/xapi/cmi5#launched", "https://w3id.org/xapi/cmi5#initialized", "https://w3id.org/xapi/cmi5#passed", "https://w3id.org/xapi/cmi5#satisfieds", "https://w3id.org/xapi/cmi5#terminatedorabandoned"]
         },
         {
@@ -565,7 +565,7 @@
             "prefLabel": {
                 "en": "Completed And Passed Session"
             },
-            "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
+            "inScheme": "https://w3id.org/xapi/cmi5/v1.0.0",
             "sequence": ["https://w3id.org/xapi/cmi5#launched", "https://w3id.org/xapi/cmi5#initialized", "https://w3id.org/xapi/cmi5#completedandpassed", "https://w3id.org/xapi/cmi5#satisfieds", "https://w3id.org/xapi/cmi5#terminatedorabandoned"]
         },
         {
@@ -574,7 +574,7 @@
             "prefLabel": {
                 "en": "Failed Session"
             },
-            "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
+            "inScheme": "https://w3id.org/xapi/cmi5/v1.0.0",
             "sequence": ["https://w3id.org/xapi/cmi5#launched", "https://w3id.org/xapi/cmi5#initialized", "https://w3id.org/xapi/cmi5#failed", "https://w3id.org/xapi/cmi5#terminatedorabandoned"]
         },
         {
@@ -583,7 +583,7 @@
             "prefLabel": {
                 "en": "Completion Maybe Failed Session"
             },
-            "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
+            "inScheme": "https://w3id.org/xapi/cmi5/v1.0.0",
             "sequence": ["https://w3id.org/xapi/cmi5#launched", "https://w3id.org/xapi/cmi5#initialized", "https://w3id.org/xapi/cmi5#completedandmaybefailed", "https://w3id.org/xapi/cmi5#satisfieds", "https://w3id.org/xapi/cmi5#terminatedorabandoned"]
         },
         {
@@ -592,7 +592,7 @@
             "prefLabel": {
                 "en": "Terminated Or Abandoned"
             },
-            "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
+            "inScheme": "https://w3id.org/xapi/cmi5/v1.0.0",
             "alternates": ["https://w3id.org/xapi/cmi5#terminated", "https://w3id.org/xapi/cmi5#abandoned"]
         },
         {
@@ -601,7 +601,7 @@
             "prefLabel": {
                 "en": "Completed And Passed"
             },
-            "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
+            "inScheme": "https://w3id.org/xapi/cmi5/v1.0.0",
             "alternates": ["https://w3id.org/xapi/cmi5#completedthenpassed", "https://w3id.org/xapi/cmi5#passedthencompleted"]
         },
         {
@@ -610,7 +610,7 @@
             "prefLabel": {
                 "en": "Completed Then Passed"
             },
-            "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
+            "inScheme": "https://w3id.org/xapi/cmi5/v1.0.0",
             "sequence": ["https://w3id.org/xapi/cmi5#completed", "https://w3id.org/xapi/cmi5#satisfieds", "https://w3id.org/xapi/cmi5#passed"]
         },
         {
@@ -619,7 +619,7 @@
             "prefLabel": {
                 "en": "Passed Then Completed"
             },
-            "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
+            "inScheme": "https://w3id.org/xapi/cmi5/v1.0.0",
             "sequence": ["https://w3id.org/xapi/cmi5#passed", "https://w3id.org/xapi/cmi5#satisfieds", "https://w3id.org/xapi/cmi5#completed"]
         },
         {
@@ -628,7 +628,7 @@
             "prefLabel": {
                 "en": "Completed And Maybe Failed"
             },
-            "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
+            "inScheme": "https://w3id.org/xapi/cmi5/v1.0.0",
             "alternates": ["https://w3id.org/xapi/cmi5#maybecompletedthenfailed", "https://w3id.org/xapi/cmi5#failedthenmaybecompleted"]
         },
         {
@@ -637,7 +637,7 @@
             "prefLabel": {
                 "en": "Maybe Completed Then Failed"
             },
-            "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
+            "inScheme": "https://w3id.org/xapi/cmi5/v1.0.0",
             "sequence": ["https://w3id.org/xapi/cmi5#maybecompleted", "https://w3id.org/xapi/cmi5#satisfieds", "https://w3id.org/xapi/cmi5#failed"]
         },
         {
@@ -646,7 +646,7 @@
             "prefLabel": {
                 "en": "Failed Then Maybe Completed"
             },
-            "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
+            "inScheme": "https://w3id.org/xapi/cmi5/v1.0.0",
             "sequence": ["https://w3id.org/xapi/cmi5#failed", "https://w3id.org/xapi/cmi5#maybecompleted"]
         },
         {
@@ -655,7 +655,7 @@
             "prefLabel": {
                 "en": "Maybe Completed"
             },
-            "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
+            "inScheme": "https://w3id.org/xapi/cmi5/v1.0.0",
             "optional": "https://w3id.org/xapi/cmi5#completed"
         },
         {
@@ -664,7 +664,7 @@
             "prefLabel": {
                 "en": "Typical Session"
             },
-            "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
+            "inScheme": "https://w3id.org/xapi/cmi5/v1.0.0",
             "alternates": [
                 "https://w3id.org/xapi/cmi5#completionmaybefailedsession",
                 "https://w3id.org/xapi/cmi5#completionpassedsession",
@@ -684,7 +684,7 @@
             "definition": {
                 "en": "This pattern provides an option to use zero or more of the alernates for the Typical Session pattern."
             },
-            "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
+            "inScheme": "https://w3id.org/xapi/cmi5/v1.0.0",
             "zeroOrMore": "https://w3id.org/xapi/cmi5#typicalsession"
         },
         {
@@ -697,7 +697,7 @@
             "definition": {
                 "en": "This pattern describes the sequence of statements sent over the an entire course registration."
             },
-            "inScheme": "https://w3id.org/xapi/cmi5/context/categories/cmi5",
+            "inScheme": "https://w3id.org/xapi/cmi5/v1.0.0",
             "sequence": ["https://w3id.org/xapi/cmi5#satisfieds", "typicalsessions"]
         }
 

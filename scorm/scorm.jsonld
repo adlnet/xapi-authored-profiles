@@ -12,7 +12,7 @@
     "seeAlso": "https://adl.gitbooks.io/scorm-profile-xapi/content/",
     "versions": [
         {
-            "id": "https://w3id.org/xapi/scorm/v1.1",
+            "id": "https://w3id.org/xapi/scorm/v1.1.0",
             "generatedAtTime": "2017-08-21T14:25:59.295Z",
             "wasRevisionOf": ["https://w3id.org/xapi/scorm/v1"]
         }
@@ -26,7 +26,7 @@
       {
         "type": "Verb",
         "id": "http://adlnet.gov/expapi/verbs/completed",
-        "inScheme": "https://w3id.org/xapi/scorm/v1.1",
+        "inScheme": "https://w3id.org/xapi/scorm/v1.1.0",
         "exactMatch": [ "http://activitystrea.ms/schema/1.0/complete" ],
         "prefLabel": {
           "en": "completed"
@@ -38,7 +38,7 @@
     {
       "type": "Verb",
       "id": "http://adlnet.gov/expapi/verbs/failed",
-      "inScheme": "https://w3id.org/xapi/scorm/v1.1",
+      "inScheme": "https://w3id.org/xapi/scorm/v1.1.0",
       "prefLabel": {
         "en": "failed"
       },
@@ -49,7 +49,7 @@
     {
       "type": "Verb",
       "id": "http://adlnet.gov/expapi/verbs/initialized",
-      "inScheme": "https://w3id.org/xapi/scorm/v1.1",
+      "inScheme": "https://w3id.org/xapi/scorm/v1.1.0",
       "prefLabel": {
         "en": "initialized"
       },
@@ -60,7 +60,7 @@
     {
       "type": "Verb",
       "id": "http://adlnet.gov/expapi/verbs/passed",
-      "inScheme": "https://w3id.org/xapi/scorm/v1.1",
+      "inScheme": "https://w3id.org/xapi/scorm/v1.1.0",
       "prefLabel": {
         "en": "passed"
       },
@@ -72,7 +72,7 @@
     {
       "type": "Verb",
       "id": "http://adlnet.gov/expapi/verbs/responded",
-      "inScheme": "https://w3id.org/xapi/scorm/v1.1",
+      "inScheme": "https://w3id.org/xapi/scorm/v1.1.0",
       "prefLabel": {
         "en": "responded"
       },
@@ -83,7 +83,7 @@
     {
       "type": "Verb",
       "id": "http://adlnet.gov/expapi/verbs/resumed",
-      "inScheme": "https://w3id.org/xapi/scorm/v1.1",
+      "inScheme": "https://w3id.org/xapi/scorm/v1.1.0",
       "prefLabel": {
         "en": "resumed"
       },
@@ -94,7 +94,7 @@
     {
       "type": "Verb",
       "id": "http://adlnet.gov/expapi/verbs/scored",
-      "inScheme": "https://w3id.org/xapi/scorm/v1.1",
+      "inScheme": "https://w3id.org/xapi/scorm/v1.1.0",
       "prefLabel": {
         "en": "scored"
       },
@@ -106,7 +106,7 @@
         "type": "Verb",
         "id": "http://adlnet.gov/expapi/verbs/suspended",
         "exactMatch": [ "http://activitystrea.ms/schema/1.0/terminate" ],
-        "inScheme": "https://w3id.org/xapi/scorm/v1.1",
+        "inScheme": "https://w3id.org/xapi/scorm/v1.1.0",
         "prefLabel": {
           "en": "suspended"
         },
@@ -117,7 +117,7 @@
     {
       "type": "Verb",
       "id": "http://adlnet.gov/expapi/verbs/terminated",
-      "inScheme": "https://w3id.org/xapi/scorm/v1.1",
+      "inScheme": "https://w3id.org/xapi/scorm/v1.1.0",
       "prefLabel": {
         "en": "terminated"
       },
@@ -128,7 +128,7 @@
     {
       "type": "ActivityType",
       "id": "http://adlnet.gov/expapi/activities/assessment",
-      "inScheme": "https://w3id.org/xapi/scorm/v1.1",
+      "inScheme": "https://w3id.org/xapi/scorm/v1.1.0",
       "prefLabel": {
         "en": "assessment"
       },
@@ -139,7 +139,7 @@
     {
       "type": "ActivityType",
       "id": "http://adlnet.gov/expapi/activities/attempt",
-      "inScheme": "https://w3id.org/xapi/scorm/v1.1",
+      "inScheme": "https://w3id.org/xapi/scorm/v1.1.0",
       "prefLabel": {
         "en": "attempt"
       },
@@ -150,7 +150,7 @@
       {
         "type": "ActivityType",
         "id": "http://adlnet.gov/expapi/activities/course",
-        "inScheme": "https://w3id.org/xapi/scorm/v1.1",
+        "inScheme": "https://w3id.org/xapi/scorm/v1.1.0",
         "exactMatch": [ "https://w3id.org/xapi/cmi5/activities/course" ],
         "prefLabel": {
           "en": "course"
@@ -162,7 +162,7 @@
     {
       "type": "ActivityType",
       "id": "http://adlnet.gov/expapi/activities/interaction",
-      "inScheme": "https://w3id.org/xapi/scorm/v1.1",
+      "inScheme": "https://w3id.org/xapi/scorm/v1.1.0",
       "prefLabel": {
         "en": "interaction"
       },
@@ -173,7 +173,7 @@
     {
       "type": "ActivityType",
       "id": "http://adlnet.gov/expapi/activities/lesson",
-      "inScheme": "https://w3id.org/xapi/scorm/v1.1",
+      "inScheme": "https://w3id.org/xapi/scorm/v1.1.0",
       "prefLabel": {
         "en": "lesson"
       },
@@ -184,7 +184,7 @@
     {
       "type": "ActivityType",
       "id": "http://adlnet.gov/expapi/activities/module",
-      "inScheme": "https://w3id.org/xapi/scorm/v1.1",
+      "inScheme": "https://w3id.org/xapi/scorm/v1.1.0",
       "prefLabel": {
         "en": "module"
       },
@@ -195,7 +195,7 @@
     {
       "type": "ActivityType",
       "id": "http://adlnet.gov/expapi/activities/objective",
-      "inScheme": "https://w3id.org/xapi/scorm/v1.1",
+      "inScheme": "https://w3id.org/xapi/scorm/v1.1.0",
       "prefLabel": {
         "en": "objective"
       },
@@ -206,7 +206,7 @@
     {
       "type": "ActivityType",
       "id": "http://adlnet.gov/expapi/activities/profile",
-      "inScheme": "https://w3id.org/xapi/scorm/v1.1",
+      "inScheme": "https://w3id.org/xapi/scorm/v1.1.0",
       "exactMatch": ["https://w3id.org/xapi/profiles/ontology#Profile"],
       "prefLabel": {
         "en": "profile"
@@ -218,7 +218,7 @@
     {
       "type": "StateResource",
       "id": "https://w3id.org/xapi/scorm/activity-state",
-      "inScheme": "https://w3id.org/xapi/scorm/v1.1",
+      "inScheme": "https://w3id.org/xapi/scorm/v1.1.0",
       "prefLabel": {
         "en": "SCORM Activity State"
       },
@@ -231,7 +231,7 @@
     {
       "type": "StateResource",
       "id": "https://w3id.org/xapi/scorm/attempt-state",
-      "inScheme": "https://w3id.org/xapi/scorm/v1.1",
+      "inScheme": "https://w3id.org/xapi/scorm/v1.1.0",
       "prefLabel": {
         "en": "SCORM Activity Attempt State"
       },
@@ -245,7 +245,7 @@
     {
       "type": "ActivityProfileResource",
       "id": "https://w3id.org/xapi/scorm/activity-profile",
-      "inScheme": "https://w3id.org/xapi/scorm/v1.1",
+      "inScheme": "https://w3id.org/xapi/scorm/v1.1.0",
       "definition": {
         "en": "Used to store document data associated with the activity and not intended to capture learning experience data in the form of a statement. The SCORM Activity Profile Object contains the profile data for the specified Activity."
       },
@@ -258,7 +258,7 @@
     {
       "type": "AgentProfileResource",
       "id": "https://w3id.org/xapi/scorm/agent-profile",
-      "inScheme": "https://w3id.org/xapi/scorm/v1.1",
+      "inScheme": "https://w3id.org/xapi/scorm/v1.1.0",
       "definition": {
         "en": "The SCORM Activity State Object contains the profile data for the specified Agent. The agent profile has three properties: learner_id, learner_name, and preferences. "
       },
