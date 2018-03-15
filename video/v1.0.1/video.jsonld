@@ -17,17 +17,22 @@
   "versions": [
     {
       "id": "https://w3id.org/xapi/video/v1.0.1",
+      "generatedAtTime": "2018-02-05T10:45:00Z",
+      "wasRevisionOf": ["https://w3id.org/xapi/video/v1.0"]
+    },
+    {
+      "id": "https://w3id.org/xapi/video/v1.0",
       "generatedAtTime": "2017-06-29T10:45:00Z",
-      "wasRevisionOf": ["https://w3id.org/xapi/video/v1"]
-      }],
+      "wasRevisionOf": ["https://w3id.org/xapi/video"]
+    } ],
   "concepts": [
     {
       "id": "https://w3id.org/xapi/video/verbs/paused",
       "inScheme": "https://w3id.org/xapi/video/v1.0.1",
       "type": "Verb",
-      "broadMatch": [
-        "http://id.tincanapi.com/verb/paused"
-       ],
+      "exactMatch": [ {
+        "id": "http://id.tincanapi.com/verb/paused"
+      } ],
       "definition": {
         "en": "Indicates the actor paused the video being played at a specific point."
       },
@@ -39,7 +44,9 @@
       "id": "https://w3id.org/xapi/video/verbs/played",
       "inScheme": "https://w3id.org/xapi/video/v1.0.1",
       "type": "Verb",
-      "exactMatch": ["http://activitystrea.ms/schema/1.0/play"],
+      "exactMatch": [ {
+        "id": "http://activitystrea.ms/schema/1.0/play"
+      } ],
       "definition": {
         "en": "Indicates that the actor started experiencing the recorded media object."
       },
@@ -60,15 +67,11 @@
     },
     {
       "id": "https://w3id.org/xapi/video/activity-type/video",
-<<<<<<< HEAD
       "inScheme": "https://w3id.org/xapi/video/v1.0.1",
-=======
-
-      "inScheme": "https://w3id.org/xapi/video/v1.1.0",
-
->>>>>>> 02a8526233f3294e9830f52f83334c1851fd0aa1
       "type": "ActivityType",
-      "exactMatch": [ "http://activitystrea.ms/schema/1.0/video", "https://w3id.org/xapi/acrossx/activities/video" ],
+      "exactMatch": [ {
+        "id": "http://activitystrea.ms/schema/1.0/video"
+      } ],
       "definition": {
         "en": "A recording of both the visual and audible components made available on a display screen."
       },
@@ -139,7 +142,6 @@
     {
       "id": "https://w3id.org/xapi/video/extensions/session-id",
       "inScheme": "https://w3id.org/xapi/video/v1.0.1",
-      "exactMatch": [ "https://w3id.org/xapi/cmi5/context/extensions/sessionid" ],
       "type": "ContextExtension",
       "definition": {
         "en": "Used to provide the session identifier associated with the activity."
@@ -494,6 +496,7 @@
   "patterns": [
       {
          "id": "https://w3id.org/xapi/video/patterns#generalpattern",
+         "inScheme": "https://w3id.org/xapi/video/v1.0.1",
          "primary": true,
          "prefLabel": {
            "en": "General Pattern and Sequence"
@@ -505,6 +508,7 @@
       },
       {
           "id": "https://w3id.org/xapi/video/patterns#all-activities-pattern",
+          "inScheme": "https://w3id.org/xapi/video/v1.0.1",
           "prefLabel": {
             "en": "All Activities Pattern"
           },
@@ -515,6 +519,7 @@
       },
       {
           "id": "https://w3id.org/xapi/video/patterns#optionalmiddlestatements",
+          "inScheme": "https://w3id.org/xapi/video/v1.0.1",
           "prefLabel": {
             "en": "Optional Middle Statements"
           },
@@ -525,5 +530,6 @@
 			    "zeroOrMore": "https://w3id.org/xapi/video/patterns#all-activities-pattern"
 
       }
+
   ]
 }
