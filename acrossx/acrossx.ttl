@@ -40,149 +40,149 @@
      <https://w3id.org/xapi/acrossx/verbs/reported>,
      <https://w3id.org/xapi/acrossx/verbs/disliked>,
      <https://w3id.org/xapi/acrossx/verbs/watched>;
-   <https://w3id.org/xapi/profiles/ontology#versions> <https://w3id.org/xapi/acrossx/v1.1.0> .
+   <https://w3id.org/xapi/profiles/ontology#versions> <https://w3id.org/xapi/acrossx/v1.0.1> .
 
 <https://w3id.org/xapi/acrossx/activities/collaboration> a <https://w3id.org/xapi/ontology#ActivityType>;
    skos:definition "The activity involving multiple actors working together on an assignment, a project, a problem-solving challenge or a cause."@en;
-   skos:inScheme <https://w3id.org/xapi/acrossx/v1.1.0>;
+   skos:inScheme <https://w3id.org/xapi/acrossx/v1.0.1>;
    skos:prefLabel "collaboration"@en .
 
 <https://w3id.org/xapi/acrossx/activities/e-book> a <https://w3id.org/xapi/ontology#ActivityType>;
    skos:definition "A book in electronic form as a document, file, or interactive application with optional formatting and control features."@en;
-   skos:inScheme <https://w3id.org/xapi/acrossx/v1.1.0>;
+   skos:inScheme <https://w3id.org/xapi/acrossx/v1.0.1>;
    skos:prefLabel "e-book"@en .
 
 <https://w3id.org/xapi/acrossx/activities/face-to-face-discussion> a <https://w3id.org/xapi/ontology#ActivityType>;
    skos:definition "An exchange or communication on a topic by two or more actors in-person taking place in a physical location."@en;
-   skos:inScheme <https://w3id.org/xapi/acrossx/v1.1.0>;
+   skos:inScheme <https://w3id.org/xapi/acrossx/v1.0.1>;
    skos:prefLabel "face-to-face-discussion"@en .
 
 <https://w3id.org/xapi/acrossx/activities/instant-response-system> a <https://w3id.org/xapi/ontology#ActivityType>;
    skos:definition "An activity that allows instructors to create slides with embedded quizzes/polling questions to collect responses and get reporting instantly during class."@en;
-   skos:inScheme <https://w3id.org/xapi/acrossx/v1.1.0>;
+   skos:inScheme <https://w3id.org/xapi/acrossx/v1.0.1>;
    skos:prefLabel "instant-response-system"@en .
 
 <https://w3id.org/xapi/acrossx/activities/learning-plan> a <https://w3id.org/xapi/ontology#ActivityType>;
    skos:definition "Used to plan and organize learning activities from different activity providers. It could be built by instructors, learning designers or learners."@en;
-   skos:inScheme <https://w3id.org/xapi/acrossx/v1.1.0>;
+   skos:inScheme <https://w3id.org/xapi/acrossx/v1.0.1>;
    skos:prefLabel "learning-plan"@en .
 
 <https://w3id.org/xapi/acrossx/activities/message> a <https://w3id.org/xapi/ontology#ActivityType>;
    skos:definition "Information that is communicated by or to or between individual actors or groups of actors."@en;
-   skos:inScheme <https://w3id.org/xapi/acrossx/v1.1.0>;
+   skos:inScheme <https://w3id.org/xapi/acrossx/v1.0.1>;
    skos:prefLabel "message"@en .
 
 <https://w3id.org/xapi/acrossx/activities/note> a <https://w3id.org/xapi/ontology#ActivityType>;
    skos:definition "Refers to an object that was annotated as part of the activity."@en;
    skos:exactMatch <http://activitystrea.ms/schema/1.0/note>;
-   skos:inScheme <https://w3id.org/xapi/acrossx/v1.1.0>;
+   skos:inScheme <https://w3id.org/xapi/acrossx/v1.0.1>;
    skos:prefLabel "note"@en .
 
 <https://w3id.org/xapi/acrossx/activities/online-discussion> a <https://w3id.org/xapi/ontology#ActivityType>;
    skos:definition "An exchange or communication on a topic by two or more actors in-person taking place online or virtually."@en;
-   skos:inScheme <https://w3id.org/xapi/acrossx/v1.1.0>;
+   skos:inScheme <https://w3id.org/xapi/acrossx/v1.0.1>;
    skos:prefLabel "online-discussion"@en .
 
 <https://w3id.org/xapi/acrossx/activities/page> a <https://w3id.org/xapi/ontology#ActivityType>;
    skos:broadMatch <http://activitystrea.ms/schema/1.0/page>;
    skos:definition "The single representation of a specific page number and the content on that page in any digitally or physically written material."@en;
-   skos:inScheme <https://w3id.org/xapi/acrossx/v1.1.0>;
+   skos:inScheme <https://w3id.org/xapi/acrossx/v1.0.1>;
    skos:prefLabel "page"@en .
 
 <https://w3id.org/xapi/acrossx/activities/printed-assessment> a <https://w3id.org/xapi/ontology#ActivityType>;
    skos:definition "A written examination or test provided in paper form, and intended to be completed using a pencil or pen."@en;
-   skos:inScheme <https://w3id.org/xapi/acrossx/v1.1.0>;
+   skos:inScheme <https://w3id.org/xapi/acrossx/v1.0.1>;
    skos:prefLabel "printed-assessment"@en .
 
 <https://w3id.org/xapi/acrossx/activities/printed-book> a <https://w3id.org/xapi/ontology#ActivityType>;
    skos:definition "A written work or composition that has been physically printed on paper pages bound together."@en;
-   skos:inScheme <https://w3id.org/xapi/acrossx/v1.1.0>;
+   skos:inScheme <https://w3id.org/xapi/acrossx/v1.0.1>;
    skos:prefLabel "printed-book"@en .
 
 <https://w3id.org/xapi/acrossx/activities/printed-worksheet> a <https://w3id.org/xapi/ontology#ActivityType>;
    skos:definition "A page or group of pages containing problems, exercises, or instructions for learning activities."@en;
-   skos:inScheme <https://w3id.org/xapi/acrossx/v1.1.0>;
+   skos:inScheme <https://w3id.org/xapi/acrossx/v1.0.1>;
    skos:prefLabel "printed-worksheet"@en .
 
 <https://w3id.org/xapi/acrossx/activities/video> a <https://w3id.org/xapi/ontology#ActivityType>;
    skos:definition "A recording of audible and visual content intended to be shown on a video display."@en;
    skos:exactMatch <http://activitystrea.ms/schema/1.0/video>,
      <https://w3id.org/xapi/video/activity-type/video>;
-   skos:inScheme <https://w3id.org/xapi/acrossx/v1.1.0>;
+   skos:inScheme <https://w3id.org/xapi/acrossx/v1.0.1>;
    skos:prefLabel "video"@en .
 
 <https://w3id.org/xapi/acrossx/activities/webpage> a <https://w3id.org/xapi/ontology#ActivityType>;
    skos:definition "A web document (usually HTML-based) accessible by anyone connected to the internet and by using a web browser."@en;
-   skos:inScheme <https://w3id.org/xapi/acrossx/v1.1.0>;
+   skos:inScheme <https://w3id.org/xapi/acrossx/v1.0.1>;
    skos:prefLabel "webpage"@en .
 
 <https://w3id.org/xapi/acrossx/verbs/annotated> a <https://w3id.org/xapi/ontology#Verb>;
    skos:definition "Indicates the actor added a supplement to the content, highlight or mark."@en;
-   skos:inScheme <https://w3id.org/xapi/acrossx/v1.1.0>;
+   skos:inScheme <https://w3id.org/xapi/acrossx/v1.0.1>;
    skos:prefLabel "annotated"@en;
    skos:relatedMatch <http://risc-inc.com/annotator/verbs/annotated>,
      <https://w3id.org/xapi/adb/verbs/annotated> .
 
 <https://w3id.org/xapi/acrossx/verbs/designed> a <https://w3id.org/xapi/ontology#Verb>;
    skos:definition "Indicates the actor carefully planned or created the object for a specific purpose."@en;
-   skos:inScheme <https://w3id.org/xapi/acrossx/v1.1.0>;
+   skos:inScheme <https://w3id.org/xapi/acrossx/v1.0.1>;
    skos:prefLabel "designed"@en .
 
 <https://w3id.org/xapi/acrossx/verbs/disliked> a <https://w3id.org/xapi/ontology#Verb>;
    skos:definition "Indicates that the actor does not approve of the object or activity."@en;
-   skos:inScheme <https://w3id.org/xapi/acrossx/v1.1.0>;
+   skos:inScheme <https://w3id.org/xapi/acrossx/v1.0.1>;
    skos:prefLabel "disliked"@en;
    skos:relatedMatch <http://activitystrea.ms/schema/1.0/dislike> .
 
 <https://w3id.org/xapi/acrossx/verbs/edited> a <https://w3id.org/xapi/ontology#Verb>;
    skos:definition "Indicates the actor added or modified the content in a document or object."@en;
-   skos:inScheme <https://w3id.org/xapi/acrossx/v1.1.0>;
+   skos:inScheme <https://w3id.org/xapi/acrossx/v1.0.1>;
    skos:prefLabel "edited"@en .
 
 <https://w3id.org/xapi/acrossx/verbs/evaluated> a <https://w3id.org/xapi/ontology#Verb>;
    skos:definition "Indicates the actor formed an opinion or prepared to assess another actor or object."@en;
-   skos:inScheme <https://w3id.org/xapi/acrossx/v1.1.0>;
+   skos:inScheme <https://w3id.org/xapi/acrossx/v1.0.1>;
    skos:prefLabel "evaluated"@en .
 
 <https://w3id.org/xapi/acrossx/verbs/liked> a <https://w3id.org/xapi/ontology#Verb>;
    skos:definition "Indicates that the actor approves of, recommends, or endorses the object or activity."@en;
    skos:exactMatch <http://activitystrea.ms/schema/like>;
-   skos:inScheme <https://w3id.org/xapi/acrossx/v1.1.0>;
+   skos:inScheme <https://w3id.org/xapi/acrossx/v1.0.1>;
    skos:prefLabel "liked"@en;
    skos:related <http://activitystrea.ms/schema/like> .
 
 <https://w3id.org/xapi/acrossx/verbs/posted> a <https://w3id.org/xapi/ontology#Verb>;
    skos:definition "Used to describe the action of posting a discussion topic or message on a forum."@en;
-   skos:inScheme <https://w3id.org/xapi/acrossx/v1.1.0>;
+   skos:inScheme <https://w3id.org/xapi/acrossx/v1.0.1>;
    skos:prefLabel "posted"@en .
 
 <https://w3id.org/xapi/acrossx/verbs/reported> a <https://w3id.org/xapi/ontology#Verb>;
    skos:definition "Indicates the actor announced the result of an experience or activity."@en;
-   skos:inScheme <https://w3id.org/xapi/acrossx/v1.1.0>;
+   skos:inScheme <https://w3id.org/xapi/acrossx/v1.0.1>;
    skos:prefLabel "reported"@en .
 
 <https://w3id.org/xapi/acrossx/verbs/revealed> a <https://w3id.org/xapi/ontology#Verb>;
    skos:definition "Indicates the actor exposed an object or content that's previously hidden."@en;
-   skos:inScheme <https://w3id.org/xapi/acrossx/v1.1.0>;
+   skos:inScheme <https://w3id.org/xapi/acrossx/v1.0.1>;
    skos:prefLabel "revealed"@en .
 
 <https://w3id.org/xapi/acrossx/verbs/searched> a <https://w3id.org/xapi/ontology#Verb>;
    skos:definition "Indicates the actor looked for information in an object."@en;
    skos:exactMatch <http://activitystrea.ms/schema/1.0/search>;
-   skos:inScheme <https://w3id.org/xapi/acrossx/v1.1.0>;
+   skos:inScheme <https://w3id.org/xapi/acrossx/v1.0.1>;
    skos:prefLabel "searched"@en .
 
 <https://w3id.org/xapi/acrossx/verbs/was-assigned> a <https://w3id.org/xapi/ontology#Verb>;
    skos:definition "Indicates the actor was given or required to access an object."@en;
-   skos:inScheme <https://w3id.org/xapi/acrossx/v1.1.0>;
+   skos:inScheme <https://w3id.org/xapi/acrossx/v1.0.1>;
    skos:prefLabel "was-assigned"@en .
 
 <https://w3id.org/xapi/acrossx/verbs/watched> a <https://w3id.org/xapi/ontology#Verb>;
    skos:definition "Indicates the actor observed a visual obect."@en;
    skos:exactMatch <https://w3id.org/xapi/adb/verbs/watched>,
      <http://activitystrea.ms/schema/1.0/watch>;
-   skos:inScheme <https://w3id.org/xapi/acrossx/v1.1.0>;
+   skos:inScheme <https://w3id.org/xapi/acrossx/v1.0.1>;
    skos:prefLabel "watched"@en .
 
-<https://w3id.org/xapi/acrossx/v1.1.0> prov:generatedAtTime "2017-07-14T11:35:00Z"^^xsd:dateTime;
+<https://w3id.org/xapi/acrossx/v1.0.1> prov:generatedAtTime "2017-07-14T11:35:00Z"^^xsd:dateTime;
    prov:wasRevisionOf <https://w3id.org/xapi/acrossx/v1.0.0> .
