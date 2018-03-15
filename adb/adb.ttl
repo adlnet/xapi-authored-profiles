@@ -74,7 +74,7 @@
 
 <https://w3id.org/xapi/adb/verbs/read> a <https://w3id.org/xapi/ontology#Verb>;
    skos:definition "Indicates that the actor read the object. This is typically only applicable for objects representing printed or written content, such as a book, a message or a comment."@en;
-   skos:exactMatch <http://activitystrea.ms/schema/1.0.0/read>;
+   skos:exactMatch <http://activitystrea.ms/schema/read>;
    skos:inScheme <https://w3id.org/xapi/adb/v1.0.1>;
    skos:prefLabel "read"@en .
 
@@ -90,7 +90,7 @@
 
 <https://w3id.org/xapi/adb/verbs/watched> a <https://w3id.org/xapi/ontology#Verb>;
    skos:definition "Indicates that the actor has watched the object. This verb is typically applicable only when the object represents dynamic, visible content such as a movie, a television show or a public performance."@en;
-   skos:exactMatch <http://activitystrea.ms/schema/1.0.0/watch>,
+   skos:exactMatch <http://activitystrea.ms/schema/watch>,
      <https://w3id.org/xapi/acrossx/verbs/watched>;
    skos:inScheme <https://w3id.org/xapi/adb/v1.0.1>;
    skos:prefLabel "watched"@en .
@@ -110,7 +110,7 @@
 
 <https://w3id.org/xapi/adb/verbs/requested> a <https://w3id.org/xapi/ontology#Verb>;
    skos:definition "Indicates the actor needed or demanded an object or another actor. Requested indicates a comment that is shared with peers as a group or Coach as a trainer. The request for coaching or help prompts users to respond giving them coaching credit."@en;
-   skos:exactMatch <http://activitystrea.ms/schema/1.0.0/request>;
+   skos:exactMatch <http://activitystrea.ms/schema/request>;
    skos:inScheme <https://w3id.org/xapi/adb/v1.0.1>;
    skos:prefLabel "requested"@en .
 

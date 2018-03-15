@@ -39,7 +39,7 @@
       "id": "https://w3id.org/xapi/video/verbs/played",
       "inScheme": "https://w3id.org/xapi/video/v1.0.1",
       "type": "Verb",
-      "exactMatch": ["http://activitystrea.ms/schema/1.0/play"],
+      "exactMatch": ["http://activitystrea.ms/schema/play"],
       "definition": {
         "en": "Indicates that the actor started experiencing the recorded media object."
       },
@@ -60,15 +60,9 @@
     },
     {
       "id": "https://w3id.org/xapi/video/activity-type/video",
-<<<<<<< HEAD
       "inScheme": "https://w3id.org/xapi/video/v1.0.1",
-=======
-
-      "inScheme": "https://w3id.org/xapi/video/v1.1.0",
-
->>>>>>> 02a8526233f3294e9830f52f83334c1851fd0aa1
       "type": "ActivityType",
-      "exactMatch": [ "http://activitystrea.ms/schema/1.0/video", "https://w3id.org/xapi/acrossx/activities/video" ],
+      "exactMatch": [ "http://activitystrea.ms/schema/video", "https://w3id.org/xapi/acrossx/activities/video" ],
       "definition": {
         "en": "A recording of both the visual and audible components made available on a display screen."
       },

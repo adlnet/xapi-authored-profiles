@@ -27,7 +27,7 @@
         "type": "Verb",
         "id": "http://adlnet.gov/expapi/verbs/completed",
         "inScheme": "https://w3id.org/xapi/scorm/v1.0.1",
-        "exactMatch": [ "http://activitystrea.ms/schema/1.0/complete" ],
+        "exactMatch": [ "http://activitystrea.ms/schema/complete" ],
         "prefLabel": {
           "en": "completed"
         },
@@ -105,7 +105,7 @@
       {
         "type": "Verb",
         "id": "http://adlnet.gov/expapi/verbs/suspended",
-        "exactMatch": [ "http://activitystrea.ms/schema/1.0/terminate" ],
+        "exactMatch": [ "http://activitystrea.ms/schema/terminate" ],
         "inScheme": "https://w3id.org/xapi/scorm/v1.0.1",
         "prefLabel": {
           "en": "suspended"

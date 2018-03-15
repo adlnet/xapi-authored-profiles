@@ -67,7 +67,7 @@
 
 <http://adlnet.gov/expapi/activities/question> a <https://w3id.org/xapi/ontology#ActivityType>;
    skos:definition "A question is typically part of an assessment and requires a response from the learner, a response that is then evaluated for correctness."@en;
-   skos:exactMatch <http://activitystrea.ms/schema/1.0.0/question>;
+   skos:exactMatch <http://activitystrea.ms/schema/question>;
    skos:inScheme <https://w3id.org/xapi/adl/v1.0.1>;
    skos:prefLabel "question"@en .
 
@@ -96,7 +96,7 @@
    skos:inScheme <https://w3id.org/xapi/adl/v1.0.1>;
    skos:prefLabel "attended"@en;
    skos:relatedMatch <https://w3id.org/xapi/adb/verbs/attended>,
-     <http://activitystrea.ms/schema/1.0.0/attend> .
+     <http://activitystrea.ms/schema/attend> .
 
 <http://adlnet.gov/expapi/verbs/commented> a <https://w3id.org/xapi/ontology#Verb>;
    skos:definition "Indicates the actor provided digital or written annotations on or about an object."@en;
@@ -117,7 +117,7 @@
    skos:definition "Indicates the actor engaged with a physical or virtual object."@en;
    skos:inScheme <https://w3id.org/xapi/adl/v1.0.1>;
    skos:prefLabel "interacted"@en;
-   skos:relatedMatch <http://activitystrea.ms/schema/1.0/interact> .
+   skos:relatedMatch <http://activitystrea.ms/schema/interact> .
 
 <http://adlnet.gov/expapi/verbs/launched> a <https://w3id.org/xapi/ontology#Verb>;
    skos:definition "Indicates the actor attempted to start an activity."@en;
@@ -146,7 +146,7 @@
 
 <http://adlnet.gov/expapi/verbs/shared> a <https://w3id.org/xapi/ontology#Verb>;
    skos:definition "Indicates the actor's intent to openly provide access to an object of common interest to other actors or groups."@en;
-   skos:exactMatch <http://activitystrea.ms/schema/1.0.0/share>;
+   skos:exactMatch <http://activitystrea.ms/schema/share>;
    skos:inScheme <https://w3id.org/xapi/adl/v1.0.1>;
    skos:prefLabel "shared"@en .
 

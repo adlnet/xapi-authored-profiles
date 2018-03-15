@@ -16,13 +16,13 @@
   },
   "versions": [
     {
-      "id": "http://activitystrea.ms/schema/1.0.0/",
+      "id": "http://activitystrea.ms/schema/",
       "generatedAtTime": "2017-07-14T11:35:00Z"
     }],
   "concepts": [
     {
         "id": "http://specification.openbadges.org/xapi/extensions/badgeassertion",
-        "inScheme": "http://activitystrea.ms/schema/1.0.0/",
+        "inScheme": "http://activitystrea.ms/schema/",
         "type": "ResultExtension",
         "definition": {
           "en": "Result Extension containing an object with an @id property pointing to the IRI of a hosted Open Badge Assertion."
@@ -33,7 +33,7 @@
     },
     {
         "id": "http://specification.openbadges.org/xapi/extensions/badgeclass",
-        "inScheme": "http://activitystrea.ms/schema/1.0.0/",
+        "inScheme": "http://activitystrea.ms/schema/",
         "type": "ContextExtension",
         "definition": {
           "en": "Activity Definition Extension containing an object with an @id property pointing to the IRI of a hosted Open Badge Class definition."
@@ -44,7 +44,7 @@
     },
     {
         "id": "http://specification.openbadges.org/xapi/attachment/badge",
-        "inScheme": "http://activitystrea.ms/schema/1.0.0/",
+        "inScheme": "http://activitystrea.ms/schema/",
         "type": "AttachmentUsageType",
         "definition": {
           "en": "An attached Baked Badge Image. This is a png image containing additional metadata as defined by the Open Badges specification."

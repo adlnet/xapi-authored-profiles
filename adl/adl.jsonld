@@ -61,7 +61,7 @@
       "prefLabel": {
         "en": "attended"
       },
-      "relatedMatch": [ "https://w3id.org/xapi/adb/verbs/attended", "http://activitystrea.ms/schema/1.0.0/attend" ],
+      "relatedMatch": [ "https://w3id.org/xapi/adb/verbs/attended", "http://activitystrea.ms/schema/attend" ],
       "definition": {
         "en": "Indicates the actor was present at a virtual or physical event or activity."
       }
@@ -115,7 +115,7 @@
         "type": "Verb",
         "id": "http://adlnet.gov/expapi/verbs/interacted",
         "inScheme": "https://w3id.org/xapi/adl/v1.0.1",
-        "relatedMatch": [ "http://activitystrea.ms/schema/1.0/interact" ],
+        "relatedMatch": [ "http://activitystrea.ms/schema/interact" ],
         "prefLabel": {
           "en": "interacted"
         },
@@ -182,7 +182,7 @@
         "type": "Verb",
         "id": "http://adlnet.gov/expapi/verbs/shared",
         "inScheme": "https://w3id.org/xapi/adl/v1.0.1",
-        "exactMatch": [ "http://activitystrea.ms/schema/1.0.0/share" ],
+        "exactMatch": [ "http://activitystrea.ms/schema/share" ],
         "prefLabel": {
           "en": "shared"
         },
@@ -281,7 +281,7 @@
       {
         "type": "ActivityType",
         "id": "http://adlnet.gov/expapi/activities/question",
-        "exactMatch": [ "http://activitystrea.ms/schema/1.0.0/question" ],
+        "exactMatch": [ "http://activitystrea.ms/schema/question" ],
         "inScheme": "https://w3id.org/xapi/adl/v1.0.1",
         "prefLabel": {
           "en": "question"

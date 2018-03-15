@@ -172,7 +172,7 @@
 
 <http://adlnet.gov/expapi/verbs/suspended> a <https://w3id.org/xapi/ontology#Verb>;
    skos:definition "Indicates the status of a temporarily halted activity when an actor's intent is returning to the or object activity at a later time."@en;
-   skos:exactMatch <http://activitystrea.ms/schema/1.0/terminate>;
+   skos:exactMatch <http://activitystrea.ms/schema/terminate>;
    skos:inScheme <https://w3id.org/xapi/scorm/v1.0.1>;
    skos:prefLabel "suspended"@en .
 
@@ -259,7 +259,7 @@
 
 <http://adlnet.gov/expapi/verbs/completed> a <https://w3id.org/xapi/ontology#Verb>;
    skos:definition "Indicates the actor finished or concluded the activity normally."@en;
-   skos:exactMatch <http://activitystrea.ms/schema/1.0/complete>;
+   skos:exactMatch <http://activitystrea.ms/schema/complete>;
    skos:inScheme <https://w3id.org/xapi/scorm/v1.0.1>;
    skos:prefLabel "completed"@en .
 

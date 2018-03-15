@@ -127,7 +127,7 @@
   {
     "id": "https://w3id.org/xapi/acrossx/activities/note",
     "type": "ActivityType",
-    "exactMatch": [ "http://activitystrea.ms/schema/1.0/note" ],
+    "exactMatch": [ "http://activitystrea.ms/schema/note" ],
     "definition": {
       "en": "Refers to an object that was annotated as part of the activity."
     },
@@ -150,7 +150,7 @@
   {
     "id": "https://w3id.org/xapi/acrossx/activities/page",
     "type": "ActivityType",
-    "broadMatch": [ "http://activitystrea.ms/schema/1.0/page" ],
+    "broadMatch": [ "http://activitystrea.ms/schema/page" ],
     "definition": {
       "en": "The single representation of a specific page number and the content on that page in any digitally or physically written material."
     },
@@ -195,7 +195,7 @@
     {
       "id": "https://w3id.org/xapi/acrossx/activities/video",
       "type": "ActivityType",
-      "exactMatch": [ "http://activitystrea.ms/schema/1.0/video" ,  "https://w3id.org/xapi/video/activity-type/video" ],
+      "exactMatch": [ "http://activitystrea.ms/schema/video" ,  "https://w3id.org/xapi/video/activity-type/video" ],
       "definition": {
         "en": "A recording of audible and visual content intended to be shown on a video display."
       },
@@ -240,7 +240,7 @@
     },
   {
     "id": "https://w3id.org/xapi/acrossx/verbs/disliked",
-    "relatedMatch": [ "http://activitystrea.ms/schema/1.0/dislike" ],
+    "relatedMatch": [ "http://activitystrea.ms/schema/dislike" ],
     "type": "Verb",
     "definition": {
       "en": "Indicates that the actor does not approve of the object or activity."
@@ -325,7 +325,7 @@
     {
       "id": "https://w3id.org/xapi/acrossx/verbs/searched",
       "type": "Verb",
-      "exactMatch": [ "http://activitystrea.ms/schema/1.0/search" ],
+      "exactMatch": [ "http://activitystrea.ms/schema/search" ],
       "definition": {
         "en": "Indicates the actor looked for information in an object."
       },
@@ -348,7 +348,7 @@
     {
       "id": "https://w3id.org/xapi/acrossx/verbs/watched",
       "type": "Verb",
-      "exactMatch": [ "http://activitystrea.ms/schema/1.0/watch", "https://w3id.org/xapi/adb/verbs/watched" ],
+      "exactMatch": [ "http://activitystrea.ms/schema/watch", "https://w3id.org/xapi/adb/verbs/watched" ],
       "definition": {
         "en": "Indicates the actor observed a visual obect."
       },
@@ -408,7 +408,7 @@
   {
     "id": "https://w3id.org/xapi/acrossx/activities/note",
     "type": "ActivityType",
-    "exactMatch": [ "http://activitystrea.ms/schema/1.0/note" ],
+    "exactMatch": [ "http://activitystrea.ms/schema/note" ],
     "definition": {
       "en": "Refers to an object that was annotated as part of the activity."
     },
@@ -431,7 +431,7 @@
   {
     "id": "https://w3id.org/xapi/acrossx/activities/page",
     "type": "ActivityType",
-    "broadMatch": [ "http://activitystrea.ms/schema/1.0/page" ],
+    "broadMatch": [ "http://activitystrea.ms/schema/page" ],
     "definition": {
       "en": "The single representation of a specific page number and the content on that page in any digitally or physically written material."
     },
@@ -476,7 +476,7 @@
     {
       "id": "https://w3id.org/xapi/acrossx/activities/video",
       "type": "ActivityType",
-      "exactMatch": [ "http://activitystrea.ms/schema/1.0/video" ,  "https://w3id.org/xapi/video/activity-type/video" ],
+      "exactMatch": [ "http://activitystrea.ms/schema/video" ,  "https://w3id.org/xapi/video/activity-type/video" ],
       "definition": {
         "en": "A recording of audible and visual content intended to be shown on a video display."
       },
@@ -521,7 +521,7 @@
     },
   {
     "id": "https://w3id.org/xapi/acrossx/verbs/disliked",
-    "relatedMatch": [ "http://activitystrea.ms/schema/1.0/dislike" ],
+    "relatedMatch": [ "http://activitystrea.ms/schema/dislike" ],
     "type": "Verb",
     "definition": {
       "en": "Indicates that the actor does not approve of the object or activity."
@@ -606,7 +606,7 @@
     {
       "id": "https://w3id.org/xapi/acrossx/verbs/searched",
       "type": "Verb",
-      "exactMatch": [ "http://activitystrea.ms/schema/1.0/search" ],
+      "exactMatch": [ "http://activitystrea.ms/schema/search" ],
       "definition": {
         "en": "Indicates the actor looked for information in an object."
       },
@@ -629,7 +629,7 @@
     {
       "id": "https://w3id.org/xapi/acrossx/verbs/watched",
       "type": "Verb",
-      "exactMatch": [ "http://activitystrea.ms/schema/1.0/watch", "https://w3id.org/xapi/adb/verbs/watched" ],
+      "exactMatch": [ "http://activitystrea.ms/schema/watch", "https://w3id.org/xapi/adb/verbs/watched" ],
       "definition": {
         "en": "Indicates the actor observed a visual obect."
       },

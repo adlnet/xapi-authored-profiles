@@ -1513,7 +1513,7 @@
         "inScheme": "http://registry.tincanapi.com",
         "type": "ContextExtension",
         "definition": {
-          "en": "Value is a string representing an Internet Protocol address (IP address) in either IPv4 or IPv6 format. An example usage may be to help identify the client's real address location on internet as a Context extension. Another example may be to include relevant information about the http://activitystrea.ms/schema/1.0/page Activity type. IPv4 Address A string in decimal-dot notation, consisting of four decimal integers in the inclusive range 0-255, separated by dots (e.g. 192.168.0.1)."
+          "en": "Value is a string representing an Internet Protocol address (IP address) in either IPv4 or IPv6 format. An example usage may be to help identify the client's real address location on internet as a Context extension. Another example may be to include relevant information about the http://activitystrea.ms/schema/page Activity type. IPv4 Address A string in decimal-dot notation, consisting of four decimal integers in the inclusive range 0-255, separated by dots (e.g. 192.168.0.1)."
         },
         "prefLabel": {
           "en": "ip address"
