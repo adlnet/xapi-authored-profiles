@@ -45,7 +45,7 @@
       "inScheme": "https://w3id.org/xapi/video/v1.0.1",
       "type": "Verb",
       "exactMatch": [ {
-        "id": "http://activitystrea.ms/schema/1.0/play"
+        "id": "http://activitystrea.ms/schema/play"
       } ],
       "definition": {
         "en": "Indicates that the actor started experiencing the recorded media object."
@@ -70,7 +70,7 @@
       "inScheme": "https://w3id.org/xapi/video/v1.0.1",
       "type": "ActivityType",
       "exactMatch": [ {
-        "id": "http://activitystrea.ms/schema/1.0/video"
+        "id": "http://activitystrea.ms/schema/video"
       } ],
       "definition": {
         "en": "A recording of both the visual and audible components made available on a display screen."
