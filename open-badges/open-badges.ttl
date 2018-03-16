@@ -1,34 +1,38 @@
 @prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://activitystrea.ms/schema/1.0/> a <https://w3id.org/xapi/profiles/ontology#Profile>;
+<http://activitystrea.ms/schema/> a <https://w3id.org/xapi/profiles/ontology#Profile>;
    dc:conformsTo <https://w3id.org/xapi/profiles#1.0>;
    schema:author [
      a schema:Organization;
      schema:name "xAPI Open Badges Community of Practice"
    ];
-   rdfs:seeAlso <https://www.imsglobal.org/sites/default/files/Badges/OBv2p0/extensions/index.html>;
+   rdfs:seeAlso <https://registry.tincanapi.com/#profile/44>;
    skos:definition "A profile that combines xAPI with Mozilla Open Badges."@en;
    skos:prefLabel "xAPI Open Badges Profile"@en;
-   <https://w3id.org/xapi/profiles/ontology#concepts> <http://specification.openbadges.org/xapi/extensions/badgeclass>,
+   <https://w3id.org/xapi/profiles/ontology#concepts> <http://specification.openbadges.org/xapi/extensions/badgeassertion>,
      <http://specification.openbadges.org/xapi/attachment/badge>,
-     <http://specification.openbadges.org/xapi/extensions/badgeassertion> .
+     <http://specification.openbadges.org/xapi/extensions/badgeclass>;
+   <https://w3id.org/xapi/profiles/ontology#versions> <http://activitystrea.ms/schema/> .
 
 <http://specification.openbadges.org/xapi/attachment/badge> a <https://w3id.org/xapi/ontology#AttachmentUsageType>;
    skos:definition "An attached Baked Badge Image. This is a png image containing additional metadata as defined by the Open Badges specification."@en;
-   skos:inScheme <http://specification.openbadges.org/xapi/>;
+   skos:inScheme <http://activitystrea.ms/schema/>;
    skos:prefLabel "open badges baked badge image"@en .
 
 <http://specification.openbadges.org/xapi/extensions/badgeassertion> a <https://w3id.org/xapi/ontology#ResultExtension>;
    skos:definition "Result Extension containing an object with an @id property pointing to the IRI of a hosted Open Badge Assertion."@en;
-   skos:inScheme <http://specification.openbadges.org/xapi/>;
+   skos:inScheme <http://activitystrea.ms/schema/>;
    skos:prefLabel "open badge assertion"@en .
 
 <http://specification.openbadges.org/xapi/extensions/badgeclass> a <https://w3id.org/xapi/ontology#ContextExtension>;
    skos:definition "Activity Definition Extension containing an object with an @id property pointing to the IRI of a hosted Open Badge Class definition."@en;
-   skos:inScheme <http://specification.openbadges.org/xapi/>;
+   skos:inScheme <http://activitystrea.ms/schema/>;
    skos:prefLabel "open badge class"@en .
+
+<http://activitystrea.ms/schema/> prov:generatedAtTime "2017-07-14T11:35:00Z"^^xsd:dateTime .
