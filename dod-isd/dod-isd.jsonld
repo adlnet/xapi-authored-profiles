@@ -4680,7 +4680,7 @@
 			"inScheme": "https://w3id.org/xapi/dod-isd/v1.0",
 			"type": "ContextExtension",
 			"prefLabel": {
-				"en": "Interactivity Level"
+				"en": "interactivity level"
 			},
 			"definition": {
 				"en": "Levels of Interactivity are general classes of richness, sophistication and realism of interactivity the student experiences in Computer Based Training (CBT)."
@@ -4692,7 +4692,7 @@
 			"inScheme": "https://w3id.org/xapi/dod-isd/v1.0",
 			"type": "ContextExtension",
 			"prefLabel": {
-				"en": "Category"
+				"en": "category"
 			},
 			"definition": {
 				"en": "A further descriptive level for verbs within KSAs."
