@@ -14,32 +14,32 @@
    ];
    rdfs:seeAlso <http://xapi-cop.net/>;
    skos:prefLabel "AcrossX Profile"@en;
-   <https://w3id.org/xapi/profiles/ontology#concepts> <https://w3id.org/xapi/acrossx/verbs/evaluated>,
-     <https://w3id.org/xapi/acrossx/activities/message>,
-     <https://w3id.org/xapi/acrossx/activities/instant-response-system>,
-     <https://w3id.org/xapi/acrossx/activities/online-discussion>,
+   <https://w3id.org/xapi/profiles/ontology#concepts> <https://w3id.org/xapi/acrossx/activities/printed-book>,
      <https://w3id.org/xapi/acrossx/activities/printed-worksheet>,
-     <https://w3id.org/xapi/acrossx/activities/printed-book>,
-     <https://w3id.org/xapi/acrossx/activities/collaboration>,
-     <https://w3id.org/xapi/acrossx/activities/face-to-face-discussion>,
-     <https://w3id.org/xapi/acrossx/verbs/revealed>,
-     <https://w3id.org/xapi/acrossx/verbs/liked>,
      <https://w3id.org/xapi/acrossx/verbs/annotated>,
-     <https://w3id.org/xapi/acrossx/activities/page>,
+     <https://w3id.org/xapi/acrossx/verbs/evaluated>,
      <https://w3id.org/xapi/acrossx/activities/printed-assessment>,
      <https://w3id.org/xapi/acrossx/verbs/posted>,
-     <https://w3id.org/xapi/acrossx/verbs/designed>,
-     <https://w3id.org/xapi/acrossx/verbs/was-assigned>,
+     <https://w3id.org/xapi/acrossx/activities/face-to-face-discussion>,
+     <https://w3id.org/xapi/acrossx/verbs/revealed>,
      <https://w3id.org/xapi/acrossx/activities/note>,
-     <https://w3id.org/xapi/acrossx/activities/e-book>,
-     <https://w3id.org/xapi/acrossx/activities/video>,
-     <https://w3id.org/xapi/acrossx/activities/learning-plan>,
-     <https://w3id.org/xapi/acrossx/verbs/searched>,
-     <https://w3id.org/xapi/acrossx/verbs/edited>,
-     <https://w3id.org/xapi/acrossx/activities/webpage>,
+     <https://w3id.org/xapi/acrossx/activities/message>,
      <https://w3id.org/xapi/acrossx/verbs/reported>,
+     <https://w3id.org/xapi/acrossx/verbs/edited>,
+     <https://w3id.org/xapi/acrossx/activities/page>,
+     <https://w3id.org/xapi/acrossx/activities/online-discussion>,
+     <https://w3id.org/xapi/acrossx/activities/e-book>,
+     <https://w3id.org/xapi/acrossx/activities/instant-response-system>,
+     <https://w3id.org/xapi/acrossx/activities/collaboration>,
+     <https://w3id.org/xapi/acrossx/activities/learning-plan>,
+     <https://w3id.org/xapi/acrossx/verbs/watched>,
+     <https://w3id.org/xapi/acrossx/activities/webpage>,
+     <https://w3id.org/xapi/acrossx/verbs/was-assigned>,
+     <https://w3id.org/xapi/acrossx/verbs/designed>,
+     <https://w3id.org/xapi/acrossx/activities/video>,
      <https://w3id.org/xapi/acrossx/verbs/disliked>,
-     <https://w3id.org/xapi/acrossx/verbs/watched>;
+     <https://w3id.org/xapi/acrossx/verbs/liked>,
+     <https://w3id.org/xapi/acrossx/verbs/searched>;
    <https://w3id.org/xapi/profiles/ontology#versions> <https://w3id.org/xapi/acrossx/v1.0.1> .
 
 <https://w3id.org/xapi/acrossx/activities/collaboration> a <https://w3id.org/xapi/ontology#ActivityType>;
@@ -120,8 +120,8 @@
    skos:definition "Indicates the actor added a supplement to the content, highlight or mark."@en;
    skos:inScheme <https://w3id.org/xapi/acrossx/v1.0.1>;
    skos:prefLabel "annotated"@en;
-   skos:relatedMatch <http://risc-inc.com/annotator/verbs/annotated>,
-     <https://w3id.org/xapi/adb/verbs/annotated> .
+   skos:relatedMatch <https://w3id.org/xapi/adb/verbs/annotated>,
+     <http://risc-inc.com/annotator/verbs/annotated> .
 
 <https://w3id.org/xapi/acrossx/verbs/designed> a <https://w3id.org/xapi/ontology#Verb>;
    skos:definition "Indicates the actor carefully planned or created the object for a specific purpose."@en;
