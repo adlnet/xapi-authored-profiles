@@ -45,7 +45,7 @@
       "inScheme": "https://w3id.org/xapi/video/v1.0.1",
       "type": "Verb",
       "exactMatch": [ {
-        "id": "http://activitystrea.ms/schema/play"
+        "id": "http://activitystrea.ms/schema/1.0/play"
       } ],
       "definition": {
         "en": "Indicates that the actor started experiencing the recorded media object."
@@ -70,7 +70,7 @@
       "inScheme": "https://w3id.org/xapi/video/v1.0.1",
       "type": "ActivityType",
       "exactMatch": [ {
-        "id": "http://activitystrea.ms/schema/video"
+        "id": "http://activitystrea.ms/schema/1.0/video"
       } ],
       "definition": {
         "en": "A recording of both the visual and audible components made available on a display screen."
@@ -285,30 +285,7 @@
     }
   ],
   "templates": [
-    {
-      "id": "https://w3id.org/xapi/video/templates#generalrestrictions",
-      "inScheme": "https://w3id.org/xapi/video/v1.0.1",
-      "prefLabel": {
-        "en": "General Restrictions"
-      },
-      "definition": {
-        "en": "The general rules required for inclusion in all Video Profile Statements."
-      },
-      "rules": [
-        {
-          "location": "$.id",
-          "presence": "included"
-        },
-        {
-          "location": "$.timestamp",
-          "presence": "included"
-        },
-        {
-          "location": "$.context.extensions['https://w3id.org/xapi/video/extensions/session-id']",
-          "presence": "included"
-        }
-      ]
-    },
+
     {
       "id": "https://w3id.org/xapi/video/templates#started",
       "inScheme": "https://w3id.org/xapi/video/v1.0.1",
@@ -320,6 +297,14 @@
       },
       "verb": "http://adlnet.gov/expapi/verbs/initialized",
       "rules": [
+        {
+          "location": "$.id",
+          "presence": "included"
+        },
+        {
+          "location": "$.timestamp",
+          "presence": "included"
+        },
         {
           "location": "$.context.extensions['https://w3id.org/xapi/video/extensions/volume']",
           "presence": "recommended"
@@ -351,6 +336,10 @@
         {
           "location": "$.context.extensions['https://w3id.org/xapi/video/extensions/full-screen']",
           "presence": "recommended"
+        },
+        {
+          "location": "$.context.extensions['https://w3id.org/xapi/video/extensions/session-id']",
+          "presence": "recommended"
         }
       ]
     },
@@ -367,11 +356,23 @@
       "objectActivityType": "https://w3id.org/xapi/video/activity-type/video",
       "rules": [
         {
+          "location": "$.id",
+          "presence": "included"
+        },
+        {
+          "location": "$.timestamp",
+          "presence": "included"
+        },
+        {
           "location": "$.result.extensions['https://w3id.org/xapi/video/extensions/time']",
           "presence": "included"
         },
         {
           "location": "$.result.extensions['https://w3id.org/xapi/video/extensions/played-segments']",
+          "presence": "recommended"
+        },
+        {
+          "location": "$.context.extensions['https://w3id.org/xapi/video/extensions/session-id']",
           "presence": "recommended"
         }
       ]
@@ -389,6 +390,14 @@
       "objectActivityType": "https://w3id.org/xapi/video/activity-type/video",
       "rules": [
         {
+          "location": "$.id",
+          "presence": "included"
+        },
+        {
+          "location": "$.timestamp",
+          "presence": "included"
+        },
+        {
           "location": "$.result.extensions['https://w3id.org/xapi/video/extensions/time']",
           "presence": "included"
         },
@@ -398,6 +407,10 @@
         },
         {
           "location": "$.result.extensions['https://w3id.org/xapi/video/extensions/progress']",
+          "presence": "recommended"
+        },
+        {
+          "location": "$.context.extensions['https://w3id.org/xapi/video/extensions/session-id']",
           "presence": "recommended"
         }
       ]
@@ -415,12 +428,24 @@
       "objectActivityType": "https://w3id.org/xapi/video/activity-type/video",
       "rules": [
         {
+          "location": "$.id",
+          "presence": "included"
+        },
+        {
+          "location": "$.timestamp",
+          "presence": "included"
+        },
+        {
           "location": "$.result.extensions['https://w3id.org/xapi/video/extensions/time-to']",
           "presence": "included"
         },
         {
           "location": "$.result.extensions['https://w3id.org/xapi/video/extensions/time-from']",
           "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://w3id.org/xapi/video/extensions/session-id']",
+          "presence": "recommended"
         }
       ]
     },
@@ -437,12 +462,101 @@
       "objectActivityType": "https://w3id.org/xapi/video/activity-type/video",
       "rules": [
         {
+          "location": "$.id",
+          "presence": "included"
+        },
+        {
+          "location": "$.timestamp",
+          "presence": "included"
+        },
+        {
           "location": "$.result.extensions['https://w3id.org/xapi/video/extensions/time']",
           "presence": "included"
         },
         {
           "location": "$.result.extensions['https://w3id.org/xapi/video/extensions/progress']",
           "presence": "included"
+        },
+        {
+          "location": "$.result.extensions['https://w3id.org/xapi/video/extensions/played-segments']",
+          "presence": "recommended"
+        },
+        {
+          "location": "$.context.extensions['https://w3id.org/xapi/video/extensions/session-id']",
+          "presence": "recommended"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/xapi/video/templates#ended",
+      "inScheme": "https://w3id.org/xapi/video/v1.0.1",
+      "prefLabel": {
+        "en": "Terminated"
+      },
+      "definition": {
+        "en": "The statement template and rules associated with a terminating the player."
+      },
+      "verb": "http://adlnet.gov/expapi/verbs/terminated",
+      "objectActivityType": "https://w3id.org/xapi/video/activity-type/video",
+      "rules": [
+        {
+          "location": "$.id",
+          "presence": "included"
+        },
+        {
+          "location": "$.timestamp",
+          "presence": "included"
+        },
+        {
+          "location": "$.result.extensions['https://w3id.org/xapi/video/extensions/time']",
+          "presence": "included"
+        },
+        {
+          "location": "$.result.extensions['https://w3id.org/xapi/video/extensions/progress']",
+          "presence": "included"
+        },
+        {
+          "location": "$.result.extensions['https://w3id.org/xapi/video/extensions/played-segments']",
+          "presence": "recommended"
+        },
+        {
+          "location": "$.context.extensions['https://w3id.org/xapi/video/extensions/session-id']",
+          "presence": "recommended"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/xapi/video/templates#closed-captioning",
+      "inScheme": "https://w3id.org/xapi/video/v1.0.1",
+      "prefLabel": {
+        "en": "Enable Closed Captioning"
+      },
+      "verb": "http://adlnet.gov/expapi/verbs/interacted",
+      "objectActivityType": "https://w3id.org/xapi/video/activity-type/video",
+      "rules": [
+        {
+          "location": "$.id",
+          "presence": "included"
+        },
+        {
+          "location": "$.timestamp",
+          "presence": "included"
+        },
+        {
+          "location": "$.result.extensions['https://w3id.org/xapi/video/extensions/time']",
+          "presence": "included"
+        },
+        {
+          "location": "$.result.extensions['https://w3id.org/xapi/video/extensions/cc-enabled']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://w3id.org/xapi/video/extensions/cc-subtitle-lang']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://w3id.org/xapi/video/extensions/session-id']",
+          "presence": "recommended"
         }
       ]
     },
@@ -456,12 +570,24 @@
       "objectActivityType": "https://w3id.org/xapi/video/activity-type/video",
       "rules": [
         {
+          "location": "$.id",
+          "presence": "included"
+        },
+        {
+          "location": "$.timestamp",
+          "presence": "included"
+        },
+        {
           "location": "$.result.extensions['https://w3id.org/xapi/video/extensions/time']",
           "presence": "included"
         },
         {
           "location": "$.context.extensions['https://w3id.org/xapi/video/extensions/volume']",
           "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://w3id.org/xapi/video/extensions/session-id']",
+          "presence": "recommended"
         }
       ]
     },
@@ -474,6 +600,14 @@
       "verb": "http://adlnet.gov/expapi/verbs/interacted",
       "objectActivityType": "https://w3id.org/xapi/video/activity-type/video",
       "rules": [
+        {
+          "location": "$.id",
+          "presence": "included"
+        },
+        {
+          "location": "$.timestamp",
+          "presence": "included"
+        },
         {
           "location": "$.result.extensions['https://w3id.org/xapi/video/extensions/time']",
           "presence": "included"
@@ -489,6 +623,10 @@
         {
           "location": "$.context.extensions['https://w3id.org/xapi/video/extensions/video-playback-size']",
           "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://w3id.org/xapi/video/extensions/session-id']",
+          "presence": "recommended"
         }
       ]
     }
@@ -504,7 +642,7 @@
           "definition": {
               "en": "The general pattern and sequence of Statement templates using the Video Profile."
           },
-          "sequence": ["https://w3id.org/xapi/video/templates#started", "https://w3id.org/xapi/video/patterns#optionalmiddlestatements"]
+          "sequence": ["https://w3id.org/xapi/video/templates#started", "https://w3id.org/xapi/video/patterns#optionalmiddlestatements", "https://w3id.org/xapi/video/templates#ended"]
       },
       {
           "id": "https://w3id.org/xapi/video/patterns#all-activities-pattern",
@@ -515,7 +653,7 @@
            "definition": {
                "en": "All of the Video Profile templates."
            },
-          "alternates": ["https://w3id.org/xapi/video/templates#played", "https://w3id.org/xapi/video/templates#paused", "https://w3id.org/xapi/video/templates#seeked", "https://w3id.org/xapi/video/templates#volumechange", "https://w3id.org/xapi/video/templates#screenchange", "https://w3id.org/xapi/video/templates#completed"]
+          "alternates": ["https://w3id.org/xapi/video/templates#played", "https://w3id.org/xapi/video/templates#paused", "https://w3id.org/xapi/video/templates#seeked", "https://w3id.org/xapi/video/templates#volumechange", "https://w3id.org/xapi/video/templates#screenchange", "https://w3id.org/xapi/video/templates#closed-captioning", "https://w3id.org/xapi/video/templates#completed"]
       },
       {
           "id": "https://w3id.org/xapi/video/patterns#optionalmiddlestatements",
