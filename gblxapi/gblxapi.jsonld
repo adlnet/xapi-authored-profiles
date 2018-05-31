@@ -1,24 +1,24 @@
 {
    "@context": "https://w3id.org/xapi/profiles/context",
-    "id": "https://w3id.org/xapi/newprofilename",
+    "id": "https://w3id.org/xapi/gblxapi",
     "type": "Profile",
     "conformsTo": "https://w3id.org/xapi/profiles#1.0",
     "prefLabel": {
-        "en": "Title of Profile"
+        "en": "GBLxAPI - K-12 Education Apps Profile"
     },
     "definition": {
-        "en": "K-12 Education"
+        "en": "The GBLxAPI K-12 Education Apps profile of xAPI was created to indentify and standardize the common interactions that can be found in k-12 educational learning apps and game-based learning. The profile was created as part of a research project known as GBLxAPI. "
     },
-    "seeAlso": "",
+    "seeAlso": "https://gblxapi.org",
     "versions": [
         {
-            "id": "",
+            "id": "https://w3id.org/xapi/gblxapi/v1.0",
             "generatedAtTime": ""
         }
     ],
     "author": {
         "type": "Organization",
-        "name": ""
+        "name": "The GBLxAPI Project"
     },
     "concepts": [
       {
