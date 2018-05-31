@@ -13,7 +13,7 @@
      schema:name "Activity Streams Working Group"
    ];
    rdfs:seeAlso <http://activitystrea.ms/specs/json/>;
-   skos:definition "An list of concepts from an obsolete version (1.0) of the Activity Streams specification."@en;
+   skos:definition "A list of concepts reused from an older version (1.0) of the Activity Streams specification."@en;
    skos:prefLabel "Activity Streams Vocabulary"@en;
    <https://w3id.org/xapi/profiles/ontology#concepts> <http://activitystrea.ms/acknowledge>,
      <http://activitystrea.ms/add>,
