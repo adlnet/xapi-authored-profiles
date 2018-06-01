@@ -16,15 +16,15 @@
   },
   "versions": [
     {
-      "id": "https://w3id.org/xapi/adb/v1.0.1",
+      "id": "https://w3id.org/xapi/adb/v1.0",
       "generatedAtTime": "2017-06-30T8:26:00Z",
-      "wasRevisionOf": ["https://w3id.org/xapi/adb/v1"]
+      "wasRevisionOf": ["https://w3id.org/xapi/adb"]
     }
   ],
   "concepts": [
     {
       "id": "https://w3id.org/xapi/adb/verbs/annotated",
-      "inScheme": "https://w3id.org/xapi/adb/v1.0.1",
+      "inScheme": "https://w3id.org/xapi/adb/v1.0",
       "type": "Verb",
       "definition": {
         "en": "Provide notes or symbols for further explanation or thoughts while reading."
@@ -37,7 +37,7 @@
     },
     {
       "id": "https://w3id.org/xapi/adb/verbs/arrived",
-      "inScheme": "https://w3id.org/xapi/adb/v1.0.1",
+      "inScheme": "https://w3id.org/xapi/adb/v1.0",
       "type": "Verb",
       "broadMatch": ["http://adlnet.gov/expapi/verbs/progressed"],
       "definition": {
@@ -49,7 +49,7 @@
     },
     {
       "id": "https://w3id.org/xapi/adb/verbs/attended",
-      "inScheme": "https://w3id.org/xapi/adb/v1.0.1",
+      "inScheme": "https://w3id.org/xapi/adb/v1.0",
       "type": "Verb",
       "exactMatch": [ "http://adlnet.gov/expapi/verbs/attended" ],
       "relatedMatch": [ "http://adlnet.gov/expapi/verbs/attended" ],
@@ -62,7 +62,7 @@
     },
     {
       "id": "https://w3id.org/xapi/adb/verbs/bookmarked",
-      "inScheme": "https://w3id.org/xapi/adb/v1.0.1",
+      "inScheme": "https://w3id.org/xapi/adb/v1.0",
       "type": "Verb",
       "definition": {
         "en": "Persisting the current location (page) where the reader stopped the ebook activity."
@@ -74,7 +74,7 @@
     },
     {
       "id": "https://w3id.org/xapi/adb/verbs/coached",
-      "inScheme": "https://w3id.org/xapi/adb/v1.0.1",
+      "inScheme": "https://w3id.org/xapi/adb/v1.0",
       "type": "Verb",
       "definition": {
         "en": "To teach or lead another person through an activity. Coached is a direct response to the Requested verb. The receiver of a Requested statement will periodically respond by sending a Coached statement that clears out the coach's queue."
@@ -85,7 +85,7 @@
     },
     {
       "id": "https://w3id.org/xapi/adb/verbs/demanded",
-      "inScheme": "https://w3id.org/xapi/adb/v1.0.1",
+      "inScheme": "https://w3id.org/xapi/adb/v1.0",
       "type": "Verb",
       "definition": {
         "en": "Indicates a request for eBook session or redirect. Shall be distinct from requested which refers to actor conversations (e.g., requested help fom instructor)."
@@ -97,7 +97,7 @@
     },
     {
       "id": "https://w3id.org/xapi/adb/verbs/described",
-      "inScheme": "https://w3id.org/xapi/adb/v1.0.1",
+      "inScheme": "https://w3id.org/xapi/adb/v1.0",
       "type": "Verb",
       "definition": {
         "en": "Detailed answer as a result of an interaction in an ebook activity or assessment."
@@ -108,7 +108,7 @@
     },
     {
       "id": "https://w3id.org/xapi/adb/verbs/highlighted",
-      "inScheme": "https://w3id.org/xapi/adb/v1.0.1",
+      "inScheme": "https://w3id.org/xapi/adb/v1.0",
       "type": "Verb",
       "broader": ["https://w3id.org/xapi/adb/verbs/annotated"],
       "prefLabel": {
@@ -122,7 +122,7 @@
     },
     {
       "id": "https://w3id.org/xapi/adb/verbs/initiated",
-      "inScheme": "https://w3id.org/xapi/adb/v1.0.1",
+      "inScheme": "https://w3id.org/xapi/adb/v1.0",
       "type": "Verb",
       "definition": {
         "en": "Used to initiate text code, user preferences or accessibility preferences to a teacher."
@@ -133,7 +133,7 @@
     },
     {
       "id": "https://w3id.org/xapi/adb/verbs/noted",
-      "inScheme": "https://w3id.org/xapi/adb/v1.0.1",
+      "inScheme": "https://w3id.org/xapi/adb/v1.0",
       "type": "Verb",
       "broader": ["https://w3id.org/xapi/adb/verbs/annotated"],
       "definition": {
@@ -145,7 +145,7 @@
     },
     {
       "id": "https://w3id.org/xapi/adb/verbs/read",
-      "inScheme": "https://w3id.org/xapi/adb/v1.0.1",
+      "inScheme": "https://w3id.org/xapi/adb/v1.0",
       "type": "Verb",
       "exactMatch": ["http://activitystrea.ms/schema/read"],
       "definition": {
@@ -157,7 +157,7 @@
     },
     {
       "id": "https://w3id.org/xapi/adb/verbs/referenced",
-      "inScheme": "https://w3id.org/xapi/adb/v1.0.1",
+      "inScheme": "https://w3id.org/xapi/adb/v1.0",
       "type": "Verb",
       "definition": {
         "en": "Use dictionary or other resource to look up a selected word. A learner might reference outside information in support of the topic and could reference additional reading for his/her colleagues or mentor."
@@ -168,7 +168,7 @@
     },
     {
       "id": "https://w3id.org/xapi/adb/verbs/requested",
-      "inScheme": "https://w3id.org/xapi/adb/v1.0.1",
+      "inScheme": "https://w3id.org/xapi/adb/v1.0",
       "type": "Verb",
       "exactMatch": ["http://activitystrea.ms/schema/request"],
       "definition": {
@@ -180,7 +180,7 @@
     },
     {
       "id": "https://w3id.org/xapi/adb/verbs/selected",
-      "inScheme": "https://w3id.org/xapi/adb/v1.0.1",
+      "inScheme": "https://w3id.org/xapi/adb/v1.0",
       "type": "Verb",
       "definition": {
         "en": "Choose section of text to copy to clipboard."
@@ -191,7 +191,7 @@
     },
     {
       "id": "https://w3id.org/xapi/adb/verbs/watched",
-      "inScheme": "https://w3id.org/xapi/adb/v1.0.1",
+      "inScheme": "https://w3id.org/xapi/adb/v1.0",
       "type": "Verb",
       "exactMatch": [ "http://activitystrea.ms/schema/watch", "https://w3id.org/xapi/acrossx/verbs/watched" ],
       "definition": {
