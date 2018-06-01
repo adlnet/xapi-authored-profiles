@@ -186,7 +186,7 @@
    skos:definition "It's a value representing a position on a timeline of an activity, should be in ISO8601 format."@en;
    skos:inScheme <https://w3id.org/xapi/acrossx>;
    skos:prefLabel "time"@en;
-   <https://w3id.org/xapi/profiles/ontology#inlineSchema> "{ \"type\": \"number\" }" .
+   <https://w3id.org/xapi/profiles/ontology#inlineSchema> "{ \"type\": \"string\", \"format\": \"date-time\", \"pattern\": \"^\\d{4}\\-\\d{2}\\-\\d{2}T\\d{2}:\\d{2}:\\d{2}Z$\" }" .
 
 <https://w3id.org/xapi/acrossx/extensions/time-limit> a <https://w3id.org/xapi/ontology#ActivityExtension>;
    skos:definition "It's to indicate the time constraint of an assessment object."@en;
