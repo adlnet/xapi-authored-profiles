@@ -6,6 +6,42 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+<https://w3id.org/xapi/acrossx> a <https://w3id.org/xapi/profiles/ontology#Profile>;
+   dc:conformsTo <https://w3id.org/xapi/profiles#1.0>;
+   schema:author [
+     a schema:Organization;
+     schema:name "xAPI Chinese Community of Practice"
+   ];
+   rdfs:seeAlso <http://xapi-cop.net/>;
+   skos:prefLabel "AcrossX Profile"@en;
+   <https://w3id.org/xapi/profiles/ontology#concepts> <https://w3id.org/xapi/acrossx/verbs/revealed>,
+     <https://w3id.org/xapi/acrossx/verbs/searched>,
+     <https://w3id.org/xapi/acrossx/activities/video>,
+     <https://w3id.org/xapi/acrossx/activities/learning-plan>,
+     <https://w3id.org/xapi/acrossx/activities/message>,
+     <https://w3id.org/xapi/acrossx/activities/printed-book>,
+     <https://w3id.org/xapi/acrossx/verbs/liked>,
+     <https://w3id.org/xapi/acrossx/activities/e-book>,
+     <https://w3id.org/xapi/acrossx/activities/collaboration>,
+     <https://w3id.org/xapi/acrossx/verbs/disliked>,
+     <https://w3id.org/xapi/acrossx/verbs/was-assigned>,
+     <https://w3id.org/xapi/acrossx/verbs/edited>,
+     <https://w3id.org/xapi/acrossx/activities/page>,
+     <https://w3id.org/xapi/acrossx/activities/online-discussion>,
+     <https://w3id.org/xapi/acrossx/activities/webpage>,
+     <https://w3id.org/xapi/acrossx/activities/instant-response-system>,
+     <https://w3id.org/xapi/acrossx/verbs/posted>,
+     <https://w3id.org/xapi/acrossx/activities/printed-assessment>,
+     <https://w3id.org/xapi/acrossx/verbs/watched>,
+     <https://w3id.org/xapi/acrossx/activities/note>,
+     <https://w3id.org/xapi/acrossx/verbs/designed>,
+     <https://w3id.org/xapi/acrossx/verbs/evaluated>,
+     <https://w3id.org/xapi/acrossx/verbs/annotated>,
+     <https://w3id.org/xapi/acrossx/activities/face-to-face-discussion>,
+     <https://w3id.org/xapi/acrossx/activities/printed-worksheet>,
+     <https://w3id.org/xapi/acrossx/verbs/reported>;
+   <https://w3id.org/xapi/profiles/ontology#versions> <https://w3id.org/xapi/acrossx/v1.0> .
+
 <https://w3id.org/xapi/acrossx/activities/collaboration> a <https://w3id.org/xapi/ontology#ActivityType>;
    skos:definition "The activity involving multiple actors working together on an assignment, a project, a problem-solving challenge or a cause."@en;
    skos:inScheme <https://w3id.org/xapi/acrossx/v1.0>;
@@ -38,6 +74,7 @@
 
 <https://w3id.org/xapi/acrossx/activities/note> a <https://w3id.org/xapi/ontology#ActivityType>;
    skos:definition "Refers to an object that was annotated as part of the activity."@en;
+   skos:exactMatch <http://activitystrea.ms/schema/1.0/note>;
    skos:inScheme <https://w3id.org/xapi/acrossx/v1.0>;
    skos:prefLabel "note"@en .
 
@@ -47,6 +84,7 @@
    skos:prefLabel "online-discussion"@en .
 
 <https://w3id.org/xapi/acrossx/activities/page> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:broadMatch <http://activitystrea.ms/schema/1.0/page>;
    skos:definition "The single representation of a specific page number and the content on that page in any digitally or physically written material."@en;
    skos:inScheme <https://w3id.org/xapi/acrossx/v1.0>;
    skos:prefLabel "page"@en .
@@ -78,13 +116,12 @@
    skos:inScheme <https://w3id.org/xapi/acrossx/v1.0>;
    skos:prefLabel "webpage"@en .
 
-<https://w3id.org/xapi/acrossx/v1.1> prov:generatedAtTime "2017-07-14T11:35:00Z"^^xsd:dateTime;
-   prov:wasRevisionOf <https://w3id.org/xapi/acrossx/v1> .
-
 <https://w3id.org/xapi/acrossx/verbs/annotated> a <https://w3id.org/xapi/ontology#Verb>;
    skos:definition "Indicates the actor added a supplement to the content, highlight or mark."@en;
    skos:inScheme <https://w3id.org/xapi/acrossx/v1.0>;
-   skos:prefLabel "annotated"@en .
+   skos:prefLabel "annotated"@en;
+   skos:relatedMatch <https://w3id.org/xapi/adb/verbs/annotated>,
+     <http://risc-inc.com/annotator/verbs/annotated> .
 
 <https://w3id.org/xapi/acrossx/verbs/designed> a <https://w3id.org/xapi/ontology#Verb>;
    skos:definition "Indicates the actor carefully planned or created the object for a specific purpose."@en;
@@ -94,7 +131,8 @@
 <https://w3id.org/xapi/acrossx/verbs/disliked> a <https://w3id.org/xapi/ontology#Verb>;
    skos:definition "Indicates that the actor does not approve of the object or activity."@en;
    skos:inScheme <https://w3id.org/xapi/acrossx/v1.0>;
-   skos:prefLabel "disliked"@en .
+   skos:prefLabel "disliked"@en;
+   skos:relatedMatch <http://activitystrea.ms/schema/1.0/dislike> .
 
 <https://w3id.org/xapi/acrossx/verbs/edited> a <https://w3id.org/xapi/ontology#Verb>;
    skos:definition "Indicates the actor added or modified the content in a document or object."@en;
@@ -110,7 +148,8 @@
    skos:definition "Indicates that the actor approves of, recommends, or endorses the object or activity."@en;
    skos:exactMatch <http://activitystrea.ms/schema/1.0/like>;
    skos:inScheme <https://w3id.org/xapi/acrossx/v1.0>;
-   skos:prefLabel "liked"@en .
+   skos:prefLabel "liked"@en;
+   skos:related <http://activitystrea.ms/schema/1.0/like> .
 
 <https://w3id.org/xapi/acrossx/verbs/posted> a <https://w3id.org/xapi/ontology#Verb>;
    skos:definition "Used to describe the action of posting a discussion topic or message on a forum."@en;
@@ -140,42 +179,10 @@
 
 <https://w3id.org/xapi/acrossx/verbs/watched> a <https://w3id.org/xapi/ontology#Verb>;
    skos:definition "Indicates the actor observed a visual obect."@en;
-   skos:exactMatch <http://activitystrea.ms/schema/1.0/watch>;
+   skos:exactMatch <http://activitystrea.ms/schema/1.0/watch>,
+     <https://w3id.org/xapi/adb/verbs/watched>;
    skos:inScheme <https://w3id.org/xapi/acrossx/v1.0>;
    skos:prefLabel "watched"@en .
 
-<https://w3id.org/xapi/acrossx> a <https://w3id.org/xapi/profiles/ontology#Profile>;
-   dc:conformsTo <https://w3id.org/xapi/profiles#1.0>;
-   schema:author [
-     a schema:Organization;
-     schema:name "xAPI Chinese Community of Practice"
-   ];
-   rdfs:seeAlso <http://xapi-cop.net>;
-   skos:prefLabel "AcrossX Profile"@en;
-   <https://w3id.org/xapi/profiles/ontology#concepts> <https://w3id.org/xapi/acrossx/activities/video>,
-     <https://w3id.org/xapi/acrossx/activities/collaboration>,
-     <https://w3id.org/xapi/acrossx/activities/page>,
-     <https://w3id.org/xapi/acrossx/verbs/annotated>,
-     <https://w3id.org/xapi/acrossx/activities/printed-assessment>,
-     <https://w3id.org/xapi/acrossx/activities/printed-book>,
-     <https://w3id.org/xapi/acrossx/activities/e-book>,
-     <https://w3id.org/xapi/acrossx/verbs/edited>,
-     <https://w3id.org/xapi/acrossx/activities/note>,
-     <https://w3id.org/xapi/acrossx/activities/learning-plan>,
-     <https://w3id.org/xapi/acrossx/activities/face-to-face-discussion>,
-     <https://w3id.org/xapi/acrossx/verbs/searched>,
-     <https://w3id.org/xapi/acrossx/activities/online-discussion>,
-     <https://w3id.org/xapi/acrossx/verbs/reported>,
-     <https://w3id.org/xapi/acrossx/activities/instant-response-system>,
-     <https://w3id.org/xapi/acrossx/activities/message>,
-     <https://w3id.org/xapi/acrossx/verbs/evaluated>,
-     <https://w3id.org/xapi/acrossx/activities/webpage>,
-     <https://w3id.org/xapi/acrossx/verbs/watched>,
-     <https://w3id.org/xapi/acrossx/verbs/revealed>,
-     <https://w3id.org/xapi/acrossx/verbs/liked>,
-     <https://w3id.org/xapi/acrossx/verbs/posted>,
-     <https://w3id.org/xapi/acrossx/activities/printed-worksheet>,
-     <https://w3id.org/xapi/acrossx/verbs/was-assigned>,
-     <https://w3id.org/xapi/acrossx/verbs/designed>,
-     <https://w3id.org/xapi/acrossx/verbs/disliked>;
-   <https://w3id.org/xapi/profiles/ontology#versions> <https://w3id.org/xapi/acrossx/v1.0> .
+<https://w3id.org/xapi/acrossx/v1.0> prov:generatedAtTime "2017-07-14T11:35:00Z"^^xsd:dateTime;
+   prov:wasRevisionOf <https://w3id.org/xapi/acrossx> .

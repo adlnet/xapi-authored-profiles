@@ -2574,4 +2574,5 @@
    skos:inScheme <https://w3id.org/xapi/dod-isd/v1.0>;
    skos:prefLabel "zeroed"@en .
 
-<https://w3id.org/xapi/dod-isd/v1.0> prov:generatedAtTime "2018-03-26"^^xsd:dateTime .
+<https://w3id.org/xapi/dod-isd/v1.0> prov:generatedAtTime "2018-03-26"^^xsd:dateTime;
+   prov:wasRevisionOf <https://w3id.org/xapi/dod-isd> .

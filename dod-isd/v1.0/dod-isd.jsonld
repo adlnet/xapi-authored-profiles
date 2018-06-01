@@ -13,7 +13,8 @@
 	"versions": [
 		{
 			"id": "https://w3id.org/xapi/dod-isd/v1.0",
-			"generatedAtTime": "2018-03-26"
+			"generatedAtTime": "2018-03-26",
+			"wasRevisionOf": ["https://w3id.org/xapi/dod-isd"]
 		}
 	],
 	"author": {
