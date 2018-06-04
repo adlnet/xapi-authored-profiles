@@ -17,7 +17,7 @@
   "versions": [
     {
       "id": "https://w3id.org/xapi/video/v1.0.2",
-      "generatedAtTime": "2018-05-25T10:45:00Z",
+      "generatedAtTime": "2018-06-04T10:45:00Z",
       "wasRevisionOf": ["https://w3id.org/xapi/video/v1.0.1"]
     } ],
   "concepts": [
@@ -75,6 +75,18 @@
       }
     },
     {
+      "id": "https://w3id.org/xapi/video/extensions/completion-threshold",
+      "inScheme": "https://w3id.org/xapi/video/v1.0.2",
+      "type": "ContextExtension",
+      "definition": {
+        "en": "Used to specify the percentage of media that should be consumed to trigger a completion. Value MUST be between 0 and with maximum 3 decimals. If Completion Threshold is not included, it is assumed to be 1, i.e. 100%.  If Completion Threshold is not 1, it MUST be included in Video Profile statements with these verbs: initialized, paused, completed, and terminated."
+      },
+      "prefLabel": {
+        "en": "completion-threshold"
+      },
+      "inlineSchema": "{ \"type\": \"number\" }"
+    },
+    {
       "id": "https://w3id.org/xapi/video/extensions/cc-subtitle-enabled",
       "inScheme": "https://w3id.org/xapi/video/v1.0.2",
       "type": "ContextExtension",
@@ -91,7 +103,7 @@
       "inScheme": "https://w3id.org/xapi/video/v1.0.2",
       "type": "ContextExtension",
       "definition": {
-        "en": "Used to express the language of subtitle or closed captioning."
+        "en": "Used to express the language of subtitle or closed captioning. The lexical and value spaces of xsd:language are the set of language codes defined by RFC 5646. For example, 'en' for English or 'en-US' for American English."
       },
       "prefLabel": {
         "en": "cc-subtitle-lang"
@@ -121,6 +133,18 @@
         "en": "full-screen"
       },
       "inlineSchema": "{ \"type\": \"boolean\" }"
+    },
+    {
+      "id": "https://w3id.org/xapi/video/extensions/length",
+      "inScheme": "https://w3id.org/xapi/video/v1.0.2",
+      "type": "ContextExtension",
+      "definition": {
+        "en": "The actual length of the media in seconds. Value MUST be a float value with maximum 3 decimals."
+      },
+      "prefLabel": {
+        "en": "length"
+      },
+      "inlineSchema": "{ \"type\": \"number\" }"
     },
     {
       "id": "https://w3id.org/xapi/video/extensions/quality",
@@ -282,13 +306,13 @@
   "templates": [
 
     {
-      "id": "https://w3id.org/xapi/video/templates#started",
+      "id": "https://w3id.org/xapi/video/templates#initialized",
       "inScheme": "https://w3id.org/xapi/video/v1.0.2",
       "prefLabel": {
-        "en": "Started"
+        "en": "Initialized"
       },
       "definition": {
-        "en": "The statement template and rules associated with a video being initialized."
+        "en": "The statement template and rules associated with a video being initialized or started."
       },
       "verb": "http://adlnet.gov/expapi/verbs/initialized",
       "rules": [
@@ -299,6 +323,14 @@
         {
           "location": "$.timestamp",
           "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://w3id.org/xapi/video/extensions/length']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://w3id.org/xapi/video/extensions/completion-threshold']",
+          "presence": "recommended"
         },
         {
           "location": "$.context.extensions['https://w3id.org/xapi/video/extensions/volume']",
@@ -393,8 +425,16 @@
           "presence": "included"
         },
         {
+          "location": "$.context.extensions['https://w3id.org/xapi/video/extensions/length']",
+          "presence": "included"
+        },
+        {
           "location": "$.result.extensions['https://w3id.org/xapi/video/extensions/time']",
           "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://w3id.org/xapi/video/extensions/completion-threshold']",
+          "presence": "recommended"
         },
         {
           "location": "$.result.extensions['https://w3id.org/xapi/video/extensions/played-segments']",
@@ -465,12 +505,20 @@
           "presence": "included"
         },
         {
+          "location": "$.context.extensions['https://w3id.org/xapi/video/extensions/length']",
+          "presence": "included"
+        },
+        {
           "location": "$.result.extensions['https://w3id.org/xapi/video/extensions/time']",
           "presence": "included"
         },
         {
           "location": "$.result.extensions['https://w3id.org/xapi/video/extensions/progress']",
           "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://w3id.org/xapi/video/extensions/completion-threshold']",
+          "presence": "recommended"
         },
         {
           "location": "$.result.extensions['https://w3id.org/xapi/video/extensions/played-segments']",
@@ -483,7 +531,7 @@
       ]
     },
     {
-      "id": "https://w3id.org/xapi/video/templates#ended",
+      "id": "https://w3id.org/xapi/video/templates#terminated",
       "inScheme": "https://w3id.org/xapi/video/v1.0.2",
       "prefLabel": {
         "en": "Terminated"
@@ -503,12 +551,20 @@
           "presence": "included"
         },
         {
+          "location": "$.context.extensions['https://w3id.org/xapi/video/extensions/length']",
+          "presence": "included"
+        },
+        {
           "location": "$.result.extensions['https://w3id.org/xapi/video/extensions/time']",
           "presence": "included"
         },
         {
           "location": "$.result.extensions['https://w3id.org/xapi/video/extensions/progress']",
           "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://w3id.org/xapi/video/extensions/completion-threshold']",
+          "presence": "recommended"
         },
         {
           "location": "$.result.extensions['https://w3id.org/xapi/video/extensions/played-segments']",
@@ -632,12 +688,12 @@
          "inScheme": "https://w3id.org/xapi/video/v1.0.2",
          "primary": true,
          "prefLabel": {
-           "en": "General Pattern and Sequence"
+           "en": "General Pattern"
          },
           "definition": {
               "en": "The general pattern and sequence of Statement templates using the Video Profile."
           },
-          "sequence": ["https://w3id.org/xapi/video/templates#started", "https://w3id.org/xapi/video/patterns#optionalmiddlestatements", "https://w3id.org/xapi/video/templates#ended"]
+          "sequence": ["https://w3id.org/xapi/video/templates#initialized", "https://w3id.org/xapi/video/patterns#optionalmiddlestatements", "https://w3id.org/xapi/video/templates#terminated"]
       },
       {
           "id": "https://w3id.org/xapi/video/patterns#all-activities-pattern",
@@ -646,7 +702,7 @@
             "en": "All Activities Pattern"
           },
            "definition": {
-               "en": "All of the Video Profile templates."
+               "en": "All of the Video Profile statement templates."
            },
           "alternates": ["https://w3id.org/xapi/video/templates#played", "https://w3id.org/xapi/video/templates#paused", "https://w3id.org/xapi/video/templates#seeked", "https://w3id.org/xapi/video/templates#volumechange", "https://w3id.org/xapi/video/templates#screenchange", "https://w3id.org/xapi/video/templates#closed-captioning", "https://w3id.org/xapi/video/templates#completed"]
       },
@@ -657,7 +713,7 @@
             "en": "Optional Middle Statements"
           },
            "definition": {
-               "en": "A combined pattern of zero or more Video Profile templates that can be used after the primary pattern."
+               "en": "A combined pattern of zero or more Video Profile standard statement templates that can be used with the general pattern."
            },
           "type": "Pattern",
 			    "zeroOrMore": "https://w3id.org/xapi/video/patterns#all-activities-pattern"
