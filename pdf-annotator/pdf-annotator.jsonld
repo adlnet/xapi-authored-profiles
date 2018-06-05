@@ -1,0 +1,137 @@
+{
+  "@context": "https://w3id.org/xapi/profiles/context",
+  "id": "http://www.risc-inc.com/annotator",
+  "type": "Profile",
+  "conformsTo": "https://w3id.org/xapi/profiles#1.0",
+  "prefLabel": {
+    "en": "PDF Annotator"
+  },
+  "definition": {
+    "en": "A profile for recording PDF annotations."
+  },
+  "seeAlso": "http://risc-inc.com/pdf-annotation-cloud-real-world-xapi-application/",
+  "author": {
+    "type": "Organization",
+    "name": "RISC, Inc"
+  },
+  "versions": [
+    {
+      "id": "http://www.risc-inc.com/annotator/v1.0.",
+      "generatedAtTime": "2017-07-14T11:35:00Z",
+      "wasRevisionOf": ["http://www.risc-inc.com/annotator"]
+    }],
+  "concepts": [
+  {
+      "id": "http://www.risc-inc.com/annotator/extensions/color",
+      "inScheme": "http://www.risc-inc.com/annotator/v1.0",
+      "type": "ContextExtension",
+      "definition": {
+        "en": "This extension is used to describe the RGB colour of a PDF annotation highlight, underline of typewriter annotation. The value of this extension is a string, for example #FFCC66. For any use cases outside of PDF annotations, consider the tincan color extension to record the colour of an activity."
+      },
+      "prefLabel": {
+        "en": "pdf annotation highlight colour"
+      }
+  },
+  {
+      "id": "http://www.risc-inc.com/annotator/extensions/highlightedString",
+      "inScheme": "http://www.risc-inc.com/annotator/v1.0",
+      "type": "ContextExtension",
+      "definition": {
+        "en": "Activity definition extension used with highlight and underline activity types. Stores the string of text that has been highlighted or underlined."
+      },
+      "prefLabel": {
+        "en": "highlighted string"
+      }
+  },
+  {
+      "id": "http://www.risc-inc.com/annotator/extensions/page",
+      "inScheme": "http://www.risc-inc.com/annotator/v1.0",
+      "type": "ContextExtension",
+      "definition": {
+        "en": "Activity Definition extension used for activities representing entities on a page, for example highlights or notes on an annotated PDF. The value of this extension is an integer that represents the zero-based page index of the document that the activity is on. This document should be listed as the contextActivities parent. Note that the page index is not normally equal to the page number printed on the document."
+      },
+      "prefLabel": {
+        "en": "page index"
+      }
+  },
+  {
+      "id": "http://www.risc-inc.com/annotator/extensions/rects",
+      "inScheme": "http://www.risc-inc.com/annotator/v1.0",
+      "type": "ContextExtension",
+      "definition": {
+        "en": "A collection of rectangles marking an area within a PDF document. This is used to denote the location of an element on a page such as a highlight or annotation on a PDF document. Multiple rectangles may represent a single element. The value of the extension is an array of rectangle objects. Each rectangle object has x, y, width and height properties. The value of each of these properties is a number measured in PDF Units. The X and Y coordinates are taken from the bottom left of the page. Note that in some implementations, this the value of this extension has been a string containing a JSON encoded array of rectangle objects. This is not recommended, but tools reading statements using this extension may wish to additionally accept this JSON encoded format."
+      },
+      "prefLabel": {
+        "en": "pdf Rectangle map"
+      }
+  },
+  {
+      "id": "http://risc-inc.com/annotator/activities/highlight",
+      "inScheme": "http://www.risc-inc.com/annotator/v1.0",
+      "type": "ActivityType",
+      "definition": {
+        "en": "An annotation of the highlight type. Highlights are used to mark strings of text in a document with a color. This activity type should only be used for highlighted text and not for highlighted images or other elements."
+      },
+      "prefLabel": {
+        "en": "highlighted text annotation"
+      }
+  },
+  {
+      "id": "http://risc-inc.com/annotator/activities/note",
+      "inScheme": "http://www.risc-inc.com/annotator/v1.0",
+      "type": "ActivityType",
+      "definition": {
+        "en": "Indicates an annotation made to a document of the note form. This is a string of text appended to the document at a specified location. Note annotations can be added anywhere on the page. This activity type should not be used for other types of note that are not annotations to a document."
+      },
+      "prefLabel": {
+        "en": "note annotation"
+      }
+  },
+    {
+      "id": "http://risc-inc.com/annotator/activities/underline",
+      "inScheme": "http://www.risc-inc.com/annotator/v1.0",
+      "type": "ActivityType",
+      "definition": {
+        "en": "An annotation of the underline type. Underlines are used to mark strings of text in a document with a line underneath the text. This activity type should only be used for underlined text and not for images or other elements."
+      },
+      "prefLabel": {
+        "en": "underline annotation"
+      }
+    },
+  {
+      "id": "http://www.risc-inc.com/annotator/activities/freetext",
+      "inScheme": "http://www.risc-inc.com/annotator/v1.0",
+      "type": "ActivityType",
+      "definition": {
+        "en": "Indicates an annotation made to a document of the freetext form. This is a string of text written direction onto the document at a specified location. Freetext annotations can be added anywhere on the page. Unlike note annotations, they have no border or background."
+      },
+      "prefLabel": {
+        "en": "freetext annotation"
+      }
+  },
+    {
+      "id": "http://risc-inc.com/annotator/verbs/annotated",
+      "inScheme": "http://www.risc-inc.com/annotator/v1.0",
+      "relatedMatch": [ "https://w3id.org/xapi/adb/verbs/annotated", "https://w3id.org/xapi/acrossx/verbs/annotated" ],
+      "type": "Verb",
+      "definition": {
+        "en": "Indicates a new annotation has been added to a document. This verb may be used with PDFs, images, assignment submissions or any other type of document which may be annotated."
+      },
+      "prefLabel": {
+        "en": "annotated"
+      }
+    },
+  {
+      "id": "http://risc-inc.com/annotator/verbs/modified",
+      "inScheme": "http://www.risc-inc.com/annotator/v1.0",
+      "type": "Verb",
+      "definition": {
+        "en": "This verb is used on annotations created with the annotated verb. It indicates that an existing annotation has been modified, for example editing the text of a note annotation or adjusting the position of a underline or highlight."
+      },
+      "prefLabel": {
+        "en": "modified annotation"
+      }
+  }
+
+  ]
+}

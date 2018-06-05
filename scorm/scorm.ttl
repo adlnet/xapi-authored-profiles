@@ -1,0 +1,277 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://adlnet.gov/expapi/activities/assessment> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "An assessment is an activity type that determines a learner’s mastery of a particular subject area. An assessment typically has one or more questions."@en;
+   skos:inScheme <https://w3id.org/xapi/scorm/v1.0>;
+   skos:prefLabel "assessment"@en .
+
+<http://adlnet.gov/expapi/activities/attempt> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "An attempt is a discrete set of learner experiences in an activity. This activity gives systems the ability to uniquely identify experiences when they may have happened in different interactions with the same activity."@en;
+   skos:inScheme <https://w3id.org/xapi/scorm/v1.0>;
+   skos:prefLabel "attempt"@en .
+
+<http://adlnet.gov/expapi/activities/course> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "A course represents an entire “content package” worth of material. The largest level of granularity. Unless flat, a course consists of multiple modules."@en;
+   skos:exactMatch <https://w3id.org/xapi/cmi5/activities/course>;
+   skos:inScheme <https://w3id.org/xapi/scorm/v1.0>;
+   skos:prefLabel "course"@en .
+
+<http://adlnet.gov/expapi/activities/interaction> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "An interaction is typically a part of a larger activity (such as a assessment, game, or simulation) and refers to a control to which a learner provides input. An interaction can be either an asset or function independently."@en;
+   skos:inScheme <https://w3id.org/xapi/scorm/v1.0>;
+   skos:prefLabel "interaction"@en .
+
+<http://adlnet.gov/expapi/activities/module> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "A module represents any “content aggregation” at least one level below the course level. Modules of modules can exist for layering purposes. Modules are not content. Modules are one level up from all content."@en;
+   skos:inScheme <https://w3id.org/xapi/scorm/v1.0>;
+   skos:prefLabel "module"@en .
+
+<http://adlnet.gov/expapi/activities/objective> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "An objective determines whether competency has been achieved in a desired area. Objectives typically are associated with questions and assessments. Objectives are not learning content and cannot be SCOs."@en;
+   skos:inScheme <https://w3id.org/xapi/scorm/v1.0>;
+   skos:prefLabel "objective"@en .
+
+<http://adlnet.gov/expapi/activities/profile> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "A profile is an activity that defines a set of rules and recommendations for generating xAPI statements for a particular domain. The inclusion of a profile activity in a statement identifies that statement as following the rules outlined in the profile."@en;
+   skos:exactMatch <https://w3id.org/xapi/profiles/ontology#Profile>;
+   skos:inScheme <https://w3id.org/xapi/scorm/v1.0>;
+   skos:prefLabel "profile"@en .
+
+<http://adlnet.gov/expapi/verbs/failed> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates the actor did not successfully pass an activity to a level of predetermined satisfaction."@en;
+   skos:inScheme <https://w3id.org/xapi/scorm/v1.0>;
+   skos:prefLabel "failed"@en .
+
+<http://adlnet.gov/expapi/verbs/passed> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:broader <http://adlnet.gov/expapi/verbs/completed>;
+   skos:definition "Indicates the actor successfully passed an activity to a level of predetermined satisfaction."@en;
+   skos:inScheme <https://w3id.org/xapi/scorm/v1.0>;
+   skos:prefLabel "passed"@en .
+
+<http://adlnet.gov/expapi/verbs/scored> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates a numerical value related to an actor's performance on an activity."@en;
+   skos:inScheme <https://w3id.org/xapi/scorm/v1.0>;
+   skos:prefLabel "scored"@en .
+
+<https://w3id.org/xapi/scorm> a <https://w3id.org/xapi/profiles/ontology#Profile>;
+   dc:conformsTo <https://w3id.org/xapi/profiles#1.0>;
+   schema:author [
+     a schema:Organization;
+     schema:name "Advanced Distributed Learning(ADL) Initiative"
+   ];
+   rdfs:seeAlso <https://adl.gitbooks.io/scorm-profile-xapi/content/>;
+   skos:definition "The SCORM profile includes Verbs, Activity Types and xAPI Document definitions used to represent SCORM learning experiences in xAPI."@en;
+   skos:prefLabel "SCORM Profile"@en;
+   <https://w3id.org/xapi/profiles/ontology#concepts> <http://adlnet.gov/expapi/verbs/terminated>,
+     <http://adlnet.gov/expapi/activities/assessment>,
+     <http://adlnet.gov/expapi/verbs/completed>,
+     <https://w3id.org/xapi/scorm/agent-profile>,
+     <https://w3id.org/xapi/scorm/attempt-state>,
+     <http://adlnet.gov/expapi/activities/attempt>,
+     <http://adlnet.gov/expapi/verbs/scored>,
+     <http://adlnet.gov/expapi/activities/lesson>,
+     <http://adlnet.gov/expapi/verbs/resumed>,
+     <http://adlnet.gov/expapi/activities/course>,
+     <http://adlnet.gov/expapi/verbs/passed>,
+     <http://adlnet.gov/expapi/activities/module>,
+     <http://adlnet.gov/expapi/verbs/failed>,
+     <http://adlnet.gov/expapi/verbs/responded>,
+     <http://adlnet.gov/expapi/verbs/initialized>,
+     <http://adlnet.gov/expapi/verbs/suspended>,
+     <http://adlnet.gov/expapi/activities/objective>,
+     <https://w3id.org/xapi/scorm/activity-state>,
+     <http://adlnet.gov/expapi/activities/profile>,
+     <https://w3id.org/xapi/scorm/activity-profile>,
+     <http://adlnet.gov/expapi/activities/interaction>;
+   <https://w3id.org/xapi/profiles/ontology#patterns> <https://w3id.org/xapi/scorm#middlestatements>,
+     <https://w3id.org/xapi/scorm#activitystatements>,
+     <https://w3id.org/xapi/scorm#generalpattern>,
+     <https://w3id.org/xapi/scorm#suspendresume>,
+     <https://w3id.org/xapi/scorm#optionallycontinue>;
+   <https://w3id.org/xapi/profiles/ontology#templates> <https://w3id.org/xapi/scorm#interactionactivity>,
+     <https://w3id.org/xapi/scorm#generalrestrictions>,
+     <https://w3id.org/xapi/scorm#resumption>,
+     <https://w3id.org/xapi/scorm#suspension>,
+     <https://w3id.org/xapi/scorm#scoactivity>,
+     <https://w3id.org/xapi/scorm#initialization>,
+     <https://w3id.org/xapi/scorm#completing>,
+     <https://w3id.org/xapi/scorm#otheractivity>,
+     <https://w3id.org/xapi/scorm#commenting>,
+     <https://w3id.org/xapi/scorm#termination>;
+   <https://w3id.org/xapi/profiles/ontology#versions> <https://w3id.org/xapi/scorm/v1.0> .
+
+<https://w3id.org/xapi/scorm#generalpattern> a <https://w3id.org/xapi/profiles/ontology#Pattern>;
+   skos:definition "This pattern describes the overall sequence of statements sent over the course of an attempt"@en;
+   skos:prefLabel "general pattern"@en;
+   <https://w3id.org/xapi/profiles/ontology#primary> true;
+   <https://w3id.org/xapi/profiles/ontology#sequence> (<https://w3id.org/xapi/scorm#initialization> <https://w3id.org/xapi/scorm#middlestatements> <https://w3id.org/xapi/scorm#optionallycontinue> <https://w3id.org/xapi/scorm#termination>) .
+
+<https://w3id.org/xapi/scorm#generalrestrictions> a <https://w3id.org/xapi/profiles/ontology#StatementTemplate>;
+   skos:definition "This is the general template that defines restrictions for all statements conforming to the SCORM profile."@en;
+   skos:prefLabel "general restrictions on statements"@en;
+   <https://w3id.org/xapi/profiles/ontology#rules> [
+     <https://w3id.org/xapi/profiles/ontology#any> "http://adlnet.gov/expapi/activities/course";
+     <https://w3id.org/xapi/profiles/ontology#location> "context.contextActivities.grouping[*].definition.type"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#any> "http://adlnet.gov/expapi/activities/attempt";
+     <https://w3id.org/xapi/profiles/ontology#location> "context.contextActivities.grouping[*].definition.type"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "timestamp";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ] .
+
+<https://w3id.org/xapi/scorm/activity-profile> a <https://w3id.org/xapi/ontology#ActivityProfileResource>;
+   skos:definition "Used to store document data associated with the activity and not intended to capture learning experience data in the form of a statement. The SCORM Activity Profile Object contains the profile data for the specified Activity."@en;
+   skos:inScheme <https://w3id.org/xapi/scorm/v1.0>;
+   skos:prefLabel "SCORM Activity Profile"@en;
+   <https://w3id.org/xapi/profiles/ontology#contentType> "application/json";
+   <https://w3id.org/xapi/profiles/ontology#schema> <https://w3id.org/xapi/scorm/activity-profile/scorm.profile.activity.profile.schema> .
+
+<https://w3id.org/xapi/scorm/activity-state> a <https://w3id.org/xapi/ontology#StateResource>;
+   skos:definition "Used to store document data associated with the activity and not intended to capture learning experience data in the form of a statement. The SCORM Activity State Object contains a list of Attempt IRIs for the specified Activity."@en;
+   skos:inScheme <https://w3id.org/xapi/scorm/v1.0>;
+   skos:prefLabel "SCORM Activity State"@en;
+   <https://w3id.org/xapi/profiles/ontology#contentType> "application/json";
+   <https://w3id.org/xapi/profiles/ontology#schema> <https://raw.githubusercontent.com/adlnet/xAPI-SCORM-Profile/master/document-schemas/scorm.profile.activity.state.schema.json> .
+
+<https://w3id.org/xapi/scorm/agent-profile> a <https://w3id.org/xapi/ontology#AgentProfileResource>;
+   skos:definition "The SCORM Activity State Object contains the profile data for the specified Agent. The agent profile has three properties: learner_id, learner_name, and preferences. "@en;
+   skos:inScheme <https://w3id.org/xapi/scorm/v1.0>;
+   skos:prefLabel "SCORM Agent Profile"@en;
+   <https://w3id.org/xapi/profiles/ontology#contentType> "application/json";
+   <https://w3id.org/xapi/profiles/ontology#schema> <https://raw.githubusercontent.com/adlnet/xAPI-SCORM-Profile/master/document-schemas/scorm.profile.agent.profile.schema.json> .
+
+<https://w3id.org/xapi/scorm/attempt-state> a <https://w3id.org/xapi/ontology#StateResource>;
+   skos:definition "The SCORM Activity Attempt State Object contains the state data for the specified attempt on an Activity. It has the following properties: credit, mode, location, preferences, total_time, and adl_data."@en;
+   skos:inScheme <https://w3id.org/xapi/scorm/v1.0>;
+   skos:prefLabel "SCORM Activity Attempt State"@en;
+   <https://w3id.org/xapi/profiles/ontology#contentType> "application/json";
+   <https://w3id.org/xapi/profiles/ontology#context> <https://raw.githubusercontent.com/adlnet/xAPI-SCORM-Profile/master/context/attempt-state-context.jsonld>;
+   <https://w3id.org/xapi/profiles/ontology#schema> <https://raw.githubusercontent.com/adlnet/xAPI-SCORM-Profile/master/document-schemas/scorm.profile.attempt.state.schema.json> .
+
+<http://adlnet.gov/expapi/verbs/initialized> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates the activity provider has determined that the actor successfully started an activity."@en;
+   skos:inScheme <https://w3id.org/xapi/scorm/v1.0>;
+   skos:prefLabel "initialized"@en .
+
+<http://adlnet.gov/expapi/verbs/responded> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates an actor reacted or replied to an object."@en;
+   skos:inScheme <https://w3id.org/xapi/scorm/v1.0>;
+   skos:prefLabel "responded"@en .
+
+<http://adlnet.gov/expapi/verbs/resumed> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates the application has determined that the actor continued or reopened a suspended attempt on an activity."@en;
+   skos:inScheme <https://w3id.org/xapi/scorm/v1.0>;
+   skos:prefLabel "resumed"@en .
+
+<http://adlnet.gov/expapi/verbs/suspended> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates the status of a temporarily halted activity when an actor's intent is returning to the or object activity at a later time."@en;
+   skos:exactMatch <http://activitystrea.ms/schema/terminate>;
+   skos:inScheme <https://w3id.org/xapi/scorm/v1.0>;
+   skos:prefLabel "suspended"@en .
+
+<http://adlnet.gov/expapi/verbs/terminated> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor successfully ended an activity."@en;
+   skos:inScheme <https://w3id.org/xapi/scorm/v1.0>;
+   skos:prefLabel "terminated"@en .
+
+<https://w3id.org/xapi/scorm#activitystatements> a <https://w3id.org/xapi/profiles/ontology#Pattern>;
+   skos:definition "This pattern provides all of the alternate options for SCORM activity statements."@en;
+   skos:prefLabel "activity statements"@en;
+   <https://w3id.org/xapi/profiles/ontology#alternates> <https://w3id.org/xapi/scorm#interactionactivity>,
+     <https://w3id.org/xapi/scorm#scoactivity>,
+     <https://w3id.org/xapi/scorm#completing>,
+     <https://w3id.org/xapi/scorm#otheractivity>,
+     <https://w3id.org/xapi/scorm#commenting> .
+
+<https://w3id.org/xapi/scorm#commenting> a <https://w3id.org/xapi/profiles/ontology#StatementTemplate>;
+   skos:definition "The statement template used for making comments about the lesson."@en;
+   skos:prefLabel "commenting"@en;
+   <https://w3id.org/xapi/profiles/ontology#objectActivityType> <http://adlnet.gov/expapi/activities/lesson>;
+   <https://w3id.org/xapi/profiles/ontology#rules> [
+     <https://w3id.org/xapi/profiles/ontology#location> "result.response";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ];
+   <https://w3id.org/xapi/profiles/ontology#verb> <http://adlnet.gov/expapi/verbs/commented> .
+
+<https://w3id.org/xapi/scorm#completing> a <https://w3id.org/xapi/profiles/ontology#StatementTemplate>;
+   skos:definition "The statement template used for completing the lesson."@en;
+   skos:prefLabel "completing"@en;
+   <https://w3id.org/xapi/profiles/ontology#objectActivityType> <http://adlnet.gov/expapi/activities/lesson>;
+   <https://w3id.org/xapi/profiles/ontology#verb> <http://adlnet.gov/expapi/verbs/completed> .
+
+<https://w3id.org/xapi/scorm#initialization> a <https://w3id.org/xapi/profiles/ontology#StatementTemplate>;
+   skos:definition "The statement template used for when initilizing communication with the LMS."@en;
+   skos:prefLabel "initialization"@en;
+   <https://w3id.org/xapi/profiles/ontology#objectActivityType> <http://adlnet.gov/expapi/activities/lesson>;
+   <https://w3id.org/xapi/profiles/ontology#verb> <http://adlnet.gov/expapi/verbs/initialized> .
+
+<https://w3id.org/xapi/scorm#interactionactivity> a <https://w3id.org/xapi/profiles/ontology#StatementTemplate>;
+   skos:definition "The statement template used for cmi interaction activities."@en;
+   skos:prefLabel "interaction activity"@en;
+   <https://w3id.org/xapi/profiles/ontology#contextParentActivityType> <http://adlnet.gov/expapi/activities/lesson>;
+   <https://w3id.org/xapi/profiles/ontology#objectActivityType> <http://adlnet.gov/expapi/activities/cmi.interaction>;
+   <https://w3id.org/xapi/profiles/ontology#verb> <http://adlnet.gov/expapi/verbs/responded> .
+
+<https://w3id.org/xapi/scorm#optionallycontinue> a <https://w3id.org/xapi/profiles/ontology#Pattern>;
+   skos:definition "This pattern provies an option for suspending and resuming."@en;
+   skos:prefLabel "optionally continue"@en;
+   <https://w3id.org/xapi/profiles/ontology#zeroOrMore> <https://w3id.org/xapi/scorm#suspendresume> .
+
+<https://w3id.org/xapi/scorm#otheractivity> a <https://w3id.org/xapi/profiles/ontology#StatementTemplate>;
+   skos:definition "The statement template used for other types of activities."@en;
+   skos:prefLabel "other activity"@en;
+   <https://w3id.org/xapi/profiles/ontology#contextParentActivityType> <http://adlnet.gov/expapi/activities/lesson> .
+
+<https://w3id.org/xapi/scorm#resumption> a <https://w3id.org/xapi/profiles/ontology#StatementTemplate>;
+   skos:definition "The statement template used for when resuming a suspended attempt."@en;
+   skos:prefLabel "resumption"@en;
+   <https://w3id.org/xapi/profiles/ontology#objectActivityType> <http://adlnet.gov/expapi/activities/lesson>;
+   <https://w3id.org/xapi/profiles/ontology#verb> <http://adlnet.gov/expapi/verbs/resumed> .
+
+<https://w3id.org/xapi/scorm#scoactivity> a <https://w3id.org/xapi/profiles/ontology#StatementTemplate>;
+   skos:definition "The statement template used for any general lesson activity."@en;
+   skos:prefLabel "SCO activity"@en;
+   <https://w3id.org/xapi/profiles/ontology#objectActivityType> <http://adlnet.gov/expapi/activities/lesson> .
+
+<https://w3id.org/xapi/scorm#suspendresume> a <https://w3id.org/xapi/profiles/ontology#Pattern>;
+   skos:definition "This pattern provides the sequence used for for suspending and resuming."@en;
+   skos:prefLabel "suspend resume"@en;
+   <https://w3id.org/xapi/profiles/ontology#sequence> (<https://w3id.org/xapi/scorm#suspension> <https://w3id.org/xapi/scorm#resumption> <https://w3id.org/xapi/scorm#middlestatements>) .
+
+<https://w3id.org/xapi/scorm#suspension> a <https://w3id.org/xapi/profiles/ontology#StatementTemplate>;
+   skos:definition "The statement template used for when suspending the attempt on the lesson."@en;
+   skos:prefLabel "suspension"@en;
+   <https://w3id.org/xapi/profiles/ontology#objectActivityType> <http://adlnet.gov/expapi/activities/lesson>;
+   <https://w3id.org/xapi/profiles/ontology#verb> <http://adlnet.gov/expapi/verbs/suspended> .
+
+<https://w3id.org/xapi/scorm#termination> a <https://w3id.org/xapi/profiles/ontology#StatementTemplate>;
+   skos:definition "The statement template used for when terminating communication with the LMS."@en;
+   skos:prefLabel "termination"@en;
+   <https://w3id.org/xapi/profiles/ontology#objectActivityType> <http://adlnet.gov/expapi/activities/lesson>;
+   <https://w3id.org/xapi/profiles/ontology#verb> <http://adlnet.gov/expapi/verbs/terminated> .
+
+<http://adlnet.gov/expapi/verbs/completed> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates the actor finished or concluded the activity normally."@en;
+   skos:exactMatch <http://activitystrea.ms/schema/complete>;
+   skos:inScheme <https://w3id.org/xapi/scorm/v1.0>;
+   skos:prefLabel "completed"@en .
+
+<https://w3id.org/xapi/scorm#middlestatements> a <https://w3id.org/xapi/profiles/ontology#Pattern>;
+   skos:definition "This pattern provides that zero or more activity statement patterns will be used."@en;
+   skos:prefLabel "middle statements"@en;
+   <https://w3id.org/xapi/profiles/ontology#zeroOrMore> <https://w3id.org/xapi/scorm#activitystatements> .
+
+<http://adlnet.gov/expapi/activities/lesson> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "A lesson is learning content that may or may not take on the form of a SCO (formal, tracked learning). A lesson may stand-alone or may be part of a larger course."@en;
+   skos:inScheme <https://w3id.org/xapi/scorm/v1.0>;
+   skos:prefLabel "lesson"@en .
+
+<https://w3id.org/xapi/scorm/v1.0> prov:generatedAtTime "2017-08-21T14:25:59.295Z"^^xsd:dateTime;
+   prov:wasRevisionOf <https://w3id.org/xapi/scorm> .

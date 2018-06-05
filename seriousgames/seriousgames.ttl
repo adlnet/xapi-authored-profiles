@@ -1,0 +1,171 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/xapi/seriousgames> a <https://w3id.org/xapi/profiles/ontology#Profile>;
+   dc:conformsTo <https://w3id.org/xapi/profiles#1.0>;
+   schema:author [
+     a schema:Organization;
+     schema:name "The RAGE project"
+   ];
+   rdfs:seeAlso <https://github.com/e-ucm/xapi-seriousgames>;
+   skos:definition "The serous games profile of the xAPI was created to identify and standardize the common interactions that can be tracked in a serious game. This profile was designed as part of the RAGE project."@en;
+   skos:prefLabel "Serious Games Profile"@en;
+   <https://w3id.org/xapi/profiles/ontology#concepts> <https://w3id.org/xapi/seriousgames/activity-types/screen>,
+     <https://w3id.org/xapi/seriousgames/activity-types/cutscene>,
+     <https://w3id.org/xapi/seriousgames/activity-types/controller>,
+     <https://w3id.org/xapi/seriousgames/activity-types/menu>,
+     <https://w3id.org/xapi/seriousgames/extensions/position>,
+     <https://w3id.org/xapi/seriousgames/activity-types/enemy>,
+     <https://w3id.org/xapi/seriousgames/extensions/progress>,
+     <https://w3id.org/xapi/seriousgames/activity-types/dialog-tree>,
+     <https://w3id.org/xapi/seriousgames/activity-types/touchscreen>,
+     <https://w3id.org/xapi/seriousgames/activity-types/serious-game>,
+     <https://w3id.org/xapi/seriousgames/activity-types/non-player-character>,
+     <https://w3id.org/xapi/seriousgames/activity-types/area>,
+     <https://w3id.org/xapi/seriousgames/activity-types/mouse>,
+     <https://w3id.org/xapi/seriousgames/activity-types/item>,
+     <https://w3id.org/xapi/seriousgames/activity-types/level>,
+     <https://w3id.org/xapi/seriousgames/verbs/released>,
+     <https://w3id.org/xapi/seriousgames/activity-types/quest>,
+     <https://w3id.org/xapi/seriousgames/activity-types/zone>,
+     <https://w3id.org/xapi/seriousgames/verbs/pressed>,
+     <https://w3id.org/xapi/seriousgames/verbs/unlocked>,
+     <https://w3id.org/xapi/seriousgames/activity-types/keyboard>,
+     <https://w3id.org/xapi/seriousgames/extensions/health>,
+     <https://w3id.org/xapi/seriousgames/verbs/used>,
+     <https://w3id.org/xapi/seriousgames/verbs/accessed>;
+   <https://w3id.org/xapi/profiles/ontology#versions> <https://w3id.org/xapi/seriousgames/v1.0> .
+
+<https://w3id.org/xapi/seriousgames/activity-types/area> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "An identified area inside the game world. In some games they can also be worlds. Represents an aggregation of zones."@en;
+   skos:inScheme <https://w3id.org/xapi/seriousgames/v1.0>;
+   skos:prefLabel "area"@en .
+
+<https://w3id.org/xapi/seriousgames/activity-types/controller> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "A game controller whose input affects the action in an activity. Game controllers are common in non-pc games. This activity represents this device."@en;
+   skos:inScheme <https://w3id.org/xapi/seriousgames/v1.0>;
+   skos:prefLabel "controller"@en .
+
+<https://w3id.org/xapi/seriousgames/activity-types/cutscene> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "A non-interactive scene that can be skipped. A cutscene is a non-interactive scene within the game (e.g., a video, a conversation, an automated sequence). The player can usually skip them pressing some button."@en;
+   skos:inScheme <https://w3id.org/xapi/seriousgames/v1.0>;
+   skos:prefLabel "cutscene"@en .
+
+<https://w3id.org/xapi/seriousgames/activity-types/dialog-tree> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "An alternative presented during a conversation with an non-playable character. Dialog trees are a common mechanic in video games, where players can answer questions to NPC. This activity represents that type of alternative."@en;
+   skos:inScheme <https://w3id.org/xapi/seriousgames/v1.0>;
+   skos:prefLabel "dialog-tree"@en .
+
+<https://w3id.org/xapi/seriousgames/activity-types/enemy> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "A game object that poses a threat inside the game world. Enemies are common elements in video games. Defeating them indicates a player accomplishment."@en;
+   skos:inScheme <https://w3id.org/xapi/seriousgames/v1.0>;
+   skos:prefLabel "enemy"@en .
+
+<https://w3id.org/xapi/seriousgames/activity-types/item> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "A collectable game object whose use or interaction results in an effect in a game. Items are common elements in video games. Players can collect/use/combine them."@en;
+   skos:inScheme <https://w3id.org/xapi/seriousgames/v1.0>;
+   skos:prefLabel "item"@en .
+
+<https://w3id.org/xapi/seriousgames/activity-types/keyboard> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "A keyboard whose keystrokes affects the action in an activity. Somes games can receive inputs from keyboards: physical keyboards in a PC, or virtual keyboards in a smartphone screen. This activity represent both."@en;
+   skos:inScheme <https://w3id.org/xapi/seriousgames/v1.0>;
+   skos:prefLabel "keyboard"@en .
+
+<https://w3id.org/xapi/seriousgames/activity-types/level> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "A level of a game or of a gamified learning platform. A level is logic partition of progression in any video game. Completing a level means advancing in the progression of the game."@en;
+   skos:exactMatch <http://curatr3.com/define/type/level>;
+   skos:inScheme <https://w3id.org/xapi/seriousgames/v1.0>;
+   skos:prefLabel "level"@en .
+
+<https://w3id.org/xapi/seriousgames/activity-types/menu> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "A menu with several buttons/options whose selection produces different effects. Represents a menu, integrated in the user interface (UI), with several a options."@en;
+   skos:inScheme <https://w3id.org/xapi/seriousgames/v1.0>;
+   skos:prefLabel "menu"@en .
+
+<https://w3id.org/xapi/seriousgames/activity-types/mouse> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "A mouse device whose clicks and movement affects the action in an activity. PC games are usually controlled by mouse interaction. This activity represents this device."@en;
+   skos:inScheme <https://w3id.org/xapi/seriousgames/v1.0>;
+   skos:prefLabel "mouse"@en .
+
+<https://w3id.org/xapi/seriousgames/activity-types/non-player-character> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "A character that can offer a conversation or other type of interaction inside a game. Players usually have conversations with non-player characters."@en;
+   skos:inScheme <https://w3id.org/xapi/seriousgames/v1.0>;
+   skos:prefLabel "non-player-character"@en .
+
+<https://w3id.org/xapi/seriousgames/activity-types/quest> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "A accomplishable challenge or mission presented inside a game. Completing quests marks the players' progress."@en;
+   skos:inScheme <https://w3id.org/xapi/seriousgames/v1.0>;
+   skos:prefLabel "quest"@en .
+
+<https://w3id.org/xapi/seriousgames/activity-types/screen> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "A game screen where a concrete game task is developed. Games are usually composed by a set of screens the player navigates. A screen has a concrete function within the game. A screen contains a menu, or the gameplay. To define virtual zones inside the game world, it is recommended to use area or zone."@en;
+   skos:inScheme <https://w3id.org/xapi/seriousgames/v1.0>;
+   skos:prefLabel "screen"@en .
+
+<https://w3id.org/xapi/seriousgames/activity-types/serious-game> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "A game designed for a primary purpose other than pure entertainment. For instance, an educational game or a game-like simulation. A serious game is the root container for the rest of game elements."@en;
+   skos:inScheme <https://w3id.org/xapi/seriousgames/v1.0>;
+   skos:prefLabel "serious-game"@en .
+
+<https://w3id.org/xapi/seriousgames/activity-types/touchscreen> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "A screen the player can touch or press."@en;
+   skos:inScheme <https://w3id.org/xapi/seriousgames/v1.0>;
+   skos:prefLabel "touchscreen"@en .
+
+<https://w3id.org/xapi/seriousgames/activity-types/zone> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "An identified zone inside an area of the game world. A zone is inside an area, and defines a logic self-contained place."@en;
+   skos:inScheme <https://w3id.org/xapi/seriousgames/v1.0>;
+   skos:prefLabel "zone"@en .
+
+<https://w3id.org/xapi/seriousgames/extensions/health> a <https://w3id.org/xapi/ontology#ResultExtension>;
+   skos:definition "A decimal number (3 significant figures with 2 figures following the decimal point) between 0 and 1 (inclusive) to indicate the remaining health or stamina within a game. Used to represent the remaining health of the player (e.g., number of hearts, energy bar). This extension appears in the Statement's result."@en;
+   skos:inScheme <https://w3id.org/xapi/seriousgames/v1.0>;
+   skos:prefLabel "health"@en .
+
+<https://w3id.org/xapi/seriousgames/extensions/position> a <https://w3id.org/xapi/ontology#ResultExtension>;
+   skos:definition "An object with attributes x, y and z indicating the position of the player within a particular area in a game. Used to represent the current position of the player inside the game world. This position should be expressed in a coordinate system known by the data analysts. This extension appears in the Statement's result."@en;
+   skos:inScheme <https://w3id.org/xapi/seriousgames/v1.0>;
+   skos:prefLabel "position"@en .
+
+<https://w3id.org/xapi/seriousgames/extensions/progress> a <https://w3id.org/xapi/ontology#ResultExtension>;
+   skos:definition "A decimal number (3 significant figures with 2 figures following the decimal point) between 0 and 1 (inclusive) to indicate the value of progress in a completable. Indicates the progress in a completable. This extension appears in the Statement's result."@en;
+   skos:inScheme <https://w3id.org/xapi/seriousgames/v1.0>;
+   skos:prefLabel "progress"@en .
+
+<https://w3id.org/xapi/seriousgames/verbs/accessed> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has gained access to the object. Associated to the virtual places a player visits during a gameplay."@en;
+   skos:exactMatch <http://activitystrea.ms/access>;
+   skos:inScheme <https://w3id.org/xapi/seriousgames/v1.0>;
+   skos:prefLabel "accessed"@en;
+   skos:relatedMatch <http://activitystrea.ms/access> .
+
+<https://w3id.org/xapi/seriousgames/verbs/pressed> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor made physical contact with the object. Used when the player presses some button in an input device. Press the left button in a mouse, press the X button in a XBox controller, etc. "@en;
+   skos:exactMatch <http://future-learning.info/xAPI/verb/pressed>;
+   skos:inScheme <https://w3id.org/xapi/seriousgames/v1.0>;
+   skos:prefLabel "pressed"@en .
+
+<https://w3id.org/xapi/seriousgames/verbs/released> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor released the object from one's grip from or a specific state. Used when the player releases a previously pressed button."@en;
+   skos:exactMatch <http://future-learning.info/xAPI/verb/released>;
+   skos:inScheme <https://w3id.org/xapi/seriousgames/v1.0>;
+   skos:prefLabel "released"@en .
+
+<https://w3id.org/xapi/seriousgames/verbs/unlocked> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates the actor unlocked an option that was previously unavailable. Used when the player unlocks an option in an alternative."@en;
+   skos:inScheme <https://w3id.org/xapi/seriousgames/v1.0>;
+   skos:prefLabel "unlocked"@en .
+
+<https://w3id.org/xapi/seriousgames/verbs/used> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates the actor used a virtual object. Used when player uses items they find during the gameplay, to obtain different benefits."@en;
+   skos:exactMatch <http://activitystrea.ms/schema/use>;
+   skos:inScheme <https://w3id.org/xapi/seriousgames/v1.0>;
+   skos:prefLabel "used"@en .
+
+<https://w3id.org/xapi/seriousgames/v1.0> prov:generatedAtTime "2017-07-14T10:00:00Z"^^xsd:dateTime;
+   prov:wasRevisionOf <https://w3id.org/xapi/seriousgames> .

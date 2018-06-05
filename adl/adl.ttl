@@ -1,0 +1,175 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://adlnet.gov/expapi/activities/file> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "A file is similar to a link, only the resource is more likely to be used at a) a different time, b) can be used offline, and/or c) could be used with a different system. Only the expectation changes. Files are not considered learning content or SCOs. If a file is intended for this purpose, it should be re-categorized."@en;
+   skos:inScheme <https://w3id.org/xapi/adl/v1.0>;
+   skos:prefLabel "file"@en .
+
+<http://adlnet.gov/expapi/activities/link> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "A link is simply a means of expressing a link to another resource within, or external to, an activity. A link is not synonymous with launching another resource and should be considered external to the current resource. Links are not learning content, nor SCOs. If a link is intended for this purpose, it should be re-categorized."@en;
+   skos:inScheme <https://w3id.org/xapi/adl/v1.0>;
+   skos:prefLabel "link"@en .
+
+<http://adlnet.gov/expapi/activities/media> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "Media refers to text, audio, or video used to convey information. Media can be consumed (tracked: completed), but doesn’t have an interactive component that may result in a score, success, or failure."@en;
+   skos:inScheme <https://w3id.org/xapi/adl/v1.0>;
+   skos:prefLabel "media"@en .
+
+<http://adlnet.gov/expapi/activities/meeting> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "A meeting is a gathering of multiple people for a common cause or interest."@en;
+   skos:inScheme <https://w3id.org/xapi/adl/v1.0>;
+   skos:prefLabel "meeting"@en .
+
+<http://adlnet.gov/expapi/activities/performance> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "A performance is an attempted task or series of tasks within a particular context. Tasks would likely take on the form of interactions, or the performance could be self-contained content. It emphasizes students or learners being able to do, or perform, specific skills as a result of the instruction."@en;
+   skos:inScheme <https://w3id.org/xapi/adl/v1.0>;
+   skos:prefLabel "performance"@en .
+
+<http://adlnet.gov/expapi/activities/question> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "A question is typically part of an assessment and requires a response from the learner, a response that is then evaluated for correctness."@en;
+   skos:exactMatch <http://activitystrea.ms/schema/question>;
+   skos:inScheme <https://w3id.org/xapi/adl/v1.0>;
+   skos:prefLabel "question"@en .
+
+<http://adlnet.gov/expapi/activities/simulation> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "A simulation is an attempted task or series of tasks in an artificial context that mimics reality. Tasks would likely take on the form of interactions, or the simulation could be self-contained content."@en;
+   skos:inScheme <https://w3id.org/xapi/adl/v1.0>;
+   skos:prefLabel "simulation"@en .
+
+<http://adlnet.gov/expapi/verbs/answered> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates the actor replied to a question, where the object is generally an activity representing the question. The text of the answer will often be included in the response inside result."@en;
+   skos:inScheme <https://w3id.org/xapi/adl/v1.0>;
+   skos:prefLabel "answered"@en .
+
+<http://adlnet.gov/expapi/verbs/asked> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates an inquiry by an actor with the expectation of a response or answer to a question."@en;
+   skos:inScheme <https://w3id.org/xapi/adl/v1.0>;
+   skos:prefLabel "asked"@en .
+
+<http://adlnet.gov/expapi/verbs/attempted> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates the actor made an effort to access the object. An attempt statement without additional activities could be considered incomplete in some cases."@en;
+   skos:inScheme <https://w3id.org/xapi/adl/v1.0>;
+   skos:prefLabel "attempted"@en .
+
+<http://adlnet.gov/expapi/verbs/attended> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates the actor was present at a virtual or physical event or activity."@en;
+   skos:inScheme <https://w3id.org/xapi/adl/v1.0>;
+   skos:prefLabel "attended"@en;
+   skos:relatedMatch <http://activitystrea.ms/schema/attend>,
+     <https://w3id.org/xapi/adb/verbs/attended> .
+
+<http://adlnet.gov/expapi/verbs/commented> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates the actor provided digital or written annotations on or about an object."@en;
+   skos:inScheme <https://w3id.org/xapi/adl/v1.0>;
+   skos:prefLabel "commented"@en .
+
+<http://adlnet.gov/expapi/verbs/exited> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates the actor intentionally departed from the activity or object."@en;
+   skos:inScheme <https://w3id.org/xapi/adl/v1.0>;
+   skos:prefLabel "exited"@en .
+
+<http://adlnet.gov/expapi/verbs/imported> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates the actor introduced an object into a physical or virtual location."@en;
+   skos:inScheme <https://w3id.org/xapi/adl/v1.0>;
+   skos:prefLabel "imported"@en .
+
+<http://adlnet.gov/expapi/verbs/interacted> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates the actor engaged with a physical or virtual object."@en;
+   skos:inScheme <https://w3id.org/xapi/adl/v1.0>;
+   skos:prefLabel "interacted"@en;
+   skos:relatedMatch <http://activitystrea.ms/schema/interact> .
+
+<http://adlnet.gov/expapi/verbs/launched> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates the actor attempted to start an activity."@en;
+   skos:inScheme <https://w3id.org/xapi/adl/v1.0>;
+   skos:prefLabel "launched"@en .
+
+<http://adlnet.gov/expapi/verbs/mastered> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates the highest level of comprehension or competence the actor performed in an activity."@en;
+   skos:inScheme <https://w3id.org/xapi/adl/v1.0>;
+   skos:prefLabel "mastered"@en .
+
+<http://adlnet.gov/expapi/verbs/preferred> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates the selected choices, favored options or settings of an actor in relation to an object or activity."@en;
+   skos:inScheme <https://w3id.org/xapi/adl/v1.0>;
+   skos:prefLabel "preferred"@en .
+
+<http://adlnet.gov/expapi/verbs/progressed> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates a value of how much of an actor has advanced or moved through an activity."@en;
+   skos:inScheme <https://w3id.org/xapi/adl/v1.0>;
+   skos:prefLabel "progressed"@en .
+
+<http://adlnet.gov/expapi/verbs/registered> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates the actor is officially enrolled or inducted in an activity."@en;
+   skos:inScheme <https://w3id.org/xapi/adl/v1.0>;
+   skos:prefLabel "registered"@en .
+
+<http://adlnet.gov/expapi/verbs/shared> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates the actor's intent to openly provide access to an object of common interest to other actors or groups."@en;
+   skos:exactMatch <http://activitystrea.ms/schema/share>;
+   skos:inScheme <https://w3id.org/xapi/adl/v1.0>;
+   skos:prefLabel "shared"@en .
+
+<http://adlnet.gov/expapi/verbs/voided> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "A special reserved verb used by a LRS or application to mark a statement as invalid. See the xAPI specification for details on Voided statements."@en;
+   skos:inScheme <https://w3id.org/xapi/adl/v1.0>;
+   skos:prefLabel "voided"@en .
+
+<https://w3id.org/xapi/adl> a <https://w3id.org/xapi/profiles/ontology#Profile>;
+   dc:conformsTo <https://w3id.org/xapi/profiles#1.0.0>;
+   schema:author [
+     a schema:Organization;
+     schema:name "Advanced Distributed Learning(ADL) Initiative"
+   ];
+   skos:definition "The ADL vocabulary list includes Verbs and Activity Types used to represent common learning experiences in xAPI."@en;
+   skos:prefLabel "ADL Vocabulary"@en;
+   <https://w3id.org/xapi/profiles/ontology#concepts> <https://w3id.org/xapi/adl/verbs/logged-in>,
+     <http://adlnet.gov/expapi/activities/performance>,
+     <http://adlnet.gov/expapi/verbs/interacted>,
+     <http://adlnet.gov/expapi/verbs/imported>,
+     <http://adlnet.gov/expapi/verbs/answered>,
+     <http://adlnet.gov/expapi/verbs/mastered>,
+     <https://w3id.org/xapi/adl/verbs/logged-out>,
+     <http://adlnet.gov/expapi/verbs/exited>,
+     <http://adlnet.gov/expapi/verbs/shared>,
+     <http://adlnet.gov/expapi/verbs/progressed>,
+     <http://adlnet.gov/expapi/verbs/voided>,
+     <http://adlnet.gov/expapi/verbs/attempted>,
+     <http://adlnet.gov/expapi/verbs/launched>,
+     <http://adlnet.gov/expapi/verbs/attended>,
+     <http://adlnet.gov/expapi/verbs/asked>,
+     <http://adlnet.gov/expapi/activities/media>,
+     <http://adlnet.gov/expapi/verbs/registered>,
+     <http://adlnet.gov/expapi/verbs/experienced>,
+     <http://adlnet.gov/expapi/verbs/preferred>,
+     <http://adlnet.gov/expapi/activities/file>,
+     <http://adlnet.gov/expapi/activities/link>,
+     <http://adlnet.gov/expapi/verbs/commented>,
+     <http://adlnet.gov/expapi/activities/question>,
+     <http://adlnet.gov/expapi/activities/meeting>,
+     <http://adlnet.gov/expapi/activities/simulation>;
+   <https://w3id.org/xapi/profiles/ontology#versions> <https://w3id.org/xapi/adl/v1.0> .
+
+<https://w3id.org/xapi/adl/verbs/logged-in> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates the actor gained access to a system or service by identifying and authenticating with the credentials provided by the actor."@en;
+   skos:inScheme <https://w3id.org/xapi/adl/v1.0>;
+   skos:prefLabel "logged-in"@en .
+
+<https://w3id.org/xapi/adl/verbs/logged-out> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates the actor either lost or discontinued access to a system or service."@en;
+   skos:inScheme <https://w3id.org/xapi/adl/v1.0>;
+   skos:prefLabel "logged-out"@en .
+
+<http://adlnet.gov/expapi/verbs/experienced> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates the actor only encountered the object, and is applicable in situations where a specific achievement or completion is not required."@en;
+   skos:exactMatch <http://adlnet.gov/expapi/verbs/experienced>;
+   skos:inScheme <https://w3id.org/xapi/adl/v1.0>;
+   skos:prefLabel "experienced"@en .
+
+<https://w3id.org/xapi/adl/v1.0> prov:generatedAtTime "2017-08-21T14:25:59.295Z"^^xsd:dateTime;
+   prov:wasRevisionOf <https://w3id.org/xapi/adl> .

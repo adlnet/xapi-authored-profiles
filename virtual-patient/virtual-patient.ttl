@@ -1,0 +1,35 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/xapi/virtual-patient> a <https://w3id.org/xapi/profiles/ontology#Profile>;
+   dc:conformsTo <https://w3id.org/xapi/profiles#1.0>;
+   schema:author [
+     a schema:Organization;
+     schema:name "MedBiquitous Learning Experience Working Group"
+   ];
+   rdfs:seeAlso <http://groups.medbiq.org/medbiq/display/XIG/Learning+Experience+Group+Home>;
+   skos:definition "The Virtual Patient Profile describes health professions education verbs, activities and learner performance with the goal of understanding the needs of health profession educators."@en;
+   skos:prefLabel "Virtual Patient Profile"@en;
+   <https://w3id.org/xapi/profiles/ontology#concepts> <https://w3id.org/xapi/medbiq/verbs/updated>,
+     <https://w3id.org/xapi/medbiq/verbs/ignored>;
+   <https://w3id.org/xapi/profiles/ontology#versions> <https://w3id.org/xapi/virtual-patient/v1.0> .
+
+<https://w3id.org/xapi/medbiq/verbs/ignored> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates the actor did not acknowledge an object or activity. User has ignored a flag or other simulation data. This is a flag or action sent by either an instructor or the simulation software to indicate that an action was expected by this point in time and had not occurred. Sometimes this is a good thing, and while absent, is not necessarily a negative aspect - for example, if there is a distractor in place that the actor is supposed to ignore as irrelevant."@en;
+   skos:inScheme <https://w3id.org/xapi/virtual-patient/v1.0>;
+   skos:prefLabel "ignored"@en;
+   skos:relatedMatch <http://activitystrea.ms//ignore> .
+
+<https://w3id.org/xapi/medbiq/verbs/updated> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:broadMatch <http://activitystrea.ms/update>;
+   skos:definition "Indicates the actor prompted a change in a data value or information associated with the object.The Virtual Patient player engine has changed a counter value. This may be triggered by arrival at a particular node, or by a rule within the case design created by the virtual patient author, or by a timer expiration point. Although the counter value may be regarded as a score, note that the ADL verb ‘scored’ is overall score for the case or exam (http://adlnet.gov/expapi/verbs/scored), which is not the same thing."@en;
+   skos:inScheme <https://w3id.org/xapi/virtual-patient/v1.0>;
+   skos:prefLabel "updated"@en .
+
+<https://w3id.org/xapi/virtual-patient/v1.0> prov:generatedAtTime "2016-07-21T10:45:00Z"^^xsd:dateTime;
+   prov:wasRevisionOf <https://w3id.org/xapi/virtual-patient/> .
