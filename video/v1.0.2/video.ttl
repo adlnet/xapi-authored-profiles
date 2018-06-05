@@ -15,41 +15,41 @@
    rdfs:seeAlso <https://github.com/liveaspankaj/xapi-video-cop>;
    skos:definition "The video profile of the xAPI was created to identify and standardize the common types of interactions that can be tracked in any video player."@en;
    skos:prefLabel "Video Profile"@en;
-   <https://w3id.org/xapi/profiles/ontology#concepts> <https://w3id.org/xapi/video/extensions/progress>,
-     <https://w3id.org/xapi/video/extensions/cc-subtitle-enabled>,
-     <https://w3id.org/xapi/video/extensions/session-id>,
+   <https://w3id.org/xapi/profiles/ontology#concepts> <https://w3id.org/xapi/video/extensions/volume>,
      <https://w3id.org/xapi/video/extensions/full-screen>,
-     <https://w3id.org/xapi/video/verbs/played>,
-     <https://w3id.org/xapi/video/activity-type/video>,
-     <https://w3id.org/xapi/video/extensions/cc-subtitle-lang>,
-     <https://w3id.org/xapi/video/extensions/speed>,
+     <https://w3id.org/xapi/video/extensions/session-id>,
      <https://w3id.org/xapi/video/extensions/frame-rate>,
+     <https://w3id.org/xapi/video/extensions/cc-subtitle-lang>,
+     <https://w3id.org/xapi/video/verbs/played>,
+     <https://w3id.org/xapi/video/extensions/quality>,
      <https://w3id.org/xapi/video/extensions/length>,
-     <https://w3id.org/xapi/video/extensions/time>,
+     <https://w3id.org/xapi/video/extensions/speed>,
+     <https://w3id.org/xapi/video/activity-type/video>,
+     <https://w3id.org/xapi/video/verbs/paused>,
      <https://w3id.org/xapi/video/extensions/user-agent>,
      <https://w3id.org/xapi/video/verbs/seeked>,
-     <https://w3id.org/xapi/video/extensions/time-from>,
+     <https://w3id.org/xapi/video/extensions/video-playback-size>,
      <https://w3id.org/xapi/video/extensions/completion-threshold>,
-     <https://w3id.org/xapi/video/verbs/paused>,
-     <https://w3id.org/xapi/video/extensions/volume>,
-     <https://w3id.org/xapi/video/extensions/quality>,
      <https://w3id.org/xapi/video/extensions/track>,
-     <https://w3id.org/xapi/video/extensions/screen-size>,
+     <https://w3id.org/xapi/video/extensions/progress>,
      <https://w3id.org/xapi/video/extensions/played-segments>,
+     <https://w3id.org/xapi/video/extensions/screen-size>,
      <https://w3id.org/xapi/video/extensions/time-to>,
-     <https://w3id.org/xapi/video/extensions/video-playback-size>;
+     <https://w3id.org/xapi/video/extensions/time>,
+     <https://w3id.org/xapi/video/extensions/time-from>,
+     <https://w3id.org/xapi/video/extensions/cc-subtitle-enabled>;
    <https://w3id.org/xapi/profiles/ontology#patterns> <https://w3id.org/xapi/video/patterns#optionalmiddlestatements>,
      <https://w3id.org/xapi/video/patterns#all-activities-pattern>,
      <https://w3id.org/xapi/video/patterns#generalpattern>;
-   <https://w3id.org/xapi/profiles/ontology#templates> <https://w3id.org/xapi/video/templates#terminated>,
+   <https://w3id.org/xapi/profiles/ontology#templates> <https://w3id.org/xapi/video/templates#initialized>,
+     <https://w3id.org/xapi/video/templates#closed-captioning>,
      <https://w3id.org/xapi/video/templates#seeked>,
-     <https://w3id.org/xapi/video/templates#completed>,
-     <https://w3id.org/xapi/video/templates#initialized>,
      <https://w3id.org/xapi/video/templates#played>,
-     <https://w3id.org/xapi/video/templates#paused>,
-     <https://w3id.org/xapi/video/templates#screenchange>,
+     <https://w3id.org/xapi/video/templates#completed>,
+     <https://w3id.org/xapi/video/templates#terminated>,
      <https://w3id.org/xapi/video/templates#volumechange>,
-     <https://w3id.org/xapi/video/templates#closed-captioning>;
+     <https://w3id.org/xapi/video/templates#paused>,
+     <https://w3id.org/xapi/video/templates#screenchange>;
    <https://w3id.org/xapi/profiles/ontology#versions> <https://w3id.org/xapi/video/v1.0.2> .
 
 <https://w3id.org/xapi/video/extensions/cc-subtitle-enabled> a <https://w3id.org/xapi/ontology#ContextExtension>;
@@ -175,13 +175,13 @@
 <https://w3id.org/xapi/video/patterns#all-activities-pattern> skos:definition "All of the Video Profile statement templates."@en;
    skos:inScheme <https://w3id.org/xapi/video/v1.0.2>;
    skos:prefLabel "All Activities Pattern"@en;
-   <https://w3id.org/xapi/profiles/ontology#alternates> <https://w3id.org/xapi/video/templates#volumechange>,
-     <https://w3id.org/xapi/video/templates#seeked>,
+   <https://w3id.org/xapi/profiles/ontology#alternates> <https://w3id.org/xapi/video/templates#paused>,
      <https://w3id.org/xapi/video/templates#closed-captioning>,
+     <https://w3id.org/xapi/video/templates#seeked>,
      <https://w3id.org/xapi/video/templates#played>,
-     <https://w3id.org/xapi/video/templates#paused>,
+     <https://w3id.org/xapi/video/templates#completed>,
      <https://w3id.org/xapi/video/templates#screenchange>,
-     <https://w3id.org/xapi/video/templates#completed> .
+     <https://w3id.org/xapi/video/templates#volumechange> .
 
 <https://w3id.org/xapi/video/patterns#optionalmiddlestatements> a <https://w3id.org/xapi/profiles/ontology#Pattern>;
    skos:definition "A combined pattern of zero or more Video Profile standard statement templates that can be used with the general pattern."@en;
@@ -193,7 +193,13 @@
    skos:prefLabel "Enable Closed Captioning"@en;
    <https://w3id.org/xapi/profiles/ontology#objectActivityType> <https://w3id.org/xapi/video/activity-type/video>;
    <https://w3id.org/xapi/profiles/ontology#rules> [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.timestamp";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
      <https://w3id.org/xapi/profiles/ontology#location> "$.id";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/cc-subtitle-lang']";
      <https://w3id.org/xapi/profiles/ontology#presence> "included"
    ],  [
      <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/video/extensions/cc-enabled']";
@@ -201,12 +207,6 @@
    ],  [
      <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/session-id']";
      <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
-   ],  [
-     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/cc-subtitle-lang']";
-     <https://w3id.org/xapi/profiles/ontology#presence> "included"
-   ],  [
-     <https://w3id.org/xapi/profiles/ontology#location> "$.timestamp";
-     <https://w3id.org/xapi/profiles/ontology#presence> "included"
    ],  [
      <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/video/extensions/time']";
      <https://w3id.org/xapi/profiles/ontology#presence> "included"
@@ -218,29 +218,29 @@
    skos:prefLabel "Completed"@en;
    <https://w3id.org/xapi/profiles/ontology#objectActivityType> <https://w3id.org/xapi/video/activity-type/video>;
    <https://w3id.org/xapi/profiles/ontology#rules> [
-     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/completion-threshold']";
-     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/video/extensions/progress']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
    ],  [
      <https://w3id.org/xapi/profiles/ontology#location> "$.id";
-     <https://w3id.org/xapi/profiles/ontology#presence> "included"
-   ],  [
-     <https://w3id.org/xapi/profiles/ontology#location> "$.timestamp";
-     <https://w3id.org/xapi/profiles/ontology#presence> "included"
-   ],  [
-     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/length']";
      <https://w3id.org/xapi/profiles/ontology#presence> "included"
    ],  [
      <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/session-id']";
      <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
    ],  [
-     <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/video/extensions/progress']";
-     <https://w3id.org/xapi/profiles/ontology#presence> "included"
-   ],  [
-     <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/video/extensions/time']";
+     <https://w3id.org/xapi/profiles/ontology#location> "$.timestamp";
      <https://w3id.org/xapi/profiles/ontology#presence> "included"
    ],  [
      <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/video/extensions/played-segments']";
      <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/length']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/completion-threshold']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/video/extensions/time']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
    ];
    <https://w3id.org/xapi/profiles/ontology#verb> <http://adlnet.gov/expapi/verbs/completed> .
 
@@ -248,34 +248,13 @@
    skos:inScheme <https://w3id.org/xapi/video/v1.0.2>;
    skos:prefLabel "Initialized"@en;
    <https://w3id.org/xapi/profiles/ontology#rules> [
-     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/cc-enabled']";
-     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
-   ],  [
-     <https://w3id.org/xapi/profiles/ontology#location> "$.timestamp";
-     <https://w3id.org/xapi/profiles/ontology#presence> "included"
-   ],  [
-     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/length']";
-     <https://w3id.org/xapi/profiles/ontology#presence> "included"
-   ],  [
-     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/video-playback-size']";
-     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
-   ],  [
      <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/volume']";
      <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
    ],  [
      <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/completion-threshold']";
      <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
    ],  [
-     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/cc-subtitle-lang']";
-     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
-   ],  [
      <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/user-agent']";
-     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
-   ],  [
-     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/session-id']";
-     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
-   ],  [
-     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/screen-size']";
      <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
    ],  [
      <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/full-screen']";
@@ -284,7 +263,28 @@
      <https://w3id.org/xapi/profiles/ontology#location> "$.id";
      <https://w3id.org/xapi/profiles/ontology#presence> "included"
    ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/cc-enabled']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/length']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.timestamp";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/screen-size']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/cc-subtitle-lang']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/video-playback-size']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
+   ],  [
      <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/speed']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/session-id']";
      <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
    ];
    <https://w3id.org/xapi/profiles/ontology#verb> <http://adlnet.gov/expapi/verbs/initialized> .
@@ -294,29 +294,29 @@
    skos:prefLabel "Paused"@en;
    <https://w3id.org/xapi/profiles/ontology#objectActivityType> <https://w3id.org/xapi/video/activity-type/video>;
    <https://w3id.org/xapi/profiles/ontology#rules> [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.id";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
      <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/video/extensions/progress']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/completion-threshold']";
      <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
    ],  [
      <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/video/extensions/time']";
      <https://w3id.org/xapi/profiles/ontology#presence> "included"
    ],  [
-     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/completion-threshold']";
-     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
-   ],  [
      <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/session-id']";
      <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
    ],  [
-     <https://w3id.org/xapi/profiles/ontology#location> "$.id";
-     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/video/extensions/played-segments']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
    ],  [
      <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/length']";
      <https://w3id.org/xapi/profiles/ontology#presence> "included"
    ],  [
      <https://w3id.org/xapi/profiles/ontology#location> "$.timestamp";
      <https://w3id.org/xapi/profiles/ontology#presence> "included"
-   ],  [
-     <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/video/extensions/played-segments']";
-     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
    ];
    <https://w3id.org/xapi/profiles/ontology#verb> <https://w3id.org/xapi/video/verbs/paused> .
 
@@ -325,19 +325,19 @@
    skos:prefLabel "Played"@en;
    <https://w3id.org/xapi/profiles/ontology#objectActivityType> <https://w3id.org/xapi/video/activity-type/video>;
    <https://w3id.org/xapi/profiles/ontology#rules> [
-     <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/video/extensions/played-segments']";
-     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
-   ],  [
-     <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/video/extensions/time']";
+     <https://w3id.org/xapi/profiles/ontology#location> "$.id";
      <https://w3id.org/xapi/profiles/ontology#presence> "included"
    ],  [
-     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/session-id']";
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/video/extensions/played-segments']";
      <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
    ],  [
      <https://w3id.org/xapi/profiles/ontology#location> "$.timestamp";
      <https://w3id.org/xapi/profiles/ontology#presence> "included"
    ],  [
-     <https://w3id.org/xapi/profiles/ontology#location> "$.id";
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/session-id']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/video/extensions/time']";
      <https://w3id.org/xapi/profiles/ontology#presence> "included"
    ];
    <https://w3id.org/xapi/profiles/ontology#verb> <https://w3id.org/xapi/video/verbs/played> .
@@ -346,22 +346,22 @@
    skos:prefLabel "Screen Change Interaction"@en;
    <https://w3id.org/xapi/profiles/ontology#objectActivityType> <https://w3id.org/xapi/video/activity-type/video>;
    <https://w3id.org/xapi/profiles/ontology#rules> [
-     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/screen-size']";
-     <https://w3id.org/xapi/profiles/ontology#presence> "included"
-   ],  [
-     <https://w3id.org/xapi/profiles/ontology#location> "$.id";
+     <https://w3id.org/xapi/profiles/ontology#location> "$.timestamp";
      <https://w3id.org/xapi/profiles/ontology#presence> "included"
    ],  [
      <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/video-playback-size']";
      <https://w3id.org/xapi/profiles/ontology#presence> "included"
    ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/full-screen']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
      <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/video/extensions/time']";
      <https://w3id.org/xapi/profiles/ontology#presence> "included"
    ],  [
-     <https://w3id.org/xapi/profiles/ontology#location> "$.timestamp";
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/screen-size']";
      <https://w3id.org/xapi/profiles/ontology#presence> "included"
    ],  [
-     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/full-screen']";
+     <https://w3id.org/xapi/profiles/ontology#location> "$.id";
      <https://w3id.org/xapi/profiles/ontology#presence> "included"
    ],  [
      <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/session-id']";
@@ -374,20 +374,20 @@
    skos:prefLabel "Seeked"@en;
    <https://w3id.org/xapi/profiles/ontology#objectActivityType> <https://w3id.org/xapi/video/activity-type/video>;
    <https://w3id.org/xapi/profiles/ontology#rules> [
-     <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/video/extensions/time-to']";
-     <https://w3id.org/xapi/profiles/ontology#presence> "included"
-   ],  [
      <https://w3id.org/xapi/profiles/ontology#location> "$.id";
      <https://w3id.org/xapi/profiles/ontology#presence> "included"
-   ],  [
-     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/session-id']";
-     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
    ],  [
      <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/video/extensions/time-from']";
      <https://w3id.org/xapi/profiles/ontology#presence> "included"
    ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/video/extensions/time-to']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
      <https://w3id.org/xapi/profiles/ontology#location> "$.timestamp";
      <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/session-id']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
    ];
    <https://w3id.org/xapi/profiles/ontology#verb> <https://w3id.org/xapi/video/verbs/seeked> .
 
@@ -396,29 +396,29 @@
    skos:prefLabel "Terminated"@en;
    <https://w3id.org/xapi/profiles/ontology#objectActivityType> <https://w3id.org/xapi/video/activity-type/video>;
    <https://w3id.org/xapi/profiles/ontology#rules> [
-     <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/video/extensions/progress']";
+     <https://w3id.org/xapi/profiles/ontology#location> "$.id";
      <https://w3id.org/xapi/profiles/ontology#presence> "included"
    ],  [
      <https://w3id.org/xapi/profiles/ontology#location> "$.timestamp";
      <https://w3id.org/xapi/profiles/ontology#presence> "included"
    ],  [
-     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/length']";
-     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/completion-threshold']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
    ],  [
-     <https://w3id.org/xapi/profiles/ontology#location> "$.id";
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/length']";
      <https://w3id.org/xapi/profiles/ontology#presence> "included"
    ],  [
      <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/video/extensions/played-segments']";
      <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
    ],  [
-     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/session-id']";
-     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
-   ],  [
-     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/completion-threshold']";
-     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/video/extensions/progress']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
    ],  [
      <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/video/extensions/time']";
      <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/session-id']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
    ];
    <https://w3id.org/xapi/profiles/ontology#verb> <http://adlnet.gov/expapi/verbs/terminated> .
 
@@ -429,16 +429,16 @@
      <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/video/extensions/time']";
      <https://w3id.org/xapi/profiles/ontology#presence> "included"
    ],  [
-     <https://w3id.org/xapi/profiles/ontology#location> "$.timestamp";
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/session-id']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/volume']";
      <https://w3id.org/xapi/profiles/ontology#presence> "included"
    ],  [
      <https://w3id.org/xapi/profiles/ontology#location> "$.id";
      <https://w3id.org/xapi/profiles/ontology#presence> "included"
    ],  [
-     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/session-id']";
-     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
-   ],  [
-     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/volume']";
+     <https://w3id.org/xapi/profiles/ontology#location> "$.timestamp";
      <https://w3id.org/xapi/profiles/ontology#presence> "included"
    ];
    <https://w3id.org/xapi/profiles/ontology#verb> <http://adlnet.gov/expapi/verbs/interacted> .
