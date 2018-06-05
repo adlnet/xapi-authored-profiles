@@ -87,134 +87,134 @@
 
 <https://w3id.org/xapi/acrossx/extensions/alignment> a <https://w3id.org/xapi/ontology#ActivityExtension>;
    skos:definition "It's to indicate the node in a competency standard or knowledge graph the activity/content is aligned to, could be a string or a URL of the corresponding information page."@en;
-   skos:inScheme <https://w3id.org/xapi/acrossx>;
+   skos:inScheme <https://w3id.org/xapi/acrossx/v1.0.1>;
    skos:prefLabel "alignment"@en;
    <https://w3id.org/xapi/profiles/ontology#inlineSchema> "{ \"type\": \"string\" }" .
 
 <https://w3id.org/xapi/acrossx/extensions/anchor-text> a <https://w3id.org/xapi/ontology#ActivityExtension>;
    skos:definition "It's the text string associated with an internal or external link (to another book page or web page)."@en;
-   skos:inScheme <https://w3id.org/xapi/acrossx>;
+   skos:inScheme <https://w3id.org/xapi/acrossx/v1.0.1>;
    skos:prefLabel "anchor-text"@en;
    <https://w3id.org/xapi/profiles/ontology#inlineSchema> "{ \"type\": \"string\" }" .
 
 <https://w3id.org/xapi/acrossx/extensions/blooms-level> a <https://w3id.org/xapi/ontology#ActivityExtension>;
    skos:definition "It's to indicate the Bloom's level the activity or content is aligned to."@en;
-   skos:inScheme <https://w3id.org/xapi/acrossx>;
+   skos:inScheme <https://w3id.org/xapi/acrossx/v1.0.1>;
    skos:prefLabel "blooms-level"@en;
    <https://w3id.org/xapi/profiles/ontology#inlineSchema> "{ \"type\": \"string\" }" .
 
 <https://w3id.org/xapi/acrossx/extensions/by-whom> a <https://w3id.org/xapi/ontology#ActivityExtension>;
    skos:definition "It's to indicate who created/authored/presented the object."@en;
-   skos:inScheme <https://w3id.org/xapi/acrossx>;
+   skos:inScheme <https://w3id.org/xapi/acrossx/v1.0.1>;
    skos:prefLabel "by-whom"@en;
    <https://w3id.org/xapi/profiles/ontology#inlineSchema> "{ \"type\": \"string\" }" .
 
 <https://w3id.org/xapi/acrossx/extensions/chapter> a <https://w3id.org/xapi/ontology#ActivityExtension>;
    skos:definition "It's to indicate the chapter this statement is related to, used for ebook in AcrossX."@en;
-   skos:inScheme <https://w3id.org/xapi/acrossx>;
+   skos:inScheme <https://w3id.org/xapi/acrossx/v1.0.1>;
    skos:prefLabel "chapter"@en;
    <https://w3id.org/xapi/profiles/ontology#inlineSchema> "{ \"type\": \"string\" }" .
 
 <https://w3id.org/xapi/acrossx/extensions/column> a <https://w3id.org/xapi/ontology#ActivityExtension>;
    skos:definition "It's to indicate the column number of a cell in a spreadsheet."@en;
-   skos:inScheme <https://w3id.org/xapi/acrossx>;
+   skos:inScheme <https://w3id.org/xapi/acrossx/v1.0.1>;
    skos:prefLabel "column"@en;
    <https://w3id.org/xapi/profiles/ontology#inlineSchema> "{ \"type\": \"number\" }" .
 
 <https://w3id.org/xapi/acrossx/extensions/feedback> a <https://w3id.org/xapi/ontology#ActivityExtension>;
    skos:definition "It's the feedback the Actor gets after answering a question, or feedback from teacher or peer."@en;
-   skos:inScheme <https://w3id.org/xapi/acrossx>;
+   skos:inScheme <https://w3id.org/xapi/acrossx/v1.0.1>;
    skos:prefLabel "feedback"@en;
    <https://w3id.org/xapi/profiles/ontology#inlineSchema> "{ \"type\": \"string\" }" .
 
 <https://w3id.org/xapi/acrossx/extensions/highlightedString> a <https://w3id.org/xapi/ontology#ActivityExtension>;
    skos:definition "It's a string highlighted by the Actor."@en;
-   skos:inScheme <https://w3id.org/xapi/acrossx>;
+   skos:inScheme <https://w3id.org/xapi/acrossx/v1.0.1>;
    skos:prefLabel "highlightedString"@en;
    <https://w3id.org/xapi/profiles/ontology#inlineSchema> "{ \"type\": \"string\" }" .
 
 <https://w3id.org/xapi/acrossx/extensions/mentionedagent> a <https://w3id.org/xapi/ontology#ContextExtension>;
    skos:definition "It's to indicate an agent mentioned in a discussion, the value must be one type of Inverse Functional Identifier."@en;
-   skos:inScheme <https://w3id.org/xapi/acrossx>;
+   skos:inScheme <https://w3id.org/xapi/acrossx/v1.0.1>;
    skos:prefLabel "mentionedagent"@en;
    <https://w3id.org/xapi/profiles/ontology#inlineSchema> "{ \"type\": \"string\" }" .
 
 <https://w3id.org/xapi/acrossx/extensions/pass-score> a <https://w3id.org/xapi/ontology#ActivityExtension>;
    skos:definition "It's to indicate the required score to pass an assessment."@en;
    skos:exactMatch <https://w3id.org/xapi/cmi5/context/extensions/masteryscore>;
-   skos:inScheme <https://w3id.org/xapi/acrossx>;
+   skos:inScheme <https://w3id.org/xapi/acrossx/v1.0.1>;
    skos:prefLabel "pass-score"@en;
    <https://w3id.org/xapi/profiles/ontology#inlineSchema> "{ \"type\": \"number\" }" .
 
 <https://w3id.org/xapi/acrossx/extensions/row> a <https://w3id.org/xapi/ontology#ActivityExtension>;
    skos:definition "It's to indicate the row number of a cell in a spreadsheet."@en;
-   skos:inScheme <https://w3id.org/xapi/acrossx>;
+   skos:inScheme <https://w3id.org/xapi/acrossx/v1.0.1>;
    skos:prefLabel "row"@en;
    <https://w3id.org/xapi/profiles/ontology#inlineSchema> "{ \"type\": \"number\" }" .
 
 <https://w3id.org/xapi/acrossx/extensions/rubrics> a <https://w3id.org/xapi/ontology#ResultExtension>;
    skos:definition "It's the rubrics teachers use to evaluate Actor's performance or outcomes."@en;
-   skos:inScheme <https://w3id.org/xapi/acrossx>;
+   skos:inScheme <https://w3id.org/xapi/acrossx/v1.0.1>;
    skos:prefLabel "rubrics"@en;
    <https://w3id.org/xapi/profiles/ontology#inlineSchema> "{ \"type\": \"string\" }" .
 
 <https://w3id.org/xapi/acrossx/extensions/school> a <https://w3id.org/xapi/ontology#ContextExtension>;
    skos:definition "It's to indicate an institution designed to provide learning spaces and learning environments for the teaching of students under the direction of teachers."@en;
-   skos:inScheme <https://w3id.org/xapi/acrossx>;
+   skos:inScheme <https://w3id.org/xapi/acrossx/v1.0.1>;
    skos:prefLabel "school"@en;
    <https://w3id.org/xapi/profiles/ontology#inlineSchema> "{ \"type\": \"string\" }" .
 
 <https://w3id.org/xapi/acrossx/extensions/section> a <https://w3id.org/xapi/ontology#ActivityExtension>;
    skos:definition "It's to indicate the section this statement is related to, used for ebook in AcrossX."@en;
-   skos:inScheme <https://w3id.org/xapi/acrossx>;
+   skos:inScheme <https://w3id.org/xapi/acrossx/v1.0.1>;
    skos:prefLabel "section"@en;
    <https://w3id.org/xapi/profiles/ontology#inlineSchema> "{ \"type\": \"string\" }" .
 
 <https://w3id.org/xapi/acrossx/extensions/starting-point> a <https://w3id.org/xapi/ontology#ResultExtension>;
    skos:definition "The initial point from which the Actor begins an activity. For example, starting to play a video from a specific position in the video timeline. Goes along with Ending Point. Can be used with types of media and/or activities other than video."@en;
-   skos:inScheme <https://w3id.org/xapi/acrossx>;
+   skos:inScheme <https://w3id.org/xapi/acrossx/v1.0.1>;
    skos:prefLabel "starting-point"@en;
    <https://w3id.org/xapi/profiles/ontology#inlineSchema> "{ \"type\": \"string\" }" .
 
 <https://w3id.org/xapi/acrossx/extensions/supplemental-info> a <https://w3id.org/xapi/ontology#ActivityExtension>;
    skos:definition "It's the hint available for the Actor to answer a question, or supplemental information for an object."@en;
-   skos:inScheme <https://w3id.org/xapi/acrossx>;
+   skos:inScheme <https://w3id.org/xapi/acrossx/v1.0.1>;
    skos:prefLabel "supplemental-info"@en;
    <https://w3id.org/xapi/profiles/ontology#inlineSchema> "{ \"type\": \"string\" }" .
 
 <https://w3id.org/xapi/acrossx/extensions/time> a <https://w3id.org/xapi/ontology#ResultExtension>;
    skos:definition "It's a value representing a position on a timeline of an activity, should be in ISO8601 format."@en;
-   skos:inScheme <https://w3id.org/xapi/acrossx>;
+   skos:inScheme <https://w3id.org/xapi/acrossx/v1.0.1>;
    skos:prefLabel "time"@en;
    <https://w3id.org/xapi/profiles/ontology#inlineSchema> "{ \"type\": \"string\", \"format\": \"date-time\", \"pattern\": \"^\\d{4}\\-\\d{2}\\-\\d{2}T\\d{2}:\\d{2}:\\d{2}Z$\" }" .
 
 <https://w3id.org/xapi/acrossx/extensions/time-limit> a <https://w3id.org/xapi/ontology#ActivityExtension>;
    skos:definition "It's to indicate the time constraint of an assessment object."@en;
-   skos:inScheme <https://w3id.org/xapi/acrossx>;
+   skos:inScheme <https://w3id.org/xapi/acrossx/v1.0.1>;
    skos:prefLabel "time-limit"@en;
    <https://w3id.org/xapi/profiles/ontology#inlineSchema> "{ \"type\": \"string\" }" .
 
 <https://w3id.org/xapi/acrossx/extensions/total-items> a <https://w3id.org/xapi/ontology#ActivityExtension>;
    skos:definition "It's to indicate total items in an assessment object."@en;
-   skos:inScheme <https://w3id.org/xapi/acrossx>;
+   skos:inScheme <https://w3id.org/xapi/acrossx/v1.0.1>;
    skos:prefLabel "total-items"@en;
    <https://w3id.org/xapi/profiles/ontology#inlineSchema> "{ \"type\": \"string\" }" .
 
 <https://w3id.org/xapi/acrossx/extensions/total-pages> a <https://w3id.org/xapi/ontology#ActivityExtension>;
    skos:definition "It's to indicate the total pages of a book or a slide-deck."@en;
-   skos:inScheme <https://w3id.org/xapi/acrossx>;
+   skos:inScheme <https://w3id.org/xapi/acrossx/v1.0.1>;
    skos:prefLabel "total-pages"@en;
    <https://w3id.org/xapi/profiles/ontology#inlineSchema> "{ \"type\": \"string\" }" .
 
 <https://w3id.org/xapi/acrossx/extensions/total-score> a <https://w3id.org/xapi/ontology#ActivityExtension>;
    skos:definition "It's to indicate total score of an assessment object."@en;
-   skos:inScheme <https://w3id.org/xapi/acrossx>;
+   skos:inScheme <https://w3id.org/xapi/acrossx/v1.0.1>;
    skos:prefLabel "total-score"@en;
    <https://w3id.org/xapi/profiles/ontology#inlineSchema> "{ \"type\": \"string\" }" .
 
 <https://w3id.org/xapi/acrossx/extensions/type> a <https://w3id.org/xapi/ontology#ActivityExtension>;
    skos:definition "A category of people or things having common characteristics."@en;
-   skos:inScheme <https://w3id.org/xapi/acrossx>;
+   skos:inScheme <https://w3id.org/xapi/acrossx/v1.0.1>;
    skos:prefLabel "type"@en;
    <https://w3id.org/xapi/profiles/ontology#inlineSchema> "{ \"type\": \"string\" }" .
 

@@ -330,7 +330,7 @@
     },
     {
       "id": "https://w3id.org/xapi/acrossx/extensions/alignment",
-      "inScheme": "https://w3id.org/xapi/acrossx",
+      "inScheme": "https://w3id.org/xapi/acrossx/v1.0.1",
       "type": "ActivityExtension",
       "definition": {
         "en": "It's to indicate the node in a competency standard or knowledge graph the activity/content is aligned to, could be a string or a URL of the corresponding information page."
@@ -342,7 +342,7 @@
     },
     {
       "id": "https://w3id.org/xapi/acrossx/extensions/anchor-text",
-      "inScheme": "https://w3id.org/xapi/acrossx",
+      "inScheme": "https://w3id.org/xapi/acrossx/v1.0.1",
       "type": "ActivityExtension",
       "definition": {
         "en": "It's the text string associated with an internal or external link (to another book page or web page)."
@@ -354,7 +354,7 @@
     },
     {
       "id": "https://w3id.org/xapi/acrossx/extensions/blooms-level",
-      "inScheme": "https://w3id.org/xapi/acrossx",
+      "inScheme": "https://w3id.org/xapi/acrossx/v1.0.1",
       "type": "ActivityExtension",
       "definition": {
         "en": "It's to indicate the Bloom's level the activity or content is aligned to."
@@ -366,7 +366,7 @@
     },
     {
       "id": "https://w3id.org/xapi/acrossx/extensions/by-whom",
-      "inScheme": "https://w3id.org/xapi/acrossx",
+      "inScheme": "https://w3id.org/xapi/acrossx/v1.0.1",
       "type": "ActivityExtension",
       "definition": {
         "en": "It's to indicate who created/authored/presented the object."
@@ -378,7 +378,7 @@
     },
     {
       "id": "https://w3id.org/xapi/acrossx/extensions/chapter",
-      "inScheme": "https://w3id.org/xapi/acrossx",
+      "inScheme": "https://w3id.org/xapi/acrossx/v1.0.1",
       "type": "ActivityExtension",
       "definition": {
         "en": "It's to indicate the chapter this statement is related to, used for ebook in AcrossX."
@@ -390,7 +390,7 @@
     },
     {
       "id": "https://w3id.org/xapi/acrossx/extensions/column",
-      "inScheme": "https://w3id.org/xapi/acrossx",
+      "inScheme": "https://w3id.org/xapi/acrossx/v1.0.1",
       "type": "ActivityExtension",
       "definition": {
         "en": "It's to indicate the column number of a cell in a spreadsheet."
@@ -402,7 +402,7 @@
     },
     {
       "id": "https://w3id.org/xapi/acrossx/extensions/feedback",
-      "inScheme": "https://w3id.org/xapi/acrossx",
+      "inScheme": "https://w3id.org/xapi/acrossx/v1.0.1",
       "type": "ActivityExtension",
       "definition": {
         "en": "It's the feedback the Actor gets after answering a question, or feedback from teacher or peer."
@@ -414,7 +414,7 @@
     },
     {
       "id": "https://w3id.org/xapi/acrossx/extensions/highlightedString",
-      "inScheme": "https://w3id.org/xapi/acrossx",
+      "inScheme": "https://w3id.org/xapi/acrossx/v1.0.1",
       "type": "ActivityExtension",
       "definition": {
         "en": "It's a string highlighted by the Actor."
@@ -426,7 +426,7 @@
     },
     {
       "id": "https://w3id.org/xapi/acrossx/extensions/pass-score",
-      "inScheme": "https://w3id.org/xapi/acrossx",
+      "inScheme": "https://w3id.org/xapi/acrossx/v1.0.1",
       "type": "ActivityExtension",
       "definition": {
         "en": "It's to indicate the required score to pass an assessment."
@@ -439,7 +439,7 @@
     },
     {
       "id": "https://w3id.org/xapi/acrossx/extensions/row",
-      "inScheme": "https://w3id.org/xapi/acrossx",
+      "inScheme": "https://w3id.org/xapi/acrossx/v1.0.1",
       "type": "ActivityExtension",
       "definition": {
         "en": "It's to indicate the row number of a cell in a spreadsheet."
@@ -451,7 +451,7 @@
     },
     {
       "id": "https://w3id.org/xapi/acrossx/extensions/section",
-      "inScheme": "https://w3id.org/xapi/acrossx",
+      "inScheme": "https://w3id.org/xapi/acrossx/v1.0.1",
       "type": "ActivityExtension",
       "definition": {
         "en": "It's to indicate the section this statement is related to, used for ebook in AcrossX."
@@ -463,7 +463,7 @@
     },
     {
       "id": "https://w3id.org/xapi/acrossx/extensions/supplemental-info",
-      "inScheme": "https://w3id.org/xapi/acrossx",
+      "inScheme": "https://w3id.org/xapi/acrossx/v1.0.1",
       "type": "ActivityExtension",
       "definition": {
         "en": "It's the hint available for the Actor to answer a question, or supplemental information for an object."
@@ -475,7 +475,7 @@
     },
     {
       "id": "https://w3id.org/xapi/acrossx/extensions/time-limit",
-      "inScheme": "https://w3id.org/xapi/acrossx",
+      "inScheme": "https://w3id.org/xapi/acrossx/v1.0.1",
       "type": "ActivityExtension",
       "definition": {
         "en": "It's to indicate the time constraint of an assessment object."
@@ -487,7 +487,7 @@
     },
     {
       "id": "https://w3id.org/xapi/acrossx/extensions/total-items",
-      "inScheme": "https://w3id.org/xapi/acrossx",
+      "inScheme": "https://w3id.org/xapi/acrossx/v1.0.1",
       "type": "ActivityExtension",
       "definition": {
         "en": "It's to indicate total items in an assessment object."
@@ -499,7 +499,7 @@
     },
     {
       "id": "https://w3id.org/xapi/acrossx/extensions/total-pages",
-      "inScheme": "https://w3id.org/xapi/acrossx",
+      "inScheme": "https://w3id.org/xapi/acrossx/v1.0.1",
       "type": "ActivityExtension",
       "definition": {
         "en": "It's to indicate the total pages of a book or a slide-deck."
@@ -511,7 +511,7 @@
     },
     {
       "id": "https://w3id.org/xapi/acrossx/extensions/total-score",
-      "inScheme": "https://w3id.org/xapi/acrossx",
+      "inScheme": "https://w3id.org/xapi/acrossx/v1.0.1",
       "type": "ActivityExtension",
       "definition": {
         "en": "It's to indicate total score of an assessment object."
@@ -523,7 +523,7 @@
     },
     {
       "id": "https://w3id.org/xapi/acrossx/extensions/type",
-      "inScheme": "https://w3id.org/xapi/acrossx",
+      "inScheme": "https://w3id.org/xapi/acrossx/v1.0.1",
       "type": "ActivityExtension",
       "definition": {
         "en": "A category of people or things having common characteristics."
@@ -535,7 +535,7 @@
     },
     {
       "id": "https://w3id.org/xapi/acrossx/extensions/mentionedagent",
-      "inScheme": "https://w3id.org/xapi/acrossx",
+      "inScheme": "https://w3id.org/xapi/acrossx/v1.0.1",
       "type": "ContextExtension",
       "definition": {
         "en": "It's to indicate an agent mentioned in a discussion, the value must be one type of Inverse Functional Identifier."
@@ -547,7 +547,7 @@
     },
     {
       "id": "https://w3id.org/xapi/acrossx/extensions/school",
-      "inScheme": "https://w3id.org/xapi/acrossx",
+      "inScheme": "https://w3id.org/xapi/acrossx/v1.0.1",
       "type": "ContextExtension",
       "definition": {
         "en": "It's to indicate an institution designed to provide learning spaces and learning environments for the teaching of students under the direction of teachers."
@@ -559,7 +559,7 @@
     },
     {
       "id": "https://w3id.org/xapi/acrossx/extensions/rubrics",
-      "inScheme": "https://w3id.org/xapi/acrossx",
+      "inScheme": "https://w3id.org/xapi/acrossx/v1.0.1",
       "type": "ResultExtension",
       "definition": {
         "en": "It's the rubrics teachers use to evaluate Actor's performance or outcomes."
@@ -571,7 +571,7 @@
     },
     {
       "id": "https://w3id.org/xapi/acrossx/extensions/starting-point",
-      "inScheme": "https://w3id.org/xapi/acrossx",
+      "inScheme": "https://w3id.org/xapi/acrossx/v1.0.1",
       "type": "ResultExtension",
       "definition": {
         "en": "The initial point from which the Actor begins an activity. For example, starting to play a video from a specific position in the video timeline. Goes along with Ending Point. Can be used with types of media and/or activities other than video."
@@ -583,7 +583,7 @@
     },
     {
       "id": "https://w3id.org/xapi/acrossx/extensions/time",
-      "inScheme": "https://w3id.org/xapi/acrossx",
+      "inScheme": "https://w3id.org/xapi/acrossx/v1.0.1",
       "type": "ResultExtension",
       "definition": {
         "en": "It's a value representing a position on a timeline of an activity, should be in ISO8601 format."
