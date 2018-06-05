@@ -1,0 +1,486 @@
+{
+   "@context": "https://w3id.org/xapi/profiles/context",
+    "id": "https://w3id.org/xapi/scorm",
+    "type": "Profile",
+    "prefLabel": {
+        "en": "SCORM Profile"
+    },
+    "definition": {
+      "en": "The SCORM profile includes Verbs, Activity Types and xAPI Document definitions used to represent SCORM learning experiences in xAPI."
+    },
+    "conformsTo": "https://w3id.org/xapi/profiles#1.0",
+    "seeAlso": "https://adl.gitbooks.io/scorm-profile-xapi/content/",
+    "versions": [
+        {
+            "id": "https://w3id.org/xapi/scorm/v1.0",
+            "generatedAtTime": "2017-08-21T14:25:59.295Z",
+            "wasRevisionOf": ["https://w3id.org/xapi/scorm"]
+        }
+    ],
+    "author": {
+        "type": "Organization",
+        "name": "Advanced Distributed Learning(ADL) Initiative"
+    },
+    "concepts": [
+
+      {
+        "type": "Verb",
+        "id": "http://adlnet.gov/expapi/verbs/completed",
+        "inScheme": "https://w3id.org/xapi/scorm/v1.0",
+        "exactMatch": [ "http://activitystrea.ms/schema/complete" ],
+        "prefLabel": {
+          "en": "completed"
+        },
+        "definition": {
+          "en": "Indicates the actor finished or concluded the activity normally."
+        }
+      },
+    {
+      "type": "Verb",
+      "id": "http://adlnet.gov/expapi/verbs/failed",
+      "inScheme": "https://w3id.org/xapi/scorm/v1.0",
+      "prefLabel": {
+        "en": "failed"
+      },
+      "definition": {
+        "en": "Indicates the actor did not successfully pass an activity to a level of predetermined satisfaction."
+      }
+    },
+    {
+      "type": "Verb",
+      "id": "http://adlnet.gov/expapi/verbs/initialized",
+      "inScheme": "https://w3id.org/xapi/scorm/v1.0",
+      "prefLabel": {
+        "en": "initialized"
+      },
+      "definition": {
+        "en": "Indicates the activity provider has determined that the actor successfully started an activity."
+      }
+    },
+    {
+      "type": "Verb",
+      "id": "http://adlnet.gov/expapi/verbs/passed",
+      "inScheme": "https://w3id.org/xapi/scorm/v1.0",
+      "prefLabel": {
+        "en": "passed"
+      },
+      "definition": {
+        "en": "Indicates the actor successfully passed an activity to a level of predetermined satisfaction."
+      },
+      "broader": ["http://adlnet.gov/expapi/verbs/completed"]
+    },
+    {
+      "type": "Verb",
+      "id": "http://adlnet.gov/expapi/verbs/responded",
+      "inScheme": "https://w3id.org/xapi/scorm/v1.0",
+      "prefLabel": {
+        "en": "responded"
+      },
+      "definition": {
+        "en": "Indicates an actor reacted or replied to an object."
+      }
+    },
+    {
+      "type": "Verb",
+      "id": "http://adlnet.gov/expapi/verbs/resumed",
+      "inScheme": "https://w3id.org/xapi/scorm/v1.0",
+      "prefLabel": {
+        "en": "resumed"
+      },
+      "definition": {
+        "en": "Indicates the application has determined that the actor continued or reopened a suspended attempt on an activity."
+      }
+    },
+    {
+      "type": "Verb",
+      "id": "http://adlnet.gov/expapi/verbs/scored",
+      "inScheme": "https://w3id.org/xapi/scorm/v1.0",
+      "prefLabel": {
+        "en": "scored"
+      },
+      "definition": {
+        "en": "Indicates a numerical value related to an actor's performance on an activity."
+      }
+    },
+      {
+        "type": "Verb",
+        "id": "http://adlnet.gov/expapi/verbs/suspended",
+        "exactMatch": [ "http://activitystrea.ms/schema/terminate" ],
+        "inScheme": "https://w3id.org/xapi/scorm/v1.0",
+        "prefLabel": {
+          "en": "suspended"
+        },
+        "definition": {
+          "en": "Indicates the status of a temporarily halted activity when an actor's intent is returning to the or object activity at a later time."
+        }
+      },
+    {
+      "type": "Verb",
+      "id": "http://adlnet.gov/expapi/verbs/terminated",
+      "inScheme": "https://w3id.org/xapi/scorm/v1.0",
+      "prefLabel": {
+        "en": "terminated"
+      },
+      "definition": {
+        "en": "Indicates that the actor successfully ended an activity."
+      }
+    },
+    {
+      "type": "ActivityType",
+      "id": "http://adlnet.gov/expapi/activities/assessment",
+      "inScheme": "https://w3id.org/xapi/scorm/v1.0",
+      "prefLabel": {
+        "en": "assessment"
+      },
+      "definition": {
+        "en": "An assessment is an activity type that determines a learner’s mastery of a particular subject area. An assessment typically has one or more questions."
+      }
+    },
+    {
+      "type": "ActivityType",
+      "id": "http://adlnet.gov/expapi/activities/attempt",
+      "inScheme": "https://w3id.org/xapi/scorm/v1.0",
+      "prefLabel": {
+        "en": "attempt"
+      },
+      "definition": {
+        "en": "An attempt is a discrete set of learner experiences in an activity. This activity gives systems the ability to uniquely identify experiences when they may have happened in different interactions with the same activity."
+      }
+    },
+      {
+        "type": "ActivityType",
+        "id": "http://adlnet.gov/expapi/activities/course",
+        "inScheme": "https://w3id.org/xapi/scorm/v1.0",
+        "exactMatch": [ "https://w3id.org/xapi/cmi5/activities/course" ],
+        "prefLabel": {
+          "en": "course"
+        },
+        "definition": {
+          "en": "A course represents an entire “content package” worth of material. The largest level of granularity. Unless flat, a course consists of multiple modules."
+        }
+      },
+    {
+      "type": "ActivityType",
+      "id": "http://adlnet.gov/expapi/activities/interaction",
+      "inScheme": "https://w3id.org/xapi/scorm/v1.0",
+      "prefLabel": {
+        "en": "interaction"
+      },
+      "definition": {
+        "en": "An interaction is typically a part of a larger activity (such as a assessment, game, or simulation) and refers to a control to which a learner provides input. An interaction can be either an asset or function independently."
+      }
+    },
+    {
+      "type": "ActivityType",
+      "id": "http://adlnet.gov/expapi/activities/lesson",
+      "inScheme": "https://w3id.org/xapi/scorm/v1.0",
+      "prefLabel": {
+        "en": "lesson"
+      },
+      "definition": {
+        "en": "A lesson is learning content that may or may not take on the form of a SCO (formal, tracked learning). A lesson may stand-alone or may be part of a larger course."
+      }
+    },
+    {
+      "type": "ActivityType",
+      "id": "http://adlnet.gov/expapi/activities/module",
+      "inScheme": "https://w3id.org/xapi/scorm/v1.0",
+      "prefLabel": {
+        "en": "module"
+      },
+      "definition": {
+        "en": "A module represents any “content aggregation” at least one level below the course level. Modules of modules can exist for layering purposes. Modules are not content. Modules are one level up from all content."
+      }
+    },
+    {
+      "type": "ActivityType",
+      "id": "http://adlnet.gov/expapi/activities/objective",
+      "inScheme": "https://w3id.org/xapi/scorm/v1.0",
+      "prefLabel": {
+        "en": "objective"
+      },
+      "definition": {
+        "en": "An objective determines whether competency has been achieved in a desired area. Objectives typically are associated with questions and assessments. Objectives are not learning content and cannot be SCOs."
+      }
+    },
+    {
+      "type": "ActivityType",
+      "id": "http://adlnet.gov/expapi/activities/profile",
+      "inScheme": "https://w3id.org/xapi/scorm/v1.0",
+      "exactMatch": ["https://w3id.org/xapi/profiles/ontology#Profile"],
+      "prefLabel": {
+        "en": "profile"
+      },
+      "definition": {
+        "en": "A profile is an activity that defines a set of rules and recommendations for generating xAPI statements for a particular domain. The inclusion of a profile activity in a statement identifies that statement as following the rules outlined in the profile."
+      }
+    },
+    {
+      "type": "StateResource",
+      "id": "https://w3id.org/xapi/scorm/activity-state",
+      "inScheme": "https://w3id.org/xapi/scorm/v1.0",
+      "prefLabel": {
+        "en": "SCORM Activity State"
+      },
+      "definition": {
+        "en": "Used to store document data associated with the activity and not intended to capture learning experience data in the form of a statement. The SCORM Activity State Object contains a list of Attempt IRIs for the specified Activity."
+      },
+      "contentType": "application/json",
+      "schema": "https://raw.githubusercontent.com/adlnet/xAPI-SCORM-Profile/master/document-schemas/scorm.profile.activity.state.schema.json"
+    },
+    {
+      "type": "StateResource",
+      "id": "https://w3id.org/xapi/scorm/attempt-state",
+      "inScheme": "https://w3id.org/xapi/scorm/v1.0",
+      "prefLabel": {
+        "en": "SCORM Activity Attempt State"
+      },
+      "definition": {
+        "en": "The SCORM Activity Attempt State Object contains the state data for the specified attempt on an Activity. It has the following properties: credit, mode, location, preferences, total_time, and adl_data."
+      },
+      "contentType": "application/json",
+      "schema": "https://raw.githubusercontent.com/adlnet/xAPI-SCORM-Profile/master/document-schemas/scorm.profile.attempt.state.schema.json",
+      "context": "https://raw.githubusercontent.com/adlnet/xAPI-SCORM-Profile/master/context/attempt-state-context.jsonld"
+    },
+    {
+      "type": "ActivityProfileResource",
+      "id": "https://w3id.org/xapi/scorm/activity-profile",
+      "inScheme": "https://w3id.org/xapi/scorm/v1.0",
+      "definition": {
+        "en": "Used to store document data associated with the activity and not intended to capture learning experience data in the form of a statement. The SCORM Activity Profile Object contains the profile data for the specified Activity."
+      },
+      "prefLabel": {
+        "en": "SCORM Activity Profile"
+      },
+      "contentType": "application/json",
+      "schema": "https://w3id.org/xapi/scorm/activity-profile/scorm.profile.activity.profile.schema"
+    },
+    {
+      "type": "AgentProfileResource",
+      "id": "https://w3id.org/xapi/scorm/agent-profile",
+      "inScheme": "https://w3id.org/xapi/scorm/v1.0",
+      "definition": {
+        "en": "The SCORM Activity State Object contains the profile data for the specified Agent. The agent profile has three properties: learner_id, learner_name, and preferences. "
+      },
+      "prefLabel": {
+        "en": "SCORM Agent Profile"
+      },
+      "contentType": "application/json",
+      "schema": "https://raw.githubusercontent.com/adlnet/xAPI-SCORM-Profile/master/document-schemas/scorm.profile.agent.profile.schema.json"
+    }
+  ],
+    "templates": [
+        {
+            "id": "https://w3id.org/xapi/scorm#generalrestrictions",
+            "type": "StatementTemplate",
+            "prefLabel": {
+                "en": "general restrictions on statements"
+            },
+            "definition": {
+              "en": "This is the general template that defines restrictions for all statements conforming to the SCORM profile."
+            },
+            "rules": [
+                {
+                    "location": "context.contextActivities.grouping[*].definition.type",
+                    "any": ["http://adlnet.gov/expapi/activities/attempt"]
+                },
+                {
+                    "location": "context.contextActivities.grouping[*].definition.type",
+                    "any": ["http://adlnet.gov/expapi/activities/course"]
+                },
+                {
+                    "location": "timestamp",
+                    "presence": "included"
+                }
+            ]
+        },
+        {
+            "id": "https://w3id.org/xapi/scorm#initialization",
+            "type": "StatementTemplate",
+            "prefLabel": {
+                "en": "initialization"
+            },
+            "definition": {
+              "en": "The statement template used for when initilizing communication with the LMS."
+            },
+            "verb": "http://adlnet.gov/expapi/verbs/initialized",
+            "objectActivityType": "http://adlnet.gov/expapi/activities/lesson",
+            "rules": [
+            ]
+        },
+        {
+            "id": "https://w3id.org/xapi/scorm#termination",
+            "type": "StatementTemplate",
+            "prefLabel": {
+                "en": "termination"
+            },
+            "definition": {
+              "en": "The statement template used for when terminating communication with the LMS."
+            },
+            "verb": "http://adlnet.gov/expapi/verbs/terminated",
+            "objectActivityType": "http://adlnet.gov/expapi/activities/lesson",
+            "rules": [
+            ]
+        },
+        {
+            "id": "https://w3id.org/xapi/scorm#suspension",
+            "type": "StatementTemplate",
+            "prefLabel": {
+                "en": "suspension"
+            },
+            "definition": {
+              "en": "The statement template used for when suspending the attempt on the lesson."
+            },
+            "verb": "http://adlnet.gov/expapi/verbs/suspended",
+            "objectActivityType": "http://adlnet.gov/expapi/activities/lesson",
+            "rules": [
+            ]
+        },
+        {
+            "id": "https://w3id.org/xapi/scorm#resumption",
+            "type": "StatementTemplate",
+            "prefLabel": {
+                "en": "resumption"
+            },
+            "definition": {
+              "en": "The statement template used for when resuming a suspended attempt."
+            },
+            "verb": "http://adlnet.gov/expapi/verbs/resumed",
+            "objectActivityType": "http://adlnet.gov/expapi/activities/lesson",
+            "rules": [
+            ]
+        },
+        {
+            "id": "https://w3id.org/xapi/scorm#scoactivity",
+            "type": "StatementTemplate",
+            "prefLabel": {
+                "en": "SCO activity"
+            },
+            "definition": {
+              "en": "The statement template used for any general lesson activity."
+            },
+            "objectActivityType": "http://adlnet.gov/expapi/activities/lesson",
+            "rules": [
+            ]
+        },
+        {
+            "id": "https://w3id.org/xapi/scorm#commenting",
+            "type": "StatementTemplate",
+            "prefLabel": {
+              "en": "commenting"
+            },
+            "definition": {
+              "en": "The statement template used for making comments about the lesson."
+            },
+            "verb": "http://adlnet.gov/expapi/verbs/commented",
+            "objectActivityType": "http://adlnet.gov/expapi/activities/lesson",
+            "rules": [
+                {
+                    "location": "result.response",
+                    "presence": "included"
+                }
+            ]
+        },
+        {
+            "id": "https://w3id.org/xapi/scorm#completing",
+            "type": "StatementTemplate",
+            "prefLabel": {
+              "en": "completing"
+            },
+            "definition": {
+              "en": "The statement template used for completing the lesson."
+            },
+            "verb": "http://adlnet.gov/expapi/verbs/completed",
+            "objectActivityType": "http://adlnet.gov/expapi/activities/lesson",
+            "rules": [
+            ]
+        },
+        {
+            "id": "https://w3id.org/xapi/scorm#otheractivity",
+            "type": "StatementTemplate",
+            "prefLabel": {
+              "en": "other activity"
+            },
+            "definition": {
+              "en": "The statement template used for other types of activities."
+            },
+            "contextParentActivityType": "http://adlnet.gov/expapi/activities/lesson",
+            "rules": [
+            ]
+        },
+        {
+            "id": "https://w3id.org/xapi/scorm#interactionactivity",
+            "type": "StatementTemplate",
+            "prefLabel": {
+              "en": "interaction activity"
+            },
+            "definition": {
+              "en": "The statement template used for cmi interaction activities."
+            },
+            "verb": "http://adlnet.gov/expapi/verbs/responded",
+            "objectActivityType": "http://adlnet.gov/expapi/activities/cmi.interaction",
+            "contextParentActivityType": "http://adlnet.gov/expapi/activities/lesson",
+            "rules": [
+            ]
+        }
+    ],
+    "patterns": [
+        {
+            "id": "https://w3id.org/xapi/scorm#generalpattern",
+            "type": "Pattern",
+            "primary": true,
+            "prefLabel": {
+                "en": "general pattern"
+            },
+            "definition": {
+                "en": "This pattern describes the overall sequence of statements sent over the course of an attempt"
+            },
+            "sequence": ["https://w3id.org/xapi/scorm#initialization", "https://w3id.org/xapi/scorm#middlestatements", "https://w3id.org/xapi/scorm#optionallycontinue", "https://w3id.org/xapi/scorm#termination"]
+        },
+        {
+            "id": "https://w3id.org/xapi/scorm#activitystatements",
+            "prefLabel": {
+              "en": "activity statements"
+            },
+            "definition": {
+              "en": "This pattern provides all of the alternate options for SCORM activity statements."
+            },
+            "type": "Pattern",
+            "alternates": ["https://w3id.org/xapi/scorm#scoactivity", "https://w3id.org/xapi/scorm#otheractivity", "https://w3id.org/xapi/scorm#commenting", "https://w3id.org/xapi/scorm#interactionactivity", "https://w3id.org/xapi/scorm#completing"]
+        },
+        {
+            "id": "https://w3id.org/xapi/scorm#middlestatements",
+            "prefLabel": {
+              "en": "middle statements"
+            },
+            "definition": {
+              "en": "This pattern provides that zero or more activity statement patterns will be used."
+            },
+            "type": "Pattern",
+            "zeroOrMore": "https://w3id.org/xapi/scorm#activitystatements"
+        },
+        {
+            "id": "https://w3id.org/xapi/scorm#suspendresume",
+            "prefLabel": {
+              "en": "suspend resume"
+            },
+            "definition": {
+              "en": "This pattern provides the sequence used for for suspending and resuming."
+            },
+            "type": "Pattern",
+            "sequence": ["https://w3id.org/xapi/scorm#suspension", "https://w3id.org/xapi/scorm#resumption", "https://w3id.org/xapi/scorm#middlestatements"]
+        },
+        {
+            "id": "https://w3id.org/xapi/scorm#optionallycontinue",
+            "prefLabel": {
+              "en": "optionally continue"
+            },
+            "definition": {
+              "en": "This pattern provies an option for suspending and resuming."
+            },
+            "type": "Pattern",
+            "zeroOrMore": "https://w3id.org/xapi/scorm#suspendresume"
+        }
+
+    ]
+}

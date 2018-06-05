@@ -1,0 +1,83 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://risc-inc.com/annotator/activities/highlight> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "An annotation of the highlight type. Highlights are used to mark strings of text in a document with a color. This activity type should only be used for highlighted text and not for highlighted images or other elements."@en;
+   skos:inScheme <http://www.risc-inc.com/annotator/v1.0>;
+   skos:prefLabel "highlighted text annotation"@en .
+
+<http://risc-inc.com/annotator/activities/note> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "Indicates an annotation made to a document of the note form. This is a string of text appended to the document at a specified location. Note annotations can be added anywhere on the page. This activity type should not be used for other types of note that are not annotations to a document."@en;
+   skos:inScheme <http://www.risc-inc.com/annotator/v1.0>;
+   skos:prefLabel "note annotation"@en .
+
+<http://risc-inc.com/annotator/verbs/annotated> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates a new annotation has been added to a document. This verb may be used with PDFs, images, assignment submissions or any other type of document which may be annotated."@en;
+   skos:inScheme <http://www.risc-inc.com/annotator/v1.0>;
+   skos:prefLabel "annotated"@en;
+   skos:relatedMatch <https://w3id.org/xapi/adb/verbs/annotated>,
+     <https://w3id.org/xapi/acrossx/verbs/annotated> .
+
+<http://risc-inc.com/annotator/verbs/modified> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "This verb is used on annotations created with the annotated verb. It indicates that an existing annotation has been modified, for example editing the text of a note annotation or adjusting the position of a underline or highlight."@en;
+   skos:inScheme <http://www.risc-inc.com/annotator/v1.0>;
+   skos:prefLabel "modified annotation"@en .
+
+<http://www.risc-inc.com/annotator> a <https://w3id.org/xapi/profiles/ontology#Profile>;
+   dc:conformsTo <https://w3id.org/xapi/profiles#1.0>;
+   schema:author [
+     a schema:Organization;
+     schema:name "RISC, Inc"
+   ];
+   rdfs:seeAlso <http://risc-inc.com/pdf-annotation-cloud-real-world-xapi-application/>;
+   skos:definition "A profile for recording PDF annotations."@en;
+   skos:prefLabel "PDF Annotator"@en;
+   <https://w3id.org/xapi/profiles/ontology#concepts> <http://www.risc-inc.com/annotator/extensions/rects>,
+     <http://risc-inc.com/annotator/activities/underline>,
+     <http://www.risc-inc.com/annotator/extensions/highlightedString>,
+     <http://risc-inc.com/annotator/activities/highlight>,
+     <http://www.risc-inc.com/annotator/extensions/page>,
+     <http://risc-inc.com/annotator/verbs/modified>,
+     <http://www.risc-inc.com/annotator/extensions/color>,
+     <http://risc-inc.com/annotator/activities/note>,
+     <http://www.risc-inc.com/annotator/activities/freetext>,
+     <http://risc-inc.com/annotator/verbs/annotated>;
+   <https://w3id.org/xapi/profiles/ontology#versions> <http://www.risc-inc.com/annotator/v1.0.> .
+
+<http://www.risc-inc.com/annotator/activities/freetext> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "Indicates an annotation made to a document of the freetext form. This is a string of text written direction onto the document at a specified location. Freetext annotations can be added anywhere on the page. Unlike note annotations, they have no border or background."@en;
+   skos:inScheme <http://www.risc-inc.com/annotator/v1.0>;
+   skos:prefLabel "freetext annotation"@en .
+
+<http://www.risc-inc.com/annotator/extensions/color> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "This extension is used to describe the RGB colour of a PDF annotation highlight, underline of typewriter annotation. The value of this extension is a string, for example #FFCC66. For any use cases outside of PDF annotations, consider the tincan color extension to record the colour of an activity."@en;
+   skos:inScheme <http://www.risc-inc.com/annotator/v1.0>;
+   skos:prefLabel "pdf annotation highlight colour"@en .
+
+<http://www.risc-inc.com/annotator/extensions/highlightedString> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "Activity definition extension used with highlight and underline activity types. Stores the string of text that has been highlighted or underlined."@en;
+   skos:inScheme <http://www.risc-inc.com/annotator/v1.0>;
+   skos:prefLabel "highlighted string"@en .
+
+<http://www.risc-inc.com/annotator/extensions/page> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "Activity Definition extension used for activities representing entities on a page, for example highlights or notes on an annotated PDF. The value of this extension is an integer that represents the zero-based page index of the document that the activity is on. This document should be listed as the contextActivities parent. Note that the page index is not normally equal to the page number printed on the document."@en;
+   skos:inScheme <http://www.risc-inc.com/annotator/v1.0>;
+   skos:prefLabel "page index"@en .
+
+<http://www.risc-inc.com/annotator/extensions/rects> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "A collection of rectangles marking an area within a PDF document. This is used to denote the location of an element on a page such as a highlight or annotation on a PDF document. Multiple rectangles may represent a single element. The value of the extension is an array of rectangle objects. Each rectangle object has x, y, width and height properties. The value of each of these properties is a number measured in PDF Units. The X and Y coordinates are taken from the bottom left of the page. Note that in some implementations, this the value of this extension has been a string containing a JSON encoded array of rectangle objects. This is not recommended, but tools reading statements using this extension may wish to additionally accept this JSON encoded format."@en;
+   skos:inScheme <http://www.risc-inc.com/annotator/v1.0>;
+   skos:prefLabel "pdf Rectangle map"@en .
+
+<http://www.risc-inc.com/annotator/v1.0.> prov:generatedAtTime "2017-07-14T11:35:00Z"^^xsd:dateTime;
+   prov:wasRevisionOf <http://www.risc-inc.com/annotator> .
+
+<http://risc-inc.com/annotator/activities/underline> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "An annotation of the underline type. Underlines are used to mark strings of text in a document with a line underneath the text. This activity type should only be used for underlined text and not for images or other elements."@en;
+   skos:inScheme <http://www.risc-inc.com/annotator/v1.0>;
+   skos:prefLabel "underline annotation"@en .

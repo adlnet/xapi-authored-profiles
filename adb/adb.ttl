@@ -1,0 +1,126 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/xapi/adb> a <https://w3id.org/xapi/profiles/ontology#Profile>;
+   dc:conformsTo <https://w3id.org/xapi/profiles#1.0.0>;
+   schema:author [
+     a schema:Organization;
+     schema:name "IEEE Industry Connections"
+   ];
+   rdfs:seeAlso <https://standards.ieee.org/develop/indconn/adb/>;
+   skos:definition "The xAPI ABD profile is used to identify interactions between an actor and an eBook activity based on the IEEE ADB project."@en;
+   skos:prefLabel "Actionable Data Book (ADB) Profile"@en;
+   <https://w3id.org/xapi/profiles/ontology#concepts> <https://w3id.org/xapi/adb/verbs/bookmarked>,
+     <https://w3id.org/xapi/adb/verbs/noted>,
+     <https://w3id.org/xapi/adb/verbs/initiated>,
+     <https://w3id.org/xapi/adb/verbs/arrived>,
+     <https://w3id.org/xapi/adb/verbs/annotated>,
+     <https://w3id.org/xapi/adb/verbs/attended>,
+     <https://w3id.org/xapi/adb/verbs/described>,
+     <https://w3id.org/xapi/adb/verbs/read>,
+     <https://w3id.org/xapi/adb/verbs/demanded>,
+     <https://w3id.org/xapi/adb/verbs/referenced>,
+     <https://w3id.org/xapi/adb/verbs/selected>,
+     <https://w3id.org/xapi/adb/verbs/coached>,
+     <https://w3id.org/xapi/adb/verbs/requested>,
+     <https://w3id.org/xapi/adb/verbs/highlighted>,
+     <https://w3id.org/xapi/adb/verbs/watched>;
+   <https://w3id.org/xapi/profiles/ontology#versions> <https://w3id.org/xapi/adb/v1.0> .
+
+<https://w3id.org/xapi/adb/verbs/arrived> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:broadMatch <http://adlnet.gov/expapi/verbs/progressed>;
+   skos:definition "Indicates the actor arrived a specific location by movement or progress. To arrive a specific scene within a story or book experience."@en;
+   skos:inScheme <https://w3id.org/xapi/adb/v1.0>;
+   skos:prefLabel "arrived"@en .
+
+<https://w3id.org/xapi/adb/verbs/attended> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates the actor was present at a virtual or physical event or activity. "@en;
+   skos:exactMatch <http://adlnet.gov/expapi/verbs/attended>;
+   skos:inScheme <https://w3id.org/xapi/adb/v1.0>;
+   skos:prefLabel "attended"@en;
+   skos:relatedMatch <http://adlnet.gov/expapi/verbs/attended> .
+
+<https://w3id.org/xapi/adb/verbs/bookmarked> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Persisting the current location (page) where the reader stopped the ebook activity."@en;
+   skos:inScheme <https://w3id.org/xapi/adb/v1.0>;
+   skos:prefLabel "bookmarked"@en;
+   skos:related <https://w3id.org/xapi/adb/verbs/annotated> .
+
+<https://w3id.org/xapi/adb/verbs/coached> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "To teach or lead another person through an activity. Coached is a direct response to the Requested verb. The receiver of a Requested statement will periodically respond by sending a Coached statement that clears out the coach's queue."@en;
+   skos:inScheme <https://w3id.org/xapi/adb/v1.0>;
+   skos:prefLabel "coached"@en .
+
+<https://w3id.org/xapi/adb/verbs/demanded> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates a request for eBook session or redirect. Shall be distinct from requested which refers to actor conversations (e.g., requested help fom instructor)."@en;
+   skos:inScheme <https://w3id.org/xapi/adb/v1.0>;
+   skos:prefLabel "demanded"@en;
+   skos:related <https://w3id.org/xapi/adb/verbs/requested> .
+
+<https://w3id.org/xapi/adb/verbs/described> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Detailed answer as a result of an interaction in an ebook activity or assessment."@en;
+   skos:inScheme <https://w3id.org/xapi/adb/v1.0>;
+   skos:prefLabel "described"@en .
+
+<https://w3id.org/xapi/adb/verbs/initiated> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Used to initiate text code, user preferences or accessibility preferences to a teacher."@en;
+   skos:inScheme <https://w3id.org/xapi/adb/v1.0>;
+   skos:prefLabel "initiated"@en .
+
+<https://w3id.org/xapi/adb/verbs/read> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor read the object. This is typically only applicable for objects representing printed or written content, such as a book, a message or a comment."@en;
+   skos:exactMatch <http://activitystrea.ms/schema/read>;
+   skos:inScheme <https://w3id.org/xapi/adb/v1.0>;
+   skos:prefLabel "read"@en .
+
+<https://w3id.org/xapi/adb/verbs/referenced> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Use dictionary or other resource to look up a selected word. A learner might reference outside information in support of the topic and could reference additional reading for his/her colleagues or mentor."@en;
+   skos:inScheme <https://w3id.org/xapi/adb/v1.0>;
+   skos:prefLabel "referenced"@en .
+
+<https://w3id.org/xapi/adb/verbs/selected> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Choose section of text to copy to clipboard."@en;
+   skos:inScheme <https://w3id.org/xapi/adb/v1.0>;
+   skos:prefLabel "selected"@en .
+
+<https://w3id.org/xapi/adb/verbs/watched> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor has watched the object. This verb is typically applicable only when the object represents dynamic, visible content such as a movie, a television show or a public performance."@en;
+   skos:exactMatch <https://w3id.org/xapi/acrossx/verbs/watched>,
+     <http://activitystrea.ms/schema/watch>;
+   skos:inScheme <https://w3id.org/xapi/adb/v1.0>;
+   skos:prefLabel "watched"@en .
+
+<https://w3id.org/xapi/adb/verbs/highlighted> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:broader <https://w3id.org/xapi/adb/verbs/annotated>;
+   skos:definition "Highlight important areas in an eBook for the purpose of later review or note taking."@en;
+   skos:inScheme <https://w3id.org/xapi/adb/v1.0>;
+   skos:narrower <https://w3id.org/xapi/adb/verbs/noted>;
+   skos:prefLabel "highlighted"@en .
+
+<https://w3id.org/xapi/adb/verbs/noted> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:broader <https://w3id.org/xapi/adb/verbs/annotated>;
+   skos:definition "Add annotation or notes to selected text within an ebook or highlight."@en;
+   skos:inScheme <https://w3id.org/xapi/adb/v1.0>;
+   skos:prefLabel "noted"@en .
+
+<https://w3id.org/xapi/adb/verbs/requested> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates the actor needed or demanded an object or another actor. Requested indicates a comment that is shared with peers as a group or Coach as a trainer. The request for coaching or help prompts users to respond giving them coaching credit."@en;
+   skos:exactMatch <http://activitystrea.ms/schema/request>;
+   skos:inScheme <https://w3id.org/xapi/adb/v1.0>;
+   skos:prefLabel "requested"@en .
+
+<https://w3id.org/xapi/adb/verbs/annotated> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Provide notes or symbols for further explanation or thoughts while reading."@en;
+   skos:inScheme <https://w3id.org/xapi/adb/v1.0>;
+   skos:narrower <https://w3id.org/xapi/adb/verbs/highlighted>;
+   skos:prefLabel "annotated"@en;
+   skos:relatedMatch <http://risc-inc.com/annotator/verbs/annotated>,
+     <https://w3id.org/xapi/acrossx/verbs/annotated> .
+
+<https://w3id.org/xapi/adb/v1.0> prov:generatedAtTime "2017-06-30T8:26:00Z"^^xsd:dateTime;
+   prov:wasRevisionOf <https://w3id.org/xapi/adb> .

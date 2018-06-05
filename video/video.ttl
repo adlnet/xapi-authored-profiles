@@ -1,0 +1,470 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/xapi/video> a <https://w3id.org/xapi/profiles/ontology#Profile>;
+   dc:conformsTo <https://w3id.org/xapi/profiles#1.0>;
+   schema:author [
+     a schema:Organization;
+     schema:name "xAPI Video CoP"
+   ];
+   rdfs:seeAlso <https://github.com/liveaspankaj/xapi-video-cop>;
+   skos:definition "The video profile of the xAPI was created to identify and standardize the common types of interactions that can be tracked in any video player."@en;
+   skos:prefLabel "Video Profile"@en;
+   <https://w3id.org/xapi/profiles/ontology#concepts> <https://w3id.org/xapi/video/extensions/volume>,
+     <https://w3id.org/xapi/video/extensions/full-screen>,
+     <https://w3id.org/xapi/video/extensions/session-id>,
+     <https://w3id.org/xapi/video/extensions/frame-rate>,
+     <https://w3id.org/xapi/video/extensions/cc-subtitle-lang>,
+     <https://w3id.org/xapi/video/verbs/played>,
+     <https://w3id.org/xapi/video/extensions/quality>,
+     <https://w3id.org/xapi/video/extensions/length>,
+     <https://w3id.org/xapi/video/extensions/speed>,
+     <https://w3id.org/xapi/video/activity-type/video>,
+     <https://w3id.org/xapi/video/verbs/paused>,
+     <https://w3id.org/xapi/video/extensions/user-agent>,
+     <https://w3id.org/xapi/video/verbs/seeked>,
+     <https://w3id.org/xapi/video/extensions/video-playback-size>,
+     <https://w3id.org/xapi/video/extensions/completion-threshold>,
+     <https://w3id.org/xapi/video/extensions/track>,
+     <https://w3id.org/xapi/video/extensions/progress>,
+     <https://w3id.org/xapi/video/extensions/played-segments>,
+     <https://w3id.org/xapi/video/extensions/screen-size>,
+     <https://w3id.org/xapi/video/extensions/time-to>,
+     <https://w3id.org/xapi/video/extensions/time>,
+     <https://w3id.org/xapi/video/extensions/time-from>,
+     <https://w3id.org/xapi/video/extensions/cc-subtitle-enabled>;
+   <https://w3id.org/xapi/profiles/ontology#patterns> <https://w3id.org/xapi/video/patterns#optionalmiddlestatements>,
+     <https://w3id.org/xapi/video/patterns#all-activities-pattern>,
+     <https://w3id.org/xapi/video/patterns#generalpattern>;
+   <https://w3id.org/xapi/profiles/ontology#templates> <https://w3id.org/xapi/video/templates#initialized>,
+     <https://w3id.org/xapi/video/templates#closed-captioning>,
+     <https://w3id.org/xapi/video/templates#seeked>,
+     <https://w3id.org/xapi/video/templates#played>,
+     <https://w3id.org/xapi/video/templates#completed>,
+     <https://w3id.org/xapi/video/templates#terminated>,
+     <https://w3id.org/xapi/video/templates#volumechange>,
+     <https://w3id.org/xapi/video/templates#paused>,
+     <https://w3id.org/xapi/video/templates#screenchange>;
+   <https://w3id.org/xapi/profiles/ontology#versions> <https://w3id.org/xapi/video/v1.0.2> .
+
+<https://w3id.org/xapi/video/extensions/cc-subtitle-enabled> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "Used to expresses whether subtitle or closed captioning is enabled."@en;
+   skos:inScheme <https://w3id.org/xapi/video/v1.0.2>;
+   skos:prefLabel "cc-subtitle-enabled"@en;
+   <https://w3id.org/xapi/profiles/ontology#inlineSchema> "{ \"type\": \"boolean\" }" .
+
+<https://w3id.org/xapi/video/extensions/cc-subtitle-lang> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "Used to express the language of subtitle or closed captioning. The lexical and value spaces of xsd:language are the set of language codes defined by RFC 5646. For example, 'en' for English or 'en-US' for American English."@en;
+   skos:inScheme <https://w3id.org/xapi/video/v1.0.2>;
+   skos:prefLabel "cc-subtitle-lang"@en;
+   <https://w3id.org/xapi/profiles/ontology#inlineSchema> "{ \"type\": \"string\" }" .
+
+<https://w3id.org/xapi/video/extensions/completion-threshold> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "Used to specify the percentage of media that should be consumed to trigger a completion. Value MUST be between 0 and with maximum 3 decimals. If Completion Threshold is not included, it is assumed to be 1, i.e. 100%.  If Completion Threshold is not 1, it MUST be included in Video Profile statements with these verbs: initialized, paused, completed, and terminated."@en;
+   skos:inScheme <https://w3id.org/xapi/video/v1.0.2>;
+   skos:prefLabel "completion-threshold"@en;
+   <https://w3id.org/xapi/profiles/ontology#inlineSchema> "{ \"type\": \"number\" }" .
+
+<https://w3id.org/xapi/video/extensions/frame-rate> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "Used to express the frame rate or frames per second of a video (or average rate of frames per second in the case of variable frame-rate)."@en;
+   skos:inScheme <https://w3id.org/xapi/video/v1.0.2>;
+   skos:prefLabel "frame-rate"@en;
+   <https://w3id.org/xapi/profiles/ontology#inlineSchema> "{ \"type\": \"number\" }" .
+
+<https://w3id.org/xapi/video/extensions/full-screen> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "Used to expresses that the video is played in full screen mode."@en;
+   skos:inScheme <https://w3id.org/xapi/video/v1.0.2>;
+   skos:prefLabel "full-screen"@en;
+   <https://w3id.org/xapi/profiles/ontology#inlineSchema> "{ \"type\": \"boolean\" }" .
+
+<https://w3id.org/xapi/video/extensions/length> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "The actual length of the media in seconds. Value MUST be a float value with maximum 3 decimals."@en;
+   skos:inScheme <https://w3id.org/xapi/video/v1.0.2>;
+   skos:prefLabel "length"@en;
+   <https://w3id.org/xapi/profiles/ontology#inlineSchema> "{ \"type\": \"number\" }" .
+
+<https://w3id.org/xapi/video/extensions/played-segments> a <https://w3id.org/xapi/ontology#ResultExtension>;
+   skos:definition "Played segments reveals potential heat map data for showing parts of the video the actor watched during current registration in chronological order (e.g., 0.000[.]12.000[,]14.000[.]21.000[,]18.000[.]30.000)."@en;
+   skos:inScheme <https://w3id.org/xapi/video/v1.0.2>;
+   skos:prefLabel "played-segments"@en;
+   <https://w3id.org/xapi/profiles/ontology#inlineSchema> "{ \"type\": \"string\" }" .
+
+<https://w3id.org/xapi/video/extensions/progress> a <https://w3id.org/xapi/ontology#ResultExtension>;
+   skos:definition "Used to expresses the percentage of media consumed by the actor."@en;
+   skos:inScheme <https://w3id.org/xapi/video/v1.0.2>;
+   skos:prefLabel "progress"@en;
+   <https://w3id.org/xapi/profiles/ontology#inlineSchema> "{ \"type\": \"number\" }" .
+
+<https://w3id.org/xapi/video/extensions/quality> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "Used to express the video resolution or quality. Integer Value (e.g., 360, 480, 720, 1080, etc.)."@en;
+   skos:inScheme <https://w3id.org/xapi/video/v1.0.2>;
+   skos:prefLabel "quality"@en;
+   <https://w3id.org/xapi/profiles/ontology#inlineSchema> "{ \"type\": \"number\" }" .
+
+<https://w3id.org/xapi/video/extensions/screen-size> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "Used to express the total available screen size for Video playback."@en;
+   skos:inScheme <https://w3id.org/xapi/video/v1.0.2>;
+   skos:prefLabel "screen-size"@en;
+   <https://w3id.org/xapi/profiles/ontology#inlineSchema> "{ \"type\": \"string\" }" .
+
+<https://w3id.org/xapi/video/extensions/session-id> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "Used to provide the session identifier associated with the activity."@en;
+   skos:inScheme <https://w3id.org/xapi/video/v1.0.2>;
+   skos:prefLabel "session-id"@en;
+   <https://w3id.org/xapi/profiles/ontology#inlineSchema> "{ \"type\": \"string\", \"pattern\": \"^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-4[0-9a-fA-F]{3}-[8-9a-bA-B][0-9a-fA-F]{3}-[0-9a-fA-F]{12}\" }" .
+
+<https://w3id.org/xapi/video/extensions/speed> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "Used to express the play-back speed (e.g., 1x,2x,0,-1x,-2x)."@en;
+   skos:inScheme <https://w3id.org/xapi/video/v1.0.2>;
+   skos:prefLabel "speed"@en;
+   <https://w3id.org/xapi/profiles/ontology#inlineSchema> "{ \"type\": \"string\" }" .
+
+<https://w3id.org/xapi/video/extensions/time> a <https://w3id.org/xapi/ontology#ResultExtension>;
+   skos:definition "Used to express the time into the video. (e.g., “00000.000” in seconds and milliseconds)."@en;
+   skos:inScheme <https://w3id.org/xapi/video/v1.0.2>;
+   skos:prefLabel "time"@en;
+   <https://w3id.org/xapi/profiles/ontology#inlineSchema> "{ \"type\": \"number\" }" .
+
+<https://w3id.org/xapi/video/extensions/time-from> a <https://w3id.org/xapi/ontology#ResultExtension>;
+   skos:definition "Used to identify the point in time the actor changed from in a media object (eg: “200.000” in seconds and milliseconds)."@en;
+   skos:inScheme <https://w3id.org/xapi/video/v1.0.2>;
+   skos:prefLabel "time-from"@en;
+   <https://w3id.org/xapi/profiles/ontology#inlineSchema> "{ \"type\": \"number\" }" .
+
+<https://w3id.org/xapi/video/extensions/time-to> a <https://w3id.org/xapi/ontology#ResultExtension>;
+   skos:definition "Used to identify the point in time the actor changed to in a media object (eg: “300.000” in seconds and milliseconds)."@en;
+   skos:inScheme <https://w3id.org/xapi/video/v1.0.2>;
+   skos:prefLabel "time-to"@en;
+   <https://w3id.org/xapi/profiles/ontology#inlineSchema> "{ \"type\": \"number\" }" .
+
+<https://w3id.org/xapi/video/extensions/track> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "Used to identify the name of the audio track in a media object."@en;
+   skos:inScheme <https://w3id.org/xapi/video/v1.0.2>;
+   skos:prefLabel "track"@en;
+   <https://w3id.org/xapi/profiles/ontology#inlineSchema> "{ \"type\": \"string\" }" .
+
+<https://w3id.org/xapi/video/extensions/user-agent> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "Used to identify the User Agent string of the browser, if the video is launched in browser."@en;
+   skos:inScheme <https://w3id.org/xapi/video/v1.0.2>;
+   skos:prefLabel "user-agent"@en;
+   <https://w3id.org/xapi/profiles/ontology#inlineSchema> "{ \"type\": \"string\" }" .
+
+<https://w3id.org/xapi/video/extensions/video-playback-size> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "Used to identify the current video size in Width x Height as viewed by the user."@en;
+   skos:inScheme <https://w3id.org/xapi/video/v1.0.2>;
+   skos:prefLabel "video-playback-size"@en;
+   <https://w3id.org/xapi/profiles/ontology#inlineSchema> "{ \"type\": \"string\" }" .
+
+<https://w3id.org/xapi/video/extensions/volume> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "Used to identify the loudness of sound specified for a media object."@en;
+   skos:inScheme <https://w3id.org/xapi/video/v1.0.2>;
+   skos:prefLabel "volume"@en;
+   <https://w3id.org/xapi/profiles/ontology#inlineSchema> "{ \"type\": \"number\" }" .
+
+<https://w3id.org/xapi/video/patterns#generalpattern> skos:definition "The general pattern and sequence of Statement templates using the Video Profile."@en;
+   skos:inScheme <https://w3id.org/xapi/video/v1.0.2>;
+   skos:prefLabel "General Pattern"@en;
+   <https://w3id.org/xapi/profiles/ontology#primary> true;
+   <https://w3id.org/xapi/profiles/ontology#sequence> (<https://w3id.org/xapi/video/templates#initialized> <https://w3id.org/xapi/video/patterns#optionalmiddlestatements> <https://w3id.org/xapi/video/templates#terminated>) .
+
+<https://w3id.org/xapi/video/patterns#all-activities-pattern> skos:definition "All of the Video Profile statement templates."@en;
+   skos:inScheme <https://w3id.org/xapi/video/v1.0.2>;
+   skos:prefLabel "All Activities Pattern"@en;
+   <https://w3id.org/xapi/profiles/ontology#alternates> <https://w3id.org/xapi/video/templates#paused>,
+     <https://w3id.org/xapi/video/templates#closed-captioning>,
+     <https://w3id.org/xapi/video/templates#seeked>,
+     <https://w3id.org/xapi/video/templates#played>,
+     <https://w3id.org/xapi/video/templates#completed>,
+     <https://w3id.org/xapi/video/templates#screenchange>,
+     <https://w3id.org/xapi/video/templates#volumechange> .
+
+<https://w3id.org/xapi/video/patterns#optionalmiddlestatements> a <https://w3id.org/xapi/profiles/ontology#Pattern>;
+   skos:definition "A combined pattern of zero or more Video Profile standard statement templates that can be used with the general pattern."@en;
+   skos:inScheme <https://w3id.org/xapi/video/v1.0.2>;
+   skos:prefLabel "Optional Middle Statements"@en;
+   <https://w3id.org/xapi/profiles/ontology#zeroOrMore> <https://w3id.org/xapi/video/patterns#all-activities-pattern> .
+
+<https://w3id.org/xapi/video/templates#closed-captioning> skos:inScheme <https://w3id.org/xapi/video/v1.0.2>;
+   skos:prefLabel "Enable Closed Captioning"@en;
+   <https://w3id.org/xapi/profiles/ontology#objectActivityType> <https://w3id.org/xapi/video/activity-type/video>;
+   <https://w3id.org/xapi/profiles/ontology#rules> [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.timestamp";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.id";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/cc-subtitle-lang']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/video/extensions/cc-enabled']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/session-id']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/video/extensions/time']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ];
+   <https://w3id.org/xapi/profiles/ontology#verb> <http://adlnet.gov/expapi/verbs/interacted> .
+
+<https://w3id.org/xapi/video/templates#completed> skos:definition "The statement template and rules associated with a video being completed."@en;
+   skos:inScheme <https://w3id.org/xapi/video/v1.0.2>;
+   skos:prefLabel "Completed"@en;
+   <https://w3id.org/xapi/profiles/ontology#objectActivityType> <https://w3id.org/xapi/video/activity-type/video>;
+   <https://w3id.org/xapi/profiles/ontology#rules> [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/video/extensions/progress']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.id";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/session-id']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.timestamp";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/video/extensions/played-segments']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/length']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/completion-threshold']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/video/extensions/time']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ];
+   <https://w3id.org/xapi/profiles/ontology#verb> <http://adlnet.gov/expapi/verbs/completed> .
+
+<https://w3id.org/xapi/video/templates#initialized> skos:definition "The statement template and rules associated with a video being initialized or started."@en;
+   skos:inScheme <https://w3id.org/xapi/video/v1.0.2>;
+   skos:prefLabel "Initialized"@en;
+   <https://w3id.org/xapi/profiles/ontology#rules> [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/volume']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/completion-threshold']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/user-agent']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/full-screen']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.id";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/cc-enabled']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/length']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.timestamp";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/screen-size']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/cc-subtitle-lang']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/video-playback-size']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/speed']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/session-id']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
+   ];
+   <https://w3id.org/xapi/profiles/ontology#verb> <http://adlnet.gov/expapi/verbs/initialized> .
+
+<https://w3id.org/xapi/video/templates#paused> skos:definition "The statement template and rules associated with a video being paused."@en;
+   skos:inScheme <https://w3id.org/xapi/video/v1.0.2>;
+   skos:prefLabel "Paused"@en;
+   <https://w3id.org/xapi/profiles/ontology#objectActivityType> <https://w3id.org/xapi/video/activity-type/video>;
+   <https://w3id.org/xapi/profiles/ontology#rules> [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.id";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/video/extensions/progress']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/completion-threshold']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/video/extensions/time']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/session-id']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/video/extensions/played-segments']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/length']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.timestamp";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ];
+   <https://w3id.org/xapi/profiles/ontology#verb> <https://w3id.org/xapi/video/verbs/paused> .
+
+<https://w3id.org/xapi/video/templates#played> skos:definition "The statement template and rules associated with a video being played."@en;
+   skos:inScheme <https://w3id.org/xapi/video/v1.0.2>;
+   skos:prefLabel "Played"@en;
+   <https://w3id.org/xapi/profiles/ontology#objectActivityType> <https://w3id.org/xapi/video/activity-type/video>;
+   <https://w3id.org/xapi/profiles/ontology#rules> [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.id";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/video/extensions/played-segments']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.timestamp";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/session-id']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/video/extensions/time']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ];
+   <https://w3id.org/xapi/profiles/ontology#verb> <https://w3id.org/xapi/video/verbs/played> .
+
+<https://w3id.org/xapi/video/templates#screenchange> skos:inScheme <https://w3id.org/xapi/video/v1.0.2>;
+   skos:prefLabel "Screen Change Interaction"@en;
+   <https://w3id.org/xapi/profiles/ontology#objectActivityType> <https://w3id.org/xapi/video/activity-type/video>;
+   <https://w3id.org/xapi/profiles/ontology#rules> [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.timestamp";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/video-playback-size']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/full-screen']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/video/extensions/time']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/screen-size']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.id";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/session-id']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
+   ];
+   <https://w3id.org/xapi/profiles/ontology#verb> <http://adlnet.gov/expapi/verbs/interacted> .
+
+<https://w3id.org/xapi/video/templates#seeked> skos:definition "The statement template and rules associated with a video seekbar being moved from and to a specific position in the video."@en;
+   skos:inScheme <https://w3id.org/xapi/video/v1.0.2>;
+   skos:prefLabel "Seeked"@en;
+   <https://w3id.org/xapi/profiles/ontology#objectActivityType> <https://w3id.org/xapi/video/activity-type/video>;
+   <https://w3id.org/xapi/profiles/ontology#rules> [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.id";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/video/extensions/time-from']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/video/extensions/time-to']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.timestamp";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/session-id']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
+   ];
+   <https://w3id.org/xapi/profiles/ontology#verb> <https://w3id.org/xapi/video/verbs/seeked> .
+
+<https://w3id.org/xapi/video/templates#terminated> skos:definition "The statement template and rules associated with a terminating the player."@en;
+   skos:inScheme <https://w3id.org/xapi/video/v1.0.2>;
+   skos:prefLabel "Terminated"@en;
+   <https://w3id.org/xapi/profiles/ontology#objectActivityType> <https://w3id.org/xapi/video/activity-type/video>;
+   <https://w3id.org/xapi/profiles/ontology#rules> [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.id";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.timestamp";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/completion-threshold']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/length']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/video/extensions/played-segments']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/video/extensions/progress']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/video/extensions/time']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/session-id']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
+   ];
+   <https://w3id.org/xapi/profiles/ontology#verb> <http://adlnet.gov/expapi/verbs/terminated> .
+
+<https://w3id.org/xapi/video/templates#volumechange> skos:inScheme <https://w3id.org/xapi/video/v1.0.2>;
+   skos:prefLabel "Volume Change Interaction"@en;
+   <https://w3id.org/xapi/profiles/ontology#objectActivityType> <https://w3id.org/xapi/video/activity-type/video>;
+   <https://w3id.org/xapi/profiles/ontology#rules> [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/video/extensions/time']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/session-id']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/volume']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.id";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.timestamp";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ];
+   <https://w3id.org/xapi/profiles/ontology#verb> <http://adlnet.gov/expapi/verbs/interacted> .
+
+<https://w3id.org/xapi/video/verbs/paused> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates the actor paused the video being played at a specific point."@en;
+   skos:exactMatch <http://id.tincanapi.com/verb/paused>;
+   skos:inScheme <https://w3id.org/xapi/video/v1.0.2>;
+   skos:prefLabel "paused"@en .
+
+<https://w3id.org/xapi/video/verbs/played> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the actor started experiencing the recorded media object."@en;
+   skos:exactMatch <http://activitystrea.ms/schema/1.0/play>;
+   skos:inScheme <https://w3id.org/xapi/video/v1.0.2>;
+   skos:prefLabel "played"@en .
+
+<https://w3id.org/xapi/video/verbs/seeked> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates the actor changed the progress towards a specific point."@en;
+   skos:inScheme <https://w3id.org/xapi/video/v1.0.2>;
+   skos:prefLabel "seeked"@en .
+
+<https://w3id.org/xapi/video/activity-type/video> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "A recording of both the visual and audible components made available on a display screen."@en;
+   skos:exactMatch <http://activitystrea.ms/schema/1.0/video>;
+   skos:inScheme <https://w3id.org/xapi/video/v1.0.2>;
+   skos:prefLabel "video"@en .
+
+<https://w3id.org/xapi/video/v1.0.2> prov:generatedAtTime "2018-06-04T10:45:00Z"^^xsd:dateTime;
+   prov:wasRevisionOf <https://w3id.org/xapi/video/v1.0.1> .

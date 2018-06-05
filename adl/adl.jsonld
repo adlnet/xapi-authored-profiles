@@ -1,0 +1,305 @@
+{
+   "@context": "https://w3id.org/xapi/profiles/context",
+    "id": "https://w3id.org/xapi/adl",
+    "type": "Profile",
+    "prefLabel": {
+        "en": "ADL Vocabulary"
+    },
+    "definition": {
+      "en": "The ADL vocabulary list includes Verbs and Activity Types used to represent common learning experiences in xAPI."
+    },
+    "conformsTo": "https://w3id.org/xapi/profiles#1.0.0",
+    "versions": [
+        {
+            "id": "https://w3id.org/xapi/adl/v1.0",
+            "generatedAtTime": "2017-08-21T14:25:59.295Z",
+            "wasRevisionOf": ["https://w3id.org/xapi/adl"]
+        }
+    ],
+    "author": {
+        "type": "Organization",
+        "name": "Advanced Distributed Learning(ADL) Initiative"
+    },
+    "concepts": [
+    {
+      "type": "Verb",
+      "id": "http://adlnet.gov/expapi/verbs/answered",
+      "inScheme": "https://w3id.org/xapi/adl/v1.0",
+      "prefLabel": {
+        "en": "answered"
+      },
+      "definition": {
+        "en": "Indicates the actor replied to a question, where the object is generally an activity representing the question. The text of the answer will often be included in the response inside result."
+      }
+    },
+    {
+      "type": "Verb",
+      "id": "http://adlnet.gov/expapi/verbs/asked",
+      "inScheme": "https://w3id.org/xapi/adl/v1.0",
+      "prefLabel": {
+        "en": "asked"
+      },
+      "definition": {
+        "en": "Indicates an inquiry by an actor with the expectation of a response or answer to a question."
+      }
+    },
+    {
+      "type": "Verb",
+      "id": "http://adlnet.gov/expapi/verbs/attempted",
+      "inScheme": "https://w3id.org/xapi/adl/v1.0",
+      "prefLabel": {
+        "en": "attempted"
+      },
+      "definition": {
+        "en": "Indicates the actor made an effort to access the object. An attempt statement without additional activities could be considered incomplete in some cases."
+      }
+    },
+    {
+      "type": "Verb",
+      "id": "http://adlnet.gov/expapi/verbs/attended",
+      "inScheme": "https://w3id.org/xapi/adl/v1.0",
+      "prefLabel": {
+        "en": "attended"
+      },
+      "relatedMatch": [ "https://w3id.org/xapi/adb/verbs/attended", "http://activitystrea.ms/schema/attend" ],
+      "definition": {
+        "en": "Indicates the actor was present at a virtual or physical event or activity."
+      }
+    },
+    {
+      "type": "Verb",
+      "id": "http://adlnet.gov/expapi/verbs/commented",
+      "inScheme": "https://w3id.org/xapi/adl/v1.0",
+      "prefLabel": {
+        "en": "commented"
+      },
+      "definition": {
+        "en": "Indicates the actor provided digital or written annotations on or about an object."
+      }
+    },
+    {
+      "type": "Verb",
+      "id": "http://adlnet.gov/expapi/verbs/exited",
+      "inScheme": "https://w3id.org/xapi/adl/v1.0",
+      "prefLabel": {
+        "en": "exited"
+      },
+      "definition": {
+        "en": "Indicates the actor intentionally departed from the activity or object."
+      }
+    },
+      {
+        "type": "Verb",
+        "id": "http://adlnet.gov/expapi/verbs/experienced",
+        "inScheme": "https://w3id.org/xapi/adl/v1.0",
+        "exactMatch": [ "http://adlnet.gov/expapi/verbs/experienced" ],
+        "prefLabel": {
+          "en": "experienced"
+        },
+        "definition": {
+          "en": "Indicates the actor only encountered the object, and is applicable in situations where a specific achievement or completion is not required."
+        }
+      },
+    {
+      "type": "Verb",
+      "id": "http://adlnet.gov/expapi/verbs/imported",
+      "inScheme": "https://w3id.org/xapi/adl/v1.0",
+      "prefLabel": {
+        "en": "imported"
+      },
+      "definition": {
+        "en": "Indicates the actor introduced an object into a physical or virtual location."
+      }
+    },
+      {
+        "type": "Verb",
+        "id": "http://adlnet.gov/expapi/verbs/interacted",
+        "inScheme": "https://w3id.org/xapi/adl/v1.0",
+        "relatedMatch": [ "http://activitystrea.ms/schema/interact" ],
+        "prefLabel": {
+          "en": "interacted"
+        },
+        "definition": {
+          "en": "Indicates the actor engaged with a physical or virtual object."
+        }
+      },
+    {
+      "type": "Verb",
+      "id": "http://adlnet.gov/expapi/verbs/launched",
+      "inScheme": "https://w3id.org/xapi/adl/v1.0",
+      "prefLabel": {
+        "en": "launched"
+      },
+      "definition": {
+        "en": "Indicates the actor attempted to start an activity."
+      }
+    },
+    {
+      "type": "Verb",
+      "id": "http://adlnet.gov/expapi/verbs/mastered",
+      "inScheme": "https://w3id.org/xapi/adl/v1.0",
+      "prefLabel": {
+        "en": "mastered"
+      },
+      "definition": {
+        "en": "Indicates the highest level of comprehension or competence the actor performed in an activity."
+      }
+    },
+    {
+      "type": "Verb",
+      "id": "http://adlnet.gov/expapi/verbs/preferred",
+      "inScheme": "https://w3id.org/xapi/adl/v1.0",
+      "prefLabel": {
+        "en": "preferred"
+      },
+      "definition": {
+        "en": "Indicates the selected choices, favored options or settings of an actor in relation to an object or activity."
+      }
+    },
+    {
+      "type": "Verb",
+      "id": "http://adlnet.gov/expapi/verbs/progressed",
+      "inScheme": "https://w3id.org/xapi/adl/v1.0",
+      "prefLabel": {
+        "en": "progressed"
+      },
+      "definition": {
+        "en": "Indicates a value of how much of an actor has advanced or moved through an activity."
+      }
+    },
+    {
+      "type": "Verb",
+      "id": "http://adlnet.gov/expapi/verbs/registered",
+      "inScheme": "https://w3id.org/xapi/adl/v1.0",
+      "prefLabel": {
+        "en": "registered"
+      },
+      "definition": {
+        "en": "Indicates the actor is officially enrolled or inducted in an activity."
+      }
+    },
+      {
+        "type": "Verb",
+        "id": "http://adlnet.gov/expapi/verbs/shared",
+        "inScheme": "https://w3id.org/xapi/adl/v1.0",
+        "exactMatch": [ "http://activitystrea.ms/schema/share" ],
+        "prefLabel": {
+          "en": "shared"
+        },
+        "definition": {
+          "en": "Indicates the actor's intent to openly provide access to an object of common interest to other actors or groups."
+        }
+      },
+    {
+      "type": "Verb",
+      "id": "http://adlnet.gov/expapi/verbs/voided",
+      "inScheme": "https://w3id.org/xapi/adl/v1.0",
+      "prefLabel": {
+        "en": "voided"
+      },
+      "definition": {
+        "en": "A special reserved verb used by a LRS or application to mark a statement as invalid. See the xAPI specification for details on Voided statements."
+      }
+    },
+    {
+      "type": "Verb",
+      "id": "https://w3id.org/xapi/adl/verbs/logged-in",
+      "inScheme": "https://w3id.org/xapi/adl/v1.0",
+      "definition": {
+        "en": "Indicates the actor gained access to a system or service by identifying and authenticating with the credentials provided by the actor."
+      },
+      "prefLabel": {
+        "en": "logged-in"
+      }
+    },
+    {
+      "type": "Verb",
+      "id": "https://w3id.org/xapi/adl/verbs/logged-out",
+      "inScheme": "https://w3id.org/xapi/adl/v1.0",
+      "definition": {
+        "en": "Indicates the actor either lost or discontinued access to a system or service."
+      },
+      "prefLabel": {
+        "en": "logged-out"
+      }
+    },
+    {
+      "type": "ActivityType",
+      "id": "http://adlnet.gov/expapi/activities/file",
+      "inScheme": "https://w3id.org/xapi/adl/v1.0",
+      "prefLabel": {
+        "en": "file"
+      },
+      "definition": {
+        "en": "A file is similar to a link, only the resource is more likely to be used at a) a different time, b) can be used offline, and/or c) could be used with a different system. Only the expectation changes. Files are not considered learning content or SCOs. If a file is intended for this purpose, it should be re-categorized."
+      }
+    },
+    {
+      "type": "ActivityType",
+      "id": "http://adlnet.gov/expapi/activities/link",
+      "inScheme": "https://w3id.org/xapi/adl/v1.0",
+      "prefLabel": {
+        "en": "link"
+      },
+      "definition": {
+        "en": "A link is simply a means of expressing a link to another resource within, or external to, an activity. A link is not synonymous with launching another resource and should be considered external to the current resource. Links are not learning content, nor SCOs. If a link is intended for this purpose, it should be re-categorized."
+      }
+    },
+    {
+      "type": "ActivityType",
+      "id": "http://adlnet.gov/expapi/activities/media",
+      "inScheme": "https://w3id.org/xapi/adl/v1.0",
+      "prefLabel": {
+        "en": "media"
+      },
+      "definition": {
+        "en": "Media refers to text, audio, or video used to convey information. Media can be consumed (tracked: completed), but doesn’t have an interactive component that may result in a score, success, or failure."
+      }
+    },
+    {
+      "type": "ActivityType",
+      "id": "http://adlnet.gov/expapi/activities/meeting",
+      "inScheme": "https://w3id.org/xapi/adl/v1.0",
+      "prefLabel": {
+        "en": "meeting"
+      },
+      "definition": {
+        "en": "A meeting is a gathering of multiple people for a common cause or interest."
+      }
+    },
+    {
+      "type": "ActivityType",
+      "id": "http://adlnet.gov/expapi/activities/performance",
+      "inScheme": "https://w3id.org/xapi/adl/v1.0",
+      "prefLabel": {
+        "en": "performance"
+      },
+      "definition": {
+        "en": "A performance is an attempted task or series of tasks within a particular context. Tasks would likely take on the form of interactions, or the performance could be self-contained content. It emphasizes students or learners being able to do, or perform, specific skills as a result of the instruction."
+      }
+    },
+      {
+        "type": "ActivityType",
+        "id": "http://adlnet.gov/expapi/activities/question",
+        "exactMatch": [ "http://activitystrea.ms/schema/question" ],
+        "inScheme": "https://w3id.org/xapi/adl/v1.0",
+        "prefLabel": {
+          "en": "question"
+        },
+        "definition": {
+          "en": "A question is typically part of an assessment and requires a response from the learner, a response that is then evaluated for correctness."
+        }
+      },
+    {
+      "type": "ActivityType",
+      "id": "http://adlnet.gov/expapi/activities/simulation",
+      "inScheme": "https://w3id.org/xapi/adl/v1.0",
+      "prefLabel": {
+        "en": "simulation"
+      },
+      "definition": {
+        "en": "A simulation is an attempted task or series of tasks in an artificial context that mimics reality. Tasks would likely take on the form of interactions, or the simulation could be self-contained content."
+      }
+    }
+    ]
+}

@@ -1,0 +1,489 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/xapi/cmi5> a <https://w3id.org/xapi/profiles/ontology#Profile>;
+   dc:conformsTo <https://w3id.org/xapi/profiles#1.0>;
+   schema:author [
+     a schema:Organization;
+     schema:name "cmi5 Working Group"
+   ];
+   rdfs:seeAlso <https://github.com/AICC/CMI-5_Spec_Current/blob/quartz/cmi5_spec.md>;
+   skos:definition """This specification describes interoperable runtime communication between Learning Management Systems (LMS) and Assignable Units (AU).
+
+The runtime communication and behavior of all parts of the system are carefully described in the full specification, which can be found at https://github.com/AICC/CMI-5_Spec_Current/blob/quartz/cmi5_spec.md . This is a structured representation of cmi5 concepts, statement structure, and statement communications patterns that the additional rules in the full specification build upon and provide the definitive interpretation of."""@en;
+   skos:prefLabel "cmi5 Profile"@en;
+   <https://w3id.org/xapi/profiles/ontology#concepts> <https://w3id.org/xapi/cmi5/activities/course>,
+     <https://w3id.org/xapi/cmi5/result/extensions/progress>,
+     <https://w3id.org/xapi/adl/verbs/abandoned>,
+     <https://w3id.org/xapi/cmi5/context/extensions/sessionid>,
+     <https://w3id.org/xapi/cmi5/context/extensions/launchparameters>,
+     <https://w3id.org/xapi/cmi5/result/extensions/reason>,
+     <https://w3id.org/xapi/cmi5/context/extensions/launchmode>,
+     <https://w3id.org/xapi/cmi5/context/extensions/masteryscore>,
+     <https://w3id.org/xapi/cmi5/context/extensions/moveon>,
+     <https://w3id.org/xapi/adl/verbs/waived>,
+     <https://w3id.org/xapi/cmi5/activities/block>,
+     <https://w3id.org/xapi/adl/verbs/satisfied>,
+     <https://w3id.org/xapi/cmi5/context/extensions/launchurl>;
+   <https://w3id.org/xapi/profiles/ontology#patterns> <https://w3id.org/xapi/cmi5#satisfieds>,
+     <https://w3id.org/xapi/cmi5#toplevel>,
+     <https://w3id.org/xapi/cmi5#maybecompletedthenfailed>,
+     <https://w3id.org/xapi/cmi5#failedthenmaybecompleted>,
+     <https://w3id.org/xapi/cmi5#completionpassedsession>,
+     <https://w3id.org/xapi/cmi5#passedsession>,
+     <https://w3id.org/xapi/cmi5#noresultsession>,
+     <https://w3id.org/xapi/cmi5#completedandpassed>,
+     <https://w3id.org/xapi/cmi5#completionnosuccesssession>,
+     <https://w3id.org/xapi/cmi5#passedthencompleted>,
+     <https://w3id.org/xapi/cmi5#terminatedorabandoned>,
+     <https://w3id.org/xapi/cmi5#completionmaybefailedsession>,
+     <https://w3id.org/xapi/cmi5#waivedsession>,
+     <https://w3id.org/xapi/cmi5#completedandmaybefailed>,
+     <https://w3id.org/xapi/cmi5#typicalsessions>,
+     <https://w3id.org/xapi/cmi5#completedthenpassed>,
+     <https://w3id.org/xapi/cmi5#typicalsession>,
+     <https://w3id.org/xapi/cmi5#failedsession>,
+     <https://w3id.org/xapi/cmi5#maybecompleted>;
+   <https://w3id.org/xapi/profiles/ontology#templates> <https://w3id.org/xapi/cmi5#passed>,
+     <https://w3id.org/xapi/cmi5#generalrestrictions>,
+     <https://w3id.org/xapi/cmi5#launched>,
+     <https://w3id.org/xapi/cmi5#abandoned>,
+     <https://w3id.org/xapi/cmi5#initialized>,
+     <https://w3id.org/xapi/cmi5#waived>,
+     <https://w3id.org/xapi/cmi5#satisfied>,
+     <https://w3id.org/xapi/cmi5#failed>,
+     <https://w3id.org/xapi/cmi5#terminated>,
+     <https://w3id.org/xapi/cmi5#completed>;
+   <https://w3id.org/xapi/profiles/ontology#versions> <https://w3id.org/xapi/cmi5/v1.0> .
+
+<https://w3id.org/xapi/adl/verbs/satisfied> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the authority or activity provider determined the actor has fulfilled the criteria of the object or activity."@en;
+   skos:inScheme <https://w3id.org/xapi/cmi5/v1.0>;
+   skos:prefLabel "satisfied"@en .
+
+<https://w3id.org/xapi/adl/verbs/waived> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the learning activity requirements were met by means other than completing the activity. A waived statement is used to indicate that the activity may be skipped by the actor."@en;
+   skos:inScheme <https://w3id.org/xapi/cmi5/v1.0>;
+   skos:prefLabel "waived"@en .
+
+<https://w3id.org/xapi/cmi5#generalrestrictions> a <https://w3id.org/xapi/profiles/ontology#StatementTemplate>;
+   skos:inScheme <https://w3id.org/xapi/cmi5/v1.0>;
+   skos:prefLabel "Restrictions for all cmi5-defined Statements"@en;
+   <https://w3id.org/xapi/profiles/ontology#rules> [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.timestamp";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.id";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/cmi5/context/extensions/sessionid']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     skos:scopeNote "An Activity object with an 'id' property whose value is the unaltered value of the AU's id attribute from the course structure (See Section 13.1.4 AU Metadata – id) MUST be included in the 'grouping' context activities.";
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.contextActivities.grouping[*]";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ] .
+
+<https://w3id.org/xapi/cmi5#toplevel> a <https://w3id.org/xapi/profiles/ontology#Pattern>;
+   skos:definition "This pattern describes the sequence of statements sent over the an entire course registration."@en;
+   skos:inScheme <https://w3id.org/xapi/cmi5/v1.0>;
+   skos:prefLabel "General Pattern"@en;
+   <https://w3id.org/xapi/profiles/ontology#primary> true;
+   <https://w3id.org/xapi/profiles/ontology#sequence> [] .
+
+<https://w3id.org/xapi/cmi5#typicalsessions> a <https://w3id.org/xapi/profiles/ontology#Pattern>;
+   skos:definition "This pattern provides an option to use zero or more of the alernates for the Typical Session pattern."@en;
+   skos:inScheme <https://w3id.org/xapi/cmi5/v1.0>;
+   skos:prefLabel "Typical Sessions"@en;
+   <https://w3id.org/xapi/profiles/ontology#zeroOrMore> <https://w3id.org/xapi/cmi5#typicalsession> .
+
+<https://w3id.org/xapi/cmi5/activities/block> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "A block represents a number of Assignable Units of which progress (completion/success) is rolled up to.  In cmi5 it is every level above the AU and below the Course."@en;
+   skos:inScheme <https://w3id.org/xapi/cmi5/v1.0>;
+   skos:prefLabel "block"@en .
+
+<https://w3id.org/xapi/cmi5/activities/course> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "A course represents an amount of content that is published and registered for with the purpose of gaining completion.  It is represented with a Course Structure Format in cmi5 as the highest level of content (above Block and AU)."@en;
+   skos:exactMatch <http://adlnet.gov/expapi/activities/course>;
+   skos:inScheme <https://w3id.org/xapi/cmi5/v1.0>;
+   skos:prefLabel "course"@en .
+
+<https://w3id.org/xapi/cmi5/context/extensions/launchmode> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "Indicates what launch mode an AU was launched with by the LMS"@en;
+   skos:inScheme <https://w3id.org/xapi/cmi5/v1.0>;
+   skos:prefLabel "launch mode"@en;
+   <https://w3id.org/xapi/profiles/ontology#inlineSchema> "{ \"enum\": [\"Normal\", \"Browse\", \"Review\"] }" .
+
+<https://w3id.org/xapi/cmi5/context/extensions/launchparameters> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "'launchParameters' as provided in the LMS Launch Data for the AU plus registration"@en;
+   skos:inScheme <https://w3id.org/xapi/cmi5/v1.0>;
+   skos:prefLabel "launch parameters"@en;
+   <https://w3id.org/xapi/profiles/ontology#inlineSchema> "{ \"type\": \"string\" }" .
+
+<https://w3id.org/xapi/cmi5/context/extensions/launchurl> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "The URL used by the LMS to launch the AU"@en;
+   skos:inScheme <https://w3id.org/xapi/cmi5/v1.0>;
+   skos:prefLabel "launch URL"@en;
+   <https://w3id.org/xapi/profiles/ontology#inlineSchema> "{ \"type\": \"string\", \"format\": \"uri\" }" .
+
+<https://w3id.org/xapi/cmi5/context/extensions/masteryscore> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "'masteryScore' as provided in the LMS Launch Data for the AU plus registration used to determine the pass/fail result based on score"@en;
+   skos:inScheme <https://w3id.org/xapi/cmi5/v1.0>;
+   skos:prefLabel "mastery score"@en;
+   <https://w3id.org/xapi/profiles/ontology#inlineSchema> "{ \"type\": \"number\",  \"maximum\": 1, \"minimum\": 0 }" .
+
+<https://w3id.org/xapi/cmi5/context/extensions/moveon> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "'moveOn' as provided in the LMS Launch Data for the AU plus registration"@en;
+   skos:inScheme <https://w3id.org/xapi/cmi5/v1.0>;
+   skos:prefLabel "move on"@en;
+   <https://w3id.org/xapi/profiles/ontology#inlineSchema> "{ \"enum\": [\"Passed\", \"Completed\", \"CompletedAndPassed\", \"CompletedOrPassed\", \"NotApplicable\"] }" .
+
+<https://w3id.org/xapi/cmi5/context/extensions/sessionid> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "A unique identifier for a single AU launch session based on actor and course registration."@en;
+   skos:exactMatch <https://w3id.org/xapi/video/extensions/session-id>;
+   skos:inScheme <https://w3id.org/xapi/cmi5/v1.0>;
+   skos:prefLabel "session ID"@en;
+   <https://w3id.org/xapi/profiles/ontology#inlineSchema> "{ \"type\": \"string\" }" .
+
+<https://w3id.org/xapi/cmi5/result/extensions/progress> a <https://w3id.org/xapi/ontology#ResultExtension>;
+   skos:definition """An integer value between 0 and 100 (inclusive) indicating the completion of the AU as a percentage.
+
+The AU may set this value in statements to indicate level of completion. The AU SHOULD NOT set a progress value in a Completed statement or if it has previously issued a Completed statement for the AU in the current registration."""@en;
+   skos:inScheme <https://w3id.org/xapi/cmi5/v1.0>;
+   skos:prefLabel "progress"@en;
+   <https://w3id.org/xapi/profiles/ontology#inlineSchema> "{ \"type\": \"number\", \"maximum\": 100, \"minimum\": 0, \"multipleOf\": 1.0 }" .
+
+<https://w3id.org/xapi/cmi5/result/extensions/reason> a <https://w3id.org/xapi/ontology#ResultExtension>;
+   skos:definition "Indicates the reason why an AU was 'waived' (marked complete by an alternative means)"@en;
+   skos:inScheme <https://w3id.org/xapi/cmi5/v1.0>;
+   skos:prefLabel "reason"@en;
+   <https://w3id.org/xapi/profiles/ontology#inlineSchema> "{ \"type\": \"string\" }" .
+
+<https://w3id.org/xapi/adl/verbs/abandoned> a <https://w3id.org/xapi/ontology#Verb>;
+   skos:definition "Indicates that the AU session was abnormally terminated by a learner's action (or due to a system failure)."@en;
+   skos:inScheme <https://w3id.org/xapi/cmi5/v1.0>;
+   skos:prefLabel "abandoned"@en .
+
+<https://w3id.org/xapi/cmi5#abandoned> a <https://w3id.org/xapi/profiles/ontology#StatementTemplate>;
+   skos:inScheme <https://w3id.org/xapi/cmi5/v1.0>;
+   skos:prefLabel "Abandoned"@en;
+   <https://w3id.org/xapi/profiles/ontology#rules> [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.contextActivities.category[*].id";
+     <https://w3id.org/xapi/profiles/ontology#none> "https://w3id.org/xapi/cmi5/context/categories/moveon"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result.success";
+     <https://w3id.org/xapi/profiles/ontology#presence> "excluded"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result.score";
+     <https://w3id.org/xapi/profiles/ontology#presence> "excluded"
+   ],  [
+     skos:scopeNote "The duration property MUST, at a minimum, be set as the total session time, calculated as the time between the 'Launched' statement and the last statement (of any kind) issued by the AU. The LMS SHOULD also use other (LMS specific) methods (if available) to determine if the total session time was longer.";
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result.duration";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result.completion";
+     <https://w3id.org/xapi/profiles/ontology#presence> "excluded"
+   ];
+   <https://w3id.org/xapi/profiles/ontology#verb> <https://w3id.org/xapi/adl/verbs/abandoned> .
+
+<https://w3id.org/xapi/cmi5#completedandmaybefailed> a <https://w3id.org/xapi/profiles/ontology#Pattern>;
+   skos:inScheme <https://w3id.org/xapi/cmi5/v1.0>;
+   skos:prefLabel "Completed And Maybe Failed"@en;
+   <https://w3id.org/xapi/profiles/ontology#alternates> <https://w3id.org/xapi/cmi5#maybecompletedthenfailed>,
+     <https://w3id.org/xapi/cmi5#failedthenmaybecompleted> .
+
+<https://w3id.org/xapi/cmi5#completedandpassed> a <https://w3id.org/xapi/profiles/ontology#Pattern>;
+   skos:inScheme <https://w3id.org/xapi/cmi5/v1.0>;
+   skos:prefLabel "Completed And Passed"@en;
+   <https://w3id.org/xapi/profiles/ontology#alternates> <https://w3id.org/xapi/cmi5#completedthenpassed>,
+     <https://w3id.org/xapi/cmi5#passedthencompleted> .
+
+<https://w3id.org/xapi/cmi5#completedthenpassed> a <https://w3id.org/xapi/profiles/ontology#Pattern>;
+   skos:inScheme <https://w3id.org/xapi/cmi5/v1.0>;
+   skos:prefLabel "Completed Then Passed"@en;
+   <https://w3id.org/xapi/profiles/ontology#sequence> (<https://w3id.org/xapi/cmi5#completed> <https://w3id.org/xapi/cmi5#satisfieds> <https://w3id.org/xapi/cmi5#passed>) .
+
+<https://w3id.org/xapi/cmi5#completionmaybefailedsession> a <https://w3id.org/xapi/profiles/ontology#Pattern>;
+   skos:inScheme <https://w3id.org/xapi/cmi5/v1.0>;
+   skos:prefLabel "Completion Maybe Failed Session"@en;
+   <https://w3id.org/xapi/profiles/ontology#sequence> (<https://w3id.org/xapi/cmi5#launched> <https://w3id.org/xapi/cmi5#initialized> <https://w3id.org/xapi/cmi5#completedandmaybefailed> <https://w3id.org/xapi/cmi5#satisfieds> <https://w3id.org/xapi/cmi5#terminatedorabandoned>) .
+
+<https://w3id.org/xapi/cmi5#completionnosuccesssession> a <https://w3id.org/xapi/profiles/ontology#Pattern>;
+   skos:inScheme <https://w3id.org/xapi/cmi5/v1.0>;
+   skos:prefLabel "Completion No Success Session"@en;
+   <https://w3id.org/xapi/profiles/ontology#sequence> (<https://w3id.org/xapi/cmi5#launched> <https://w3id.org/xapi/cmi5#initialized> <https://w3id.org/xapi/cmi5#completed> <https://w3id.org/xapi/cmi5#satisfieds> <https://w3id.org/xapi/cmi5#terminatedorabandoned>) .
+
+<https://w3id.org/xapi/cmi5#completionpassedsession> a <https://w3id.org/xapi/profiles/ontology#Pattern>;
+   skos:inScheme <https://w3id.org/xapi/cmi5/v1.0>;
+   skos:prefLabel "Completed And Passed Session"@en;
+   <https://w3id.org/xapi/profiles/ontology#sequence> (<https://w3id.org/xapi/cmi5#launched> <https://w3id.org/xapi/cmi5#initialized> <https://w3id.org/xapi/cmi5#completedandpassed> <https://w3id.org/xapi/cmi5#satisfieds> <https://w3id.org/xapi/cmi5#terminatedorabandoned>) .
+
+<https://w3id.org/xapi/cmi5#failedsession> a <https://w3id.org/xapi/profiles/ontology#Pattern>;
+   skos:inScheme <https://w3id.org/xapi/cmi5/v1.0>;
+   skos:prefLabel "Failed Session"@en;
+   <https://w3id.org/xapi/profiles/ontology#sequence> (<https://w3id.org/xapi/cmi5#launched> <https://w3id.org/xapi/cmi5#initialized> <https://w3id.org/xapi/cmi5#failed> <https://w3id.org/xapi/cmi5#terminatedorabandoned>) .
+
+<https://w3id.org/xapi/cmi5#failedthenmaybecompleted> a <https://w3id.org/xapi/profiles/ontology#Pattern>;
+   skos:inScheme <https://w3id.org/xapi/cmi5/v1.0>;
+   skos:prefLabel "Failed Then Maybe Completed"@en;
+   <https://w3id.org/xapi/profiles/ontology#sequence> (<https://w3id.org/xapi/cmi5#failed> <https://w3id.org/xapi/cmi5#maybecompleted>) .
+
+<https://w3id.org/xapi/cmi5#maybecompletedthenfailed> a <https://w3id.org/xapi/profiles/ontology#Pattern>;
+   skos:inScheme <https://w3id.org/xapi/cmi5/v1.0>;
+   skos:prefLabel "Maybe Completed Then Failed"@en;
+   <https://w3id.org/xapi/profiles/ontology#sequence> (<https://w3id.org/xapi/cmi5#maybecompleted> <https://w3id.org/xapi/cmi5#satisfieds> <https://w3id.org/xapi/cmi5#failed>) .
+
+<https://w3id.org/xapi/cmi5#noresultsession> a <https://w3id.org/xapi/profiles/ontology#Pattern>;
+   skos:inScheme <https://w3id.org/xapi/cmi5/v1.0>;
+   skos:prefLabel "No Result Session"@en;
+   <https://w3id.org/xapi/profiles/ontology#sequence> (<https://w3id.org/xapi/cmi5#launched> <https://w3id.org/xapi/cmi5#initialized> <https://w3id.org/xapi/cmi5#terminatedorabandoned>) .
+
+<https://w3id.org/xapi/cmi5#passedsession> a <https://w3id.org/xapi/profiles/ontology#Pattern>;
+   skos:inScheme <https://w3id.org/xapi/cmi5/v1.0>;
+   skos:prefLabel "Completed And Maybe Failed"@en;
+   <https://w3id.org/xapi/profiles/ontology#sequence> (<https://w3id.org/xapi/cmi5#launched> <https://w3id.org/xapi/cmi5#initialized> <https://w3id.org/xapi/cmi5#passed> <https://w3id.org/xapi/cmi5#satisfieds> <https://w3id.org/xapi/cmi5#terminatedorabandoned>) .
+
+<https://w3id.org/xapi/cmi5#passedthencompleted> a <https://w3id.org/xapi/profiles/ontology#Pattern>;
+   skos:inScheme <https://w3id.org/xapi/cmi5/v1.0>;
+   skos:prefLabel "Passed Then Completed"@en;
+   <https://w3id.org/xapi/profiles/ontology#sequence> (<https://w3id.org/xapi/cmi5#passed> <https://w3id.org/xapi/cmi5#satisfieds> <https://w3id.org/xapi/cmi5#completed>) .
+
+<https://w3id.org/xapi/cmi5#satisfied> a <https://w3id.org/xapi/profiles/ontology#StatementTemplate>;
+   skos:inScheme <https://w3id.org/xapi/cmi5/v1.0>;
+   skos:prefLabel "Satisfied"@en;
+   <https://w3id.org/xapi/profiles/ontology#rules> [
+     <https://w3id.org/xapi/profiles/ontology#any> "https://w3id.org/xapi/cmi5/activitytype/block",
+       "https://w3id.org/xapi/cmi5/activitytype/course";
+     <https://w3id.org/xapi/profiles/ontology#location> "$.object.definition.type";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result.completion";
+     <https://w3id.org/xapi/profiles/ontology#presence> "excluded"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result.score";
+     <https://w3id.org/xapi/profiles/ontology#presence> "excluded"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result.success";
+     <https://w3id.org/xapi/profiles/ontology#presence> "excluded"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.contextActivities.category[*].id";
+     <https://w3id.org/xapi/profiles/ontology#none> "https://w3id.org/xapi/cmi5/context/categories/moveon"
+   ];
+   <https://w3id.org/xapi/profiles/ontology#verb> <http://adlnet.gov/expapi/verbs/satisfied> .
+
+<https://w3id.org/xapi/cmi5#terminated> a <https://w3id.org/xapi/profiles/ontology#StatementTemplate>;
+   skos:inScheme <https://w3id.org/xapi/cmi5/v1.0>;
+   skos:prefLabel "Terminated"@en;
+   <https://w3id.org/xapi/profiles/ontology#rules> [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result.score";
+     <https://w3id.org/xapi/profiles/ontology#presence> "excluded"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result.completion";
+     <https://w3id.org/xapi/profiles/ontology#presence> "excluded"
+   ],  [
+     skos:scopeNote "The AU SHOULD calculate duration for Terminated statements as the time difference between the 'Initialized' statement and the 'Terminated' statement. The AU may use other methods to calculate the duration based on criteria determined by the AU.";
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result.duration";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.contextActivities.category[*].id";
+     <https://w3id.org/xapi/profiles/ontology#none> "https://w3id.org/xapi/cmi5/context/categories/moveon"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result.success";
+     <https://w3id.org/xapi/profiles/ontology#presence> "excluded"
+   ];
+   <https://w3id.org/xapi/profiles/ontology#verb> <http://adlnet.gov/expapi/verbs/terminated> .
+
+<https://w3id.org/xapi/cmi5#typicalsession> a <https://w3id.org/xapi/profiles/ontology#Pattern>;
+   skos:inScheme <https://w3id.org/xapi/cmi5/v1.0>;
+   skos:prefLabel "Typical Session"@en;
+   <https://w3id.org/xapi/profiles/ontology#alternates> <https://w3id.org/xapi/cmi5#completionpassedsession>,
+     <https://w3id.org/xapi/cmi5#passedsession>,
+     <https://w3id.org/xapi/cmi5#failedsession>,
+     <https://w3id.org/xapi/cmi5#completionnosuccesssession>,
+     <https://w3id.org/xapi/cmi5#completionmaybefailedsession>,
+     <https://w3id.org/xapi/cmi5#waivedsession>,
+     <https://w3id.org/xapi/cmi5#noresultsession> .
+
+<https://w3id.org/xapi/cmi5#waived> a <https://w3id.org/xapi/profiles/ontology#StatementTemplate>;
+   skos:inScheme <https://w3id.org/xapi/cmi5/v1.0>;
+   skos:prefLabel "Waived"@en;
+   <https://w3id.org/xapi/profiles/ontology#rules> [
+     <https://w3id.org/xapi/profiles/ontology#all> true;
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result.success";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#all> true;
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result.completion";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result.score";
+     <https://w3id.org/xapi/profiles/ontology#presence> "excluded"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#any> "https://w3id.org/xapi/cmi5/context/categories/moveon";
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.contextActivities.category[*].id";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result['https://w3id.org/xapi/cmi5/result/extensions/reason']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ];
+   <https://w3id.org/xapi/profiles/ontology#verb> <http://adlnet.gov/expapi/verbs/waived> .
+
+<https://w3id.org/xapi/cmi5#waivedsession> a <https://w3id.org/xapi/profiles/ontology#Pattern>;
+   skos:inScheme <https://w3id.org/xapi/cmi5/v1.0>;
+   skos:prefLabel "Waived Session"@en;
+   <https://w3id.org/xapi/profiles/ontology#sequence> (<https://w3id.org/xapi/cmi5#satisfieds> <https://w3id.org/xapi/cmi5#waived> <https://w3id.org/xapi/cmi5#satisfieds>) .
+
+<https://w3id.org/xapi/cmi5#maybecompleted> a <https://w3id.org/xapi/profiles/ontology#Pattern>;
+   skos:inScheme <https://w3id.org/xapi/cmi5/v1.0>;
+   skos:prefLabel "Maybe Completed"@en;
+   <https://w3id.org/xapi/profiles/ontology#optional> <https://w3id.org/xapi/cmi5#completed> .
+
+<https://w3id.org/xapi/cmi5#failed> a <https://w3id.org/xapi/profiles/ontology#StatementTemplate>;
+   skos:inScheme <https://w3id.org/xapi/cmi5/v1.0>;
+   skos:prefLabel "Failed"@en;
+   <https://w3id.org/xapi/profiles/ontology#rules> [
+     skos:scopeNote "The AU SHOULD calculate duration as the time spent by the learner to attempt and fail in a judged activity of the AU.";
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result.duration";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result.completion";
+     <https://w3id.org/xapi/profiles/ontology#presence> "excluded"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#any> "https://w3id.org/xapi/cmi5/context/categories/moveon";
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.contextActivities.category[*].id";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result.score";
+     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#all> false;
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result.success";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ];
+   <https://w3id.org/xapi/profiles/ontology#verb> <http://adlnet.gov/expapi/verbs/failed> .
+
+<https://w3id.org/xapi/cmi5#passed> a <https://w3id.org/xapi/profiles/ontology#StatementTemplate>;
+   skos:inScheme <https://w3id.org/xapi/cmi5/v1.0>;
+   skos:prefLabel "Passed"@en;
+   <https://w3id.org/xapi/profiles/ontology#rules> [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result.score";
+     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result.completion";
+     <https://w3id.org/xapi/profiles/ontology#presence> "excluded"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#all> true;
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result.success";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#any> "https://w3id.org/xapi/cmi5/context/categories/moveon";
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.contextActivities.category[*].id";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     skos:scopeNote "The AU SHOULD calculate duration as the time spent by the learner to attempt and succeed in a judged activity of the AU.";
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result.duration";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ];
+   <https://w3id.org/xapi/profiles/ontology#verb> <http://adlnet.gov/expapi/verbs/passed> .
+
+<https://w3id.org/xapi/cmi5#completed> a <https://w3id.org/xapi/profiles/ontology#StatementTemplate>;
+   skos:inScheme <https://w3id.org/xapi/cmi5/v1.0>;
+   skos:prefLabel "Completed"@en;
+   <https://w3id.org/xapi/profiles/ontology#rules> [
+     <https://w3id.org/xapi/profiles/ontology#any> "https://w3id.org/xapi/cmi5/context/categories/moveon";
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.contextActivities.category[*].id";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result.success";
+     <https://w3id.org/xapi/profiles/ontology#presence> "excluded"
+   ],  [
+     skos:scopeNote "The AU SHOULD calculate duration as the time spent by the learner to achieve completion status.";
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result.duration";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#all> true;
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result.completion";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result.score";
+     <https://w3id.org/xapi/profiles/ontology#presence> "excluded"
+   ];
+   <https://w3id.org/xapi/profiles/ontology#verb> <http://adlnet.gov/expapi/verbs/completed> .
+
+<https://w3id.org/xapi/cmi5#initialized> a <https://w3id.org/xapi/profiles/ontology#StatementTemplate>;
+   skos:inScheme <https://w3id.org/xapi/cmi5/v1.0>;
+   skos:prefLabel "Initialized"@en;
+   <https://w3id.org/xapi/profiles/ontology#rules> [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.contextActivities.category[*].id";
+     <https://w3id.org/xapi/profiles/ontology#none> "https://w3id.org/xapi/cmi5/context/categories/moveon"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result.completion";
+     <https://w3id.org/xapi/profiles/ontology#presence> "excluded"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result.success";
+     <https://w3id.org/xapi/profiles/ontology#presence> "excluded"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result.score";
+     <https://w3id.org/xapi/profiles/ontology#presence> "excluded"
+   ];
+   <https://w3id.org/xapi/profiles/ontology#verb> <http://adlnet.gov/expapi/verbs/initialized> .
+
+<https://w3id.org/xapi/cmi5#launched> a <https://w3id.org/xapi/profiles/ontology#StatementTemplate>;
+   skos:inScheme <https://w3id.org/xapi/cmi5/v1.0>;
+   skos:prefLabel "Launched"@en;
+   <https://w3id.org/xapi/profiles/ontology#rules> [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result.score";
+     <https://w3id.org/xapi/profiles/ontology#presence> "excluded"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#all> "Review",
+       "Browse",
+       "Normal";
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/cmi5/context/extensions/launchmode']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result.completion";
+     <https://w3id.org/xapi/profiles/ontology#presence> "excluded"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/cmi5/context/extensions/launchparameters']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     skos:scopeNote "The LMS MUST put a fully qualified URL equivalent to the one that the LMS used to launch the AU without the name/value pairs included as defined in section 8.1 in the context extensions of the 'Launched' statement.";
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/cmi5/context/extensions/launchurl']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.contextActivities.category[*].id";
+     <https://w3id.org/xapi/profiles/ontology#none> "https://w3id.org/xapi/cmi5/context/categories/moveon"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result.success";
+     <https://w3id.org/xapi/profiles/ontology#presence> "excluded"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#all> "Passed",
+       "CompletedOrPassed",
+       "CompletedAndPassed",
+       "Completed",
+       "NotApplicable";
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/cmi5/context/extensions/moveon']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ];
+   <https://w3id.org/xapi/profiles/ontology#verb> <http://adlnet.gov/expapi/verbs/launched> .
+
+<https://w3id.org/xapi/cmi5#terminatedorabandoned> a <https://w3id.org/xapi/profiles/ontology#Pattern>;
+   skos:inScheme <https://w3id.org/xapi/cmi5/v1.0>;
+   skos:prefLabel "Terminated Or Abandoned"@en;
+   <https://w3id.org/xapi/profiles/ontology#alternates> <https://w3id.org/xapi/cmi5#abandoned>,
+     <https://w3id.org/xapi/cmi5#terminated> .
+
+<https://w3id.org/xapi/cmi5#satisfieds> a <https://w3id.org/xapi/profiles/ontology#Pattern>;
+   skos:inScheme <https://w3id.org/xapi/cmi5/v1.0>;
+   skos:prefLabel "Satisfieds"@en;
+   <https://w3id.org/xapi/profiles/ontology#zeroOrMore> <https://w3id.org/xapi/cmi5#satisfied> .
+
+<https://w3id.org/xapi/cmi5/v1.0> prov:generatedAtTime "2017-03-27T12:30:00-07:00"^^xsd:dateTime;
+   prov:wasRevisionOf <https://w3id.org/xapi/cmi5/context/categories/cmi5> .
+
+_:b94 .
