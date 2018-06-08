@@ -44,17 +44,61 @@
 		}
 	},
   {
-      "id": "https://w3id.org/xapi/profilename/extensions/extensionname",
-      "inScheme": "https://w3id.org/xapi/newprofilename",
-      "type": "ContextExtension",
-      "prefLabel": {
-          "en": "Title of Context Extension"
-      },
-      "definition": {
-          "en": "Provide a description here."
-      },
-      "inlineSchema": ""
-  },
+        "id": "https://w3id.org/xapi/gblxapi/extensions/grade",
+        "inScheme": "https://w3id.org/xapi/gblxapi/v1.0",
+        "type": "ContextExtension",
+        "definition": {
+          "en": "The grade level(s) content available in the object represented alpha-numerically from Pre-K (PK), Kindergarten (K), and grades 1-12."
+        },
+        "prefLabel": {
+          "en": "Grade"
+        },
+        "inlineSchema": "{ \"enum\": [\"Pre-K\", \"K\", \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\", \"10\", \"11\", \"12\"] }"
+    },
+    {
+        "id": "https://w3id.org/xapi/gblxapi/extensions/domain",
+        "inScheme": "https://w3id.org/xapi/gblxapi/v1.0",
+        "type": "ContextExtension",
+        "definition": {
+          "en": "Represents the domain or discipline content type that the actor has experienced in the statement. An example for GBLxAPI for math is Counting and Cardinality."
+        },
+        "prefLabel": {
+          "en": "Domain"
+        },
+    },
+    {
+        "id": "https://w3id.org/xapi/gblxapi/extensions/subdomain",
+        "inScheme": "https://w3id.org/xapi/gblxapi/v1.0",
+        "type": "ContextExtension",
+        "definition": {
+          "en": "Represents the subdomain content type the actor has experienced in the statement. An example for GBLxAPI for math is Problem Solving."
+        },
+        "prefLabel": {
+          "en": "SubDomain"
+        },
+    },
+    {
+        "id": "https://w3id.org/xapi/gblxapi/extensions/skill",
+        "inScheme": "https://w3id.org/xapi/gblxapi/v1.0",
+        "type": "ContextExtension",
+        "definition": {
+          "en": "Represents a skills type the actor has experienced in the statement. An example for GBLxAPI for science is Cause and Effect"
+        },
+        "prefLabel": {
+          "en": "skill"
+        },
+    },
+    {
+        "id": "https://w3id.org/xapi/gblxapi/extensions/focus",
+        "inScheme": "https://w3id.org/xapi/gblxapi/v1.0",
+        "type": "ContextExtension",
+        "definition": {
+          "en": "Represents a subject area focus are the actor has experienced in the statement. An example for GBLxAPI for science is Cause and Effect"
+        },
+        "prefLabel": {
+          "en": "skill"
+        },
+    },
   {
       "id": "https://w3id.org/xapi/profilename/extensions/extensionname",
       "inScheme": "https://w3id.org/xapi/newprofilename",
