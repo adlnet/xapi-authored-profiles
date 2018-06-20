@@ -22,28 +22,6 @@
     },
     "concepts": [
       {
-        "id": "https://w3id.org/xapi/profilename/verbs/verbname",
-        "inScheme": "https://w3id.org/xapi/profilename",
-        "type": "Verb",
-        "definition": {
-          "en": "Provide a description here."
-        },
-        "prefLabel": {
-          "en": "Title of Verb"
-        }
-      },
-    	{
-    		"id": "https://w3id.org/xapi/profilename/activity-types/activityname",
-            	"inScheme": "https://w3id.org/xapi/newprofilename",
-    		"type": "ActivityType",
-    		"definition": {
-    			"en": "Provide a description here."
-    		},
-    		"prefLabel": {
-    			"en": "Title of Activity Type"
-    		}
-    	},
-      {
         "id": "https://w3id.org/xapi/gblxapi/extensions/grade",
         "inScheme": "https://w3id.org/xapi/gblxapi/v1.0",
         "type": "ContextExtension",
@@ -64,7 +42,7 @@
         },
         "prefLabel": {
           "en": "Domain"
-        },
+        }
       },
       {
         "id": "https://w3id.org/xapi/gblxapi/extensions/subdomain",
@@ -75,7 +53,7 @@
         },
         "prefLabel": {
           "en": "SubDomain"
-        },
+        }
       },
       {
         "id": "https://w3id.org/xapi/gblxapi/extensions/skill",
@@ -86,7 +64,7 @@
         },
         "prefLabel": {
           "en": "skill"
-        },
+        }
       },
       {
         "id": "https://w3id.org/xapi/gblxapi/extensions/focus",
@@ -97,7 +75,7 @@
         },
         "prefLabel": {
           "en": "focus"
-        },
+        }
       },
       {
         "id": "https://w3id.org/xapi/gblxapi/extensions/topic",
@@ -108,7 +86,7 @@
         },
         "prefLabel": {
           "en": "topic"
-        },
+        }
       },
       {
         "id": "https://w3id.org/xapi/gblxapi/extensions/action",
@@ -119,194 +97,7 @@
         },
         "prefLabel": {
           "en": "action"
-        },
-      },
-      {
-        "id": "https://w3id.org/xapi/gblxapi/verbs/earned",
-        "inScheme": "https://w3id.org/xapi/gblxapi/v1.0",
-        "type": "Verb",
-        "relatedMatch": ["https://w3id.org/xapi/seriousgames/verbs/unlocked"],
-        "definition": {
-          "en": "Indicates that the actor has earned an object, for example a prize or an achievement."
-        },
-        "prefLabel": {
-          "en": "earned"
-        },
-      },
-      {
-        "id": "https://w3id.org/xapi/gblxapi/verbs/purchased",
-        "inScheme": "https://w3id.org/xapi/gblxapi/v1.0",
-        "type": "Verb",
-        "definition": {
-          "en": "Indicates that the actor has made an in-app purchase."
-        },
-        "prefLabel": {
-          "en": "purchased"
-        },
-      },
-      {
-        "id": "https://w3id.org/xapi/gblxapi/activities/application",
-        "inScheme": "https://w3id.org/xapi/gblxapi/v1.0",
-        "type": "Activity",
-        "narrowMatch": ["https://w3id.org/xapi/seriousgames/activity-types/serious-game"],
-        "definition": {
-          "en": "A digital application the actor interacts with."
-        },
-        "prefLabel": {
-          "en": "application"
-        },
-      },
-      {
-        "id": "https://w3id.org/xapi/gblxapi/activities/practice",
-        "inScheme": "https://w3id.org/xapi/gblxapi/v1.0",
-        "type": "Activity",
-        "broader": ["https://w3id.org/xapi/gblxapi/activities/mode"],
-        "definition": {
-          "en": "A mode in the application in which the actor can practice their skills."
-        },
-        "prefLabel": {
-          "en": "practice"
-        },
-      },
-      {
-        "id": "https://w3id.org/xapi/gblxapi/activities/mode",
-        "inScheme": "https://w3id.org/xapi/gblxapi/v1.0",
-        "type": "Activity",
-        "narrower": ["https://w3id.org/xapi/gblxapi/activities/practice", "https://w3id.org/xapi/gblxapi/activities/tutorial"],
-        "definition": {
-          "en": "An application mode the actor can interact with."
-        },
-        "prefLabel": {
-          "en": "mode"
-        },
-      },
-      {
-        "id": "https://w3id.org/xapi/gblxapi/activities/tutorial",
-        "inScheme": "https://w3id.org/xapi/gblxapi/v1.0",
-        "type": "Activity",
-        "broader": ["https://w3id.org/xapi/gblxapi/activities/mode"],
-        "definition": {
-          "en": "An application mode in which the actor learns the basics of how the app works."
-        },
-        "prefLabel": {
-          "en": "tutorial"
-        },
-      },
-      {
-        "id": "https://w3id.org/xapi/gblxapi/activities/story",
-        "inScheme": "https://w3id.org/xapi/gblxapi/v1.0",
-        "type": "Activity",
-        "definition": {
-          "en": "The story associated with the game the actor is playing."
-        },
-        "prefLabel": {
-          "en": "story"
-        },
-      },
-      {
-        "id": "https://w3id.org/xapi/gblxapi/activities/journal",
-        "inScheme": "https://w3id.org/xapi/gblxapi/v1.0",
-        "type": "Activity",
-        "definition": {
-          "en": "A journal which stores information about the actor's progress and play statistics."
-        },
-        "prefLabel": {
-          "en": "tutorial"
-        },
-      },
-      {
-        "id": "https://w3id.org/xapi/gblxapi/activities/quiz",
-        "inScheme": "https://w3id.org/xapi/gblxapi/v1.0",
-        "type": "Activity",
-        "definition": {
-          "en": "A small assessment of the actor's knowledge in the relevant subject area."
-        },
-        "prefLabel": {
-          "en": "quiz"
-        },
-      },
-      {
-        "id": "https://w3id.org/xapi/gblxapi/activities/reward",
-        "inScheme": "https://w3id.org/xapi/gblxapi/v1.0",
-        "type": "Activity",
-        "broadMatch": ["https://w3id.org/xapi/seriousgames/activity-types/item"],
-        "definition": {
-          "en": "A prize given to the actor."
-        },
-        "prefLabel": {
-          "en": "reward"
-        },
-      },
-      {
-        "id": "https://w3id.org/xapi/gblxapi/activities/survey",
-        "inScheme": "https://w3id.org/xapi/gblxapi/v1.0",
-        "type": "Activity",
-        "definition": {
-          "en": "A small questionnaire presented to the actor"
-        },
-        "prefLabel": {
-          "en": "survey"
-        },
-      },
-      {
-        "id": "https://w3id.org/xapi/gblxapi/activities/achievement",
-        "inScheme": "https://w3id.org/xapi/gblxapi/v1.0",
-        "type": "Activity",
-        "definition": {
-          "en": "A recognition of progress and/or good performance presented to the actor."
-        },
-        "prefLabel": {
-          "en": "achievement"
-        },
-      },
-      {
-        "id": "https://w3id.org/xapi/profilename/extensions/extensionname",
-        "inScheme": "https://w3id.org/xapi/newprofilename",
-        "type": "ResultExtension",
-        "prefLabel": {
-            "en": "Title of Result Extension"
-        },
-        "definition": {
-            "en": "Indicates the reason why an AU was 'waived' (marked complete by an alternative means)"
-        },
-        "inlineSchema": ""
-      }
-    ],
-    "templates": [
-      {
-        "id": "https://w3id.org/xapi/newprofilename#templatename",
-        "type": "StatementTemplate",
-        "inScheme": "https://w3id.org/xapi/newprofilename",
-        "prefLabel": {
-          "en": "Restrictions for all of this profile's Statements"
-        },
-        "verb": "",
-        "rules": [
-          {
-              "location": "$.id",
-              "presence": "included"
-          },
-          {
-              "location": "$.timestamp",
-              "presence": "included",
-              "scopeNote": ""
-          }
-        ]
-      }
-    ],
-    "patterns": [
-      {
-        "id": "https://w3id.org/xapi/newprofilename5#patternname",
-        "type": "Pattern",
-        "primary": true,
-        "prefLabel": {
-          "en": "Title of Pattern"
-        },
-        "definition": {
-          "en": "Provide a description here."
-        },
-        "inScheme": "https://w3id.org/xapi/newprofilename5",
-        "sequence": ["", ""]
+        }
       }
     ]
 }
