@@ -98,6 +98,17 @@
         "prefLabel": {
           "en": "action"
         }
+      },
+      {
+        "id": "https://w3id.org/xapi.gblxapi/extensions/action",
+        "inScheme": "https://w3id.org/xapi/gblxapi/v1.o",
+        "type": "Activity",
+        "definition": {
+          "en": "Represents a difficulty level that determines the complexity of questions that the learner must answer or activities they must perform."
+        },
+        prefLabel: {
+          "en": "difficulty"
+        }
       }
     ]
 }
