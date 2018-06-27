@@ -100,7 +100,7 @@
         }
       },
       {
-        "id": "https://w3id.org/xapi.gblxapi/extensions/action",
+        "id": "https://w3id.org/xapi.gblxapi/extensions/difficulty",
         "inScheme": "https://w3id.org/xapi/gblxapi/v1.o",
         "type": "Activity",
         "definition": {
