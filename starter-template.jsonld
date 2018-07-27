@@ -56,7 +56,7 @@
       },
       "inlineSchema": ""
   }
-],
+,
   {
       "id": "https://w3id.org/xapi/profilename/extensions/extensionname",
       "inScheme": "https://w3id.org/xapi/newprofilename",
