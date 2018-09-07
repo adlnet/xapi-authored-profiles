@@ -107,7 +107,7 @@
         "definition": {
           "en": "Represents a difficulty level that determines the complexity of questions that the learner must answer or activities they must perform."
         },
-        prefLabel: {
+        "prefLabel": {
           "en": "difficulty"
         }
       }
