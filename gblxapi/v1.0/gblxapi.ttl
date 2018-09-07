@@ -1,0 +1,70 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/xapi.gblxapi/extensions/difficulty> a <https://w3id.org/xapi/ontology#Activity>;
+   skos:definition "Represents a difficulty level that determines the complexity of questions that the learner must answer or activities they must perform."@en;
+   skos:inScheme <https://w3id.org/xapi/gblxapi/v1.0>;
+   skos:prefLabel "difficulty"@en .
+
+<https://w3id.org/xapi/gblxapi> a <https://w3id.org/xapi/profiles/ontology#Profile>;
+   dc:conformsTo <https://w3id.org/xapi/profiles#1.0>;
+   schema:author [
+     a schema:Organization;
+     schema:name "The GBLxAPI Project"
+   ];
+   rdfs:seeAlso <https://gblxapi.org>;
+   skos:definition "The GBLxAPI K-12 Education Apps profile of xAPI was created to identify and standardize the common interactions that can be found in k-12 educational learning apps and game-based learning. The profile was created as part of a research project known as GBLxAPI. "@en;
+   skos:prefLabel "GBLxAPI - K-12 Education Apps Profile"@en;
+   <https://w3id.org/xapi/profiles/ontology#concepts> <https://w3id.org/xapi/gblxapi/extensions/skill>,
+     <https://w3id.org/xapi/gblxapi/extensions/action>,
+     <https://w3id.org/xapi/gblxapi/extensions/subdomain>,
+     <https://w3id.org/xapi/gblxapi/extensions/topic>,
+     <https://w3id.org/xapi/gblxapi/extensions/domain>,
+     <https://w3id.org/xapi/gblxapi/extensions/grade>,
+     <https://w3id.org/xapi/gblxapi/extensions/focus>,
+     <https://w3id.org/xapi.gblxapi/extensions/difficulty>;
+   <https://w3id.org/xapi/profiles/ontology#versions> <https://w3id.org/xapi/gblxapi/v1.0> .
+
+<https://w3id.org/xapi/gblxapi/extensions/action> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "Represents an action the actor has undertaken in the statement. An example for GBLxAPI for science is Graphs, Plots, and Tables."@en;
+   skos:inScheme <https://w3id.org/xapi/gblxapi/v1.0>;
+   skos:prefLabel "action"@en .
+
+<https://w3id.org/xapi/gblxapi/extensions/domain> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "Represents the domain or discipline content type that the actor has experienced in the statement. An example for GBLxAPI for math is Counting and Cardinality."@en;
+   skos:inScheme <https://w3id.org/xapi/gblxapi/v1.0>;
+   skos:prefLabel "domain"@en .
+
+<https://w3id.org/xapi/gblxapi/extensions/focus> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "Represents a subject area focus the actor has experienced in the statement. An example for GBLxAPI for science is Electricity."@en;
+   skos:inScheme <https://w3id.org/xapi/gblxapi/v1.0>;
+   skos:prefLabel "focus"@en .
+
+<https://w3id.org/xapi/gblxapi/extensions/grade> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "The grade level(s) content available in the object represented alpha-numerically from Pre-K (PK), Kindergarten (K), and grades 1-12."@en;
+   skos:inScheme <https://w3id.org/xapi/gblxapi/v1.0>;
+   skos:prefLabel "grade"@en;
+   <https://w3id.org/xapi/profiles/ontology#inlineSchema> "{ \"enum\": [\"Pre-K\", \"K\", \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\", \"10\", \"11\", \"12\"] }" .
+
+<https://w3id.org/xapi/gblxapi/extensions/skill> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "Represents a skills type the actor has experienced in the statement. An example for GBLxAPI for science is Cause and Effect."@en;
+   skos:inScheme <https://w3id.org/xapi/gblxapi/v1.0>;
+   skos:prefLabel "skill"@en .
+
+<https://w3id.org/xapi/gblxapi/extensions/subdomain> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "Represents the subdomain content type the actor has experienced in the statement. An example for GBLxAPI for math is Problem Solving."@en;
+   skos:inScheme <https://w3id.org/xapi/gblxapi/v1.0>;
+   skos:prefLabel "subdomain"@en .
+
+<https://w3id.org/xapi/gblxapi/extensions/topic> a <https://w3id.org/xapi/ontology#ContextExtension>;
+   skos:definition "Represents a subject area topic the actor has experienced in the statement. An example for GBLxAPI for science is Natural Selection."@en;
+   skos:inScheme <https://w3id.org/xapi/gblxapi/v1.0>;
+   skos:prefLabel "topic"@en .
+
+<https://w3id.org/xapi/gblxapi/v1.0> prov:generatedAtTime "2018-09-07T18:38:40Z"^^xsd:dateTime;
+   prov:wasRevisionOf <https://w3id.org/xapi/gblxapi> .
