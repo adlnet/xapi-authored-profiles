@@ -308,7 +308,7 @@
 
 <https://w3id.org/xapi/video/verbs/played> a <https://w3id.org/xapi/ontology#Verb>;
    skos:definition "Indicates that the actor started experiencing the recorded media object."@en;
-   skos:exactMatch <http://activitystrea.ms/schema/play>;
+   skos:exactMatch <http://activitystrea.ms/schema/1.0/play>;
    skos:inScheme <https://w3id.org/xapi/video/v1.0>;
    skos:prefLabel "played"@en .
 
@@ -320,7 +320,7 @@
 <https://w3id.org/xapi/video/activity-type/video> a <https://w3id.org/xapi/ontology#ActivityType>;
    skos:definition "A recording of both the visual and audible components made available on a display screen."@en;
    skos:exactMatch <https://w3id.org/xapi/acrossx/activities/video>,
-     <http://activitystrea.ms/schema/video>;
+     <http://activitystrea.ms/schema/1.0/video>;
    skos:inScheme <https://w3id.org/xapi/video/v1.0>;
    skos:prefLabel "video"@en .
 

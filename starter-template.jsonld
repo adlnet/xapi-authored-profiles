@@ -13,7 +13,8 @@
     "versions": [
         {
             "id": "",
-            "generatedAtTime": ""
+            "generatedAtTime": "",
+            "wasRevisionOf": ["https://w3id.org/xapi/"]
         }
     ],
     "author": {
@@ -26,7 +27,7 @@
         "inScheme": "https://w3id.org/xapi/profilename",
         "type": "Verb",
         "definition": {
-          "en": "Provide a description here."
+          "en": "Full description of the verb."
         },
         "prefLabel": {
           "en": "Title of Verb"
@@ -37,7 +38,7 @@
         	"inScheme": "https://w3id.org/xapi/newprofilename",
 		"type": "ActivityType",
 		"definition": {
-			"en": "Provide a description here."
+			"en": "Full description or purpose of the activity type."
 		},
 		"prefLabel": {
 			"en": "Title of Activity Type"
@@ -46,12 +47,25 @@
   {
       "id": "https://w3id.org/xapi/profilename/extensions/extensionname",
       "inScheme": "https://w3id.org/xapi/newprofilename",
+      "type": "ActivityExtension",
+      "prefLabel": {
+          "en": "Title of Activity Extension"
+      },
+      "definition": {
+          "en": "Full description or purpose of the extension."
+      },
+      "inlineSchema": ""
+  }
+,
+  {
+      "id": "https://w3id.org/xapi/profilename/extensions/extensionname",
+      "inScheme": "https://w3id.org/xapi/newprofilename",
       "type": "ContextExtension",
       "prefLabel": {
           "en": "Title of Context Extension"
       },
       "definition": {
-          "en": "Provide a description here."
+          "en": "Full description or purpose of the extension."
       },
       "inlineSchema": ""
   },
@@ -63,7 +77,7 @@
           "en": "Title of Result Extension"
       },
       "definition": {
-          "en": "Indicates the reason why an AU was 'waived' (marked complete by an alternative means)"
+          "en": "Full description or purpose of the extension."
       },
       "inlineSchema": ""
   }
