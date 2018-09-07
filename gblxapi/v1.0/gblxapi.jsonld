@@ -103,7 +103,7 @@
       {
         "id": "https://w3id.org/xapi.gblxapi/extensions/difficulty",
         "inScheme": "https://w3id.org/xapi/gblxapi/v1.0",
-        "type": "Activity",
+        "type": "ActivityExtension",
         "definition": {
           "en": "Represents a difficulty level that determines the complexity of questions that the learner must answer or activities they must perform."
         },
