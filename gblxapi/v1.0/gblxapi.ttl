@@ -6,11 +6,6 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://w3id.org/xapi.gblxapi/extensions/difficulty> a <https://w3id.org/xapi/ontology#Activity>;
-   skos:definition "Represents a difficulty level that determines the complexity of questions that the learner must answer or activities they must perform."@en;
-   skos:inScheme <https://w3id.org/xapi/gblxapi/v1.0>;
-   skos:prefLabel "difficulty"@en .
-
 <https://w3id.org/xapi/gblxapi> a <https://w3id.org/xapi/profiles/ontology#Profile>;
    dc:conformsTo <https://w3id.org/xapi/profiles#1.0>;
    schema:author [
@@ -65,6 +60,11 @@
    skos:definition "Represents a subject area topic the actor has experienced in the statement. An example for GBLxAPI for science is Natural Selection."@en;
    skos:inScheme <https://w3id.org/xapi/gblxapi/v1.0>;
    skos:prefLabel "topic"@en .
+
+<https://w3id.org/xapi.gblxapi/extensions/difficulty> a <https://w3id.org/xapi/ontology#ActivityExtension>;
+   skos:definition "Represents a difficulty level that determines the complexity of questions that the learner must answer or activities they must perform."@en;
+   skos:inScheme <https://w3id.org/xapi/gblxapi/v1.0>;
+   skos:prefLabel "difficulty"@en .
 
 <https://w3id.org/xapi/gblxapi/v1.0> prov:generatedAtTime "2018-09-07T18:38:40Z"^^xsd:dateTime;
    prov:wasRevisionOf <https://w3id.org/xapi/gblxapi> .
