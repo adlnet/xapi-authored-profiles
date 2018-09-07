@@ -13,7 +13,8 @@
     "versions": [
         {
             "id": "https://w3id.org/xapi/gblxapi/v1.0",
-            "generatedAtTime": ""
+            "generatedAtTime": "2018-09-07T18:38:40Z",
+            "wasRevisionOf": ["https://w3id.org/xapi/gblxapi"]
         }
     ],
     "author": {
@@ -29,7 +30,7 @@
           "en": "The grade level(s) content available in the object represented alpha-numerically from Pre-K (PK), Kindergarten (K), and grades 1-12."
         },
         "prefLabel": {
-          "en": "Grade"
+          "en": "grade"
         },
         "inlineSchema": "{ \"enum\": [\"Pre-K\", \"K\", \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\", \"10\", \"11\", \"12\"] }"
       },
@@ -41,7 +42,7 @@
           "en": "Represents the domain or discipline content type that the actor has experienced in the statement. An example for GBLxAPI for math is Counting and Cardinality."
         },
         "prefLabel": {
-          "en": "Domain"
+          "en": "domain"
         }
       },
       {
@@ -52,7 +53,7 @@
           "en": "Represents the subdomain content type the actor has experienced in the statement. An example for GBLxAPI for math is Problem Solving."
         },
         "prefLabel": {
-          "en": "SubDomain"
+          "en": "subdomain"
         }
       },
       {
@@ -101,7 +102,7 @@
       },
       {
         "id": "https://w3id.org/xapi.gblxapi/extensions/difficulty",
-        "inScheme": "https://w3id.org/xapi/gblxapi/v1.o",
+        "inScheme": "https://w3id.org/xapi/gblxapi/v1.0",
         "type": "Activity",
         "definition": {
           "en": "Represents a difficulty level that determines the complexity of questions that the learner must answer or activities they must perform."
