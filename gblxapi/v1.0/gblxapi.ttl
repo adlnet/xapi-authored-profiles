@@ -61,7 +61,7 @@
    skos:inScheme <https://w3id.org/xapi/gblxapi/v1.0>;
    skos:prefLabel "topic"@en .
 
-<https://w3id.org/xapi.gblxapi/extensions/difficulty> a <https://w3id.org/xapi/ontology#ActivityExtension>;
+<https://w3id.org/xapi/gblxapi/extensions/difficulty> a <https://w3id.org/xapi/ontology#ActivityExtension>;
    skos:definition "Represents a difficulty level that determines the complexity of questions that the learner must answer or activities they must perform."@en;
    skos:inScheme <https://w3id.org/xapi/gblxapi/v1.0>;
    skos:prefLabel "difficulty"@en .
