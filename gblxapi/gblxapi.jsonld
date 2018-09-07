@@ -10,13 +10,6 @@
         "en": "The GBLxAPI K-12 Education Apps profile of xAPI was created to identify and standardize the common interactions that can be found in k-12 educational learning apps and game-based learning. The profile was created as part of a research project known as GBLxAPI. "
     },
     "seeAlso": "https://gblxapi.org",
-    "versions": [
-        {
-            "id": "https://w3id.org/xapi/gblxapi/v1.0",
-            "generatedAtTime": "2018-09-07T18:38:40Z",
-            "wasRevisionOf": ["https://w3id.org/xapi/gblxapi"]
-        }
-    ],
     "author": {
         "type": "Organization",
         "name": "The GBLxAPI Project"
