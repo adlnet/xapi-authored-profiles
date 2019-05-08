@@ -146,6 +146,9 @@
      <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/audio/extensions/session-id']";
      <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
    ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.duration";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
      <https://w3id.org/xapi/profiles/ontology#location> "$.timestamp";
      <https://w3id.org/xapi/profiles/ontology#presence> "included"
    ],  [

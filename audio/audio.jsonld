@@ -387,6 +387,10 @@
           "presence": "included"
         },
         {
+          "location": "$.duration",
+          "presence": "included"
+        },
+        {
           "location": "$.context.extensions['https://w3id.org/xapi/audio/extensions/length']",
           "presence": "included"
         },
