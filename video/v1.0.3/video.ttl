@@ -404,7 +404,7 @@
     <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/video/extensions/time-from']";
     <https://w3id.org/xapi/profiles/ontology#presence> "included"
   ], [
-    <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/video/extensions/length']";
+    <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/length']";
     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
   ], [
     <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/video/extensions/played-segments']";
