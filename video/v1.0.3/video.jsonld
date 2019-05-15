@@ -495,7 +495,7 @@
           "presence": "recommended"
         },
         {
-          "location": "$.result.extensions['https://w3id.org/xapi/video/extensions/length']",
+          "location": "$.context.extensions['https://w3id.org/xapi/video/extensions/length']",
           "presence": "recommended"
         },
         {
