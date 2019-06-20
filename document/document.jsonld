@@ -1,0 +1,326 @@
+{
+  "@context": "https://w3id.org/xapi/profiles/context",
+  "id": "https://w3id.org/xapi/document",
+  "type": "Profile",
+  "conformsTo": "https://w3id.org/xapi/profiles#1.0",
+  "prefLabel": {
+    "en": "Document Profile"
+  },
+  "definition": {
+    "en": "The document profile of the xAPI was created to identify and standardize the common types of interactions that can be tracked against various document types"
+  },
+  "versions": [
+    {
+      "id": "https://w3id.org/xapi/document/v1.0",
+      "generatedAtTime": "2019-06-20T12:30:00-07:00"
+    }
+  ],
+  "author": {
+    "type": "Organization",
+    "name": "Rustici Software"
+  },
+  "concepts": [
+    {
+      "@id": "https://w3id.org/xapi/document/activity-type/pdfDocument",
+      "inScheme": "https://w3id.org/xapi/document/v1.0",
+      "@type": "ActivityType",
+      "definition": {
+        "en": "A document in the Portable Document Format (PDF) file format."
+      },
+      "prefLabel": {
+        "en": "pdfDocument"
+      }
+    },
+    {
+      "id": "https://w3id.org/xapi/document/verbs/viewed",
+      "inScheme": "https://w3id.org/xapi/document/v1.0",
+      "@type": "Verb",
+      "definition": {
+        "en": "Indicates that a page of the document was viewed by the user."
+      },
+      "prefLabel": {
+        "en": "abandoned"
+      }
+    },
+    {
+      "id": "https://w3id.org/xapi/document/extensions/page-count",
+      "inScheme": "https://w3id.org/xapi/document/v1.0",
+      "type": "ContextExtension",
+      "prefLabel": {
+        "en": "Page Count"
+      },
+      "definition": {
+        "en": "An integer value noting the total number of pages in the document."
+      },
+      "inlineSchema": "{ \"type\": \"number\", \"multipleOf\": 1.0 }"
+    },
+    {
+      "id": "https://w3id.org/xapi/document/extensions/current-page",
+      "inScheme": "https://w3id.org/xapi/document/v1.0",
+      "type": "ResultExtension",
+      "prefLabel": {
+        "en": "Current Page"
+      },
+      "definition": {
+        "en": "An integer value noting the page number of the currently viewed page."
+      },
+      "inlineSchema": "{ \"type\": \"number\", \"multipleOf\": 1.0 }"
+    },
+    {
+      "id": "https://w3id.org/xapi/document/extensions/viewed-pages",
+      "inScheme": "https://w3id.org/xapi/document/v1.0",
+      "type": "ResultExtension",
+      "prefLabel": {
+        "en": "Viewed Pages"
+      },
+      "definition": {
+        "en": "A list of integers noting the page numbers of all the pages the user has viewed during the session."
+      },
+      "inlineSchema": "{ \"type\": \"string\" }"
+    },
+    {
+      "id": "https://w3id.org/xapi/document/extensions/progress",
+      "inScheme": "https://w3id.org/xapi/document/v1.0",
+      "type": "ResultExtension",
+      "prefLabel": {
+        "en": "Progress"
+      },
+      "definition": {
+        "en": "A number used to expresses the percentage of document consumed by the actor."
+      },
+      "inlineSchema": "{ \"type\": \"number\" }"
+    },
+    {
+      "id": "https://w3id.org/xapi/document/extensions/link-destination",
+      "inScheme": "https://w3id.org/xapi/document/v1.0",
+      "type": "ResultExtension",
+      "prefLabel": {
+        "en": "Link Destination"
+      },
+      "definition": {
+        "en": "Records the target of any clicked links in the document. Could be internal or external"
+      },
+      "inlineSchema": "{ \"type\": \"string\" }"
+    }
+  ],
+  "templates": [
+    {
+      "id": "https://w3id.org/xapi/document/templates#initialized",
+      "inScheme": "https://w3id.org/xapi/document/v1.0",
+      "prefLabel": {
+        "en": "Initialized"
+      },
+      "definition": {
+        "en": "The statement template and rules associated with a document being initialized or started."
+      },
+      "verb": "http://adlnet.gov/expapi/verbs/initialized",
+      "rules": [
+        {
+          "location": "$.id",
+          "presence": "included"
+        },
+        {
+          "location": "$.timestamp",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://w3id.org/xapi/document/extensions/page-count']",
+          "presence": "included"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/xapi/document/templates#viewed-page",
+      "inScheme": "https://w3id.org/xapi/document/v1.0",
+      "prefLabel": {
+        "en": "Viewed"
+      },
+      "definition": {
+        "en": "The statement template and rules associated with a document page being viewed."
+      },
+      "verb": "https://w3id.org/xapi/document/verbs/viewed",
+      "objectActivityType": "https://w3id.org/xapi/document/activity-type/pdfDocument",
+      "rules": [
+        {
+          "location": "$.id",
+          "presence": "included"
+        },
+        {
+          "location": "$.timestamp",
+          "presence": "included"
+        },
+        {
+          "location": "$.result.extensions['https://w3id.org/xapi/document/extensions/current-page']",
+          "presence": "included"
+        },
+        {
+          "location": "$.result.extensions['https://w3id.org/xapi/document/extensions/viewed-pages']",
+          "presence": "recommended"
+        },
+        {
+          "location": "$.result.extensions['https://w3id.org/xapi/document/extensions/progress]",
+          "presence": "recommended"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/xapi/document/templates#link-interaction",
+      "inScheme": "https://w3id.org/xapi/document/v1.0",
+      "prefLabel": {
+        "en": "Document Link Clicked"
+      },
+      "definition": {
+        "en": "The statement template and rules associated with the user clicking a link on the document."
+      },
+      "verb": "http://adlnet.gov/expapi/verbs/interacted",
+      "objectActivityType": "https://w3id.org/xapi/document/activity-type/pdfDocument",
+      "rules": [
+        {
+          "location": "$.id",
+          "presence": "included"
+        },
+        {
+          "location": "$.timestamp",
+          "presence": "included"
+        },
+        {
+          "location": "$.result.extensions['https://w3id.org/xapi/document/extensions/current-page']",
+          "presence": "included"
+        },
+        {
+          "location": "$.result.extensions['https://w3id.org/xapi/document/extensions/viewed-pages']",
+          "presence": "recommended"
+        },
+        {
+          "location": "$.result.extensions['https://w3id.org/xapi/document/extensions/progress]",
+          "presence": "recommended"
+        },
+        {
+          "location": "$.result.extensions['https://w3id.org/xapi/document/extensions/link-destination]",
+          "presence": "included"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/xapi/document/templates#completed",
+      "inScheme": "https://w3id.org/xapi/document/v1.0",
+      "prefLabel": {
+        "en": "Completed"
+      },
+      "definition": {
+        "en": "The statement template and rules associated with a document being completely viewed."
+      },
+      "verb": "http://adlnet.gov/expapi/verbs/completed",
+      "objectActivityType": "https://w3id.org/xapi/document/activity-type/pdfDocument",
+      "rules": [
+        {
+          "location": "$.id",
+          "presence": "included"
+        },
+        {
+          "location": "$.timestamp",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://w3id.org/xapi/document/extensions/page-count']",
+          "presence": "recommended"
+        },
+        {
+          "location": "$.result.extensions['https://w3id.org/xapi/document/extensions/current-page']",
+          "presence": "recommended"
+        },
+        {
+          "location": "$.result.extensions['https://w3id.org/xapi/document/extensions/viewed-pages']",
+          "presence": "included"
+        },
+        {
+          "location": "$.result.extensions['https://w3id.org/xapi/document/extensions/progress]",
+          "presence": "included"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/xapi/document/templates#terminated",
+      "inScheme": "https://w3id.org/xapi/document/v1.0",
+      "prefLabel": {
+        "en": "Terminated"
+      },
+      "definition": {
+        "en": "The statement template and rules associated with a terminating the player."
+      },
+      "verb": "http://adlnet.gov/expapi/verbs/terminated",
+      "objectActivityType": "https://w3id.org/xapi/document/activity-type/pdfDocument",
+      "rules": [
+        {
+          "location": "$.id",
+          "presence": "included"
+        },
+        {
+          "location": "$.timestamp",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://w3id.org/xapi/document/extensions/page-count']",
+          "presence": "recommended"
+        },
+        {
+          "location": "$.result.extensions['https://w3id.org/xapi/document/extensions/current-page']",
+          "presence": "recommended"
+        },
+        {
+          "location": "$.result.extensions['https://w3id.org/xapi/document/extensions/viewed-pages']",
+          "presence": "included"
+        },
+        {
+          "location": "$.result.extensions['https://w3id.org/xapi/document/extensions/progress]",
+          "presence": "included"
+        }
+      ]
+    }
+  ],
+  "patterns": [
+    {
+      "id": "https://w3id.org/xapi/document/patterns#generalpattern",
+      "inScheme": "https://w3id.org/xapi/document/v1.0",
+      "primary": true,
+      "prefLabel": {
+        "en": "General Pattern"
+      },
+      "definition": {
+        "en": "The general pattern and sequence of Statement templates using the Document Profile."
+      },
+      "sequence": [
+        "https://w3id.org/xapi/document/templates#initialized",
+        "https://w3id.org/xapi/document/patterns#optionalmiddlestatements",
+        "https://w3id.org/xapi/document/templates#terminated"
+      ]
+    },
+    {
+      "id": "https://w3id.org/xapi/document/patterns#all-activities-pattern",
+      "inScheme": "https://w3id.org/xapi/document/v1.0",
+      "prefLabel": {
+        "en": "All Activities Pattern"
+      },
+      "definition": {
+        "en": "All of the Document Profile statement templates."
+      },
+      "alternates": [
+        "https://w3id.org/xapi/document/templates#viewed-page",
+        "https://w3id.org/xapi/document/templates#link-interaction",
+        "https://w3id.org/xapi/document/templates#completed"
+      ]
+    },
+    {
+      "id": "https://w3id.org/xapi/document/patterns#optionalmiddlestatements",
+      "inScheme": "https://w3id.org/xapi/document/v1.0",
+      "prefLabel": {
+        "en": "Optional Middle Statements"
+      },
+      "definition": {
+        "en": "A combined pattern of zero or more Document Profile standard statement templates that can be used with the general pattern."
+      },
+      "type": "Pattern",
+      "zeroOrMore": "https://w3id.org/xapi/document/patterns#all-activities-pattern"
+    }
+  ]
+}
