@@ -154,10 +154,6 @@
           "presence": "included"
         },
         {
-          "location": "$.result.extensions['https://w3id.org/xapi/document/extensions/viewed-pages']",
-          "presence": "recommended"
-        },
-        {
           "location": "$.result.extensions['https://w3id.org/xapi/document/extensions/progress]",
           "presence": "recommended"
         }
@@ -186,10 +182,6 @@
         {
           "location": "$.result.extensions['https://w3id.org/xapi/document/extensions/current-page']",
           "presence": "included"
-        },
-        {
-          "location": "$.result.extensions['https://w3id.org/xapi/document/extensions/viewed-pages']",
-          "presence": "recommended"
         },
         {
           "location": "$.result.extensions['https://w3id.org/xapi/document/extensions/progress]",

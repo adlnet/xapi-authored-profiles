@@ -123,9 +123,6 @@
        <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/document/extensions/page-count']";
            <https://w3id.org/xapi/profiles/ontology#presence> "included"
     ],[
-       <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/document/extensions/viewed-pages']";
-           <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
-    ],[
            <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/document/extensions/progress]";
            <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
     ];
@@ -144,9 +141,6 @@
     ],[
           <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/document/extensions/current-page']";
           <https://w3id.org/xapi/profiles/ontology#presence> "included"
-    ],[
-          <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/document/extensions/viewed-pages']";
-          <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
     ],[
           <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/document/extensions/progress]";
           <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
