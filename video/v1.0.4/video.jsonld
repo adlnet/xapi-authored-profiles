@@ -17,7 +17,7 @@
   "versions": [
     {
       "id": "https://w3id.org/xapi/video/v1.0.4",
-      "generatedAtTime": "2019-06-28T10:45:00Z",
+      "generatedAtTime": "2019-05-10T10:45:00Z",
       "wasRevisionOf": ["https://w3id.org/xapi/video/v1.0.3"]
     } ],
   "concepts": [
