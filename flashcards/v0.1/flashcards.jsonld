@@ -1,0 +1,128 @@
+{
+	"@context": "https://w3id.org/xapi/profiles/context",
+	"id": "https://w3id.org/xapi/flashcards",
+	"type": "Profile",
+	"conformsTo": "https://w3id.org/xapi/profiles#1.0",
+	"prefLabel": {
+		"en": "Flashcards"
+	},
+	"definition": {
+		"en": "The flashcards profile provides the common types of activities and interactions when learners engage in an electronic flashcard activity."
+	},
+	"seeAlso": "https://risc-inc.com/contact",
+	"author": {
+		"type": "Organization",
+		"name": "RISC, Inc"
+	},
+	"versions": [{
+		"id": "https://w3id.org/xapi/flashcards/v0.1",
+		"generatedAtTime": "2019-07-01T10:45:00Z",
+		"wasRevisionOf": ["https://w3id.org/xapi/flashcards"]
+	}],
+
+	"concepts": [{
+			"id": "https://w3id.org/xapi/flashcards/activity-types/flashcard-deck",
+			"inScheme": "https://w3id.org/xapi/flashcards/v0.1",
+			"type": "ActivityType",
+			"definition": {
+				"en": "A deck of flashcards used for retrieval practice or memorization."
+			},
+			"prefLabel": {
+				"en": "flashcard deck"
+			}
+		},
+		{
+			"id": "https://w3id.org/xapi/flashcards/activity-types/flashcard",
+			"inScheme": "https://w3id.org/xapi/flashcards/v0.1",
+			"type": "ActivityType",
+			"definition": {
+				"en": "A single flashcard used for retrieval practice or memorization."
+			},
+			"prefLabel": {
+				"en": "flashcard"
+			}
+		}
+
+
+	],
+	"templates": [{
+			"id": "https://w3id.org/xapi/flashcards/templates#launched",
+			"type": "StatementTemplate",
+			"inScheme": "https://w3id.org/xapi/flashcards/v0.1",
+			"prefLabel": {
+				"en": "Rules for the launched statement used in the flashcards profile"
+			},
+			"verb": "http://adlnet.gov/expapi/verbs/launched",
+			"objectActivityType": "https://w3id.org/xapi/flashcards/activity-types/flashcard-deck",
+			"rules": [{
+					"location": "$.id",
+					"presence": "included"
+				},
+				{
+					"location": "$.timestamp",
+					"presence": "included"
+				}
+			]
+		},
+		{
+			"id": "https://w3id.org/xapi/flashcards/templates#viewed",
+			"type": "StatementTemplate",
+			"inScheme": "https://w3id.org/xapi/flashcards/v0.1",
+			"prefLabel": {
+				"en": "Rules for the viewed statement used in the flashcards profile"
+			},
+			"verb": "http://id.tincanapi.com/verb/viewed",
+			"objectActivityType": "https://w3id.org/xapi/flashcards/activity-types/flashcard",
+                                   "contextParentActivityType": "https://w3id.org/xapi/flashcards/activity-types/flashcard-deck",
+			"rules": [{
+					"location": "$.id",
+					"presence": "included"
+				},
+				{
+					"location": "$.timestamp",
+					"presence": "included"
+				}
+			]
+		},
+		{
+			"id": "https://w3id.org/xapi/flashcards/templates#exited",
+			"type": "StatementTemplate",
+			"inScheme": "https://w3id.org/xapi/flashcards/v0.1",
+			"prefLabel": {
+				"en": "Rules for the exited statement used in the flashcards profile"
+			},
+			"verb": "http://adlnet.gov/expapi/verbs/exited",
+			"objectActivityType": "https://w3id.org/xapi/flashcards/activity-types/flashcard-deck",
+			"rules": [{
+					"location": "$.id",
+					"presence": "included"
+				},
+				{
+					"location": "$.timestamp",
+					"presence": "included"
+				},
+				{
+					"location": "$.result.duration",
+					"presence": "included"
+				},
+				{
+					"location": "$.result.completion",
+					"presence": "included"
+				}
+			]
+		}
+	],
+	"patterns": [{
+		"id": "https://w3id.org/xapi/flashcards/patterns#basic",
+		"type": "Pattern",
+		"primary": true,
+		"prefLabel": {
+			"en": "Basic Flashcards"
+		},
+		"definition": {
+			"en": "This is a general pattern in which flashcards were simply opened and closed."
+		},
+		"inScheme": "https://w3id.org/xapi/flashcards/v0.1",
+		"sequence": ["https://w3id.org/xapi/flashcards/templates#launched", "https: //w3id.org/xapi/flashcards/templates#viewed", "https://w3id.org/xapi/flashcards/templates#exited"]
+	}]
+}
