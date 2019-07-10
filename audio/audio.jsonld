@@ -1,0 +1,376 @@
+{
+  "@context": "https://w3id.org/xapi/profiles/context",
+  "id": "https://w3id.org/xapi/audio",
+  "type": "Profile",
+  "conformsTo": "https://w3id.org/xapi/profiles#1.0",
+  "prefLabel": {
+    "en": "Audio Profile"
+  },
+  "definition": {
+    "en": "The audio profile of the xAPI was created to identify and standardize the common types of interactions that can be tracked in any audio player."
+  },
+  "seeAlso": "https://github.com/johngriner91/xapi-authored-profiles",
+  "author": {
+    "type": "Organization",
+    "name": "xAPI Audio CoP"
+  },
+  "versions": [
+    {
+      "id": "https://w3id.org/xapi/audio/v1.0"
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://w3id.org/xapi/audio/activity-type/audio",
+      "inScheme": "https://w3id.org/xapi/audio/v1.0",
+      "type": "ActivityType",
+      "exactMatch": [
+        {
+          "id": "http://activitystrea.ms/schema/1.0/audio"
+        }
+      ],
+      "definition": {
+        "en": "A recording of audio content."
+      },
+      "prefLabel": {
+        "en": "audio"
+      }
+    }
+  ],
+  "templates": [
+    {
+      "id": "https://w3id.org/xapi/audio/templates#initialized",
+      "inScheme": "https://w3id.org/xapi/audio/v1.0",
+      "prefLabel": {
+        "en": "Initialized"
+      },
+      "definition": {
+        "en": "The statement template and rules associated with audio content being initialized or started."
+      },
+      "verb": "http://adlnet.gov/expapi/verbs/initialized",
+      "objectActivityType": "https://w3id.org/xapi/audio/activity-type/audio",
+      "rules": [
+        {
+          "location": "$.id",
+          "presence": "included"
+        },
+        {
+          "location": "$.timestamp",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://w3id.org/xapi/video/extensions/length']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://w3id.org/xapi/video/extensions/completion-threshold']",
+          "presence": "recommended"
+        },
+        {
+          "location": "$.context.extensions['https://w3id.org/xapi/video/extensions/volume']",
+          "presence": "recommended"
+        },
+        {
+          "location": "$.context.extensions['https://w3id.org/xapi/video/extensions/user-agent']",
+          "presence": "recommended"
+        },
+        {
+          "location": "$.context.extensions['https://w3id.org/xapi/video/extensions/speed']",
+          "presence": "recommended"
+        },
+        {
+          "location": "$.context.extensions['https://w3id.org/xapi/video/extensions/session-id']",
+          "presence": "recommended"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/xapi/audio/templates#played",
+      "inScheme": "https://w3id.org/xapi/audio/v1.0",
+      "prefLabel": {
+        "en": "Played"
+      },
+      "definition": {
+        "en": "The statement template and rules associated with audio content being played."
+      },
+      "verb": "https://w3id.org/xapi/video/verbs/played",
+      "objectActivityType": "https://w3id.org/xapi/audio/activity-type/audio",
+      "rules": [
+        {
+          "location": "$.id",
+          "presence": "included"
+        },
+        {
+          "location": "$.timestamp",
+          "presence": "included"
+        },
+        {
+          "location": "$.result.extensions['https://w3id.org/xapi/video/extensions/time']",
+          "presence": "included"
+        },
+        {
+          "location": "$.result.extensions['https://w3id.org/xapi/video/extensions/played-segments']",
+          "presence": "recommended"
+        },
+        {
+          "location": "$.context.extensions['https://w3id.org/xapi/video/extensions/session-id']",
+          "presence": "recommended"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/xapi/audio/templates#paused",
+      "inScheme": "https://w3id.org/xapi/audio/v1.0",
+      "prefLabel": {
+        "en": "Paused"
+      },
+      "definition": {
+        "en": "The statement template and rules associated with audio content being paused."
+      },
+      "verb": "https://w3id.org/xapi/video/verbs/paused",
+      "objectActivityType": "https://w3id.org/xapi/audio/activity-type/audio",
+      "rules": [
+        {
+          "location": "$.id",
+          "presence": "included"
+        },
+        {
+          "location": "$.timestamp",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://w3id.org/xapi/video/extensions/length']",
+          "presence": "included"
+        },
+        {
+          "location": "$.result.extensions['https://w3id.org/xapi/video/extensions/time']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://w3id.org/xapi/video/extensions/completion-threshold']",
+          "presence": "recommended"
+        },
+        {
+          "location": "$.result.extensions['https://w3id.org/xapi/video/extensions/played-segments']",
+          "presence": "recommended"
+        },
+        {
+          "location": "$.result.extensions['https://w3id.org/xapi/video/extensions/progress']",
+          "presence": "recommended"
+        },
+        {
+          "location": "$.context.extensions['https://w3id.org/xapi/video/extensions/session-id']",
+          "presence": "recommended"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/xapi/audio/templates#seeked",
+      "inScheme": "https://w3id.org/xapi/audio/v1.0",
+      "prefLabel": {
+        "en": "Seeked"
+      },
+      "definition": {
+        "en": "The statement template and rules associated with the audio content seekbar being moved from and to a specific position."
+      },
+      "verb": "https://w3id.org/xapi/video/verbs/seeked",
+      "objectActivityType": "https://w3id.org/xapi/audio/activity-type/audio",
+      "rules": [
+        {
+          "location": "$.id",
+          "presence": "included"
+        },
+        {
+          "location": "$.timestamp",
+          "presence": "included"
+        },
+        {
+          "location": "$.result.extensions['https://w3id.org/xapi/video/extensions/time-to']",
+          "presence": "included"
+        },
+        {
+          "location": "$.result.extensions['https://w3id.org/xapi/video/extensions/time-from']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://w3id.org/xapi/video/extensions/session-id']",
+          "presence": "recommended"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/xapi/audio/templates#completed",
+      "inScheme": "https://w3id.org/xapi/audio/v1.0",
+      "prefLabel": {
+        "en": "Completed"
+      },
+      "definition": {
+        "en": "The statement template and rules associated with audio content being completed."
+      },
+      "verb": "http://adlnet.gov/expapi/verbs/completed",
+      "objectActivityType": "https://w3id.org/xapi/audio/activity-type/audio",
+      "rules": [
+        {
+          "location": "$.id",
+          "presence": "included"
+        },
+        {
+          "location": "$.timestamp",
+          "presence": "included"
+        },
+        {
+          "location": "$.duration",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://w3id.org/xapi/video/extensions/length']",
+          "presence": "included"
+        },
+        {
+          "location": "$.result.extensions['https://w3id.org/xapi/video/extensions/time']",
+          "presence": "included"
+        },
+        {
+          "location": "$.result.extensions['https://w3id.org/xapi/video/extensions/progress']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://w3id.org/xapi/video/extensions/completion-threshold']",
+          "presence": "recommended"
+        },
+        {
+          "location": "$.result.extensions['https://w3id.org/xapi/video/extensions/played-segments']",
+          "presence": "recommended"
+        },
+        {
+          "location": "$.context.extensions['https://w3id.org/xapi/video/extensions/session-id']",
+          "presence": "recommended"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/xapi/audio/templates#terminated",
+      "inScheme": "https://w3id.org/xapi/audio/v1.0",
+      "prefLabel": {
+        "en": "Terminated"
+      },
+      "definition": {
+        "en": "The statement template and rules associated with a terminating the player."
+      },
+      "verb": "http://adlnet.gov/expapi/verbs/terminated",
+      "objectActivityType": "https://w3id.org/xapi/audio/activity-type/audio",
+      "rules": [
+        {
+          "location": "$.id",
+          "presence": "included"
+        },
+        {
+          "location": "$.timestamp",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://w3id.org/xapi/video/extensions/length']",
+          "presence": "included"
+        },
+        {
+          "location": "$.result.extensions['https://w3id.org/xapi/video/extensions/time']",
+          "presence": "included"
+        },
+        {
+          "location": "$.result.extensions['https://w3id.org/xapi/video/extensions/progress']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://w3id.org/xapi/video/extensions/completion-threshold']",
+          "presence": "recommended"
+        },
+        {
+          "location": "$.result.extensions['https://w3id.org/xapi/video/extensions/played-segments']",
+          "presence": "recommended"
+        },
+        {
+          "location": "$.context.extensions['https://w3id.org/xapi/video/extensions/session-id']",
+          "presence": "recommended"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/xapi/audio/templates#volumechange",
+      "inScheme": "https://w3id.org/xapi/audio/v1.0",
+      "prefLabel": {
+        "en": "Volume Change Interaction"
+      },
+      "verb": "http://adlnet.gov/expapi/verbs/interacted",
+      "objectActivityType": "https://w3id.org/xapi/audio/activity-type/audio",
+      "rules": [
+        {
+          "location": "$.id",
+          "presence": "included"
+        },
+        {
+          "location": "$.timestamp",
+          "presence": "included"
+        },
+        {
+          "location": "$.result.extensions['https://w3id.org/xapi/video/extensions/time']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://w3id.org/xapi/video/extensions/volume']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://w3id.org/xapi/video/extensions/session-id']",
+          "presence": "recommended"
+        }
+      ]
+    }
+  ],
+  "patterns": [
+    {
+      "id": "https://w3id.org/xapi/audio/patterns#generalpattern",
+      "inScheme": "https://w3id.org/xapi/audio/v1.0",
+      "primary": true,
+      "prefLabel": {
+        "en": "General Pattern"
+      },
+      "definition": {
+        "en": "The general pattern and sequence of Statement templates using the Audio Profile."
+      },
+      "sequence": [
+        "https://w3id.org/xapi/audio/templates#initialized",
+        "https://w3id.org/xapi/audio/patterns#optionalmiddlestatements",
+        "https://w3id.org/xapi/audio/templates#terminated"
+      ]
+    },
+    {
+      "id": "https://w3id.org/xapi/audio/patterns#all-activities-pattern",
+      "inScheme": "https://w3id.org/xapi/audio/v1.0",
+      "prefLabel": {
+        "en": "All Activities Pattern"
+      },
+      "definition": {
+        "en": "All of the Audio Profile statement templates."
+      },
+      "alternates": [
+        "https://w3id.org/xapi/audio/templates#played",
+        "https://w3id.org/xapi/audio/templates#paused",
+        "https://w3id.org/xapi/audio/templates#seeked",
+        "https://w3id.org/xapi/audio/templates#volumechange",
+        "https://w3id.org/xapi/audio/templates#completed"
+      ]
+    },
+    {
+      "id": "https://w3id.org/xapi/audio/patterns#optionalmiddlestatements",
+      "inScheme": "https://w3id.org/xapi/audio/v1.0",
+      "prefLabel": {
+        "en": "Optional Middle Statements"
+      },
+      "definition": {
+        "en": "A combined pattern of zero or more Audio Profile standard statement templates that can be used with the general pattern."
+      },
+      "type": "Pattern",
+      "zeroOrMore": "https://w3id.org/xapi/audio/patterns#all-activities-pattern"
+    }
+  ]
+}

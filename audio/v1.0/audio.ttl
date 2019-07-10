@@ -1,0 +1,249 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/xapi/audio> a <https://w3id.org/xapi/profiles/ontology#Profile>;
+   dc:conformsTo <https://w3id.org/xapi/profiles#1.0>;
+   schema:author [
+     a schema:Organization;
+     schema:name "xAPI Audio CoP"
+   ];
+   rdfs:seeAlso <https://github.com/johngriner91/xapi-authored-profiles>;
+   skos:definition "The audio profile of the xAPI was created to identify and standardize the common types of interactions that can be tracked in any audio player."@en;
+   skos:prefLabel "Audio Profile"@en;
+   <https://w3id.org/xapi/profiles/ontology#patterns>
+     <https://w3id.org/xapi/audio/patterns#optionalmiddlestatements>,
+     <https://w3id.org/xapi/audio/patterns#all-activities-pattern>,
+     <https://w3id.org/xapi/audio/patterns#generalpattern>;
+   <https://w3id.org/xapi/profiles/ontology#templates>
+     <https://w3id.org/xapi/audio/templates#initialized>,
+     <https://w3id.org/xapi/audio/templates#seeked>,
+     <https://w3id.org/xapi/audio/templates#played>,
+     <https://w3id.org/xapi/audio/templates#paused>,
+     <https://w3id.org/xapi/audio/templates#completed>,
+     <https://w3id.org/xapi/audio/templates#terminated>,
+     <https://w3id.org/xapi/audio/templates#volumechange>;
+   <https://w3id.org/xapi/profiles/ontology#versions> <https://w3id.org/xapi/audio/v1.0> .
+
+<https://w3id.org/xapi/audio/patterns#generalpattern> skos:definition "The general pattern and sequence of Statement templates using the Audio Profile."@en;
+   skos:inScheme <https://w3id.org/xapi/audio/v1.0>;
+   skos:prefLabel "General Pattern"@en;
+   <https://w3id.org/xapi/profiles/ontology#primary> true;
+   <https://w3id.org/xapi/profiles/ontology#sequence> (<https://w3id.org/xapi/audio/templates#initialized> <https://w3id.org/xapi/audio/patterns#optionalmiddlestatements> <https://w3id.org/xapi/audio/templates#terminated>) .
+
+<https://w3id.org/xapi/audio/patterns#all-activities-pattern> skos:definition "All of the Audio Profile statement templates."@en;
+   skos:inScheme <https://w3id.org/xapi/audio/v1.0>;
+   skos:prefLabel "All Activities Pattern"@en;
+   <https://w3id.org/xapi/profiles/ontology#alternates>
+     <https://w3id.org/xapi/video/templates#paused>,
+     <https://w3id.org/xapi/video/templates#seeked>,
+     <https://w3id.org/xapi/video/templates#played>,
+     <https://w3id.org/xapi/video/templates#completed>,
+     <https://w3id.org/xapi/video/templates#volumechange>.
+
+<https://w3id.org/xapi/audio/patterns#optionalmiddlestatements> a <https://w3id.org/xapi/profiles/ontology#Pattern>;
+   skos:definition "A combined pattern of zero or more Audio Profile standard statement templates that can be used with the general pattern."@en;
+   skos:inScheme <https://w3id.org/xapi/audio/v1.0>;
+   skos:prefLabel "Optional Middle Statements"@en;
+   <https://w3id.org/xapi/profiles/ontology#zeroOrMore> <https://w3id.org/xapi/audio/patterns#all-activities-pattern> .
+
+<https://w3id.org/xapi/audio/templates#completed> skos:definition "The statement template and rules associated with audio content being completed."@en;
+   skos:inScheme <https://w3id.org/xapi/audio/v1.0>;
+   skos:prefLabel "Completed"@en;
+   <https://w3id.org/xapi/profiles/ontology#objectActivityType> <https://w3id.org/xapi/audio/activity-type/audio>;
+   <https://w3id.org/xapi/profiles/ontology#rules> [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/video/extensions/progress']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.id";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/session-id']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.duration";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.timestamp";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/video/extensions/played-segments']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/length']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/completion-threshold']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/video/extensions/time']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ];
+   <https://w3id.org/xapi/profiles/ontology#verb> <http://adlnet.gov/expapi/verbs/completed> .
+
+<https://w3id.org/xapi/audio/templates#initialized> skos:definition "The statement template and rules associated with audio content being initialized or started."@en;
+   skos:inScheme <https://w3id.org/xapi/audio/v1.0>;
+   skos:prefLabel "Initialized"@en;
+   <https://w3id.org/xapi/profiles/ontology#rules> [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/volume']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/completion-threshold']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/user-agent']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.id";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/length']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.timestamp";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/speed']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/session-id']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
+   ];
+   <https://w3id.org/xapi/profiles/ontology#verb> <http://adlnet.gov/expapi/verbs/initialized> .
+
+<https://w3id.org/xapi/audio/templates#paused> skos:definition "The statement template and rules associated with audio content being paused."@en;
+   skos:inScheme <https://w3id.org/xapi/audio/v1.0>;
+   skos:prefLabel "Paused"@en;
+   <https://w3id.org/xapi/profiles/ontology#objectActivityType> <https://w3id.org/xapi/audio/activity-type/audio>;
+   <https://w3id.org/xapi/profiles/ontology#rules> [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.id";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/video/extensions/progress']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/completion-threshold']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/video/extensions/time']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/session-id']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/video/extensions/played-segments']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/length']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.timestamp";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ];
+   <https://w3id.org/xapi/profiles/ontology#verb> <https://w3id.org/xapi/audio/verbs/paused> .
+
+<https://w3id.org/xapi/audio/templates#played> skos:definition "The statement template and rules associated with audio content being played."@en;
+   skos:inScheme <https://w3id.org/xapi/audio/v1.0>;
+   skos:prefLabel "Played"@en;
+   <https://w3id.org/xapi/profiles/ontology#objectActivityType> <https://w3id.org/xapi/audio/activity-type/audio>;
+   <https://w3id.org/xapi/profiles/ontology#rules> [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.id";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/video/extensions/played-segments']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.timestamp";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/session-id']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/video/extensions/time']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ];
+   <https://w3id.org/xapi/profiles/ontology#verb> <https://w3id.org/xapi/audio/verbs/played> .
+
+<https://w3id.org/xapi/audio/templates#seeked> skos:definition "The statement template and rules associated with the audio seekbar being moved from and to a specific position in the content."@en;
+   skos:inScheme <https://w3id.org/xapi/audio/v1.0>;
+   skos:prefLabel "Seeked"@en;
+   <https://w3id.org/xapi/profiles/ontology#objectActivityType> <https://w3id.org/xapi/audio/activity-type/audio>;
+   <https://w3id.org/xapi/profiles/ontology#rules> [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.id";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/video/extensions/time-from']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/video/extensions/time-to']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.timestamp";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/session-id']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
+   ];
+   <https://w3id.org/xapi/profiles/ontology#verb> <https://w3id.org/xapi/audio/verbs/seeked> .
+
+<https://w3id.org/xapi/audio/templates#terminated> skos:definition "The statement template and rules associated with a terminating the player."@en;
+   skos:inScheme <https://w3id.org/xapi/audio/v1.0>;
+   skos:prefLabel "Terminated"@en;
+   <https://w3id.org/xapi/profiles/ontology#objectActivityType> <https://w3id.org/xapi/audio/activity-type/audio>;
+   <https://w3id.org/xapi/profiles/ontology#rules> [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.id";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.timestamp";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/completion-threshold']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/length']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/video/extensions/played-segments']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/video/extensions/progress']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/video/extensions/time']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/session-id']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
+   ];
+   <https://w3id.org/xapi/profiles/ontology#verb> <http://adlnet.gov/expapi/verbs/terminated> .
+
+<https://w3id.org/xapi/audio/templates#volumechange> skos:inScheme <https://w3id.org/xapi/audio/v1.0>;
+   skos:prefLabel "Volume Change Interaction"@en;
+   <https://w3id.org/xapi/profiles/ontology#objectActivityType> <https://w3id.org/xapi/audio/activity-type/audio>;
+   <https://w3id.org/xapi/profiles/ontology#rules> [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/video/extensions/time']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/session-id']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/video/extensions/volume']";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.id";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ],  [
+     <https://w3id.org/xapi/profiles/ontology#location> "$.timestamp";
+     <https://w3id.org/xapi/profiles/ontology#presence> "included"
+   ];
+   <https://w3id.org/xapi/profiles/ontology#verb> <http://adlnet.gov/expapi/verbs/interacted> .
+
+<https://w3id.org/xapi/audio/activity-type/audio> a <https://w3id.org/xapi/ontology#ActivityType>;
+   skos:definition "A recording of both the visual and audible components made available on a display screen."@en;
+   skos:exactMatch <http://activitystrea.ms/schema/1.0/audio>;
+   skos:inScheme <https://w3id.org/xapi/audio/v1.0>;
+   skos:prefLabel "audio"@en .
