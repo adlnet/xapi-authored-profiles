@@ -243,7 +243,7 @@
    <https://w3id.org/xapi/profiles/ontology#verb> <http://adlnet.gov/expapi/verbs/interacted> .
 
 <https://w3id.org/xapi/audio/activity-type/audio> a <https://w3id.org/xapi/ontology#ActivityType>;
-   skos:definition "A recording of both the visual and audible components made available on a display screen."@en;
+   skos:definition "A recording of audio content."@en;
    skos:exactMatch <http://activitystrea.ms/schema/1.0/audio>;
    skos:inScheme <https://w3id.org/xapi/audio/v1.0>;
    skos:prefLabel "audio"@en .
