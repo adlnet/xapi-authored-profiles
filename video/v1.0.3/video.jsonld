@@ -762,7 +762,7 @@
            "definition": {
                "en": "A combined pattern of zero or more Video Profile standard statement templates that can be used with the general pattern."
            },
-          "type": "Pattern",
+     
 			    "zeroOrMore": "https://w3id.org/xapi/video/patterns#all-activities-pattern"
 
       }

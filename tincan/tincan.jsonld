@@ -15,7 +15,7 @@
     "name": "Rustici Software"
   },
   "versions":[{
-    id:"https://registry.tincanapi.com",
+    "id":"https://registry.tincanapi.com",
     "generateAtTime":"2019-09-23T16:54:38.592Z"
   }],
   "concepts": [

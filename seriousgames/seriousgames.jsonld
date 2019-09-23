@@ -102,8 +102,7 @@
       "id": "https://w3id.org/xapi/seriousgames/activity-types/level",
       "type": "ActivityType",
       "inScheme": "https://w3id.org/xapi/seriousgames/v1.0",
-      "exactMatch": [ "http://curatr3.com/define/type/level"]
-      },
+      "exactMatch": [ "http://curatr3.com/define/type/level"],
       "definition": {
         "en": "A level of a game or of a gamified learning platform. A level is logic partition of progression in any video game. Completing a level means advancing in the progression of the game."
       },
