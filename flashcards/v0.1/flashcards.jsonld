@@ -52,6 +52,9 @@
 			"prefLabel": {
 				"en": "Rules for the launched statement used in the flashcards profile"
 			},
+			"definition": {
+				"en": "Rules for the launched statement used in the flashcards profile"
+			},
 			"verb": "http://adlnet.gov/expapi/verbs/launched",
 			"objectActivityType": "https://w3id.org/xapi/flashcards/activity-types/flashcard-deck",
 			"rules": [{
@@ -71,9 +74,12 @@
 			"prefLabel": {
 				"en": "Rules for the viewed statement used in the flashcards profile"
 			},
+			"definition": {
+				"en": "Rules for the viewed statement used in the flashcards profile"
+			},
 			"verb": "http://id.tincanapi.com/verb/viewed",
 			"objectActivityType": "https://w3id.org/xapi/flashcards/activity-types/flashcard",
-                                   "contextParentActivityType": "https://w3id.org/xapi/flashcards/activity-types/flashcard-deck",
+            "contextParentActivityType": ["https://w3id.org/xapi/flashcards/activity-types/flashcard-deck"],
 			"rules": [{
 					"location": "$.id",
 					"presence": "included"
@@ -89,6 +95,9 @@
 			"type": "StatementTemplate",
 			"inScheme": "https://w3id.org/xapi/flashcards/v0.1",
 			"prefLabel": {
+				"en": "Rules for the exited statement used in the flashcards profile"
+			},
+			"definition": {
 				"en": "Rules for the exited statement used in the flashcards profile"
 			},
 			"verb": "http://adlnet.gov/expapi/verbs/exited",
