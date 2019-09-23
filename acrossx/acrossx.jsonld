@@ -6,6 +6,9 @@
   "prefLabel": {
   	"en": "AcrossX Profile"
   },
+  "definition": {
+  	"en": "AcrossX Profile"
+  },
   "seeAlso": "http://xapi-cop.net/",
   "author": {
     "type": "Organization",
@@ -432,7 +435,7 @@
       "prefLabel": {
         "en": "pass-score"
       },
-      "exactMatch": [ "https://w3id.org/xapi/cmi5/context/extensions/masteryscore" ],
+    
       "inlineSchema": "{ \"type\": \"number\" }"
     },
     {
@@ -589,7 +592,7 @@
       "prefLabel": {
         "en": "time"
       },
-      "inlineSchema": "{ \"type\": \"string\", \"format\": \"date-time\", \"pattern\": \"^\\d{4}\\-\\d{2}\\-\\d{2}T\\d{2}:\\d{2}:\\d{2}Z$\" }"
+      "inlineSchema": "{ \"type\": \"string\", \"format\": \"date-time\", \"pattern\": \"^\\\\d{4}\\\\-\\\\d{2}\\\\-\\\\d{2}T\\\\d{2}:\\\\d{2}:\\\\d{2}Z$\" }"
     }
 
   ]
