@@ -102,8 +102,7 @@
       "id": "https://w3id.org/xapi/seriousgames/activity-types/level",
       "type": "ActivityType",
       "inScheme": "https://w3id.org/xapi/seriousgames/v1.0",
-      "exactMatch": {
-        "id": "http://curatr3.com/define/type/level"
+      "exactMatch": [ "http://curatr3.com/define/type/level"]
       },
       "definition": {
         "en": "A level of a game or of a gamified learning platform. A level is logic partition of progression in any video game. Completing a level means advancing in the progression of the game."
@@ -238,9 +237,7 @@
       "type": "Verb",
       "relatedMatch": [ "http://activitystrea.ms/access" ],
       "inScheme": "https://w3id.org/xapi/seriousgames/v1.0",
-      "exactMatch": {
-        "id": "http://activitystrea.ms/access"
-      },
+      "exactMatch": ["http://activitystrea.ms/access"],
       "definition": {
         "en": "Indicates that the actor has gained access to the object. Associated to the virtual places a player visits during a gameplay."
       },
@@ -252,9 +249,7 @@
       "id": "https://w3id.org/xapi/seriousgames/verbs/pressed",
       "type": "Verb",
       "inScheme": "https://w3id.org/xapi/seriousgames/v1.0",
-      "exactMatch": {
-        "id": "http://future-learning.info/xAPI/verb/pressed"
-      },
+      "exactMatch": ["http://future-learning.info/xAPI/verb/pressed"] ,
       "definition": {
         "en": "Indicates that the actor made physical contact with the object. Used when the player presses some button in an input device. Press the left button in a mouse, press the X button in a XBox controller, etc. "
       },
@@ -266,9 +261,7 @@
       "id": "https://w3id.org/xapi/seriousgames/verbs/released",
       "type": "Verb",
       "inScheme": "https://w3id.org/xapi/seriousgames/v1.0",
-      "exactMatch": {
-        "id": "http://future-learning.info/xAPI/verb/released"
-      },
+      "exactMatch":  ["http://future-learning.info/xAPI/verb/released"],
       "definition": {
         "en": "Indicates that the actor released the object from one's grip from or a specific state. Used when the player releases a previously pressed button."
       },
