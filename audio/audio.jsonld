@@ -16,7 +16,8 @@
   },
   "versions": [
     {
-      "id": "https://w3id.org/xapi/audio/v1.0"
+      "id": "https://w3id.org/xapi/audio/v1.0",
+      "generatedAtTime":"2017-06-29T10:45:00Z"
     }
   ],
   "concepts": [
@@ -25,9 +26,8 @@
       "inScheme": "https://w3id.org/xapi/audio/v1.0",
       "type": "ActivityType",
       "exactMatch": [
-        {
-          "id": "http://activitystrea.ms/schema/1.0/audio"
-        }
+        "http://activitystrea.ms/schema/1.0/audio"
+        
       ],
       "definition": {
         "en": "A recording of audio content."
@@ -47,6 +47,7 @@
       "definition": {
         "en": "The statement template and rules associated with audio content being initialized or started."
       },
+      "type":"StatementTemplate",
       "verb": "http://adlnet.gov/expapi/verbs/initialized",
       "objectActivityType": "https://w3id.org/xapi/audio/activity-type/audio",
       "rules": [
@@ -90,6 +91,7 @@
       "prefLabel": {
         "en": "Played"
       },
+      "type":"StatementTemplate",
       "definition": {
         "en": "The statement template and rules associated with audio content being played."
       },
@@ -124,6 +126,7 @@
       "prefLabel": {
         "en": "Paused"
       },
+      "type":"StatementTemplate",
       "definition": {
         "en": "The statement template and rules associated with audio content being paused."
       },
@@ -170,6 +173,7 @@
       "prefLabel": {
         "en": "Seeked"
       },
+      "type":"StatementTemplate",
       "definition": {
         "en": "The statement template and rules associated with the audio content seekbar being moved from and to a specific position."
       },
@@ -204,6 +208,7 @@
       "prefLabel": {
         "en": "Completed"
       },
+      "type":"StatementTemplate",
       "definition": {
         "en": "The statement template and rules associated with audio content being completed."
       },
@@ -254,6 +259,7 @@
       "prefLabel": {
         "en": "Terminated"
       },
+      "type":"StatementTemplate",
       "definition": {
         "en": "The statement template and rules associated with a terminating the player."
       },
@@ -300,6 +306,10 @@
       "prefLabel": {
         "en": "Volume Change Interaction"
       },
+      "definition": {
+        "en": "Volume Change Interaction"
+      },
+      "type":"StatementTemplate",
       "verb": "http://adlnet.gov/expapi/verbs/interacted",
       "objectActivityType": "https://w3id.org/xapi/audio/activity-type/audio",
       "rules": [
@@ -337,6 +347,7 @@
       "definition": {
         "en": "The general pattern and sequence of Statement templates using the Audio Profile."
       },
+      "type":"Pattern",
       "sequence": [
         "https://w3id.org/xapi/audio/templates#initialized",
         "https://w3id.org/xapi/audio/patterns#optionalmiddlestatements",
@@ -352,6 +363,7 @@
       "definition": {
         "en": "All of the Audio Profile statement templates."
       },
+      "type":"Pattern",
       "alternates": [
         "https://w3id.org/xapi/audio/templates#played",
         "https://w3id.org/xapi/audio/templates#paused",

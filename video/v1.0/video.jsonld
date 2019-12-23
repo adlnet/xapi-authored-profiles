@@ -133,7 +133,6 @@
     {
       "id": "https://w3id.org/xapi/video/extensions/session-id",
       "inScheme": "https://w3id.org/xapi/video/v1.0",
-      "exactMatch": [ "https://w3id.org/xapi/cmi5/context/extensions/sessionid" ],
       "type": "ContextExtension",
       "definition": {
         "en": "Used to provide the session identifier associated with the activity."
@@ -286,6 +285,7 @@
       "definition": {
         "en": "The general rules required for inclusion in all Video Profile Statements."
       },
+      "type":"StatementTemplate",
       "rules": [
         {
           "location": "$.id",
@@ -310,6 +310,7 @@
       "definition": {
         "en": "The statement template and rules associated with a video being initialized."
       },
+      "type":"StatementTemplate",
       "verb": "http://adlnet.gov/expapi/verbs/initialized",
       "rules": [
         {
@@ -352,6 +353,7 @@
       "prefLabel": {
         "en": "Played"
       },
+      "type":"StatementTemplate",
       "definition": {
         "en": "The statement template and rules associated with a video being played."
       },
@@ -374,6 +376,7 @@
       "prefLabel": {
         "en": "Paused"
       },
+      "type":"StatementTemplate",
       "definition": {
         "en": "The statement template and rules associated with a video being paused."
       },
@@ -400,6 +403,7 @@
       "prefLabel": {
         "en": "Seeked"
       },
+      "type":"StatementTemplate",
       "definition": {
         "en": "The statement template and rules associated with a video seekbar being moved from and to a specific position in the video."
       },
@@ -422,6 +426,7 @@
       "prefLabel": {
         "en": "Completed"
       },
+      "type":"StatementTemplate",
       "definition": {
         "en": "The statement template and rules associated with a video being completed."
       },
@@ -444,6 +449,10 @@
       "prefLabel": {
         "en": "Volume Change Interaction"
       },
+      "definition": {
+        "en": "Volume Change Interaction"
+      },
+      "type":"StatementTemplate",
       "verb": "http://adlnet.gov/expapi/verbs/interacted",
       "objectActivityType": "https://w3id.org/xapi/video/activity-type/video",
       "rules": [
@@ -463,6 +472,10 @@
       "prefLabel": {
         "en": "Screen Change Interaction"
       },
+      "definition": {
+        "en": "Screen Change Interaction"
+      },
+      "type":"StatementTemplate",
       "verb": "http://adlnet.gov/expapi/verbs/interacted",
       "objectActivityType": "https://w3id.org/xapi/video/activity-type/video",
       "rules": [
@@ -495,6 +508,7 @@
           "definition": {
               "en": "The general pattern and sequence of Statement templates using the Video Profile."
           },
+          "type":"Pattern",
           "sequence": ["https://w3id.org/xapi/video/templates#started", "https://w3id.org/xapi/video/patterns#optionalmiddlestatements"]
       },
       {
@@ -502,6 +516,7 @@
           "prefLabel": {
             "en": "All Activities Pattern"
           },
+          "type":"Pattern",
            "definition": {
                "en": "All of the Video Profile templates."
            },

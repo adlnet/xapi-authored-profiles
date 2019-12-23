@@ -6,6 +6,9 @@
   "prefLabel": {
   	"en": "AcrossX Profile"
   },
+  "definition": {
+  	"en": "AcrossX Profile"
+  },
   "seeAlso": "http://xapi-cop.net/",
   "author": {
     "type": "Organization",
@@ -237,9 +240,8 @@
     "type": "Verb",
     "related": [ "http://activitystrea.ms/schema/1.0/like" ],
     "exactMatch": [
-      {
-        "id": "http://activitystrea.ms/schema/1.0/like"
-      }
+      "http://activitystrea.ms/schema/1.0/like"
+      
     ],
     "definition": {
       "en": "Indicates that the actor approves of, recommends, or endorses the object or activity."

@@ -14,6 +14,10 @@
     "type": "Organization",
     "name": "Rustici Software"
   },
+  "versions":[{
+    "id":"https://registry.tincanapi.com",
+    "generatedAtTime":"2019-09-23T16:54:38.592Z"
+  }],
   "concepts": [
     {
        "id": "http://id.tincanapi.com/verb/adjourned",
@@ -1327,7 +1331,7 @@
         "definition": {
           "en": "Value is an object containing key/value pairs describing various elements of a web browser. Same as user-agent."
         },
-        "exactMatch": ["https://w3id.org/xapi/video/extensions/user-agent"],
+       
         "prefLabel": {
           "en": "browser information"
         }
@@ -1786,7 +1790,7 @@
     {
         "id": "http://id.tincanapi.com/extension/tetris-lines",
         "inScheme": "http://registry.tincanapi.com",
-        "type": "ResuExtension",
+        "type": "ResultExtension",
         "definition": {
           "en": "The number of lines achieved in a game of Tetris or another game of a similar type. This extension is used by the Tetris game prototype at http://tincanapi.com/prototypes."
         },

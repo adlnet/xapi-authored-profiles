@@ -14,7 +14,13 @@
     "type": "Organization",
     "name": "xAPI Open Badges Community of Practice"
   },
-
+   "versions": [
+      {
+          "id": "http://specification.openbadges.org/xapi",
+          "generatedAtTime": "2018-09-07T18:38:40Z",
+        
+      }
+    ], 
   "concepts": [
     {
         "id": "http://specification.openbadges.org/xapi/extensions/badgeassertion",

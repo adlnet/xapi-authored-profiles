@@ -279,6 +279,7 @@
             "definition": {
               "en": "This is the general template that defines restrictions for all statements conforming to the SCORM profile."
             },
+            "inScheme": "https://w3id.org/xapi/scorm/v1.0",
             "rules": [
                 {
                     "location": "context.contextActivities.grouping[*].definition.type",
@@ -303,6 +304,7 @@
             "definition": {
               "en": "The statement template used for when initilizing communication with the LMS."
             },
+            "inScheme": "https://w3id.org/xapi/scorm/v1.0",
             "verb": "http://adlnet.gov/expapi/verbs/initialized",
             "objectActivityType": "http://adlnet.gov/expapi/activities/lesson",
             "rules": [
@@ -314,6 +316,7 @@
             "prefLabel": {
                 "en": "termination"
             },
+            "inScheme": "https://w3id.org/xapi/scorm/v1.0",
             "definition": {
               "en": "The statement template used for when terminating communication with the LMS."
             },
@@ -327,7 +330,7 @@
             "type": "StatementTemplate",
             "prefLabel": {
                 "en": "suspension"
-            },
+            },"inScheme": "https://w3id.org/xapi/scorm/v1.0",
             "definition": {
               "en": "The statement template used for when suspending the attempt on the lesson."
             },
@@ -342,6 +345,7 @@
             "prefLabel": {
                 "en": "resumption"
             },
+            "inScheme": "https://w3id.org/xapi/scorm/v1.0",
             "definition": {
               "en": "The statement template used for when resuming a suspended attempt."
             },
@@ -356,6 +360,7 @@
             "prefLabel": {
                 "en": "SCO activity"
             },
+            "inScheme": "https://w3id.org/xapi/scorm/v1.0",
             "definition": {
               "en": "The statement template used for any general lesson activity."
             },
@@ -369,6 +374,7 @@
             "prefLabel": {
               "en": "commenting"
             },
+            "inScheme": "https://w3id.org/xapi/scorm/v1.0",
             "definition": {
               "en": "The statement template used for making comments about the lesson."
             },
@@ -387,6 +393,7 @@
             "prefLabel": {
               "en": "completing"
             },
+            "inScheme": "https://w3id.org/xapi/scorm/v1.0",
             "definition": {
               "en": "The statement template used for completing the lesson."
             },
@@ -401,10 +408,11 @@
             "prefLabel": {
               "en": "other activity"
             },
+            "inScheme": "https://w3id.org/xapi/scorm/v1.0",
             "definition": {
               "en": "The statement template used for other types of activities."
             },
-            "contextParentActivityType": "http://adlnet.gov/expapi/activities/lesson",
+            "contextParentActivityType": ["http://adlnet.gov/expapi/activities/lesson"],
             "rules": [
             ]
         },
@@ -414,12 +422,13 @@
             "prefLabel": {
               "en": "interaction activity"
             },
+            "inScheme": "https://w3id.org/xapi/scorm/v1.0",
             "definition": {
               "en": "The statement template used for cmi interaction activities."
             },
             "verb": "http://adlnet.gov/expapi/verbs/responded",
             "objectActivityType": "http://adlnet.gov/expapi/activities/cmi.interaction",
-            "contextParentActivityType": "http://adlnet.gov/expapi/activities/lesson",
+            "contextParentActivityType": ["http://adlnet.gov/expapi/activities/lesson"],
             "rules": [
             ]
         }

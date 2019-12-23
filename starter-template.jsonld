@@ -54,7 +54,7 @@
       "definition": {
           "en": "Full description or purpose of the extension."
       },
-      "inlineSchema": ""
+      "inlineSchema": "{}"
   }
 ,
   {
@@ -67,7 +67,7 @@
       "definition": {
           "en": "Full description or purpose of the extension."
       },
-      "inlineSchema": ""
+      "inlineSchema": "{}"
   },
   {
       "id": "https://w3id.org/xapi/profilename/extensions/extensionname",
@@ -79,7 +79,7 @@
       "definition": {
           "en": "Full description or purpose of the extension."
       },
-      "inlineSchema": ""
+      "inlineSchema": "{}"
   }
 ],
     "templates": [
@@ -90,6 +90,9 @@
             "prefLabel": {
                 "en": "Restrictions for all of this profile's Statements"
             },
+            "definition":{
+                "en":""
+            },
             "verb": "",
             "rules": [
                 {
@@ -99,7 +102,9 @@
                 {
                     "location": "$.timestamp",
                     "presence": "included",
-                    "scopeNote": ""
+                    "scopeNote": {
+                        "en":""
+                    }
                 }
             ]
         }],

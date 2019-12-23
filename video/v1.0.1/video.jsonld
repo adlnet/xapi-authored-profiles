@@ -30,9 +30,7 @@
       "id": "https://w3id.org/xapi/video/verbs/paused",
       "inScheme": "https://w3id.org/xapi/video/v1.0.1",
       "type": "Verb",
-      "exactMatch": [ {
-        "id": "http://id.tincanapi.com/verb/paused"
-      } ],
+      "exactMatch": [ "http://id.tincanapi.com/verb/paused"],
       "definition": {
         "en": "Indicates the actor paused the video being played at a specific point."
       },
@@ -44,9 +42,8 @@
       "id": "https://w3id.org/xapi/video/verbs/played",
       "inScheme": "https://w3id.org/xapi/video/v1.0.1",
       "type": "Verb",
-      "exactMatch": [ {
-        "id": "http://activitystrea.ms/schema/1.0/play"
-      } ],
+      "exactMatch": [ "http://activitystrea.ms/schema/1.0/play"
+      ],
       "definition": {
         "en": "Indicates that the actor started experiencing the recorded media object."
       },
@@ -69,9 +66,8 @@
       "id": "https://w3id.org/xapi/video/activity-type/video",
       "inScheme": "https://w3id.org/xapi/video/v1.0.1",
       "type": "ActivityType",
-      "exactMatch": [ {
-        "id": "http://activitystrea.ms/schema/1.0/video"
-      } ],
+      "exactMatch": [ "http://activitystrea.ms/schema/1.0/video"
+       ],
       "definition": {
         "en": "A recording of both the visual and audible components made available on a display screen."
       },
@@ -295,6 +291,7 @@
       "definition": {
         "en": "The statement template and rules associated with a video being initialized."
       },
+      "type":"StatementTemplate",
       "verb": "http://adlnet.gov/expapi/verbs/initialized",
       "rules": [
         {
@@ -349,6 +346,7 @@
       "prefLabel": {
         "en": "Played"
       },
+      "type":"StatementTemplate",
       "definition": {
         "en": "The statement template and rules associated with a video being played."
       },
@@ -383,6 +381,7 @@
       "prefLabel": {
         "en": "Paused"
       },
+      "type":"StatementTemplate",
       "definition": {
         "en": "The statement template and rules associated with a video being paused."
       },
@@ -421,6 +420,7 @@
       "prefLabel": {
         "en": "Seeked"
       },
+      "type":"StatementTemplate",
       "definition": {
         "en": "The statement template and rules associated with a video seekbar being moved from and to a specific position in the video."
       },
@@ -455,6 +455,7 @@
       "prefLabel": {
         "en": "Completed"
       },
+      "type":"StatementTemplate",
       "definition": {
         "en": "The statement template and rules associated with a video being completed."
       },
@@ -493,6 +494,7 @@
       "prefLabel": {
         "en": "Terminated"
       },
+      "type":"StatementTemplate",
       "definition": {
         "en": "The statement template and rules associated with a terminating the player."
       },
@@ -531,6 +533,10 @@
       "prefLabel": {
         "en": "Enable Closed Captioning"
       },
+      "definition": {
+        "en": "Enable Closed Captioning"
+      },
+      "type":"StatementTemplate",
       "verb": "http://adlnet.gov/expapi/verbs/interacted",
       "objectActivityType": "https://w3id.org/xapi/video/activity-type/video",
       "rules": [
@@ -566,6 +572,10 @@
       "prefLabel": {
         "en": "Volume Change Interaction"
       },
+      "definition": {
+        "en": "Volume Change Interaction"
+      },
+      "type":"StatementTemplate",
       "verb": "http://adlnet.gov/expapi/verbs/interacted",
       "objectActivityType": "https://w3id.org/xapi/video/activity-type/video",
       "rules": [
@@ -597,6 +607,10 @@
       "prefLabel": {
         "en": "Screen Change Interaction"
       },
+      "definition": {
+        "en": "Screen Change Interaction"
+      },
+      "type":"StatementTemplate",
       "verb": "http://adlnet.gov/expapi/verbs/interacted",
       "objectActivityType": "https://w3id.org/xapi/video/activity-type/video",
       "rules": [
@@ -636,6 +650,7 @@
          "id": "https://w3id.org/xapi/video/patterns#generalpattern",
          "inScheme": "https://w3id.org/xapi/video/v1.0.1",
          "primary": true,
+         "type":"Pattern",
          "prefLabel": {
            "en": "General Pattern and Sequence"
          },
@@ -653,6 +668,7 @@
            "definition": {
                "en": "All of the Video Profile templates."
            },
+          "type":"Pattern",
           "alternates": ["https://w3id.org/xapi/video/templates#played", "https://w3id.org/xapi/video/templates#paused", "https://w3id.org/xapi/video/templates#seeked", "https://w3id.org/xapi/video/templates#volumechange", "https://w3id.org/xapi/video/templates#screenchange", "https://w3id.org/xapi/video/templates#closed-captioning", "https://w3id.org/xapi/video/templates#completed"]
       },
       {

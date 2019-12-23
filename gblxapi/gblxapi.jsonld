@@ -9,6 +9,13 @@
     "definition": {
         "en": "The GBLxAPI K-12 Education Apps profile of xAPI was created to identify and standardize the common interactions that can be found in k-12 educational learning apps and game-based learning. The profile was created as part of a research project known as GBLxAPI. "
     },
+    "versions": [
+      {
+          "id": "https://w3id.org/xapi/gblxapi/v1.0",
+          "generatedAtTime": "2018-09-07T18:38:40Z",
+          "wasRevisionOf": ["https://w3id.org/xapi/gblxapi"]
+      }
+    ],  
     "seeAlso": "https://gblxapi.org",
     "author": {
         "type": "Organization",
@@ -96,11 +103,11 @@
       {
         "id": "https://w3id.org/xapi.gblxapi/extensions/difficulty",
         "inScheme": "https://w3id.org/xapi/gblxapi/v1.0",
-        "type": "Activity",
+        "type": "ActivityExtension",
         "definition": {
           "en": "Represents a difficulty level that determines the complexity of questions that the learner must answer or activities they must perform."
         },
-        prefLabel: {
+        "prefLabel": {
           "en": "difficulty"
         }
       }

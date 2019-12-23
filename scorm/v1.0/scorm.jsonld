@@ -279,6 +279,7 @@
             "definition": {
               "en": "This is the general template that defines restrictions for all statements conforming to the SCORM profile."
             },
+            "inScheme": "https://w3id.org/xapi/scorm/v1.0",
             "rules": [
                 {
                     "location": "context.contextActivities.grouping[*].definition.type",
@@ -305,6 +306,7 @@
             },
             "verb": "http://adlnet.gov/expapi/verbs/initialized",
             "objectActivityType": "http://adlnet.gov/expapi/activities/lesson",
+            "inScheme": "https://w3id.org/xapi/scorm/v1.0",
             "rules": [
             ]
         },
@@ -319,6 +321,7 @@
             },
             "verb": "http://adlnet.gov/expapi/verbs/terminated",
             "objectActivityType": "http://adlnet.gov/expapi/activities/lesson",
+            "inScheme": "https://w3id.org/xapi/scorm/v1.0",
             "rules": [
             ]
         },
@@ -333,6 +336,7 @@
             },
             "verb": "http://adlnet.gov/expapi/verbs/suspended",
             "objectActivityType": "http://adlnet.gov/expapi/activities/lesson",
+            "inScheme": "https://w3id.org/xapi/scorm/v1.0",
             "rules": [
             ]
         },
@@ -347,6 +351,7 @@
             },
             "verb": "http://adlnet.gov/expapi/verbs/resumed",
             "objectActivityType": "http://adlnet.gov/expapi/activities/lesson",
+            "inScheme": "https://w3id.org/xapi/scorm/v1.0",
             "rules": [
             ]
         },
@@ -360,6 +365,7 @@
               "en": "The statement template used for any general lesson activity."
             },
             "objectActivityType": "http://adlnet.gov/expapi/activities/lesson",
+            "inScheme": "https://w3id.org/xapi/scorm/v1.0",
             "rules": [
             ]
         },
@@ -374,6 +380,7 @@
             },
             "verb": "http://adlnet.gov/expapi/verbs/commented",
             "objectActivityType": "http://adlnet.gov/expapi/activities/lesson",
+            "inScheme": "https://w3id.org/xapi/scorm/v1.0",
             "rules": [
                 {
                     "location": "result.response",
@@ -392,6 +399,7 @@
             },
             "verb": "http://adlnet.gov/expapi/verbs/completed",
             "objectActivityType": "http://adlnet.gov/expapi/activities/lesson",
+            "inScheme": "https://w3id.org/xapi/scorm/v1.0",
             "rules": [
             ]
         },
@@ -404,7 +412,8 @@
             "definition": {
               "en": "The statement template used for other types of activities."
             },
-            "contextParentActivityType": "http://adlnet.gov/expapi/activities/lesson",
+            "contextParentActivityType": ["http://adlnet.gov/expapi/activities/lesson"],
+            "inScheme": "https://w3id.org/xapi/scorm/v1.0",
             "rules": [
             ]
         },
@@ -419,7 +428,8 @@
             },
             "verb": "http://adlnet.gov/expapi/verbs/responded",
             "objectActivityType": "http://adlnet.gov/expapi/activities/cmi.interaction",
-            "contextParentActivityType": "http://adlnet.gov/expapi/activities/lesson",
+            "contextParentActivityType": ["http://adlnet.gov/expapi/activities/lesson"],
+            "inScheme": "https://w3id.org/xapi/scorm/v1.0",
             "rules": [
             ]
         }

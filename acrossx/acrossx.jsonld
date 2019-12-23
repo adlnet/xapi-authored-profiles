@@ -6,6 +6,9 @@
   "prefLabel": {
   	"en": "AcrossX Profile"
   },
+  "definition": {
+  	"en": "AcrossX Profile"
+  },
   "seeAlso": "http://xapi-cop.net/",
   "author": {
     "type": "Organization",
@@ -247,10 +250,8 @@
     "id": "https://w3id.org/xapi/acrossx/verbs/liked",
     "type": "Verb",
     "related": [ "http://activitystrea.ms/schema/1.0/like" ],
-    "exactMatch": [
-      {
-        "id": "http://activitystrea.ms/schema/1.0/like"
-      }
+    "exactMatch": [ "http://activitystrea.ms/schema/1.0/like"
+      
     ],
     "definition": {
       "en": "Indicates that the actor approves of, recommends, or endorses the object or activity."
@@ -434,7 +435,7 @@
       "prefLabel": {
         "en": "pass-score"
       },
-      "exactMatch": [ "https://w3id.org/xapi/cmi5/context/extensions/masteryscore" ],
+    
       "inlineSchema": "{ \"type\": \"number\" }"
     },
     {
@@ -591,7 +592,7 @@
       "prefLabel": {
         "en": "time"
       },
-      "inlineSchema": "{ \"type\": \"string\", \"format\": \"date-time\", \"pattern\": \"^\\d{4}\\-\\d{2}\\-\\d{2}T\\d{2}:\\d{2}:\\d{2}Z$\" }"
+      "inlineSchema": "{ \"type\": \"string\", \"format\": \"date-time\", \"pattern\": \"^\\\\d{4}\\\\-\\\\d{2}\\\\-\\\\d{2}T\\\\d{2}:\\\\d{2}:\\\\d{2}Z$\" }"
     }
 
   ]
