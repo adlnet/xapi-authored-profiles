@@ -25,7 +25,7 @@
       "id": "https://w3id.org/xapi/video/verbs/paused",
       "inScheme": "https://w3id.org/xapi/video/v1.0.2",
       "type": "Verb",
-      "exactMatch": [  "http://id.tincanapi.com/verb/paused"} ],
+      "exactMatch": [  "http://id.tincanapi.com/verb/paused" ],
       "definition": {
         "en": "Indicates the actor paused the video being played at a specific point."
       },

@@ -397,7 +397,9 @@
                 {
                     "location": "$.result.duration",
                     "presence": "included",
-                    "scopeNote": {"en":"The duration property MUST, at a minimum, be set as the total session time, calculated as the time between the 'Launched' statement and the last statement (of any kind) issued by the AU. The LMS SHOULD also use other (LMS specific) methods (if available) to determine if the total session time was longer."]
+                    "scopeNote": {
+                        "en":"The duration property MUST, at a minimum, be set as the total session time, calculated as the time between the 'Launched' statement and the last statement (of any kind) issued by the AU. The LMS SHOULD also use other (LMS specific) methods (if available) to determine if the total session time was longer."
+                    }
                 },
                 {
                     "location": "$.context.contextActivities.category[*].id",
