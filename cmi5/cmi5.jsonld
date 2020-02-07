@@ -9,6 +9,7 @@
     "definition": {
         "en": "This specification describes interoperable runtime communication between Learning Management Systems (LMS) and Assignable Units (AU).\n\nThe runtime communication and behavior of all parts of the system are carefully described in the full specification, which can be found at https://github.com/AICC/CMI-5_Spec_Current/blob/quartz/cmi5_spec.md . This is a structured representation of cmi5 concepts, statement structure, and statement communications patterns that the additional rules in the full specification build upon and provide the definitive interpretation of."
     },
+    "scopeNote": "PLEASE NOTE: As of February 7, 2020 the cmi5 Working Group (the entity that owns the cmi5 spec) has determined that this profile is invalid and must be corrected prior to implementation.  Implementations of this current version ARE NOT cmi5 CONFORMANT",
     "seeAlso": "https://github.com/AICC/CMI-5_Spec_Current/blob/quartz/cmi5_spec.md",
     "versions": [
         {
