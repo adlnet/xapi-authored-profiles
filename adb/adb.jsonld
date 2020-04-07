@@ -17,7 +17,7 @@
   "versions": [
     {
       "id": "https://w3id.org/xapi/adb/v1.0",
-      "generatedAtTime": "2017-06-30T8:26:00Z",
+      "generatedAtTime": "2017-06-30T08:26:00Z",
       "wasRevisionOf": ["https://w3id.org/xapi/adb"]
     }
   ],
