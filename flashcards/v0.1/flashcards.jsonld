@@ -132,6 +132,6 @@
 			"en": "This is a general pattern in which flashcards were simply opened and closed."
 		},
 		"inScheme": "https://w3id.org/xapi/flashcards/v0.1",
-		"sequence": ["https://w3id.org/xapi/flashcards/templates#launched", "https: //w3id.org/xapi/flashcards/templates#viewed", "https://w3id.org/xapi/flashcards/templates#exited"]
+		"sequence": ["https://w3id.org/xapi/flashcards/templates#launched", "https://w3id.org/xapi/flashcards/templates#viewed", "https://w3id.org/xapi/flashcards/templates#exited"]
 	}]
 }
