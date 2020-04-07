@@ -122,5 +122,5 @@
    skos:relatedMatch <http://risc-inc.com/annotator/verbs/annotated>,
      <https://w3id.org/xapi/acrossx/verbs/annotated> .
 
-<https://w3id.org/xapi/adb/v1.0> prov:generatedAtTime "2017-06-30T8:26:00Z"^^xsd:dateTime;
+<https://w3id.org/xapi/adb/v1.0> prov:generatedAtTime "2017-06-30T08:26:00Z"^^xsd:dateTime;
    prov:wasRevisionOf <https://w3id.org/xapi/adb> .
