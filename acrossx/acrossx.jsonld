@@ -249,10 +249,7 @@
   {
     "id": "https://w3id.org/xapi/acrossx/verbs/liked",
     "type": "Verb",
-    "related": [ "http://activitystrea.ms/schema/1.0/like" ],
-    "exactMatch": [ "http://activitystrea.ms/schema/1.0/like"
-      
-    ],
+    "exactMatch": [ "http://activitystrea.ms/schema/1.0/like"],
     "definition": {
       "en": "Indicates that the actor approves of, recommends, or endorses the object or activity."
     },
