@@ -70,7 +70,7 @@
         "prefLabel": {
         "en": "bookmarked"
       },
-      "related": ["https://w3id.org/xapi/adb/verbs/annotated"]
+      "relatedMatch": ["https://w3id.org/xapi/adb/verbs/annotated"]
     },
     {
       "id": "https://w3id.org/xapi/adb/verbs/coached",
@@ -93,7 +93,7 @@
         "prefLabel": {
         "en": "demanded"
       },
-      "related": ["https://w3id.org/xapi/adb/verbs/requested"]
+      "relatedMatch": ["https://w3id.org/xapi/adb/verbs/requested"]
     },
     {
       "id": "https://w3id.org/xapi/adb/verbs/described",
