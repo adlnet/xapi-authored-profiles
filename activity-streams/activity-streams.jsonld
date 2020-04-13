@@ -1115,7 +1115,7 @@
     {
       "id": "http://activitystrea.ms/article",
       "inScheme": "http://activitystrea.ms/schema/1.0.0",
-      "related": [ "http://activitystrea.ms/note" ],
+      "relatedMatch": [ "http://activitystrea.ms/note" ],
       "type": "ActivityType",
       "definition": {
         "en": "Represents objects such as news articles, knowledge base entries, or other similar construct. Such objects generally consist of paragraphs of text, in some cases incorporating embedded media such as photos and inline hyperlinks to other resources."
@@ -1281,7 +1281,7 @@
     {
       "id": "http://activitystrea.ms/note",
       "inScheme": "http://activitystrea.ms/schema/1.0.0",
-      "related": [ "http://activitystrea.ms/article" ],
+      "relatedMatch": [ "http://activitystrea.ms/article" ],
       "exactMatch": [ "https://w3id.org/xapi/acrossx/activities/note" ],
       "type": "ActivityType",
       "definition": {
