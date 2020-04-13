@@ -521,7 +521,7 @@
     },
     {
       "id": "http://activitystrea.ms/like",
-      "related": [ "https://w3id.org/xapi/acrossx/verbs/liked" ],
+      "relatedMatch": [ "https://w3id.org/xapi/acrossx/verbs/liked" ],
       "prefLabel": {
         "en": "liked"
       },
