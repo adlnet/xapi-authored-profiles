@@ -9,7 +9,7 @@
 	"definition": {
 		"en": "Verbs and extensions for use in creating DOD IMI, per MIL-HDBK-29612-1A."
 	},
-	"seeAlso": "MIL-HDBK-29612-1A",
+	"seeAlso": "https://www.public.navy.mil/netc/ntt/pdfs/296121a.pdf",
 	"versions": [
 		{
 			"id": "https://w3id.org/xapi/dod-isd/v1.0",

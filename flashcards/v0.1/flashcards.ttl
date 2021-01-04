@@ -15,12 +15,12 @@
   rdfs:seeAlso <https://risc-inc.com/contact>;
   skos:definition "The flashcards profile provides the common types of activities and interactions when learners engage in an electronic flashcard activity."@en;
   skos:prefLabel "Flashcards"@en;
-  <https://w3id.org/xapi/profiles/ontology#concepts> <https://w3id.org/xapi/flashcards/activity-types/flashcard>,
-    <https://w3id.org/xapi/flashcards/activity-types/flashcard-deck>;
+  <https://w3id.org/xapi/profiles/ontology#concepts> <https://w3id.org/xapi/flashcards/activity-types/flashcard-deck>,
+    <https://w3id.org/xapi/flashcards/activity-types/flashcard>;
   <https://w3id.org/xapi/profiles/ontology#patterns> <https://w3id.org/xapi/flashcards/patterns#basic>;
   <https://w3id.org/xapi/profiles/ontology#templates> <https://w3id.org/xapi/flashcards/templates#viewed>,
-    <https://w3id.org/xapi/flashcards/templates#launched>,
-    <https://w3id.org/xapi/flashcards/templates#exited>;
+    <https://w3id.org/xapi/flashcards/templates#exited>,
+    <https://w3id.org/xapi/flashcards/templates#launched>;
   <https://w3id.org/xapi/profiles/ontology#versions> <https://w3id.org/xapi/flashcards/v0.1> .
 
 <https://w3id.org/xapi/flashcards/patterns#basic> a <https://w3id.org/xapi/profiles/ontology#Pattern>;
@@ -28,12 +28,49 @@
   skos:inScheme <https://w3id.org/xapi/flashcards/v0.1>;
   skos:prefLabel "Basic Flashcards"@en;
   <https://w3id.org/xapi/profiles/ontology#primary> true;
-  <https://w3id.org/xapi/profiles/ontology#sequence> [
-    rdf:first <https://w3id.org/xapi/flashcards/templates#launched>;
-    rdf:rest [rdf:rest (<https://w3id.org/xapi/flashcards/templates#exited>)]
-  ] .
+  <https://w3id.org/xapi/profiles/ontology#sequence> (<https://w3id.org/xapi/flashcards/templates#launched> <https://w3id.org/xapi/flashcards/templates#viewed> <https://w3id.org/xapi/flashcards/templates#exited>) .
+
+<https://w3id.org/xapi/flashcards/activity-types/flashcard> a <https://w3id.org/xapi/ontology#ActivityType>;
+  skos:definition "A single flashcard used for retrieval practice or memorization."@en;
+  skos:inScheme <https://w3id.org/xapi/flashcards/v0.1>;
+  skos:prefLabel "flashcard"@en .
+
+<https://w3id.org/xapi/flashcards/templates#exited> a <https://w3id.org/xapi/profiles/ontology#StatementTemplate>;
+  skos:definition "Rules for the exited statement used in the flashcards profile"@en;
+  skos:inScheme <https://w3id.org/xapi/flashcards/v0.1>;
+  skos:prefLabel "Rules for the exited statement used in the flashcards profile"@en;
+  <https://w3id.org/xapi/profiles/ontology#objectActivityType> <https://w3id.org/xapi/flashcards/activity-types/flashcard-deck>;
+  <https://w3id.org/xapi/profiles/ontology#rules> [
+    <https://w3id.org/xapi/profiles/ontology#location> "$.result.duration";
+    <https://w3id.org/xapi/profiles/ontology#presence> "included"
+  ], [
+    <https://w3id.org/xapi/profiles/ontology#location> "$.timestamp";
+    <https://w3id.org/xapi/profiles/ontology#presence> "included"
+  ], [
+    <https://w3id.org/xapi/profiles/ontology#location> "$.id";
+    <https://w3id.org/xapi/profiles/ontology#presence> "included"
+  ], [
+    <https://w3id.org/xapi/profiles/ontology#location> "$.result.completion";
+    <https://w3id.org/xapi/profiles/ontology#presence> "included"
+  ];
+  <https://w3id.org/xapi/profiles/ontology#verb> <http://adlnet.gov/expapi/verbs/exited> .
+
+<https://w3id.org/xapi/flashcards/templates#launched> a <https://w3id.org/xapi/profiles/ontology#StatementTemplate>;
+  skos:definition "Rules for the launched statement used in the flashcards profile"@en;
+  skos:inScheme <https://w3id.org/xapi/flashcards/v0.1>;
+  skos:prefLabel "Rules for the launched statement used in the flashcards profile"@en;
+  <https://w3id.org/xapi/profiles/ontology#objectActivityType> <https://w3id.org/xapi/flashcards/activity-types/flashcard-deck>;
+  <https://w3id.org/xapi/profiles/ontology#rules> [
+    <https://w3id.org/xapi/profiles/ontology#location> "$.timestamp";
+    <https://w3id.org/xapi/profiles/ontology#presence> "included"
+  ], [
+    <https://w3id.org/xapi/profiles/ontology#location> "$.id";
+    <https://w3id.org/xapi/profiles/ontology#presence> "included"
+  ];
+  <https://w3id.org/xapi/profiles/ontology#verb> <http://adlnet.gov/expapi/verbs/launched> .
 
 <https://w3id.org/xapi/flashcards/templates#viewed> a <https://w3id.org/xapi/profiles/ontology#StatementTemplate>;
+  skos:definition "Rules for the viewed statement used in the flashcards profile"@en;
   skos:inScheme <https://w3id.org/xapi/flashcards/v0.1>;
   skos:prefLabel "Rules for the viewed statement used in the flashcards profile"@en;
   <https://w3id.org/xapi/profiles/ontology#contextParentActivityType> <https://w3id.org/xapi/flashcards/activity-types/flashcard-deck>;
@@ -46,43 +83,6 @@
     <https://w3id.org/xapi/profiles/ontology#presence> "included"
   ];
   <https://w3id.org/xapi/profiles/ontology#verb> <http://id.tincanapi.com/verb/viewed> .
-
-<https://w3id.org/xapi/flashcards/activity-types/flashcard> a <https://w3id.org/xapi/ontology#ActivityType>;
-  skos:definition "A single flashcard used for retrieval practice or memorization."@en;
-  skos:inScheme <https://w3id.org/xapi/flashcards/v0.1>;
-  skos:prefLabel "flashcard"@en .
-
-<https://w3id.org/xapi/flashcards/templates#exited> a <https://w3id.org/xapi/profiles/ontology#StatementTemplate>;
-  skos:inScheme <https://w3id.org/xapi/flashcards/v0.1>;
-  skos:prefLabel "Rules for the exited statement used in the flashcards profile"@en;
-  <https://w3id.org/xapi/profiles/ontology#objectActivityType> <https://w3id.org/xapi/flashcards/activity-types/flashcard-deck>;
-  <https://w3id.org/xapi/profiles/ontology#rules> [
-    <https://w3id.org/xapi/profiles/ontology#location> "$.result.completion";
-    <https://w3id.org/xapi/profiles/ontology#presence> "included"
-  ], [
-    <https://w3id.org/xapi/profiles/ontology#location> "$.result.duration";
-    <https://w3id.org/xapi/profiles/ontology#presence> "included"
-  ], [
-    <https://w3id.org/xapi/profiles/ontology#location> "$.id";
-    <https://w3id.org/xapi/profiles/ontology#presence> "included"
-  ], [
-    <https://w3id.org/xapi/profiles/ontology#location> "$.timestamp";
-    <https://w3id.org/xapi/profiles/ontology#presence> "included"
-  ];
-  <https://w3id.org/xapi/profiles/ontology#verb> <http://adlnet.gov/expapi/verbs/exited> .
-
-<https://w3id.org/xapi/flashcards/templates#launched> a <https://w3id.org/xapi/profiles/ontology#StatementTemplate>;
-  skos:inScheme <https://w3id.org/xapi/flashcards/v0.1>;
-  skos:prefLabel "Rules for the launched statement used in the flashcards profile"@en;
-  <https://w3id.org/xapi/profiles/ontology#objectActivityType> <https://w3id.org/xapi/flashcards/activity-types/flashcard-deck>;
-  <https://w3id.org/xapi/profiles/ontology#rules> [
-    <https://w3id.org/xapi/profiles/ontology#location> "$.id";
-    <https://w3id.org/xapi/profiles/ontology#presence> "included"
-  ], [
-    <https://w3id.org/xapi/profiles/ontology#location> "$.timestamp";
-    <https://w3id.org/xapi/profiles/ontology#presence> "included"
-  ];
-  <https://w3id.org/xapi/profiles/ontology#verb> <http://adlnet.gov/expapi/verbs/launched> .
 
 <https://w3id.org/xapi/flashcards/activity-types/flashcard-deck> a <https://w3id.org/xapi/ontology#ActivityType>;
   skos:definition "A deck of flashcards used for retrieval practice or memorization."@en;
