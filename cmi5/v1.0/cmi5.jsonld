@@ -690,7 +690,7 @@
                 "en": "This pattern describes the sequence of statements sent over the an entire course registration."
             },
             "inScheme": "https://w3id.org/xapi/cmi5/v1.0",
-            "sequence": ["https://w3id.org/xapi/cmi5#satisfieds", "typicalsessions"]
+            "sequence": ["https://w3id.org/xapi/cmi5#satisfieds", "https://w3id.org/xapi/cmi5#typicalsessions"]
         }
 
 
