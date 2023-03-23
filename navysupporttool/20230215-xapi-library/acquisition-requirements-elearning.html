@@ -1,0 +1,157 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Navy xAPI Library</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/style.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+						<!-- Header -->
+								<header id="header">
+									<a href="#" class="logo">xAPI Contracting Requirements</a>
+								</header>
+								<br>
+								While this resource specifies only xAPI contracting requirements and does not address contracting requirements for SCORM, it’s important for acquisition professionals to determine when xAPI is a contract requirement compared to SCORM. The distinguishing factors for when xAPI is required compared to SCORM are as follows:
+								<br>
+								<br>
+								<ol>
+										<li><strong><a href="https://adlnet.gov/policy/dodi-scorm/" target="_blank">SCORM</a></strong> - If ANY of the following contracting requirements for the e-learning content are true:</li>
+								<ul>
+										<li>delivered only in web browser on a desktop or laptop computer</li>
+										<li>makes use of commercial authoring tools that only export to SCORM</li>
+										<li>custom content with a dependency on SCORM-specific LMS capabilities such as sequencing and navigation</li>
+										<li>hosted in the LMS and uses the LMS for reporting</li>
+								</ul>
+
+											<li><strong><a href="https://adlnet.gov/policy/dodi-xapi/" target="_blank">xAPI</a></strong> - if ANY of the following contracting requirements for e-learning content are true:</li>
+										<ul>
+											 <li>delivered on any device (e.g., desktop, mobile)</li>
+											 <li>custom content that implements the Navy xAPI Profiles</li>
+										   <li>no dependencies on SCORM features in an LMS</li>
+										   <li>hosted anywhere (e.g., distributed content server, LMS, CMS, private network)</li>
+											 <li>accessed from anywhere, not just an LMS (e.g., personal device/BYOD, disconnected/off-line)</li>
+										   <li>must have better resolution into the data and associated analytics</li>
+										</ul>
+									</ol>
+
+
+<p>The following requirements and sample contracting language should be included in all web-based xAPI E-Learning content acquisitions.  The samples below can be used without modification, but it is expected that updates may be required based on specific requirements of the xAPI content.</p>
+
+
+									<h3><a href="">E-learning Requirements & Contracting Language Samples</a></h3>
+
+										<table width="100%" border="1" cellspacing="1" cellpadding="1">
+										  <tbody>
+											<tr>
+											  <th scope="col" width="10%">ID</th>
+											  <th scope="col" width="35%">Requirement</th>
+											  <th scope="col" width="55%">Contracting Language Sample</th>
+											</tr>
+											<tr>
+											  <td>AR-2.1</td>
+											  <td>Conformance with the E-Learning Profile</td>
+											  <td>The Contractor SHALL implement all the relevant requirements in the E-Learning Profile. There is currently no automated test for E-Learning Profile conformance. The contractor SHALL prove conformance by providing sample xAPI statements for manual validation. </td>
+											</tr>
+											<tr>
+											  <td>AR-2.2</td>
+											  <td>Initialize Values via Launch</td>
+											  <td>The Contractor SHALL develop the content such that it supports the web-based launch mechanism and associated data initialization requirements defined in the Navy Core xAPI Profile.</td>
+											</tr>
+											<tr>
+											  <td>AR-2.3</td>
+											  <td>Attempt Management and Tracking</td>
+											  <td>The Contractor SHALL develop the e-learning content such that it manages attempts and sessions as defined in the E-Learning Profile.  This includes, but is not limited to, tracking an Initialize Statement when the e-learning content begins and a Terminate Statement when the e-learning content ends.</td>
+											</tr>
+											<tr>
+											  <td>AR-2.4</td>
+											  <td>Learner Interaction Data Tracking</td>
+											  <td>If the content contains scores, completion, success, questions, or other learner experience data, the Contractor SHALL track these values with xAPI Statements as defined in the E-Learning Profile</td>
+											</tr>
+											<tr>
+											  <td>AR-2.5</td>
+											  <td>Content State Data Tracking</td>
+											  <td>If the content uses bookmarking or other data about a learning activity or attempt on a learning activity, the Contractor SHALL track these values using the xAPI Document Resources as defined in the E-Learning Profile</td>
+											</tr>
+										  </tbody>
+										</table>
+
+						</div>
+					</div>
+
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">								<!-- Logo -->
+                                                                 <span class="image object">
+                                                                    <a href="index.html"><img src="images/navy-xapi-library.png" alt="Home" /></a>
+                                                                 </span>
+
+							<!-- Menu -->
+								<nav id="menu">
+
+									<ul>
+										<li><a href="index.html">Overview</a></li>
+										
+ 										<li>
+											<span class="opener">Developer Resources</span>
+											<ul>
+                                                                                             <li><a href="profile-index.html">Navy xAPI Profile Index</a></li>
+												<li><a href="common-content.html">Navy Core xAPI Profile</a></li>
+												<li><a href="common-content.html">Common Reference Profile</a></li>
+												<li><a href="e-learning.html">E-learning Profile</a></li>
+                                                <li><a href="assessment.html">Assessment Profile</a></li>
+<li><a href="assessment.html">Performance Assessment Profile</a></li>
+
+
+												<li><a href="performance-support.html">Performance Support Profile</a></li>
+												
+												<li><a href="simulation.html">Simulation Base Profile</a></li>
+<li><a href="simulation.html">Task Trainer Simulation Profile</a></li>												<li><a href="xapi-code-libraries-content-examples.html#code">xAPI Code Libraries</a></li><li><a href="xapi-code-libraries-content-examples.html#examples">xAPI Content Examples</a></li>
+												
+											</ul>
+										</li>                                       
+                                        <li>
+											<span class="opener">Contracting Resources</span>
+											<ul>
+												
+												<li><a href="xapi-did.html">DID for xAPI Data</a></li>
+												<li><a href="acquisition-requirements-general.html">General Requirements</a></li>
+												<li class="menu-item-active"><a href="acquisition-requirements-elearning.html">E-learning</a></li>
+                                                
+												<li><a href="acquisition-requirements-performance-support.html">Performance Support</a></li>		<li><a href="acquisition-requirements-simulation.html">Simulation</a></li>
+                                                <li><a href="acquisition-requirements-simulation.html">Task Trainer Simulation</a></li>
+                                                <li><a href="acquisition-requirements-assessment.html">Assessement</a></li>
+                                                <li><a href="acquisition-requirements-assessment.html">Performance Assessement</a></li>
+											</ul>
+                                            <li><a href="xapi-resources.html">Additional Resources</a></li>
+										</li>
+									</ul>
+								</nav>
+							<!-- Footer -->
+								<footer id="footer">
+								</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
