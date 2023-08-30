@@ -1,0 +1,381 @@
+{
+    "id": "https://w3id.org/xapi/lms",
+    "@context": "https://w3id.org/xapi/profiles/context",
+    "type": "Profile",
+    "conformsTo": "https://w3id.org/xapi/profiles#1.0",
+    "prefLabel": {
+        "en": "Learning Management System"
+    },
+    "definition": {
+        "en": "Profile common and generic actions that can performed on an Learning Management System (LMS) or any e-learning application."
+    },
+    "seeAlso": "https://github.com/gaia-x-dases/xapi-lms",
+    "versions": [
+        {
+            "id": "https://w3id.org/xapi/lms/v/1",
+            "generatedAtTime": "2023-07-11T08:04:30.652Z"
+        }
+    ],
+    "author": {
+        "type": "Organization",
+        "name": "Gaia-X Data Space for Education and Skills (DASES)",
+        "url": "https://www.dases.eu"
+    },
+    "concepts": [
+        {
+            "id": "https://w3id.org/xapi/lms/extensions/starting-date",
+            "type": "ContextExtension",
+            "inScheme": "https://w3id.org/xapi/lms/v/1",
+            "prefLabel": {
+                "en": "starting date"
+            },
+            "definition": {
+                "en": "This is the starting date of the activity, formatted according to the normal format of ISO 8601."
+            },
+            "inlineSchema": "{\"type\":\"string\"}"
+        },
+        {
+            "id": "https://w3id.org/xapi/lms/extensions/ending-date",
+            "type": "ContextExtension",
+            "inScheme": "https://w3id.org/xapi/lms/v/1",
+            "prefLabel": {
+                "en": "ending date"
+            },
+            "definition": {
+                "en": "This is the ending date of the activity, formatted according to the normal format of ISO 8601. "
+            },
+            "inlineSchema": "{\"type\": \"string\" }"
+        },
+        {
+            "id": "https://w3id.org/xapi/lms/extensions/role",
+            "type": "ContextExtension",
+            "inScheme": "https://w3id.org/xapi/lms/v/1",
+            "prefLabel": {
+                "en": "role"
+            },
+            "definition": {
+                "en": "This is the role of the actor. For example (but not limited to): admin, manager, teacher, guest, learner or staff."
+            },
+            "inlineSchema": "{\"type\": \"string\"}"
+        }
+    ],
+    "templates": [
+        {
+            "id": "https://w3id.org/xapi/lms/templates/registered-course",
+            "type": "StatementTemplate",
+            "inScheme": "https://w3id.org/xapi/lms/v/1",
+            "prefLabel": {
+                "en": "Registered to a course"
+            },
+            "definition": {
+                "en": "A user is registered to a course, whether it is self-registration or cohort-registration (a course instructor has registered the user).\n"
+            },
+            "verb": "http://adlnet.gov/expapi/verbs/registered",
+            "objectActivityType": "http://adlnet.gov/expapi/activities/course",
+            "rules": [
+                {
+                    "location": "$.timestamp",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.context.extensions['https://w3id.org/xapi/lms/extensions/starting-date']",
+                    "presence": "recommended"
+                },
+                {
+                    "location": "$.context.extensions['https://w3id.org/xapi/lms/extensions/ending-date']",
+                    "presence": "recommended"
+                },
+                {
+                    "location": "$.context.extensions['https://w3id.org/xapi/lms/extensions/role']",
+                    "presence": "recommended"
+                }
+            ]
+        },
+        {
+            "id": "https://w3id.org/xapi/lms/templates/unregistered-course",
+            "type": "StatementTemplate",
+            "inScheme": "https://w3id.org/xapi/lms/v/1",
+            "prefLabel": {
+                "en": "Unregistered to a course"
+            },
+            "definition": {
+                "en": "A user is registered to a course, whether it is self-registration or cohort-registration (a course instructor has registered the user).\n"
+            },
+            "verb": "http://id.tincanapi.com/verb/unregistered",
+            "objectActivityType": "http://adlnet.gov/expapi/activities/course",
+            "rules": [
+                {
+                    "location": "$.timestamp",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.context.extensions['https://w3id.org/xapi/lms/extensions/starting-date']",
+                    "presence": "recommended"
+                },
+                {
+                    "location": "$.context.extensions['https://w3id.org/xapi/lms/extensions/ending-date']",
+                    "presence": "recommended"
+                },
+                {
+                    "location": "$.context.extensions['https://w3id.org/xapi/lms/extensions/role']",
+                    "presence": "recommended"
+                }
+            ]
+        },
+        {
+            "id": "https://w3id.org/xapi/lms/templates/accessed-page",
+            "type": "StatementTemplate",
+            "inScheme": "https://w3id.org/xapi/lms/v/1",
+            "prefLabel": {
+                "en": "Accessed a page"
+            },
+            "definition": {
+                "en": "A user has accessed or navigated a page on a LMS or an e-learning platform.\n"
+            },
+            "verb": "https://w3id.org/xapi/netc/verbs/accessed",
+            "objectActivityType": "https://w3id.org/xapi/acrossx/activities/webpage",
+            "rules": [
+                {
+                    "location": "$.object.definition.extensions['https://w3id.org/xapi/acrossx/extensions/type']",
+                    "presence": "recommended",
+                    "any": [
+                        "course",
+                        "course_list",
+                        "user_space"
+                    ]
+                },
+                {
+                    "location": "$.timestamp",
+                    "presence": "included"
+                }
+            ]
+        },
+        {
+            "id": "https://w3id.org/xapi/lms/templates/accessed-file",
+            "type": "StatementTemplate",
+            "inScheme": "https://w3id.org/xapi/lms/v/1",
+            "prefLabel": {
+                "en": "Accessed a file"
+            },
+            "definition": {
+                "en": "A user has accessed or navigated a file on a LMS or an e-learning platform.\n"
+            },
+            "verb": "https://w3id.org/xapi/netc/verbs/accessed",
+            "objectActivityType": "http://activitystrea.ms/file",
+            "rules": [
+                {
+                    "location": "$.object.definition.extensions['https://w3id.org/xapi/acrossx/extensions/type']",
+                    "presence": "recommended"
+                },
+                {
+                    "location": "$.timestamp",
+                    "presence": "included"
+                }
+            ]
+        },
+        {
+            "id": "https://w3id.org/xapi/lms/templates/uploaded-file",
+            "type": "StatementTemplate",
+            "inScheme": "https://w3id.org/xapi/lms/v/1",
+            "prefLabel": {
+                "en": "Uploaded a file"
+            },
+            "definition": {
+                "en": "A user has uploaded a file to an LMS or an e-learning platform EXCEPTED \"video\", \"audio\" or \"document\" files. \nFor these types of file, the corresponding statements templates should be used (see statement templates for \"uploaded a video\", \"uploaded an audio\" or \"uploaded a document\")."
+            },
+            "verb": "https://w3id.org/xapi/netc/verbs/uploaded",
+            "objectActivityType": "http://activitystrea.ms/file",
+            "rules": [
+                {
+                    "location": "$.timestamp",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.context.extensions['https://w3id.org/xapi/cmi5/context/extensions/sessionid']",
+                    "presence": "recommended"
+                },
+                {
+                    "location": "$.object.definition.extensions['https://w3id.org/xapi/acrossx/extensions/type']",
+                    "presence": "recommended"
+                }
+            ]
+        },
+        {
+            "id": "https://w3id.org/xapi/lms/templates/downloaded-file",
+            "type": "StatementTemplate",
+            "inScheme": "https://w3id.org/xapi/lms/v/1",
+            "prefLabel": {
+                "en": "Downloaded a file"
+            },
+            "definition": {
+                "en": "A user has downloaded a file from an LMS or an e-learning platform EXCEPTED \"video\", \"audio\" or \"document\" files. \nFor these types of file, the corresponding statements templates should be used (see statements template for \"downloaded a video\", \"downloaded an audio\" or \"downloaded a document\").\n"
+            },
+            "verb": "http://id.tincanapi.com/verb/downloaded",
+            "objectActivityType": "http://activitystrea.ms/file",
+            "rules": [
+                {
+                    "location": "$.timestamp",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.context.extensions['https://w3id.org/xapi/cmi5/context/extensions/sessionid']",
+                    "presence": "recommended"
+                },
+                {
+                    "location": "$.object.definition.extensions['https://w3id.org/xapi/acrossx/extensions/type']",
+                    "presence": "recommended"
+                }
+            ]
+        },
+        {
+            "id": "https://w3id.org/xapi/lms/templates/downloaded-video",
+            "type": "StatementTemplate",
+            "inScheme": "https://w3id.org/xapi/lms/v/1",
+            "prefLabel": {
+                "en": "Downloaded a video"
+            },
+            "definition": {
+                "en": "A user has downloaded a file of \"video\" type from an LMS or an e-learning platform.\nAs this template is related to \"video\" activity, it is inspired from templates of Video Profile."
+            },
+            "verb": "http://id.tincanapi.com/verb/downloaded",
+            "objectActivityType": "https://w3id.org/xapi/video/activity-type/video",
+            "rules": [
+                {
+                    "location": "$.timestamp",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.context.extensions['https://w3id.org/xapi/video/extensions/length']",
+                    "presence": "recommended"
+                },
+                {
+                    "location": "$.context.extensions['https://w3id.org/xapi/video/extensions/quality']",
+                    "presence": "recommended"
+                },
+                {
+                    "location": "$.context.extensions['https://w3id.org/xapi/video/extensions/session-id']",
+                    "presence": "recommended"
+                }
+            ]
+        },
+        {
+            "id": "https://w3id.org/xapi/lms/templates/uploaded-video",
+            "type": "StatementTemplate",
+            "inScheme": "https://w3id.org/xapi/lms/v/1",
+            "prefLabel": {
+                "en": "Uploaded a video"
+            },
+            "definition": {
+                "en": "A user has uploaded a file of \"video\" type to an LMS or an e-learning platform.\nAs this template is related to \"video\" activity, it is inspired from templates of \"Video\" profile."
+            },
+            "verb": "https://w3id.org/xapi/netc/verbs/uploaded",
+            "objectActivityType": "https://w3id.org/xapi/video/activity-type/video",
+            "rules": [
+                {
+                    "location": "$.timestamp",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.context.extensions['https://w3id.org/xapi/video/extensions/session-id']",
+                    "presence": "recommended"
+                }
+            ]
+        },
+        {
+            "id": "https://w3id.org/xapi/lms/templates/downloaded-audio",
+            "type": "StatementTemplate",
+            "inScheme": "https://w3id.org/xapi/lms/v/1",
+            "prefLabel": {
+                "en": "Downloaded an audio"
+            },
+            "definition": {
+                "en": "A user has downloaded a file of \"audio\" type from an LMS or an e-learning platform.\nAs this template is related to \"audio\" activity, it is inspired from templates of \"Audio\" profile."
+            },
+            "verb": "http://id.tincanapi.com/verb/downloaded",
+            "objectActivityType": "https://w3id.org/xapi/audio/activity-type/audio",
+            "rules": [
+                {
+                    "location": "$.timestamp",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.context.extensions['https://w3id.org/xapi/video/extensions/length']",
+                    "presence": "recommended"
+                },
+                {
+                    "location": "$.context.extensions['https://w3id.org/xapi/cmi5/context/extensions/sessionid']",
+                    "presence": "recommended"
+                }
+            ]
+        },
+        {
+            "id": "https://w3id.org/xapi/lms/templates/uploaded-audio",
+            "type": "StatementTemplate",
+            "inScheme": "https://w3id.org/xapi/lms/v/1",
+            "prefLabel": {
+                "en": "Uploaded an audio"
+            },
+            "definition": {
+                "en": "A user has uploaded a file of \"audio\" type to an LMS or an e-learning platform.\nAs this template is related to \"audio\" activity, it is inspired from templates of \"Audio\" Profile.\n"
+            },
+            "verb": "https://w3id.org/xapi/netc/verbs/uploaded",
+            "objectActivityType": "https://w3id.org/xapi/audio/activity-type/audio",
+            "rules": [
+                {
+                    "location": "$.timestamp",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.context.extensions['https://w3id.org/xapi/cmi5/context/extensions/sessionid']",
+                    "presence": "recommended"
+                }
+            ]
+        },
+        {
+            "id": "https://w3id.org/xapi/lms/templates/downloaded-document",
+            "type": "StatementTemplate",
+            "inScheme": "https://w3id.org/xapi/lms/v/1",
+            "prefLabel": {
+                "en": "Downloaded a document"
+            },
+            "definition": {
+                "en": "A user has downloaded a file of  \"document\" type from an LMS or an e-learning platform."
+            },
+            "verb": "http://id.tincanapi.com/verb/downloaded",
+            "objectActivityType": "http://id.tincanapi.com/activitytype/document",
+            "rules": [
+                {
+                    "location": "$.timestamp",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.context.extensions['https://w3id.org/xapi/cmi5/context/extensions/sessionid']",
+                    "presence": "recommended"
+                }
+            ]
+        },
+        {
+            "id": "https://w3id.org/xapi/lms/templates/uploaded-document",
+            "type": "StatementTemplate",
+            "inScheme": "https://w3id.org/xapi/lms/v/1",
+            "prefLabel": {
+                "en": "Uploaded a document"
+            },
+            "definition": {
+                "en": "A user has uploaded a file of \"document\" type to an LMS or an e-learning platform.\n"
+            },
+            "verb": "https://w3id.org/xapi/netc/verbs/uploaded",
+            "objectActivityType": "http://id.tincanapi.com/activitytype/document",
+            "rules": [
+                {
+                    "location": "$.timestamp",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.context.extensions['https://w3id.org/xapi/cmi5/context/extensions/sessionid']",
+                    "presence": "recommended"
+                }
+            ]
+        }
+    ]
+}
