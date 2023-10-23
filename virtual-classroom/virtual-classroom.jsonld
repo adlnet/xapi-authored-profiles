@@ -1,0 +1,637 @@
+{
+    "id": "https://w3id.org/xapi/virtual-classroom",
+    "@context": "https://w3id.org/xapi/profiles/context",
+    "type": "Profile",
+    "conformsTo": "https://w3id.org/xapi/profiles#1.0",
+    "prefLabel": {
+        "en": "Virtual classroom"
+    },
+    "definition": {
+        "en": "Profile for usual activities in a virtual classroom session"
+    },
+    "seeAlso": "https://github.com/gaia-x-dases/xapi-virtual-classroom",
+    "versions": [
+        {
+            "id": "https://w3id.org/xapi/virtual-classroom/v/1",
+            "generatedAtTime": "2023-02-20T11:02:28.994Z"
+        }
+    ],
+    "author": {
+        "type": "Organization",
+        "name": "Gaia-X Data Space for Education and Skills (DASES)",
+        "url": "https://www.dases.eu"
+    },
+    "concepts": [
+        {
+            "id": "https://w3id.org/xapi/virtual-classroom/extensions/camera-activated",
+            "type": "ContextExtension",
+            "inScheme": "https://w3id.org/xapi/virtual-classroom/v/1",
+            "prefLabel": {
+                "en": "camera activated"
+            },
+            "definition": {
+                "en": "A participant in a virtual classroom has the camera activated."
+            },
+            "inlineSchema": "{\"type\": \"boolean\"}"
+        },
+        {
+            "id": "https://w3id.org/xapi/virtual-classroom/extensions/micro-activated",
+            "type": "ContextExtension",
+            "inScheme": "https://w3id.org/xapi/virtual-classroom/v/1",
+            "prefLabel": {
+                "en": "micro activated"
+            },
+            "definition": {
+                "en": "A participant in a virtual classroom has the camera activated."
+            },
+            "inlineSchema": "{\"type\":\"boolean\"}"
+        },
+        {
+            "id": "https://w3id.org/xapi/virtual-classroom/extensions/hand-raised",
+            "type": "ContextExtension",
+            "inScheme": "https://w3id.org/xapi/virtual-classroom/v/1",
+            "prefLabel": {
+                "en": "hand raised"
+            },
+            "definition": {
+                "en": "A participant has raised or lowered the hand in a virtual classroom."
+            },
+            "inlineSchema": "{\"type\":\"boolean\"}"
+        },
+        {
+            "id": "https://w3id.org/xapi/virtual-classroom/extensions/screen-shared",
+            "type": "ContextExtension",
+            "inScheme": "https://w3id.org/xapi/virtual-classroom/v/1",
+            "prefLabel": {
+                "en": "screen shared"
+            },
+            "definition": {
+                "en": "A participant has shared the screen in a virtual classroom."
+            },
+            "inlineSchema": "{\"type\": \"boolean\"}"
+        },
+        {
+            "id": "https://w3id.org/xapi/virtual-classroom/activity-types/virtual-classroom",
+            "type": "ActivityType",
+            "inScheme": "https://w3id.org/xapi/virtual-classroom/v/1",
+            "prefLabel": {
+                "en": "virtual classroom"
+            },
+            "definition": {
+                "en": "Consists of a live classroom session conducted online."
+            }
+        }
+    ],
+    "templates": [
+        {
+            "id": "https://w3id.org/xapi/virtual-classroom/templates/initialized",
+            "type": "StatementTemplate",
+            "inScheme": "https://w3id.org/xapi/virtual-classroom/v/1",
+            "prefLabel": {
+                "en": "initialized"
+            },
+            "definition": {
+                "en": "The virtual classroom session has started. The session is initialized when the first participant or an administrator session has entered the virtual classroom."
+            },
+            "verb": "http://adlnet.gov/expapi/verbs/initialized",
+            "objectActivityType": "https://w3id.org/xapi/virtual-classroom/activity-types/virtual-classroom",
+            "rules": [
+                {
+                    "location": "$.context.extensions['http://id.tincanapi.com/extension/planned-duration']",
+                    "presence": "recommended"
+                },
+                {
+                    "location": "$.timestamp",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.context.registration",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.context.extensions['https://w3id.org/xapi/cmi5/context/extensions/sessionid']",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.context.contextActivities.category",
+                    "presence": "included"
+                }
+            ]
+        },
+        {
+            "id": "https://w3id.org/xapi/virtual-classroom/templates/terminated",
+            "type": "StatementTemplate",
+            "inScheme": "https://w3id.org/xapi/virtual-classroom/v/1",
+            "prefLabel": {
+                "en": "terminated"
+            },
+            "definition": {
+                "en": "The virtual classroom session has terminated. The session ends when the last participant has left the classroom or when an administrator has ended the session."
+            },
+            "verb": "http://adlnet.gov/expapi/verbs/terminated",
+            "objectActivityType": "https://w3id.org/xapi/virtual-classroom/activity-types/virtual-classroom",
+            "rules": [
+                {
+                    "location": "$.result.duration",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.context.registration",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.context.extensions['http://id.tincanapi.com/extension/planned-duration']",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.context.extensions['https://w3id.org/xapi/cmi5/context/extensions/sessionid']",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.timestamp",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.context.contextActivities.category",
+                    "presence": "included"
+                }
+            ]
+        },
+        {
+            "id": "https://w3id.org/xapi/virtual-classroom/templates/joined",
+            "type": "StatementTemplate",
+            "inScheme": "https://w3id.org/xapi/virtual-classroom/v/1",
+            "prefLabel": {
+                "en": "joined"
+            },
+            "definition": {
+                "en": "A participant has joined the virtual classroom session."
+            },
+            "verb": "http://activitystrea.ms/join",
+            "objectActivityType": "https://w3id.org/xapi/virtual-classroom/activity-types/virtual-classroom",
+            "rules": [
+                {
+                    "location": "$.context.extensions['https://w3id.org/xapi/cmi5/context/extensions/sessionid']",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.context.registration",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.timestamp",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.context.extensions['https://w3id.org/xapi/virtual-classroom/extensions/micro-activated']",
+                    "presence": "recommended"
+                },
+                {
+                    "location": "$.context.extensions['https://w3id.org/xapi/virtual-classroom/extensions/camera-activated']",
+                    "presence": "recommended"
+                },
+                {
+                    "location": "$.context.contextActivities.category",
+                    "presence": "included"
+                }
+            ]
+        },
+        {
+            "id": "https://w3id.org/xapi/virtual-classroom/templates/left",
+            "type": "StatementTemplate",
+            "inScheme": "https://w3id.org/xapi/virtual-classroom/v/1",
+            "prefLabel": {
+                "en": "left"
+            },
+            "definition": {
+                "en": "A participant has left the virtual classroom session."
+            },
+            "verb": "http://activitystrea.ms/leave",
+            "objectActivityType": "https://w3id.org/xapi/virtual-classroom/activity-types/virtual-classroom",
+            "rules": [
+                {
+                    "location": "$.context.registration",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.timestamp",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.context.extensions['https://w3id.org/xapi/cmi5/context/extensions/sessionid']",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.context.contextActivities.category",
+                    "presence": "included"
+                }
+            ]
+        },
+        {
+            "id": "https://w3id.org/xapi/virtual-classroom/templates/answered-poll",
+            "type": "StatementTemplate",
+            "inScheme": "https://w3id.org/xapi/virtual-classroom/v/1",
+            "prefLabel": {
+                "en": "answered poll"
+            },
+            "definition": {
+                "en": "A participant has answered a poll."
+            },
+            "verb": "http://adlnet.gov/expapi/verbs/answered",
+            "objectActivityType": "http://adlnet.gov/expapi/activities/cmi.interaction",
+            "contextParentActivityType": [
+                "https://w3id.org/xapi/virtual-classroom/activity-types/virtual-classroom"
+            ],
+            "rules": [
+                {
+                    "location": "$.result.response",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.context.registration",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.timestamp",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.context.extensions['https://w3id.org/xapi/cmi5/context/extensions/sessionid']",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.object.interactionType",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.context.contextActivities.category",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.context.contextActivities.parent",
+                    "presence": "included"
+                }
+            ]
+        },
+        {
+            "id": "https://w3id.org/xapi/virtual-classroom/templates/raised-hand",
+            "type": "StatementTemplate",
+            "inScheme": "https://w3id.org/xapi/virtual-classroom/v/1",
+            "prefLabel": {
+                "en": "raised hand"
+            },
+            "definition": {
+                "en": "A user has raised the hand to take part in the discussion in the virtual classroom."
+            },
+            "verb": "http://adlnet.gov/expapi/verbs/interacted",
+            "objectActivityType": "https://w3id.org/xapi/virtual-classroom/activity-types/virtual-classroom",
+            "rules": [
+                {
+                    "location": "$.context.registration",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.timestamp",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.context.extensions['https://w3id.org/xapi/cmi5/context/extensions/sessionid']",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.context.extensions['https://w3id.org/xapi/virtual-classroom/extensions/hand-raised']",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.context.contextActivities.category",
+                    "presence": "included"
+                }
+            ]
+        },
+        {
+            "id": "https://w3id.org/xapi/virtual-classroom/templates/shared-screen",
+            "type": "StatementTemplate",
+            "inScheme": "https://w3id.org/xapi/virtual-classroom/v/1",
+            "prefLabel": {
+                "en": "shared screen"
+            },
+            "definition": {
+                "en": "A participant has shared the screen."
+            },
+            "verb": "http://adlnet.gov/expapi/verbs/interacted",
+            "objectActivityType": "https://w3id.org/xapi/virtual-classroom/activity-types/virtual-classroom",
+            "rules": [
+                {
+                    "location": "$.context.registration",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.timestamp",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.context.extensions['https://w3id.org/xapi/virtual-classroom/extensions/screen-shared']",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.context.extensions['https://w3id.org/xapi/cmi5/context/extensions/sessionid']",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.context.contextActivities.category",
+                    "presence": "included"
+                }
+            ]
+        },
+        {
+            "id": "https://w3id.org/xapi/virtual-classroom/templates/posted-public-message",
+            "type": "StatementTemplate",
+            "inScheme": "https://w3id.org/xapi/virtual-classroom/v/1",
+            "prefLabel": {
+                "en": "posted public message"
+            },
+            "definition": {
+                "en": "A participant has posted a message in the public chat."
+            },
+            "verb": "https://w3id.org/xapi/acrossx/verbs/posted",
+            "objectActivityType": "https://w3id.org/xapi/acrossx/activities/message",
+            "contextParentActivityType": [
+                "https://w3id.org/xapi/virtual-classroom/activity-types/virtual-classroom"
+            ],
+            "rules": [
+                {
+                    "location": "$.context.registration",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.timestamp",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.context.extensions['https://w3id.org/xapi/cmi5/context/extensions/sessionid']",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.context.contextActivities.category",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.context.contextActivities.parent",
+                    "presence": "included"
+                }
+            ]
+        },
+        {
+            "id": "https://w3id.org/xapi/virtual-classroom/templates/muted",
+            "type": "StatementTemplate",
+            "inScheme": "https://w3id.org/xapi/virtual-classroom/v/1",
+            "prefLabel": {
+                "en": "muted"
+            },
+            "definition": {
+                "en": "A participant has been muted. The action has been done by the participant itself or by another participant with moderation rights on the virtual classroom microphones.\n"
+            },
+            "verb": "http://adlnet.gov/expapi/verbs/interacted",
+            "objectActivityType": "https://w3id.org/xapi/virtual-classroom/activity-types/virtual-classroom",
+            "rules": [
+                {
+                    "location": "$.context.registration",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.timestamp",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.context.extensions['https://w3id.org/xapi/cmi5/context/extensions/sessionid']",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.context.extensions['https://w3id.org/xapi/virtual-classroom/extensions/micro-activated']",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.context.contextActivities.category",
+                    "presence": "included"
+                }
+            ]
+        },
+        {
+            "id": "https://w3id.org/xapi/virtual-classroom/templates/unmuted",
+            "type": "StatementTemplate",
+            "inScheme": "https://w3id.org/xapi/virtual-classroom/v/1",
+            "prefLabel": {
+                "en": "unmuted"
+            },
+            "definition": {
+                "en": "A user has been unmuted. The action has been done by the participant itself or by another participant with moderation rights on the virtual classroom microphones. "
+            },
+            "verb": "http://adlnet.gov/expapi/verbs/interacted",
+            "objectActivityType": "https://w3id.org/xapi/virtual-classroom/activity-types/virtual-classroom",
+            "rules": [
+                {
+                    "location": "$.timestamp",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.context.registration",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.context.extensions['https://w3id.org/xapi/cmi5/context/extensions/sessionid']",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.context.extensions['https://w3id.org/xapi/virtual-classroom/extensions/micro-activated']",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.context.contextActivities.category",
+                    "presence": "included"
+                }
+            ]
+        },
+        {
+            "id": "https://w3id.org/xapi/virtual-classroom/templates/started-camera",
+            "type": "StatementTemplate",
+            "inScheme": "https://w3id.org/xapi/virtual-classroom/v/1",
+            "prefLabel": {
+                "en": "started camera"
+            },
+            "definition": {
+                "en": "A user has started the camera. The action has been done by the participant itself or by another participant with moderation rights on the virtual classroom cameras. "
+            },
+            "verb": "http://adlnet.gov/expapi/verbs/interacted",
+            "objectActivityType": "https://w3id.org/xapi/virtual-classroom/activity-types/virtual-classroom",
+            "rules": [
+                {
+                    "location": "$.timestamp",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.context.registration",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.context.extensions['https://w3id.org/xapi/virtual-classroom/extensions/camera-activated']",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.context.extensions['https://w3id.org/xapi/cmi5/context/extensions/sessionid']",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.context.contextActivities.category",
+                    "presence": "included"
+                }
+            ]
+        },
+        {
+            "id": "https://w3id.org/xapi/virtual-classroom/templates/stopped-camera",
+            "type": "StatementTemplate",
+            "inScheme": "https://w3id.org/xapi/virtual-classroom/v/1",
+            "prefLabel": {
+                "en": "stopped camera"
+            },
+            "definition": {
+                "en": "A user has stopped the camera. The action has been done by the participant itself or by another participant with moderation rights on the virtual classroom microphones. "
+            },
+            "verb": "http://adlnet.gov/expapi/verbs/interacted",
+            "objectActivityType": "https://w3id.org/xapi/virtual-classroom/activity-types/virtual-classroom",
+            "rules": [
+                {
+                    "location": "$.context.registration",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.timestamp",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.context.extensions['https://w3id.org/xapi/cmi5/context/extensions/sessionid']",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.context.extensions['https://w3id.org/xapi/virtual-classroom/extensions/camera-activated']",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.context.contextActivities.category",
+                    "presence": "included"
+                }
+            ]
+        },
+        {
+            "id": "https://w3id.org/xapi/virtual-classroom/templates/unshared-screen",
+            "type": "StatementTemplate",
+            "inScheme": "https://w3id.org/xapi/virtual-classroom/v/1",
+            "prefLabel": {
+                "en": "unshared screen"
+            },
+            "definition": {
+                "en": "A user has unshared the screen."
+            },
+            "verb": "http://adlnet.gov/expapi/verbs/interacted",
+            "objectActivityType": "https://w3id.org/xapi/virtual-classroom/activity-types/virtual-classroom",
+            "rules": [
+                {
+                    "location": "$.context.registration",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.timestamp",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.context.extensions['https://w3id.org/xapi/cmi5/context/extensions/sessionid']",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.context.extensions['https://w3id.org/xapi/virtual-classroom/extensions/screen-shared']",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.context.contextActivities.category",
+                    "presence": "included"
+                }
+            ]
+        },
+        {
+            "id": "https://w3id.org/xapi/virtual-classroom/templates/lowered-hand",
+            "type": "StatementTemplate",
+            "inScheme": "https://w3id.org/xapi/virtual-classroom/v/1",
+            "prefLabel": {
+                "en": "lowered hand"
+            },
+            "definition": {
+                "en": "A user has lowered the hand in the discussion."
+            },
+            "verb": "http://adlnet.gov/expapi/verbs/interacted",
+            "objectActivityType": "https://w3id.org/xapi/virtual-classroom/activity-types/virtual-classroom",
+            "rules": [
+                {
+                    "location": "$.timestamp",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.context.registration",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.context.extensions['https://w3id.org/xapi/virtual-classroom/extensions/hand-raised']",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.context.extensions['https://w3id.org/xapi/cmi5/context/extensions/sessionid']",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.context.contextActivities.category",
+                    "presence": "included"
+                }
+            ]
+        },
+        {
+            "id": "https://w3id.org/xapi/virtual-classroom/templates/started-poll",
+            "type": "StatementTemplate",
+            "inScheme": "https://w3id.org/xapi/virtual-classroom/v/1",
+            "prefLabel": {
+                "en": "started poll"
+            },
+            "definition": {
+                "en": "A poll has been started in the virtual classroom in order to collect participants opinions about a given question.\n"
+            },
+            "verb": "http://adlnet.gov/expapi/verbs/asked",
+            "objectActivityType": "http://adlnet.gov/expapi/activities/cmi.interaction",
+            "contextParentActivityType": [
+                "https://w3id.org/xapi/virtual-classroom/activity-types/virtual-classroom"
+            ],
+            "rules": [
+                {
+                    "location": "$.timestamp",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.context.registration",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.context.extensions['https://w3id.org/xapi/cmi5/context/extensions/sessionid']",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.object.interactionType",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.context.contextActivities.category",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.context.contextActivities.parent",
+                    "presence": "included"
+                }
+            ]
+        }
+    ]
+}
