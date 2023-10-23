@@ -1,0 +1,129 @@
+{
+  "@context": "https://w3id.org/xapi/profiles/context",
+  "id": "https://w3id.org/xapi/ecommerce",
+  "type": "Profile",
+  "conformsTo": "https://w3id.org/xapi/profiles#1.0",
+  "prefLabel": {
+    "en": "Ecommerce profile"
+  },
+  "definition": {
+    "en": "The Ecommerce profile includes Verbs, Activity Types and Extensions definitions used to represent ecommerce interactions with xAPI."
+  },
+  "seeAlso": "",
+  "versions":[
+    {
+      "id":"https://w3id.org/xapi/ecommerce",
+      "generatedAtTime":"2023-10-23T18:25:00Z"
+    }
+  ],
+  "author": {
+    "type": "Organization",
+    "name": "Nordev Software"
+  },
+  "concepts": [
+    {
+      "id": "https://w3id.org/xapi/ecommerce/verbs/added-to-wishlist",
+      "inScheme": "https://w3id.org/xapi/ecommerce",
+      "type": "Verb",
+      "definition": {
+        "en": "Indicates the actor added an item to a wishlist."
+      },
+      "prefLabel": {
+        "en": "added to wishlist"
+      }
+    },
+    {
+      "id": "https://w3id.org/xapi/ecommerce/verbs/purchased",
+      "inScheme": "https://w3id.org/xapi/ecommerce",
+      "type": "Verb",
+      "definition": {
+        "en": "Indicates the actor purchased some item/content."
+      },
+      "prefLabel": {
+        "en": "purchased"
+      }
+    },
+    {
+      "id": "https://w3id.org/xapi/ecommerce/verbs/searched",
+      "inScheme": "https://w3id.org/xapi/ecommerce",
+      "type": "Verb",
+      "definition": {
+        "en": "Indicates the actor searched for some content."
+      },
+      "prefLabel": {
+        "en": "searched"
+      }
+    },
+    {
+      "id": "https://w3id.org/xapi/ecommerce/activity-type/wishlist",
+      "inScheme": "https://w3id.org/xapi/ecommerce",
+      "type": "ActivityType",
+      "definition": {
+        "en": "An activity type to define a list with different items selected by the user."
+      },
+      "prefLabel": {
+        "en": "wishlist"
+      }
+    },
+    {
+      "id": "https://w3id.org/xapi/ecommerce/activity-type/purchase",
+      "inScheme": "https://w3id.org/xapi/ecommerce",
+      "type": "ActivityType",
+      "definition": {
+        "en": "An activity type to register the action of a purchase performed by a user."
+      },
+      "prefLabel": {
+        "en": "purchase"
+      }
+    },
+    {
+      "id": "https://w3id.org/xapi/ecommerce/activity-type/search",
+      "inScheme": "https://w3id.org/xapi/ecommerce",
+      "type": "ActivityType",
+      "definition": {
+        "en": "An activity type to register when a user searches for content on the ecommerce platform."
+      },
+      "prefLabel": {
+        "en": "search"
+      }
+    },
+    {
+      "id": "https://w3id.org/xapi/ecommerce/extensions/wishlist",
+      "inScheme": "https://w3id.org/xapi/ecommerce",
+      "type": "ContextExtension",
+      "definition": {
+        "en": "Used to represent additional data about the item saved on the wishlist."
+      },
+      "prefLabel": {
+        "en": "wishlist"
+      },
+      "inlineSchema": "{ \"type\": \"object\" }"
+    },
+    {
+      "id": "https://w3id.org/xapi/ecommerce/extensions/purchase",
+      "inScheme": "https://w3id.org/xapi/ecommerce",
+      "type": "ContextExtension",
+      "definition": {
+        "en": "Used to represent additional data about the purchased item."
+      },
+      "prefLabel": {
+        "en": "purchase"
+      },
+      "inlineSchema": "{ \"type\": \"object\" }"
+    },
+    {
+      "id": "https://w3id.org/xapi/ecommerce/extensions/search",
+      "inScheme": "https://w3id.org/xapi/ecommerce",
+      "type": "ContextExtension",
+      "definition": {
+        "en": "Used to represent additional data about the search action performed by the user."
+      },
+      "prefLabel": {
+        "en": "search"
+      },
+      "inlineSchema": "{ \"type\": \"object\" }"
+    }
+  ],
+  "templates": [],
+  "patterns": []
+}
