@@ -1,0 +1,202 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/xapi/document> a <https://w3id.org/xapi/profiles/ontology#Profile>;
+    dc:conformsTo <https://w3id.org/xapi/profiles#1.0>;
+    schema:author [
+        a schema:Organization;
+        schema:name "Rustici Software"
+    ];
+    skos:definition "The document profile of the xAPI was created to identify and standardize the common types of interactions that can be tracked against various document types."@en;
+    skos:prefLabel "Document Profile"@en;
+    <https://w3id.org/xapi/profiles/ontology#concepts>
+        <https://w3id.org/xapi/document/activity-type/pdfDocument>,
+        <https://w3id.org/xapi/document/verbs/viewed>,
+        <https://w3id.org/xapi/document/extensions/page-count>,
+        <https://w3id.org/xapi/document/extensions/current-page>,
+        <https://w3id.org/xapi/document/extensions/viewed-pages>,
+        <https://w3id.org/xapi/document/extensions/progress>,
+        <https://w3id.org/xapi/document/extensions/link-destination>;
+    <https://w3id.org/xapi/profiles/ontology#patterns>
+        <https://w3id.org/xapi/document/patterns#optionalmiddlestatements>,
+        <https://w3id.org/xapi/document/patterns#all-activities-pattern>,
+        <https://w3id.org/xapi/document/patterns#generalpattern>;
+    <https://w3id.org/xapi/profiles/ontology#templates>
+        <https://w3id.org/xapi/document/templates#initialized>,
+        <https://w3id.org/xapi/document/templates#viewed-page>,
+        <https://w3id.org/xapi/document/templates#link-interaction>,
+        <https://w3id.org/xapi/document/templates#completed>,
+        <https://w3id.org/xapi/document/templates#terminated>;
+    <https://w3id.org/xapi/profiles/ontology#versions> <https://w3id.org/xapi/document/v1.0> .
+     
+<https://w3id.org/xapi/document/activity-type/pdfDocument> a <https://w3id.org/xapi/ontology#ActivityType>;
+    skos:definition "A document in the Portable Document Format (PDF) file format."@en;
+    skos:inScheme <https://w3id.org/xapi/document/v1.0>;
+    skos:prefLabel "pdfDocument"@en .     
+ 
+<https://w3id.org/xapi/document/verbs/viewed> a <https://w3id.org/xapi/ontology#Verb>;
+    skos:definition "Indicates that a page of the document was viewed by the user."@en;
+    skos:inScheme <https://w3id.org/xapi/document/v1.0>;
+    skos:prefLabel "Viewed"@en .     
+ 
+<https://w3id.org/xapi/documenet/extensions/page-count> a <https://w3id.org/xapi/ontology#ContextExtension>;
+    skos:definition "An integer value noting the total number of pages in the document."@en;
+    skos:inScheme <https://w3id.org/xapi/document/v1.0>;
+    skos:prefLabel "Page Count"@en;
+    <https://w3id.org/xapi/profiles/ontology#inlineSchema> "{ \"type\": \"number\", \"multipleOf\": 1.0 }" .
+
+<https://w3id.org/xapi/document/extensions/current-page> a <https://w3id.org/xapi/ontology#ResultExtension>;
+    skos:definition "An integer value noting the page number of the currently viewed page."@en;
+    skos:inScheme <https://w3id.org/xapi/document/v1.0>;
+    skos:prefLabel "Current Page"@en;
+    <https://w3id.org/xapi/profiles/ontology#inlineSchema> "{ \"type\": \"number\", \"multipleOf\": 1.0 }" .
+
+<https://w3id.org/xapi/document/extensions/viewed-pages> a <https://w3id.org/xapi/ontology#ResultExtension>;
+    skos:definition "A list of integers noting the page numbers of all the pages the user has viewed during the session."@en;
+    skos:inScheme <https://w3id.org/xapi/document/v1.0>;
+    skos:prefLabel "Viewed Pages"@en;
+    <https://w3id.org/xapi/profiles/ontology#inlineSchema> "{ \"type\": \"string\" }" .
+
+<https://w3id.org/xapi/document/extensions/progress> a <https://w3id.org/xapi/ontology#ResultExtension>;
+    skos:definition "A number used to expresses the percentage of document consumed by the actor."@en;
+    skos:inScheme <https://w3id.org/xapi/document/v1.0>;
+    skos:prefLabel "Progress"@en;
+    <https://w3id.org/xapi/profiles/ontology#inlineSchema> "{ \"type\": \"number\" }" .
+
+<https://w3id.org/xapi/document/extensions/link-destination> a <https://w3id.org/xapi/ontology#ResultExtension>;
+    skos:definition "Records the target of any clicked links in the document; target could be internal or external."@en;
+    skos:inScheme <https://w3id.org/xapi/document/v1.0>;
+    skos:prefLabel "Link Destination"@en;
+    <https://w3id.org/xapi/profiles/ontology#inlineSchema> "{ \"type\": \"string\" }" .
+
+<https://w3id.org/xapi/document/patterns#generalpattern> skos:definition "The general pattern and sequence of Statement templates using the Document Profile."@en;
+    skos:inScheme <https://w3id.org/xapi/document/v1.0>;
+    skos:prefLabel "General Pattern"@en;
+    <https://w3id.org/xapi/profiles/ontology#primary> true;
+    <https://w3id.org/xapi/profiles/ontology#sequence> (<https://w3id.org/xapi/document/templates#initialized> <https://w3id.org/xapi/document/patterns#optionalmiddlestatements> <https://w3id.org/xapi/document/templates#terminated>) .
+
+<https://w3id.org/xapi/document/patterns#all-activities-pattern> skos:definition "All of the Document Profile statement templates."@en;
+    skos:inScheme <https://w3id.org/xapi/document/v1.0>;
+    skos:prefLabel "All Activities Pattern"@en;
+    <https://w3id.org/xapi/profiles/ontology#alternates>
+        <https://w3id.org/xapi/document/templates#viewed-page>,
+        <https://w3id.org/xapi/document/templates#link-interaction>,
+        <https://w3id.org/xapi/document/templates#completed> .
+
+<https://w3id.org/xapi/document/patterns#optionalmiddlestatements> a <https://w3id.org/xapi/profiles/ontology#Pattern>;
+    skos:definition "A combined pattern of zero or more Document Profile standard statement templates that can be used with the general pattern."@en;
+    skos:inScheme <https://w3id.org/xapi/document/v1.0>;
+    skos:prefLabel "Optional Middle Statements"@en;
+    <https://w3id.org/xapi/profiles/ontology#zeroOrMore> <https://w3id.org/xapi/document/patterns#all-activities-pattern> .       
+  
+<https://w3id.org/xapi/document/templates#initialized> skos:definition "The statement template and rules associated with a document being initialized or started."@en;
+    skos:inScheme <https://w3id.org/xapi/document/v1.0>;
+    skos:prefLabel "Initialized"@en;
+    <https://w3id.org/xapi/profiles/ontology#rules> [
+        <https://w3id.org/xapi/profiles/ontology#location> "$.id";
+        <https://w3id.org/xapi/profiles/ontology#presence> "included"
+    ],[
+        <https://w3id.org/xapi/profiles/ontology#location> "$.timestamp";
+        <https://w3id.org/xapi/profiles/ontology#presence> "included"
+    ],[
+        <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/document/extensions/page-count']";
+        <https://w3id.org/xapi/profiles/ontology#presence> "included"
+    ];
+    <https://w3id.org/xapi/profiles/ontology#verb> <http://adlnet.gov/expapi/verbs/initialized> .
+
+<https://w3id.org/xapi/document/templates#viewed-page> skos:definition "The statement template and rules associated with a document page being viewed."@en;
+    skos:inScheme <https://w3id.org/xapi/document/v1.0>;
+    skos:prefLabel "Viewed"@en;
+    <https://w3id.org/xapi/profiles/ontology#objectActivityType> <https://w3id.org/xapi/document/activity-type/pdfDocument>;
+    <https://w3id.org/xapi/profiles/ontology#rules> [
+        <https://w3id.org/xapi/profiles/ontology#location> "$.id";
+        <https://w3id.org/xapi/profiles/ontology#presence> "included"
+    ],[
+           <https://w3id.org/xapi/profiles/ontology#location> "$.timestamp";
+           <https://w3id.org/xapi/profiles/ontology#presence> "included"
+    ],[
+       <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/document/extensions/page-count']";
+           <https://w3id.org/xapi/profiles/ontology#presence> "included"
+    ],[
+           <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/document/extensions/progress]";
+           <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
+    ];
+    <https://w3id.org/xapi/profiles/ontology#verb> <https://w3id.org/xapi/document/verbs/viewed> .                   
+
+<https://w3id.org/xapi/document/templates#link-interaction> skos:definition "The statement template and rules associated with the user clicking a link on the document."@en;
+    skos:inScheme <https://w3id.org/xapi/document/v1.0>;
+    skos:prefLabel "Document Link Clicked"@en;
+    <https://w3id.org/xapi/profiles/ontology#objectActivityType> <https://w3id.org/xapi/document/activity-type/pdfDocument>;
+    <https://w3id.org/xapi/profiles/ontology#rules> [
+          <https://w3id.org/xapi/profiles/ontology#location> "$.id";
+          <https://w3id.org/xapi/profiles/ontology#presence> "included"
+    ],[
+          <https://w3id.org/xapi/profiles/ontology#location> "$.timestamp";
+          <https://w3id.org/xapi/profiles/ontology#presence> "included"
+    ],[
+          <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/document/extensions/current-page']";
+          <https://w3id.org/xapi/profiles/ontology#presence> "included"
+    ],[
+          <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/document/extensions/progress]";
+          <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
+    ],[
+          <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/document/extensions/link-destination]";
+          <https://w3id.org/xapi/profiles/ontology#presence> "included"
+    ];
+    <https://w3id.org/xapi/profiles/ontology#verb> <http://adlnet.gov/expapi/verbs/interacted> .     
+
+<https://w3id.org/xapi/document/templates#completed> skos:definition "The statement template and rules associated with a document being completely viewed."@en;
+    skos:inScheme <https://w3id.org/xapi/document/v1.0>;
+    skos:prefLabel "Completed"@en;
+    <https://w3id.org/xapi/profiles/ontology#objectActivityType> <https://w3id.org/xapi/document/activity-type/pdfDocument>;
+    <https://w3id.org/xapi/profiles/ontology#rules> [
+        <https://w3id.org/xapi/profiles/ontology#location> "$.id";
+        <https://w3id.org/xapi/profiles/ontology#presence> "included"
+    ],[
+        <https://w3id.org/xapi/profiles/ontology#location> "$.timestamp";
+        <https://w3id.org/xapi/profiles/ontology#presence> "included"
+    ],[
+        <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/document/extensions/current-page']";
+        <https://w3id.org/xapi/profiles/ontology#presence> "included"
+    ],[
+        <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/document/extensions/viewed-pages']";
+        <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
+    ],[
+        <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/document/extensions/progress]";
+        <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
+    ],[
+        <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/document/extensions/page-count']";
+        <https://w3id.org/xapi/profiles/ontology#presence> "included"
+    ];
+    <https://w3id.org/xapi/profiles/ontology#verb> <http://adlnet.gov/expapi/verbs/completed> .
+
+<https://w3id.org/xapi/document/templates#terminated> skos:definition "The statement template and rules associated with a terminating the player."@en;
+    skos:inScheme <https://w3id.org/xapi/document/v1.0>;
+    skos:prefLabel "Terminated"@en;
+    <https://w3id.org/xapi/profiles/ontology#objectActivityType> <https://w3id.org/xapi/document/activity-type/pdfDocument>;
+    <https://w3id.org/xapi/profiles/ontology#rules> [
+        <https://w3id.org/xapi/profiles/ontology#location> "$.id";
+        <https://w3id.org/xapi/profiles/ontology#presence> "included"
+    ],[
+        <https://w3id.org/xapi/profiles/ontology#location> "$.timestamp";
+        <https://w3id.org/xapi/profiles/ontology#presence> "included"
+    ],[
+        <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/document/extensions/current-page']";
+        <https://w3id.org/xapi/profiles/ontology#presence> "included"
+    ],[
+        <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/document/extensions/viewed-pages']";
+        <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
+    ],[
+        <https://w3id.org/xapi/profiles/ontology#location> "$.result.extensions['https://w3id.org/xapi/document/extensions/progress]";
+        <https://w3id.org/xapi/profiles/ontology#presence> "recommended"
+    ],[
+        <https://w3id.org/xapi/profiles/ontology#location> "$.context.extensions['https://w3id.org/xapi/document/extensions/page-count']";
+        <https://w3id.org/xapi/profiles/ontology#presence> "included"
+    ];
+    <https://w3id.org/xapi/profiles/ontology#verb> <http://adlnet.gov/expapi/verbs/terminated> .
+                         
